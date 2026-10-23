@@ -8,10 +8,10 @@
 - `book.css`: التصميم، الخطوط، جداول الطباعة، وترقيم الصفحات.
 - `identity/`: الأغلفة الأصلية محفوظة كرسوم SVG متجهية، مع خريطة الصفحات والبصمات. تحافظ على الشعار والرسوم التشريحية والخطوط والأقواس الأصلية دون تحرير الصورة.
 - `fonts/`: خطوط Noto Sans Arabic مع ترخيصها. لا يُحمّل الكتاب خطوطاً من الإنترنت.
-- `site-qr.svg`: رمز QR لرابط الموقع الحالي `https://nbbttdhnybnnb-crypto.github.io/Mdaar21/`، مطابق للرابط القابل للنقر في الصفحة 3.
+- `site-qr.svg`: رمز QR لرابط الموقع الحالي `https://mdaar21.github.io/Mdaar21/`، مطابق للرابط القابل للنقر في الصفحة 3.
 - `../../scripts/build-book.py`: النص التحريري وقوالب الصفحات وتوليد HTML/PDF.
 - `../artifacts/protocoltraining-review.pdf`: ملف PDF للمراجعة، مع عناوين وروابط وفهرس داخلي قابل للنقر.
-- `../artifacts/mdaar-protocol-original-identity-v4.pdf`: النسخة الحالية المطابقة للملف الرئيسي، تتضمن رابط GitHub Pages ورمز QR المحدث. تبقى نسختا v2 وv3 للأرشيف.
+- `../artifacts/mdaar-protocol-original-identity-v5.pdf`: النسخة الحالية المطابقة للملف الرئيسي، تتضمن رابط GitHub Pages ورمز QR المحدث. تبقى نسخ v2 وv3 وv4 للأرشيف.
 
 ## إعادة البناء
 

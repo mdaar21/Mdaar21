@@ -28,7 +28,7 @@ for asset in [*IDENTITY['covers'].values(), IDENTITY['logo']]:
         raise SystemExit(f"Unexpected original identity asset change: {asset['path']}")
 EX = DATA['exercises']
 PROGRAMS = DATA['programs']
-SITE = 'https://nbbttdhnybnnb-crypto.github.io/Mdaar21/'
+SITE = 'https://mdaar21.github.io/Mdaar21/'
 PAGES = []
 COVER_PAGES = {1,7,8,10,14,16,21,22,24,27,29}
 COVER_NEXT = {1:2,7:8,8:9,10:11,14:15,16:17,21:22,22:23,24:25,27:28,29:30}
@@ -261,7 +261,7 @@ if not args.html_only:
                     raise SystemExit(f'Book content overlaps footer: {collisions}; fix before export.')
                 pg.pdf(path=str(ARTIFACTS/'protocoltraining-review.pdf'),print_background=True,prefer_css_page_size=True,display_header_footer=False,tagged=True,outline=True)
                 restore_native_vector_covers(ARTIFACTS/'protocoltraining-review.pdf')
-                shutil.copyfile(ARTIFACTS/'protocoltraining-review.pdf',ARTIFACTS/'mdaar-protocol-original-identity-v4.pdf')
+                shutil.copyfile(ARTIFACTS/'protocoltraining-review.pdf',ARTIFACTS/'mdaar-protocol-original-identity-v5.pdf')
             finally:
                 browser.close()
     finally:

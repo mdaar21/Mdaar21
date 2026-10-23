@@ -68,7 +68,7 @@ test('the real Worker and real browser adapter agree on session and response con
     async getAlarm(){return alarm;},async setAlarm(value){alarm=value;},
     transaction(fn){const next=queue.then(()=>fn(storage));queue=next.catch(()=>{});return next;},
   };
-  const env={ALLOWED_ORIGIN:'https://nbbttdhnybnnb-crypto.github.io',GROQ_API_KEY:'fixture-only-not-a-real-key'};
+  const env={ALLOWED_ORIGIN:'https://mdaar21.github.io',GROQ_API_KEY:'fixture-only-not-a-real-key'};
   const guard=new MdaarGuard({storage,blockConcurrencyWhile:fn=>Promise.resolve().then(fn)},env);
   env.MDAAR_GUARD={idFromName:name=>name,get:()=>guard};
   const previous=globalThis.fetch;clearRemoteSession();const paths=[];

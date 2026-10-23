@@ -2,7 +2,7 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import worker, {MdaarGuard} from '../cloudflare/worker.mjs';
 
-const ORIGIN = 'https://nbbttdhnybnnb-crypto.github.io';
+const ORIGIN = 'https://mdaar21.github.io';
 const IP = '192.0.2.5';
 const record = value => new Response(JSON.stringify(value), {headers:{'Content-Type':'application/json'}});
 const completion = content => record({choices:[{finish_reason:'stop', message:{content:typeof content === 'string' ? content : JSON.stringify(content)}}]});
@@ -47,6 +47,7 @@ test('Cloudflare CORS permits only the configured GitHub origin and exact prefli
   assert.equal((await worker.fetch(request('/api/ai',{method:'OPTIONS',headers:{'Access-Control-Request-Method':'DELETE'}}),env)).status,405);
   assert.equal((await worker.fetch(request('/api/ai',{method:'OPTIONS',headers:{'Access-Control-Request-Method':'POST','Access-Control-Request-Headers':'x-custom'}}),env)).status,405);
   assert.equal((await worker.fetch(request('/api/ai',{origin:'null'}),env)).status,403);
+  assert.equal((await worker.fetch(request('/api/ai',{origin:'https://nbbttdhnybnnb-crypto.github.io'}),env)).status,403);
 });
 
 test('Worker stays unavailable without a provider secret, durable guard or client identity',async()=>{

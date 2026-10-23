@@ -1,8 +1,8 @@
 {
-  "edition": "original identity v4 — GitHub Pages website and QR",
+  "edition": "original identity v5 — Mdaar21 GitHub account rename",
   "pages": 34,
-  "bytes": 15885016,
-  "sha256": "9cca40512bfd0a562a91fe6fa7def18da0cbe1ea7950fcb87e8224609bd65dda",
+  "bytes": 15884601,
+  "sha256": "de78fbb1468cbd7cdb635649500476022f3bbf8e6cc7c242bd6f690db54c34d5",
   "internalLinks": 67,
   "externalLinks": 228,
   "exerciseVideoLinks": 226,
@@ -54,8 +54,8 @@
       "restoredImageAndCaptionLinks": 22
     }
   ],
-  "siteUrl": "https://nbbttdhnybnnb-crypto.github.io/Mdaar21/",
-  "qrDecodedTo": "https://nbbttdhnybnnb-crypto.github.io/Mdaar21/",
+  "siteUrl": "https://mdaar21.github.io/Mdaar21/",
+  "qrDecodedTo": "https://mdaar21.github.io/Mdaar21/",
   "tagged": true,
   "originalCovers": 11,
   "sourceUnchanged": true,
@@ -63,11 +63,11 @@
   "under40MB": true,
   "videoAvailabilityOrTechniqueVerified": false,
   "note": "Original URI annotations restored at exact image-relative positions, with visible duplicate caption links. Videos were not replaced or professionally reviewed; PDF geometry checks passed during build.",
-  "artifact": "docs/artifacts/mdaar-protocol-original-identity-v4.pdf",
+  "artifact": "docs/artifacts/mdaar-protocol-original-identity-v5.pdf",
   "originalCoversRasterUnchanged": true,
   "aliases": [
     "protocoltraining-review.pdf",
-    "mdaar-protocol-original-identity-v4.pdf"
+    "mdaar-protocol-original-identity-v5.pdf"
   ],
-  "qrDecodedFrom": "Rasterized page 3 of final PDF using ZXing"
+  "qrDecodedFrom": "Rasterized page 3 of final v5 PDF using ZXing"
 }
