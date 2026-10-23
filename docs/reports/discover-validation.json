@@ -53,5 +53,31 @@
     "runtimeErrors": [],
     "existingApplicationLinkWorks": true,
     "existingServiceConfigurationPreserved": true
-  }
+  },
+  "liveSmokeTest": {
+    "url": "https://nbbttdhnybnnb-crypto.github.io/Mdaar21/discover/",
+    "results": [
+      {
+        "viewport": 390,
+        "status": 200,
+        "horizontalOverflow": false,
+        "menu": true,
+        "fourDayProgram": true,
+        "bookPreview": true
+      },
+      {
+        "viewport": 1440,
+        "horizontalOverflow": false
+      }
+    ],
+    "runtimeErrors": [],
+    "failedRequests": [],
+    "purchaseClick": {
+      "status": 200,
+      "destination": "https://mdaar21.zid.store/products/بروتوكول-التحول",
+      "directProductNavigation": true
+    }
+  },
+  "publishedCommit": "b43d648fbe3448cb340912eb38a59502e784668f",
+  "existingPublishedFilesUntouched": true
 }
