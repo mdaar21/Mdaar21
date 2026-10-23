@@ -1,0 +1,150 @@
+{
+  "verifiedAt": "2026-10-24",
+  "githubOwner": "mdaar21",
+  "site": "https://mdaar21.github.io/Mdaar21/discover/",
+  "app": "https://mdaar21.github.io/Mdaar21/",
+  "sourceCommit": "5ce36be12b769385f28b4d38b3abcf00e3689c41",
+  "pagesCommit": "3faef9fb6944bc7e5da283ca2ff5e059a64d9840",
+  "serviceCommit": "0d58908c1f99b697dc29686113ff44e3b46a42fb",
+  "checks": {
+    "unitIntegrationTestsPassed": 86,
+    "targetedCorsAdapterTestsPassed": 17,
+    "javascriptAndAssetChecksPassed": true
+  },
+  "landing": {
+    "url": "https://mdaar21.github.io/Mdaar21/discover/",
+    "results": [
+      {
+        "viewport": 390,
+        "status": 200,
+        "horizontalOverflow": false,
+        "menu": true,
+        "fourDayProgram": true,
+        "bookPreview": true
+      },
+      {
+        "viewport": 1440,
+        "horizontalOverflow": false
+      }
+    ],
+    "runtimeErrors": [],
+    "failedRequests": [],
+    "purchaseClick": {
+      "status": 200,
+      "destination": "https://mdaar21.zid.store/products/بروتوكول-التحول",
+      "directProductNavigation": true
+    }
+  },
+  "assistant": {
+    "site": "https://mdaar21.github.io/Mdaar21/",
+    "service": "https://mdaar21-service.nbbttdhnybnnb.workers.dev",
+    "apiResponses": [
+      {
+        "path": "/api/session",
+        "method": "POST",
+        "status": 200
+      },
+      {
+        "path": "/api/ai",
+        "method": "POST",
+        "status": 401
+      },
+      {
+        "path": "/api/session",
+        "method": "POST",
+        "status": 200
+      },
+      {
+        "path": "/api/ai",
+        "method": "POST",
+        "status": 200
+      }
+    ],
+    "rootStatus": 200,
+    "answerReceived": true,
+    "answerContainsArabic": true,
+    "answerCharacters": 371,
+    "runtimeErrors": [],
+    "failedRequests": [],
+    "retiredOriginRejected": 403
+  },
+  "pdf": {
+    "edition": "original identity v5 — Mdaar21 GitHub account rename",
+    "pages": 34,
+    "bytes": 15884601,
+    "sha256": "de78fbb1468cbd7cdb635649500476022f3bbf8e6cc7c242bd6f690db54c34d5",
+    "internalLinks": 67,
+    "externalLinks": 228,
+    "exerciseVideoLinks": 226,
+    "sourceExerciseLinkOccurrences": 113,
+    "sourceLinksMatchedByPage": [
+      {
+        "page": 9,
+        "sourceExerciseLinks": 13,
+        "restoredImageAndCaptionLinks": 26
+      },
+      {
+        "page": 11,
+        "sourceExerciseLinks": 14,
+        "restoredImageAndCaptionLinks": 28
+      },
+      {
+        "page": 12,
+        "sourceExerciseLinks": 11,
+        "restoredImageAndCaptionLinks": 22
+      },
+      {
+        "page": 15,
+        "sourceExerciseLinks": 14,
+        "restoredImageAndCaptionLinks": 28
+      },
+      {
+        "page": 17,
+        "sourceExerciseLinks": 11,
+        "restoredImageAndCaptionLinks": 22
+      },
+      {
+        "page": 23,
+        "sourceExerciseLinks": 14,
+        "restoredImageAndCaptionLinks": 28
+      },
+      {
+        "page": 25,
+        "sourceExerciseLinks": 11,
+        "restoredImageAndCaptionLinks": 22
+      },
+      {
+        "page": 28,
+        "sourceExerciseLinks": 14,
+        "restoredImageAndCaptionLinks": 28
+      },
+      {
+        "page": 30,
+        "sourceExerciseLinks": 11,
+        "restoredImageAndCaptionLinks": 22
+      }
+    ],
+    "siteUrl": "https://mdaar21.github.io/Mdaar21/",
+    "qrDecodedTo": "https://mdaar21.github.io/Mdaar21/",
+    "tagged": true,
+    "originalCovers": 11,
+    "sourceUnchanged": true,
+    "aliasesMatchMain": true,
+    "under40MB": true,
+    "videoAvailabilityOrTechniqueVerified": false,
+    "note": "Original URI annotations restored at exact image-relative positions, with visible duplicate caption links. Videos were not replaced or professionally reviewed; PDF geometry checks passed during build.",
+    "artifact": "docs/artifacts/mdaar-protocol-original-identity-v5.pdf",
+    "originalCoversRasterUnchanged": true,
+    "aliases": [
+      "protocoltraining-review.pdf",
+      "mdaar-protocol-original-identity-v5.pdf"
+    ],
+    "qrDecodedFrom": "Rasterized page 3 of final v5 PDF using ZXing"
+  },
+  "download": {
+    "status": 200,
+    "bytes": 15884601,
+    "sha256MatchesLocal": true
+  },
+  "domainPurchase": false
+}
