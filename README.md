@@ -6,7 +6,7 @@
 
 ## الحساب والموقع الحاليان
 
-حساب GitHub الحالي: `nbbttdhnybnnb-crypto`. نُقلت النسخة الحالية إلى مستودع مستقل؛ لم يُنسخ سجل Git القديم. رابط Pages المستهدف: https://nbbttdhnybnnb-crypto.github.io/Mdaar21/ . تبقى الخدمات المتصلة غير مفعّلة حتى نشر Worker وإدخال رابط الخدمة الحقيقي. التقارير التاريخية تخص حسابها وتواريخها؛ راجع docs/reports/account-migration.md للحالة الحالية.
+حساب GitHub الحالي: `nbbttdhnybnnb-crypto`. نُقلت النسخة الحالية إلى مستودع مستقل؛ لم يُنسخ سجل Git القديم. رابط Pages المنشور: https://nbbttdhnybnnb-crypto.github.io/Mdaar21/ . أكد GitHub اكتمال نشر الفرع gh-pages. تبقى الخدمات المتصلة غير مفعّلة حتى نشر Worker وإدخال رابط الخدمة الحقيقي. التقارير التاريخية تخص حسابها وتواريخها؛ راجع docs/reports/account-migration.md للحالة الحالية.
 
 ## ربط اسأل مدار برابط GitHub
 
