@@ -1,0 +1,27 @@
+{
+  "id": "/Mdaar21/",
+  "name": "مدار — غذاء وتدريب وتقدم",
+  "short_name": "مدار",
+  "description": "أدوات مدار المحلية لتقدير الغذاء وتسجيل التدريب والتقدم",
+  "lang": "ar",
+  "dir": "rtl",
+  "start_url": "/Mdaar21/",
+  "scope": "/Mdaar21/",
+  "display": "standalone",
+  "background_color": "#0f0f12",
+  "theme_color": "#0f0f12",
+  "icons": [
+    {
+      "src": "/Mdaar21/assets/app-icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/Mdaar21/assets/app-icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}
