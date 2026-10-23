@@ -1,0 +1,57 @@
+{
+  "purchaseDestination": "https://mdaar21.zid.store/products/بروتوكول-التحول",
+  "checks": [
+    "Every purchase CTA points directly to the verified Zid product",
+    "Both seven-day schedules match the original training data, including rest days",
+    "RTL tabs support arrows, Home, End and roving keyboard focus",
+    "All three tool previews switch to the matching real screenshot",
+    "Book dialog shows original excerpts, changes pages, closes with Escape and restores focus",
+    "FAQ disclosure works with native details",
+    "Mobile menu closes with Escape; floating purchase CTA appears during browsing and hides over the purchase card",
+    "Reduced-motion preference disables entrances, floating labels and pointer tilt",
+    "Purchase links and all main content work without JavaScript"
+  ],
+  "accessibility": [
+    {
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "violations": []
+    },
+    {
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "violations": []
+    },
+    {
+      "viewport": {
+        "width": 320,
+        "height": 740
+      },
+      "violations": []
+    }
+  ],
+  "runtimeErrors": [],
+  "landingPath": "/Mdaar21/discover/",
+  "productHttpStatus": 200,
+  "productName": "بروتوكول التحول",
+  "price": {
+    "value": "15.99",
+    "currency": "SAR",
+    "previous": "50.00",
+    "source": "Public Zid product JSON-LD"
+  },
+  "staticAssetBytes": 1259734,
+  "sourcePdfUnchanged": true,
+  "checkoutOrDeliveryChanged": false,
+  "pagesPrefixSmokeTest": {
+    "prefix": "/Mdaar21/",
+    "failedRequests": [],
+    "runtimeErrors": [],
+    "existingApplicationLinkWorks": true,
+    "existingServiceConfigurationPreserved": true
+  }
+}
