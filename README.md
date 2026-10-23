@@ -6,15 +6,15 @@
 
 ## الحساب والموقع الحاليان
 
-حساب GitHub الحالي: `nbbttdhnybnnb-crypto`. نُقلت النسخة الحالية إلى مستودع مستقل؛ لم يُنسخ سجل Git القديم. رابط Pages المنشور: https://nbbttdhnybnnb-crypto.github.io/Mdaar21/ . أكد GitHub اكتمال نشر الفرع gh-pages. تبقى الخدمات المتصلة غير مفعّلة حتى نشر Worker وإدخال رابط الخدمة الحقيقي. التقارير التاريخية تخص حسابها وتواريخها؛ راجع docs/reports/account-migration.md للحالة الحالية.
+حساب GitHub الحالي: `nbbttdhnybnnb-crypto`. نُقلت النسخة الحالية إلى مستودع مستقل؛ لم يُنسخ سجل Git القديم. رابط Pages المنشور: https://nbbttdhnybnnb-crypto.github.io/Mdaar21/ . أكد GitHub اكتمال نشر الفرع gh-pages. «اسأل مدار» متصل بالخدمة المنشورة ويبدأ تلقائياً عند إرسال السؤال، دون موافقة منفصلة أو رمز دعوة. التقارير التاريخية تخص حسابها وتواريخها؛ راجع docs/reports/account-migration.md للحالة الحالية.
 
 ## ربط اسأل مدار برابط GitHub
 
 خدمة Cloudflare المستقلة جاهزة في `cloudflare/worker.mjs` وإعداداتها في `wrangler.json`. يبدأ الطلب دون مربع موافقة أو رمز دعوة. يحفظ المزود مفتاحه في Secret على الخدمة فقط؛ المتصفح يحصل على جلسة قصيرة في الذاكرة، وتنسّق Durable Objects حدود الاستخدام. لا يعتمد هذا المسار على استضافة الموقع القديمة.
 
-[بدء نشر الخدمة على Cloudflare](https://deploy.workers.cloudflare.com/?url=https%3A%2F%2Fgithub.com%2Fnbbttdhnybnnb-crypto%2FMdaar21%2Ftree%2Fcloudflare-worker)
+[رابط إعادة تجهيز الخدمة عند الحاجة](https://deploy.workers.cloudflare.com/?url=https%3A%2F%2Fgithub.com%2Fnbbttdhnybnnb-crypto%2FMdaar21%2Ftree%2Fcloudflare-worker)
 
-الحالة: الكود والربط مجتازان للاختبارات المحلية، **ولم تُفعّل خدمة حية بعد**. يلزم المالك إنشاء حساب Cloudflare وربط GitHub وتعيين Secret باسم `GROQ_API_KEY` هناك، ثم إرسال رابط الخدمة العام الذي ينتهي بـ `workers.dev` لإدخاله في نسخة Pages. لا ترسل أي مفتاح في المحادثة. راجع [خطوات الربط](docs/github-ai.md) و[تقرير التحقق](docs/reports/github-worker-validation.md).
+الحالة: **الخدمة مفعّلة ومربوطة بالموقع** على https://mdaar21-service.nbbttdhnybnnb.workers.dev . نجح اختبار سؤال حقيقي من واجهة GitHub المنشورة: جلسة تلقائية وإجابة عربية، دون حفظ رمز الجلسة في localStorage. أصل الخدمة محفوظ في `config/github-pages.json` ويستخدمه بناء Pages افتراضياً؛ المفتاح يبقى داخل Cloudflare فقط. راجع [تشغيل الخدمة](docs/github-ai.md) و[التحقق المباشر](docs/reports/worker-live-connection.md).
 
 ## التشغيل المحلي
 
@@ -71,8 +71,6 @@ npm run test:a11y
 
 ## استخدام AI على النسخة المنشورة
 
-النسخة الثابتة منشورة على https://nbbttdhnybnnb-crypto.github.io/Mdaar21/ . لا يشغّل GitHub Pages الدوال الخلفية؛ خدمات مدار المتصلة غير متاحة هناك حالياً. مصدر الواجهة أزيل منه مربع الموافقة: أرسل السؤال مباشرة، وتبدأ الجلسة العامة آلياً عند الحاجة مع استمرار حدود Redis. لا يبدأ طلب للمزوّد لمجرد فتح الموقع، وإرفاق الهدف في المساعد اختياري.
-
-خدمة Netlify على https://mdaar21-global.netlify.app لا تزال تستخدم النشر الأقدم. نشر تحديث الواجهة والدالة متوقف بسبب رصيد Netlify، وخدمتها الحالية ترفض الأصل الخارجي ولا توفر CORS لنسخة GitHub. لا يعني حذف شرط الموافقة اكتمال تشغيل الخدمة على GitHub. راجع docs/reports/direct-assistant-validation.md.
+الموقع منشور على https://nbbttdhnybnnb-crypto.github.io/Mdaar21/ ومتصل بخدمة Cloudflare. افتح «اسأل مدار» وأرسل سؤالك مباشرة؛ تبدأ جلسة قصيرة آمنة تلقائياً، ولا تحتاج مربع موافقة أو رمز دعوة. لا تُرسل السجلات عند فتح الموقع، وإرفاق الهدف اختياري. أدوات الغذاء والتدريب المحلية ومكتبة 500 وجبة باقية. خدمة الاستضافة القديمة مستقلة ولا يعتمد هذا الربط عليها.
 
 افتراضياً يبقى وضع الدعوات متاحاً للنشرات الخاصة ما لم يُضبط `AI_PUBLIC_ACCESS` إلى النص `true` تماماً. تعطيل الوضع العام يبطل جلساته تلقائياً، ويتطلب الوضع الخاص `AI_ACCESS_CODE`. لا تُنشر أي مفاتيح أو رموز جلسات في Git أو المحادثات. تقارير الاختبارات المباشرة في docs/reports.

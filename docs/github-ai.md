@@ -2,16 +2,20 @@
 
 الموقع يبقى على GitHub Pages. خدمة Cloudflare Worker في هذا المستودع تنفّذ طلبات Groq؛ لا تُنشر أي أسرار مع الموقع. لا يلزم إنشاء جلسة يدوياً أو تفعيل مربع موافقة. يُرسل السؤال عند الضغط على إرسال، وإرفاق الهدف اختياري.
 
-## التفعيل من المتصفح
+## الحالة الحالية
+
+الخدمة منشورة على https://mdaar21-service.nbbttdhnybnnb.workers.dev ومربوطة بالموقع https://nbbttdhnybnnb-crypto.github.io/Mdaar21/ . نجح سؤال حي من الواجهة المنشورة بالعربية دون موافقة منفصلة. لا تحتاج إعادة خطوات إنشاء الخدمة أدناه. الإعداد الدائم في `config/github-pages.json`، ويقرأه أمر بناء Pages افتراضياً. المفتاح يبقى في Cloudflare فقط.
+
+## إعادة تجهيز الخدمة عند الحاجة
 
 1. افتح https://deploy.workers.cloudflare.com/?url=https%3A%2F%2Fgithub.com%2Fnbbttdhnybnnb-crypto%2FMdaar21%2Ftree%2Fcloudflare-worker وأنشئ حساب Cloudflare إن لم يكن لديك. اختر الخطة المجانية دون ترقية مدفوعة، واربط مستودع GitHub عند طلب ذلك. المصدر فرع `cloudflare-worker`، ومجلد الجذر `/`، وإعداد Wrangler موجود في الجذر؛ أمر النشر `npx wrangler@4.152.0 deploy`، دون أمر بناء إضافي.
 2. عيّن `GROQ_API_KEY` كـ Secret داخل Cloudflare فقط. يعلنه ملف Wrangler سراً مطلوباً؛ إذا لم تطلبه واجهة النشر، أضفه من Worker → Settings → Variables and Secrets ثم أعد النشر. عدم وجوده يعيد 503 ويمنع الاتصال بالمزود. لا تضع المفتاح في GitHub Pages أو ملف wrangler أو المحادثة. لا تُعد استخدام مفتاح سبق كشفه.
 3. احتفظ بقيمة `ALLOWED_ORIGIN=https://nbbttdhnybnnb-crypto.github.io`. تنشئ الهجرة كائن SQLite لحفظ حدود الاستخدام ومفتاح التوقيع الداخلي؛ لا يحتاج مالك الموقع مفاتيح Redis أو مفاتيح توقيع إضافية. إذا كانت الخطة المعروضة لا تشمل Durable Objects، توقف قبل اختيار أي ترقية مدفوعة.
-4. بعد اكتمال النشر، انسخ رابط Worker العام الذي ينتهي بـ `workers.dev`. هذا الرابط ليس سراً. يلزم إدخاله عند بناء نسخة Pages بالأمر أدناه ونشر الناتج إلى فرع `gh-pages`. رفع كود الخدمة إلى GitHub وحده لا ينشئ حساب Cloudflare أو ينشر Worker.
+4. بعد اكتمال النشر، انسخ رابط Worker العام الذي ينتهي بـ `workers.dev`. هذا الرابط ليس سراً. يلزم إدخاله عند بناء نسخة Pages بالأمر أدناه ونشر الناتج إلى فرع `gh-pages`. رفع كود الخدمة إلى GitHub وحده لا ينشئ حساب Cloudflare أو ينشر Worker. الربط الحالي منشور فعلاً ولا يحتاج إعادة الإنشاء.
 
 ## ربط نسخة Pages
 
-استخدم رابط الخدمة الحقيقي، بلا مسار أو معاملات:
+يستخدم البناء رابط الخدمة الحقيقي المحفوظ في config/github-pages.json عند عدم تمرير خيار. لتغييره، حدّث الملف أو مرّر --service-origin، بلا مسار أو معاملات:
 
 ```sh
 python3 scripts/build-github-pages.py --output /tmp/mdaar-pages-connected --service-origin https://YOUR-WORKER.YOUR-SUBDOMAIN.workers.dev

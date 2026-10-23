@@ -1,5 +1,8 @@
 # GitHub Pages → Cloudflare service preparation — 2026-10-23
 
+> Current status: deployed and live-verified on the new GitHub account. See [live verification](worker-live-connection.md). The preparation history below predates activation.
+
+
 The owner requested connecting the assistant to the GitHub-hosted site without a separate service-consent step and explicitly stopped work on the old hosting platform. The owner confirmed having no Cloudflare account. No Cloudflare credentials are available in this environment. The prepared implementation is independent of the old service; no old-host deployment or secret retrieval was attempted.
 
 ## Prepared code

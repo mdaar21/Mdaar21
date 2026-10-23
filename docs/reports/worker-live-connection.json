@@ -1,0 +1,28 @@
+{
+  "date": "2026-10-23T20:02:57.715Z",
+  "service": "https://mdaar21-service.nbbttdhnybnnb.workers.dev",
+  "site": "https://nbbttdhnybnnb-crypto.github.io/Mdaar21/",
+  "checks": [
+    {
+      "name": "cross_origin_preflight",
+      "status": 204,
+      "allowed_origin": "https://nbbttdhnybnnb-crypto.github.io"
+    },
+    {
+      "name": "automatic_session_no_consent",
+      "status": 200,
+      "authenticated": true,
+      "short_token_present": true,
+      "error": null
+    },
+    {
+      "name": "actual_provider_general_question",
+      "status": 200,
+      "valid_answer_shape": true,
+      "answer_length": 118,
+      "error": null
+    }
+  ],
+  "secret_values_recorded": false,
+  "success": true
+}

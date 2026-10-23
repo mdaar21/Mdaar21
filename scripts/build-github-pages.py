@@ -75,6 +75,10 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--output', required=True, type=Path)
     parser.add_argument('--base', default='/Mdaar21/')
-    parser.add_argument('--service-origin', default='', help='Public HTTPS Worker origin; never a secret or API key')
+    parser.add_argument('--service-origin', default=None, help='Public HTTPS Worker origin; defaults to config/github-pages.json; never a secret or API key')
     args = parser.parse_args()
-    build(args.output, args.base, args.service_origin)
+    origin = args.service_origin
+    if origin is None:
+        config_path = ROOT / 'config/github-pages.json'
+        origin = json.loads(config_path.read_text()).get('serviceOrigin', '') if config_path.exists() else ''
+    build(args.output, args.base, origin)

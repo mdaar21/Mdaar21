@@ -10,10 +10,10 @@
   "repository_creation_error": "Resource not accessible by integration",
   "repository_published": true,
   "pages_published": true,
-  "worker_service_connected": false,
+  "worker_service_connected": true,
   "worker_origin_updated": true,
   "cloudflare_credentials_available": false,
-  "owner_next_step": "Deploy the prepared Cloudflare Worker from the new repository and set GROQ_API_KEY privately; supply its public Worker origin for Pages connection and live verification",
+  "owner_next_step": null,
   "billing_changed": false,
   "repository_exists": true,
   "repository_is_public": true,
@@ -28,14 +28,21 @@
   "git_push_succeeded": true,
   "source_published_commit": "338b88bcc15245567c486a1f7f1c8fcee695875d",
   "pages_status": "built",
-  "pages_published_commit": "ff6cec0312e93d8448d4be5a759704e05c4a6941",
-  "pages_build_updated_at": "2026-10-23T19:38:15Z",
+  "pages_published_commit": "76fe16d17731d01b30afa95aa7acf6c0c5390546",
+  "pages_build_updated_at": "2026-10-23T20:05:24Z",
   "pages_source": {
     "branch": "gh-pages",
     "path": "/"
   },
-  "public_http_verified": false,
-  "public_http_check_block": "Workspace outbound proxy rejects CONNECT to the published github.io host with HTTP 403; no proxy bypass attempted",
+  "public_http_verified": true,
+  "public_http_check_block": null,
   "cloudflare_checks_or_deployments_found": false,
-  "cloudflare_repository_secrets_metadata_access": "403 Resource not accessible by integration"
+  "cloudflare_repository_secrets_metadata_access": "403 Resource not accessible by integration",
+  "service_origin": "https://mdaar21-service.nbbttdhnybnnb.workers.dev",
+  "actual_provider_verified": true,
+  "live_mobile_ui_verified": true,
+  "latest_live_evidence": [
+    "worker-live-connection.json",
+    "worker-live-ui.json"
+  ]
 }

@@ -1,0 +1,41 @@
+{
+  "date": "2026-10-23T20:07:10.825Z",
+  "site": "https://nbbttdhnybnnb-crypto.github.io/Mdaar21/",
+  "service": "https://mdaar21-service.nbbttdhnybnnb.workers.dev",
+  "scope": "Actual published mobile UI and live service/provider via trusted HTTP relay; no mocked responses or TLS verification bypass",
+  "checks": [
+    {
+      "name": "published_connected_build_500_meals_no_consent_no_background_api",
+      "pass": true
+    },
+    {
+      "name": "first_send_actual_arabic_answer_automatic_session_token_not_persisted",
+      "pass": true,
+      "answer_length": 765,
+      "session_starts": 1
+    },
+    {
+      "name": "mobile_no_overflow_or_runtime_errors",
+      "pass": true
+    }
+  ],
+  "service_responses": [
+    {
+      "path": "/api/session",
+      "method": "POST",
+      "status": 200,
+      "authenticated": true,
+      "error": null
+    },
+    {
+      "path": "/api/ai",
+      "method": "POST",
+      "status": 200,
+      "answer_shape": "string",
+      "error": null
+    }
+  ],
+  "runtime_errors": [],
+  "secret_values_recorded": false,
+  "success": true
+}

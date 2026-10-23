@@ -35,17 +35,19 @@
     "project_paths_and_service_worker_module": true,
     "arabic_and_english_worker_privacy": true
   },
-  "account_available": false,
+  "account_available": true,
   "cloudflare_credentials_available": false,
-  "worker_deployed": false,
-  "actual_provider_verified": false,
-  "live_github_connected": false,
-  "owner_steps": [
-    "Create Cloudflare account and authorize the repository through the prepared deployment link",
-    "Set GROQ_API_KEY privately as a Worker secret",
-    "Supply the public Worker URL for the Pages build and live verification"
-  ],
+  "worker_deployed": true,
+  "actual_provider_verified": true,
+  "live_github_connected": true,
+  "owner_steps": [],
   "secret_values_recorded": false,
   "billing_changed": false,
-  "main_merged": false
+  "main_merged": false,
+  "service_origin": "https://mdaar21-service.nbbttdhnybnnb.workers.dev",
+  "site": "https://nbbttdhnybnnb-crypto.github.io/Mdaar21/",
+  "latest_live_evidence": [
+    "worker-live-connection.json",
+    "worker-live-ui.json"
+  ]
 }
