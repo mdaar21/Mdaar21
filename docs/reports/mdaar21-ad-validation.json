@@ -1,0 +1,18 @@
+{
+  "mobileViewport": 390,
+  "horizontalOverflow": false,
+  "playAndPause": true,
+  "seekToRecipeScene": true,
+  "seekToEndScene": true,
+  "soundToggle": true,
+  "runtimeErrors": [],
+  "seconds": 20,
+  "resolution": [
+    1080,
+    1920
+  ],
+  "export": "MP4 H.264/AAC, yuv420p, 24fps",
+  "renderedBytes": 5594115,
+  "renderedSha256": "66520af16f0e822f98ff819c454bcd21fcff1fcc2cccb085909ef144f1378ae1",
+  "encodedVideoReviewed": true
+}
