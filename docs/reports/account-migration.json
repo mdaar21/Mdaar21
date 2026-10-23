@@ -1,0 +1,18 @@
+{
+  "date": "2026-10-23",
+  "new_account": "nbbttdhnybnnb-crypto",
+  "target_repository": "nbbttdhnybnnb-crypto/Mdaar21",
+  "target_pages_url": "https://nbbttdhnybnnb-crypto.github.io/Mdaar21/",
+  "source_export": "Current tracked tree from original local source, without old Git history or secrets",
+  "unit_integration_tests_passed": 86,
+  "project_checks": "passed",
+  "repository_creation_status": 403,
+  "repository_creation_error": "Resource not accessible by integration",
+  "repository_published": false,
+  "pages_published": false,
+  "worker_service_connected": false,
+  "worker_origin_updated": true,
+  "cloudflare_credentials_available": false,
+  "owner_next_step": "Create or expose public Mdaar21 repository in the connected account, then allow this GitHub connection access to it",
+  "billing_changed": false
+}
