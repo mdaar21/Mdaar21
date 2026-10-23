@@ -13,6 +13,15 @@
   "worker_service_connected": false,
   "worker_origin_updated": true,
   "cloudflare_credentials_available": false,
-  "owner_next_step": "Create or expose public Mdaar21 repository in the connected account, then allow this GitHub connection access to it",
-  "billing_changed": false
+  "owner_next_step": "Install or configure ChatGPT Codex Connector for nbbttdhnybnnb-crypto/Mdaar21, then retry publication",
+  "billing_changed": false,
+  "repository_exists": true,
+  "repository_is_public": true,
+  "repository_owner_permission_admin": true,
+  "git_push_status": 403,
+  "rest_contents_write_status": 403,
+  "rest_contents_error": "Resource not accessible by integration",
+  "codex_app_accessible_installations": 0,
+  "codex_app_verified": "https://github.com/apps/chatgpt-codex-connector",
+  "codex_app_required_permission": "contents: write"
 }
