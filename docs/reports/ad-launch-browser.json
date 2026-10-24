@@ -1,0 +1,50 @@
+{
+  "results": [
+    {
+      "viewport": 390,
+      "httpStatus": 200,
+      "playPause": true,
+      "seekFourScenes": true,
+      "soundToggle": true,
+      "noHorizontalOverflow": true,
+      "productLink": true,
+      "runtimeErrors": [],
+      "failedRequests": [],
+      "mediaLoadCancellationsDuringSeek": [
+        {
+          "url": "http://127.0.0.1:42887/ad/assets/transition.mp3",
+          "failure": "net::ERR_ABORTED",
+          "resourceType": "media"
+        },
+        {
+          "url": "http://127.0.0.1:42887/ad/assets/transition.mp3",
+          "failure": "net::ERR_ABORTED",
+          "resourceType": "media"
+        }
+      ]
+    },
+    {
+      "viewport": 1440,
+      "httpStatus": 200,
+      "playPause": true,
+      "seekFourScenes": true,
+      "soundToggle": true,
+      "noHorizontalOverflow": true,
+      "productLink": true,
+      "runtimeErrors": [],
+      "failedRequests": [],
+      "mediaLoadCancellationsDuringSeek": [
+        {
+          "url": "http://127.0.0.1:42887/ad/assets/transition.mp3",
+          "failure": "net::ERR_ABORTED",
+          "resourceType": "media"
+        },
+        {
+          "url": "http://127.0.0.1:42887/ad/assets/transition.mp3",
+          "failure": "net::ERR_ABORTED",
+          "resourceType": "media"
+        }
+      ]
+    }
+  ]
+}
