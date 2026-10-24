@@ -1,0 +1,27 @@
+{
+  "pageStatus": 200,
+  "pageContainsBothDownloads": true,
+  "pagesCommit": "f6ab46c188fee0d048c0fddc292507621ea2dc2e",
+  "files": [
+    {
+      "file": "mdaar21-faceless-4k.mp4",
+      "status": 206,
+      "contentRange": "bytes 0-1023/27263191",
+      "contentType": "video/mp4",
+      "bytesCompared": 1024,
+      "matchesLocalPrefix": true
+    },
+    {
+      "file": "mdaar21-faceless-hd.mp4",
+      "status": 206,
+      "contentRange": "bytes 0-1023/6875784",
+      "contentType": "video/mp4",
+      "bytesCompared": 1024,
+      "matchesLocalPrefix": true
+    }
+  ],
+  "sourceDownloadsPreviouslyVerified": {
+    "status": 200,
+    "sha256Matched": true
+  }
+}
