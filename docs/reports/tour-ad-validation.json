@@ -1,0 +1,24 @@
+{
+  "title": "تمرين… ولا جولة سياحية؟",
+  "durationSeconds": 30,
+  "width": 1080,
+  "height": 1920,
+  "fps": 24,
+  "bytes": 13333058,
+  "sha256": "19a05fb267b8f7593e9bcd428cfeef83c09c0a0a0cb1446420b032a1add5ea4c",
+  "type": "Photographic motion advertisement with fictional generated characters and written dialogue",
+  "voiceover": false,
+  "originalSynthesizedScore": true,
+  "higgsfieldUsed": false,
+  "publicPreview": "https://mdaar21.github.io/Mdaar21/ad/",
+  "download": "https://mdaar21.github.io/Mdaar21/ad/mdaar21-tour-ad.mp4",
+  "studio": "http://localhost:3025/#project/mdaar21-tour-ad",
+  "codecs": {
+    "video": "H.264 High, yuv420p",
+    "audio": "AAC-LC stereo, 48kHz"
+  },
+  "fastStart": true,
+  "encodedScenesVisuallyReviewed": 7,
+  "audioPeakDbfs": -1.5,
+  "sourceArchiveBytes": 8886395
+}

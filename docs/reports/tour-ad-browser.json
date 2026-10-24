@@ -1,0 +1,40 @@
+{
+  "results": [
+    {
+      "viewport": 320,
+      "status": 200,
+      "decodedVideo": true,
+      "duration": 30,
+      "playPause": true,
+      "seekSixScenes": true,
+      "noHorizontalOverflow": true,
+      "downloadLink": true,
+      "productLink": true,
+      "runtimeErrors": []
+    },
+    {
+      "viewport": 390,
+      "status": 200,
+      "decodedVideo": true,
+      "duration": 30,
+      "playPause": true,
+      "seekSixScenes": true,
+      "noHorizontalOverflow": true,
+      "downloadLink": true,
+      "productLink": true,
+      "runtimeErrors": []
+    },
+    {
+      "viewport": 1440,
+      "status": 200,
+      "decodedVideo": true,
+      "duration": 30,
+      "playPause": true,
+      "seekSixScenes": true,
+      "noHorizontalOverflow": true,
+      "downloadLink": true,
+      "productLink": true,
+      "runtimeErrors": []
+    }
+  ]
+}
