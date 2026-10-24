@@ -1,0 +1,68 @@
+{
+  "title": "داخل تتمرّن… ولا تقيّم ديكور النادي؟",
+  "durationSeconds": 30,
+  "files": [
+    {
+      "file": "mdaar21-faceless-4k.mp4",
+      "sha256": "d8ecec6b0b4a9df70ca6fa2265c0ab3e3a06d66680d2024e3a6ab2500b672562",
+      "bytes": 27263191,
+      "fastStart": true,
+      "metadata": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "width": 2160,
+            "height": 3840,
+            "pix_fmt": "yuv420p",
+            "r_frame_rate": "24/1"
+          },
+          {
+            "codec_name": "aac",
+            "r_frame_rate": "0/0"
+          }
+        ],
+        "format": {
+          "duration": "30.000000",
+          "size": "27263191"
+        }
+      }
+    },
+    {
+      "file": "mdaar21-faceless-hd.mp4",
+      "sha256": "2730131eb6dd4c4618c835dcacca08f987e5ddad5c310bff3365f6acf13f2d6d",
+      "bytes": 6875784,
+      "fastStart": true,
+      "metadata": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "width": 1080,
+            "height": 1920,
+            "pix_fmt": "yuv420p",
+            "r_frame_rate": "24/1"
+          },
+          {
+            "codec_name": "aac",
+            "r_frame_rate": "0/0"
+          }
+        ],
+        "format": {
+          "duration": "30.000000",
+          "size": "6875784"
+        }
+      }
+    }
+  ],
+  "voiceover": false,
+  "magnificUsed": false,
+  "type": "Photographic motion ad with written Saudi Arabic dialogue, no heads/faces in source photography",
+  "encodedBeatsVisuallyReviewed": 9,
+  "sourcePhotographsVisuallyReviewed": 5,
+  "publicPreview": "https://mdaar21.github.io/Mdaar21/ad/faceless/",
+  "studio": "http://localhost:3026/#project/mdaar21-faceless-ad",
+  "note": "4K denotes export dimensions, not native camera footage; source photographs are lower resolution."
+}

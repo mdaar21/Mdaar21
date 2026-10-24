@@ -1,0 +1,56 @@
+{
+  "results": [
+    {
+      "path": "/ad/faceless/",
+      "viewport": 320,
+      "status": 200,
+      "decodedVideo": true,
+      "durationSeconds": 30,
+      "playPause": true,
+      "seekEightBeats": true,
+      "noHorizontalOverflow": true,
+      "twoDownloadLinksReturn206": true,
+      "productLink": true,
+      "runtimeErrors": []
+    },
+    {
+      "path": "/ad/faceless/",
+      "viewport": 390,
+      "status": 200,
+      "decodedVideo": true,
+      "durationSeconds": 30,
+      "playPause": true,
+      "seekEightBeats": true,
+      "noHorizontalOverflow": true,
+      "twoDownloadLinksReturn206": true,
+      "productLink": true,
+      "runtimeErrors": []
+    },
+    {
+      "path": "/ad/faceless/",
+      "viewport": 1440,
+      "status": 200,
+      "decodedVideo": true,
+      "durationSeconds": 30,
+      "playPause": true,
+      "seekEightBeats": true,
+      "noHorizontalOverflow": true,
+      "twoDownloadLinksReturn206": true,
+      "productLink": true,
+      "runtimeErrors": []
+    },
+    {
+      "path": "/ad/",
+      "viewport": 390,
+      "status": 200,
+      "decodedVideo": true,
+      "durationSeconds": 30,
+      "playPause": true,
+      "seekEightBeats": true,
+      "noHorizontalOverflow": true,
+      "twoDownloadLinksReturn206": true,
+      "productLink": true,
+      "runtimeErrors": []
+    }
+  ]
+}

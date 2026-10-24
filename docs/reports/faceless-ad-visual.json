@@ -1,0 +1,71 @@
+{
+  "reviewedPhotographicSources": [
+    "shoe.png",
+    "watch.png",
+    "bench.png",
+    "friends.png",
+    "ready.png"
+  ],
+  "noHeadsInPhotographicSourceImages": true,
+  "exerciseHumanIllustrationsOmitted": true,
+  "oldFaceAssetsReferenced": false,
+  "referencedVisualAssets": [
+    {
+      "file": "assets/arrow.svg",
+      "sha256": "2e3567a6fef00707011d82f36b8f12b12068b6d43fea9fd882687b2b57fe9089"
+    },
+    {
+      "file": "assets/bench.png",
+      "sha256": "67d91c84cc92dd75bb1d072684f5eba3e211de04cd230641cc115d146e2f5682"
+    },
+    {
+      "file": "assets/book-cover.png",
+      "sha256": "5be16874fc470a482803530a1cc9b1551766ba3c39a22e017d543c8ed34fcd4c"
+    },
+    {
+      "file": "assets/book-end.png",
+      "sha256": "5be16874fc470a482803530a1cc9b1551766ba3c39a22e017d543c8ed34fcd4c"
+    },
+    {
+      "file": "assets/friends.png",
+      "sha256": "28f499c592bcd764d875398e4d535fa3e790cf3df22accceee020a5a93ff9931"
+    },
+    {
+      "file": "assets/hero-logo.png",
+      "sha256": "4cddab7a23c82f789c2baed511089e28912576697cb27f15b860a5b914bc314b"
+    },
+    {
+      "file": "assets/link-arrow.svg",
+      "sha256": "2e3567a6fef00707011d82f36b8f12b12068b6d43fea9fd882687b2b57fe9089"
+    },
+    {
+      "file": "assets/logo.png",
+      "sha256": "4cddab7a23c82f789c2baed511089e28912576697cb27f15b860a5b914bc314b"
+    },
+    {
+      "file": "assets/ready.png",
+      "sha256": "184da1abf9c6d8b9f56e0ee1c989d9e10fb2e11bf6769b8116947e4774f1a4d4"
+    },
+    {
+      "file": "assets/shoe.png",
+      "sha256": "8de3f2b7ddd4692543a8de051d40a8014323244d32329ef9b72787db843ce70a"
+    },
+    {
+      "file": "assets/site-calculator.png",
+      "sha256": "ed3214443608135f1fc9fa55c32b1f2fa33fd00ab306a23bbf9ed2723d8c4829"
+    },
+    {
+      "file": "assets/site-recipes.png",
+      "sha256": "a18aced9b019ee2f0f58717b056d8aef368c70546a2ef16f32ec374de233c2e7"
+    },
+    {
+      "file": "assets/watch.png",
+      "sha256": "80e4f061c210f6eaacb0250f64ea7e051e76255ad0532a29320b0584ea20baa2"
+    }
+  ],
+  "reviewMethod": "Visually reviewed all five photographic sources, nine distinct composition beat snapshots and the final product/closing revisions. Composition uses only the closed set of local reviewed assets; camera motion is confined to those images.",
+  "voiceover": false,
+  "magnificUsed": false,
+  "tools": "Host image generation and HyperFrames",
+  "notes": "Photographic motion edition with written dialogue. 4K describes export dimensions; photographic sources are lower resolution."
+}

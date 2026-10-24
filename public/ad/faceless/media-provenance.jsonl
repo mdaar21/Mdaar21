@@ -1,0 +1,4 @@
+{"id": "photos", "type": "image", "files": ["shoe.png", "watch.png", "bench.png", "friends.png", "ready.png"], "source": "Generated in this task using the host image tool. All heads and faces absent from original source images; no human reflections or background people. Visually reviewed."}
+{"id": "brand", "type": "image", "files": ["book-cover.png", "hero-logo.png", "logo.png", "site-calculator.png", "site-recipes.png"], "source": "Original owner-supplied cover/logo and actual app screenshots, used unchanged; no exercise human illustrations in this edition."}
+{"id": "score", "type": "audio", "file": "soundtrack.mp3", "source": "Original synthesized score and comic effects, retimed for this edition; no external music samples.", "voiceover": false}
+{"id": "font", "type": "font", "source": "Noto Sans Arabic, SIL Open Font License. See FONT-LICENSE.txt."}
