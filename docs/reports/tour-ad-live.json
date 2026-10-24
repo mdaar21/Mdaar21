@@ -1,0 +1,11 @@
+{
+  "pageStatus": 200,
+  "videoStatus": 200,
+  "contentType": "video/mp4",
+  "downloadBytes": 13333058,
+  "sha256MatchesLocal": true,
+  "rangeStatus": 206,
+  "contentRange": "bytes 0-1023/13333058",
+  "rangeBytes": 1024,
+  "pagesCommit": "2799d3c9012ac2fcc7f49e74717d2388f0991d83"
+}
