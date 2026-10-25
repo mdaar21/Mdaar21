@@ -1,0 +1,5 @@
+{"id": "paper-art", "type": "image", "files": ["strength.png", "strength-training.png", "map.png", "meal.png"], "source": "New die-cut paper illustrations generated in this task; original transparency retained. Human content limited to hands/forearm; no heads or facial features. Meal is an illustrative category icon, not a nutrient measurement."}
+{"id": "identity", "type": "image", "files": ["hero-logo.png", "closing-logo.png", "book-cover.svg", "book-guide.svg", "book-end.svg"], "source": "Owner-provided Mdaar mark and original front-cover SVG, copied unchanged."}
+{"id": "font", "type": "font", "file": "Lalezar-Regular.ttf", "source": "Google Fonts, SIL Open Font License; see FONT-LICENSE.txt."}
+{"id": "score", "type": "audio", "file": "score.mp3", "source": "Original deterministic synthesized music and paper-transition effects from create-score.py; no external music samples.", "voiceover": false}
+{"id": "reference", "type": "reference", "source": "User-uploaded mdaar_protocol_ad_v3.mp4 used as editorial and visual reference only; file kept unchanged and not redistributed."}
