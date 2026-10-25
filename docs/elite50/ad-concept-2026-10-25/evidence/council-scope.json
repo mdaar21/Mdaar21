@@ -1,0 +1,25 @@
+{
+  "task": "concept-only, no site or store modification",
+  "councils": {
+    "executive": "not dispatched; required for full fifty-expert approval, no approval inferred",
+    "engineering": "not dispatched; required for full fifty-expert approval, no approval inferred",
+    "creative": "independent planning and final concept review (5 actual experts)",
+    "ai": "not dispatched; required for full fifty-expert approval, no approval inferred",
+    "commerce": "not dispatched; required for full fifty-expert approval, no approval inferred",
+    "marketing": "independent planning and final concept review (5 actual experts)",
+    "research": "not dispatched; required for full fifty-expert approval, no approval inferred",
+    "finance-legal": "not dispatched; required for full fifty-expert approval, no approval inferred",
+    "quality": "not dispatched; required for full fifty-expert approval, no approval inferred",
+    "innovation": "not dispatched; required for full fifty-expert approval, no approval inferred"
+  },
+  "reasonsForNarrowImplementation": {
+    "engineering": "No software or render pipeline change requested",
+    "ai": "No AI implementation or model evaluation requested",
+    "commerce": "No catalog, checkout, pricing or fulfillment modification requested",
+    "finance-legal": "No budget, contract or legal approval requested; claims restrictions remain",
+    "quality": "No finished video exists to visually certify",
+    "research": "Primary repository facts checked; no external market study requested",
+    "executive": "No organizational strategy or budget decision requested",
+    "innovation": "Exploratory concepts covered by creative/marketing; no independent council approval assumed"
+  }
+}

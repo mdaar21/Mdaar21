@@ -1,0 +1,19 @@
+{
+  "recipes": 500,
+  "programDays": [
+    4,
+    5
+  ],
+  "bookPages": 34,
+  "sourceFiles": {
+    "public/data/recipes-calculated.json": "9b088957f7e594edec2070b65e6847bcc5422b3291202409b1c4aeabce4cb88b",
+    "public/data/training-programs.json": "8c3bf03b86121620b87582f1b11ae5ca033bc82704d5ca26e0c4a83175306597",
+    "docs/artifacts/mdaar-protocol-original-identity-v5.pdf": "de78fbb1468cbd7cdb635649500476022f3bbf8e6cc7c242bd6f690db54c34d5"
+  },
+  "assets": [
+    "creative/ad/character-rig.svg",
+    "creative/ad/assets/book-cover.svg",
+    "public/discover/assets/book-cover.webp"
+  ],
+  "measurement": "No new campaign or audience performance measurement has been run; GA4 activation remains pending the owner measurement ID."
+}

@@ -1,0 +1,62 @@
+[
+  {
+    "expert": "creative-1",
+    "hostTool": "collaboration.spawn_agent",
+    "returnedTaskName": "/root/creative_1",
+    "forkTurns": "none"
+  },
+  {
+    "expert": "creative-2",
+    "hostTool": "collaboration.spawn_agent",
+    "returnedTaskName": "/root/creative_2",
+    "forkTurns": "none"
+  },
+  {
+    "expert": "creative-3",
+    "hostTool": "collaboration.spawn_agent",
+    "returnedTaskName": "/root/creative_3",
+    "forkTurns": "none"
+  },
+  {
+    "expert": "creative-4",
+    "hostTool": "collaboration.spawn_agent",
+    "returnedTaskName": "/root/creative_4",
+    "forkTurns": "none"
+  },
+  {
+    "expert": "creative-5",
+    "hostTool": "collaboration.spawn_agent",
+    "returnedTaskName": "/root/creative_5",
+    "forkTurns": "none"
+  },
+  {
+    "expert": "marketing-1",
+    "hostTool": "collaboration.spawn_agent",
+    "returnedTaskName": "/root/marketing_1",
+    "forkTurns": "none"
+  },
+  {
+    "expert": "marketing-2",
+    "hostTool": "collaboration.spawn_agent",
+    "returnedTaskName": "/root/marketing_2",
+    "forkTurns": "none"
+  },
+  {
+    "expert": "marketing-3",
+    "hostTool": "collaboration.spawn_agent",
+    "returnedTaskName": "/root/marketing_3",
+    "forkTurns": "none"
+  },
+  {
+    "expert": "marketing-4",
+    "hostTool": "collaboration.spawn_agent",
+    "returnedTaskName": "/root/marketing_4",
+    "forkTurns": "none"
+  },
+  {
+    "expert": "marketing-5",
+    "hostTool": "collaboration.spawn_agent",
+    "returnedTaskName": "/root/marketing_5",
+    "forkTurns": "none"
+  }
+]

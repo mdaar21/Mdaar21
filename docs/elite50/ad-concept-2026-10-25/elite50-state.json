@@ -1,0 +1,891 @@
+{
+  "schema": 1,
+  "roster_sha256": "27e2f16e2c02b192f7b716ab993e174e928011202a28d1c3132274897ae6fa54",
+  "events": [
+    {
+      "seq": 1,
+      "timestamp": "2026-10-25T19:16:48.227125+00:00",
+      "kind": "init",
+      "payload": {
+        "task": "Create one Saudi Mdaar ad concept: independent creative and marketing councils; faceless character; effects-only; evidence-linked partial review."
+      },
+      "previous_hash": null,
+      "event_hash": "a56fa77873f2a8722f92692ca0ad71016dd3cbfdb78049c1cd65daf8c1128eb2"
+    },
+    {
+      "seq": 2,
+      "timestamp": "2026-10-25T19:16:48.229707+00:00",
+      "kind": "snapshot",
+      "payload": {
+        "version": "brief-v1",
+        "files": [
+          {
+            "path": "/workspace/Mdaar21-new/docs/elite50/ad-concept-2026-10-25/brief.md",
+            "sha256": "41accace05940fe61ba7a0f141894da5d509e35e5d00873195e8e439070e77b5"
+          },
+          {
+            "path": "/workspace/Mdaar21-new/docs/elite50/ad-concept-2026-10-25/facts.json",
+            "sha256": "c812301e1a5ac227aaf331af2ce7b4ab60cea0a5cc06ac406a441c476149f5c3"
+          }
+        ],
+        "digest": "d1ad0d87f3df3ae74b4c7d3d50f742bf93cb4a31e39fbb7c89ce90b40e53ef2c"
+      },
+      "previous_hash": "a56fa77873f2a8722f92692ca0ad71016dd3cbfdb78049c1cd65daf8c1128eb2",
+      "event_hash": "f895cc9f7f20bc7816291cf2590584f0c8563d7e997514f18c5b02478a6d301b"
+    },
+    {
+      "seq": 3,
+      "timestamp": "2026-10-25T19:16:48.230604+00:00",
+      "kind": "evidence",
+      "payload": {
+        "id": "brief",
+        "description": "User request, persistent visual/audio constraints and acceptance criteria.",
+        "path": "/workspace/Mdaar21-new/docs/elite50/ad-concept-2026-10-25/brief.md",
+        "sha256": "41accace05940fe61ba7a0f141894da5d509e35e5d00873195e8e439070e77b5"
+      },
+      "previous_hash": "f895cc9f7f20bc7816291cf2590584f0c8563d7e997514f18c5b02478a6d301b",
+      "event_hash": "5f4aaa097104beaccd348ea540a486005ec137f66823dec7f21d382dba3e660d"
+    },
+    {
+      "seq": 4,
+      "timestamp": "2026-10-25T19:16:48.231657+00:00",
+      "kind": "evidence",
+      "payload": {
+        "id": "facts",
+        "description": "Actual recipe/program counts and PDF page count from repository files, with hashes.",
+        "path": "/workspace/Mdaar21-new/docs/elite50/ad-concept-2026-10-25/facts.json",
+        "sha256": "c812301e1a5ac227aaf331af2ce7b4ab60cea0a5cc06ac406a441c476149f5c3"
+      },
+      "previous_hash": "5f4aaa097104beaccd348ea540a486005ec137f66823dec7f21d382dba3e660d",
+      "event_hash": "d147aabf673292c05ae70e7a57714bc1a8df0591ec0f59f72db9452f035b32dd"
+    },
+    {
+      "seq": 5,
+      "timestamp": "2026-10-25T19:22:55.269677+00:00",
+      "kind": "register",
+      "payload": {
+        "expert": "creative-1",
+        "runtime": "/root/creative_1",
+        "identity_basis": "trusted-operator-attestation"
+      },
+      "previous_hash": "d147aabf673292c05ae70e7a57714bc1a8df0591ec0f59f72db9452f035b32dd",
+      "event_hash": "09a0dd363a5dd4a8e4fbc3b22b95d02e64309872e34d93fc9e84d9ce9cf80119"
+    },
+    {
+      "seq": 6,
+      "timestamp": "2026-10-25T19:22:55.271335+00:00",
+      "kind": "evidence",
+      "payload": {
+        "id": "creative-1-plan",
+        "description": "Original independent first planning response from /root/creative_1; not an approval vote.",
+        "path": "/workspace/Mdaar21-new/docs/elite50/ad-concept-2026-10-25/evidence/initial/creative-1.md",
+        "sha256": "b5539346e5a0fda9048f4e445c6e3bc1810efe9f9096edf8fdc63747bc51d284"
+      },
+      "previous_hash": "09a0dd363a5dd4a8e4fbc3b22b95d02e64309872e34d93fc9e84d9ce9cf80119",
+      "event_hash": "7b5e89f47276e20e2d61654ec43d1a1af81ec782594e29e45a730659dbdd238b"
+    },
+    {
+      "seq": 7,
+      "timestamp": "2026-10-25T19:22:55.272500+00:00",
+      "kind": "register",
+      "payload": {
+        "expert": "creative-2",
+        "runtime": "/root/creative_2",
+        "identity_basis": "trusted-operator-attestation"
+      },
+      "previous_hash": "7b5e89f47276e20e2d61654ec43d1a1af81ec782594e29e45a730659dbdd238b",
+      "event_hash": "a4fd2bb0c8ea81ea671bd6e1ae532f50e5c2165093bd09399f4c6b59150870b2"
+    },
+    {
+      "seq": 8,
+      "timestamp": "2026-10-25T19:22:55.273583+00:00",
+      "kind": "evidence",
+      "payload": {
+        "id": "creative-2-plan",
+        "description": "Original independent first planning response from /root/creative_2; not an approval vote.",
+        "path": "/workspace/Mdaar21-new/docs/elite50/ad-concept-2026-10-25/evidence/initial/creative-2.md",
+        "sha256": "be023f4e8cb6fbc7f06b4118719f1b269d02f0ee827fda8385c6fe61715c4390"
+      },
+      "previous_hash": "a4fd2bb0c8ea81ea671bd6e1ae532f50e5c2165093bd09399f4c6b59150870b2",
+      "event_hash": "5e73db5fda02a35c96b975a215980dedb441c4ec62cb7b0a8faee5baa4706e25"
+    },
+    {
+      "seq": 9,
+      "timestamp": "2026-10-25T19:22:55.274589+00:00",
+      "kind": "register",
+      "payload": {
+        "expert": "creative-3",
+        "runtime": "/root/creative_3",
+        "identity_basis": "trusted-operator-attestation"
+      },
+      "previous_hash": "5e73db5fda02a35c96b975a215980dedb441c4ec62cb7b0a8faee5baa4706e25",
+      "event_hash": "417e8fc29addaad89c92dc76c0b3752f51d7419c85653d786ba39485fa742f69"
+    },
+    {
+      "seq": 10,
+      "timestamp": "2026-10-25T19:22:55.275719+00:00",
+      "kind": "evidence",
+      "payload": {
+        "id": "creative-3-plan",
+        "description": "Original independent first planning response from /root/creative_3; not an approval vote.",
+        "path": "/workspace/Mdaar21-new/docs/elite50/ad-concept-2026-10-25/evidence/initial/creative-3.md",
+        "sha256": "429fe0a1540cf197333518d5e65b67e78dca3053a2a7e33e9f4361a20f1f083b"
+      },
+      "previous_hash": "417e8fc29addaad89c92dc76c0b3752f51d7419c85653d786ba39485fa742f69",
+      "event_hash": "1624e4f743a9a1203d01c456c9785d8a300a7a5a8bded73155b38c27a314aed7"
+    },
+    {
+      "seq": 11,
+      "timestamp": "2026-10-25T19:22:55.276779+00:00",
+      "kind": "register",
+      "payload": {
+        "expert": "creative-4",
+        "runtime": "/root/creative_4",
+        "identity_basis": "trusted-operator-attestation"
+      },
+      "previous_hash": "1624e4f743a9a1203d01c456c9785d8a300a7a5a8bded73155b38c27a314aed7",
+      "event_hash": "77cbf9a6df10ba0e724d0a163ad6d92b3271ee02bf8f477f3b1eb982702e93ab"
+    },
+    {
+      "seq": 12,
+      "timestamp": "2026-10-25T19:22:55.277897+00:00",
+      "kind": "evidence",
+      "payload": {
+        "id": "creative-4-plan",
+        "description": "Original independent first planning response from /root/creative_4; not an approval vote.",
+        "path": "/workspace/Mdaar21-new/docs/elite50/ad-concept-2026-10-25/evidence/initial/creative-4.md",
+        "sha256": "6c7301bca2ae30c223d9a22d08519a2fd3ef21081cdabfaf4d9b0b4d1e114f0f"
+      },
+      "previous_hash": "77cbf9a6df10ba0e724d0a163ad6d92b3271ee02bf8f477f3b1eb982702e93ab",
+      "event_hash": "312083e8fa7f7da1bb4b72c9a06bcab20a6281f50dbd994f7922cee25f28c815"
+    },
+    {
+      "seq": 13,
+      "timestamp": "2026-10-25T19:22:55.278923+00:00",
+      "kind": "register",
+      "payload": {
+        "expert": "creative-5",
+        "runtime": "/root/creative_5",
+        "identity_basis": "trusted-operator-attestation"
+      },
+      "previous_hash": "312083e8fa7f7da1bb4b72c9a06bcab20a6281f50dbd994f7922cee25f28c815",
+      "event_hash": "3455e9d8d68834596e814f34266f137bcfb8abce6d1e3245063b5ecba3acb76c"
+    },
+    {
+      "seq": 14,
+      "timestamp": "2026-10-25T19:22:55.280080+00:00",
+      "kind": "evidence",
+      "payload": {
+        "id": "creative-5-plan",
+        "description": "Original independent first planning response from /root/creative_5; not an approval vote.",
+        "path": "/workspace/Mdaar21-new/docs/elite50/ad-concept-2026-10-25/evidence/initial/creative-5.md",
+        "sha256": "c54977396fb1f62bc3507d2b32fd654d466bceafc00c3aca030d04f6360b3960"
+      },
+      "previous_hash": "3455e9d8d68834596e814f34266f137bcfb8abce6d1e3245063b5ecba3acb76c",
+      "event_hash": "d753dc02ae1b38f14f8928b77d6fa6608be181e3f86403d26c49961d07d93c70"
+    },
+    {
+      "seq": 15,
+      "timestamp": "2026-10-25T19:22:55.281245+00:00",
+      "kind": "register",
+      "payload": {
+        "expert": "marketing-1",
+        "runtime": "/root/marketing_1",
+        "identity_basis": "trusted-operator-attestation"
+      },
+      "previous_hash": "d753dc02ae1b38f14f8928b77d6fa6608be181e3f86403d26c49961d07d93c70",
+      "event_hash": "af8c7fda06f10b2bedae6859e4dc8af87a5d6fd4f4c6522a79ebfcecb948850a"
+    },
+    {
+      "seq": 16,
+      "timestamp": "2026-10-25T19:22:55.282473+00:00",
+      "kind": "evidence",
+      "payload": {
+        "id": "marketing-1-plan",
+        "description": "Original independent first planning response from /root/marketing_1; not an approval vote.",
+        "path": "/workspace/Mdaar21-new/docs/elite50/ad-concept-2026-10-25/evidence/initial/marketing-1.md",
+        "sha256": "363aad953f4b0da3c7281e8231edd7b6f9bd05945331f2ad022363c30492dd79"
+      },
+      "previous_hash": "af8c7fda06f10b2bedae6859e4dc8af87a5d6fd4f4c6522a79ebfcecb948850a",
+      "event_hash": "440d2c6dd647a62a6d5e528178bf7ecee25f2bfae968a5555b2bd912b4264042"
+    },
+    {
+      "seq": 17,
+      "timestamp": "2026-10-25T19:22:55.283464+00:00",
+      "kind": "register",
+      "payload": {
+        "expert": "marketing-2",
+        "runtime": "/root/marketing_2",
+        "identity_basis": "trusted-operator-attestation"
+      },
+      "previous_hash": "440d2c6dd647a62a6d5e528178bf7ecee25f2bfae968a5555b2bd912b4264042",
+      "event_hash": "103f965e79124acae96dfd3970a955535e5a663490a376fb570798e8b52a83a4"
+    },
+    {
+      "seq": 18,
+      "timestamp": "2026-10-25T19:22:55.284815+00:00",
+      "kind": "evidence",
+      "payload": {
+        "id": "marketing-2-plan",
+        "description": "Original independent first planning response from /root/marketing_2; not an approval vote.",
+        "path": "/workspace/Mdaar21-new/docs/elite50/ad-concept-2026-10-25/evidence/initial/marketing-2.md",
+        "sha256": "68b2b8e06df0596468ad83a345178b842a80c9093a33159e827060c5aca7bd71"
+      },
+      "previous_hash": "103f965e79124acae96dfd3970a955535e5a663490a376fb570798e8b52a83a4",
+      "event_hash": "e508608df8330460b0a24e067f307578c6c8ba4afe926963b5805b50dade97a2"
+    },
+    {
+      "seq": 19,
+      "timestamp": "2026-10-25T19:22:55.285935+00:00",
+      "kind": "register",
+      "payload": {
+        "expert": "marketing-3",
+        "runtime": "/root/marketing_3",
+        "identity_basis": "trusted-operator-attestation"
+      },
+      "previous_hash": "e508608df8330460b0a24e067f307578c6c8ba4afe926963b5805b50dade97a2",
+      "event_hash": "ae419f4a2c02cf2c4fd0cef85f315aae7f1df0ce60364e9b4084b51d4b88a76f"
+    },
+    {
+      "seq": 20,
+      "timestamp": "2026-10-25T19:22:55.287258+00:00",
+      "kind": "evidence",
+      "payload": {
+        "id": "marketing-3-plan",
+        "description": "Original independent first planning response from /root/marketing_3; not an approval vote.",
+        "path": "/workspace/Mdaar21-new/docs/elite50/ad-concept-2026-10-25/evidence/initial/marketing-3.md",
+        "sha256": "7bb0673b8ce682adc7406ad2c1ed3cd61657fb4e410eb192c92a612cb7ec3dbb"
+      },
+      "previous_hash": "ae419f4a2c02cf2c4fd0cef85f315aae7f1df0ce60364e9b4084b51d4b88a76f",
+      "event_hash": "a882c08698d27c1cfa91af62c2ebb12e3b485875981ebccaddfd8e376583bbcb"
+    },
+    {
+      "seq": 21,
+      "timestamp": "2026-10-25T19:22:55.288392+00:00",
+      "kind": "register",
+      "payload": {
+        "expert": "marketing-4",
+        "runtime": "/root/marketing_4",
+        "identity_basis": "trusted-operator-attestation"
+      },
+      "previous_hash": "a882c08698d27c1cfa91af62c2ebb12e3b485875981ebccaddfd8e376583bbcb",
+      "event_hash": "bcabd803fe500a9df2d96e56fa423e445d0756825cfa4c44a5f88e9a9bd7827c"
+    },
+    {
+      "seq": 22,
+      "timestamp": "2026-10-25T19:22:55.289929+00:00",
+      "kind": "evidence",
+      "payload": {
+        "id": "marketing-4-plan",
+        "description": "Original independent first planning response from /root/marketing_4; not an approval vote.",
+        "path": "/workspace/Mdaar21-new/docs/elite50/ad-concept-2026-10-25/evidence/initial/marketing-4.md",
+        "sha256": "9ad7fa87049d93de98ca310a9c31eda45956d10723a23cb4ed81511e1cbe1aad"
+      },
+      "previous_hash": "bcabd803fe500a9df2d96e56fa423e445d0756825cfa4c44a5f88e9a9bd7827c",
+      "event_hash": "b016c848cfae255b949bd8476073f1d551c48143c04d907706dfcdfd24cc08e8"
+    },
+    {
+      "seq": 23,
+      "timestamp": "2026-10-25T19:22:55.291112+00:00",
+      "kind": "register",
+      "payload": {
+        "expert": "marketing-5",
+        "runtime": "/root/marketing_5",
+        "identity_basis": "trusted-operator-attestation"
+      },
+      "previous_hash": "b016c848cfae255b949bd8476073f1d551c48143c04d907706dfcdfd24cc08e8",
+      "event_hash": "610a4d868817d51f13a1acd47ce09236244fc93576a10bf8c7d5cc9db1d8db52"
+    },
+    {
+      "seq": 24,
+      "timestamp": "2026-10-25T19:22:55.292390+00:00",
+      "kind": "evidence",
+      "payload": {
+        "id": "marketing-5-plan",
+        "description": "Original independent first planning response from /root/marketing_5; not an approval vote.",
+        "path": "/workspace/Mdaar21-new/docs/elite50/ad-concept-2026-10-25/evidence/initial/marketing-5.md",
+        "sha256": "9016aa0a1ce03ae085a3815bdbbd500d39156d4a078a386a28d95c64eeb9f9f1"
+      },
+      "previous_hash": "610a4d868817d51f13a1acd47ce09236244fc93576a10bf8c7d5cc9db1d8db52",
+      "event_hash": "1347e2ceb9b2942106e2c057e0f705318b7864591c3fa346e33c6622584b520c"
+    },
+    {
+      "seq": 25,
+      "timestamp": "2026-10-25T19:22:55.294051+00:00",
+      "kind": "evidence",
+      "payload": {
+        "id": "runtime-receipts",
+        "description": "Actual task names returned by the host spawn tool; ten separate first-review contexts.",
+        "path": "/workspace/Mdaar21-new/docs/elite50/ad-concept-2026-10-25/evidence/runtime-receipts.json",
+        "sha256": "c06f7cb9d54f2ae48d0d4e9aface0510b211e0454071767a977b17c98c982954"
+      },
+      "previous_hash": "1347e2ceb9b2942106e2c057e0f705318b7864591c3fa346e33c6622584b520c",
+      "event_hash": "2ea3584beb8f6e00add87e5f659e1bbcd4cf3ae9cc824b54637f8ea3ba62df86"
+    },
+    {
+      "seq": 26,
+      "timestamp": "2026-10-25T19:24:49.833546+00:00",
+      "kind": "evidence",
+      "payload": {
+        "id": "marketing-5-original-corrected",
+        "description": "Faithful original planning text; the earlier coordinator transcription added the descriptive word صوتي to تعليق. No decision or meaning change. Earlier record retained.",
+        "path": "/workspace/Mdaar21-new/docs/elite50/ad-concept-2026-10-25/evidence/initial/marketing-5-source.md",
+        "sha256": "1d40c445ee915aac044ef7d2767cdea4d418d285c55fe035f8f6de9c4bf90ad4"
+      },
+      "previous_hash": "2ea3584beb8f6e00add87e5f659e1bbcd4cf3ae9cc824b54637f8ea3ba62df86",
+      "event_hash": "b96367a455568ee81f47133459dbed57b69c50ec49f56e02e30c8e2cbd0f5d10"
+    },
+    {
+      "seq": 27,
+      "timestamp": "2026-10-25T19:24:49.835607+00:00",
+      "kind": "snapshot",
+      "payload": {
+        "version": "ad-v1",
+        "files": [
+          {
+            "path": "/workspace/Mdaar21-new/docs/elite50/ad-concept-2026-10-25/concept.md",
+            "sha256": "0bc4ff395dd70ddcc20a831624f71d34e8487f8e972d33faeb5835a0e1465e0d"
+          },
+          {
+            "path": "/workspace/Mdaar21-new/docs/elite50/ad-concept-2026-10-25/facts.json",
+            "sha256": "c812301e1a5ac227aaf331af2ce7b4ab60cea0a5cc06ac406a441c476149f5c3"
+          },
+          {
+            "path": "/workspace/Mdaar21-new/docs/elite50/ad-concept-2026-10-25/storyboard.json",
+            "sha256": "07c00b53840d24d1d79e2400989a11e75744b1f35c6fb88fbae6267f498e1be8"
+          }
+        ],
+        "digest": "cdea2e3aaf949924dc8532e81f73fdcc7b274bf089c8e4fb2030017ae443e757"
+      },
+      "previous_hash": "b96367a455568ee81f47133459dbed57b69c50ec49f56e02e30c8e2cbd0f5d10",
+      "event_hash": "6688aa22ffc09062426d5756ac386b38ab94b804a576245f8090d44902a264b8"
+    },
+    {
+      "seq": 28,
+      "timestamp": "2026-10-25T19:26:46.635483+00:00",
+      "kind": "evidence",
+      "payload": {
+        "id": "spec-checks",
+        "description": "Executed primary-source, asset, timing, audio-flag and proposed reading-rate checks; not a rendered-video test.",
+        "path": "/workspace/Mdaar21-new/docs/elite50/ad-concept-2026-10-25/evidence/spec-checks.json",
+        "sha256": "406a76e42d158f0cb13a8f8d6200fff37c56f47ff82ae80593c24713bdfe4b65"
+      },
+      "previous_hash": "6688aa22ffc09062426d5756ac386b38ab94b804a576245f8090d44902a264b8",
+      "event_hash": "65875163246fef7b7767ae5335655787205cdbd26a8144cea6ffa584e1d89698"
+    },
+    {
+      "seq": 29,
+      "timestamp": "2026-10-25T19:26:46.637480+00:00",
+      "kind": "evidence",
+      "payload": {
+        "id": "shared-systems",
+        "description": "Actual coordinator checks from all six named shared systems; full audit explicitly PENDING.",
+        "path": "/workspace/Mdaar21-new/docs/elite50/ad-concept-2026-10-25/evidence/shared-systems.md",
+        "sha256": "7c5c0af81fe2b04f9a5b2cd0e794182af45735433677be59619473b19e23a243"
+      },
+      "previous_hash": "65875163246fef7b7767ae5335655787205cdbd26a8144cea6ffa584e1d89698",
+      "event_hash": "be743dc046762535bc80a22083aec54430c050464ee2fdd81532402fecc7f4cb"
+    },
+    {
+      "seq": 30,
+      "timestamp": "2026-10-25T19:26:46.641005+00:00",
+      "kind": "evidence",
+      "payload": {
+        "id": "council-scope",
+        "description": "Implementation scope and non-dispatch of forty experts, without fictitious approval.",
+        "path": "/workspace/Mdaar21-new/docs/elite50/ad-concept-2026-10-25/evidence/council-scope.json",
+        "sha256": "c9519a80d1dce871f1218e434e32e058791123a1394b5b8d9fabb2107ae4339f"
+      },
+      "previous_hash": "be743dc046762535bc80a22083aec54430c050464ee2fdd81532402fecc7f4cb",
+      "event_hash": "0f73b14d8affbca96279a173980bd0779319e5443428d24fb1d4f56cad30f20d"
+    },
+    {
+      "seq": 31,
+      "timestamp": "2026-10-25T19:26:46.645360+00:00",
+      "kind": "stage",
+      "payload": {
+        "name": "testing",
+        "evidence": [
+          "spec-checks"
+        ],
+        "version": "ad-v1",
+        "digest": "cdea2e3aaf949924dc8532e81f73fdcc7b274bf089c8e4fb2030017ae443e757"
+      },
+      "previous_hash": "0f73b14d8affbca96279a173980bd0779319e5443428d24fb1d4f56cad30f20d",
+      "event_hash": "98851cafc8f1b11e8a7cf95926660f8040f9f2c78bfcdfadaada4253c8793201"
+    },
+    {
+      "seq": 32,
+      "timestamp": "2026-10-25T19:26:46.647144+00:00",
+      "kind": "stage",
+      "payload": {
+        "name": "devils-advocate",
+        "evidence": [
+          "shared-systems",
+          "council-scope"
+        ],
+        "version": "ad-v1",
+        "digest": "cdea2e3aaf949924dc8532e81f73fdcc7b274bf089c8e4fb2030017ae443e757"
+      },
+      "previous_hash": "98851cafc8f1b11e8a7cf95926660f8040f9f2c78bfcdfadaada4253c8793201",
+      "event_hash": "44a8c93c0d5d8508999412319b4b2c9fab54ef63f9df2556fb34e76b0e29bcce"
+    },
+    {
+      "seq": 33,
+      "timestamp": "2026-10-25T19:26:46.648925+00:00",
+      "kind": "stage",
+      "payload": {
+        "name": "red-team",
+        "evidence": [
+          "shared-systems",
+          "council-scope"
+        ],
+        "version": "ad-v1",
+        "digest": "cdea2e3aaf949924dc8532e81f73fdcc7b274bf089c8e4fb2030017ae443e757"
+      },
+      "previous_hash": "44a8c93c0d5d8508999412319b4b2c9fab54ef63f9df2556fb34e76b0e29bcce",
+      "event_hash": "df6b3026fb777ca1fa8a9cc4cafce5b9e7df0e3fe325c07cf832a1f27f9b9d14"
+    },
+    {
+      "seq": 34,
+      "timestamp": "2026-10-25T19:26:46.651306+00:00",
+      "kind": "stage",
+      "payload": {
+        "name": "evidence-verification",
+        "evidence": [
+          "shared-systems",
+          "council-scope"
+        ],
+        "version": "ad-v1",
+        "digest": "cdea2e3aaf949924dc8532e81f73fdcc7b274bf089c8e4fb2030017ae443e757"
+      },
+      "previous_hash": "df6b3026fb777ca1fa8a9cc4cafce5b9e7df0e3fe325c07cf832a1f27f9b9d14",
+      "event_hash": "952d45edad8301543e04dc9cd2fb44e7a9bf6a7917fe23746c5bf0958aea2275"
+    },
+    {
+      "seq": 35,
+      "timestamp": "2026-10-25T19:26:46.652713+00:00",
+      "kind": "stage",
+      "payload": {
+        "name": "performance-comparison",
+        "evidence": [
+          "shared-systems",
+          "council-scope"
+        ],
+        "version": "ad-v1",
+        "digest": "cdea2e3aaf949924dc8532e81f73fdcc7b274bf089c8e4fb2030017ae443e757"
+      },
+      "previous_hash": "952d45edad8301543e04dc9cd2fb44e7a9bf6a7917fe23746c5bf0958aea2275",
+      "event_hash": "12ff109381c8f6e0707af0efd0c6c3f2c4fa3bf6c448df17a5d1b6375b37d184"
+    },
+    {
+      "seq": 36,
+      "timestamp": "2026-10-25T19:26:46.654458+00:00",
+      "kind": "stage",
+      "payload": {
+        "name": "final-audit",
+        "evidence": [
+          "shared-systems",
+          "council-scope"
+        ],
+        "version": "ad-v1",
+        "digest": "cdea2e3aaf949924dc8532e81f73fdcc7b274bf089c8e4fb2030017ae443e757"
+      },
+      "previous_hash": "12ff109381c8f6e0707af0efd0c6c3f2c4fa3bf6c448df17a5d1b6375b37d184",
+      "event_hash": "8905d5daad1401e8040b30e80274d0b8907dffef29e239d4c91917d295787722"
+    },
+    {
+      "seq": 37,
+      "timestamp": "2026-10-25T19:31:30.456176+00:00",
+      "kind": "evidence",
+      "payload": {
+        "id": "baseline-script",
+        "description": "Frozen existing 20-second ad script for structural design comparison, not campaign performance.",
+        "path": "/workspace/Mdaar21-new/docs/elite50/ad-concept-2026-10-25/evidence/baseline-script.md",
+        "sha256": "6c4e26ed1ede876041dbff36e4dd88bfaf324cf5544c9da55505036e2798b580"
+      },
+      "previous_hash": "8905d5daad1401e8040b30e80274d0b8907dffef29e239d4c91917d295787722",
+      "event_hash": "498dee557e144f0abdd3cf30157deae4e4cc9123c03154b947da28b16d085352"
+    },
+    {
+      "seq": 38,
+      "timestamp": "2026-10-25T19:31:30.458836+00:00",
+      "kind": "evidence",
+      "payload": {
+        "id": "creative-1-final-response",
+        "description": "Actual independent structured final response from /root/creative_1; all reasons, evidence findings and caveats preserved.",
+        "path": "/workspace/Mdaar21-new/docs/elite50/ad-concept-2026-10-25/evidence/final/creative-1.json",
+        "sha256": "3da4c107ccd6e6218baaff10dbc71002b9517fd470ab490ddc7bfd4b2f77f3f7"
+      },
+      "previous_hash": "498dee557e144f0abdd3cf30157deae4e4cc9123c03154b947da28b16d085352",
+      "event_hash": "1c1a17a9c37195e84c5282a05dbaa394de36e51061cdb1db030bc220d54615f8"
+    },
+    {
+      "seq": 39,
+      "timestamp": "2026-10-25T19:31:30.460747+00:00",
+      "kind": "vote",
+      "payload": {
+        "expert": "creative-1",
+        "version": "ad-v1",
+        "digest": "cdea2e3aaf949924dc8532e81f73fdcc7b274bf089c8e4fb2030017ae443e757",
+        "decision": "APPROVE",
+        "reason": "المعالجة متماسكة بصريًا كفكرة: هروب الدمبل يخلق موقفًا طريفًا، وأوراق «بكرا» تفسر السبب، ثم بدء الشخصية التمرين يردّ على الافتتاحية بقفلة واضحة. ظهور الدليل الرقمي على الجوال عند الثانية السابعة يربط المزحة بمنتج يساعد على تنظيم البداية. الهوية والأصول الأصلية ودور الشخصية محددة وقابلة للتنفيذ.",
+        "evidence": [
+          "brief",
+          "facts",
+          "spec-checks",
+          "shared-systems",
+          "creative-1-final-response"
+        ],
+        "runtime": "/root/creative_1"
+      },
+      "previous_hash": "1c1a17a9c37195e84c5282a05dbaa394de36e51061cdb1db030bc220d54615f8",
+      "event_hash": "8ffc2faffb98f423a9277eec7bb02fbe2ddc80f731d633774b587d26e5e11fee"
+    },
+    {
+      "seq": 40,
+      "timestamp": "2026-10-25T19:31:30.462794+00:00",
+      "kind": "evidence",
+      "payload": {
+        "id": "creative-2-final-response",
+        "description": "Actual independent structured final response from /root/creative_2; all reasons, evidence findings and caveats preserved.",
+        "path": "/workspace/Mdaar21-new/docs/elite50/ad-concept-2026-10-25/evidence/final/creative-2.json",
+        "sha256": "559ff4d85a0e820f11935dd7e5d3a41eaabda8c92e8e9f410d696a147a0b7e01"
+      },
+      "previous_hash": "8ffc2faffb98f423a9277eec7bb02fbe2ddc80f731d633774b587d26e5e11fee",
+      "event_hash": "89acc177526cb8dd65fc276667eefa997137427cefed487e15f492c65323e78a"
+    },
+    {
+      "seq": 41,
+      "timestamp": "2026-10-25T19:31:30.464675+00:00",
+      "kind": "vote",
+      "payload": {
+        "expert": "creative-2",
+        "version": "ad-v1",
+        "digest": "cdea2e3aaf949924dc8532e81f73fdcc7b274bf089c8e4fb2030017ae443e757",
+        "decision": "APPROVE",
+        "reason": "المعالجة مناسبة كفكرة: تسلسل بصري واضح، نصوص قصيرة، ثلاث رسائل منفصلة بثلاث ثوانٍ لكل منها، وكشف المنتج الرقمي عند الثانية السابعة. تثبيت الدعوة أربع ثوانٍ يدعم القراءة على الهاتف.",
+        "evidence": [
+          "brief",
+          "facts",
+          "spec-checks",
+          "shared-systems",
+          "creative-2-final-response"
+        ],
+        "runtime": "/root/creative_2"
+      },
+      "previous_hash": "89acc177526cb8dd65fc276667eefa997137427cefed487e15f492c65323e78a",
+      "event_hash": "0452c676ff14eadde4f950a16e1416421e997ed4551a1faa821aa45b302190e5"
+    },
+    {
+      "seq": 42,
+      "timestamp": "2026-10-25T19:31:30.466511+00:00",
+      "kind": "evidence",
+      "payload": {
+        "id": "creative-3-final-response",
+        "description": "Actual independent structured final response from /root/creative_3; all reasons, evidence findings and caveats preserved.",
+        "path": "/workspace/Mdaar21-new/docs/elite50/ad-concept-2026-10-25/evidence/final/creative-3.json",
+        "sha256": "0cdad6ac2e824b1053709590a112046145342235a4481b54f953a905c7db6d28"
+      },
+      "previous_hash": "0452c676ff14eadde4f950a16e1416421e997ed4551a1faa821aa45b302190e5",
+      "event_hash": "b1a1522fe9b55bef437ac82695604f07a2121d0b3c54f89645ec36621ba07672"
+    },
+    {
+      "seq": 43,
+      "timestamp": "2026-10-25T19:31:30.468501+00:00",
+      "kind": "vote",
+      "payload": {
+        "expert": "creative-3",
+        "version": "ad-v1",
+        "digest": "cdea2e3aaf949924dc8532e81f73fdcc7b274bf089c8e4fb2030017ae443e757",
+        "decision": "APPROVE",
+        "reason": "المعالجة تستوفي نطاق الفكرة: مزحة بصرية يمكن فهمها صامتة، وشخصية ثابتة بلا ملامح. ظهور الغلاف داخل الجوال مع «دليل رقمي» يوضح طبيعة المنتج، والوصفات منفصلة عن صفحات الدليل. دعوة شراء واحدة تنتهي برابط المنتج وتثبت أربع ثوانٍ.",
+        "evidence": [
+          "brief",
+          "facts",
+          "spec-checks",
+          "shared-systems",
+          "creative-3-final-response"
+        ],
+        "runtime": "/root/creative_3"
+      },
+      "previous_hash": "b1a1522fe9b55bef437ac82695604f07a2121d0b3c54f89645ec36621ba07672",
+      "event_hash": "7062ce08e24484e3d242c848bcad6aac6455c4a187e7bf4edb138d40dddd5479"
+    },
+    {
+      "seq": 44,
+      "timestamp": "2026-10-25T19:31:30.470541+00:00",
+      "kind": "evidence",
+      "payload": {
+        "id": "creative-4-final-response",
+        "description": "Actual independent structured final response from /root/creative_4; all reasons, evidence findings and caveats preserved.",
+        "path": "/workspace/Mdaar21-new/docs/elite50/ad-concept-2026-10-25/evidence/final/creative-4.json",
+        "sha256": "245587cbdf0c5b37b8119d53ef08c2258b0763aa5fcfb8f34d1415131c1ee891"
+      },
+      "previous_hash": "7062ce08e24484e3d242c848bcad6aac6455c4a187e7bf4edb138d40dddd5479",
+      "event_hash": "257fa06f97b986c916b58846fbefdf2362561cc0a083d56a2b959caecd5afc67"
+    },
+    {
+      "seq": 45,
+      "timestamp": "2026-10-25T19:31:30.472289+00:00",
+      "kind": "vote",
+      "payload": {
+        "expert": "creative-4",
+        "version": "ad-v1",
+        "digest": "cdea2e3aaf949924dc8532e81f73fdcc7b274bf089c8e4fb2030017ae443e757",
+        "decision": "APPROVE",
+        "reason": "أوافق على الفكرة ضمن نطاق المعالجة النصية: قفزة الدمبل وتوقف اليد يصنعان كوميديا قابلة للتحريك بلا ملامح، والانتقال الورقي يخدم كشف المنتج. الإيقاع بالمؤثرات والصمت واضح، والتنفيذ ممكن بتحريك ثنائي الأبعاد محدود التكلفة، دون دوران سريع أو ومضات.",
+        "evidence": [
+          "brief",
+          "facts",
+          "spec-checks",
+          "shared-systems",
+          "creative-4-final-response"
+        ],
+        "runtime": "/root/creative_4"
+      },
+      "previous_hash": "257fa06f97b986c916b58846fbefdf2362561cc0a083d56a2b959caecd5afc67",
+      "event_hash": "94c8095cec88b44f43135193d37364004dad95edbfcf1910dacb5a173a8c6660"
+    },
+    {
+      "seq": 46,
+      "timestamp": "2026-10-25T19:31:30.474094+00:00",
+      "kind": "evidence",
+      "payload": {
+        "id": "creative-5-final-response",
+        "description": "Actual independent structured final response from /root/creative_5; all reasons, evidence findings and caveats preserved.",
+        "path": "/workspace/Mdaar21-new/docs/elite50/ad-concept-2026-10-25/evidence/final/creative-5.json",
+        "sha256": "873e65d70aa465db5c105402bc5e4ad14884b71df767d554cc2ea690b26e8911"
+      },
+      "previous_hash": "94c8095cec88b44f43135193d37364004dad95edbfcf1910dacb5a173a8c6660",
+      "event_hash": "4b5d444145a97a38d4362472d6634f8ef005480dd95bc21c67884fcba8451600"
+    },
+    {
+      "seq": 47,
+      "timestamp": "2026-10-25T19:31:30.476447+00:00",
+      "kind": "vote",
+      "payload": {
+        "expert": "creative-5",
+        "version": "ad-v1",
+        "digest": "cdea2e3aaf949924dc8532e81f73fdcc7b274bf089c8e4fb2030017ae443e757",
+        "decision": "APPROVE",
+        "reason": "المعالجة متسقة مع هوية الأسود والذهبي والعاجي، وتحافظ على الشخصية والغلاف والشعار الأصليين. ظهور الغلاف على الجوال مع «دليل رقمي» عند الثانية السابعة، وفصل وصفات التطبيق عن صفحات الدليل، يحدّان من التباس الدمبل والشنطة بالعرض المباع. الفكرة مناسبة لطلب تصور إعلاني.",
+        "evidence": [
+          "brief",
+          "facts",
+          "spec-checks",
+          "shared-systems",
+          "creative-5-final-response"
+        ],
+        "runtime": "/root/creative_5"
+      },
+      "previous_hash": "4b5d444145a97a38d4362472d6634f8ef005480dd95bc21c67884fcba8451600",
+      "event_hash": "142e3a02b14a1b2e16a3b48151b0cc4d4cafe7eb47cd9954f90a58f5b87630e6"
+    },
+    {
+      "seq": 48,
+      "timestamp": "2026-10-25T19:31:30.478375+00:00",
+      "kind": "evidence",
+      "payload": {
+        "id": "marketing-1-final-response",
+        "description": "Actual independent structured final response from /root/marketing_1; all reasons, evidence findings and caveats preserved.",
+        "path": "/workspace/Mdaar21-new/docs/elite50/ad-concept-2026-10-25/evidence/final/marketing-1.json",
+        "sha256": "cdf2f06e04c9f5976dc9af6466822a922f284891a86e0657df1fc13661d8932c"
+      },
+      "previous_hash": "142e3a02b14a1b2e16a3b48151b0cc4d4cafe7eb47cd9954f90a58f5b87630e6",
+      "event_hash": "ed0a3a8430be1a7cb7fb292098c5c18ba47433d4372623d6ea34dd3c8a5e9303"
+    },
+    {
+      "seq": 49,
+      "timestamp": "2026-10-25T19:31:30.480594+00:00",
+      "kind": "vote",
+      "payload": {
+        "expert": "marketing-1",
+        "version": "ad-v1",
+        "digest": "cdea2e3aaf949924dc8532e81f73fdcc7b274bf089c8e4fb2030017ae443e757",
+        "decision": "APPROVE",
+        "reason": "مقبول كفكرة إعلان: استقالة الدمبل تصوّر تأجيل التمرين بمزحة واضحة، ثم تربط البداية باختيار برنامج فعلي. كشف الدليل الرقمي عند الثانية السابعة يوضح العرض، والميزات صحيحة مع فصل وصفات التطبيق عن صفحات الدليل. دعوة الشراء مباشرة دون وعود أداء.",
+        "evidence": [
+          "brief",
+          "facts",
+          "spec-checks",
+          "shared-systems",
+          "marketing-1-final-response"
+        ],
+        "runtime": "/root/marketing_1"
+      },
+      "previous_hash": "ed0a3a8430be1a7cb7fb292098c5c18ba47433d4372623d6ea34dd3c8a5e9303",
+      "event_hash": "75c9523a84d85c26fa68a489248e58a6249d9f0768c22571e71f8673035fdb6b"
+    },
+    {
+      "seq": 50,
+      "timestamp": "2026-10-25T19:31:30.482786+00:00",
+      "kind": "evidence",
+      "payload": {
+        "id": "marketing-2-final-response",
+        "description": "Actual independent structured final response from /root/marketing_2; all reasons, evidence findings and caveats preserved.",
+        "path": "/workspace/Mdaar21-new/docs/elite50/ad-concept-2026-10-25/evidence/final/marketing-2.json",
+        "sha256": "0fcb3ae2fa63d071de4ff0a927938aa6cf4dd351a861b2d18c9c4a9b558717c7"
+      },
+      "previous_hash": "75c9523a84d85c26fa68a489248e58a6249d9f0768c22571e71f8673035fdb6b",
+      "event_hash": "7b282b1f656ea12420ef626a400daca97a0fac1239b83af361f1cd9326f12d7e"
+    },
+    {
+      "seq": 51,
+      "timestamp": "2026-10-25T19:31:30.484760+00:00",
+      "kind": "vote",
+      "payload": {
+        "expert": "marketing-2",
+        "version": "ad-v1",
+        "digest": "cdea2e3aaf949924dc8532e81f73fdcc7b274bf089c8e4fb2030017ae443e757",
+        "decision": "APPROVE",
+        "reason": "مناسب كنطاق فكرة: السؤال يثير الفضول، والمزحة بصرية، والكشف عند الثانية السابعة يوضح المنتج الرقمي. المزايا موثقة ويفصل العرض وصفات التطبيق عن صفحات الدليل. دعوة الشراء ثابتة أربع ثوان وتقود للمنتج مباشرة. اختبار الافتتاحية قابل للتنفيذ ولا يتضمن نتائج مختلقة.",
+        "evidence": [
+          "brief",
+          "facts",
+          "spec-checks",
+          "shared-systems",
+          "marketing-2-final-response"
+        ],
+        "runtime": "/root/marketing_2"
+      },
+      "previous_hash": "7b282b1f656ea12420ef626a400daca97a0fac1239b83af361f1cd9326f12d7e",
+      "event_hash": "730897e0dc55514f63ad89ed7feedc5004ab566c4935aae730affde42b967a9f"
+    },
+    {
+      "seq": 52,
+      "timestamp": "2026-10-25T19:31:30.486753+00:00",
+      "kind": "evidence",
+      "payload": {
+        "id": "marketing-3-final-response",
+        "description": "Actual independent structured final response from /root/marketing_3; all reasons, evidence findings and caveats preserved.",
+        "path": "/workspace/Mdaar21-new/docs/elite50/ad-concept-2026-10-25/evidence/final/marketing-3.json",
+        "sha256": "2389cde0b4e8a631961407c30e0b55d7819f8e145331818870312837c1a074e0"
+      },
+      "previous_hash": "730897e0dc55514f63ad89ed7feedc5004ab566c4935aae730affde42b967a9f",
+      "event_hash": "d412f3bfca0a02a73d372357eea30a6ff4165c33269a8c16d515826baa4fbedc"
+    },
+    {
+      "seq": 53,
+      "timestamp": "2026-10-25T19:31:30.489075+00:00",
+      "kind": "vote",
+      "payload": {
+        "expert": "marketing-3",
+        "version": "ad-v1",
+        "digest": "cdea2e3aaf949924dc8532e81f73fdcc7b274bf089c8e4fb2030017ae443e757",
+        "decision": "APPROVE",
+        "reason": "مقبول كفكرة إعلان: السؤال والمزحة المرئية مترابطان، ويظهر المنتج الرقمي بغلافه الأصلي عند الثانية السابعة. الرسائل تفصل دليل ٣٤ صفحة عن وصفات التطبيق، وتطابق الحقائق. الدعوة ثابتة أربع ثوان ورابط الإعلان محدد لصفحة المنتج. المحتوى الدلالي ضمن اختصاصي ومفهوم؛ الفهرسة وSEO التقني خارج نطاق طلب الفكرة.",
+        "evidence": [
+          "brief",
+          "facts",
+          "spec-checks",
+          "shared-systems",
+          "marketing-3-final-response"
+        ],
+        "runtime": "/root/marketing_3"
+      },
+      "previous_hash": "d412f3bfca0a02a73d372357eea30a6ff4165c33269a8c16d515826baa4fbedc",
+      "event_hash": "170a6e31da4f75eb706c077e1cbd339c14953db7e9dcd5935d67edff8f471abd"
+    },
+    {
+      "seq": 54,
+      "timestamp": "2026-10-25T19:31:30.491154+00:00",
+      "kind": "evidence",
+      "payload": {
+        "id": "marketing-4-final-response",
+        "description": "Actual independent structured final response from /root/marketing_4; all reasons, evidence findings and caveats preserved.",
+        "path": "/workspace/Mdaar21-new/docs/elite50/ad-concept-2026-10-25/evidence/final/marketing-4.json",
+        "sha256": "11a838752e68b241da6b7679217b69aae8ff3a85fa7690318157263c1d697b0f"
+      },
+      "previous_hash": "170a6e31da4f75eb706c077e1cbd339c14953db7e9dcd5935d67edff8f471abd",
+      "event_hash": "1ac46eb9ee331d0ddf5edd115c508ba79990155c92b8b8b89fe6ef78f11d5078"
+    },
+    {
+      "seq": 55,
+      "timestamp": "2026-10-25T19:31:30.493132+00:00",
+      "kind": "vote",
+      "payload": {
+        "expert": "marketing-4",
+        "version": "ad-v1",
+        "digest": "cdea2e3aaf949924dc8532e81f73fdcc7b274bf089c8e4fb2030017ae443e757",
+        "decision": "APPROVE",
+        "reason": "أوافق على الفكرة النصية: استقالة الدمبل موقف بصري مميز يتجاوز الحيرة المعتادة، وخطافه مفهوم باللهجة السعودية وقفلة رفض الاستقالة تكمل المزحة. ظهور الغلاف على الجوال عند الثانية السابعة يوضح العرض الرقمي، والرسائل الثلاث تفصل وصفات التطبيق عن صفحات الدليل بلا وعود نتائج.",
+        "evidence": [
+          "brief",
+          "facts",
+          "spec-checks",
+          "shared-systems",
+          "marketing-4-final-response"
+        ],
+        "runtime": "/root/marketing_4"
+      },
+      "previous_hash": "1ac46eb9ee331d0ddf5edd115c508ba79990155c92b8b8b89fe6ef78f11d5078",
+      "event_hash": "5f3fe8bdefdb9536be67dab1bc8e85ad61597d78d505cb582bca84eb0da047d1"
+    },
+    {
+      "seq": 56,
+      "timestamp": "2026-10-25T19:31:30.495356+00:00",
+      "kind": "evidence",
+      "payload": {
+        "id": "marketing-5-final-response",
+        "description": "Actual independent structured final response from /root/marketing_5; all reasons, evidence findings and caveats preserved.",
+        "path": "/workspace/Mdaar21-new/docs/elite50/ad-concept-2026-10-25/evidence/final/marketing-5.json",
+        "sha256": "4c43dcb82db88c0c0a96cde71025b4f1bc1393e1a7942c01388144613d86795b"
+      },
+      "previous_hash": "5f3fe8bdefdb9536be67dab1bc8e85ad61597d78d505cb582bca84eb0da047d1",
+      "event_hash": "b4cadc13ee7125528372d278c04a0a43506e2b9c72b2c762782f90a81bf7b5fa"
+    },
+    {
+      "seq": 57,
+      "timestamp": "2026-10-25T19:31:30.497927+00:00",
+      "kind": "vote",
+      "payload": {
+        "expert": "marketing-5",
+        "version": "ad-v1",
+        "digest": "cdea2e3aaf949924dc8532e81f73fdcc7b274bf089c8e4fb2030017ae443e757",
+        "decision": "APPROVE",
+        "reason": "الفكرة تستوفي نطاق المقترح: كشف رقمي واضح، مزايا موثقة ومسار شراء مباشر. مقارنة الافتتاحيتين فرضية قابلة للاختبار مع تثبيت بقية الإعلان وتحديد المعيار والعينة مسبقًا. يفصل المقترح النقرات عن الطلبات المدفوعة ولا يدّعي نتائج فعلية.",
+        "evidence": [
+          "brief",
+          "facts",
+          "spec-checks",
+          "shared-systems",
+          "marketing-5-final-response"
+        ],
+        "runtime": "/root/marketing_5"
+      },
+      "previous_hash": "b4cadc13ee7125528372d278c04a0a43506e2b9c72b2c762782f90a81bf7b5fa",
+      "event_hash": "5a761305d152a68c62534a3e6cccba189a00d10a358d798bfc903cd89f4fb362"
+    },
+    {
+      "seq": 58,
+      "timestamp": "2026-10-25T19:33:09.088725+00:00",
+      "kind": "evidence",
+      "payload": {
+        "id": "post-vote-audit",
+        "description": "Final coordinator integrity and participation audit: 10 actual same-version approvals; full 50-expert consensus remains PENDING.",
+        "path": "/workspace/Mdaar21-new/docs/elite50/ad-concept-2026-10-25/evidence/post-vote-audit.json",
+        "sha256": "d618f3d7e3a750b7ae39e3888b39f99a5162c7c8be58228c2f1cc884165600d3"
+      },
+      "previous_hash": "5a761305d152a68c62534a3e6cccba189a00d10a358d798bfc903cd89f4fb362",
+      "event_hash": "29d33c1828f2b91675efc1a2bb74a4d760eb099811c1cff551363c6ad9c6fd5c"
+    },
+    {
+      "seq": 59,
+      "timestamp": "2026-10-25T19:33:09.091531+00:00",
+      "kind": "stage",
+      "payload": {
+        "name": "final-audit",
+        "evidence": [
+          "post-vote-audit",
+          "shared-systems",
+          "council-scope"
+        ],
+        "version": "ad-v1",
+        "digest": "cdea2e3aaf949924dc8532e81f73fdcc7b274bf089c8e4fb2030017ae443e757"
+      },
+      "previous_hash": "29d33c1828f2b91675efc1a2bb74a4d760eb099811c1cff551363c6ad9c6fd5c",
+      "event_hash": "fc129743a1dfff1293262b6cca05ed3700f20146356937e59d00202b55e34ade"
+    }
+  ]
+}

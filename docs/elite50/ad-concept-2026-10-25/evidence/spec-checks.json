@@ -1,0 +1,88 @@
+{
+  "command": "Python spec, asset and primary-source checks executed on storyboard.json/facts.json",
+  "exitStatus": 0,
+  "duration": 25,
+  "contiguousScenes": 8,
+  "featureMessages": 3,
+  "digitalProductRevealSecond": 7,
+  "ctaHoldSeconds": 4,
+  "sourceFactsVerified": true,
+  "assetsExist": true,
+  "music": false,
+  "voiceover": false,
+  "readingPlan": [
+    {
+      "range": [
+        0,
+        2
+      ],
+      "words": 3,
+      "plannedWordsPerSecond": 1.5,
+      "role": "hook"
+    },
+    {
+      "range": [
+        2,
+        6
+      ],
+      "words": 1,
+      "plannedWordsPerSecond": 0.25,
+      "role": "setup"
+    },
+    {
+      "range": [
+        6,
+        9
+      ],
+      "words": 5,
+      "plannedWordsPerSecond": 1.67,
+      "role": "reveal"
+    },
+    {
+      "range": [
+        9,
+        12
+      ],
+      "words": 5,
+      "plannedWordsPerSecond": 1.67,
+      "role": "feature"
+    },
+    {
+      "range": [
+        12,
+        15
+      ],
+      "words": 6,
+      "plannedWordsPerSecond": 2.0,
+      "role": "feature"
+    },
+    {
+      "range": [
+        15,
+        18
+      ],
+      "words": 4,
+      "plannedWordsPerSecond": 1.33,
+      "role": "feature"
+    },
+    {
+      "range": [
+        18,
+        21
+      ],
+      "words": 3,
+      "plannedWordsPerSecond": 1.0,
+      "role": "payoff"
+    },
+    {
+      "range": [
+        21,
+        25
+      ],
+      "words": 4,
+      "plannedWordsPerSecond": 1.0,
+      "role": "cta"
+    }
+  ],
+  "limits": "Text/spec consistency only; no rendered frames, audience comprehension test, campaign, sales or legal endorsement."
+}

@@ -1,0 +1,137 @@
+{
+  "expert": {
+    "id": "creative-5",
+    "council": "creative",
+    "role": "Brand Designer",
+    "personality": "انيق وبسيط",
+    "criteria": [
+      "Brand consistency",
+      "contrast",
+      "reusable identity"
+    ]
+  },
+  "task": "Create one Saudi Mdaar ad concept: independent creative and marketing councils; faceless character; effects-only; evidence-linked partial review.",
+  "solution": {
+    "version": "ad-v1",
+    "files": [
+      {
+        "path": "/workspace/Mdaar21-new/docs/elite50/ad-concept-2026-10-25/concept.md",
+        "sha256": "0bc4ff395dd70ddcc20a831624f71d34e8487f8e972d33faeb5835a0e1465e0d"
+      },
+      {
+        "path": "/workspace/Mdaar21-new/docs/elite50/ad-concept-2026-10-25/facts.json",
+        "sha256": "c812301e1a5ac227aaf331af2ce7b4ab60cea0a5cc06ac406a441c476149f5c3"
+      },
+      {
+        "path": "/workspace/Mdaar21-new/docs/elite50/ad-concept-2026-10-25/storyboard.json",
+        "sha256": "07c00b53840d24d1d79e2400989a11e75744b1f35c6fb88fbae6267f498e1be8"
+      }
+    ],
+    "digest": "cdea2e3aaf949924dc8532e81f73fdcc7b274bf089c8e4fb2030017ae443e757"
+  },
+  "evidence_catalog": [
+    {
+      "id": "brief",
+      "description": "User request, persistent visual/audio constraints and acceptance criteria.",
+      "path": "/workspace/Mdaar21-new/docs/elite50/ad-concept-2026-10-25/brief.md",
+      "sha256": "41accace05940fe61ba7a0f141894da5d509e35e5d00873195e8e439070e77b5"
+    },
+    {
+      "id": "facts",
+      "description": "Actual recipe/program counts and PDF page count from repository files, with hashes.",
+      "path": "/workspace/Mdaar21-new/docs/elite50/ad-concept-2026-10-25/facts.json",
+      "sha256": "c812301e1a5ac227aaf331af2ce7b4ab60cea0a5cc06ac406a441c476149f5c3"
+    },
+    {
+      "id": "creative-1-plan",
+      "description": "Original independent first planning response from /root/creative_1; not an approval vote.",
+      "path": "/workspace/Mdaar21-new/docs/elite50/ad-concept-2026-10-25/evidence/initial/creative-1.md",
+      "sha256": "b5539346e5a0fda9048f4e445c6e3bc1810efe9f9096edf8fdc63747bc51d284"
+    },
+    {
+      "id": "creative-2-plan",
+      "description": "Original independent first planning response from /root/creative_2; not an approval vote.",
+      "path": "/workspace/Mdaar21-new/docs/elite50/ad-concept-2026-10-25/evidence/initial/creative-2.md",
+      "sha256": "be023f4e8cb6fbc7f06b4118719f1b269d02f0ee827fda8385c6fe61715c4390"
+    },
+    {
+      "id": "creative-3-plan",
+      "description": "Original independent first planning response from /root/creative_3; not an approval vote.",
+      "path": "/workspace/Mdaar21-new/docs/elite50/ad-concept-2026-10-25/evidence/initial/creative-3.md",
+      "sha256": "429fe0a1540cf197333518d5e65b67e78dca3053a2a7e33e9f4361a20f1f083b"
+    },
+    {
+      "id": "creative-4-plan",
+      "description": "Original independent first planning response from /root/creative_4; not an approval vote.",
+      "path": "/workspace/Mdaar21-new/docs/elite50/ad-concept-2026-10-25/evidence/initial/creative-4.md",
+      "sha256": "6c7301bca2ae30c223d9a22d08519a2fd3ef21081cdabfaf4d9b0b4d1e114f0f"
+    },
+    {
+      "id": "creative-5-plan",
+      "description": "Original independent first planning response from /root/creative_5; not an approval vote.",
+      "path": "/workspace/Mdaar21-new/docs/elite50/ad-concept-2026-10-25/evidence/initial/creative-5.md",
+      "sha256": "c54977396fb1f62bc3507d2b32fd654d466bceafc00c3aca030d04f6360b3960"
+    },
+    {
+      "id": "marketing-1-plan",
+      "description": "Original independent first planning response from /root/marketing_1; not an approval vote.",
+      "path": "/workspace/Mdaar21-new/docs/elite50/ad-concept-2026-10-25/evidence/initial/marketing-1.md",
+      "sha256": "363aad953f4b0da3c7281e8231edd7b6f9bd05945331f2ad022363c30492dd79"
+    },
+    {
+      "id": "marketing-2-plan",
+      "description": "Original independent first planning response from /root/marketing_2; not an approval vote.",
+      "path": "/workspace/Mdaar21-new/docs/elite50/ad-concept-2026-10-25/evidence/initial/marketing-2.md",
+      "sha256": "68b2b8e06df0596468ad83a345178b842a80c9093a33159e827060c5aca7bd71"
+    },
+    {
+      "id": "marketing-3-plan",
+      "description": "Original independent first planning response from /root/marketing_3; not an approval vote.",
+      "path": "/workspace/Mdaar21-new/docs/elite50/ad-concept-2026-10-25/evidence/initial/marketing-3.md",
+      "sha256": "7bb0673b8ce682adc7406ad2c1ed3cd61657fb4e410eb192c92a612cb7ec3dbb"
+    },
+    {
+      "id": "marketing-4-plan",
+      "description": "Original independent first planning response from /root/marketing_4; not an approval vote.",
+      "path": "/workspace/Mdaar21-new/docs/elite50/ad-concept-2026-10-25/evidence/initial/marketing-4.md",
+      "sha256": "9ad7fa87049d93de98ca310a9c31eda45956d10723a23cb4ed81511e1cbe1aad"
+    },
+    {
+      "id": "marketing-5-plan",
+      "description": "Original independent first planning response from /root/marketing_5; not an approval vote.",
+      "path": "/workspace/Mdaar21-new/docs/elite50/ad-concept-2026-10-25/evidence/initial/marketing-5.md",
+      "sha256": "9016aa0a1ce03ae085a3815bdbbd500d39156d4a078a386a28d95c64eeb9f9f1"
+    },
+    {
+      "id": "runtime-receipts",
+      "description": "Actual task names returned by the host spawn tool; ten separate first-review contexts.",
+      "path": "/workspace/Mdaar21-new/docs/elite50/ad-concept-2026-10-25/evidence/runtime-receipts.json",
+      "sha256": "c06f7cb9d54f2ae48d0d4e9aface0510b211e0454071767a977b17c98c982954"
+    },
+    {
+      "id": "marketing-5-original-corrected",
+      "description": "Faithful original planning text; the earlier coordinator transcription added the descriptive word صوتي to تعليق. No decision or meaning change. Earlier record retained.",
+      "path": "/workspace/Mdaar21-new/docs/elite50/ad-concept-2026-10-25/evidence/initial/marketing-5-source.md",
+      "sha256": "1d40c445ee915aac044ef7d2767cdea4d418d285c55fe035f8f6de9c4bf90ad4"
+    },
+    {
+      "id": "spec-checks",
+      "description": "Executed primary-source, asset, timing, audio-flag and proposed reading-rate checks; not a rendered-video test.",
+      "path": "/workspace/Mdaar21-new/docs/elite50/ad-concept-2026-10-25/evidence/spec-checks.json",
+      "sha256": "406a76e42d158f0cb13a8f8d6200fff37c56f47ff82ae80593c24713bdfe4b65"
+    },
+    {
+      "id": "shared-systems",
+      "description": "Actual coordinator checks from all six named shared systems; full audit explicitly PENDING.",
+      "path": "/workspace/Mdaar21-new/docs/elite50/ad-concept-2026-10-25/evidence/shared-systems.md",
+      "sha256": "7c5c0af81fe2b04f9a5b2cd0e794182af45735433677be59619473b19e23a243"
+    },
+    {
+      "id": "council-scope",
+      "description": "Implementation scope and non-dispatch of forty experts, without fictitious approval.",
+      "path": "/workspace/Mdaar21-new/docs/elite50/ad-concept-2026-10-25/evidence/council-scope.json",
+      "sha256": "c9519a80d1dce871f1218e434e32e058791123a1394b5b8d9fabb2107ae4339f"
+    }
+  ],
+  "instructions": "Evaluate independently using your criteria. Do not read other initial reviews or votes. Return decision, concrete reasons, inspected evidence, and tests. Never invent evidence. Register actual independent runtime before recording votes."
+}

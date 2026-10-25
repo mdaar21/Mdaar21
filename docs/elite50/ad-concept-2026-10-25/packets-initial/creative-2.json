@@ -1,0 +1,43 @@
+{
+  "expert": {
+    "id": "creative-2",
+    "council": "creative",
+    "role": "UI Designer",
+    "personality": "يهتم بالتفاصيل",
+    "criteria": [
+      "Typography",
+      "spacing",
+      "interaction states"
+    ]
+  },
+  "task": "Create one Saudi Mdaar ad concept: independent creative and marketing councils; faceless character; effects-only; evidence-linked partial review.",
+  "solution": {
+    "version": "brief-v1",
+    "files": [
+      {
+        "path": "/workspace/Mdaar21-new/docs/elite50/ad-concept-2026-10-25/brief.md",
+        "sha256": "41accace05940fe61ba7a0f141894da5d509e35e5d00873195e8e439070e77b5"
+      },
+      {
+        "path": "/workspace/Mdaar21-new/docs/elite50/ad-concept-2026-10-25/facts.json",
+        "sha256": "c812301e1a5ac227aaf331af2ce7b4ab60cea0a5cc06ac406a441c476149f5c3"
+      }
+    ],
+    "digest": "d1ad0d87f3df3ae74b4c7d3d50f742bf93cb4a31e39fbb7c89ce90b40e53ef2c"
+  },
+  "evidence_catalog": [
+    {
+      "id": "brief",
+      "description": "User request, persistent visual/audio constraints and acceptance criteria.",
+      "path": "/workspace/Mdaar21-new/docs/elite50/ad-concept-2026-10-25/brief.md",
+      "sha256": "41accace05940fe61ba7a0f141894da5d509e35e5d00873195e8e439070e77b5"
+    },
+    {
+      "id": "facts",
+      "description": "Actual recipe/program counts and PDF page count from repository files, with hashes.",
+      "path": "/workspace/Mdaar21-new/docs/elite50/ad-concept-2026-10-25/facts.json",
+      "sha256": "c812301e1a5ac227aaf331af2ce7b4ab60cea0a5cc06ac406a441c476149f5c3"
+    }
+  ],
+  "instructions": "Evaluate independently using your criteria. Do not read other initial reviews or votes. Return decision, concrete reasons, inspected evidence, and tests. Never invent evidence. Register actual independent runtime before recording votes."
+}

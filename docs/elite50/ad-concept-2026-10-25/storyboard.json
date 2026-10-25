@@ -1,0 +1,21 @@
+{
+  "title": "الدمبل قدّم استقالته",
+  "durationSeconds": 25,
+  "format": "9:16",
+  "audio": {"music": false, "voiceover": false, "effectsOnly": true},
+  "character": {"blankFace": true, "blackHair": true, "goldShirt": true, "blackPants": true, "creamOutline": true, "centralThroughout": true},
+  "productFirstVisibleAt": 7,
+  "scenes": [
+    {"start": 0, "end": 2, "copy": "دمبلك قدّم استقالة؟!", "role": "hook", "action": "دمبل بلا وجه يقفز نحو المخرج ومعه شنطة صغيرة. الشخصية بلا ملامح تمسك طرف ورقة تتدلى منه: استقالة."},
+    {"start": 2, "end": 6, "copy": "بكرا", "role": "setup", "action": "نرى ثلاث أوراق تأجيل بكرا على مقعد الشخصية. تمد يدها لدمبلها؛ يقفز هاربًا فتتوقف وتخبط كفها على المقعد بذهول. المزحة في لغة الجسد لا في الوجه."},
+    {"start": 6, "end": 9, "copy": "بروتوكول التحول · دليل رقمي", "role": "reveal", "action": "تسحب الشخصية جوالها. يظهر الغلاف الأصلي على الشاشة عند الثانية السابعة، مع وصف دليل رقمي. ورقة التأجيل تنقلب بكشف ورقي إلى صفحة الغلاف؛ لا كتاب مادي أو شنطة ضمن المنتج."},
+    {"start": 9, "end": 12, "copy": "دليل رقمي · ٣٤ صفحة", "role": "feature", "action": "لقطة الغلاف وصفحة داخلية أصلية على الجوال. الشخصية تشير للدليل. الغلاف يبقى ظاهرًا."},
+    {"start": 12, "end": 15, "copy": "برنامجا تدريب: ٤ أو ٥ أيام", "role": "feature", "action": "تختار الشخصية أحد البرنامجين الفعليين في لقطة أصلية. التقويم يستقر على تقسيمة واضحة دون وعد بالالتزام التلقائي."},
+    {"start": 15, "end": 18, "copy": "٥٠٠ وصفة داخل التطبيق", "role": "feature", "action": "انتقال مطابق من بطاقة البرنامج إلى شاشة مكتبة الوصفات الفعلية، مع ظهور كلمة التطبيق. لا توضع الوصفات داخل صفحات PDF."},
+    {"start": 18, "end": 21, "copy": "تم رفض الاستقالة.", "role": "payoff", "action": "تضع الشخصية الجوال وتبدأ مجموعتها بالدمبل نفسه. ورقة الاستقالة تنفلت منه وتطير إلى السلة؛ الشنطة تبقى بجوار المقعد. لم تتغير بنية الجسم أو القوة أو الأوزان."},
+    {"start": 21, "end": 25, "copy": "احصل على بروتوكول التحول", "role": "cta", "action": "الشعار الأصلي والغلاف على الجوال والشخصية. mdaar21.zid.store ظاهر ثابت أربع ثوان. نص جانبي قصير: مدار. يلا نبدأ."}
+  ],
+  "cta": {"start": 21, "end": 25, "displayUrl": "mdaar21.zid.store", "link": "https://mdaar21.zid.store/products/بروتوكول-التحول"},
+  "claims": {"bookPages": 34, "programDays": [4, 5], "recipesInApp": 500},
+  "performanceEvidence": "Not tested with an audience; no claimed uplift, conversion or sales results."
+}
