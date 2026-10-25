@@ -1,0 +1,69 @@
+{
+  "style": "Rebuilt from the uploaded paper-collage reference, with its message order preserved",
+  "noHeadsOrFacialFeatures": true,
+  "humanContent": "Hands and one forearm only, reviewed in all three generated illustrations",
+  "referenceUnchanged": true,
+  "mainScenesVisuallyReviewed": 8,
+  "transitionSamplesVisuallyReviewed": [
+    2.4,
+    8.02,
+    13.6,
+    16.84,
+    19.25
+  ],
+  "intentionalTransitionFindings": "Informational canvas overflows occur while whole paper scenes slide outside the canvas. No layout warnings in settled scenes.",
+  "localAssets": [
+    {
+      "file": "assets/Lalezar-Regular.ttf",
+      "sha256": "7b80807bc831f141de0f7dcf6816412bf0c548968d548c5156ca388733390ea9"
+    },
+    {
+      "file": "assets/arrow.svg",
+      "sha256": "2e3567a6fef00707011d82f36b8f12b12068b6d43fea9fd882687b2b57fe9089"
+    },
+    {
+      "file": "assets/book-cover.svg",
+      "sha256": "961c5c3f201059d3ae831b278deac6d72e8c642ebf042e60f4fcd46439fdd9fe"
+    },
+    {
+      "file": "assets/book-end.svg",
+      "sha256": "961c5c3f201059d3ae831b278deac6d72e8c642ebf042e60f4fcd46439fdd9fe"
+    },
+    {
+      "file": "assets/book-guide.svg",
+      "sha256": "961c5c3f201059d3ae831b278deac6d72e8c642ebf042e60f4fcd46439fdd9fe"
+    },
+    {
+      "file": "assets/closing-logo.png",
+      "sha256": "4cddab7a23c82f789c2baed511089e28912576697cb27f15b860a5b914bc314b"
+    },
+    {
+      "file": "assets/gsap.min.js",
+      "sha256": "c174bfce53a729418d57a8ad8625e7247c793a22fef8e2851e3cfa3de9cd8280"
+    },
+    {
+      "file": "assets/hero-logo.png",
+      "sha256": "4cddab7a23c82f789c2baed511089e28912576697cb27f15b860a5b914bc314b"
+    },
+    {
+      "file": "assets/map.png",
+      "sha256": "6fb0a96324a6dfce2ae677b6c7d1867f54acb65f0a195cc8f330d92478439441"
+    },
+    {
+      "file": "assets/meal.png",
+      "sha256": "9c020ba0f48d8a9ab263b2b4d3aebfc2d25736b50f78cd40ce62218d26daf526"
+    },
+    {
+      "file": "assets/score.mp3",
+      "sha256": "11efcff4a27197f48f3ec824240f2816058cad98fa2ca7968a02a99fbd5cea47"
+    },
+    {
+      "file": "assets/strength-training.png",
+      "sha256": "50d0581bd1243ea9dd504fff6adeacd89e147f53e81696cab2b2b5158ed9658c"
+    },
+    {
+      "file": "assets/strength.png",
+      "sha256": "50d0581bd1243ea9dd504fff6adeacd89e147f53e81696cab2b2b5158ed9658c"
+    }
+  ]
+}

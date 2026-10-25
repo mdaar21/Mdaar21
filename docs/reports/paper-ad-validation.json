@@ -1,0 +1,98 @@
+{
+  "title": "مدار — خطوتك تبدأ هنا",
+  "edition": "v4, rebuilt to match the supplied v3 paper-collage reference",
+  "durationSeconds": 22.4,
+  "referenceDurationSeconds": 19.2,
+  "fps": 30,
+  "files": [
+    {
+      "file": "mdaar_protocol_ad_v4_4k.mp4",
+      "sha256": "3b34daf80b082ff2f3279732d5e19a0a52e14f6ebd005bd44985dcb3b1666933",
+      "bytes": 19545184,
+      "fastStart": true,
+      "metadata": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "width": 2160,
+            "height": 3840,
+            "pix_fmt": "yuv420p",
+            "r_frame_rate": "30/1"
+          },
+          {
+            "codec_name": "aac",
+            "r_frame_rate": "0/0"
+          }
+        ],
+        "format": {
+          "duration": "22.400000",
+          "size": "19545184"
+        }
+      }
+    },
+    {
+      "file": "mdaar_protocol_ad_v4_hd.mp4",
+      "sha256": "a414ed167dc07c9e820412968bc23e62d6380300f03c40c35e63c55f79f55604",
+      "bytes": 5690191,
+      "fastStart": true,
+      "metadata": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "width": 1080,
+            "height": 1920,
+            "pix_fmt": "yuv420p",
+            "r_frame_rate": "30/1"
+          },
+          {
+            "codec_name": "aac",
+            "r_frame_rate": "0/0"
+          }
+        ],
+        "format": {
+          "duration": "22.400000",
+          "size": "5690191"
+        }
+      }
+    }
+  ],
+  "encodedReview": "Eight main scenes plus a circular-transition sample reviewed from final encoded video",
+  "noFaces": true,
+  "voiceover": false,
+  "originalScoreBpm": 150,
+  "facts": {
+    "reference": {
+      "name": "mdaar_protocol_ad_v3.mp4",
+      "durationSeconds": 19.2,
+      "sha256": "c4247f6ac6d370975661110dcf84844933ce5ae4846d992471d8015e8f77dbb6",
+      "preservedUnchanged": true
+    },
+    "updatedBook": {
+      "file": "docs/artifacts/mdaar-protocol-original-identity-v5.pdf",
+      "pages": 34,
+      "sha256": "de78fbb1468cbd7cdb635649500476022f3bbf8e6cc7c242bd6f690db54c34d5"
+    },
+    "recipeCount": 500,
+    "trainingProgramDays": [
+      4,
+      5
+    ],
+    "goals": [
+      "خفض",
+      "ثبات",
+      "زيادة"
+    ],
+    "store": "https://mdaar21.zid.store/",
+    "site": "https://mdaar21.github.io/Mdaar21/",
+    "sourceNote": "Book page count read from final PDF; recipe/training goals cross-checked against application sources. No fixed price shown.",
+    "recipeCountVerified": 500
+  },
+  "trainingProgramCountVerified": 2,
+  "publicPreview": "https://mdaar21.github.io/Mdaar21/ad/paper/",
+  "studio": "http://localhost:3027/#project/mdaar21-paper-ad",
+  "sourceReferenceUnchanged": true
+}

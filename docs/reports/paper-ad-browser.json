@@ -1,0 +1,56 @@
+{
+  "results": [
+    {
+      "path": "/ad/paper/",
+      "viewport": 320,
+      "status": 200,
+      "decodedVideo": true,
+      "durationSeconds": 22.4,
+      "playPause": true,
+      "seekEightBeats": true,
+      "noHorizontalOverflow": true,
+      "twoDownloadLinksReturn206": true,
+      "productLink": true,
+      "runtimeErrors": []
+    },
+    {
+      "path": "/ad/paper/",
+      "viewport": 390,
+      "status": 200,
+      "decodedVideo": true,
+      "durationSeconds": 22.4,
+      "playPause": true,
+      "seekEightBeats": true,
+      "noHorizontalOverflow": true,
+      "twoDownloadLinksReturn206": true,
+      "productLink": true,
+      "runtimeErrors": []
+    },
+    {
+      "path": "/ad/paper/",
+      "viewport": 1440,
+      "status": 200,
+      "decodedVideo": true,
+      "durationSeconds": 22.4,
+      "playPause": true,
+      "seekEightBeats": true,
+      "noHorizontalOverflow": true,
+      "twoDownloadLinksReturn206": true,
+      "productLink": true,
+      "runtimeErrors": []
+    },
+    {
+      "path": "/ad/",
+      "viewport": 390,
+      "status": 200,
+      "decodedVideo": true,
+      "durationSeconds": 22.4,
+      "playPause": true,
+      "seekEightBeats": true,
+      "noHorizontalOverflow": true,
+      "twoDownloadLinksReturn206": true,
+      "productLink": true,
+      "runtimeErrors": []
+    }
+  ]
+}
