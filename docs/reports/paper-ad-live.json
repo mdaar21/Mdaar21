@@ -1,0 +1,35 @@
+{
+  "pageStatus": 200,
+  "newPlayerAndDownloadsVerified": true,
+  "pagesCommit": "c99d688ef59a0f78f935829901becc97742f4f78",
+  "files": [
+    {
+      "file": "mdaar_protocol_ad_v4_4k.mp4",
+      "status": 206,
+      "contentType": "video/mp4",
+      "contentRange": "bytes 0-1023/19545184",
+      "prefixMatchesSource": true
+    },
+    {
+      "file": "mdaar_protocol_ad_v4_hd.mp4",
+      "status": 206,
+      "contentType": "video/mp4",
+      "contentRange": "bytes 0-1023/5690191",
+      "prefixMatchesSource": true
+    }
+  ],
+  "completeSourceDownloads": [
+    {
+      "file": "mdaar_protocol_ad_v4_4k.mp4",
+      "status": 200,
+      "bytes": 19545184,
+      "matchesSource": true
+    },
+    {
+      "file": "mdaar_protocol_ad_v4_hd.mp4",
+      "status": 200,
+      "bytes": 5690191,
+      "matchesSource": true
+    }
+  ]
+}
