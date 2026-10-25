@@ -1,0 +1,6 @@
+{"id": "character", "type": "vector", "file": "character-rig.svg", "source": "New independently articulated SVG rig, matching the blank face, black hair, gold shirt and cut-paper outline in the owner-provided reference. The cartoon head is intentionally restored at the user’s request. No eyes, mouth, nose, eyebrows or profile features."}
+{"id": "identity", "type": "image", "files": ["hero-logo.png", "closing-logo.png", "arrow.svg", "book-cover.svg", "book-guide.svg", "book-end.svg"], "source": "Owner-provided original Mdaar logos and book-cover SVGs, preserved unchanged."}
+{"id": "meal", "type": "image", "file": "meal.png", "source": "Illustrative paper-cut meal asset from the previous composition, copied unchanged; no numerical nutrition claim inferred from this image."}
+{"id": "font", "type": "font", "file": "Lalezar-Regular.ttf", "source": "Google Fonts / SIL Open Font License; see FONT-LICENSE.txt."}
+{"id": "effects", "type": "audio", "file": "sfx-only.mp3", "source": "Edited non-musical effects from the installed HyperFrames offline SFX library / Pixabay Content License. See assets/sfx/CREDITS.md and effects-cues.json. No musical score or narration."}
+{"id": "reference", "type": "reference", "source": "User-provided mdaar_protocol_ad_v3.mp4, read-only editorial reference; not changed or redistributed."}

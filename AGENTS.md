@@ -1,34 +1,53 @@
-# Codex instructions for Mdaar21
-This repository is a migration of an existing Arabic fitness and nutrition site hosted on Netlify. Preserve existing user flows and visual identity (black, warm gold, ivory, RTL). **Do not deploy or merge to main automatically.**
+# Working on Mdaar21
 
-## Project setup
-- Static site entry: `public/index.html` (must be imported from original user-provided `mdaar-netlify-final.zip`).
-- AI serverless proxy: `netlify/functions/ai.mjs`, exposed as `/api/ai`.
-- Secret: `GROQ_API_KEY` in Netlify environment only.
-- Nutrition guide PDF is supplied separately. Do not claim to update or review it if it isn't accessible.
-- Exclude storefront, checkout, payment and product-delivery work from the scope.
+## Start here
 
-## Safety P0
-- The original user-provided ZIP contained a hard-coded Groq API key. Treat it as compromised; owner must revoke/rotate it. Never commit it, including in test fixtures, commits or logs.
-- Validate and escape any untrusted strings used with `innerHTML`; use `textContent` for plain text.
-- Add distributed rate limiting before public high-volume usage; memory-only maps aren't reliable across Netlify invocations.
-- Test nutrition equations and edge-case input values. Meal photo analysis is approximate.
-- Never claim medically precise calorie or health outcomes.
+Read [MDAAR_HUB.md](MDAAR_HUB.md) before locating or editing any part of Mdaar. It is the shared project map and the reference for current links, source locations and current deliverables. Keep it current when a URL, artifact or source location changes.
 
-## Development plan
-1. Import **original** `public/index.html` without altering its behavior, taking care not to import the original unsafe `ai.mjs`.
-2. Audit all menus and components, improve typography, responsive layout, keyboard access and RTL support, preserving branding.
-3. Separate business logic from markup incrementally. Avoid unnecessary full framework rewrites.
-4. Improve real AI features across existing menus: food log, recipe search, meals, daily totals, training alternatives and progress, with user opt-in for sensitive data.
-5. Verify recipe data against reliable sources; aim for 50 cutting and 50 bulking recipes, don't fabricate values.
-6. Review exercise guide and PDF formatting only after PDF and any editable source files are available, with qualified professional sign-off before marketing claims.
-7. Add unit and integration tests, security scans, and documentation.
-8. Make focused commits and open draft PRs; no Netlify production deployment without explicit owner approval.
+Use these names consistently with the owner:
 
-## Acceptance criteria
-- All existing functions still work.
-- API keys never appear in source or in client bundles.
-- `/api/ai` handles malformed JSON, oversized requests, missing secret, and upstream timeouts gracefully.
-- Mobile and desktop are usable with clear visual hierarchy.
-- Arabic RTL and mixed English terms display correctly.
-- Any untested features are reported as untested.
+- **المتجر**: the Zid storefront.
+- **الواجهة / الموقع التعريفي**: the promotional site under `public/discover/`.
+- **التطبيق**: the nutrition and training application under `public/`.
+- **صفحة المنتج**: the Zid listing for بروتوكول التحول.
+- **الكتاب / ملف المنتج**: the editable book and current PDF.
+- **الإعلان**: the current cartoon advertisement, with sound effects only.
+
+Resolve “الموقع” from the immediate context. If the target remains ambiguous between the storefront, promotional site and app, clarify the target before changing the wrong surface.
+
+## Current sources
+
+The canonical repository is `https://github.com/mdaar21/Mdaar21.git`: `main` holds sources and `gh-pages` holds the published Pages tree. Use this repository rather than the old account checkouts or temporary video folders outside it.
+
+- App: `public/index.html`, `public/assets/`, `public/data/`.
+- Promotional site: `public/discover/`.
+- Book: edit `scripts/build-book.py` and `docs/book/book.css`; preserve original vector covers in `docs/book/identity/`. `docs/book/index.html` and the PDF are generated. Current PDF is listed in MDAAR_HUB.md.
+- Current ad: edit **`creative/ad/`**. Read its local AGENTS.md before composition work. The generated public copy is `public/ad/character/`; historical ad folders and ZIPs are not the active source.
+- Connected assistant: `cloudflare/worker.mjs`, `public/assets/assistant.mjs`, `public/assets/remote-service.mjs`. The configured service origin is in `config/github-pages.json`; deployment instructions are in `docs/github-ai.md`.
+- Zid storefront and product settings live in Zid, not this checkout. A Git commit does not update Zid pricing, product files, checkout or automatic delivery. Verify available authenticated access when actual Zid edits are requested; do not claim an external change without evidence.
+
+This current structure replaces the initial Netlify migration plan. Netlify scripts, functions and historical reports are retained for their existing uses and history; they are not the current GitHub/Cloudflare deployment instructions.
+
+## Editing and publishing
+
+Preserve the black, warm gold and ivory identity, Arabic RTL, original logos/covers and existing user flows. Keep the reference upload unchanged. Keep older deliverables available at their existing URLs; choose the active version from MDAAR_HUB.md rather than from filenames containing “latest”.
+
+Check related surfaces when shared facts change: price on Zid versus the promotional site, recipe count, training programs, book links/QR, and ad copy. Updating one surface does not update the others automatically.
+
+For Pages changes, use `scripts/build-github-pages.py` and the existing publication workflow so the /Mdaar21/ prefix, CSP and Cloudflare origin are retained. Do not overwrite the deployed app with unprocessed source HTML. Distinguish source commits from verified live deployment. Respect the owner's requested scope and publishing authorization, including authorization already given in the session; do not ask again for the same authorized step. Do not merge or publish unrelated changes.
+
+## Security and data
+
+- Never commit API keys, passwords, tokens or environment secrets; never repeat exposed credentials from conversation history. Keep service secrets on the service.
+- Escape untrusted content; use textContent for plain text.
+- Preserve distributed request limits and the assistant's session protections.
+- Do not send messages to others or perform purchases as part of routine site work.
+- Do not fabricate reviews, medical accuracy or guaranteed fitness results. Nutritional values are estimates.
+- Do not expose the full paid book in public marketing navigation. The hub is an owner/developer reference in the repository, not a new storefront download page.
+- Do not reintroduce removed food-photo features or the removed “ولّد خطتي” interface without a new request. Keep customer-facing AI wording preferences recorded in existing copy; the assistant is called “اسأل مدار”.
+
+## Verification
+
+For app code changes, use appropriate existing checks (`npm run check`, `npm test`, browser/accessibility checks where affected). For book or ad work, follow their local build and visual review instructions. For documentation and source organization alone, verify links, paths and preservation of copied source/assets; a new video render or full application regression run is unnecessary unless content or behavior changed.
+
+Main development: Node.js 22+, `npm ci --ignore-scripts`, `npm run dev`. Do not print secret values while investigating configuration. Clearly report external services or behaviors that were not tested.

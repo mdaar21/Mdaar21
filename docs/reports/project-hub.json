@@ -1,0 +1,46 @@
+{
+  "hub": "MDAAR_HUB.md",
+  "canonicalRepository": "mdaar21/Mdaar21",
+  "names": [
+    "المتجر",
+    "الواجهة",
+    "التطبيق",
+    "صفحة المنتج",
+    "الكتاب",
+    "الإعلان"
+  ],
+  "checkedLocalLinks": 55,
+  "copiedSourceAndAssetsIdentical": 35,
+  "currentAdSource": "creative/ad/",
+  "publishedSiteOrVideoChanged": false,
+  "zidSettingsChanged": false,
+  "publicLinksChecked": [
+    {
+      "id": "store",
+      "status": 200
+    },
+    {
+      "id": "showcase",
+      "status": 200
+    },
+    {
+      "id": "app",
+      "status": 200
+    },
+    {
+      "id": "product",
+      "status": 200
+    },
+    {
+      "id": "ad",
+      "status": 200
+    }
+  ],
+  "verificationDate": "2026-10-25",
+  "relocatedAdCheck": {
+    "ok": true,
+    "errors": 0,
+    "warnings": 0,
+    "renderRequired": false
+  }
+}

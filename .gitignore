@@ -11,3 +11,8 @@ __pycache__/
 .dev.vars
 .dev.vars.*
 !.dev.vars.example
+
+# Generated HyperFrames working files; published videos live under public/ad/.
+creative/ad/.hyperframes/
+creative/ad/renders/
+creative/ad/snapshots/

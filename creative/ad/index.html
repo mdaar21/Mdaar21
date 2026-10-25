@@ -1,0 +1,307 @@
+<!doctype html><html lang="ar" dir="rtl"><head><meta charset="utf-8"><meta name="viewport" content="width=1080,height=1920"><title>مدار — الشخصية ترجع</title><script src="assets/gsap.min.js"></script><style>
+@font-face{font-family:Lalezar;src:url('assets/Lalezar-Regular.ttf');font-weight:400;font-style:normal}
+*{box-sizing:border-box}html,body{margin:0;width:1080px;height:1920px;overflow:hidden;background:#121210;color:#121210;font-family:Lalezar,sans-serif;font-weight:400}
+#root{position:relative;width:1080px;height:1920px;overflow:hidden;background:#121210}
+.scene{position:absolute;inset:0;width:100%;height:100%;overflow:hidden;background:#eee4d1}
+#s1{z-index:1}#s2{z-index:2;opacity:0;background:#121210;color:#f9f5e9}#s3{z-index:3;opacity:0}#s4{z-index:4;opacity:0;background:#a35437;color:#f9f5e9}#s5{z-index:5;opacity:0;background:#121210;color:#f9f5e9}#s6{z-index:6;opacity:0}#s7{z-index:7;opacity:0;background:#121210;color:#f9f5e9}#s8{z-index:8;opacity:0;background:#121210;color:#f9f5e9}
+.scene-content{position:relative;z-index:2;display:flex;flex-direction:column;align-items:center;justify-content:center;width:100%;height:100%;padding:230px 90px 210px;gap:24px;text-align:center}
+h1,h2,p{margin:0;font-weight:400}h1,h2{line-height:1.15;max-width:900px}.gold{color:#d1ac65}.white{color:#f9f5e9}.eyebrow{font-size:39px;line-height:1.5}.sub{font-size:46px;line-height:1.55;max-width:890px}
+.paper-title{paint-order:stroke fill;-webkit-text-stroke:13px #f9f5e9;filter:drop-shadow(4px 9px 0 #12121026);color:#121210}
+.torn{clip-path:polygon(0 5%,5% 1%,11% 4%,18% 0,25% 3%,33% 0,40% 4%,48% 1%,55% 3%,63% 0,70% 3%,78% 0,86% 4%,94% 1%,100% 5%,99% 94%,94% 98%,86% 95%,78% 100%,70% 97%,62% 100%,54% 97%,47% 100%,40% 97%,32% 100%,24% 96%,16% 100%,8% 97%,0 100%)}
+.ribbon{padding:16px 36px;background:#d1ac65;color:#121210;font-size:50px;line-height:1.4;max-width:900px;box-shadow:0 10px 0 #12121012}.ribbon.ink{background:#121210;color:#f9f5e9}
+.disc{position:absolute;width:930px;height:930px;border-radius:50%;background:#d1ac65;left:75px;top:660px;pointer-events:none}
+.halftone{position:absolute;width:930px;height:930px;border-radius:50%;left:75px;top:660px;background-image:radial-gradient(#12121059 1.6px,transparent 1.8px);background-size:13px 13px;pointer-events:none;opacity:.5}
+.wash{position:absolute;inset:0;background:radial-gradient(ellipse at 70% 30%,#f9f5e91c,#f9f5e900 70%);pointer-events:none}
+.spark{position:absolute;width:70px;height:70px;fill:#d1ac65;stroke:#f9f5e9;stroke-width:4;pointer-events:none}.spark.a{left:58px;top:410px}.spark.b{right:64px;top:1430px;width:48px;height:48px}
+.brand-bar{position:absolute;right:90px;left:90px;top:83px;z-index:40;display:flex;justify-content:space-between;align-items:center;direction:rtl}
+.brand{display:flex;align-items:center;gap:15px;border:1px solid #d1ac6566;background:#121210;padding:9px 21px 7px;border-radius:5px;box-shadow:5px 6px 0 #12121020;color:#f9f5e9;font-size:38px;line-height:1.4}.brand img{width:65px;height:48px;object-fit:contain}.edition{background:#d1ac65;color:#121210;padding:12px 15px;font:28px/1.4 monospace;letter-spacing:3px;transform:rotate(-3deg)}
+.footer{position:absolute;right:90px;left:90px;bottom:100px;z-index:40;display:flex;justify-content:space-between;align-items:center;direction:ltr}.footer-label{color:#121210;background:#f9f5e9;padding:5px 13px;font:28px/1.4 monospace;letter-spacing:1px;box-shadow:3px 4px 0 #12121033}.progress{width:280px;height:5px;background:#d1ac6540}.progress i{display:block;width:100%;height:5px;background:#d1ac65;transform-origin:left}
+.sticker{position:relative;flex:none;display:flex;align-items:center;justify-content:center}.sticker img{display:block;width:100%;height:100%;object-fit:contain}
+#s1 .scene-content{gap:12px}#s1 .headline{width:100%;display:flex;flex-direction:column;align-items:center;gap:0}#s1 .word1{font-size:238px;line-height:1.12}#s1 .word2{font-size:230px;line-height:1.2;position:relative}#s1 .headline-paper{position:absolute;inset:21px -30px 3px;background:#d1ac65;z-index:0;transform:rotate(-3deg)}#s1 .word2-ink{position:relative;z-index:1}#s1 .sticker{width:800px;height:690px;margin-top:30px}#s1 .sub{font-size:44px}
+#s2 .disc,#s2 .halftone{top:805px;width:860px;height:860px;left:110px}#s2 .scene-content{gap:24px}#s2 h2{font-size:137px;line-height:1.22}#s2 .word-start{font-size:159px;color:#d1ac65}#s2 .sticker{width:1000px;height:720px;max-width:none}#s2 .question-mark{position:absolute;z-index:3;color:#f9f5e9;font-size:190px;line-height:1;text-shadow:6px 8px 0 #121210}.q1{left:60px;top:845px;transform:rotate(-17deg)}.q2{right:76px;top:660px;transform:rotate(12deg)}#s2 .sub{font-size:43px;background:#121210;padding:5px 22px}
+.metric-row{display:flex;align-items:center;justify-content:center;gap:30px;width:100%;direction:ltr}.number{font-size:330px;line-height:1;direction:ltr;font-variant-numeric:tabular-nums;flex:none}.metric-copy{text-align:right;direction:rtl;font-size:100px;line-height:1.2;max-width:470px}
+#s3 .scene-content{gap:20px}#s3 .metric-row{height:375px}#s3 .number{font-size:360px}#s3 .metric-copy{font-size:100px}.program-cards{display:flex;align-items:center;justify-content:center;gap:32px;width:100%;direction:rtl}.program-card{width:345px;height:256px;display:flex;flex-direction:column;align-items:center;justify-content:center;background:#f9f5e9;border:3px solid #121210;box-shadow:9px 12px 0 #121210;gap:2px}.program-card.four{transform:rotate(3deg)}.program-card.five{transform:rotate(-3deg);background:#d1ac65}.program-card strong{font-size:92px;line-height:1.2;font-weight:400}.program-card small{font-size:35px;line-height:1.4}.week-dots{display:flex;gap:10px;direction:ltr;margin-top:12px}.week-dots i{width:18px;height:18px;border:2px solid #121210;background:#121210;border-radius:50%}.week-dots i.rest{background:transparent}#s3 .sticker{width:680px;height:510px}#s3 .sub{font-size:42px}
+#s4 .scene-content{gap:18px}#s4 .metric-row{gap:20px;height:365px}#s4 .number{font-size:360px}#s4 .metric-copy{font-size:126px;color:#f9f5e9}#s4 .sticker{width:990px;height:710px}#s4 .ribbon{font-size:58px}#s4 .sub{font-size:43px;color:#f9f5e9}
+#s5 .scene-content{gap:32px}#s5 h2{font-size:166px}.goal-list{display:flex;flex-direction:column;align-items:center;gap:31px;width:100%;margin-top:30px}.goal{display:flex;align-items:center;justify-content:space-between;width:815px;height:176px;padding:12px 45px;background:#d1ac65;color:#121210;border:7px solid #f9f5e9;box-shadow:10px 13px 0 #d1ac651a}.goal strong{font-size:94px;line-height:1.25;font-weight:400}.goal svg{width:100px;height:100px;fill:currentColor;flex:none}.goal.cut{transform:rotate(-3deg)}.goal.steady{background:#f9f5e9;transform:rotate(2deg)}.goal.gain{background:#a35437;color:#f9f5e9;transform:rotate(-2deg)}#s5 .sub{font-size:46px;color:#d1ac65;margin-top:20px}
+#s6 .scene-content{gap:20px}#s6 .metric-row{height:355px}#s6 .number{font-size:345px}#s6 .metric-copy{font-size:114px}.guide-stage{position:relative;width:780px;height:770px;display:flex;justify-content:center;align-items:center;flex:none;perspective:1500px}.sheet{position:absolute;width:510px;height:690px;background:#f9f5e9;border:2px solid #12121029;box-shadow:7px 12px 0 #12121017;border-radius:4px}.sheet.one{transform:rotate(-8deg);left:165px;top:45px}.sheet.two{transform:rotate(5deg);left:110px;top:65px}.guide-cover{display:block;width:470px;height:auto;position:relative;border:9px solid #f9f5e9;transform:rotate(-2deg);box-shadow:8px 12px 0 #12121044}#s6 .ribbon{font-size:52px}#s6 .sub{font-size:42px}
+#s7 .scene-content{gap:26px}#s7 .disc{top:430px;background:#d1ac65}#s7 .halftone{top:430px;opacity:.65}.book-wrap{width:622px;position:relative;flex:none;perspective:1600px}.book-wrap img{display:block;width:100%;height:auto;border:13px solid #f9f5e9;border-radius:6px;box-shadow:16px 24px 0 #d1ac6526;transform:rotate(-4deg)}#s7 .eyebrow{font:30px/1.5 monospace;letter-spacing:4px;color:#d1ac65;direction:ltr}#s7 h2{margin-top:24px;font-size:104px;color:#f9f5e9}#s7 .sub{font-size:43px}
+#s8 .scene-content{gap:23px}#s8 .disc{top:500px;background:#d1ac650f;left:-340px;width:1400px;height:1400px;border:2px solid #d1ac6529}#s8 .halftone{top:500px;left:-340px;width:1400px;height:1400px;opacity:.25;background-image:radial-gradient(#d1ac6570 1.6px,transparent 1.8px)}.closing-brand{display:flex;align-items:center;justify-content:center;gap:70px;width:100%;height:320px}.closing-brand .logo{width:225px;height:180px;object-fit:contain}.closing-book{width:200px;height:auto;border:6px solid #f9f5e9;transform:rotate(-6deg);box-shadow:8px 11px 0 #d1ac6520}#s8 .brand-name{font-size:220px;line-height:1.15;color:#d1ac65}#s8 h2{font-size:108px}.cta{display:flex;align-items:center;justify-content:center;gap:28px;width:885px;min-height:135px;margin-top:25px;padding:22px 25px;background:#d1ac65;border:6px solid #f9f5e9;color:#121210;box-shadow:8px 12px 0 #d1ac6526;font-size:66px;line-height:1.25}.cta img{width:49px;height:49px;flex:none}.url{font:39px/1.8 monospace;color:#f9f5e9;direction:ltr}.closing-note{font-size:38px;line-height:1.5;color:#d1ac65}
+
+.character{position:relative;flex:none;display:flex;align-items:center;justify-content:center;width:520px;height:700px}.actor{display:block;width:100%;height:100%;overflow:visible;filter:drop-shadow(5px 8px 0 #12121022);transform-origin:50% 90%}.pointer-l,.pointer-r{opacity:0}.light-kit .jersey{fill:#f3ebd8}
+.scene-content{gap:16px;padding-top:220px;padding-bottom:200px}
+#s1 .word1{font-size:188px}#s1 .word2{font-size:202px}#s1 .character{width:680px;height:880px}#s1 .scene-content{gap:4px}#s1 .sub{font-size:42px}#s1 .disc,#s1 .halftone{top:760px}
+#s2 .scene-content{gap:10px}#s2 .confusion{font-size:130px}#s2 .word-start{font-size:145px}#s2 .character{width:670px;height:850px}#s2 .q1{top:1070px}#s2 .q2{top:830px}
+#s3 .metric-row{height:265px}#s3 .number{font-size:278px}#s3 .metric-copy{font-size:88px}#s3 .program-card{height:205px;width:335px}#s3 .program-card strong{font-size:78px}#s3 .program-card small{font-size:31px}#s3 .character{width:570px;height:720px}#s3 .week-dots i{width:15px;height:15px}#s3 .sub{font-size:40px}
+.duo-stage{display:flex;align-items:center;justify-content:center;width:900px;height:650px;direction:ltr;position:relative}
+#s4 .metric-row{height:310px}#s4 .number{font-size:310px}#s4 .metric-copy{font-size:116px}#s4 .character{width:390px;height:650px;z-index:2}#s4 .food-art{width:590px;height:485px;margin-left:-80px;object-fit:contain;flex:none;z-index:1}#s4 .ribbon{font-size:52px}
+#s5 .character{width:380px;height:650px}#s5 .goal-list{width:500px;margin:0;gap:22px;flex:none}#s5 .goal{width:500px;height:148px;padding:10px 30px;border-width:6px}#s5 .goal strong{font-size:80px}#s5 .goal svg{width:70px;height:70px}#s5 h2{font-size:145px}
+#s6 .guide-stage{width:900px;height:680px;direction:ltr;gap:18px}#s6 .guide-cover{width:420px;flex:none}#s6 .character{width:330px;height:600px}#s6 .sheet.one{width:430px;height:610px;left:72px;top:40px}#s6 .sheet.two{width:430px;height:610px;left:66px;top:28px}#s6 .metric-row{height:320px}#s6 .number{font-size:310px}
+#s7 .duo-stage{height:900px;width:900px;gap:0}#s7 .book-wrap{width:560px;flex:none;z-index:2}#s7 .character{width:290px;height:540px;z-index:3;margin-left:15px;align-self:flex-end;margin-bottom:20px}#s7 h2{font-size:98px;margin-top:14px}
+#s8 .closing-brand{height:420px;gap:30px;direction:ltr}#s8 .closing-brand .logo{width:165px;height:120px}#s8 .closing-book{width:180px}#s8 .character{width:300px;height:420px}#s8 .brand-name{font-size:180px}#s8 h2{font-size:98px}#s8 .scene-content{gap:16px}#s8 .cta{font-size:62px;min-height:125px}
+</style></head><body><div data-hf-id="hf-788o" id="root" data-composition-id="mdaar-character" data-start="0" data-duration="20" data-width="1080" data-height="1920"><section data-hf-id="hf-mcnq" id="s1" class="scene"><div data-hf-id="hf-c072" class="disc" data-layout-ignore></div><div data-hf-id="hf-gmeu" class="halftone" data-layout-ignore></div><div data-hf-id="hf-cn5c" class="scene-content"><div data-hf-id="hf-sodk" class="headline"><h1 data-hf-id="hf-l8uv" class="word1 paper-title">تبغى</h1><h2 data-hf-id="hf-rnx0" class="word2 paper-title"><span data-hf-id="hf-gdqu" class="headline-paper torn" data-layout-ignore></span><span data-hf-id="hf-b04f" class="word2-ink">تتحوّل؟</span></h2></div><div data-hf-id="hf-s63h" class="character "><svg data-hf-id="hf-1i2e" class="actor" viewBox="0 0 520 700" role="img" aria-label="شخصية مدار الكرتونية بوجه خالٍ تمامًا من الملامح"><g data-hf-id="hf-ewnf" class="person" stroke="#f9f5e9" stroke-width="18" stroke-linecap="round" stroke-linejoin="round" paint-order="stroke fill">
+ <g data-hf-id="hf-snw7" class="leg-l" transform="rotate(0 228 427)"><path data-hf-id="hf-94bo" d="M204 409H258L241 606H190L202 460Z" fill="#121210"/><ellipse data-hf-id="hf-mc1c" cx="215" cy="625" rx="49" ry="25" fill="#f3ebd8"/></g>
+ <g data-hf-id="hf-e7q0" class="leg-r" transform="rotate(0 292 427)"><path data-hf-id="hf-1w2p" d="M262 409H316L329 606H278L264 460Z" fill="#121210"/><ellipse data-hf-id="hf-yudm" cx="305" cy="625" rx="49" ry="25" fill="#f3ebd8"/></g>
+ <rect data-hf-id="hf-bjq0" x="238" y="194" width="44" height="58" rx="9" fill="#d9a171"/>
+ <g data-hf-id="hf-qlsb" class="arm-l" transform="rotate(0 185 245)"><path data-hf-id="hf-lyw4" d="M184 244Q174 240 168 253L129 338Q123 355 143 362Q161 365 166 348L204 260Q210 246 194 242Z" fill="#d9a171"/>
+  <g data-hf-id="hf-1sqg" class="fore-l" transform="rotate(0 145 345)"><path data-hf-id="hf-6wcj" d="M128 344Q126 330 143 329Q159 328 161 344L167 433Q170 455 151 460Q130 461 128 441Z" fill="#d9a171"/><circle data-hf-id="hf-ou63" cx="150" cy="440" r="23" fill="#d9a171"/><circle data-hf-id="hf-jcms" cx="145" cy="345" r="18" stroke="none" fill="#d9a171"/><path data-hf-id="hf-u29d" class="pointer-l" d="M138 451L136 479Q136 491 148 491Q161 491 161 478L161 450Z" fill="#d9a171"/></g>
+ </g>
+ <g data-hf-id="hf-mch4" class="arm-r" transform="rotate(0 335 245)"><path data-hf-id="hf-4gz4" d="M336 244Q346 240 352 253L391 338Q397 355 377 362Q359 365 354 348L316 260Q310 246 326 242Z" fill="#d9a171"/>
+  <g data-hf-id="hf-2z9v" class="fore-r" transform="rotate(0 375 345)"><path data-hf-id="hf-z7ix" d="M392 344Q394 330 377 329Q361 328 359 344L353 433Q350 455 369 460Q390 461 392 441Z" fill="#d9a171"/><circle data-hf-id="hf-38wz" cx="370" cy="440" r="23" fill="#d9a171"/><circle data-hf-id="hf-m0t1" cx="375" cy="345" r="18" stroke="none" fill="#d9a171"/><path data-hf-id="hf-4mvk" class="pointer-r" d="M359 451L359 479Q359 491 371 491Q384 491 383 478L382 450Z" fill="#d9a171"/></g>
+ </g>
+ <path data-hf-id="hf-lily" class="jersey" d="M186 225Q260 209 334 225L348 407Q260 426 172 407Z" fill="#d1ac65"/>
+ <path data-hf-id="hf-5759" d="M177 365H343L344 388H176Z" stroke="none" fill="#121210"/>
+ <rect data-hf-id="hf-fc9r" x="178" y="411" width="164" height="51" rx="25" fill="#121210"/>
+ <g data-hf-id="hf-5w7x" class="head" transform="rotate(0 260 145)"><path data-hf-id="hf-9o3w" class="face" d="M195 145C190 104 216 72 260 72C306 72 328 100 325 145C326 183 296 216 260 216C224 216 194 185 195 145Z" fill="#d9a171"/><path data-hf-id="hf-6fq8" class="hair" d="M195 145C190 104 216 72 260 72C306 72 328 100 325 145H215V160H195Z" fill="#121210" stroke="none"/></g>
+ </g></svg></div><p data-hf-id="hf-jjwl" class="sub">كل خطوة تصنع فارقًا.</p></div></section><section data-hf-id="hf-iejp" id="s2" class="scene"><div data-hf-id="hf-gfky" class="disc" data-layout-ignore></div><div data-hf-id="hf-6vve" class="halftone" data-layout-ignore></div><span data-hf-id="hf-3we9" class="question-mark q1" data-layout-ignore>؟</span><span data-hf-id="hf-cus0" class="question-mark q2" data-layout-ignore>؟</span><div data-hf-id="hf-o0eg" class="scene-content"><h2 data-hf-id="hf-6pwt" class="confusion">ومحتار</h2><h2 data-hf-id="hf-pejq" class="word-start">من وين تبدأ؟</h2><div data-hf-id="hf-117q" class="character light-kit"><svg data-hf-id="hf-3ymy" class="actor" viewBox="0 0 520 700" role="img" aria-label="شخصية مدار الكرتونية بوجه خالٍ تمامًا من الملامح"><g data-hf-id="hf-hs17" class="person" stroke="#f9f5e9" stroke-width="18" stroke-linecap="round" stroke-linejoin="round" paint-order="stroke fill">
+ <g data-hf-id="hf-lzw7" class="leg-l" transform="rotate(0 228 427)"><path data-hf-id="hf-q3fg" d="M204 409H258L241 606H190L202 460Z" fill="#121210"/><ellipse data-hf-id="hf-e9fs" cx="215" cy="625" rx="49" ry="25" fill="#f3ebd8"/></g>
+ <g data-hf-id="hf-rh0w" class="leg-r" transform="rotate(0 292 427)"><path data-hf-id="hf-wl9x" d="M262 409H316L329 606H278L264 460Z" fill="#121210"/><ellipse data-hf-id="hf-ns3y" cx="305" cy="625" rx="49" ry="25" fill="#f3ebd8"/></g>
+ <rect data-hf-id="hf-9wc0" x="238" y="194" width="44" height="58" rx="9" fill="#d9a171"/>
+ <g data-hf-id="hf-z86j" class="arm-l" transform="rotate(0 185 245)"><path data-hf-id="hf-r0rg" d="M184 244Q174 240 168 253L129 338Q123 355 143 362Q161 365 166 348L204 260Q210 246 194 242Z" fill="#d9a171"/>
+  <g data-hf-id="hf-ozv4" class="fore-l" transform="rotate(0 145 345)"><path data-hf-id="hf-jhz7" d="M128 344Q126 330 143 329Q159 328 161 344L167 433Q170 455 151 460Q130 461 128 441Z" fill="#d9a171"/><circle data-hf-id="hf-89kr" cx="150" cy="440" r="23" fill="#d9a171"/><circle data-hf-id="hf-eklo" cx="145" cy="345" r="18" stroke="none" fill="#d9a171"/><path data-hf-id="hf-qpyd" class="pointer-l" d="M138 451L136 479Q136 491 148 491Q161 491 161 478L161 450Z" fill="#d9a171"/></g>
+ </g>
+ <g data-hf-id="hf-f928" class="arm-r" transform="rotate(0 335 245)"><path data-hf-id="hf-g98o" d="M336 244Q346 240 352 253L391 338Q397 355 377 362Q359 365 354 348L316 260Q310 246 326 242Z" fill="#d9a171"/>
+  <g data-hf-id="hf-3ckz" class="fore-r" transform="rotate(0 375 345)"><path data-hf-id="hf-0gj1" d="M392 344Q394 330 377 329Q361 328 359 344L353 433Q350 455 369 460Q390 461 392 441Z" fill="#d9a171"/><circle data-hf-id="hf-dyw3" cx="370" cy="440" r="23" fill="#d9a171"/><circle data-hf-id="hf-w5vt" cx="375" cy="345" r="18" stroke="none" fill="#d9a171"/><path data-hf-id="hf-fwyw" class="pointer-r" d="M359 451L359 479Q359 491 371 491Q384 491 383 478L382 450Z" fill="#d9a171"/></g>
+ </g>
+ <path data-hf-id="hf-tal6" class="jersey" d="M186 225Q260 209 334 225L348 407Q260 426 172 407Z" fill="#d1ac65"/>
+ <path data-hf-id="hf-xv6p" d="M177 365H343L344 388H176Z" stroke="none" fill="#121210"/>
+ <rect data-hf-id="hf-musf" x="178" y="411" width="164" height="51" rx="25" fill="#121210"/>
+ <g data-hf-id="hf-ziwh" class="head" transform="rotate(0 260 145)"><path data-hf-id="hf-9wtg" class="face" d="M195 145C190 104 216 72 260 72C306 72 328 100 325 145C326 183 296 216 260 216C224 216 194 185 195 145Z" fill="#d9a171"/><path data-hf-id="hf-bfh4" class="hair" d="M195 145C190 104 216 72 260 72C306 72 328 100 325 145H215V160H195Z" fill="#121210" stroke="none"/></g>
+ </g></svg></div><p data-hf-id="hf-oohe" class="sub">خلّ البداية أوضح.</p></div></section><section data-hf-id="hf-hmvw" id="s3" class="scene"><div data-hf-id="hf-7a6f" class="halftone" data-layout-ignore></div><div data-hf-id="hf-mthd" class="scene-content"><div data-hf-id="hf-bf37" class="metric-row"><span data-hf-id="hf-j4id" class="number paper-title" dir="ltr">2</span><h2 data-hf-id="hf-ym1v" class="metric-copy">برنامجا تدريب</h2></div><div data-hf-id="hf-jorq" class="program-cards"><div data-hf-id="hf-ww61" class="program-card four"><strong data-hf-id="hf-tznz">٤ أيام</strong><small data-hf-id="hf-tl78">٣ أيام راحة</small></div><div data-hf-id="hf-r11p" class="program-card five"><strong data-hf-id="hf-8ke6">٥ أيام</strong><small data-hf-id="hf-cxwq">يومان راحة</small></div></div><div data-hf-id="hf-69yp" class="character "><svg data-hf-id="hf-4cxz" class="actor" viewBox="0 0 520 700" role="img" aria-label="شخصية مدار الكرتونية بوجه خالٍ تمامًا من الملامح"><g data-hf-id="hf-hdq6" class="person" stroke="#f9f5e9" stroke-width="18" stroke-linecap="round" stroke-linejoin="round" paint-order="stroke fill"><g data-hf-id="hf-ss0q" class="barbell" transform="translate(0 0)" stroke="#f9f5e9" stroke-width="16" paint-order="stroke fill" stroke-linejoin="round"><rect data-hf-id="hf-3zdr" x="48" y="228" width="424" height="14" rx="7" fill="#121210"/><rect data-hf-id="hf-dxvs" x="28" y="182" width="52" height="106" rx="10" fill="#d1ac65"/><rect data-hf-id="hf-28k8" x="80" y="196" width="25" height="78" rx="5" fill="#121210"/><rect data-hf-id="hf-ahmw" x="440" y="182" width="52" height="106" rx="10" fill="#d1ac65"/><rect data-hf-id="hf-sire" x="415" y="196" width="25" height="78" rx="5" fill="#121210"/></g>
+ <g data-hf-id="hf-lll6" class="leg-l" transform="rotate(0 228 427)"><path data-hf-id="hf-owid" d="M204 409H258L241 606H190L202 460Z" fill="#121210"/><ellipse data-hf-id="hf-d2ip" cx="215" cy="625" rx="49" ry="25" fill="#f3ebd8"/></g>
+ <g data-hf-id="hf-qa3t" class="leg-r" transform="rotate(0 292 427)"><path data-hf-id="hf-xs70" d="M262 409H316L329 606H278L264 460Z" fill="#121210"/><ellipse data-hf-id="hf-o6ez" cx="305" cy="625" rx="49" ry="25" fill="#f3ebd8"/></g>
+ <rect data-hf-id="hf-8pex" x="238" y="194" width="44" height="58" rx="9" fill="#d9a171"/>
+ <g data-hf-id="hf-ytvi" class="arm-l" transform="rotate(0 185 245)"><path data-hf-id="hf-ptud" d="M184 244Q174 240 168 253L129 338Q123 355 143 362Q161 365 166 348L204 260Q210 246 194 242Z" fill="#d9a171"/>
+  <g data-hf-id="hf-nsy1" class="fore-l" transform="rotate(0 145 345)"><path data-hf-id="hf-j3o6" d="M128 344Q126 330 143 329Q159 328 161 344L167 433Q170 455 151 460Q130 461 128 441Z" fill="#d9a171"/><circle data-hf-id="hf-7v9q" cx="150" cy="440" r="23" fill="#d9a171"/><circle data-hf-id="hf-ddol" cx="145" cy="345" r="18" stroke="none" fill="#d9a171"/><path data-hf-id="hf-rwvg" class="pointer-l" d="M138 451L136 479Q136 491 148 491Q161 491 161 478L161 450Z" fill="#d9a171"/></g>
+ </g>
+ <g data-hf-id="hf-e255" class="arm-r" transform="rotate(0 335 245)"><path data-hf-id="hf-f2bl" d="M336 244Q346 240 352 253L391 338Q397 355 377 362Q359 365 354 348L316 260Q310 246 326 242Z" fill="#d9a171"/>
+  <g data-hf-id="hf-2y9y" class="fore-r" transform="rotate(0 375 345)"><path data-hf-id="hf-1ng4" d="M392 344Q394 330 377 329Q361 328 359 344L353 433Q350 455 369 460Q390 461 392 441Z" fill="#d9a171"/><circle data-hf-id="hf-dkl2" cx="370" cy="440" r="23" fill="#d9a171"/><circle data-hf-id="hf-xcsw" cx="375" cy="345" r="18" stroke="none" fill="#d9a171"/><path data-hf-id="hf-eq1t" class="pointer-r" d="M359 451L359 479Q359 491 371 491Q384 491 383 478L382 450Z" fill="#d9a171"/></g>
+ </g>
+ <path data-hf-id="hf-tow7" class="jersey" d="M186 225Q260 209 334 225L348 407Q260 426 172 407Z" fill="#d1ac65"/>
+ <path data-hf-id="hf-z23s" d="M177 365H343L344 388H176Z" stroke="none" fill="#121210"/>
+ <rect data-hf-id="hf-mghe" x="178" y="411" width="164" height="51" rx="25" fill="#121210"/>
+ <g data-hf-id="hf-0ptk" class="head" transform="rotate(0 260 145)"><path data-hf-id="hf-8pwd" class="face" d="M195 145C190 104 216 72 260 72C306 72 328 100 325 145C326 183 296 216 260 216C224 216 194 185 195 145Z" fill="#d9a171"/><path data-hf-id="hf-a8k1" class="hair" d="M195 145C190 104 216 72 260 72C306 72 328 100 325 145H215V160H195Z" fill="#121210" stroke="none"/></g>
+ </g></svg></div><p data-hf-id="hf-3xvu" class="sub">اختَر الأنسب لجدولك.</p></div></section><section data-hf-id="hf-54df" id="s4" class="scene"><div data-hf-id="hf-wszk" class="wash" data-layout-ignore></div><div data-hf-id="hf-n7se" class="scene-content"><div data-hf-id="hf-i8f7" class="metric-row"><span data-hf-id="hf-5fn4" class="number paper-title" dir="ltr">500</span><h2 data-hf-id="hf-krbe" class="metric-copy">وصفة</h2></div><div data-hf-id="hf-gov5" class="ribbon ink torn">بالسعرات والماكروز</div><div data-hf-id="hf-h7ud" class="duo-stage"><div data-hf-id="hf-7gvs" class="character "><svg data-hf-id="hf-4r90" class="actor" viewBox="0 0 520 700" role="img" aria-label="شخصية مدار الكرتونية بوجه خالٍ تمامًا من الملامح"><g data-hf-id="hf-gzf5" class="person" stroke="#f9f5e9" stroke-width="18" stroke-linecap="round" stroke-linejoin="round" paint-order="stroke fill">
+ <g data-hf-id="hf-l7a5" class="leg-l" transform="rotate(0 228 427)"><path data-hf-id="hf-pate" d="M204 409H258L241 606H190L202 460Z" fill="#121210"/><ellipse data-hf-id="hf-dgtq" cx="215" cy="625" rx="49" ry="25" fill="#f3ebd8"/></g>
+ <g data-hf-id="hf-qoeu" class="leg-r" transform="rotate(0 292 427)"><path data-hf-id="hf-xdvz" d="M262 409H316L329 606H278L264 460Z" fill="#121210"/><ellipse data-hf-id="hf-okq0" cx="305" cy="625" rx="49" ry="25" fill="#f3ebd8"/></g>
+ <rect data-hf-id="hf-93py" x="238" y="194" width="44" height="58" rx="9" fill="#d9a171"/>
+ <g data-hf-id="hf-yfkh" class="arm-l" transform="rotate(0 185 245)"><path data-hf-id="hf-q85e" d="M184 244Q174 240 168 253L129 338Q123 355 143 362Q161 365 166 348L204 260Q210 246 194 242Z" fill="#d9a171"/>
+  <g data-hf-id="hf-o792" class="fore-l" transform="rotate(0 145 345)"><path data-hf-id="hf-ipd5" d="M128 344Q126 330 143 329Q159 328 161 344L167 433Q170 455 151 460Q130 461 128 441Z" fill="#d9a171"/><circle data-hf-id="hf-7gyp" cx="150" cy="440" r="23" fill="#d9a171"/><circle data-hf-id="hf-drzm" cx="145" cy="345" r="18" stroke="none" fill="#d9a171"/><path data-hf-id="hf-rikf" class="pointer-l" d="M138 451L136 479Q136 491 148 491Q161 491 161 478L161 450Z" fill="#d9a171"/></g>
+ </g>
+ <g data-hf-id="hf-egg6" class="arm-r" transform="rotate(0 335 245)"><path data-hf-id="hf-fgmm" d="M336 244Q346 240 352 253L391 338Q397 355 377 362Q359 365 354 348L316 260Q310 246 326 242Z" fill="#d9a171"/>
+  <g data-hf-id="hf-2jyx" class="fore-r" transform="rotate(0 375 345)"><path data-hf-id="hf-1953" d="M392 344Q394 330 377 329Q361 328 359 344L353 433Q350 455 369 460Q390 461 392 441Z" fill="#d9a171"/><circle data-hf-id="hf-d6a1" cx="370" cy="440" r="23" fill="#d9a171"/><circle data-hf-id="hf-wyhv" cx="375" cy="345" r="18" stroke="none" fill="#d9a171"/><path data-hf-id="hf-f4cu" class="pointer-r" d="M359 451L359 479Q359 491 371 491Q384 491 383 478L382 450Z" fill="#d9a171"/></g>
+ </g>
+ <path data-hf-id="hf-u378" class="jersey" d="M186 225Q260 209 334 225L348 407Q260 426 172 407Z" fill="#d1ac65"/>
+ <path data-hf-id="hf-ynsr" d="M177 365H343L344 388H176Z" stroke="none" fill="#121210"/>
+ <rect data-hf-id="hf-m26d" x="178" y="411" width="164" height="51" rx="25" fill="#121210"/>
+ <g data-hf-id="hf-0bij" class="head" transform="rotate(0 260 145)"><path data-hf-id="hf-947e" class="face" d="M195 145C190 104 216 72 260 72C306 72 328 100 325 145C326 183 296 216 260 216C224 216 194 185 195 145Z" fill="#d9a171"/><path data-hf-id="hf-amv2" class="hair" d="M195 145C190 104 216 72 260 72C306 72 328 100 325 145H215V160H195Z" fill="#121210" stroke="none"/></g>
+ </g></svg></div><img data-hf-id="hf-1fr7" class="food-art" src="assets/meal.png" alt="قصاصة طبق وجبة توضيحية"></div><p data-hf-id="hf-9lq8" class="sub">خيارات أكثر. يومك أوضح.</p></div></section><section data-hf-id="hf-yynm" id="s5" class="scene"><div data-hf-id="hf-obzs" class="wash" data-layout-ignore></div><div data-hf-id="hf-m0vb" class="scene-content"><h2 data-hf-id="hf-z7qp">على <span data-hf-id="hf-89u1" class="gold">هدفك.</span></h2><div data-hf-id="hf-8fu1" class="duo-stage"><div data-hf-id="hf-72kr" class="character "><svg data-hf-id="hf-55k1" class="actor" viewBox="0 0 520 700" role="img" aria-label="شخصية مدار الكرتونية بوجه خالٍ تمامًا من الملامح"><g data-hf-id="hf-gl44" class="person" stroke="#f9f5e9" stroke-width="18" stroke-linecap="round" stroke-linejoin="round" paint-order="stroke fill">
+ <g data-hf-id="hf-nzfc" class="leg-l" transform="rotate(0 228 427)"><path data-hf-id="hf-racj" d="M204 409H258L241 606H190L202 460Z" fill="#121210"/><ellipse data-hf-id="hf-c9wn" cx="215" cy="625" rx="49" ry="25" fill="#f3ebd8"/></g>
+ <g data-hf-id="hf-phhr" class="leg-r" transform="rotate(0 292 427)"><path data-hf-id="hf-ykt2" d="M262 409H316L329 606H278L264 460Z" fill="#121210"/><ellipse data-hf-id="hf-lskt" cx="305" cy="625" rx="49" ry="25" fill="#f3ebd8"/></g>
+ <rect data-hf-id="hf-7wsv" x="238" y="194" width="44" height="58" rx="9" fill="#d9a171"/>
+ <g data-hf-id="hf-y19g" class="arm-l" transform="rotate(0 185 245)"><path data-hf-id="hf-s7oj" d="M184 244Q174 240 168 253L129 338Q123 355 143 362Q161 365 166 348L204 260Q210 246 194 242Z" fill="#d9a171"/>
+  <g data-hf-id="hf-n0bz" class="fore-l" transform="rotate(0 145 345)"><path data-hf-id="hf-ib24" d="M128 344Q126 330 143 329Q159 328 161 344L167 433Q170 455 151 460Q130 461 128 441Z" fill="#d9a171"/><circle data-hf-id="hf-72no" cx="150" cy="440" r="23" fill="#d9a171"/><circle data-hf-id="hf-frir" cx="145" cy="345" r="18" stroke="none" fill="#d9a171"/><path data-hf-id="hf-sphi" class="pointer-l" d="M138 451L136 479Q136 491 148 491Q161 491 161 478L161 450Z" fill="#d9a171"/></g>
+ </g>
+ <g data-hf-id="hf-d9j3" class="arm-r" transform="rotate(0 335 245)"><path data-hf-id="hf-e9pj" d="M336 244Q346 240 352 253L391 338Q397 355 377 362Q359 365 354 348L316 260Q310 246 326 242Z" fill="#d9a171"/>
+  <g data-hf-id="hf-25nw" class="fore-r" transform="rotate(0 375 345)"><path data-hf-id="hf-2g26" d="M392 344Q394 330 377 329Q361 328 359 344L353 433Q350 455 369 460Q390 461 392 441Z" fill="#d9a171"/><circle data-hf-id="hf-crz0" cx="370" cy="440" r="23" fill="#d9a171"/><circle data-hf-id="hf-uyyq" cx="375" cy="345" r="18" stroke="none" fill="#d9a171"/><path data-hf-id="hf-dxfr" class="pointer-r" d="M359 451L359 479Q359 491 371 491Q384 491 383 478L382 450Z" fill="#d9a171"/></g>
+ </g>
+ <path data-hf-id="hf-uhi9" class="jersey" d="M186 225Q260 209 334 225L348 407Q260 426 172 407Z" fill="#d1ac65"/>
+ <path data-hf-id="hf-wo9m" d="M177 365H343L344 388H176Z" stroke="none" fill="#121210"/>
+ <rect data-hf-id="hf-oubk" x="178" y="411" width="164" height="51" rx="25" fill="#121210"/>
+ <g data-hf-id="hf-ybze" class="head" transform="rotate(0 260 145)"><path data-hf-id="hf-b3qj" class="face" d="M195 145C190 104 216 72 260 72C306 72 328 100 325 145C326 183 296 216 260 216C224 216 194 185 195 145Z" fill="#d9a171"/><path data-hf-id="hf-9fxz" class="hair" d="M195 145C190 104 216 72 260 72C306 72 328 100 325 145H215V160H195Z" fill="#121210" stroke="none"/></g>
+ </g></svg></div><div data-hf-id="hf-go42" class="goal-list"><div data-hf-id="hf-s4pp" class="goal cut"><strong data-hf-id="hf-elmb">خفض</strong><svg data-hf-id="hf-ithg" viewBox="0 0 100 100" aria-hidden="true"><path data-hf-id="hf-feoj" d="M36 10H64V55H88L50 94 12 55H36Z"/></svg></div><div data-hf-id="hf-ju25" class="goal steady"><strong data-hf-id="hf-44dk">ثبات</strong><svg data-hf-id="hf-koho" viewBox="0 0 100 100" aria-hidden="true"><path data-hf-id="hf-stml" d="M8 35H92V47H8ZM8 59H92V71H8Z"/></svg></div><div data-hf-id="hf-efqu" class="goal gain"><strong data-hf-id="hf-bqmf">زيادة</strong><svg data-hf-id="hf-jhkl" viewBox="0 0 100 100" aria-hidden="true"><path data-hf-id="hf-7skq" d="M36 90H64V45H88L50 6 12 45H36Z"/></svg></div></div></div><p data-hf-id="hf-8fjp" class="sub">حدّد هدفك من الحاسبة.</p></div></section><section data-hf-id="hf-v0jl" id="s6" class="scene"><div data-hf-id="hf-7ohg" class="halftone" data-layout-ignore></div><div data-hf-id="hf-mf6c" class="scene-content"><div data-hf-id="hf-hu46" class="metric-row"><span data-hf-id="hf-bwua" class="number paper-title" dir="ltr">34</span><h2 data-hf-id="hf-xidb" class="metric-copy">صفحة</h2></div><div data-hf-id="hf-s03d" class="guide-stage"><div data-hf-id="hf-oq6c" class="sheet one" data-layout-ignore></div><div data-hf-id="hf-ljja" class="sheet two" data-layout-ignore></div><img data-hf-id="hf-ipc0" class="guide-cover" src="assets/book-guide.svg" alt="الغلاف الأصلي للدليل الرقمي الحالي"><div data-hf-id="hf-531m" class="character "><svg data-hf-id="hf-5jv2" class="actor" viewBox="0 0 520 700" role="img" aria-label="شخصية مدار الكرتونية بوجه خالٍ تمامًا من الملامح"><g data-hf-id="hf-g6t3" class="person" stroke="#f9f5e9" stroke-width="18" stroke-linecap="round" stroke-linejoin="round" paint-order="stroke fill">
+ <g data-hf-id="hf-nl4b" class="leg-l" transform="rotate(0 228 427)"><path data-hf-id="hf-ronk" d="M204 409H258L241 606H190L202 460Z" fill="#121210"/><ellipse data-hf-id="hf-co7o" cx="215" cy="625" rx="49" ry="25" fill="#f3ebd8"/></g>
+ <g data-hf-id="hf-pvss" class="leg-r" transform="rotate(0 292 427)"><path data-hf-id="hf-y6i1" d="M262 409H316L329 606H278L264 460Z" fill="#121210"/><ellipse data-hf-id="hf-m6vu" cx="305" cy="625" rx="49" ry="25" fill="#f3ebd8"/></g>
+ <rect data-hf-id="hf-8b3w" x="238" y="194" width="44" height="58" rx="9" fill="#d9a171"/>
+ <g data-hf-id="hf-xmyf" class="arm-l" transform="rotate(0 185 245)"><path data-hf-id="hf-slzk" d="M184 244Q174 240 168 253L129 338Q123 355 143 362Q161 365 166 348L204 260Q210 246 194 242Z" fill="#d9a171"/>
+  <g data-hf-id="hf-nen0" class="fore-l" transform="rotate(0 145 345)"><path data-hf-id="hf-hwr3" d="M128 344Q126 330 143 329Q159 328 161 344L167 433Q170 455 151 460Q130 461 128 441Z" fill="#d9a171"/><circle data-hf-id="hf-6ocn" cx="150" cy="440" r="23" fill="#d9a171"/><circle data-hf-id="hf-g5ts" cx="145" cy="345" r="18" stroke="none" fill="#d9a171"/><path data-hf-id="hf-sb6h" class="pointer-l" d="M138 451L136 479Q136 491 148 491Q161 491 161 478L161 450Z" fill="#d9a171"/></g>
+ </g>
+ <g data-hf-id="hf-dnu4" class="arm-r" transform="rotate(0 335 245)"><path data-hf-id="hf-eo0k" d="M336 244Q346 240 352 253L391 338Q397 355 377 362Q359 365 354 348L316 260Q310 246 326 242Z" fill="#d9a171"/>
+  <g data-hf-id="hf-1rcv" class="fore-r" transform="rotate(0 375 345)"><path data-hf-id="hf-21r5" d="M392 344Q394 330 377 329Q361 328 359 344L353 433Q350 455 369 460Q390 461 392 441Z" fill="#d9a171"/><circle data-hf-id="hf-cdnz" cx="370" cy="440" r="23" fill="#d9a171"/><circle data-hf-id="hf-uknp" cx="375" cy="345" r="18" stroke="none" fill="#d9a171"/><path data-hf-id="hf-ebqs" class="pointer-r" d="M359 451L359 479Q359 491 371 491Q384 491 383 478L382 450Z" fill="#d9a171"/></g>
+ </g>
+ <path data-hf-id="hf-uvta" class="jersey" d="M186 225Q260 209 334 225L348 407Q260 426 172 407Z" fill="#d1ac65"/>
+ <path data-hf-id="hf-w9yl" d="M177 365H343L344 388H176Z" stroke="none" fill="#121210"/>
+ <rect data-hf-id="hf-og0j" x="178" y="411" width="164" height="51" rx="25" fill="#121210"/>
+ <g data-hf-id="hf-xxod" class="head" transform="rotate(0 260 145)"><path data-hf-id="hf-bi1k" class="face" d="M195 145C190 104 216 72 260 72C306 72 328 100 325 145C326 183 296 216 260 216C224 216 194 185 195 145Z" fill="#d9a171"/><path data-hf-id="hf-9u90" class="hair" d="M195 145C190 104 216 72 260 72C306 72 328 100 325 145H215V160H195Z" fill="#121210" stroke="none"/></g>
+ </g></svg></div></div><div data-hf-id="hf-a6ie" class="ribbon ink torn">روابط شرح التمارين</div><p data-hf-id="hf-xgfl" class="sub">دليل رقمي، معك في كل خطوة.</p></div></section><section data-hf-id="hf-u8vs" id="s7" class="scene"><div data-hf-id="hf-gtvz" class="disc" data-layout-ignore></div><div data-hf-id="hf-82sh" class="halftone" data-layout-ignore></div><div data-hf-id="hf-l899" class="scene-content"><p data-hf-id="hf-ffxw" class="eyebrow">TRAIN · FUEL · TRANSFORM</p><div data-hf-id="hf-9mr4" class="duo-stage"><div data-hf-id="hf-68ys" class="book-wrap"><img data-hf-id="hf-5wwk" src="assets/book-cover.svg" alt="غلاف بروتوكول التحول الأصلي"></div><div data-hf-id="hf-4oql" class="character "><svg data-hf-id="hf-5y63" class="actor" viewBox="0 0 520 700" role="img" aria-label="شخصية مدار الكرتونية بوجه خالٍ تمامًا من الملامح"><g data-hf-id="hf-fsi2" class="person" stroke="#f9f5e9" stroke-width="18" stroke-linecap="round" stroke-linejoin="round" paint-order="stroke fill">
+ <g data-hf-id="hf-n6ta" class="leg-l" transform="rotate(0 228 427)"><path data-hf-id="hf-qhqh" d="M204 409H258L241 606H190L202 460Z" fill="#121210"/><ellipse data-hf-id="hf-bhal" cx="215" cy="625" rx="49" ry="25" fill="#f3ebd8"/></g>
+ <g data-hf-id="hf-oovp" class="leg-r" transform="rotate(0 292 427)"><path data-hf-id="hf-zdf4" d="M262 409H316L329 606H278L264 460Z" fill="#121210"/><ellipse data-hf-id="hf-ml6v" cx="305" cy="625" rx="49" ry="25" fill="#f3ebd8"/></g>
+ <rect data-hf-id="hf-746t" x="238" y="194" width="44" height="58" rx="9" fill="#d9a171"/>
+ <g data-hf-id="hf-x8ne" class="arm-l" transform="rotate(0 185 245)"><path data-hf-id="hf-rf2h" d="M184 244Q174 240 168 253L129 338Q123 355 143 362Q161 365 166 348L204 260Q210 246 194 242Z" fill="#d9a171"/>
+  <g data-hf-id="hf-m7px" class="fore-l" transform="rotate(0 145 345)"><path data-hf-id="hf-hig2" d="M128 344Q126 330 143 329Q159 328 161 344L167 433Q170 455 151 460Q130 461 128 441Z" fill="#d9a171"/><circle data-hf-id="hf-6a1m" cx="150" cy="440" r="23" fill="#d9a171"/><circle data-hf-id="hf-eywp" cx="145" cy="345" r="18" stroke="none" fill="#d9a171"/><path data-hf-id="hf-ti3k" class="pointer-l" d="M138 451L136 479Q136 491 148 491Q161 491 161 478L161 450Z" fill="#d9a171"/></g>
+ </g>
+ <g data-hf-id="hf-cgx1" class="arm-r" transform="rotate(0 335 245)"><path data-hf-id="hf-dh3h" d="M336 244Q346 240 352 253L391 338Q397 355 377 362Q359 365 354 348L316 260Q310 246 326 242Z" fill="#d9a171"/>
+  <g data-hf-id="hf-1d1u" class="fore-r" transform="rotate(0 375 345)"><path data-hf-id="hf-38o8" d="M392 344Q394 330 377 329Q361 328 359 344L353 433Q350 455 369 460Q390 461 392 441Z" fill="#d9a171"/><circle data-hf-id="hf-bzcy" cx="370" cy="440" r="23" fill="#d9a171"/><circle data-hf-id="hf-vrks" cx="375" cy="345" r="18" stroke="none" fill="#d9a171"/><path data-hf-id="hf-d4tp" class="pointer-r" d="M359 451L359 479Q359 491 371 491Q384 491 383 478L382 450Z" fill="#d9a171"/></g>
+ </g>
+ <path data-hf-id="hf-va4b" class="jersey" d="M186 225Q260 209 334 225L348 407Q260 426 172 407Z" fill="#d1ac65"/>
+ <path data-hf-id="hf-xgvo" d="M177 365H343L344 388H176Z" stroke="none" fill="#121210"/>
+ <rect data-hf-id="hf-o1pi" x="178" y="411" width="164" height="51" rx="25" fill="#121210"/>
+ <g data-hf-id="hf-z4lg" class="head" transform="rotate(0 260 145)"><path data-hf-id="hf-ab4h" class="face" d="M195 145C190 104 216 72 260 72C306 72 328 100 325 145C326 183 296 216 260 216C224 216 194 185 195 145Z" fill="#d9a171"/><path data-hf-id="hf-8nbx" class="hair" d="M195 145C190 104 216 72 260 72C306 72 328 100 325 145H215V160H195Z" fill="#121210" stroke="none"/></g>
+ </g></svg></div></div><h2 data-hf-id="hf-dc3c">بروتوكول التحوّل</h2><p data-hf-id="hf-i79e" class="sub">تمرينك وأدواتك، في مدار واحد.</p></div></section><section data-hf-id="hf-yv67" id="s8" class="scene"><div data-hf-id="hf-h870" class="disc" data-layout-ignore></div><div data-hf-id="hf-8h3i" class="halftone" data-layout-ignore></div><div data-hf-id="hf-lmka" class="scene-content"><div data-hf-id="hf-eo95" class="closing-brand"><img data-hf-id="hf-403l" class="closing-book" src="assets/book-end.svg" alt="غلاف بروتوكول التحول"><img data-hf-id="hf-oc5w" class="logo" src="assets/closing-logo.png" alt="شعار مدار الأصلي"><div data-hf-id="hf-5vno" class="character "><svg data-hf-id="hf-6ch4" class="actor" viewBox="0 0 520 700" role="img" aria-label="شخصية مدار الكرتونية بوجه خالٍ تمامًا من الملامح"><g data-hf-id="hf-fe71" class="person" stroke="#f9f5e9" stroke-width="18" stroke-linecap="round" stroke-linejoin="round" paint-order="stroke fill">
+ <g data-hf-id="hf-msi9" class="leg-l" transform="rotate(0 228 427)"><path data-hf-id="hf-qw1i" d="M204 409H258L241 606H190L202 460Z" fill="#121210"/><ellipse data-hf-id="hf-bvlm" cx="215" cy="625" rx="49" ry="25" fill="#f3ebd8"/></g>
+ <g data-hf-id="hf-p36q" class="leg-r" transform="rotate(0 292 427)"><path data-hf-id="hf-yz43" d="M262 409H316L329 606H278L264 460Z" fill="#121210"/><ellipse data-hf-id="hf-mzhw" cx="305" cy="625" rx="49" ry="25" fill="#f3ebd8"/></g>
+ <rect data-hf-id="hf-7ihu" x="238" y="194" width="44" height="58" rx="9" fill="#d9a171"/>
+ <g data-hf-id="hf-wucd" class="arm-l" transform="rotate(0 185 245)"><path data-hf-id="hf-rtdi" d="M184 244Q174 240 168 253L129 338Q123 355 143 362Q161 365 166 348L204 260Q210 246 194 242Z" fill="#d9a171"/>
+  <g data-hf-id="hf-mm0y" class="fore-l" transform="rotate(0 145 345)"><path data-hf-id="hf-h451" d="M128 344Q126 330 143 329Q159 328 161 344L167 433Q170 455 151 460Q130 461 128 441Z" fill="#d9a171"/><circle data-hf-id="hf-5vql" cx="150" cy="440" r="23" fill="#d9a171"/><circle data-hf-id="hf-fd7q" cx="145" cy="345" r="18" stroke="none" fill="#d9a171"/><path data-hf-id="hf-t3sj" class="pointer-l" d="M138 451L136 479Q136 491 148 491Q161 491 161 478L161 450Z" fill="#d9a171"/></g>
+ </g>
+ <g data-hf-id="hf-cv82" class="arm-r" transform="rotate(0 335 245)"><path data-hf-id="hf-dvei" d="M336 244Q346 240 352 253L391 338Q397 355 377 362Q359 365 354 348L316 260Q310 246 326 242Z" fill="#d9a171"/>
+  <g data-hf-id="hf-0yqt" class="fore-r" transform="rotate(0 375 345)"><path data-hf-id="hf-2ud7" d="M392 344Q394 330 377 329Q361 328 359 344L353 433Q350 455 369 460Q390 461 392 441Z" fill="#d9a171"/><circle data-hf-id="hf-bl1x" cx="370" cy="440" r="23" fill="#d9a171"/><circle data-hf-id="hf-vd9r" cx="375" cy="345" r="18" stroke="none" fill="#d9a171"/><path data-hf-id="hf-dj4q" class="pointer-r" d="M359 451L359 479Q359 491 371 491Q384 491 383 478L382 450Z" fill="#d9a171"/></g>
+ </g>
+ <path data-hf-id="hf-vofc" class="jersey" d="M186 225Q260 209 334 225L348 407Q260 426 172 407Z" fill="#d1ac65"/>
+ <path data-hf-id="hf-x2kn" d="M177 365H343L344 388H176Z" stroke="none" fill="#121210"/>
+ <rect data-hf-id="hf-nneh" x="178" y="411" width="164" height="51" rx="25" fill="#121210"/>
+ <g data-hf-id="hf-yqaf" class="head" transform="rotate(0 260 145)"><path data-hf-id="hf-apfi" class="face" d="M195 145C190 104 216 72 260 72C306 72 328 100 325 145C326 183 296 216 260 216C224 216 194 185 195 145Z" fill="#d9a171"/><path data-hf-id="hf-91my" class="hair" d="M195 145C190 104 216 72 260 72C306 72 328 100 325 145H215V160H195Z" fill="#121210" stroke="none"/></g>
+ </g></svg></div></div><p data-hf-id="hf-ozuy" class="brand-name">مدار</p><h2 data-hf-id="hf-nbna">ابدأ خطوتك.</h2><div data-hf-id="hf-2i8q" class="cta">احصل على البروتوكول<img data-hf-id="hf-br7j" src="assets/arrow.svg" alt=""></div><p data-hf-id="hf-0592" class="url">mdaar21.zid.store</p><p data-hf-id="hf-wxmh" class="closing-note">برنامجك · غذاؤك · تقدّمك</p></div></section><div data-hf-id="hf-add3" class="brand-bar"><div data-hf-id="hf-oojr" class="brand"><img data-hf-id="hf-q023" src="assets/hero-logo.png" alt=""><span data-hf-id="hf-hwgh">مدار</span></div><span data-hf-id="hf-zttx" class="edition">MDAAR21</span></div><div data-hf-id="hf-yh7l" class="footer"><span data-hf-id="hf-vx02" class="footer-label">YOUR NEXT CHAPTER</span><span data-hf-id="hf-ni1k" class="progress"><i data-hf-id="hf-wt6k"></i></span></div><audio data-hf-id="hf-jl63" id="effects" src="assets/sfx-only.mp3" data-start="0" data-duration="20" data-track-index="3" data-volume="1"></audio></div><script>/* Deterministic, seekable cartoon rig. Every face is a single empty fill. */
+window.__timelines=window.__timelines||{};
+const tl=gsap.timeline({paused:true});
+window.__timelines['mdaar-character']=tl;
+const pivots={'arm-l':[185,245],'fore-l':[145,345],'arm-r':[335,245],'fore-r':[375,345],'leg-l':[228,427],'leg-r':[292,427],head:[260,145]};
+function joint(scene,part,angle,time,duration=.22,ease='power2.inOut'){
+  const [cx,cy]=pivots[part];
+  const value={attr:{transform:`rotate(${angle} ${cx} ${cy})`}};
+  if(duration===0)tl.set(`${scene} .${part}`,value,time);
+  else tl.to(`${scene} .${part}`,{...value,duration,ease},time);
+}
+function pose(scene,values,time,duration=.22,ease='power2.inOut'){
+  for(const [part,angle] of Object.entries(values))joint(scene,part,angle,time,duration,ease);
+}
+function enter(selector,time,kind=0,duration=.3){
+  const vars=kind===1?{x:85,opacity:0}:kind===2?{scale:.72,opacity:0}:kind===3?{rotation:-9,scale:.93,opacity:0}:{y:65,opacity:0};
+  tl.from(selector,{...vars,duration,ease:kind===1?'expo.out':kind===2?'back.out(1.35)':kind===3?'sine.out':'power3.out'},time);
+}
+function push(oldScene,newScene,time,direction='up'){
+  const axis=direction==='left'?'x':'y',offset=axis==='x'?1080:1920;
+  tl.to(oldScene,{[axis]:-offset,duration:.28,ease:'power3.inOut'},time);
+  tl.fromTo(newScene,{[axis]:offset,opacity:1},{[axis]:0,opacity:1,duration:.28,ease:'power3.inOut'},time);
+  tl.set(oldScene,{opacity:0},time+.29);
+}
+function paperReveal(oldScene,newScene,time,origin='50% 60%'){
+  tl.set(newScene,{opacity:1},time);
+  tl.fromTo(newScene,{clipPath:`circle(0% at ${origin})`},{clipPath:`circle(120% at ${origin})`,duration:.26,ease:'power3.out'},time);
+  tl.set(newScene,{clipPath:'none'},time+.27);
+  // At 0.14 s the expanding circle already covers the entire outgoing canvas.
+  tl.set(oldScene,{opacity:0},time+.14);
+}
+function hop(scene,time,height=60){
+  const a=`${scene} .actor`;
+  tl.to(a,{scaleX:1.06,scaleY:.92,y:10,duration:.085,ease:'power2.in'},time);
+  tl.to(a,{scaleX:.96,scaleY:1.05,y:-height,duration:.16,ease:'power2.out'},time+.085);
+  tl.to(a,{scaleX:1.08,scaleY:.93,y:8,duration:.15,ease:'power2.in'},time+.245);
+  tl.to(a,{scaleX:1,scaleY:1,y:0,duration:.11,ease:'power2.out'},time+.395);
+}
+const flex={'arm-l':65,'fore-l':130,'arm-r':-65,'fore-r':-130};
+const pointR={'arm-r':-45,'fore-r':-45,'arm-l':-7,'fore-l':12};
+const pointL={'arm-l':45,'fore-l':45,'arm-r':7,'fore-r':-12};
+tl.from('.brand-bar',{y:-24,opacity:0,duration:.28,ease:'power3.out'},.1);
+tl.from('.footer',{opacity:0,duration:.32,ease:'sine.out'},.14);
+tl.from('.progress i',{scaleX:0,duration:20,ease:'none'},0);
+// 0—2: the actual reference character returns; leap, land, flex.
+tl.from('#s1 .word1',{x:85,rotation:-3,duration:.28,ease:'expo.out'},.1);enter('#s1 .word2',.2,2,.32);
+enter('#s1 .disc',.17,2,.35);enter('#s1 .halftone',.21,3,.33);
+enter('#s1 .character',.22,1,.31);enter('#s1 .sub',.5,0,.25);
+hop('#s1',.29,80);
+pose('#s1',{'leg-l':12,'leg-r':-12},.36,.12);pose('#s1',{'leg-l':0,'leg-r':0},.61,.16);
+pose('#s1',flex,.48,.27,'back.out(1.1)');
+pose('#s1',{'fore-l':114,'fore-r':-114,head:-5},1.02,.13);
+pose('#s1',{'fore-l':132,'fore-r':-132,head:4},1.18,.16);
+tl.to('#s1 .actor',{scale:1.025,duration:.23,ease:'sine.inOut'},1.48);
+// 2—4: a comic, readable scratch of the blank head.
+push('#s1','#s2',1.85);
+enter('#s2 .confusion',2.02,1,.25);enter('#s2 .word-start',2.12,2,.29);
+enter('#s2 .disc',2,2,.3);enter('#s2 .halftone',2.06,3,.3);
+enter('#s2 .character',2.03,3,.31);enter('#s2 .sub',2.37,0,.25);
+enter('#s2 .q1',2.25,2,.22);enter('#s2 .q2',2.43,1,.24);
+pose('#s2',{'arm-r':-120,'fore-r':-116,'arm-l':18,'fore-l':35,head:-8},2.05,.24);
+for(const t of [2.5,2.91,3.32]){
+  joint('#s2','fore-r',-128,t,.09);joint('#s2','fore-r',-114,t+.11,.12);
+}
+joint('#s2','head',7,2.75,.2);joint('#s2','head',-6,3.22,.2);
+tl.to('#s2 .q1',{rotation:9,y:-18,duration:.28,ease:'back.out(1.2)'},2.64);
+tl.to('#s2 .q2',{rotation:-8,scale:1.13,duration:.24,ease:'power2.out'},3.05);
+// 4—7: two genuine arm-and-barbell repetitions. Hands follow the shaft.
+push('#s2','#s3',3.85);
+enter('#s3 .number',4,2,.3);enter('#s3 .metric-copy',4.07,1,.28);
+enter('#s3 .four',4.16,3,.27);enter('#s3 .five',4.29,0,.27);
+enter('#s3 .halftone',4.08,3,.3);enter('#s3 .character',4.12,2,.31);
+enter('#s3 .sub',4.43,1,.25);
+function gripPose(y,t,d){
+  const l1=Math.hypot(-40,100),l2=Math.hypot(5,95),dx=-55,dy=y-245;
+  const delta=Math.acos((dx*dx+dy*dy-l1*l1-l2*l2)/(2*l1*l2));
+  let angle=Math.atan2(dy,dx)-Math.atan2(l2*Math.sin(delta),l1+l2*Math.cos(delta));
+  if(angle<0)angle+=2*Math.PI;
+  const upper=(angle-Math.atan2(100,-40))*180/Math.PI;
+  const lower=(delta-Math.atan2(95,5)+Math.atan2(100,-40))*180/Math.PI;
+  pose('#s3',{'arm-l':upper,'fore-l':lower,'arm-r':-upper,'fore-r':-lower},t,d,'none');
+  const vars={attr:{transform:`translate(0 ${y-235})`}};
+  if(d===0)tl.set('#s3 .barbell',vars,t);else tl.to('#s3 .barbell',{...vars,duration:d,ease:'none'},t);
+}
+gripPose(235,3.98,0);
+for(const start of [4.65,5.68]){
+  [180,120,60,60,120,180,235].forEach((y,i)=>gripPose(y,start+i*.115,.115));
+  tl.to('#s3 .actor',{y:8,scaleY:.98,duration:.12,ease:'sine.inOut'},start);
+  tl.to('#s3 .actor',{y:-6,scaleY:1.015,duration:.15,ease:'power2.out'},start+.24);
+  tl.to('#s3 .actor',{y:0,scaleY:1,duration:.18,ease:'sine.inOut'},start+.61);
+}
+// 7—9.5: a sharp plate reveal with a pointing character, rather than a lone prop.
+paperReveal('#s3','#s4',6.85,'65% 58%');
+enter('#s4 .number',6.98,2,.32);enter('#s4 .metric-copy',7.07,1,.25);
+enter('#s4 .ribbon',7.16,3,.25);enter('#s4 .wash',6.95,0,.3);
+enter('#s4 .character',7.12,1,.3);enter('#s4 .food-art',7.21,3,.34);
+enter('#s4 .sub',7.42,0,.26);
+pose('#s4',pointR,7.14,.24);tl.set('#s4 .pointer-r',{opacity:1},7.36);
+hop('#s4',7.56,40);joint('#s4','head',-7,7.62,.2);
+joint('#s4','arm-r',-62,8.15,.19);joint('#s4','fore-r',-32,8.15,.19);
+tl.to('#s4 .food-art',{rotation:3,scale:1.045,duration:.16,ease:'power2.out'},8.23);
+tl.to('#s4 .food-art',{rotation:0,scale:1,duration:.24,ease:'back.out(1.2)'},8.41);
+pose('#s4',{'arm-l':45,'fore-l':85,head:4},8.62,.23);
+// 9.5—11.5: hand gestures follow the three goals, top to bottom.
+push('#s4','#s5',9.35);
+enter('#s5 h2',9.52,1,.26);enter('#s5 .wash',9.5,3,.29);
+enter('#s5 .character',9.56,2,.3);enter('#s5 .cut',9.66,3,.24);
+enter('#s5 .steady',9.92,2,.25);enter('#s5 .gain',10.19,0,.25);
+enter('#s5 .sub',9.87,1,.26);
+tl.set('#s5 .pointer-r',{opacity:1},9.68);
+pose('#s5',{'arm-r':-72,'fore-r':-45,'arm-l':-6,'fore-l':15,head:-5},9.59,.25);
+pose('#s5',{'arm-r':-43,'fore-r':-48,head:0},10,.22);
+pose('#s5',{'arm-r':-18,'fore-r':-40,head:6},10.42,.22);
+for(const [selector,time] of [['.cut',9.91],['.steady',10.29],['.gain',10.71]]){
+  tl.to('#s5 '+selector,{x:16,scale:1.025,duration:.1,ease:'power2.out'},time);
+  tl.to('#s5 '+selector,{x:0,scale:1,duration:.17,ease:'sine.out'},time+.1);
+}
+// 11.5—14: paper fans out; the character draws attention to the actual guide.
+push('#s5','#s6',11.35,'left');
+enter('#s6 .number',11.52,2,.31);enter('#s6 .metric-copy',11.59,1,.26);
+enter('#s6 .halftone',11.52,3,.3);
+enter('#s6 .sheet.one',11.62,3,.3);enter('#s6 .sheet.two',11.73,0,.3);
+enter('#s6 .guide-cover',11.81,1,.34);enter('#s6 .character',11.65,3,.3);
+enter('#s6 .ribbon',12.01,2,.28);enter('#s6 .sub',12.2,0,.25);
+pose('#s6',{'arm-l':18,'fore-l':90,head:-6},11.68,.24);
+pose('#s6',pointL,12.1,.22);tl.set('#s6 .pointer-l',{opacity:1},12.3);
+tl.to('#s6 .guide-cover',{rotation:2,y:-8,duration:.35,ease:'back.out(1.1)'},12.4);
+tl.to('#s6 .sheet.one',{rotation:-13,x:-14,duration:.3,ease:'power2.out'},12.41);
+tl.to('#s6 .sheet.two',{rotation:9,x:14,duration:.31,ease:'power2.out'},12.5);
+joint('#s6','head',5,13.1,.2);
+// 14—16.8: an original cover reveal, with the character celebrating beside it.
+paperReveal('#s6','#s7',13.85,'42% 56%');
+enter('#s7 .disc',13.9,2,.4);enter('#s7 .halftone',13.96,3,.4);
+enter('#s7 .eyebrow',14.02,1,.26);enter('#s7 .book-wrap',14.03,2,.4);
+enter('#s7 .character',14.14,3,.32);enter('#s7 h2',14.3,0,.28);enter('#s7 .sub',14.46,1,.26);
+pose('#s7',pointL,14.14,.24);tl.set('#s7 .pointer-l',{opacity:1},14.37);
+hop('#s7',14.56,55);
+tl.to('#s7 .book-wrap',{rotation:2.4,scale:1.025,duration:.45,ease:'sine.inOut'},15.05);
+pose('#s7',{'arm-r':-65,'fore-r':-130,head:-5},15.37,.23);
+tl.to('#s7 .book-wrap',{rotation:1,scale:1.012,duration:.45,ease:'sine.inOut'},15.85);
+// 16.8—20: final jump, then a readable purchase frame with no music.
+push('#s7','#s8',16.65,'left');
+enter('#s8 .disc',16.73,2,.35);enter('#s8 .halftone',16.8,3,.35);
+enter('#s8 .closing-book',16.82,3,.29);enter('#s8 .logo',16.86,2,.29);
+enter('#s8 .character',16.84,1,.3);enter('#s8 .brand-name',16.95,0,.3);
+enter('#s8 h2',17.06,1,.28);enter('#s8 .cta',17.19,2,.32);
+enter('#s8 .url',17.34,0,.28);enter('#s8 .closing-note',17.48,1,.26);
+pose('#s8',{'arm-l':65,'fore-l':130,'arm-r':10,'fore-r':-10,head:-5},16.83,.25);
+hop('#s8',17.06,45);tl.set('#s8 .pointer-r',{opacity:1},17.51);
+pose('#s8',{'arm-r':-8,'fore-r':6,head:3},17.72,.18);
+pose('#s8',{'arm-r':8,'fore-r':-8,head:0},18,.19);
+tl.to('#s8 .closing-book',{rotation:-2,duration:.42,ease:'sine.inOut'},18.13);
+tl.to('#s8 .cta img',{x:-9,duration:.16,ease:'power2.out'},18.4);
+tl.to('#s8 .cta img',{x:0,duration:.2,ease:'sine.out'},18.56);
+</script></body></html>
