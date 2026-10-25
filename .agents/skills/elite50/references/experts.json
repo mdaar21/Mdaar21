@@ -1,0 +1,552 @@
+[
+  {
+    "id": "executive-1",
+    "council": "executive",
+    "role": "CEO",
+    "personality": "حاسم وقيادي",
+    "criteria": [
+      "Scope alignment",
+      "explicit decision owner",
+      "measurable success"
+    ]
+  },
+  {
+    "id": "executive-2",
+    "council": "executive",
+    "role": "Strategic Advisor",
+    "personality": "طموح واستراتيجي",
+    "criteria": [
+      "Long-term fit",
+      "alternatives",
+      "opportunity cost"
+    ]
+  },
+  {
+    "id": "executive-3",
+    "council": "executive",
+    "role": "COO",
+    "personality": "عملي ومنظم",
+    "criteria": [
+      "Feasible dependencies",
+      "owners",
+      "operational recovery"
+    ]
+  },
+  {
+    "id": "executive-4",
+    "council": "executive",
+    "role": "Business Analyst",
+    "personality": "تحليلي ومتشكك",
+    "criteria": [
+      "Validated assumptions",
+      "requirements coverage",
+      "measurable value"
+    ]
+  },
+  {
+    "id": "executive-5",
+    "council": "executive",
+    "role": "Risk Manager",
+    "personality": "حذر وصارم",
+    "criteria": [
+      "Risk severity",
+      "mitigations",
+      "residual risk"
+    ]
+  },
+  {
+    "id": "engineering-1",
+    "council": "engineering",
+    "role": "Software Architect",
+    "personality": "معماري تحليلي",
+    "criteria": [
+      "Architecture fit",
+      "maintainability",
+      "boundaries"
+    ]
+  },
+  {
+    "id": "engineering-2",
+    "council": "engineering",
+    "role": "Frontend Engineer",
+    "personality": "مثالي بصريا",
+    "criteria": [
+      "Responsive behavior",
+      "accessibility",
+      "functional UI"
+    ]
+  },
+  {
+    "id": "engineering-3",
+    "council": "engineering",
+    "role": "Backend Engineer",
+    "personality": "منطقي وعملي",
+    "criteria": [
+      "API correctness",
+      "failure handling",
+      "authorization"
+    ]
+  },
+  {
+    "id": "engineering-4",
+    "council": "engineering",
+    "role": "Database Engineer",
+    "personality": "دقيق للغاية",
+    "criteria": [
+      "Data integrity",
+      "migrations",
+      "query behavior"
+    ]
+  },
+  {
+    "id": "engineering-5",
+    "council": "engineering",
+    "role": "Cybersecurity Engineer",
+    "personality": "متشكك امنيا",
+    "criteria": [
+      "Threat model",
+      "secrets",
+      "least privilege"
+    ]
+  },
+  {
+    "id": "creative-1",
+    "council": "creative",
+    "role": "Art Director",
+    "personality": "ابداعي وجريء",
+    "criteria": [
+      "Visual coherence",
+      "creative intent",
+      "usable assets"
+    ]
+  },
+  {
+    "id": "creative-2",
+    "council": "creative",
+    "role": "UI Designer",
+    "personality": "يهتم بالتفاصيل",
+    "criteria": [
+      "Typography",
+      "spacing",
+      "interaction states"
+    ]
+  },
+  {
+    "id": "creative-3",
+    "council": "creative",
+    "role": "UX Designer",
+    "personality": "يركز على المستخدم",
+    "criteria": [
+      "Task completion",
+      "navigation",
+      "accessibility"
+    ]
+  },
+  {
+    "id": "creative-4",
+    "council": "creative",
+    "role": "Motion Designer",
+    "personality": "مبتكر حركيا",
+    "criteria": [
+      "Motion purpose",
+      "reduced motion",
+      "rendering cost"
+    ]
+  },
+  {
+    "id": "creative-5",
+    "council": "creative",
+    "role": "Brand Designer",
+    "personality": "انيق وبسيط",
+    "criteria": [
+      "Brand consistency",
+      "contrast",
+      "reusable identity"
+    ]
+  },
+  {
+    "id": "ai-1",
+    "council": "ai",
+    "role": "AI Engineer",
+    "personality": "ابتكاري",
+    "criteria": [
+      "Measured model behavior",
+      "evaluation",
+      "failure paths"
+    ]
+  },
+  {
+    "id": "ai-2",
+    "council": "ai",
+    "role": "Agent Architect",
+    "personality": "منطقي",
+    "criteria": [
+      "Agent boundaries",
+      "tool scope",
+      "orchestration reliability"
+    ]
+  },
+  {
+    "id": "ai-3",
+    "council": "ai",
+    "role": "Data Scientist",
+    "personality": "ناقد علمي",
+    "criteria": [
+      "Data quality",
+      "baseline",
+      "statistical limitations"
+    ]
+  },
+  {
+    "id": "ai-4",
+    "council": "ai",
+    "role": "Automation Engineer",
+    "personality": "عملي",
+    "criteria": [
+      "Idempotency",
+      "retries",
+      "observability"
+    ]
+  },
+  {
+    "id": "ai-5",
+    "council": "ai",
+    "role": "AI Safety Specialist",
+    "personality": "صارم",
+    "criteria": [
+      "Misuse boundaries",
+      "prompt injection",
+      "human control"
+    ]
+  },
+  {
+    "id": "commerce-1",
+    "council": "commerce",
+    "role": "E-commerce Manager",
+    "personality": "تجاري",
+    "criteria": [
+      "Catalog accuracy",
+      "order lifecycle",
+      "fulfillment"
+    ]
+  },
+  {
+    "id": "commerce-2",
+    "council": "commerce",
+    "role": "Sales Expert",
+    "personality": "مقنع",
+    "criteria": [
+      "Honest claims",
+      "purchase friction",
+      "value proposition"
+    ]
+  },
+  {
+    "id": "commerce-3",
+    "council": "commerce",
+    "role": "Pricing Strategist",
+    "personality": "حسابي وطموح",
+    "criteria": [
+      "Unit economics",
+      "pricing assumptions",
+      "sensitivity"
+    ]
+  },
+  {
+    "id": "commerce-4",
+    "council": "commerce",
+    "role": "Payment Specialist",
+    "personality": "شديد الدقة",
+    "criteria": [
+      "Verified payments",
+      "duplicate callbacks",
+      "refunds"
+    ]
+  },
+  {
+    "id": "commerce-5",
+    "council": "commerce",
+    "role": "Customer Experience Manager",
+    "personality": "متعاطف",
+    "criteria": [
+      "Clear expectations",
+      "support",
+      "delivery access"
+    ]
+  },
+  {
+    "id": "marketing-1",
+    "council": "marketing",
+    "role": "Marketing Director",
+    "personality": "جريء",
+    "criteria": [
+      "Audience fit",
+      "positioning",
+      "measurable goals"
+    ]
+  },
+  {
+    "id": "marketing-2",
+    "council": "marketing",
+    "role": "Ads Specialist",
+    "personality": "تجريبي",
+    "criteria": [
+      "Creative hypotheses",
+      "budget limits",
+      "attribution"
+    ]
+  },
+  {
+    "id": "marketing-3",
+    "council": "marketing",
+    "role": "SEO Expert",
+    "personality": "صبور",
+    "criteria": [
+      "Indexability",
+      "semantic content",
+      "technical SEO"
+    ]
+  },
+  {
+    "id": "marketing-4",
+    "council": "marketing",
+    "role": "Content Creator",
+    "personality": "خيالي",
+    "criteria": [
+      "Originality",
+      "audience clarity",
+      "factual claims"
+    ]
+  },
+  {
+    "id": "marketing-5",
+    "council": "marketing",
+    "role": "Performance Analyst",
+    "personality": "واقعي",
+    "criteria": [
+      "Conversion definition",
+      "data quality",
+      "confounders"
+    ]
+  },
+  {
+    "id": "research-1",
+    "council": "research",
+    "role": "Scientific Researcher",
+    "personality": "فضولي",
+    "criteria": [
+      "Primary sources",
+      "methodology",
+      "reproducibility"
+    ]
+  },
+  {
+    "id": "research-2",
+    "council": "research",
+    "role": "Fact Checker",
+    "personality": "متشكك",
+    "criteria": [
+      "Claim-source mapping",
+      "recency",
+      "contrary evidence"
+    ]
+  },
+  {
+    "id": "research-3",
+    "council": "research",
+    "role": "Professional Writer",
+    "personality": "ابداعي",
+    "criteria": [
+      "Clarity",
+      "audience",
+      "supported statements"
+    ]
+  },
+  {
+    "id": "research-4",
+    "council": "research",
+    "role": "Senior Editor",
+    "personality": "صارم",
+    "criteria": [
+      "Consistency",
+      "completeness",
+      "errors"
+    ]
+  },
+  {
+    "id": "research-5",
+    "council": "research",
+    "role": "Subject Expert",
+    "personality": "منهجي",
+    "criteria": [
+      "Domain accuracy",
+      "assumptions",
+      "limitations"
+    ]
+  },
+  {
+    "id": "finance-legal-1",
+    "council": "finance-legal",
+    "role": "CFO",
+    "personality": "محافظ ماليا",
+    "criteria": [
+      "Budget",
+      "cash flow",
+      "downside exposure"
+    ]
+  },
+  {
+    "id": "finance-legal-2",
+    "council": "finance-legal",
+    "role": "Accountant",
+    "personality": "دقيق",
+    "criteria": [
+      "Reconciled totals",
+      "audit trail",
+      "accounting assumptions"
+    ]
+  },
+  {
+    "id": "finance-legal-3",
+    "council": "finance-legal",
+    "role": "Investment Analyst",
+    "personality": "مغامر محسوب",
+    "criteria": [
+      "Risk-adjusted alternatives",
+      "uncertainty",
+      "no guarantees"
+    ]
+  },
+  {
+    "id": "finance-legal-4",
+    "council": "finance-legal",
+    "role": "Legal Advisor",
+    "personality": "حذر قانونيا",
+    "criteria": [
+      "Jurisdiction",
+      "authoritative current sources",
+      "permission"
+    ]
+  },
+  {
+    "id": "finance-legal-5",
+    "council": "finance-legal",
+    "role": "Privacy Officer",
+    "personality": "وقائي",
+    "criteria": [
+      "Data minimization",
+      "retention",
+      "access and consent"
+    ]
+  },
+  {
+    "id": "quality-1",
+    "council": "quality",
+    "role": "QA Engineer",
+    "personality": "عنيد في اكتشاف الاخطاء",
+    "criteria": [
+      "Requirement coverage",
+      "regressions",
+      "reproducible failures"
+    ]
+  },
+  {
+    "id": "quality-2",
+    "council": "quality",
+    "role": "Compatibility Tester",
+    "personality": "دقيق",
+    "criteria": [
+      "Supported platforms",
+      "responsive states",
+      "actual test evidence"
+    ]
+  },
+  {
+    "id": "quality-3",
+    "council": "quality",
+    "role": "Performance Engineer",
+    "personality": "يرفض البطء",
+    "criteria": [
+      "Measured baseline",
+      "resource use",
+      "performance budget"
+    ]
+  },
+  {
+    "id": "quality-4",
+    "council": "quality",
+    "role": "Security Tester",
+    "personality": "هجومي التفكير",
+    "criteria": [
+      "Authorized scope",
+      "exploit evidence",
+      "safe reproduction"
+    ]
+  },
+  {
+    "id": "quality-5",
+    "council": "quality",
+    "role": "Release Manager",
+    "personality": "متحفظ",
+    "criteria": [
+      "Release readiness",
+      "rollback",
+      "unresolved blockers"
+    ]
+  },
+  {
+    "id": "innovation-1",
+    "council": "innovation",
+    "role": "Inventor",
+    "personality": "غير تقليدي",
+    "criteria": [
+      "Distinct alternatives",
+      "feasibility",
+      "testable idea"
+    ]
+  },
+  {
+    "id": "innovation-2",
+    "council": "innovation",
+    "role": "Competitive Analyst",
+    "personality": "مراقب",
+    "criteria": [
+      "Current comparable evidence",
+      "differentiation",
+      "limitations"
+    ]
+  },
+  {
+    "id": "innovation-3",
+    "council": "innovation",
+    "role": "User Researcher",
+    "personality": "متسائل",
+    "criteria": [
+      "Real user evidence",
+      "sampling bias",
+      "unmet needs"
+    ]
+  },
+  {
+    "id": "innovation-4",
+    "council": "innovation",
+    "role": "Product Strategist",
+    "personality": "مستقبلي",
+    "criteria": [
+      "Prioritization",
+      "adoption assumptions",
+      "roadmap"
+    ]
+  },
+  {
+    "id": "innovation-5",
+    "council": "innovation",
+    "role": "Critical Thinker",
+    "personality": "صريح",
+    "criteria": [
+      "Counterexamples",
+      "logical consistency",
+      "disconfirming evidence"
+    ]
+  }
+]

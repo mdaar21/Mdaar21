@@ -1,0 +1,13 @@
+interface:
+  display_name: Elite50 Security Review
+  short_description: Authorized security and robustness checks
+  default_prompt: Use $elite50-red-team to review this authorized project.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

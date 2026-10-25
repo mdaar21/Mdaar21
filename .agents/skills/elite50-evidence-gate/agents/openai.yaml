@@ -1,0 +1,13 @@
+interface:
+  display_name: elite50-evidence-gate
+  short_description: Evidence-based review for evidence-gate projects
+  default_prompt: Use $elite50-evidence-gate to review this task with documented evidence.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

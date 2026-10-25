@@ -1,0 +1,14 @@
+interface:
+  display_name: elite50-project-memory
+  short_description: Evidence-based review for project-memory projects
+  default_prompt: Use $elite50-project-memory to review this task with documented
+    evidence.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
