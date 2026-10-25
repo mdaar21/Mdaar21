@@ -37,6 +37,7 @@
 | التطبيق: الوجبات والوصفات | [الوظائف](public/assets/nutrition.mjs)، [بيانات الـ500 وصفة](public/data/recipes-calculated.json) | [مرجع الغذاء](docs/nutrition.md) |
 | التطبيق: التمارين | [الوظائف](public/assets/training.mjs)، [برنامجا 4 و5 أيام](public/data/training-programs.json) | [مرجع التدريب](docs/training.md) |
 | اسأل مدار | [الواجهة](public/assets/assistant.mjs)، [الاتصال](public/assets/remote-service.mjs)، [الخدمة](cloudflare/worker.mjs) | [تشغيل الخدمة](docs/github-ai.md)، [أصل الخدمة الحالي](config/github-pages.json) |
+| إحصاءات زيارات الواجهة والتطبيق | [كود القياس](public/assets/analytics.mjs)، [إعداد المعرّف](config/analytics.json) | [إعداد الإحصاءات وحالتها](docs/analytics.md)؛ التفعيل ينتظر معرّف Google الخاص بالمالك |
 | الكتاب | [النص والتوليد](scripts/build-book.py)، [التصميم](docs/book/book.css)، [أغلفة الهوية الأصلية](docs/book/identity/) | [دليل الكتاب وإعادة تصديره](docs/book/README.md) |
 | شعار مدار وأغلفته | [مصادر الهوية الأصلية](docs/book/identity/)، [أصول الواجهة](public/discover/assets/) | [بصمات أصول الهوية](docs/book/identity/manifest.json) |
 

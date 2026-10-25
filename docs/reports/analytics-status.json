@@ -1,0 +1,17 @@
+{
+  "codeReady": true,
+  "sourceConfigurationHasMeasurementId": false,
+  "analyticsActivated": false,
+  "blockingRequirement": "Owner Google Analytics web stream measurement ID",
+  "siteDeploymentChanged": false,
+  "unitTests": {
+    "passed": 86,
+    "failed": 0
+  },
+  "browserCases": {
+    "passed": 8,
+    "failed": 0
+  },
+  "check": "passed",
+  "notes": "The browser suite intercepts Google; it does not send real measurement requests or prove live property reception."
+}

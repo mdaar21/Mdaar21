@@ -11,11 +11,40 @@ import tomllib
 ROOT = Path(__file__).resolve().parent.parent
 
 
-def build(output, base, service_origin=''):
+def head_metadata(text, metadata):
+    # Keep the encoding declaration inside the first 1024 bytes and the CSP
+    # before script elements, including when analytics adds more CSP sources.
+    return text.replace('<meta charset="utf-8">', '<meta charset="utf-8">\n' + metadata, 1)
+
+
+def analytics_policy(policy):
+    additions = {
+        'script-src': ['https://www.googletagmanager.com'],
+        'connect-src': ['https://*.google-analytics.com', 'https://*.analytics.google.com', 'https://www.googletagmanager.com'],
+        'img-src': ['https://*.google-analytics.com', 'https://www.googletagmanager.com'],
+    }
+    parts = []
+    for part in policy.split(';'):
+        values = part.strip().split()
+        if not values:
+            continue
+        for value in additions.get(values[0], []):
+            if value not in values:
+                values.append(value)
+        parts.append(' '.join(values))
+    return '; '.join(parts)
+
+
+def build(output, base, service_origin='', measurement_id=None):
     if not re.fullmatch(r'/[A-Za-z0-9_-]+/', base):
         raise ValueError('Expected a project prefix such as /Mdaar21/')
     if service_origin and not re.fullmatch(r'https://[A-Za-z0-9](?:[A-Za-z0-9.-]*[A-Za-z0-9])?(?::[0-9]{1,5})?', service_origin):
         raise ValueError('Service origin must be a plain HTTPS origin without a path or credentials')
+    if measurement_id is None:
+        analytics_path = ROOT / 'config/analytics.json'
+        measurement_id = json.loads(analytics_path.read_text()).get('measurementId', '') if analytics_path.exists() else ''
+    if not isinstance(measurement_id, str) or (measurement_id and not re.fullmatch(r'G-[A-Z0-9]{6,20}', measurement_id)):
+        raise ValueError('Expected a GA4 measurement ID such as G-XXXXXXXXXX, or an empty string to disable analytics')
     output = output.resolve()
     if output == ROOT or ROOT in output.parents:
         raise ValueError('Build outside the source repository')
@@ -33,7 +62,7 @@ def build(output, base, service_origin=''):
             text = text.replace('href="/"', f'href="{base}"')
         if path.name == 'sw.js':
             text = text.replace("['/',", f"['{base}',")
-            text = text.replace('mdaar-public-v11', 'mdaar-pages-v3')
+            text = text.replace('mdaar-public-v12', 'mdaar-pages-v4')
             text = text.replace("key.startsWith('mdaar-public-')", "(key.startsWith('mdaar-public-') || key.startsWith('mdaar-pages-'))")
         path.write_text(text)
     manifest_path = output / 'manifest.webmanifest'
@@ -47,13 +76,15 @@ def build(output, base, service_origin=''):
     policy = policy.replace("; frame-ancestors 'none'", '')
     if service_origin:
         policy = policy.replace("connect-src 'self'", "connect-src 'self' " + service_origin)
+    if measurement_id:
+        policy = analytics_policy(policy)
     metadata = ('<meta name="mdaar-hosting" content="static">\n'
                 + (f'<meta name="mdaar-service-origin" content="{html.escape(service_origin, quote=True)}">\n' if service_origin else '') +
                 f'<meta http-equiv="Content-Security-Policy" content="{html.escape(policy, quote=True)}">\n'
                 '<meta name="referrer" content="strict-origin-when-cross-origin">\n')
     for name in ('index.html', 'privacy.html'):
         path = output / name
-        text = path.read_text().replace('<head>', '<head>\n' + metadata, 1)
+        text = head_metadata(path.read_text(), metadata)
         if name == 'privacy.html' and service_origin:
             text = text.replace('يرسل طلبك عبر Netlify إلى Groq.', 'يرسل طلبك عبر خدمة مدار على Cloudflare إلى Groq.')
             text = text.replace('go through Netlify to Groq', 'go through Cloudflare to Groq')
@@ -67,6 +98,17 @@ def build(output, base, service_origin=''):
                     'ميزات مدار المتصلة غير متاحة حالياً على هذا الرابط. أدوات الغذاء والتدريب تعمل، وسجلات الرابط السابق تبقى في متصفحك على الرابط السابق.</p>')
             text = text.replace('<main id="main-content" tabindex="-1">', '<main id="main-content" tabindex="-1">' + note, 1)
         path.write_text(text)
+    # Both surfaces share one property. Keep analytics off until a real ID exists.
+    if measurement_id:
+        analytics_meta = f'<meta name="mdaar-ga4" content="{measurement_id}">\n'
+        for name in ('index.html', 'discover/index.html'):
+            path = output / name
+            text = head_metadata(path.read_text(), analytics_meta)
+            if name.startswith('discover/'):
+                def update_policy(match):
+                    return match[1] + html.escape(analytics_policy(html.unescape(match[2])), quote=True) + match[3]
+                text = re.sub(r'(<meta http-equiv="Content-Security-Policy" content=")([^"]*)(">)', update_policy, text, count=1)
+            path.write_text(text)
     (output / '.nojekyll').touch()
     print(f'Prepared {sum(p.is_file() for p in output.rglob("*"))} public files for {base}')
 
@@ -76,9 +118,10 @@ if __name__ == '__main__':
     parser.add_argument('--output', required=True, type=Path)
     parser.add_argument('--base', default='/Mdaar21/')
     parser.add_argument('--service-origin', default=None, help='Public HTTPS Worker origin; defaults to config/github-pages.json; never a secret or API key')
+    parser.add_argument('--measurement-id', default=None, help='Public GA4 measurement ID; defaults to config/analytics.json; empty string disables analytics')
     args = parser.parse_args()
     origin = args.service_origin
     if origin is None:
         config_path = ROOT / 'config/github-pages.json'
         origin = json.loads(config_path.read_text()).get('serviceOrigin', '') if config_path.exists() else ''
-    build(args.output, args.base, origin)
+    build(args.output, args.base, origin, args.measurement_id)

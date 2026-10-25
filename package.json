@@ -14,7 +14,8 @@
     "test:browser": "node scripts/browser-check.mjs",
     "test:a11y": "node scripts/accessibility-check.mjs",
     "test:worker-browser": "node scripts/worker-browser-check.mjs",
-    "deploy:worker": "npx --yes wrangler@4.152.0 deploy"
+    "deploy:worker": "npx --yes wrangler@4.152.0 deploy",
+    "test:analytics": "node scripts/analytics-browser-check.mjs"
   },
   "devDependencies": {
     "axe-core": "4.14.0",

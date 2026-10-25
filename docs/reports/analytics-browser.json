@@ -1,0 +1,37 @@
+{
+  "scope": "Local project-prefixed Pages builds; provider and collector intercepted; not proof of live Google property activation",
+  "results": [
+    {
+      "name": "unconfigured builds contact no analytics provider on either surface",
+      "status": "passed"
+    },
+    {
+      "name": "app: one sanitized page view, campaign attribution and CSP-compatible tag",
+      "status": "passed"
+    },
+    {
+      "name": "showcase: one sanitized page view, campaign attribution and CSP-compatible tag",
+      "status": "passed"
+    },
+    {
+      "name": "store click records placement once without blocking purchase navigation",
+      "status": "passed"
+    },
+    {
+      "name": "doNotTrack: browser privacy preference prevents analytics",
+      "status": "passed"
+    },
+    {
+      "name": "globalPrivacyControl: browser privacy preference prevents analytics",
+      "status": "passed"
+    },
+    {
+      "name": "an analytics blocker leaves the application usable",
+      "status": "passed"
+    },
+    {
+      "name": "invalid measurement identifiers fail the build",
+      "status": "passed"
+    }
+  ]
+}

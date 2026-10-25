@@ -1,6 +1,6 @@
 /* Cache public application assets only. AI requests and personal data are never cached. */
-const CACHE = 'mdaar-public-v11';
-const SHELL = ['/', '/index.html', '/privacy.html', '/assets/styles.css', '/assets/app.js', '/assets/core.mjs', '/assets/remote-service.mjs', '/assets/nutrition.mjs', '/assets/training.mjs', '/assets/pwa.mjs', '/assets/assistant.mjs', '/assets/experience.mjs', '/assets/brand/program-four.svg', '/assets/brand/program-five.svg', '/assets/NotoSansArabic-Bold.ttf', '/assets/food/protein.svg', '/assets/food/bowl.svg', '/assets/food/salad.svg', '/assets/food/toast.svg', '/assets/food/fruit.svg', '/assets/logo.png', '/assets/NotoSansArabic-Regular.ttf', '/manifest.webmanifest'];
+const CACHE = 'mdaar-public-v12';
+const SHELL = ['/', '/index.html', '/privacy.html', '/assets/styles.css', '/assets/app.js', '/assets/core.mjs', '/assets/remote-service.mjs', '/assets/nutrition.mjs', '/assets/training.mjs', '/assets/pwa.mjs', '/assets/assistant.mjs', '/assets/experience.mjs', '/assets/analytics.mjs', '/assets/brand/program-four.svg', '/assets/brand/program-five.svg', '/assets/NotoSansArabic-Bold.ttf', '/assets/food/protein.svg', '/assets/food/bowl.svg', '/assets/food/salad.svg', '/assets/food/toast.svg', '/assets/food/fruit.svg', '/assets/logo.png', '/assets/NotoSansArabic-Regular.ttf', '/manifest.webmanifest'];
 self.addEventListener('install', event => {
   event.waitUntil(caches.open(CACHE).then(cache => cache.addAll(SHELL)));
 });
