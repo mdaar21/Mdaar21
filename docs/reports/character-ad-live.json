@@ -1,0 +1,32 @@
+{
+  "pagesCommit": "12f5aeb0a57e6ef6729009d2737d6d4451b1fb0a",
+  "buildStatus": "built",
+  "url": "https://mdaar21.github.io/Mdaar21/ad/character/",
+  "checks": [
+    {
+      "file": "mdaar_protocol_ad_v5_hd.mp4",
+      "rangeStatus": 206,
+      "contentType": "video/mp4",
+      "range": "bytes 0-1023/3987007",
+      "prefixMatchesLocal": true,
+      "fullPublishedSourceSha256": "7e183430da0c6793512c6d7673afc2a2ab77d0fc0a01d2bf7a233d97ebc51831"
+    },
+    {
+      "file": "mdaar_protocol_ad_v5_4k.mp4",
+      "rangeStatus": 206,
+      "contentType": "video/mp4",
+      "range": "bytes 0-1023/18937083",
+      "prefixMatchesLocal": true,
+      "fullPublishedSourceSha256": "905393b5ff319261cd1477a6f92908f3ce15d1501f4ee1816d1d81c364953dbc"
+    }
+  ],
+  "liveBrowser": {
+    "pageStatus": 200,
+    "decodedVideo": true,
+    "durationSeconds": 20,
+    "playPause": true,
+    "seekFiveScenes": true,
+    "mobileOverflow": false,
+    "runtimeErrors": []
+  }
+}
