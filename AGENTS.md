@@ -11,7 +11,6 @@ Use these names consistently with the owner:
 - **التطبيق**: the nutrition and training application under `public/`.
 - **صفحة المنتج**: the Zid listing for بروتوكول التحول.
 - **الكتاب / ملف المنتج**: the editable book and current PDF.
-- **الإعلان**: the current cartoon advertisement, with sound effects only.
 
 Resolve “الموقع” from the immediate context. If the target remains ambiguous between the storefront, promotional site and app, clarify the target before changing the wrong surface.
 
@@ -22,7 +21,6 @@ The canonical repository is `https://github.com/mdaar21/Mdaar21.git`: `main` hol
 - App: `public/index.html`, `public/assets/`, `public/data/`.
 - Promotional site: `public/discover/`.
 - Book: edit `scripts/build-book.py` and `docs/book/book.css`; preserve original vector covers in `docs/book/identity/`. `docs/book/index.html` and the PDF are generated. Current PDF is listed in MDAAR_HUB.md.
-- Current ad: edit **`creative/ad/`**. Read its local AGENTS.md before composition work. The generated public copy is `public/ad/character/`; historical ad folders and ZIPs are not the active source.
 - Connected assistant: `cloudflare/worker.mjs`, `public/assets/assistant.mjs`, `public/assets/remote-service.mjs`. The configured service origin is in `config/github-pages.json`; deployment instructions are in `docs/github-ai.md`.
 - Zid storefront and product settings live in Zid, not this checkout. A Git commit does not update Zid pricing, product files, checkout or automatic delivery. Verify available authenticated access when actual Zid edits are requested; do not claim an external change without evidence.
 
@@ -32,7 +30,7 @@ This current structure replaces the initial Netlify migration plan. Netlify scri
 
 Preserve the black, warm gold and ivory identity, Arabic RTL, original logos/covers and existing user flows. Keep the reference upload unchanged. Keep older deliverables available at their existing URLs; choose the active version from MDAAR_HUB.md rather than from filenames containing “latest”.
 
-Check related surfaces when shared facts change: price on Zid versus the promotional site, recipe count, training programs, book links/QR, and ad copy. Updating one surface does not update the others automatically.
+Check related surfaces when shared facts change: price on Zid versus the promotional site, recipe count, training programs and book links/QR. Updating one surface does not update the others automatically. The owner has limited the shared hub to the five areas above; keep historical media files outside its navigation unless requested.
 
 For Pages changes, use `scripts/build-github-pages.py` and the existing publication workflow so the /Mdaar21/ prefix, CSP and Cloudflare origin are retained. Do not overwrite the deployed app with unprocessed source HTML. Distinguish source commits from verified live deployment. Respect the owner's requested scope and publishing authorization, including authorization already given in the session; do not ask again for the same authorized step. Do not merge or publish unrelated changes.
 
@@ -48,6 +46,6 @@ For Pages changes, use `scripts/build-github-pages.py` and the existing publicat
 
 ## Verification
 
-For app code changes, use appropriate existing checks (`npm run check`, `npm test`, browser/accessibility checks where affected). For book or ad work, follow their local build and visual review instructions. For documentation and source organization alone, verify links, paths and preservation of copied source/assets; a new video render or full application regression run is unnecessary unless content or behavior changed.
+For app code changes, use appropriate existing checks (`npm run check`, `npm test`, browser/accessibility checks where affected). For book work, follow its build and visual review instructions. For documentation and source organization alone, verify links, paths and preservation of copied source/assets; a full application regression run is unnecessary unless content or behavior changed.
 
 Main development: Node.js 22+, `npm ci --ignore-scripts`, `npm run dev`. Do not print secret values while investigating configuration. Clearly report external services or behaviors that were not tested.

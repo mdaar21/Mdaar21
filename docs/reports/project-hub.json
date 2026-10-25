@@ -6,13 +6,9 @@
     "الواجهة",
     "التطبيق",
     "صفحة المنتج",
-    "الكتاب",
-    "الإعلان"
+    "الكتاب"
   ],
-  "checkedLocalLinks": 55,
-  "copiedSourceAndAssetsIdentical": 35,
-  "currentAdSource": "creative/ad/",
-  "publishedSiteOrVideoChanged": false,
+  "checkedLocalLinks": 41,
   "zidSettingsChanged": false,
   "publicLinksChecked": [
     {
@@ -30,17 +26,8 @@
     {
       "id": "product",
       "status": 200
-    },
-    {
-      "id": "ad",
-      "status": 200
     }
   ],
   "verificationDate": "2026-10-25",
-  "relocatedAdCheck": {
-    "ok": true,
-    "errors": 0,
-    "warnings": 0,
-    "renderRequired": false
-  }
+  "publishedSiteChanged": false
 }
