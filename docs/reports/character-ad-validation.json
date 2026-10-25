@@ -1,0 +1,45 @@
+{
+  "durationSeconds": 20,
+  "fps": 30,
+  "music": false,
+  "soundEffectsOnly": true,
+  "sourceAudioCorrelation": 0.9999178857650697,
+  "sourceOnlyAudio": "assets/sfx-only.mp3",
+  "effectsCueCount": 34,
+  "facts": {
+    "recipes": 500,
+    "bookPages": 34,
+    "trainingDays": [
+      4,
+      5
+    ]
+  },
+  "files": [
+    {
+      "file": "mdaar_protocol_ad_v5_4k.mp4",
+      "sha256": "905393b5ff319261cd1477a6f92908f3ce15d1501f4ee1816d1d81c364953dbc",
+      "bytes": 18937083,
+      "resolution": [
+        2160,
+        3840
+      ],
+      "fastStart": true,
+      "videoCodec": "h264",
+      "audioCodec": "aac",
+      "audioStreams": 1
+    },
+    {
+      "file": "mdaar_protocol_ad_v5_hd.mp4",
+      "sha256": "7e183430da0c6793512c6d7673afc2a2ab77d0fc0a01d2bf7a233d97ebc51831",
+      "bytes": 3987007,
+      "resolution": [
+        1080,
+        1920
+      ],
+      "fastStart": true,
+      "videoCodec": "h264",
+      "audioCodec": "aac",
+      "audioStreams": 1
+    }
+  ]
+}

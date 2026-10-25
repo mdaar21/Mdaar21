@@ -1,0 +1,56 @@
+{
+  "results": [
+    {
+      "path": "/ad/character/",
+      "viewport": 320,
+      "status": 200,
+      "decodedVideo": true,
+      "durationSeconds": 20.0,
+      "playPause": true,
+      "seekTenBeats": true,
+      "noHorizontalOverflow": true,
+      "twoDownloadLinksReturn206": true,
+      "productLink": true,
+      "runtimeErrors": []
+    },
+    {
+      "path": "/ad/character/",
+      "viewport": 390,
+      "status": 200,
+      "decodedVideo": true,
+      "durationSeconds": 20.0,
+      "playPause": true,
+      "seekTenBeats": true,
+      "noHorizontalOverflow": true,
+      "twoDownloadLinksReturn206": true,
+      "productLink": true,
+      "runtimeErrors": []
+    },
+    {
+      "path": "/ad/character/",
+      "viewport": 1440,
+      "status": 200,
+      "decodedVideo": true,
+      "durationSeconds": 20.0,
+      "playPause": true,
+      "seekTenBeats": true,
+      "noHorizontalOverflow": true,
+      "twoDownloadLinksReturn206": true,
+      "productLink": true,
+      "runtimeErrors": []
+    },
+    {
+      "path": "/ad/",
+      "viewport": 390,
+      "status": 200,
+      "decodedVideo": true,
+      "durationSeconds": 20.0,
+      "playPause": true,
+      "seekTenBeats": true,
+      "noHorizontalOverflow": true,
+      "twoDownloadLinksReturn206": true,
+      "productLink": true,
+      "runtimeErrors": []
+    }
+  ]
+}

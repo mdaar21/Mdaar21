@@ -1,0 +1,122 @@
+{
+  "ok": true,
+  "characters": 8,
+  "blankFaces": 8,
+  "independentSvgJoints": true,
+  "barbellHandsMove": true,
+  "seekingIsOrderIndependent": true,
+  "audioSources": [
+    "assets/sfx-only.mp3"
+  ],
+  "music": false,
+  "playPause": true,
+  "soundToggle": true,
+  "noHorizontalOverflow": true,
+  "poses": [
+    {
+      "time": 1.2,
+      "scenes": [
+        "s1"
+      ],
+      "arm": "rotate(0 185 245)",
+      "bar": "translate(0 0)"
+    },
+    {
+      "time": 3,
+      "scenes": [
+        "s2"
+      ],
+      "arm": "rotate(0 185 245)",
+      "bar": "translate(0 0)"
+    },
+    {
+      "time": 4.5,
+      "scenes": [
+        "s3"
+      ],
+      "arm": "rotate(16.621054473954942 185 245)",
+      "bar": "translate(0 0)"
+    },
+    {
+      "time": 5.05,
+      "scenes": [
+        "s3"
+      ],
+      "arm": "rotate(124.84328417750704 185 245)",
+      "bar": "translate(0 -175)"
+    },
+    {
+      "time": 6.45,
+      "scenes": [
+        "s3"
+      ],
+      "arm": "rotate(29.9024 185 245)",
+      "bar": "translate(0 -16.7391)"
+    },
+    {
+      "time": 8.5,
+      "scenes": [
+        "s4"
+      ],
+      "arm": "rotate(16.621054473954942 185 245)",
+      "bar": "translate(0 0)"
+    },
+    {
+      "time": 10.8,
+      "scenes": [
+        "s5"
+      ],
+      "arm": "rotate(16.621054473954942 185 245)",
+      "bar": "translate(0 0)"
+    },
+    {
+      "time": 12.9,
+      "scenes": [
+        "s6"
+      ],
+      "arm": "rotate(16.621054473954942 185 245)",
+      "bar": "translate(0 0)"
+    },
+    {
+      "time": 15.6,
+      "scenes": [
+        "s7"
+      ],
+      "arm": "rotate(16.621054473954942 185 245)",
+      "bar": "translate(0 0)"
+    },
+    {
+      "time": 18.8,
+      "scenes": [
+        "s8"
+      ],
+      "arm": "rotate(16.621054473954942 185 245)",
+      "bar": "translate(0 0)"
+    },
+    {
+      "time": 4.5,
+      "scenes": [
+        "s3"
+      ],
+      "arm": "rotate(16.621054473954942 185 245)",
+      "bar": "translate(0 0)"
+    },
+    {
+      "time": 5.05,
+      "scenes": [
+        "s3"
+      ],
+      "arm": "rotate(124.84328417750704 185 245)",
+      "bar": "translate(0 -175)"
+    },
+    {
+      "time": 1.2,
+      "scenes": [
+        "s1"
+      ],
+      "arm": "rotate(0 185 245)",
+      "bar": "translate(0 0)"
+    }
+  ],
+  "runtimeErrors": []
+}

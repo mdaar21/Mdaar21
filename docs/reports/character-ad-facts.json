@@ -1,0 +1,32 @@
+{
+  "reference": {
+    "name": "mdaar_protocol_ad_v3.mp4",
+    "durationSeconds": 19.2,
+    "sha256": "c4247f6ac6d370975661110dcf84844933ce5ae4846d992471d8015e8f77dbb6",
+    "preservedUnchanged": true
+  },
+  "updatedBook": {
+    "file": "docs/artifacts/mdaar-protocol-original-identity-v5.pdf",
+    "pages": 34,
+    "sha256": "de78fbb1468cbd7cdb635649500476022f3bbf8e6cc7c242bd6f690db54c34d5"
+  },
+  "recipeCount": 500,
+  "trainingProgramDays": [
+    4,
+    5
+  ],
+  "goals": [
+    "خفض",
+    "ثبات",
+    "زيادة"
+  ],
+  "store": "https://mdaar21.zid.store/",
+  "site": "https://mdaar21.github.io/Mdaar21/",
+  "sourceNote": "Book page count read from final PDF; recipe/training goals cross-checked against application sources. No fixed price shown.",
+  "recipeCountVerified": 500,
+  "version": "v5",
+  "durationSeconds": 20,
+  "music": false,
+  "sound": "SFX only",
+  "character": "Blank-face cartoon restored in all eight scenes"
+}

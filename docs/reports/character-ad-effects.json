@@ -1,0 +1,266 @@
+{
+  "duration": 20,
+  "sampleRate": 48000,
+  "channels": 2,
+  "music": false,
+  "voiceover": false,
+  "sources": "Retrieved offline HyperFrames/Pixabay SFX library; see assets/sfx/CREDITS.md",
+  "excluded": [
+    "score.mp3",
+    "chime",
+    "ping",
+    "riser",
+    "instruments",
+    "background beat"
+  ],
+  "cues": [
+    {
+      "time": 0.13,
+      "duration": 0.34,
+      "source": "assets/sfx/whoosh-short.mp3",
+      "gain": 0.25,
+      "action": "hook title"
+    },
+    {
+      "time": 0.34,
+      "duration": 0.24,
+      "source": "assets/sfx/pop.mp3",
+      "gain": 0.36,
+      "action": "character leap"
+    },
+    {
+      "time": 0.68,
+      "duration": 0.23,
+      "source": "assets/sfx/whoosh.mp3",
+      "gain": 0.53,
+      "action": "character landing"
+    },
+    {
+      "time": 1.19,
+      "duration": 0.12,
+      "source": "assets/sfx/click-soft.mp3",
+      "gain": 0.17,
+      "action": "flex snap"
+    },
+    {
+      "time": 1.85,
+      "duration": 0.3,
+      "source": "assets/sfx/whoosh-short.mp3",
+      "gain": 0.45,
+      "action": "paper push to confusion"
+    },
+    {
+      "time": 2.38,
+      "duration": 0.19,
+      "source": "assets/sfx/pop.mp3",
+      "gain": 0.22,
+      "action": "question mark"
+    },
+    {
+      "time": 2.79,
+      "duration": 0.09,
+      "source": "assets/sfx/click-soft.mp3",
+      "gain": 0.14,
+      "action": "scratch"
+    },
+    {
+      "time": 3.18,
+      "duration": 0.11,
+      "source": "assets/sfx/click-soft.mp3",
+      "gain": 0.13,
+      "action": "scratch"
+    },
+    {
+      "time": 3.85,
+      "duration": 0.3,
+      "source": "assets/sfx/whoosh.mp3",
+      "gain": 0.5,
+      "action": "push to training"
+    },
+    {
+      "time": 4.28,
+      "duration": 0.21,
+      "source": "assets/sfx/pop.mp3",
+      "gain": 0.26,
+      "action": "programme cards"
+    },
+    {
+      "time": 4.72,
+      "duration": 0.21,
+      "source": "assets/sfx/whoosh-short.mp3",
+      "gain": 0.2,
+      "action": "first lift"
+    },
+    {
+      "time": 4.99,
+      "duration": 0.13,
+      "source": "assets/sfx/key-press.mp3",
+      "gain": 0.32,
+      "action": "first bar lock"
+    },
+    {
+      "time": 5.43,
+      "duration": 0.13,
+      "source": "assets/sfx/click.mp3",
+      "gain": 0.33,
+      "action": "first bar return"
+    },
+    {
+      "time": 5.75,
+      "duration": 0.21,
+      "source": "assets/sfx/whoosh-short.mp3",
+      "gain": 0.22,
+      "action": "second lift"
+    },
+    {
+      "time": 6.02,
+      "duration": 0.13,
+      "source": "assets/sfx/key-press.mp3",
+      "gain": 0.32,
+      "action": "second bar lock"
+    },
+    {
+      "time": 6.46,
+      "duration": 0.13,
+      "source": "assets/sfx/click.mp3",
+      "gain": 0.33,
+      "action": "second bar return"
+    },
+    {
+      "time": 6.85,
+      "duration": 0.36,
+      "source": "assets/sfx/whoosh.mp3",
+      "gain": 0.5,
+      "action": "recipe reveal"
+    },
+    {
+      "time": 7.23,
+      "duration": 0.24,
+      "source": "assets/sfx/pop.mp3",
+      "gain": 0.3,
+      "action": "plate enters"
+    },
+    {
+      "time": 7.97,
+      "duration": 0.13,
+      "source": "assets/sfx/click-soft.mp3",
+      "gain": 0.19,
+      "action": "small hop landing"
+    },
+    {
+      "time": 8.26,
+      "duration": 0.18,
+      "source": "assets/sfx/pop.mp3",
+      "gain": 0.21,
+      "action": "plate gesture"
+    },
+    {
+      "time": 9.35,
+      "duration": 0.31,
+      "source": "assets/sfx/whoosh-short.mp3",
+      "gain": 0.48,
+      "action": "goals transition"
+    },
+    {
+      "time": 9.88,
+      "duration": 0.12,
+      "source": "assets/sfx/click.mp3",
+      "gain": 0.27,
+      "action": "first goal"
+    },
+    {
+      "time": 10.27,
+      "duration": 0.11,
+      "source": "assets/sfx/click-soft.mp3",
+      "gain": 0.25,
+      "action": "second goal"
+    },
+    {
+      "time": 10.7,
+      "duration": 0.12,
+      "source": "assets/sfx/click.mp3",
+      "gain": 0.27,
+      "action": "third goal"
+    },
+    {
+      "time": 11.35,
+      "duration": 0.33,
+      "source": "assets/sfx/whoosh.mp3",
+      "gain": 0.47,
+      "action": "guide transition"
+    },
+    {
+      "time": 11.8,
+      "duration": 0.26,
+      "source": "assets/sfx/whoosh-short.mp3",
+      "gain": 0.24,
+      "action": "cover pulled in"
+    },
+    {
+      "time": 12.41,
+      "duration": 0.13,
+      "source": "assets/sfx/key-press.mp3",
+      "gain": 0.23,
+      "action": "pages fan"
+    },
+    {
+      "time": 13.85,
+      "duration": 0.44,
+      "source": "assets/sfx/whoosh.mp3",
+      "gain": 0.6,
+      "action": "hero cover reveal"
+    },
+    {
+      "time": 14.96,
+      "duration": 0.22,
+      "source": "assets/sfx/pop.mp3",
+      "gain": 0.28,
+      "action": "celebratory landing"
+    },
+    {
+      "time": 15.61,
+      "duration": 0.12,
+      "source": "assets/sfx/click-soft.mp3",
+      "gain": 0.17,
+      "action": "character flex"
+    },
+    {
+      "time": 16.65,
+      "duration": 0.34,
+      "source": "assets/sfx/whoosh-short.mp3",
+      "gain": 0.5,
+      "action": "closing transition"
+    },
+    {
+      "time": 17.47,
+      "duration": 0.25,
+      "source": "assets/sfx/whoosh.mp3",
+      "gain": 0.38,
+      "action": "final landing"
+    },
+    {
+      "time": 17.33,
+      "duration": 0.25,
+      "source": "assets/sfx/pop.mp3",
+      "gain": 0.3,
+      "action": "purchase invitation"
+    },
+    {
+      "time": 18.43,
+      "duration": 0.12,
+      "source": "assets/sfx/click-soft.mp3",
+      "gain": 0.17,
+      "action": "CTA arrow"
+    }
+  ],
+  "sourceHashes": {
+    "whoosh-short": "c2efd9d902a59bf9ec5019035d7deadd17762136896b6e3cb6dd99ea50997a30",
+    "whoosh": "c2efd9d902a59bf9ec5019035d7deadd17762136896b6e3cb6dd99ea50997a30",
+    "click": "075e17bdac5c13662a1c9530050e0046f81d4138e00eb3bf30427a7b4404103d",
+    "click-soft": "075e17bdac5c13662a1c9530050e0046f81d4138e00eb3bf30427a7b4404103d",
+    "key-press": "bcc892df0898bf466162f14233c3e92a8c1ea351f6affd8a3a7e56c9a760bb72",
+    "pop": "19ab7193f626ff57fdeef60b45543bac416fcbcec803cfb417abe4b271c1b352"
+  },
+  "peakDbfs": -4.464584827423096,
+  "silentSampleFraction": 0.7334979166666666
+}
