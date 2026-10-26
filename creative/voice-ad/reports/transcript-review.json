@@ -1,0 +1,30 @@
+{
+  "initialEngine": "faster-whisper small multilingual; low-confidence phrases detected, not used as final captions",
+  "finalEngine": "faster-whisper medium multilingual + focused medium re-transcriptions",
+  "focusedWindowsSeconds": [
+    [
+      0,
+      2.3
+    ],
+    [
+      24.35,
+      29.65
+    ],
+    [
+      29.65,
+      31.3
+    ]
+  ],
+  "normalization": {
+    "تابعك.": "يتابعك.",
+    "اسئلة": "أسئلة",
+    "أكل؟": "آكل؟",
+    "كتيرة": "كثيرة",
+    "ابدا": "ابدأ",
+    "مدار.": "مدار."
+  },
+  "boundaryReview": "Silence detection used to tighten endpoints in prolonged pauses; final word times remapped using retained sample segments",
+  "sourceSpeechReplaced": false,
+  "words": 88,
+  "limits": "ASR-assisted orthographic review; not independent human transcription certification."
+}

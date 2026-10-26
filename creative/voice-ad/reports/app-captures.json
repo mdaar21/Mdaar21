@@ -1,0 +1,24 @@
+{
+  "origin": "Actual local current Mdaar app, network outside localhost blocked",
+  "synthetic_demo_inputs": {
+    "age": 25,
+    "kg": 75,
+    "cm": 175,
+    "sex": "m",
+    "activity": 1.55,
+    "goal": "maintain"
+  },
+  "calculator_display": {
+    "kcal": "2,672",
+    "protein": "150 جم",
+    "carbs": "351 جم",
+    "fat": "74 جم"
+  },
+  "recipe": "cut-01",
+  "demo_servings": [
+    1,
+    1.5
+  ],
+  "portion_display": "سعرة\n٤٦٣٫٩\nبروتين · جم\n٣٤٫٥\nكارب · جم\n٦٨٫٦\nدهون · جم\n٧",
+  "note": "Illustrative demo, no real user profile. Full source screenshots, no invented UI."
+}

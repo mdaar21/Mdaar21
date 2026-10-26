@@ -1,0 +1,74 @@
+{
+  "ok": true,
+  "outputDir": "/workspace/Mdaar21-new/creative/voice-ad/reports/final-frames",
+  "frames": [
+    {
+      "path": "/workspace/Mdaar21-new/creative/voice-ad/reports/final-frames/frame-00-at-0.853s.png",
+      "time": 0.853
+    },
+    {
+      "path": "/workspace/Mdaar21-new/creative/voice-ad/reports/final-frames/frame-01-at-3.139s.png",
+      "time": 3.139
+    },
+    {
+      "path": "/workspace/Mdaar21-new/creative/voice-ad/reports/final-frames/frame-02-at-5.401s.png",
+      "time": 5.401
+    },
+    {
+      "path": "/workspace/Mdaar21-new/creative/voice-ad/reports/final-frames/frame-03-at-7.054s.png",
+      "time": 7.054
+    },
+    {
+      "path": "/workspace/Mdaar21-new/creative/voice-ad/reports/final-frames/frame-04-at-9.079s.png",
+      "time": 9.079
+    },
+    {
+      "path": "/workspace/Mdaar21-new/creative/voice-ad/reports/final-frames/frame-05-at-11.294s.png",
+      "time": 11.294
+    },
+    {
+      "path": "/workspace/Mdaar21-new/creative/voice-ad/reports/final-frames/frame-06-at-13.591s.png",
+      "time": 13.591
+    },
+    {
+      "path": "/workspace/Mdaar21-new/creative/voice-ad/reports/final-frames/frame-07-at-16.661s.png",
+      "time": 16.661
+    },
+    {
+      "path": "/workspace/Mdaar21-new/creative/voice-ad/reports/final-frames/frame-08-at-19.962s.png",
+      "time": 19.962
+    },
+    {
+      "path": "/workspace/Mdaar21-new/creative/voice-ad/reports/final-frames/frame-09-at-23.125s.png",
+      "time": 23.125
+    },
+    {
+      "path": "/workspace/Mdaar21-new/creative/voice-ad/reports/final-frames/frame-10-at-25.659s.png",
+      "time": 25.659
+    },
+    {
+      "path": "/workspace/Mdaar21-new/creative/voice-ad/reports/final-frames/frame-11-at-28.447s.png",
+      "time": 28.447
+    },
+    {
+      "path": "/workspace/Mdaar21-new/creative/voice-ad/reports/final-frames/frame-12-at-31.776s.png",
+      "time": 31.776
+    },
+    {
+      "path": "/workspace/Mdaar21-new/creative/voice-ad/reports/final-frames/frame-13-at-33.703s.png",
+      "time": 33.703
+    },
+    {
+      "path": "/workspace/Mdaar21-new/creative/voice-ad/reports/final-frames/frame-14-at-35.901s.png",
+      "time": 35.901
+    }
+  ],
+  "contactSheets": [
+    "/workspace/Mdaar21-new/creative/voice-ad/reports/final-frames/contact-sheet-1.jpg",
+    "/workspace/Mdaar21-new/creative/voice-ad/reports/final-frames/contact-sheet-2.jpg"
+  ],
+  "_meta": {
+    "version": "0.8.189",
+    "updateAvailable": false
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "ok": true,
+  "outputDir": "/workspace/Mdaar21-new/creative/voice-ad/reports/final-cta",
+  "frames": [
+    {
+      "path": "/workspace/Mdaar21-new/creative/voice-ad/reports/final-cta/frame-00-at-35.9s.png",
+      "time": 35.9
+    }
+  ],
+  "contactSheets": [
+    "/workspace/Mdaar21-new/creative/voice-ad/reports/final-cta/contact-sheet.jpg"
+  ],
+  "_meta": {
+    "version": "0.8.189",
+    "updateAvailable": false
+  }
+}

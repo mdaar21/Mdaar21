@@ -1,0 +1,1235 @@
+{
+  "ok": false,
+  "strict": false,
+  "browserSkipped": false,
+  "lint": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 1,
+    "infoCount": 0,
+    "findings": [
+      {
+        "code": "duplicate_media_discovery_risk",
+        "severity": "warning",
+        "message": "Detected 2 matching img entries with the same source/start/duration.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {},
+        "sourceFile": "/workspace/Mdaar21-new/creative/voice-ad/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Avoid duplicated media nodes that can be discovered twice during compilation."
+      }
+    ],
+    "filesScanned": 1
+  },
+  "runtime": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 2,
+    "infoCount": 0,
+    "findings": [
+      {
+        "code": "console_warning",
+        "severity": "warning",
+        "message": "GSAP target #s14 .stage not found. https://gsap.com",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {
+          "data-hf-id": "hf-bue6",
+          "data-composition-id": "mdaar-voice",
+          "data-start": "0",
+          "data-duration": "37.598166666666664",
+          "data-width": "1080",
+          "data-height": "1920"
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1920
+        },
+        "time": 0,
+        "url": "http://127.0.0.1:39153/",
+        "line": 64
+      },
+      {
+        "code": "console_warning",
+        "severity": "warning",
+        "message": "GSAP target  not found. https://gsap.com",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {
+          "data-hf-id": "hf-bue6",
+          "data-composition-id": "mdaar-voice",
+          "data-start": "0",
+          "data-duration": "37.598166666666664",
+          "data-width": "1080",
+          "data-height": "1920"
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1920
+        },
+        "time": 36.345,
+        "url": "http://127.0.0.1:39153/",
+        "line": 64
+      }
+    ]
+  },
+  "layout": {
+    "ok": false,
+    "errorCount": 6,
+    "warningCount": 0,
+    "infoCount": 20,
+    "findings": [
+      {
+        "code": "content_overlap",
+        "severity": "error",
+        "time": 9.452,
+        "selector": "div.question-pill.qp3",
+        "message": "Two text blocks overlap and may render unreadable.",
+        "rect": {
+          "left": 564.15,
+          "top": 1324.85,
+          "right": 865.3,
+          "bottom": 1450.15,
+          "width": 301.15,
+          "height": 125.3
+        },
+        "containerSelector": "#cw-7-0",
+        "text": "أبدأ من وين؟",
+        "fixHint": "Give each block its own zone, or put data-layout-allow-overlap on the text or on a container inside the scene. A marker on the scene root does not apply.",
+        "dataAttributes": {
+          "data-hf-id": "hf-18ff"
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 564.15,
+          "y": 1324.85,
+          "width": 301.15,
+          "height": 125.3
+        },
+        "firstSeen": 9.452,
+        "lastSeen": 10.082,
+        "occurrences": 4,
+        "heldMs": 630.0000000000008,
+        "times": [
+          9.452,
+          9.662,
+          9.872,
+          10.082
+        ]
+      },
+      {
+        "code": "content_overlap",
+        "severity": "error",
+        "time": 28.825,
+        "selector": "#s11 > div:nth-of-type(3) > p:nth-of-type(1)",
+        "message": "Two text blocks overlap and may render unreadable.",
+        "rect": {
+          "left": 249.84,
+          "top": 1431,
+          "right": 800.17,
+          "bottom": 1483,
+          "width": 550.33,
+          "height": 52
+        },
+        "containerSelector": "#cw-18-1",
+        "text": "مثال توضيحي · احتياجك تقديري ويختلف حسب بياناتك",
+        "fixHint": "Give each block its own zone, or put data-layout-allow-overlap on the text or on a container inside the scene. A marker on the scene root does not apply.",
+        "dataAttributes": {
+          "data-hf-id": "hf-o0tk"
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 249.84,
+          "y": 1431,
+          "width": 550.33,
+          "height": 52
+        },
+        "firstSeen": 26.886,
+        "lastSeen": 30.457,
+        "occurrences": 19,
+        "heldMs": 3571.0000000000014,
+        "times": [
+          26.886,
+          27.096,
+          27.306,
+          27.516,
+          27.726,
+          27.936,
+          28.146,
+          28.356,
+          28.566,
+          28.776,
+          28.825,
+          28.986,
+          29.196,
+          29.406,
+          29.616,
+          29.826,
+          30.037,
+          30.247,
+          30.457
+        ]
+      },
+      {
+        "code": "content_overlap",
+        "severity": "error",
+        "time": 31.332,
+        "selector": "#s12 > div:nth-of-type(3) > p:nth-of-type(1)",
+        "message": "Two text blocks overlap and may render unreadable.",
+        "rect": {
+          "left": 297.63,
+          "top": 1431,
+          "right": 752.39,
+          "bottom": 1483,
+          "width": 454.76,
+          "height": 52
+        },
+        "containerSelector": "#cw-20-0",
+        "text": "القيم الغذائية تقديرية حسب المقادير والتحضير",
+        "fixHint": "Give each block its own zone, or put data-layout-allow-overlap on the text or on a container inside the scene. A marker on the scene root does not apply.",
+        "dataAttributes": {
+          "data-hf-id": "hf-2fm9"
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 297.63,
+          "y": 1431,
+          "width": 454.76,
+          "height": 52
+        },
+        "firstSeen": 30.667,
+        "lastSeen": 32.977,
+        "occurrences": 13,
+        "heldMs": 2309.999999999995,
+        "times": [
+          30.667,
+          30.877,
+          31.087,
+          31.297,
+          31.332,
+          31.507,
+          31.717,
+          31.927,
+          32.137,
+          32.347,
+          32.557,
+          32.767,
+          32.977
+        ]
+      },
+      {
+        "code": "content_overlap",
+        "severity": "error",
+        "time": 33.838,
+        "selector": "div.summary-pills > span:nth-of-type(1)",
+        "message": "Two text blocks overlap and may render unreadable.",
+        "rect": {
+          "left": 643.22,
+          "top": 1398.04,
+          "right": 734.02,
+          "bottom": 1466.04,
+          "width": 90.8,
+          "height": 68
+        },
+        "containerSelector": "#cw-21-1",
+        "text": "تمرينك",
+        "fixHint": "Give each block its own zone, or put data-layout-allow-overlap on the text or on a container inside the scene. A marker on the scene root does not apply.",
+        "dataAttributes": {
+          "data-hf-id": "hf-ij1s"
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 643.22,
+          "y": 1398.04,
+          "width": 90.8,
+          "height": 68
+        },
+        "firstSeen": 33.397,
+        "lastSeen": 34.237,
+        "occurrences": 6,
+        "heldMs": 840.0000000000034,
+        "times": [
+          33.397,
+          33.607,
+          33.817,
+          33.838,
+          34.027,
+          34.237
+        ]
+      },
+      {
+        "code": "content_overlap",
+        "severity": "error",
+        "time": 33.838,
+        "selector": "div.summary-pills > span:nth-of-type(2)",
+        "message": "Two text blocks overlap and may render unreadable.",
+        "rect": {
+          "left": 467.78,
+          "top": 1398.04,
+          "right": 575.22,
+          "bottom": 1466.04,
+          "width": 107.44,
+          "height": 68
+        },
+        "containerSelector": "#cw-21-2",
+        "text": "وصفاتك",
+        "fixHint": "Give each block its own zone, or put data-layout-allow-overlap on the text or on a container inside the scene. A marker on the scene root does not apply.",
+        "dataAttributes": {
+          "data-hf-id": "hf-nx2p"
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 467.78,
+          "y": 1398.04,
+          "width": 107.44,
+          "height": 68
+        },
+        "firstSeen": 33.397,
+        "lastSeen": 34.237,
+        "occurrences": 6,
+        "heldMs": 840.0000000000034,
+        "times": [
+          33.397,
+          33.607,
+          33.817,
+          33.838,
+          34.027,
+          34.237
+        ]
+      },
+      {
+        "code": "content_overlap",
+        "severity": "error",
+        "time": 33.838,
+        "selector": "div.summary-pills > span:nth-of-type(3)",
+        "message": "Two text blocks overlap and may render unreadable.",
+        "rect": {
+          "left": 316,
+          "top": 1398.04,
+          "right": 399.78,
+          "bottom": 1466.04,
+          "width": 83.78,
+          "height": 68
+        },
+        "containerSelector": "#cw-21-3",
+        "text": "أدواتك",
+        "fixHint": "Give each block its own zone, or put data-layout-allow-overlap on the text or on a container inside the scene. A marker on the scene root does not apply.",
+        "dataAttributes": {
+          "data-hf-id": "hf-i3jd"
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 316,
+          "y": 1398.04,
+          "width": 83.78,
+          "height": 68
+        },
+        "firstSeen": 33.397,
+        "lastSeen": 34.027,
+        "occurrences": 5,
+        "heldMs": 630.0000000000025,
+        "times": [
+          33.397,
+          33.607,
+          33.817,
+          33.838,
+          34.027
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "info",
+        "time": 6.266,
+        "selector": "#s2 > div:nth-of-type(3) > h2:nth-of-type(1)",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 505.89,
+          "top": 221,
+          "right": 788.78,
+          "bottom": 424,
+          "width": 282.89,
+          "height": 203
+        },
+        "containerSelector": "#s3",
+        "text": "سؤال",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "dataAttributes": {
+          "data-hf-id": "hf-5qs3"
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 505.89,
+          "y": 221,
+          "width": 282.89,
+          "height": 203
+        },
+        "firstSeen": 6.266,
+        "lastSeen": 6.266,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          6.266
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "info",
+        "time": 6.266,
+        "selector": "#s2 > div:nth-of-type(3) > h2:nth-of-type(1) > span:nth-of-type(1)",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 261.22,
+          "top": 221,
+          "right": 505.89,
+          "bottom": 424,
+          "width": 244.67,
+          "height": 203
+        },
+        "containerSelector": "#s3",
+        "text": "واحد.",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "dataAttributes": {
+          "data-hf-id": "hf-05zg"
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 261.22,
+          "y": 221,
+          "width": 244.67,
+          "height": 203
+        },
+        "firstSeen": 6.266,
+        "lastSeen": 6.266,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          6.266
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "info",
+        "time": 6.266,
+        "selector": "div.speech",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 896.54,
+          "top": 478.19,
+          "right": 975,
+          "bottom": 701.81,
+          "width": 78.46,
+          "height": 223.61
+        },
+        "containerSelector": "#s3",
+        "text": "؟",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "dataAttributes": {
+          "data-hf-id": "hf-49ov"
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 896.54,
+          "y": 478.19,
+          "width": 78.46,
+          "height": 223.61
+        },
+        "firstSeen": 6.266,
+        "lastSeen": 6.266,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          6.266
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "info",
+        "time": 8.773,
+        "selector": "div.question-pill.qp3",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 567.73,
+          "top": 1326.34,
+          "right": 861.72,
+          "bottom": 1448.65,
+          "width": 293.99,
+          "height": 122.31
+        },
+        "containerSelector": "#cap-6 > div:nth-of-type(1)",
+        "text": "أبدأ من وين؟",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 0.59,
+        "dataAttributes": {
+          "data-hf-id": "hf-18ff"
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 567.73,
+          "y": 1326.34,
+          "width": 293.99,
+          "height": 122.31
+        },
+        "firstSeen": 8.773,
+        "lastSeen": 8.773,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          8.773
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "info",
+        "time": 16.293,
+        "selector": "div.over-budget",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 681.24,
+          "top": 1253.08,
+          "right": 940.12,
+          "bottom": 1375.92,
+          "width": 258.88,
+          "height": 122.85
+        },
+        "containerSelector": "#cap-11 > div:nth-of-type(1)",
+        "text": "فوق الميزانية؟",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 0.33,
+        "dataAttributes": {
+          "data-hf-id": "hf-yopo"
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 681.24,
+          "y": 1253.08,
+          "width": 258.88,
+          "height": 122.85
+        },
+        "firstSeen": 16.293,
+        "lastSeen": 16.293,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          16.293
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "info",
+        "time": 18.799,
+        "selector": "div.digital-tag",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 134.75,
+          "top": 1340.18,
+          "right": 428.11,
+          "bottom": 1438.18,
+          "width": 293.36,
+          "height": 98
+        },
+        "containerSelector": "#cap-13 > div:nth-of-type(1)",
+        "text": "دليل رقمي من مدار",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 0.67,
+        "dataAttributes": {
+          "data-hf-id": "hf-75cj"
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 134.75,
+          "y": 1340.18,
+          "width": 293.36,
+          "height": 98
+        },
+        "firstSeen": 18.799,
+        "lastSeen": 21.306,
+        "occurrences": 2,
+        "heldMs": 0,
+        "times": [
+          18.799,
+          21.306
+        ]
+      },
+      {
+        "code": "content_overlap",
+        "severity": "info",
+        "time": 19.114,
+        "selector": "div.digital-tag",
+        "message": "Two text blocks overlap and may render unreadable.",
+        "rect": {
+          "left": 130.28,
+          "top": 1347.29,
+          "right": 427.07,
+          "bottom": 1447.03,
+          "width": 296.79,
+          "height": 99.74
+        },
+        "containerSelector": "#cw-13-3",
+        "text": "دليل رقمي من مدار",
+        "fixHint": "Give each block its own zone, or put data-layout-allow-overlap on the text or on a container inside the scene. A marker on the scene root does not apply.",
+        "dataAttributes": {
+          "data-hf-id": "hf-75cj"
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 130.28,
+          "y": 1347.29,
+          "width": 296.79,
+          "height": 99.74
+        },
+        "firstSeen": 19.114,
+        "lastSeen": 21.635,
+        "occurrences": 2,
+        "heldMs": 0,
+        "times": [
+          19.114,
+          21.635
+        ]
+      },
+      {
+        "code": "content_overlap",
+        "severity": "info",
+        "time": 23.315,
+        "selector": "div.link-card",
+        "message": "Two text blocks overlap and may render unreadable.",
+        "rect": {
+          "left": 181,
+          "top": 1382.94,
+          "right": 494.89,
+          "bottom": 1458.94,
+          "width": 313.89,
+          "height": 76
+        },
+        "containerSelector": "#cw-16-2",
+        "text": "روابط شرح التمارين ↗",
+        "fixHint": "Give each block its own zone, or put data-layout-allow-overlap on the text or on a container inside the scene. A marker on the scene root does not apply.",
+        "dataAttributes": {
+          "data-hf-id": "hf-6mza"
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 181,
+          "y": 1382.94,
+          "width": 313.89,
+          "height": 76
+        },
+        "firstSeen": 23.315,
+        "lastSeen": 23.315,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          23.315
+        ]
+      },
+      {
+        "code": "content_overlap",
+        "severity": "info",
+        "time": 23.315,
+        "selector": "div.link-card > span:nth-of-type(1)",
+        "message": "Two text blocks overlap and may render unreadable.",
+        "rect": {
+          "left": 145,
+          "top": 1376.94,
+          "right": 169,
+          "bottom": 1461.94,
+          "width": 24,
+          "height": 85
+        },
+        "containerSelector": "#cw-16-3",
+        "text": "↗",
+        "fixHint": "Give each block its own zone, or put data-layout-allow-overlap on the text or on a container inside the scene. A marker on the scene root does not apply.",
+        "dataAttributes": {
+          "data-hf-id": "hf-o03m"
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 145,
+          "y": 1376.94,
+          "width": 24,
+          "height": 85
+        },
+        "firstSeen": 23.315,
+        "lastSeen": 23.315,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          23.315
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "info",
+        "time": 23.812,
+        "selector": "div.link-card",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 181.08,
+          "top": 1341,
+          "right": 494.97,
+          "bottom": 1417,
+          "width": 313.89,
+          "height": 76
+        },
+        "containerSelector": "#cap-16 > div:nth-of-type(1)",
+        "text": "روابط شرح التمارين",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 0.33,
+        "dataAttributes": {
+          "data-hf-id": "hf-6mza"
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 181.08,
+          "y": 1341,
+          "width": 313.89,
+          "height": 76
+        },
+        "firstSeen": 23.812,
+        "lastSeen": 26.319,
+        "occurrences": 2,
+        "heldMs": 0,
+        "times": [
+          23.812,
+          26.319
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "info",
+        "time": 23.812,
+        "selector": "div.link-card > span:nth-of-type(1)",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 145.08,
+          "top": 1335,
+          "right": 169.08,
+          "bottom": 1420,
+          "width": 24,
+          "height": 85
+        },
+        "containerSelector": "#cap-16 > div:nth-of-type(1)",
+        "text": "↗",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 0.33,
+        "dataAttributes": {
+          "data-hf-id": "hf-o03m"
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 145.08,
+          "y": 1335,
+          "width": 24,
+          "height": 85
+        },
+        "firstSeen": 23.812,
+        "lastSeen": 23.812,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          23.812
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "info",
+        "time": 28.825,
+        "selector": "#s11 > div:nth-of-type(3) > p:nth-of-type(1)",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 249.84,
+          "top": 1431,
+          "right": 800.17,
+          "bottom": 1483,
+          "width": 550.33,
+          "height": 52
+        },
+        "containerSelector": "#cap-18 > div:nth-of-type(1)",
+        "text": "مثال توضيحي · احتياجك تقديري ويختلف حسب بياناتك",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "dataAttributes": {
+          "data-hf-id": "hf-o0tk"
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 249.84,
+          "y": 1431,
+          "width": 550.33,
+          "height": 52
+        },
+        "firstSeen": 28.825,
+        "lastSeen": 28.825,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          28.825
+        ]
+      },
+      {
+        "code": "container_overflow",
+        "severity": "info",
+        "time": 28.825,
+        "selector": "div.screen-frame.screen-calculator > img:nth-of-type(1)",
+        "message": "Element extends outside a clipping layout container.",
+        "rect": {
+          "left": 245,
+          "top": 511.69,
+          "right": 805,
+          "bottom": 1356.94,
+          "width": 560,
+          "height": 845.25
+        },
+        "containerSelector": "div.screen-frame.screen-calculator",
+        "fixHint": "Resize/reposition the child or container, or mark intentional overflow with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 240,
+          "top": 506.69,
+          "right": 810,
+          "bottom": 1296.69,
+          "width": 570,
+          "height": 790
+        },
+        "overflow": {
+          "bottom": 60.25
+        },
+        "dataAttributes": {
+          "data-hf-render-id": "hf-media-4",
+          "data-hf-id": "hf-u8kl",
+          "data-hf-authored-opacity": ""
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 245,
+          "y": 511.69,
+          "width": 560,
+          "height": 845.25
+        },
+        "firstSeen": 28.825,
+        "lastSeen": 28.825,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          28.825
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "info",
+        "time": 31.332,
+        "selector": "#s12 > div:nth-of-type(3) > p:nth-of-type(1)",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 297.63,
+          "top": 1431,
+          "right": 752.39,
+          "bottom": 1483,
+          "width": 454.77,
+          "height": 52
+        },
+        "containerSelector": "#cap-20 > div:nth-of-type(1)",
+        "text": "القيم الغذائية تقديرية حسب المقادير والتحضير",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "dataAttributes": {
+          "data-hf-id": "hf-2fm9"
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 297.63,
+          "y": 1431,
+          "width": 454.77,
+          "height": 52
+        },
+        "firstSeen": 31.332,
+        "lastSeen": 31.332,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          31.332
+        ]
+      },
+      {
+        "code": "container_overflow",
+        "severity": "info",
+        "time": 31.332,
+        "selector": "img.recipe-first",
+        "message": "Element extends outside a clipping layout container.",
+        "rect": {
+          "left": 257.5,
+          "top": 543.19,
+          "right": 792.5,
+          "bottom": 1451.17,
+          "width": 535,
+          "height": 907.98
+        },
+        "containerSelector": "div.screen-frame.screen-recipes",
+        "fixHint": "Resize/reposition the child or container, or mark intentional overflow with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 252.5,
+          "top": 545.8,
+          "right": 797.5,
+          "bottom": 1240.8,
+          "width": 545,
+          "height": 695
+        },
+        "overflow": {
+          "top": 2.61,
+          "bottom": 210.37
+        },
+        "dataAttributes": {
+          "data-hf-render-id": "hf-media-5",
+          "data-hf-id": "hf-rd67",
+          "data-hf-authored-opacity": ""
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 257.5,
+          "y": 543.19,
+          "width": 535,
+          "height": 907.98
+        },
+        "firstSeen": 31.332,
+        "lastSeen": 31.332,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          31.332
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "info",
+        "time": 33.838,
+        "selector": "div.summary-pills > span:nth-of-type(1)",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 643.22,
+          "top": 1398.04,
+          "right": 734.02,
+          "bottom": 1466.04,
+          "width": 90.8,
+          "height": 68
+        },
+        "containerSelector": "#cap-21 > div:nth-of-type(1)",
+        "text": "تمرينك",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "dataAttributes": {
+          "data-hf-id": "hf-ij1s"
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 643.22,
+          "y": 1398.04,
+          "width": 90.8,
+          "height": 68
+        },
+        "firstSeen": 33.838,
+        "lastSeen": 33.838,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          33.838
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "info",
+        "time": 33.838,
+        "selector": "div.summary-pills > span:nth-of-type(2)",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 467.78,
+          "top": 1398.04,
+          "right": 575.22,
+          "bottom": 1466.04,
+          "width": 107.44,
+          "height": 68
+        },
+        "containerSelector": "#cap-21 > div:nth-of-type(1)",
+        "text": "وصفاتك",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "dataAttributes": {
+          "data-hf-id": "hf-nx2p"
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 467.78,
+          "y": 1398.04,
+          "width": 107.44,
+          "height": 68
+        },
+        "firstSeen": 33.838,
+        "lastSeen": 33.838,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          33.838
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "info",
+        "time": 33.838,
+        "selector": "div.summary-pills > span:nth-of-type(3)",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 316,
+          "top": 1398.04,
+          "right": 399.78,
+          "bottom": 1466.04,
+          "width": 83.78,
+          "height": 68
+        },
+        "containerSelector": "#cap-21 > div:nth-of-type(1)",
+        "text": "أدواتك",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "dataAttributes": {
+          "data-hf-id": "hf-i3jd"
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 316,
+          "y": 1398.04,
+          "width": 83.78,
+          "height": 68
+        },
+        "firstSeen": 33.838,
+        "lastSeen": 33.838,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          33.838
+        ]
+      },
+      {
+        "code": "content_overlap",
+        "severity": "info",
+        "time": 34.237,
+        "selector": "#s13 > div:nth-of-type(3) > h2:nth-of-type(1)",
+        "message": "Two text blocks overlap and may render unreadable.",
+        "rect": {
+          "left": 688.89,
+          "top": 226,
+          "right": 861.7,
+          "bottom": 396,
+          "width": 172.81,
+          "height": 170
+        },
+        "containerSelector": "#s14 > div:nth-of-type(3) > h2:nth-of-type(1)",
+        "text": "اختَر اللي يناسبك.",
+        "fixHint": "Give each block its own zone, or put data-layout-allow-overlap on the text or on a container inside the scene. A marker on the scene root does not apply.",
+        "dataAttributes": {
+          "data-hf-id": "hf-o7uh"
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 688.89,
+          "y": 226,
+          "width": 172.81,
+          "height": 170
+        },
+        "firstSeen": 34.237,
+        "lastSeen": 34.237,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          34.237
+        ]
+      },
+      {
+        "code": "content_overlap",
+        "severity": "info",
+        "time": 34.237,
+        "selector": "#s13 > div:nth-of-type(3) > h2:nth-of-type(1) > span:nth-of-type(1)",
+        "message": "Two text blocks overlap and may render unreadable.",
+        "rect": {
+          "left": 188.3,
+          "top": 226,
+          "right": 688.89,
+          "bottom": 396,
+          "width": 500.59,
+          "height": 170
+        },
+        "containerSelector": "#s14 > div:nth-of-type(3) > h2:nth-of-type(1)",
+        "text": "اللي يناسبك.",
+        "fixHint": "Give each block its own zone, or put data-layout-allow-overlap on the text or on a container inside the scene. A marker on the scene root does not apply.",
+        "dataAttributes": {
+          "data-hf-id": "hf-c6kx"
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 188.3,
+          "y": 226,
+          "width": 500.59,
+          "height": 170
+        },
+        "firstSeen": 34.237,
+        "lastSeen": 34.237,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          34.237
+        ]
+      }
+    ],
+    "duration": 37.598166666666664,
+    "samples": [
+      1.253,
+      3.76,
+      6.266,
+      8.773,
+      11.279,
+      13.786,
+      16.293,
+      18.799,
+      21.306,
+      23.812,
+      26.319,
+      28.825,
+      31.332,
+      33.838,
+      36.345
+    ],
+    "transitionSamples": [],
+    "transitionSamplesDropped": 0,
+    "tolerance": 2,
+    "totalIssueCount": 26,
+    "truncated": false
+  },
+  "motion": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "enabled": false,
+    "samples": 0
+  },
+  "contrast": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "enabled": true,
+    "samples": [
+      1.253,
+      8.773,
+      18.799,
+      26.319,
+      36.345
+    ],
+    "checked": 53,
+    "passed": 53
+  },
+  "craft": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 1,
+    "infoCount": 0,
+    "findings": [
+      {
+        "code": "text_below_floor",
+        "severity": "warning",
+        "message": "Type floor is 28 px (2.6% of the 1080 px short side, what a phone can read) and 5 text elements stay under it for 0.5 s or more, the smallest \"TRAIN / FUEL / TRANSFORM\" at 20 px: set reading text to at least 28 px, or put data-layout-ignore on text that is texture rather than reading; see references/look.md.",
+        "text": "TRAIN / FUEL / TRANSFORM",
+        "selector": "span.serial",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 593.3,
+          "y": 1593,
+          "width": 341.7,
+          "height": 42
+        },
+        "time": 0.25,
+        "times": [
+          0.25,
+          0.25,
+          18.737,
+          27.106,
+          30.603
+        ],
+        "fontPx": 20,
+        "floorPx": 28,
+        "seconds": 37.348,
+        "elements": [
+          {
+            "selector": "span.serial",
+            "text": "TRAIN / FUEL / TRANSFORM",
+            "fontPx": 20,
+            "time": 0.25,
+            "seconds": 37.348
+          },
+          {
+            "selector": "div.brandbar > span:nth-of-type(1)",
+            "text": "MDAAR21",
+            "fontPx": 21,
+            "time": 0.25,
+            "seconds": 37.348
+          },
+          {
+            "selector": "span.eyebrow.gold",
+            "text": "MDAAR21 / THE PROTOCOL",
+            "fontPx": 25,
+            "time": 18.737,
+            "seconds": 2.998
+          },
+          {
+            "selector": "#s11 > div:nth-of-type(3) > p:nth-of-type(1)",
+            "text": "مثال توضيحي · احتياجك تقديري ويختلف حسب بياناتك",
+            "fontPx": 25,
+            "time": 27.106,
+            "seconds": 3.497
+          },
+          {
+            "selector": "#s12 > div:nth-of-type(3) > p:nth-of-type(1)",
+            "text": "القيم الغذائية تقديرية حسب المقادير والتحضير",
+            "fontPx": 25,
+            "time": 30.603,
+            "seconds": 2.748
+          }
+        ]
+      }
+    ],
+    "enabled": true,
+    "step": 0.125,
+    "samples": 302
+  },
+  "hdr": {
+    "autoPromotion": null,
+    "inspection": "available"
+  },
+  "snapshots": {
+    "enabled": false,
+    "files": [],
+    "times": [],
+    "findingFiles": []
+  },
+  "saved": {
+    "id": "f6302375-b3ea-479b-ad4e-e96030d469d6",
+    "revision": null,
+    "report": "/workspace/Mdaar21-new/creative/voice-ad/.hyperframes/artifacts/checks/f6302375-b3ea-479b-ad4e-e96030d469d6.json",
+    "attribution": "unversioned"
+  },
+  "_meta": {
+    "version": "0.8.189",
+    "updateAvailable": false
+  }
+}

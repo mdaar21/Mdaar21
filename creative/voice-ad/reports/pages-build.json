@@ -1,0 +1,8 @@
+{
+  "builder": "scripts/build-github-pages.py",
+  "output": "/tmp/mdaar-voice-pages-jtqoajj8/site",
+  "exit_code": 0,
+  "stdout": "Prepared 177 public files for /Mdaar21/\n",
+  "stderr": "",
+  "publicationScope": "Only built ad/voice will be copied to gh-pages; all existing app, showcase and older ads remain at deployed versions."
+}

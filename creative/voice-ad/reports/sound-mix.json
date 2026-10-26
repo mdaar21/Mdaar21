@@ -1,0 +1,107 @@
+{
+  "musicAdded": false,
+  "voiceSource": "assets/voice-clean.wav",
+  "voiceAlteredBySfx": false,
+  "effectSource": "Reused retrieved Pixabay library clips; assets/sfx/CREDITS.md",
+  "effects": [
+    {
+      "time": 0,
+      "name": "whoosh-short",
+      "peak": 0.045,
+      "seconds": 0.25
+    },
+    {
+      "time": 4.50367,
+      "name": "click-soft",
+      "peak": 0.036,
+      "seconds": 0.11
+    },
+    {
+      "time": 6.159269999999999,
+      "name": "click-soft",
+      "peak": 0.036,
+      "seconds": 0.11
+    },
+    {
+      "time": 7.80925,
+      "name": "whoosh-short",
+      "peak": 0.045,
+      "seconds": 0.25
+    },
+    {
+      "time": 10.209249999999999,
+      "name": "whoosh-short",
+      "peak": 0.045,
+      "seconds": 0.25
+    },
+    {
+      "time": 12.23854,
+      "name": "whoosh",
+      "peak": 0.045,
+      "seconds": 0.25
+    },
+    {
+      "time": 14.803519999999999,
+      "name": "whoosh",
+      "peak": 0.045,
+      "seconds": 0.25
+    },
+    {
+      "time": 18.37823,
+      "name": "whoosh-short",
+      "peak": 0.045,
+      "seconds": 0.25
+    },
+    {
+      "time": 21.40502,
+      "name": "click-soft",
+      "peak": 0.036,
+      "seconds": 0.11
+    },
+    {
+      "time": 24.70502,
+      "name": "whoosh-short",
+      "peak": 0.045,
+      "seconds": 0.25
+    },
+    {
+      "time": 26.47375,
+      "name": "whoosh-short",
+      "peak": 0.045,
+      "seconds": 0.25
+    },
+    {
+      "time": 30.27929,
+      "name": "click-soft",
+      "peak": 0.036,
+      "seconds": 0.11
+    },
+    {
+      "time": 34.13319,
+      "name": "whoosh-short",
+      "peak": 0.045,
+      "seconds": 0.25
+    },
+    {
+      "time": 2.3551,
+      "name": "key-press",
+      "peak": 0.035,
+      "seconds": 0.1
+    },
+    {
+      "time": 15.79352,
+      "name": "pop",
+      "peak": 0.04,
+      "seconds": 0.15
+    },
+    {
+      "time": 31.89929,
+      "name": "click-soft",
+      "peak": 0.04,
+      "seconds": 0.11
+    }
+  ],
+  "sfxRmsDBFS": -52.23175048828125,
+  "voiceRmsDBFS": -16.797382354736328,
+  "durationSeconds": 37.598166666666664
+}

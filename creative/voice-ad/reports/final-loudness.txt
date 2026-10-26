@@ -1,0 +1,29 @@
+Input #0, wav, from 'assets/final-mix.wav':
+  Metadata:
+    encoder         : Lavf61.7.103
+  Duration: 00:00:37.60, bitrate: 2304 kb/s
+  Stream #0:0: Audio: pcm_s24le ([1][0][0][0] / 0x0001), 48000 Hz, stereo, s32 (24 bit), 2304 kb/s
+Stream mapping:
+  Stream #0:0 -> #0:0 (pcm_s24le (native) -> pcm_s16le (native))
+Press [q] to stop, [?] for help
+Output #0, null, to 'pipe:':
+  Metadata:
+    encoder         : Lavf61.7.103
+  Stream #0:0: Audio: pcm_s16le, 192000 Hz, stereo, s16, 6144 kb/s
+      Metadata:
+        encoder         : Lavc61.19.101 pcm_s16le
+size=N/A time=00:00:15.30 bitrate=N/A speed=30.4x    size=N/A time=00:00:32.30 bitrate=N/A speed=32.2x    [Parsed_loudnorm_0 @ 0x7f3e5c002740] 
+{
+	"input_i" : "-16.06",
+	"input_tp" : "-4.51",
+	"input_lra" : "1.70",
+	"input_thresh" : "-26.10",
+	"output_i" : "-16.34",
+	"output_tp" : "-4.47",
+	"output_lra" : "1.50",
+	"output_thresh" : "-26.37",
+	"normalization_type" : "dynamic",
+	"target_offset" : "0.34"
+}
+[out#0/null @ 0x55f5a8826280] video:0KiB audio:28199KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown
+size=N/A time=00:00:37.60 bitrate=N/A speed=33.7x    

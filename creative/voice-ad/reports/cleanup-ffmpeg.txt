@@ -1,0 +1,29 @@
+Input #0, wav, from '/workspace/Mdaar21-new/creative/voice-ad/assets/voice-edited.wav':
+  Metadata:
+    encoder         : Lavf61.7.103
+  Duration: 00:00:37.60, bitrate: 1152 kb/s
+  Stream #0:0: Audio: pcm_s24le ([1][0][0][0] / 0x0001), 48000 Hz, mono, s32 (24 bit), 1152 kb/s
+Stream mapping:
+  Stream #0:0 -> #0:0 (pcm_s24le (native) -> pcm_s24le (native))
+Press [q] to stop, [?] for help
+Output #0, wav, to '/workspace/Mdaar21-new/creative/voice-ad/assets/voice-clean.wav':
+  Metadata:
+    ISFT            : Lavf61.7.103
+  Stream #0:0: Audio: pcm_s24le ([1][0][0][0] / 0x0001), 48000 Hz, mono, s32 (24 bit), 1152 kb/s
+      Metadata:
+        encoder         : Lavc61.19.101 pcm_s24le
+size=    2816KiB time=00:00:20.39 bitrate=1130.8kbits/s speed=40.8x    [Parsed_loudnorm_6 @ 0x7f17b4005f00] 
+{
+	"input_i" : "-16.56",
+	"input_tp" : "0.26",
+	"input_lra" : "2.40",
+	"input_thresh" : "-26.60",
+	"output_i" : "-16.03",
+	"output_tp" : "-1.50",
+	"output_lra" : "1.70",
+	"output_thresh" : "-26.07",
+	"normalization_type" : "dynamic",
+	"target_offset" : "0.03"
+}
+[out#0/wav @ 0x56169af53140] video:0KiB audio:5287KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 0.001884%
+size=    5287KiB time=00:00:37.60 bitrate=1152.0kbits/s speed=43.9x    
