@@ -1,0 +1,7 @@
+{
+  "ok": true,
+  "command": "python3 scripts/build-github-pages.py --output /tmp/mdaar-v8-pages/site",
+  "output": "/tmp/mdaar-v8-pages/site",
+  "stdout": "Prepared 187 public files for /Mdaar21/",
+  "publicationScope": "Only built ad/voice-balanced directory copied to gh-pages."
+}

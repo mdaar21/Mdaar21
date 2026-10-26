@@ -1,0 +1,196 @@
+{
+  "sourceSha256": "f2509d44f29bec06d00bd07a64d78ae43a80403ed3cce90b0664f4d8d532d123",
+  "visualMasterSha256": "134eca706983c6a6d8385948438953782ac0318c289e79f4bf5f6862df3340f1",
+  "sourceUnchanged": true,
+  "timelineCopiedFrom": "../voice-ad-smooth/reports/audio-edit.json",
+  "seconds": 39.103770833333336,
+  "speechSpeedChanged": false,
+  "voiceReplaced": false,
+  "pitchSemitones": 0.35,
+  "formantsPreserved": true,
+  "dereverb": {
+    "engine": "nara-wpe 0.0.11",
+    "wetFraction": 0.3,
+    "taps": 10,
+    "delay": 4,
+    "fftSize": 1536,
+    "hop": 384,
+    "iterations": 3
+  },
+  "filters": "highpass=f=95,equalizer=f=190:t=q:w=0.8:g=-2.5,equalizer=f=430:t=q:w=0.75:g=-3.5,equalizer=f=1300:t=q:w=1.2:g=1.0,equalizer=f=2800:t=q:w=0.85:g=2.0,highshelf=f=4200:g=3.5,lowpass=f=14000,rubberband=tempo=1:pitch=1.0204225363:transients=smooth:detector=soft:phase=laminar:formant=preserved:pitchq=quality,deesser=i=0.12:m=0.18:f=0.55,acompressor=threshold=0.10:ratio=2.2:attack=4:release=100:knee=2.8:makeup=1",
+  "phraseRideMaxDB": 1.8,
+  "voiceLoudness": {
+    "before": {
+      "integratedLUFS": -21.86,
+      "truePeakDBTP": -7.26,
+      "loudnessRangeLU": 2.6
+    },
+    "gainDB": 2.26,
+    "after": {
+      "integratedLUFS": -19.61,
+      "truePeakDBTP": -5.0,
+      "loudnessRangeLU": 2.5
+    }
+  },
+  "finalMixLoudness": {
+    "integratedLUFS": -19.58,
+    "truePeakDBTP": -5.0,
+    "loudnessRangeLU": 2.5
+  },
+  "v7Loudness": {
+    "integratedLUFS": -14.0,
+    "truePeakDBTP": -3.17,
+    "loudnessRangeLU": 1.8
+  },
+  "musicAdded": false,
+  "reverbAdded": false,
+  "effects": [
+    {
+      "scene": "s0",
+      "time": 0.38,
+      "file": "pop",
+      "seconds": 0.08160416666666667,
+      "pan": -0.12,
+      "actualRmsDBFS": -35.618289947509766,
+      "actualPeakDBFS": -23.000534057617188
+    },
+    {
+      "scene": "s1",
+      "time": 1.855,
+      "file": "whoosh-short",
+      "seconds": 0.28360416666666666,
+      "pan": 0.15,
+      "actualRmsDBFS": -31.036056518554688,
+      "actualPeakDBFS": -18.706985473632812
+    },
+    {
+      "scene": "s2",
+      "time": 5.16502,
+      "file": "click",
+      "seconds": 0.15,
+      "pan": 0,
+      "actualRmsDBFS": -32.71196746826172,
+      "actualPeakDBFS": -16.385425567626953
+    },
+    {
+      "scene": "s3",
+      "time": 7.05352,
+      "file": "click-soft",
+      "seconds": 0.15747916666666667,
+      "pan": -0.12,
+      "actualRmsDBFS": -33.07444763183594,
+      "actualPeakDBFS": -16.351011276245117
+    },
+    {
+      "scene": "s4",
+      "time": 8.8435,
+      "file": "pop",
+      "seconds": 0.08160416666666667,
+      "pan": 0.14,
+      "actualRmsDBFS": -31.619892120361328,
+      "actualPeakDBFS": -19.000532150268555
+    },
+    {
+      "scene": "s4",
+      "time": 9.233500000000001,
+      "file": "pop",
+      "seconds": 0.08160416666666667,
+      "pan": -0.14,
+      "actualRmsDBFS": -35.53421401977539,
+      "actualPeakDBFS": -22.91397476196289
+    },
+    {
+      "scene": "s5",
+      "time": 10.8535,
+      "file": "whoosh-short",
+      "seconds": 0.28360416666666666,
+      "pan": -0.12,
+      "actualRmsDBFS": -33.276771545410156,
+      "actualPeakDBFS": -21.636974334716797
+    },
+    {
+      "scene": "s6",
+      "time": 13.22279,
+      "file": "click-soft",
+      "seconds": 0.15747916666666667,
+      "pan": 0.1,
+      "actualRmsDBFS": -35.04209518432617,
+      "actualPeakDBFS": -17.77743911743164
+    },
+    {
+      "scene": "s7",
+      "time": 16.482789999999998,
+      "file": "pop",
+      "seconds": 0.08160416666666667,
+      "pan": 0,
+      "actualRmsDBFS": -33.69169616699219,
+      "actualPeakDBFS": -21.21587562561035
+    },
+    {
+      "scene": "s8",
+      "time": 19.4375,
+      "file": "whoosh-short",
+      "seconds": 0.28360416666666666,
+      "pan": 0,
+      "actualRmsDBFS": -31.40028190612793,
+      "actualPeakDBFS": -19.641799926757812
+    },
+    {
+      "scene": "s9",
+      "time": 22.85429,
+      "file": "click",
+      "seconds": 0.15747916666666667,
+      "pan": -0.14,
+      "actualRmsDBFS": -34.26420211791992,
+      "actualPeakDBFS": -18.025432586669922
+    },
+    {
+      "scene": "s10",
+      "time": 26.20429,
+      "file": "click",
+      "seconds": 0.15747916666666667,
+      "pan": 0.14,
+      "actualRmsDBFS": -32.895774841308594,
+      "actualPeakDBFS": -16.21860694885254
+    },
+    {
+      "scene": "s11",
+      "time": 27.99302,
+      "file": "click-soft",
+      "seconds": 0.15747916666666667,
+      "pan": -0.1,
+      "actualRmsDBFS": -33.13384246826172,
+      "actualPeakDBFS": -17.117206573486328
+    },
+    {
+      "scene": "s12",
+      "time": 31.70302,
+      "file": "whoosh-short",
+      "seconds": 0.28360416666666666,
+      "pan": 0.12,
+      "actualRmsDBFS": -31.157590866088867,
+      "actualPeakDBFS": -18.706985473632812
+    },
+    {
+      "scene": "s12",
+      "time": 33.35302,
+      "file": "click",
+      "seconds": 0.15747916666666667,
+      "pan": 0,
+      "actualRmsDBFS": -32.51288604736328,
+      "actualPeakDBFS": -16.60861587524414
+    },
+    {
+      "scene": "s14",
+      "time": 34.69302,
+      "file": "whoosh-short",
+      "seconds": 0.28360416666666666,
+      "pan": 0,
+      "actualRmsDBFS": -29.302539825439453,
+      "actualPeakDBFS": -16.706985473632812
+    }
+  ],
+  "peakPCM": 0.5593062043190002,
+  "clippedSamples": 0,
+  "note": "Signal validation, not human listening certification. No speech synthesis or claimed recovery of lost source details."
+}
