@@ -1,0 +1,3 @@
+{"file": "assets/voice-clean.wav", "source": "Original owner-supplied audio.mp3, verified SHA256; same V7 word-protected cuts, three gentle EQ filters and static level adjustment. No pitch/voice replacement.", "report": "reports/audio-revision.json"}
+{"file": "assets/effects-v8.flac", "source": "Lossless copy of the V8 effects-only stem; licensed source bundle, no narration; assets/EFFECTS-CREDITS.md.", "report": "reports/effects-stem.json"}
+{"file": "../../public/ad/voice-original/mdaar_tiktok_v10_original_clear.mp4", "source": "Exact V7 visual stream with revised original-recording audio.", "report": "reports/validation.json"}

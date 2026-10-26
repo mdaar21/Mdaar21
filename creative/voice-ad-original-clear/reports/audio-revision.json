@@ -1,0 +1,36 @@
+{
+  "sourceSha256": "f2509d44f29bec06d00bd07a64d78ae43a80403ed3cce90b0664f4d8d532d123",
+  "originalRecordingUsed": true,
+  "voiceReplaced": false,
+  "voiceCloned": false,
+  "synthesizedSpeech": false,
+  "pitchChanged": false,
+  "timeStretch": false,
+  "dereverb": false,
+  "noiseGate": false,
+  "spectralDenoising": false,
+  "compression": false,
+  "filters": "highpass=f=70,equalizer=f=250:t=q:w=0.85:g=-1.5,equalizer=f=2600:t=q:w=0.85:g=1.5",
+  "headroomGainBeforePCM": 0.6,
+  "voiceStaticGainDB": -2.46,
+  "voiceLoudness": {
+    "integratedLUFS": -19.61,
+    "truePeakDBTP": -4.5,
+    "loudnessRangeLU": 4.3
+  },
+  "mixLoudness": {
+    "integratedLUFS": -19.58,
+    "truePeakDBTP": -4.5,
+    "loudnessRangeLU": 4.3
+  },
+  "seconds": 39.103770833333336,
+  "visualMasterSha256": "134eca706983c6a6d8385948438953782ac0318c289e79f4bf5f6862df3340f1",
+  "visualStreamCopied": true,
+  "wordsAndCaptionsFrom": "../voice-ad-smooth/",
+  "effectsStem": "assets/effects-v8.flac",
+  "effectsStemSha256": "cdd0eb0844638b82eb3ed05abbee63d804c5a9cbb8a9eca4623991bd315cd43a",
+  "effectsCount": 16,
+  "musicAdded": false,
+  "clippedSamples": 0,
+  "limits": "Corrective EQ and level adjustment preserve the recorded speaker. Objective validation is not a human listening test or a guarantee of restored lost source detail."
+}

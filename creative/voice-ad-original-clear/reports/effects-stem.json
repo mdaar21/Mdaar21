@@ -1,0 +1,7 @@
+{
+  "ok": true,
+  "losslessMatchWithV8EffectsOnly": true,
+  "cues": 16,
+  "peakOutsideCueWindows": 0.0,
+  "flacSha256": "cdd0eb0844638b82eb3ed05abbee63d804c5a9cbb8a9eca4623991bd315cd43a"
+}

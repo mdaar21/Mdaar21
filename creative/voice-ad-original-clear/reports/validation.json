@@ -1,0 +1,144 @@
+{
+  "ok": true,
+  "metadata": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "width": 1080,
+        "height": 1920,
+        "r_frame_rate": "60/1",
+        "duration": "39.116667"
+      },
+      {
+        "codec_name": "aac",
+        "sample_rate": "48000",
+        "channels": 2,
+        "r_frame_rate": "0/0",
+        "duration": "39.104000"
+      }
+    ],
+    "format": {
+      "duration": "39.116667",
+      "size": "9686306"
+    }
+  },
+  "fileSha256": "070f2317f44c0611d23e1ee1133ca0a06fee960729fc48cf02d5f80df842f7e5",
+  "videoElementaryStreamHashes": [
+    "SHA256=5fc533eb5d3f38f6cd4dce538a75fd8734e71b9de50ca010caa11dc767dce0d8",
+    "SHA256=5fc533eb5d3f38f6cd4dce538a75fd8734e71b9de50ca010caa11dc767dce0d8"
+  ],
+  "visualsIdenticalToV7": true,
+  "captionsAndWordTimingsUnchanged": true,
+  "encodedAudioCorrelationWithMaster": 0.9999827919118309,
+  "v7EncodedLoudness": {
+    "integratedLUFS": -14.03,
+    "truePeakDBTP": -2.85
+  },
+  "revisedEncodedLoudness": {
+    "integratedLUFS": -19.59,
+    "truePeakDBTP": -4.49
+  },
+  "levelReductionLU": 5.5600000000000005,
+  "bandEnergy": {
+    "originalDryPresenceToLowMidDB": -4.212240219116211,
+    "revisedPresenceToLowMidDB": -2.0269863605499268
+  },
+  "timingChecks": [
+    {
+      "startSeconds": 0,
+      "envelopeLagMs": 0
+    },
+    {
+      "startSeconds": 7,
+      "envelopeLagMs": 0
+    },
+    {
+      "startSeconds": 14,
+      "envelopeLagMs": 0
+    },
+    {
+      "startSeconds": 21,
+      "envelopeLagMs": 0
+    },
+    {
+      "startSeconds": 28,
+      "envelopeLagMs": 0
+    },
+    {
+      "startSeconds": 34,
+      "envelopeLagMs": 0
+    }
+  ],
+  "effects": [
+    {
+      "scene": "s0",
+      "rmsDBFS": -32.6090202331543
+    },
+    {
+      "scene": "s1",
+      "rmsDBFS": -28.026216506958008
+    },
+    {
+      "scene": "s2",
+      "rmsDBFS": -30.105287551879883
+    },
+    {
+      "scene": "s3",
+      "rmsDBFS": -30.455503463745117
+    },
+    {
+      "scene": "s4",
+      "rmsDBFS": -28.61062240600586
+    },
+    {
+      "scene": "s4",
+      "rmsDBFS": -32.52494430541992
+    },
+    {
+      "scene": "s5",
+      "rmsDBFS": -30.26694107055664
+    },
+    {
+      "scene": "s6",
+      "rmsDBFS": -32.343448638916016
+    },
+    {
+      "scene": "s7",
+      "rmsDBFS": -30.679096221923828
+    },
+    {
+      "scene": "s8",
+      "rmsDBFS": -28.390466690063477
+    },
+    {
+      "scene": "s9",
+      "rmsDBFS": -31.698768615722656
+    },
+    {
+      "scene": "s10",
+      "rmsDBFS": -30.356159210205078
+    },
+    {
+      "scene": "s11",
+      "rmsDBFS": -30.493030548095703
+    },
+    {
+      "scene": "s12",
+      "rmsDBFS": -28.14774513244629
+    },
+    {
+      "scene": "s12",
+      "rmsDBFS": -29.867582321166992
+    },
+    {
+      "scene": "s14",
+      "rmsDBFS": -26.292686462402344
+    }
+  ],
+  "clippedSamples": 0,
+  "faststart": true,
+  "musicAdded": false,
+  "limits": "Signal and delivery checks; no human listening certification, clinical intelligibility test or campaign validation."
+}
