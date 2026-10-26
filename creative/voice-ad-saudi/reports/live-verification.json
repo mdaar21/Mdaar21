@@ -1,0 +1,44 @@
+{
+  "ok": true,
+  "url": "https://mdaar21.github.io/Mdaar21/ad/voice-saudi/",
+  "pagesCommit": "cf57bb4c97dbfc587b7bbeaaeb89625ade8e7be3",
+  "files": {
+    "index.html": {
+      "status": 200,
+      "bytes": 3094,
+      "sha256": "674f81865b037836f6b98a3a72b668eac32c1d5f1bd10d4f4ae3a3c0051dee6d",
+      "contentType": "text/html; charset=utf-8"
+    },
+    "mdaar_tiktok_v9_saudi.mp4": {
+      "status": 200,
+      "bytes": 9720802,
+      "sha256": "5a73d0b21577e9f950b3f5d157a187085bf818214c2024ef9463b8720768212a",
+      "contentType": "video/mp4"
+    },
+    "voice-clean.mp3": {
+      "status": 200,
+      "bytes": 1447724,
+      "sha256": "9b2c036364402fde0971f9c2ffea7bb51b89f70b37302a2e4479be005f7894bc",
+      "contentType": "audio/mp3"
+    },
+    "captions.srt": {
+      "status": 200,
+      "bytes": 1566,
+      "sha256": "25fc7cdef8fa514907135217f003d4eadbd6f66fbd5cecf611770eeb351dd560",
+      "contentType": "application/x-subrip"
+    },
+    "poster.jpg": {
+      "status": 200,
+      "bytes": 140789,
+      "sha256": "f3f924ed896cb44af1b99e620d1053349e4ba1ee985403b7d7f130f022d7c027",
+      "contentType": "image/jpeg"
+    }
+  },
+  "range": {
+    "status": 206,
+    "bytes": 1024,
+    "contentRange": "bytes 0-1023/9720802"
+  },
+  "publishedBytesMatchValidatedMaster": true,
+  "scope": "Hosted files only; no TikTok posting or advertising campaign."
+}
