@@ -1,0 +1,606 @@
+{
+  "schema": 1,
+  "roster_sha256": "27e2f16e2c02b192f7b716ab993e174e928011202a28d1c3132274897ae6fa54",
+  "events": [
+    {
+      "seq": 1,
+      "timestamp": "2026-10-26T14:55:44.939454+00:00",
+      "kind": "init",
+      "payload": {
+        "task": "تطوير فكرة المالك إلى نص إعلان سعودي لبروتوكول التحول مع تدقيق مزايا التطبيق وحساب السعرات؛ نص فقط ومراجعة تسويق جزئية بخمسة وكلاء."
+      },
+      "previous_hash": null,
+      "event_hash": "5c8ed76ab268d67b7d12b1d7c56ba570b43ce5bc868ecfdee34282b2bf173871"
+    },
+    {
+      "seq": 2,
+      "timestamp": "2026-10-26T14:55:44.941870+00:00",
+      "kind": "snapshot",
+      "payload": {
+        "version": "brief-v1",
+        "files": [
+          {
+            "path": "/workspace/Mdaar21-new/docs/elite50/ad-script-2026-10-26/baseline.txt",
+            "sha256": "976f8324eb2c3736419b156ec45077f076f5835adf6860aa531585915d0a5f46"
+          },
+          {
+            "path": "/workspace/Mdaar21-new/docs/elite50/ad-script-2026-10-26/brief.md",
+            "sha256": "2b7ff85601a800b7768badcba00d4b87a190d468d1db24b3942058fb7e3fb440"
+          },
+          {
+            "path": "/workspace/Mdaar21-new/docs/elite50/ad-script-2026-10-26/facts.md",
+            "sha256": "1cbe6af5d2193711c6e73eda922577b462acc42b89afd7226eb036c6539ba385"
+          }
+        ],
+        "digest": "c01cbe72cda0db1c66c29f68bc3f2b09bff13edf96f324d08d8c050691e293d6"
+      },
+      "previous_hash": "5c8ed76ab268d67b7d12b1d7c56ba570b43ce5bc868ecfdee34282b2bf173871",
+      "event_hash": "c4b507a7c314c3c268ac8dc3af46f994a0d6dbfdbd9ef90ace2a4b4052a5eb2a"
+    },
+    {
+      "seq": 3,
+      "timestamp": "2026-10-26T14:55:44.943038+00:00",
+      "kind": "evidence",
+      "payload": {
+        "id": "source-facts",
+        "description": "خريطة مزايا المنتج إلى مصادرها وحدود الادعاءات",
+        "path": "/workspace/Mdaar21-new/docs/elite50/ad-script-2026-10-26/facts.md",
+        "sha256": "1cbe6af5d2193711c6e73eda922577b462acc42b89afd7226eb036c6539ba385"
+      },
+      "previous_hash": "c4b507a7c314c3c268ac8dc3af46f994a0d6dbfdbd9ef90ace2a4b4052a5eb2a",
+      "event_hash": "781d95151e5d13b4960f581a2958abc77f65f03fb93fde5c6dcebefec35e09b6"
+    },
+    {
+      "seq": 4,
+      "timestamp": "2026-10-26T14:59:27.695718+00:00",
+      "kind": "register",
+      "payload": {
+        "expert": "marketing-1",
+        "runtime": "/root/copy_marketing_1",
+        "identity_basis": "trusted-operator-attestation"
+      },
+      "previous_hash": "781d95151e5d13b4960f581a2958abc77f65f03fb93fde5c6dcebefec35e09b6",
+      "event_hash": "e89876356d70050e23098bbc0c82dfe9188b81eda84b1de4353ae56c583ef64b"
+    },
+    {
+      "seq": 5,
+      "timestamp": "2026-10-26T14:59:27.698152+00:00",
+      "kind": "register",
+      "payload": {
+        "expert": "marketing-2",
+        "runtime": "/root/copy_marketing_2",
+        "identity_basis": "trusted-operator-attestation"
+      },
+      "previous_hash": "e89876356d70050e23098bbc0c82dfe9188b81eda84b1de4353ae56c583ef64b",
+      "event_hash": "a5093b4b3c59cd024731474ad8549f40b74d1f545fc80510c2daccbd33872503"
+    },
+    {
+      "seq": 6,
+      "timestamp": "2026-10-26T14:59:27.699518+00:00",
+      "kind": "register",
+      "payload": {
+        "expert": "marketing-3",
+        "runtime": "/root/copy_marketing_3",
+        "identity_basis": "trusted-operator-attestation"
+      },
+      "previous_hash": "a5093b4b3c59cd024731474ad8549f40b74d1f545fc80510c2daccbd33872503",
+      "event_hash": "6ebb36e29ebf906ba6ff4ec27c1c5a18c315230e3b235b5d239965466ff483e1"
+    },
+    {
+      "seq": 7,
+      "timestamp": "2026-10-26T14:59:27.700825+00:00",
+      "kind": "register",
+      "payload": {
+        "expert": "marketing-4",
+        "runtime": "/root/copy_marketing_4",
+        "identity_basis": "trusted-operator-attestation"
+      },
+      "previous_hash": "6ebb36e29ebf906ba6ff4ec27c1c5a18c315230e3b235b5d239965466ff483e1",
+      "event_hash": "c1181c1e35577cef168d43f73dae07999c670a7c8a5928dc38dffa784d291bfe"
+    },
+    {
+      "seq": 8,
+      "timestamp": "2026-10-26T14:59:27.702284+00:00",
+      "kind": "register",
+      "payload": {
+        "expert": "marketing-5",
+        "runtime": "/root/copy_marketing_5",
+        "identity_basis": "trusted-operator-attestation"
+      },
+      "previous_hash": "c1181c1e35577cef168d43f73dae07999c670a7c8a5928dc38dffa784d291bfe",
+      "event_hash": "b742bdf340b9ecfefbb8542c062f0c13a387110149e3c34e29f1ec5a8a73cf5f"
+    },
+    {
+      "seq": 9,
+      "timestamp": "2026-10-26T14:59:27.703677+00:00",
+      "kind": "evidence",
+      "payload": {
+        "id": "source-checks",
+        "description": "Executed local source counts, PDF links and hashes",
+        "path": "/workspace/Mdaar21-new/docs/elite50/ad-script-2026-10-26/evidence/source-checks.json",
+        "sha256": "402a806150143d0b203c7f4ccfda671ffb821d191c78a1cd5beca18ede9723c3"
+      },
+      "previous_hash": "b742bdf340b9ecfefbb8542c062f0c13a387110149e3c34e29f1ec5a8a73cf5f",
+      "event_hash": "fbc38334083c663f0f9d3be22d7ba95ba53d9a1f450ffe4fde3e2ce2b4a3b7b4"
+    },
+    {
+      "seq": 10,
+      "timestamp": "2026-10-26T14:59:27.704721+00:00",
+      "kind": "evidence",
+      "payload": {
+        "id": "nutrition-tests",
+        "description": "Executed existing nutrition unit tests; full output and exit code",
+        "path": "/workspace/Mdaar21-new/docs/elite50/ad-script-2026-10-26/evidence/nutrition-tests.txt",
+        "sha256": "f93f2e5cdae8bef1ff158a88536df5a3000a3d4d241c23e917f81fa29d705161"
+      },
+      "previous_hash": "fbc38334083c663f0f9d3be22d7ba95ba53d9a1f450ffe4fde3e2ce2b4a3b7b4",
+      "event_hash": "ca2aea4c7ef6a85745fd6a3d4cc9adc9ffa5550c5196fcd40394bfc08936cd7d"
+    },
+    {
+      "seq": 11,
+      "timestamp": "2026-10-26T14:59:27.705877+00:00",
+      "kind": "evidence",
+      "payload": {
+        "id": "runtimes",
+        "description": "Actual host spawn task names",
+        "path": "/workspace/Mdaar21-new/docs/elite50/ad-script-2026-10-26/evidence/runtime-receipts.json",
+        "sha256": "124c36fd6a915d28cec74a3199e771e020dbcd1ef5080d5b9839c3650ef30542"
+      },
+      "previous_hash": "ca2aea4c7ef6a85745fd6a3d4cc9adc9ffa5550c5196fcd40394bfc08936cd7d",
+      "event_hash": "22e329780ab928245bdebe62f858fa7152cad2ebaeca9a2999279f366eafddc9"
+    },
+    {
+      "seq": 12,
+      "timestamp": "2026-10-26T15:01:33.523056+00:00",
+      "kind": "evidence",
+      "payload": {
+        "id": "initial-marketing-1",
+        "description": "Original actual independent initial plan, marketing-1; not a vote",
+        "path": "/workspace/Mdaar21-new/docs/elite50/ad-script-2026-10-26/evidence/initial/marketing-1.json",
+        "sha256": "dd9ffd0f410040293d8f13746422afb3a4136ca936261f759188b3aa2d0ad968"
+      },
+      "previous_hash": "22e329780ab928245bdebe62f858fa7152cad2ebaeca9a2999279f366eafddc9",
+      "event_hash": "1d1392e410c1e426f165aeee50f4e65052c678e6e2ce6621902260d7f52d2cdf"
+    },
+    {
+      "seq": 13,
+      "timestamp": "2026-10-26T15:01:33.525214+00:00",
+      "kind": "evidence",
+      "payload": {
+        "id": "initial-marketing-2",
+        "description": "Original actual independent initial plan, marketing-2; not a vote",
+        "path": "/workspace/Mdaar21-new/docs/elite50/ad-script-2026-10-26/evidence/initial/marketing-2.json",
+        "sha256": "5cb7abb8c9896155b494ae82044c2e95d33395cddbb30e4d8530349ae414b128"
+      },
+      "previous_hash": "1d1392e410c1e426f165aeee50f4e65052c678e6e2ce6621902260d7f52d2cdf",
+      "event_hash": "e4ad2a3b8b29365b86b4984606da3d93d1c05b9b3287485a9a1a818774610225"
+    },
+    {
+      "seq": 14,
+      "timestamp": "2026-10-26T15:01:33.526934+00:00",
+      "kind": "evidence",
+      "payload": {
+        "id": "initial-marketing-3",
+        "description": "Original actual independent initial plan, marketing-3; not a vote",
+        "path": "/workspace/Mdaar21-new/docs/elite50/ad-script-2026-10-26/evidence/initial/marketing-3.json",
+        "sha256": "ab2b224378783adc206ce54676527fe9e312f82ace0c75c60e749132ac63d467"
+      },
+      "previous_hash": "e4ad2a3b8b29365b86b4984606da3d93d1c05b9b3287485a9a1a818774610225",
+      "event_hash": "292f9c933c9b3771b606386731dd445c554b33e07376f2fb232994bacf853fc3"
+    },
+    {
+      "seq": 15,
+      "timestamp": "2026-10-26T15:01:33.528465+00:00",
+      "kind": "evidence",
+      "payload": {
+        "id": "initial-marketing-4",
+        "description": "Original actual independent initial plan, marketing-4; not a vote",
+        "path": "/workspace/Mdaar21-new/docs/elite50/ad-script-2026-10-26/evidence/initial/marketing-4.json",
+        "sha256": "405f5b9ae7f034db210a5d614badf8afe480337117ede96ca28702d354d42a62"
+      },
+      "previous_hash": "292f9c933c9b3771b606386731dd445c554b33e07376f2fb232994bacf853fc3",
+      "event_hash": "3516da000c3c5fa0589f8e1418a949b4e6d01a47e04f613f6b446dfd8bdcda00"
+    },
+    {
+      "seq": 16,
+      "timestamp": "2026-10-26T15:01:33.529793+00:00",
+      "kind": "evidence",
+      "payload": {
+        "id": "initial-marketing-5",
+        "description": "Original actual independent initial plan, marketing-5; not a vote",
+        "path": "/workspace/Mdaar21-new/docs/elite50/ad-script-2026-10-26/evidence/initial/marketing-5.json",
+        "sha256": "d2ad9e24769866e47d9d52d5b6fbf8851701beb8ad567451b4751f3c4a116fef"
+      },
+      "previous_hash": "3516da000c3c5fa0589f8e1418a949b4e6d01a47e04f613f6b446dfd8bdcda00",
+      "event_hash": "45c5db251edf62554635b9de7605e90a9552bf3d1220440b2095c87b2bd15874"
+    },
+    {
+      "seq": 17,
+      "timestamp": "2026-10-26T15:01:33.532838+00:00",
+      "kind": "evidence",
+      "payload": {
+        "id": "shared-systems",
+        "description": "Executed coordinator application of six systems; not extra independent agents",
+        "path": "/workspace/Mdaar21-new/docs/elite50/ad-script-2026-10-26/evidence/shared-systems.md",
+        "sha256": "cfd899c3fe764912758a21964646a47f168a5efc89265b6e015cb5afd3826a9b"
+      },
+      "previous_hash": "45c5db251edf62554635b9de7605e90a9552bf3d1220440b2095c87b2bd15874",
+      "event_hash": "397c3ae718c22e530a1945c0e70b578c7c086b18f44add154abb12b3888b387e"
+    },
+    {
+      "seq": 18,
+      "timestamp": "2026-10-26T15:01:33.535257+00:00",
+      "kind": "evidence",
+      "payload": {
+        "id": "copy-checks",
+        "description": "Executed local copy consistency and structural baseline/candidate checks",
+        "path": "/workspace/Mdaar21-new/docs/elite50/ad-script-2026-10-26/evidence/copy-checks.json",
+        "sha256": "ddb091ec3f376aecbadf82778fafa86ef95b34607eda47d50dc764e27f896ee5"
+      },
+      "previous_hash": "397c3ae718c22e530a1945c0e70b578c7c086b18f44add154abb12b3888b387e",
+      "event_hash": "46ee2c03c761e20d3b2df1cdcc71fb8a14b1e32071efb9453cf06b1cf7b4f194"
+    },
+    {
+      "seq": 19,
+      "timestamp": "2026-10-26T15:01:33.537536+00:00",
+      "kind": "snapshot",
+      "payload": {
+        "version": "script-v1",
+        "files": [
+          {
+            "path": "/workspace/Mdaar21-new/docs/elite50/ad-script-2026-10-26/direction.md",
+            "sha256": "c5ce50eb3dec1017fdf136c2a8f7eb4ebda5b1e6d8f4100c4c94ace8c3b36ed4"
+          },
+          {
+            "path": "/workspace/Mdaar21-new/docs/elite50/ad-script-2026-10-26/facts.md",
+            "sha256": "1cbe6af5d2193711c6e73eda922577b462acc42b89afd7226eb036c6539ba385"
+          },
+          {
+            "path": "/workspace/Mdaar21-new/docs/elite50/ad-script-2026-10-26/script.md",
+            "sha256": "b158f456303bdb28f3c79bb17323909b64de175d9021205146d21a1e623ecb3e"
+          }
+        ],
+        "digest": "d28c05c61b14fc644cc2b8ba35444f4402577b50b5ee9b996ef27802ee998bb7"
+      },
+      "previous_hash": "46ee2c03c761e20d3b2df1cdcc71fb8a14b1e32071efb9453cf06b1cf7b4f194",
+      "event_hash": "afabadac91845ab067256fd02a79339d209bdb546260fa3cae683323c6dda62e"
+    },
+    {
+      "seq": 20,
+      "timestamp": "2026-10-26T15:01:33.539101+00:00",
+      "kind": "stage",
+      "payload": {
+        "name": "testing",
+        "evidence": [
+          "source-checks",
+          "nutrition-tests",
+          "copy-checks"
+        ],
+        "version": "script-v1",
+        "digest": "d28c05c61b14fc644cc2b8ba35444f4402577b50b5ee9b996ef27802ee998bb7"
+      },
+      "previous_hash": "afabadac91845ab067256fd02a79339d209bdb546260fa3cae683323c6dda62e",
+      "event_hash": "8324c1be2fd4fa338ca37e44cb08036affce3d3675a49ea4e3ff2bc8ac7b2537"
+    },
+    {
+      "seq": 21,
+      "timestamp": "2026-10-26T15:01:33.541448+00:00",
+      "kind": "stage",
+      "payload": {
+        "name": "devils-advocate",
+        "evidence": [
+          "shared-systems"
+        ],
+        "version": "script-v1",
+        "digest": "d28c05c61b14fc644cc2b8ba35444f4402577b50b5ee9b996ef27802ee998bb7"
+      },
+      "previous_hash": "8324c1be2fd4fa338ca37e44cb08036affce3d3675a49ea4e3ff2bc8ac7b2537",
+      "event_hash": "81bc67dc5d7a451a5d404329b4ac2156b0ac617f320c9b49eb17d94540a047e3"
+    },
+    {
+      "seq": 22,
+      "timestamp": "2026-10-26T15:01:33.543246+00:00",
+      "kind": "stage",
+      "payload": {
+        "name": "red-team",
+        "evidence": [
+          "shared-systems"
+        ],
+        "version": "script-v1",
+        "digest": "d28c05c61b14fc644cc2b8ba35444f4402577b50b5ee9b996ef27802ee998bb7"
+      },
+      "previous_hash": "81bc67dc5d7a451a5d404329b4ac2156b0ac617f320c9b49eb17d94540a047e3",
+      "event_hash": "bca8ab39956a7e4e73ade6bb192ecf837e7911a355e030c4ea53484c4eb53019"
+    },
+    {
+      "seq": 23,
+      "timestamp": "2026-10-26T15:01:33.545298+00:00",
+      "kind": "stage",
+      "payload": {
+        "name": "evidence-verification",
+        "evidence": [
+          "source-checks",
+          "nutrition-tests",
+          "shared-systems"
+        ],
+        "version": "script-v1",
+        "digest": "d28c05c61b14fc644cc2b8ba35444f4402577b50b5ee9b996ef27802ee998bb7"
+      },
+      "previous_hash": "bca8ab39956a7e4e73ade6bb192ecf837e7911a355e030c4ea53484c4eb53019",
+      "event_hash": "70c874ed272c52b9bfa702b42d5a8ea953af135c9cb07aeae29996fd0b396252"
+    },
+    {
+      "seq": 24,
+      "timestamp": "2026-10-26T15:01:33.546830+00:00",
+      "kind": "stage",
+      "payload": {
+        "name": "performance-comparison",
+        "evidence": [
+          "copy-checks",
+          "shared-systems"
+        ],
+        "version": "script-v1",
+        "digest": "d28c05c61b14fc644cc2b8ba35444f4402577b50b5ee9b996ef27802ee998bb7"
+      },
+      "previous_hash": "70c874ed272c52b9bfa702b42d5a8ea953af135c9cb07aeae29996fd0b396252",
+      "event_hash": "d5379426271946ae0506fbc64f849dce51c64fca4f8c510f0359148e914757fb"
+    },
+    {
+      "seq": 25,
+      "timestamp": "2026-10-26T15:01:33.548270+00:00",
+      "kind": "stage",
+      "payload": {
+        "name": "final-audit",
+        "evidence": [
+          "shared-systems",
+          "copy-checks",
+          "runtimes"
+        ],
+        "version": "script-v1",
+        "digest": "d28c05c61b14fc644cc2b8ba35444f4402577b50b5ee9b996ef27802ee998bb7"
+      },
+      "previous_hash": "d5379426271946ae0506fbc64f849dce51c64fca4f8c510f0359148e914757fb",
+      "event_hash": "2d235eb90544e89c62bc58925d700fc89212d5f4d9a6bea423e1e6d7242ed68d"
+    },
+    {
+      "seq": 26,
+      "timestamp": "2026-10-26T15:04:35.485774+00:00",
+      "kind": "evidence",
+      "payload": {
+        "id": "frozen-files",
+        "description": "Actual immutable own review packet containing source file hashes; source of reviewer hash-inspection reference",
+        "path": "/workspace/Mdaar21-new/docs/elite50/ad-script-2026-10-26/packets-final/marketing-2.json",
+        "sha256": "0c050f31031b599ee0835a14e8d66d6309487bd23ad59b60ce6a941be06eec20"
+      },
+      "previous_hash": "2d235eb90544e89c62bc58925d700fc89212d5f4d9a6bea423e1e6d7242ed68d",
+      "event_hash": "4ed693ff173e4786de92dd2d7add61247d08e8ef4f18aea2953b153ea6256388"
+    },
+    {
+      "seq": 27,
+      "timestamp": "2026-10-26T15:04:35.488215+00:00",
+      "kind": "evidence",
+      "payload": {
+        "id": "frozen-artifacts",
+        "description": "Actual immutable own review packet containing source file hashes; source of reviewer hash-inspection reference",
+        "path": "/workspace/Mdaar21-new/docs/elite50/ad-script-2026-10-26/packets-final/marketing-4.json",
+        "sha256": "1917bcb9372549eea10ab8016b59051724615b71a5e15ca7fc30df90bfdbc0e4"
+      },
+      "previous_hash": "4ed693ff173e4786de92dd2d7add61247d08e8ef4f18aea2953b153ea6256388",
+      "event_hash": "51c62e5e633f6fc2ff817ed4d2088dc3dc5c4913e19848a9088936514ae86b0d"
+    },
+    {
+      "seq": 28,
+      "timestamp": "2026-10-26T15:04:35.490376+00:00",
+      "kind": "evidence",
+      "payload": {
+        "id": "final-marketing-1",
+        "description": "Original actual independent final review response; formatting normalized to JSON indentation only",
+        "path": "/workspace/Mdaar21-new/docs/elite50/ad-script-2026-10-26/evidence/final/marketing-1.json",
+        "sha256": "71a72b2f8c399468c9650b088e0da36a59d040fbd15bf45e8f60dbe474ebf4de"
+      },
+      "previous_hash": "51c62e5e633f6fc2ff817ed4d2088dc3dc5c4913e19848a9088936514ae86b0d",
+      "event_hash": "82aaf86bf591e035a2b998b7fc0e576f66f6e380fd1ec9c287f3dd5718dd8de2"
+    },
+    {
+      "seq": 29,
+      "timestamp": "2026-10-26T15:04:35.492263+00:00",
+      "kind": "vote",
+      "payload": {
+        "expert": "marketing-1",
+        "version": "script-v1",
+        "digest": "d28c05c61b14fc644cc2b8ba35444f4402577b50b5ee9b996ef27802ee998bb7",
+        "decision": "APPROVE",
+        "reason": "صالح لتسليم النص المقترح: يحافظ على فكرة المالك، ويضيف افتتاحاً ومفارقة مفهومة باللهجة السعودية، ثم يوضح فائدة الدليل والموقع ودعوة شراء واحدة. تكلفة المتابعة احتمالية، وحساب التغذية موصوف كتقدير يتغير بالحصة، دون ضمان نتائج أو ادعاء متابعة شخصية.",
+        "evidence": [
+          "source-facts",
+          "source-checks",
+          "nutrition-tests",
+          "copy-checks",
+          "shared-systems",
+          "final-marketing-1"
+        ],
+        "runtime": "/root/copy_marketing_1"
+      },
+      "previous_hash": "82aaf86bf591e035a2b998b7fc0e576f66f6e380fd1ec9c287f3dd5718dd8de2",
+      "event_hash": "183e592fb3750fef1de685b3ddcfe800a968d17652bc0edc7df901d9a6f425e5"
+    },
+    {
+      "seq": 30,
+      "timestamp": "2026-10-26T15:04:35.494244+00:00",
+      "kind": "evidence",
+      "payload": {
+        "id": "final-marketing-2",
+        "description": "Original actual independent final review response; formatting normalized to JSON indentation only",
+        "path": "/workspace/Mdaar21-new/docs/elite50/ad-script-2026-10-26/evidence/final/marketing-2.json",
+        "sha256": "4327736200e0e3cf9e481cbe384266091e4d4a2223901588cd9a94110423347d"
+      },
+      "previous_hash": "183e592fb3750fef1de685b3ddcfe800a968d17652bc0edc7df901d9a6f425e5",
+      "event_hash": "13e1387282e117b2577e5f1f205632ce34e88b1d5fcd4674a6cc9d816cfcbe3b"
+    },
+    {
+      "seq": 31,
+      "timestamp": "2026-10-26T15:04:35.496421+00:00",
+      "kind": "vote",
+      "payload": {
+        "expert": "marketing-2",
+        "version": "script-v1",
+        "digest": "d28c05c61b14fc644cc2b8ba35444f4402577b50b5ee9b996ef27802ee998bb7",
+        "decision": "APPROVE",
+        "reason": "صالح للتسليم كنص مقترح: يحافظ على فكرة المالك، ويضيف خطافاً كوميدياً مرتبطاً بتشتت المصادر، ثم يوضح التدريب والأكل وتكلفة المتابعة بصياغة احتمالية. يفصل الدليل الرقمي عن أدوات الموقع، ويشرح تغيير الحصة وحدود تقدير السعرات، وينتهي بدعوة شراء واحدة. لا يدّعي أداء إعلان أو نتائج جسمانية أو أسعاراً غير موثقة.",
+        "evidence": [
+          "source-facts",
+          "source-checks",
+          "nutrition-tests",
+          "copy-checks",
+          "shared-systems",
+          "frozen-files",
+          "final-marketing-2"
+        ],
+        "runtime": "/root/copy_marketing_2"
+      },
+      "previous_hash": "13e1387282e117b2577e5f1f205632ce34e88b1d5fcd4674a6cc9d816cfcbe3b",
+      "event_hash": "ff0bb56ff519634d029a66e3a1076e1413c63a43b9453a637286e3753a7fa891"
+    },
+    {
+      "seq": 32,
+      "timestamp": "2026-10-26T15:04:35.498086+00:00",
+      "kind": "evidence",
+      "payload": {
+        "id": "final-marketing-3",
+        "description": "Original actual independent final review response; formatting normalized to JSON indentation only",
+        "path": "/workspace/Mdaar21-new/docs/elite50/ad-script-2026-10-26/evidence/final/marketing-3.json",
+        "sha256": "165ab104cba607217c817326ee60fadf380353523e46e96d2ac497bc4e3b7ead"
+      },
+      "previous_hash": "ff0bb56ff519634d029a66e3a1076e1413c63a43b9453a637286e3753a7fa891",
+      "event_hash": "9e1202f68d5ceceb13b68db897ab23986833bcbc4d57e8f1f46771c700403581"
+    },
+    {
+      "seq": 33,
+      "timestamp": "2026-10-26T15:04:35.499970+00:00",
+      "kind": "vote",
+      "payload": {
+        "expert": "marketing-3",
+        "version": "script-v1",
+        "digest": "d28c05c61b14fc644cc2b8ba35444f4402577b50b5ee9b996ef27802ee998bb7",
+        "decision": "APPROVE",
+        "reason": "صالح لتسليم نص مقترح: يحافظ على فكرة المالك، ويعرّف المنتج باسمه ونوعه الرقمي، ويفصل برامج الدليل وروابطه عن أدوات الموقع. الصياغة السعودية مفهومة، وحساب التغذية مرتبط بالحصة ومقيّد بكون القيم تقديرية، مع دعوة شراء واحدة ودون أسعار أو نتائج مضمونة.",
+        "evidence": [
+          "source-facts",
+          "source-checks",
+          "nutrition-tests",
+          "copy-checks",
+          "shared-systems",
+          "final-marketing-3"
+        ],
+        "runtime": "/root/copy_marketing_3"
+      },
+      "previous_hash": "9e1202f68d5ceceb13b68db897ab23986833bcbc4d57e8f1f46771c700403581",
+      "event_hash": "23bc6ec0471e7d75dc2a94f075bc114e29e6f0ab6ec00e7e8da7a1e3839ce2d8"
+    },
+    {
+      "seq": 34,
+      "timestamp": "2026-10-26T15:04:35.502513+00:00",
+      "kind": "evidence",
+      "payload": {
+        "id": "final-marketing-4",
+        "description": "Original actual independent final review response; formatting normalized to JSON indentation only",
+        "path": "/workspace/Mdaar21-new/docs/elite50/ad-script-2026-10-26/evidence/final/marketing-4.json",
+        "sha256": "e19e76d0bc0ac1d020d038a7153e46ee3cb6b7138bd8e97d0a2b59a9411c55f4"
+      },
+      "previous_hash": "23bc6ec0471e7d75dc2a94f075bc114e29e6f0ab6ec00e7e8da7a1e3839ce2d8",
+      "event_hash": "691b1a4924bd64e68ee01f1aacad806e940104b808d7a023f5866f5be0014b63"
+    },
+    {
+      "seq": 35,
+      "timestamp": "2026-10-26T15:04:35.504646+00:00",
+      "kind": "vote",
+      "payload": {
+        "expert": "marketing-4",
+        "version": "script-v1",
+        "digest": "d28c05c61b14fc644cc2b8ba35444f4402577b50b5ee9b996ef27802ee998bb7",
+        "decision": "APPROVE",
+        "reason": "صالح لتسليم النص المقترح: يحافظ على فكرة المالك، بلهجة سعودية مفهومة ومزحة خفيفة تخدم مشكلة كثرة المصادر. يميّز الدليل عن الموقع، ويشرح فائدة الحصص والسعرات بوضوح، وينتهي بدعوة واحدة إلى المتجر دون وعود نتائج أو أسعار مختلقة.",
+        "evidence": [
+          "source-facts",
+          "source-checks",
+          "nutrition-tests",
+          "copy-checks",
+          "shared-systems",
+          "frozen-artifacts",
+          "final-marketing-4"
+        ],
+        "runtime": "/root/copy_marketing_4"
+      },
+      "previous_hash": "691b1a4924bd64e68ee01f1aacad806e940104b808d7a023f5866f5be0014b63",
+      "event_hash": "15bed91389afc6c39f674177462b77dc611f1d083499479689b6d7d2bcf8c99d"
+    },
+    {
+      "seq": 36,
+      "timestamp": "2026-10-26T15:04:35.506372+00:00",
+      "kind": "evidence",
+      "payload": {
+        "id": "final-marketing-5",
+        "description": "Original actual independent final review response; formatting normalized to JSON indentation only",
+        "path": "/workspace/Mdaar21-new/docs/elite50/ad-script-2026-10-26/evidence/final/marketing-5.json",
+        "sha256": "c246ead87779d0a7a0fe243759fbe5c531bfad605b1afacc922597e46f8dd4c3"
+      },
+      "previous_hash": "15bed91389afc6c39f674177462b77dc611f1d083499479689b6d7d2bcf8c99d",
+      "event_hash": "a041c4e988131ad9618f3524dfc5262dd4362c9df8bcfc83d95ad9d5c0f9790f"
+    },
+    {
+      "seq": 37,
+      "timestamp": "2026-10-26T15:04:35.508425+00:00",
+      "kind": "vote",
+      "payload": {
+        "expert": "marketing-5",
+        "version": "script-v1",
+        "digest": "d28c05c61b14fc644cc2b8ba35444f4402577b50b5ee9b996ef27802ee998bb7",
+        "decision": "APPROVE",
+        "reason": "صالح لتسليم نص مقترح: يحافظ على تسلسل فكرة المالك، يوضح أدوات الموقع وفائدة الحصص، ويقدم دعوة شراء واحدة. صياغة التكلفة احتمالية والقيم الغذائية تقديرية. لا يدّعي أداءً تسويقياً مثبتاً، وتفصل ملاحظات التنفيذ الطلب المدفوع عن النقر.",
+        "evidence": [
+          "source-facts",
+          "source-checks",
+          "nutrition-tests",
+          "copy-checks",
+          "shared-systems",
+          "final-marketing-5"
+        ],
+        "runtime": "/root/copy_marketing_5"
+      },
+      "previous_hash": "a041c4e988131ad9618f3524dfc5262dd4362c9df8bcfc83d95ad9d5c0f9790f",
+      "event_hash": "90a99eed8e529f4345cf6bd948c00f0cb381040608812740a83b17bfd4eb79f5"
+    },
+    {
+      "seq": 38,
+      "timestamp": "2026-10-26T15:05:40.190445+00:00",
+      "kind": "evidence",
+      "payload": {
+        "id": "post-vote-audit",
+        "description": "Executed post-vote integrity, evidence, original-response/import and participation checks",
+        "path": "/workspace/Mdaar21-new/docs/elite50/ad-script-2026-10-26/evidence/post-vote-audit.json",
+        "sha256": "e34730b0b400a0ca0c63feb298c55e01eb42e8f9414497cbcf08797ffcbe3b8d"
+      },
+      "previous_hash": "90a99eed8e529f4345cf6bd948c00f0cb381040608812740a83b17bfd4eb79f5",
+      "event_hash": "9816519118ebf55ee6fe141653ec27d63a34ec69e799d84d264d0cc2764ff067"
+    },
+    {
+      "seq": 39,
+      "timestamp": "2026-10-26T15:05:40.193690+00:00",
+      "kind": "stage",
+      "payload": {
+        "name": "final-audit",
+        "evidence": [
+          "post-vote-audit",
+          "shared-systems",
+          "source-checks",
+          "copy-checks",
+          "runtimes"
+        ],
+        "version": "script-v1",
+        "digest": "d28c05c61b14fc644cc2b8ba35444f4402577b50b5ee9b996ef27802ee998bb7"
+      },
+      "previous_hash": "9816519118ebf55ee6fe141653ec27d63a34ec69e799d84d264d0cc2764ff067",
+      "event_hash": "08324964822307cb12ff226a9534e922dd9c735bea03c97582f58b237051a192"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "recipe_count": 500,
+  "programs": {
+    "5": 5,
+    "4": 4
+  },
+  "pdf_pages": 34,
+  "exercise_explanation_urls_present_in_pdf": 43,
+  "linked_exercise_urls_in_manifest": 43,
+  "source_hashes": {
+    "public/data/recipes-calculated.json": "9b088957f7e594edec2070b65e6847bcc5422b3291202409b1c4aeabce4cb88b",
+    "public/data/training-programs.json": "8c3bf03b86121620b87582f1b11ae5ca033bc82704d5ca26e0c4a83175306597",
+    "public/assets/nutrition.mjs": "822e9bc251c13815ca579da965e63c10ba7417e52feaae5a0073c7dde65ec67c",
+    "public/assets/core.mjs": "49e47cbe914ed9653a0ddfc68507c58cd904b7d34628e53d92379013cce17d42",
+    "scripts/build-book.py": "1e93ce76a960f16465a3d07168c6561bc083921f40f854f282cd621354607c48",
+    "docs/book/figures/manifest.json": "e3779fdae609c834f3dd1d7c879d654056aec514cf91c8c0aa71262be508dfa0",
+    "docs/artifacts/mdaar-protocol-original-identity-v5.pdf": "de78fbb1468cbd7cdb635649500476022f3bbf8e6cc7c242bd6f690db54c34d5"
+  },
+  "nutrition_test_exit": 0,
+  "limits": "Local existing recipe tests and source/PDF inspection only. Link presence is not live availability or expert technique review. No campaign, video, audience or checkout test."
+}

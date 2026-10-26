@@ -1,0 +1,10 @@
+{
+  "method": "Actual collaboration.spawn_agent returned task_name values; coordinator attestation, not cryptographic identity proof. Five fresh fork_turns=none contexts.",
+  "runtimes": {
+    "marketing-1": "/root/copy_marketing_1",
+    "marketing-2": "/root/copy_marketing_2",
+    "marketing-3": "/root/copy_marketing_3",
+    "marketing-4": "/root/copy_marketing_4",
+    "marketing-5": "/root/copy_marketing_5"
+  }
+}

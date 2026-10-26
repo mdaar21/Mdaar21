@@ -1,0 +1,13 @@
+{
+  "frozen_artifacts_unchanged": true,
+  "registered_evidence_unchanged": true,
+  "source_hashes_rechecked": true,
+  "actual_participating_runtimes": 5,
+  "unique_actual_runtimes": true,
+  "raw_final_decisions_and_reasons_match_imports": true,
+  "all_six_stage_outputs_present": true,
+  "open_objections": 0,
+  "final_status": "PENDING",
+  "full_50_expert_review_completed": false,
+  "scope": "Proposed copy only; coordinator audit, not extra expert approval."
+}

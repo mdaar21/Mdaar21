@@ -1,0 +1,41 @@
+{
+  "expert": {
+    "id": "marketing-2",
+    "council": "marketing",
+    "role": "Ads Specialist",
+    "personality": "تجريبي",
+    "criteria": [
+      "Creative hypotheses",
+      "budget limits",
+      "attribution"
+    ]
+  },
+  "task": "تطوير فكرة المالك إلى نص إعلان سعودي لبروتوكول التحول مع تدقيق مزايا التطبيق وحساب السعرات؛ نص فقط ومراجعة تسويق جزئية بخمسة وكلاء.",
+  "solution": {
+    "version": "brief-v1",
+    "files": [
+      {
+        "path": "/workspace/Mdaar21-new/docs/elite50/ad-script-2026-10-26/baseline.txt",
+        "sha256": "976f8324eb2c3736419b156ec45077f076f5835adf6860aa531585915d0a5f46"
+      },
+      {
+        "path": "/workspace/Mdaar21-new/docs/elite50/ad-script-2026-10-26/brief.md",
+        "sha256": "2b7ff85601a800b7768badcba00d4b87a190d468d1db24b3942058fb7e3fb440"
+      },
+      {
+        "path": "/workspace/Mdaar21-new/docs/elite50/ad-script-2026-10-26/facts.md",
+        "sha256": "1cbe6af5d2193711c6e73eda922577b462acc42b89afd7226eb036c6539ba385"
+      }
+    ],
+    "digest": "c01cbe72cda0db1c66c29f68bc3f2b09bff13edf96f324d08d8c050691e293d6"
+  },
+  "evidence_catalog": [
+    {
+      "id": "source-facts",
+      "description": "خريطة مزايا المنتج إلى مصادرها وحدود الادعاءات",
+      "path": "/workspace/Mdaar21-new/docs/elite50/ad-script-2026-10-26/facts.md",
+      "sha256": "1cbe6af5d2193711c6e73eda922577b462acc42b89afd7226eb036c6539ba385"
+    }
+  ],
+  "instructions": "Evaluate independently using your criteria. Do not read other initial reviews or votes. Return decision, concrete reasons, inspected evidence, and tests. Never invent evidence. Register actual independent runtime before recording votes."
+}

@@ -1,0 +1,101 @@
+{
+  "expert": {
+    "id": "marketing-1",
+    "council": "marketing",
+    "role": "Marketing Director",
+    "personality": "جريء",
+    "criteria": [
+      "Audience fit",
+      "positioning",
+      "measurable goals"
+    ]
+  },
+  "task": "تطوير فكرة المالك إلى نص إعلان سعودي لبروتوكول التحول مع تدقيق مزايا التطبيق وحساب السعرات؛ نص فقط ومراجعة تسويق جزئية بخمسة وكلاء.",
+  "solution": {
+    "version": "script-v1",
+    "files": [
+      {
+        "path": "/workspace/Mdaar21-new/docs/elite50/ad-script-2026-10-26/direction.md",
+        "sha256": "c5ce50eb3dec1017fdf136c2a8f7eb4ebda5b1e6d8f4100c4c94ace8c3b36ed4"
+      },
+      {
+        "path": "/workspace/Mdaar21-new/docs/elite50/ad-script-2026-10-26/facts.md",
+        "sha256": "1cbe6af5d2193711c6e73eda922577b462acc42b89afd7226eb036c6539ba385"
+      },
+      {
+        "path": "/workspace/Mdaar21-new/docs/elite50/ad-script-2026-10-26/script.md",
+        "sha256": "b158f456303bdb28f3c79bb17323909b64de175d9021205146d21a1e623ecb3e"
+      }
+    ],
+    "digest": "d28c05c61b14fc644cc2b8ba35444f4402577b50b5ee9b996ef27802ee998bb7"
+  },
+  "evidence_catalog": [
+    {
+      "id": "source-facts",
+      "description": "خريطة مزايا المنتج إلى مصادرها وحدود الادعاءات",
+      "path": "/workspace/Mdaar21-new/docs/elite50/ad-script-2026-10-26/facts.md",
+      "sha256": "1cbe6af5d2193711c6e73eda922577b462acc42b89afd7226eb036c6539ba385"
+    },
+    {
+      "id": "source-checks",
+      "description": "Executed local source counts, PDF links and hashes",
+      "path": "/workspace/Mdaar21-new/docs/elite50/ad-script-2026-10-26/evidence/source-checks.json",
+      "sha256": "402a806150143d0b203c7f4ccfda671ffb821d191c78a1cd5beca18ede9723c3"
+    },
+    {
+      "id": "nutrition-tests",
+      "description": "Executed existing nutrition unit tests; full output and exit code",
+      "path": "/workspace/Mdaar21-new/docs/elite50/ad-script-2026-10-26/evidence/nutrition-tests.txt",
+      "sha256": "f93f2e5cdae8bef1ff158a88536df5a3000a3d4d241c23e917f81fa29d705161"
+    },
+    {
+      "id": "runtimes",
+      "description": "Actual host spawn task names",
+      "path": "/workspace/Mdaar21-new/docs/elite50/ad-script-2026-10-26/evidence/runtime-receipts.json",
+      "sha256": "124c36fd6a915d28cec74a3199e771e020dbcd1ef5080d5b9839c3650ef30542"
+    },
+    {
+      "id": "initial-marketing-1",
+      "description": "Original actual independent initial plan, marketing-1; not a vote",
+      "path": "/workspace/Mdaar21-new/docs/elite50/ad-script-2026-10-26/evidence/initial/marketing-1.json",
+      "sha256": "dd9ffd0f410040293d8f13746422afb3a4136ca936261f759188b3aa2d0ad968"
+    },
+    {
+      "id": "initial-marketing-2",
+      "description": "Original actual independent initial plan, marketing-2; not a vote",
+      "path": "/workspace/Mdaar21-new/docs/elite50/ad-script-2026-10-26/evidence/initial/marketing-2.json",
+      "sha256": "5cb7abb8c9896155b494ae82044c2e95d33395cddbb30e4d8530349ae414b128"
+    },
+    {
+      "id": "initial-marketing-3",
+      "description": "Original actual independent initial plan, marketing-3; not a vote",
+      "path": "/workspace/Mdaar21-new/docs/elite50/ad-script-2026-10-26/evidence/initial/marketing-3.json",
+      "sha256": "ab2b224378783adc206ce54676527fe9e312f82ace0c75c60e749132ac63d467"
+    },
+    {
+      "id": "initial-marketing-4",
+      "description": "Original actual independent initial plan, marketing-4; not a vote",
+      "path": "/workspace/Mdaar21-new/docs/elite50/ad-script-2026-10-26/evidence/initial/marketing-4.json",
+      "sha256": "405f5b9ae7f034db210a5d614badf8afe480337117ede96ca28702d354d42a62"
+    },
+    {
+      "id": "initial-marketing-5",
+      "description": "Original actual independent initial plan, marketing-5; not a vote",
+      "path": "/workspace/Mdaar21-new/docs/elite50/ad-script-2026-10-26/evidence/initial/marketing-5.json",
+      "sha256": "d2ad9e24769866e47d9d52d5b6fbf8851701beb8ad567451b4751f3c4a116fef"
+    },
+    {
+      "id": "shared-systems",
+      "description": "Executed coordinator application of six systems; not extra independent agents",
+      "path": "/workspace/Mdaar21-new/docs/elite50/ad-script-2026-10-26/evidence/shared-systems.md",
+      "sha256": "cfd899c3fe764912758a21964646a47f168a5efc89265b6e015cb5afd3826a9b"
+    },
+    {
+      "id": "copy-checks",
+      "description": "Executed local copy consistency and structural baseline/candidate checks",
+      "path": "/workspace/Mdaar21-new/docs/elite50/ad-script-2026-10-26/evidence/copy-checks.json",
+      "sha256": "ddb091ec3f376aecbadf82778fafa86ef95b34607eda47d50dc764e27f896ee5"
+    }
+  ],
+  "instructions": "Evaluate independently using your criteria. Do not read other initial reviews or votes. Return decision, concrete reasons, inspected evidence, and tests. Never invent evidence. Register actual independent runtime before recording votes."
+}

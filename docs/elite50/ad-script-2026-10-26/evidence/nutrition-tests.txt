@@ -1,0 +1,26 @@
+$ node --test tests/nutrition.test.mjs
+✔ 500 uniquely identified and named meals with distinct ingredients and 250 per goal (11.141011ms)
+✔ 36 USDA SR28 ingredient records have exact reference IDs and bounded per100g values (1.764314ms)
+✔ published nutrition recomputes from grams within 0.005 rounding tolerance (6.543533ms)
+✔ servings scale all nutrients linearly and reject invalid values (1.038706ms)
+✔ filters search bilingual names, goals, calories and protein (10.656415ms)
+✔ allergen and ingredient exclusions apply across English and Arabic (5.892358ms)
+✔ weekly plan has seven days, four distinct meals, truthful totals and practical portions (24.967404ms)
+✔ planner restrictions survive generation and swapping; original plan remains unchanged (5.592529ms)
+✔ unsupported targets, meal counts and impossible restrictions fail rather than ignoring restrictions (2.280337ms)
+✔ successive swaps explore unseen meals, preserve restrictions and keep a fixed calorie anchor (150.882973ms)
+✔ a restricted three-meal pool exhausts its choices before starting a new cycle (1.323303ms)
+✔ swapping one of two daily snacks never duplicates the other snack (84.666196ms)
+✔ manual serving changes can establish a new fixed swap target without clearing history (48.43333ms)
+✔ three and five meal day plans complete and do not silently invent nutrient targets (9.957438ms)
+✔ ingredient substitutions recalculate nutrients and allergens without changing the source (0.903984ms)
+ℹ tests 15
+ℹ suites 0
+ℹ pass 15
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 466.399598
+
+exit_code=0

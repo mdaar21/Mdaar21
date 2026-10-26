@@ -1,0 +1,26 @@
+{
+  "checks": {
+    "product_digital": true,
+    "approximate_values": true,
+    "portion_control": true,
+    "recipes": true,
+    "cta": true,
+    "store_url": true,
+    "training_programs": true,
+    "owner_opening_preserved": true,
+    "no_unlimited_accuracy_claim": true,
+    "no_ai_wording": true
+  },
+  "comparison": {
+    "baseline_words": 70,
+    "candidate_words": 118,
+    "baseline_has_approximation": false,
+    "candidate_has_approximation": true,
+    "baseline_has_digital_guide_label": false,
+    "candidate_has_digital_guide_label": true,
+    "baseline_has_purchase_url": false,
+    "candidate_has_purchase_url": true,
+    "meaning": "Structural counts on same source texts, not measured marketing improvement; actual duration not recorded."
+  },
+  "scope": "Local text checks only; not a render, timing recording, audience or commerce test."
+}
