@@ -1,0 +1,44 @@
+{
+  "ok": true,
+  "url": "https://mdaar21.github.io/Mdaar21/ad/voice-balanced/",
+  "pagesCommit": "584cc5a9d1cd62506bf7b5e99aee326c34abd8db",
+  "files": {
+    "index.html": {
+      "status": 200,
+      "bytes": 3100,
+      "sha256": "00c32a0cf8ee5c92a7b57dcfa727b40e37425b3f6aa03c21fd5b548723fea2d9",
+      "contentType": "text/html; charset=utf-8"
+    },
+    "mdaar_tiktok_v8_balanced.mp4": {
+      "status": 200,
+      "bytes": 9673151,
+      "sha256": "87d9eb9b519555b3a47de425d44c5a3a19e31b5cc25c239972476456bffd979f",
+      "contentType": "video/mp4"
+    },
+    "voice-clean.mp3": {
+      "status": 200,
+      "bytes": 1253420,
+      "sha256": "4723505de07cc5f424d7d77543ef5977bd0934861be1b8850fd48b79cd31f542",
+      "contentType": "audio/mp3"
+    },
+    "captions.srt": {
+      "status": 200,
+      "bytes": 1686,
+      "sha256": "707f3a9e1bb1b70c41047a0894e366898c634bde487df670a344b3b64e9234af",
+      "contentType": "application/x-subrip"
+    },
+    "poster.jpg": {
+      "status": 200,
+      "bytes": 140789,
+      "sha256": "f3f924ed896cb44af1b99e620d1053349e4ba1ee985403b7d7f130f022d7c027",
+      "contentType": "image/jpeg"
+    }
+  },
+  "range": {
+    "status": 206,
+    "bytes": 1024,
+    "contentRange": "bytes 0-1023/9673151"
+  },
+  "publishedBytesMatchValidatedMaster": true,
+  "scope": "Hosted files only; no TikTok posting or advertising campaign."
+}
