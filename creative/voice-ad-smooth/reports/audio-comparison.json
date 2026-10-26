@@ -1,0 +1,40 @@
+{
+  "measurements": {
+    "v6_pcm_before_filters": {
+      "peak": 1.0,
+      "samplesAtFullScale": 4991,
+      "rmsDbFS": -13.845968246459961,
+      "presenceToLowMidDB": -4.894259868477485
+    },
+    "v6_final_voice": {
+      "peak": 0.8414065837860107,
+      "samplesAtFullScale": 0,
+      "rmsDbFS": -16.797382354736328,
+      "presenceToLowMidDB": -4.5184762498943885
+    },
+    "v7_pcm_before_filters": {
+      "peak": 0.6263633966445923,
+      "samplesAtFullScale": 0,
+      "rmsDbFS": -21.351900100708008,
+      "presenceToLowMidDB": -4.853384179133613
+    },
+    "v7_final_voice": {
+      "peak": 0.8424620628356934,
+      "samplesAtFullScale": 0,
+      "rmsDbFS": -16.457021713256836,
+      "presenceToLowMidDB": -2.7350646885952323
+    },
+    "v6_mix": {
+      "integratedLUFS": -16.06,
+      "truePeakDBTP": -4.51,
+      "loudnessRangeLU": 1.7
+    },
+    "v7_mix": {
+      "integratedLUFS": -14.0,
+      "truePeakDBTP": -3.17,
+      "loudnessRangeLU": 1.8
+    }
+  },
+  "method": "FFmpeg float decode, PCM sample counts, Welch energy ratio and EBU loudnorm measurements. Baseline and candidate from the same original recording.",
+  "limits": "Objective signal checks; does not certify perceived quality, restore lost speech, or substitute for a human listening test."
+}

@@ -1,0 +1,5 @@
+# Preserve upstream licence/vendor text and verbatim FFmpeg diagnostic output.
+FONT-LICENSE.txt -whitespace
+assets/gsap.min.js -whitespace
+reports/*.txt -whitespace
+baseline/*.txt -whitespace

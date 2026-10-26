@@ -1,0 +1,62 @@
+{
+  "ok": true,
+  "outputDir": "/workspace/Mdaar21-new/creative/voice-ad-smooth/reports/final-frames",
+  "frames": [
+    {
+      "path": "/workspace/Mdaar21-new/creative/voice-ad-smooth/reports/final-frames/frame-00-at-0.9s.png",
+      "time": 0.9
+    },
+    {
+      "path": "/workspace/Mdaar21-new/creative/voice-ad-smooth/reports/final-frames/frame-01-at-3.3s.png",
+      "time": 3.3
+    },
+    {
+      "path": "/workspace/Mdaar21-new/creative/voice-ad-smooth/reports/final-frames/frame-02-at-7.3s.png",
+      "time": 7.3
+    },
+    {
+      "path": "/workspace/Mdaar21-new/creative/voice-ad-smooth/reports/final-frames/frame-03-at-10s.png",
+      "time": 10
+    },
+    {
+      "path": "/workspace/Mdaar21-new/creative/voice-ad-smooth/reports/final-frames/frame-04-at-14.2s.png",
+      "time": 14.2
+    },
+    {
+      "path": "/workspace/Mdaar21-new/creative/voice-ad-smooth/reports/final-frames/frame-05-at-17.3s.png",
+      "time": 17.3
+    },
+    {
+      "path": "/workspace/Mdaar21-new/creative/voice-ad-smooth/reports/final-frames/frame-06-at-20s.png",
+      "time": 20
+    },
+    {
+      "path": "/workspace/Mdaar21-new/creative/voice-ad-smooth/reports/final-frames/frame-07-at-23.3s.png",
+      "time": 23.3
+    },
+    {
+      "path": "/workspace/Mdaar21-new/creative/voice-ad-smooth/reports/final-frames/frame-08-at-27s.png",
+      "time": 27
+    },
+    {
+      "path": "/workspace/Mdaar21-new/creative/voice-ad-smooth/reports/final-frames/frame-09-at-29.5s.png",
+      "time": 29.5
+    },
+    {
+      "path": "/workspace/Mdaar21-new/creative/voice-ad-smooth/reports/final-frames/frame-10-at-32.7s.png",
+      "time": 32.7
+    },
+    {
+      "path": "/workspace/Mdaar21-new/creative/voice-ad-smooth/reports/final-frames/frame-11-at-37s.png",
+      "time": 37
+    }
+  ],
+  "contactSheets": [
+    "/workspace/Mdaar21-new/creative/voice-ad-smooth/reports/final-frames/contact-sheet-1.jpg",
+    "/workspace/Mdaar21-new/creative/voice-ad-smooth/reports/final-frames/contact-sheet-2.jpg"
+  ],
+  "_meta": {
+    "version": "0.8.189",
+    "updateAvailable": false
+  }
+}

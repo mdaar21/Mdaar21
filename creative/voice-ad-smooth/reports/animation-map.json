@@ -1,0 +1,3298 @@
+{
+  "duration": 39.103770833333336,
+  "tweens": [
+    {
+      "start": 0,
+      "end": 39.1037708,
+      "duration": 39.1037708,
+      "targets": [
+        "object"
+      ],
+      "properties": [
+        "scaleX",
+        "runBackwards"
+      ]
+    },
+    {
+      "start": 0,
+      "end": 0,
+      "duration": 0,
+      "targets": [
+        "arm-l"
+      ],
+      "properties": [
+        "attr",
+        "repeat"
+      ]
+    },
+    {
+      "start": 0,
+      "end": 0,
+      "duration": 0,
+      "targets": [
+        "fore-l"
+      ],
+      "properties": [
+        "attr",
+        "repeat"
+      ]
+    },
+    {
+      "start": 0,
+      "end": 0,
+      "duration": 0,
+      "targets": [
+        "arm-r"
+      ],
+      "properties": [
+        "attr",
+        "repeat"
+      ]
+    },
+    {
+      "start": 0,
+      "end": 0,
+      "duration": 0,
+      "targets": [
+        "fore-r"
+      ],
+      "properties": [
+        "attr",
+        "repeat"
+      ]
+    },
+    {
+      "start": 0,
+      "end": 0,
+      "duration": 0,
+      "targets": [
+        "head"
+      ],
+      "properties": [
+        "attr",
+        "repeat"
+      ]
+    },
+    {
+      "start": 0.02,
+      "end": 0.02,
+      "duration": 0,
+      "targets": [
+        "cap-0"
+      ],
+      "properties": [
+        "visibility",
+        "repeat"
+      ]
+    },
+    {
+      "start": 0.02,
+      "end": 0.115,
+      "duration": 0.095,
+      "targets": [
+        "cap-0"
+      ],
+      "properties": [
+        "opacity",
+        "startAt"
+      ]
+    },
+    {
+      "start": 0.1,
+      "end": 0.52,
+      "duration": 0.42,
+      "targets": [
+        "brandbar"
+      ],
+      "properties": [
+        "opacity",
+        "runBackwards"
+      ]
+    },
+    {
+      "start": 0.12,
+      "end": 0.5700000000000001,
+      "duration": 0.45,
+      "targets": [
+        "object"
+      ],
+      "properties": [
+        "y",
+        "opacity",
+        "runBackwards"
+      ]
+    },
+    {
+      "start": 0.14,
+      "end": 0.64,
+      "duration": 0.5,
+      "targets": [
+        "footer"
+      ],
+      "properties": [
+        "opacity",
+        "runBackwards"
+      ]
+    },
+    {
+      "start": 0.15,
+      "end": 0.67,
+      "duration": 0.52,
+      "targets": [
+        "stage "
+      ],
+      "properties": [
+        "opacity",
+        "runBackwards"
+      ]
+    },
+    {
+      "start": 0.18,
+      "end": 0.78,
+      "duration": 0.6,
+      "targets": [
+        "hero-disc"
+      ],
+      "properties": [
+        "scale",
+        "opacity",
+        "runBackwards"
+      ]
+    },
+    {
+      "start": 0.21,
+      "end": 0.77,
+      "duration": 0.56,
+      "targets": [
+        "character "
+      ],
+      "properties": [
+        "x",
+        "opacity",
+        "runBackwards"
+      ]
+    },
+    {
+      "start": 0.38,
+      "end": 0.86,
+      "duration": 0.48,
+      "targets": [
+        "label"
+      ],
+      "properties": [
+        "x",
+        "opacity",
+        "runBackwards"
+      ]
+    },
+    {
+      "start": 0.72,
+      "end": 1.42,
+      "duration": 0.7,
+      "targets": [
+        "head"
+      ],
+      "properties": [
+        "attr"
+      ]
+    },
+    {
+      "start": 1.415,
+      "end": 1.415,
+      "duration": 0,
+      "targets": [
+        "arm-r"
+      ],
+      "properties": [
+        "attr",
+        "repeat"
+      ]
+    },
+    {
+      "start": 1.415,
+      "end": 1.415,
+      "duration": 0,
+      "targets": [
+        "fore-r"
+      ],
+      "properties": [
+        "attr",
+        "repeat"
+      ]
+    },
+    {
+      "start": 1.415,
+      "end": 1.415,
+      "duration": 0,
+      "targets": [
+        "arm-l"
+      ],
+      "properties": [
+        "attr",
+        "repeat"
+      ]
+    },
+    {
+      "start": 1.415,
+      "end": 1.415,
+      "duration": 0,
+      "targets": [
+        "fore-l"
+      ],
+      "properties": [
+        "attr",
+        "repeat"
+      ]
+    },
+    {
+      "start": 1.415,
+      "end": 1.415,
+      "duration": 0,
+      "targets": [
+        "head"
+      ],
+      "properties": [
+        "attr",
+        "repeat"
+      ]
+    },
+    {
+      "start": 1.435,
+      "end": 1.435,
+      "duration": 0,
+      "targets": [
+        "s1"
+      ],
+      "properties": [
+        "opacity",
+        "repeat"
+      ]
+    },
+    {
+      "start": 1.435,
+      "end": 2.035,
+      "duration": 0.6,
+      "targets": [
+        "s1"
+      ],
+      "properties": [
+        "clipPath",
+        "startAt"
+      ]
+    },
+    {
+      "start": 1.73,
+      "end": 2.25,
+      "duration": 0.52,
+      "targets": [
+        "stage "
+      ],
+      "properties": [
+        "opacity",
+        "runBackwards"
+      ]
+    },
+    {
+      "start": 1.745,
+      "end": 1.745,
+      "duration": 0,
+      "targets": [
+        "cap-0"
+      ],
+      "properties": [
+        "opacity",
+        "visibility",
+        "repeat"
+      ]
+    },
+    {
+      "start": 1.79,
+      "end": 2.35,
+      "duration": 0.56,
+      "targets": [
+        "character "
+      ],
+      "properties": [
+        "x",
+        "opacity",
+        "runBackwards"
+      ]
+    },
+    {
+      "start": 1.815,
+      "end": 2.335,
+      "duration": 0.52,
+      "targets": [
+        "source-card src1"
+      ],
+      "properties": [
+        "y",
+        "opacity",
+        "runBackwards"
+      ]
+    },
+    {
+      "start": 1.905,
+      "end": 2.425,
+      "duration": 0.52,
+      "targets": [
+        "source-card src2"
+      ],
+      "properties": [
+        "x",
+        "opacity",
+        "runBackwards"
+      ]
+    },
+    {
+      "start": 1.995,
+      "end": 2.515,
+      "duration": 0.52,
+      "targets": [
+        "source-card src3"
+      ],
+      "properties": [
+        "y",
+        "opacity",
+        "runBackwards"
+      ]
+    },
+    {
+      "start": 2.04,
+      "end": 2.04,
+      "duration": 0,
+      "targets": [
+        "cap-1"
+      ],
+      "properties": [
+        "visibility",
+        "repeat"
+      ]
+    },
+    {
+      "start": 2.04,
+      "end": 2.1350000000000002,
+      "duration": 0.095,
+      "targets": [
+        "cap-1"
+      ],
+      "properties": [
+        "opacity",
+        "startAt"
+      ]
+    },
+    {
+      "start": 2.045,
+      "end": 2.045,
+      "duration": 0,
+      "targets": [
+        "s0"
+      ],
+      "properties": [
+        "opacity",
+        "repeat"
+      ]
+    },
+    {
+      "start": 2.05,
+      "end": 2.05,
+      "duration": 0,
+      "targets": [
+        "s1"
+      ],
+      "properties": [
+        "clipPath",
+        "repeat"
+      ]
+    },
+    {
+      "start": 2.065,
+      "end": 2.515,
+      "duration": 0.45,
+      "targets": [
+        "object"
+      ],
+      "properties": [
+        "x",
+        "opacity",
+        "runBackwards"
+      ]
+    },
+    {
+      "start": 2.085,
+      "end": 2.605,
+      "duration": 0.52,
+      "targets": [
+        "source-card src4"
+      ],
+      "properties": [
+        "x",
+        "opacity",
+        "runBackwards"
+      ]
+    },
+    {
+      "start": 2.415,
+      "end": 3.115,
+      "duration": 0.7,
+      "targets": [
+        "head"
+      ],
+      "properties": [
+        "attr"
+      ]
+    },
+    {
+      "start": 2.515,
+      "end": 2.995,
+      "duration": 0.48,
+      "targets": [
+        "fore-r"
+      ],
+      "properties": [
+        "attr"
+      ]
+    },
+    {
+      "start": 3.135,
+      "end": 3.635,
+      "duration": 0.5,
+      "targets": [
+        "fore-r"
+      ],
+      "properties": [
+        "attr"
+      ]
+    },
+    {
+      "start": 3.6,
+      "end": 3.6,
+      "duration": 0,
+      "targets": [
+        "cap-1"
+      ],
+      "properties": [
+        "opacity",
+        "visibility",
+        "repeat"
+      ]
+    },
+    {
+      "start": 3.6,
+      "end": 3.6,
+      "duration": 0,
+      "targets": [
+        "cap-2"
+      ],
+      "properties": [
+        "visibility",
+        "repeat"
+      ]
+    },
+    {
+      "start": 3.6,
+      "end": 3.6950000000000003,
+      "duration": 0.095,
+      "targets": [
+        "cap-2"
+      ],
+      "properties": [
+        "opacity",
+        "startAt"
+      ]
+    },
+    {
+      "start": 4.46502,
+      "end": 4.46502,
+      "duration": 0,
+      "targets": [
+        "arm-l"
+      ],
+      "properties": [
+        "attr",
+        "repeat"
+      ]
+    },
+    {
+      "start": 4.46502,
+      "end": 4.46502,
+      "duration": 0,
+      "targets": [
+        "fore-l"
+      ],
+      "properties": [
+        "attr",
+        "repeat"
+      ]
+    },
+    {
+      "start": 4.46502,
+      "end": 4.46502,
+      "duration": 0,
+      "targets": [
+        "arm-r"
+      ],
+      "properties": [
+        "attr",
+        "repeat"
+      ]
+    },
+    {
+      "start": 4.46502,
+      "end": 4.46502,
+      "duration": 0,
+      "targets": [
+        "fore-r"
+      ],
+      "properties": [
+        "attr",
+        "repeat"
+      ]
+    },
+    {
+      "start": 4.46502,
+      "end": 4.46502,
+      "duration": 0,
+      "targets": [
+        "head"
+      ],
+      "properties": [
+        "attr",
+        "repeat"
+      ]
+    },
+    {
+      "start": 4.48502,
+      "end": 4.48502,
+      "duration": 0,
+      "targets": [
+        "s2"
+      ],
+      "properties": [
+        "opacity",
+        "repeat"
+      ]
+    },
+    {
+      "start": 4.48502,
+      "end": 5.085019999999999,
+      "duration": 0.6,
+      "targets": [
+        "s2"
+      ],
+      "properties": [
+        "clipPath",
+        "startAt"
+      ]
+    },
+    {
+      "start": 4.735,
+      "end": 4.735,
+      "duration": 0,
+      "targets": [
+        "cap-2"
+      ],
+      "properties": [
+        "opacity",
+        "visibility",
+        "repeat"
+      ]
+    },
+    {
+      "start": 4.78002,
+      "end": 5.30002,
+      "duration": 0.52,
+      "targets": [
+        "stage "
+      ],
+      "properties": [
+        "opacity",
+        "runBackwards"
+      ]
+    },
+    {
+      "start": 4.84002,
+      "end": 5.40002,
+      "duration": 0.56,
+      "targets": [
+        "character "
+      ],
+      "properties": [
+        "x",
+        "opacity",
+        "runBackwards"
+      ]
+    },
+    {
+      "start": 4.8485,
+      "end": 4.8485,
+      "duration": 0,
+      "targets": [
+        "cap-3"
+      ],
+      "properties": [
+        "visibility",
+        "repeat"
+      ]
+    },
+    {
+      "start": 4.8485,
+      "end": 4.943499999999999,
+      "duration": 0.095,
+      "targets": [
+        "cap-3"
+      ],
+      "properties": [
+        "opacity",
+        "startAt"
+      ]
+    },
+    {
+      "start": 5.01502,
+      "end": 5.51502,
+      "duration": 0.5,
+      "targets": [
+        "speech"
+      ],
+      "properties": [
+        "scale",
+        "opacity",
+        "runBackwards"
+      ]
+    },
+    {
+      "start": 5.09502,
+      "end": 5.09502,
+      "duration": 0,
+      "targets": [
+        "s1"
+      ],
+      "properties": [
+        "opacity",
+        "repeat"
+      ]
+    },
+    {
+      "start": 5.10002,
+      "end": 5.10002,
+      "duration": 0,
+      "targets": [
+        "s2"
+      ],
+      "properties": [
+        "clipPath",
+        "repeat"
+      ]
+    },
+    {
+      "start": 5.11502,
+      "end": 5.5650200000000005,
+      "duration": 0.45,
+      "targets": [
+        "object"
+      ],
+      "properties": [
+        "y",
+        "opacity",
+        "runBackwards"
+      ]
+    },
+    {
+      "start": 5.56502,
+      "end": 6.165019999999999,
+      "duration": 0.6,
+      "targets": [
+        "head"
+      ],
+      "properties": [
+        "attr"
+      ]
+    },
+    {
+      "start": 6.34352,
+      "end": 6.34352,
+      "duration": 0,
+      "targets": [
+        "s3"
+      ],
+      "properties": [
+        "opacity",
+        "repeat"
+      ]
+    },
+    {
+      "start": 6.34352,
+      "end": 6.9435199999999995,
+      "duration": 0.6,
+      "targets": [
+        "s3"
+      ],
+      "properties": [
+        "clipPath",
+        "startAt"
+      ]
+    },
+    {
+      "start": 6.4735,
+      "end": 6.4735,
+      "duration": 0,
+      "targets": [
+        "cap-3"
+      ],
+      "properties": [
+        "opacity",
+        "visibility",
+        "repeat"
+      ]
+    },
+    {
+      "start": 6.63852,
+      "end": 7.158519999999999,
+      "duration": 0.52,
+      "targets": [
+        "stage "
+      ],
+      "properties": [
+        "opacity",
+        "runBackwards"
+      ]
+    },
+    {
+      "start": 6.6485,
+      "end": 6.6485,
+      "duration": 0,
+      "targets": [
+        "cap-4"
+      ],
+      "properties": [
+        "visibility",
+        "repeat"
+      ]
+    },
+    {
+      "start": 6.6485,
+      "end": 6.7435,
+      "duration": 0.095,
+      "targets": [
+        "cap-4"
+      ],
+      "properties": [
+        "opacity",
+        "startAt"
+      ]
+    },
+    {
+      "start": 6.74352,
+      "end": 7.27352,
+      "duration": 0.53,
+      "targets": [
+        "week-sheet"
+      ],
+      "properties": [
+        "x",
+        "opacity",
+        "runBackwards"
+      ]
+    },
+    {
+      "start": 6.92352,
+      "end": 7.61852,
+      "duration": 0.695,
+      "targets": [
+        "selected",
+        "selected",
+        "object",
+        "selected",
+        "selected",
+        "object",
+        "object",
+        "object"
+      ],
+      "properties": [
+        "opacity",
+        "stagger",
+        "runBackwards"
+      ]
+    },
+    {
+      "start": 6.95352,
+      "end": 6.95352,
+      "duration": 0,
+      "targets": [
+        "s2"
+      ],
+      "properties": [
+        "opacity",
+        "repeat"
+      ]
+    },
+    {
+      "start": 6.95852,
+      "end": 6.95852,
+      "duration": 0,
+      "targets": [
+        "s3"
+      ],
+      "properties": [
+        "clipPath",
+        "repeat"
+      ]
+    },
+    {
+      "start": 6.97352,
+      "end": 7.42352,
+      "duration": 0.45,
+      "targets": [
+        "object"
+      ],
+      "properties": [
+        "x",
+        "opacity",
+        "runBackwards"
+      ]
+    },
+    {
+      "start": 7.04352,
+      "end": 7.50352,
+      "duration": 0.46,
+      "targets": [
+        "check-mark"
+      ],
+      "properties": [
+        "scale",
+        "opacity",
+        "runBackwards"
+      ]
+    },
+    {
+      "start": 7.4885,
+      "end": 7.4885,
+      "duration": 0,
+      "targets": [
+        "cap-4"
+      ],
+      "properties": [
+        "opacity",
+        "visibility",
+        "repeat"
+      ]
+    },
+    {
+      "start": 7.4885,
+      "end": 7.4885,
+      "duration": 0,
+      "targets": [
+        "cap-5"
+      ],
+      "properties": [
+        "visibility",
+        "repeat"
+      ]
+    },
+    {
+      "start": 7.4885,
+      "end": 7.5835,
+      "duration": 0.095,
+      "targets": [
+        "cap-5"
+      ],
+      "properties": [
+        "opacity",
+        "startAt"
+      ]
+    },
+    {
+      "start": 8.0535,
+      "end": 8.0535,
+      "duration": 0,
+      "targets": [
+        "arm-l"
+      ],
+      "properties": [
+        "attr",
+        "repeat"
+      ]
+    },
+    {
+      "start": 8.0535,
+      "end": 8.0535,
+      "duration": 0,
+      "targets": [
+        "fore-l"
+      ],
+      "properties": [
+        "attr",
+        "repeat"
+      ]
+    },
+    {
+      "start": 8.0535,
+      "end": 8.0535,
+      "duration": 0,
+      "targets": [
+        "arm-r"
+      ],
+      "properties": [
+        "attr",
+        "repeat"
+      ]
+    },
+    {
+      "start": 8.0535,
+      "end": 8.0535,
+      "duration": 0,
+      "targets": [
+        "fore-r"
+      ],
+      "properties": [
+        "attr",
+        "repeat"
+      ]
+    },
+    {
+      "start": 8.0535,
+      "end": 8.0535,
+      "duration": 0,
+      "targets": [
+        "head"
+      ],
+      "properties": [
+        "attr",
+        "repeat"
+      ]
+    },
+    {
+      "start": 8.0735,
+      "end": 8.0735,
+      "duration": 0,
+      "targets": [
+        "s4"
+      ],
+      "properties": [
+        "opacity",
+        "repeat"
+      ]
+    },
+    {
+      "start": 8.0735,
+      "end": 8.673499999999999,
+      "duration": 0.6,
+      "targets": [
+        "s4"
+      ],
+      "properties": [
+        "clipPath",
+        "startAt"
+      ]
+    },
+    {
+      "start": 8.2335,
+      "end": 8.2335,
+      "duration": 0,
+      "targets": [
+        "cap-5"
+      ],
+      "properties": [
+        "opacity",
+        "visibility",
+        "repeat"
+      ]
+    },
+    {
+      "start": 8.3685,
+      "end": 8.888499999999999,
+      "duration": 0.52,
+      "targets": [
+        "stage "
+      ],
+      "properties": [
+        "opacity",
+        "runBackwards"
+      ]
+    },
+    {
+      "start": 8.4285,
+      "end": 8.9885,
+      "duration": 0.56,
+      "targets": [
+        "character "
+      ],
+      "properties": [
+        "x",
+        "opacity",
+        "runBackwards"
+      ]
+    },
+    {
+      "start": 8.4485,
+      "end": 8.4485,
+      "duration": 0,
+      "targets": [
+        "cap-6"
+      ],
+      "properties": [
+        "visibility",
+        "repeat"
+      ]
+    },
+    {
+      "start": 8.4485,
+      "end": 8.5435,
+      "duration": 0.095,
+      "targets": [
+        "cap-6"
+      ],
+      "properties": [
+        "opacity",
+        "startAt"
+      ]
+    },
+    {
+      "start": 8.4735,
+      "end": 8.9535,
+      "duration": 0.48,
+      "targets": [
+        "question-pill qp1"
+      ],
+      "properties": [
+        "y",
+        "opacity",
+        "runBackwards"
+      ]
+    },
+    {
+      "start": 8.6735,
+      "end": 9.153500000000001,
+      "duration": 0.48,
+      "targets": [
+        "question-pill qp2"
+      ],
+      "properties": [
+        "x",
+        "opacity",
+        "runBackwards"
+      ]
+    },
+    {
+      "start": 8.6835,
+      "end": 8.6835,
+      "duration": 0,
+      "targets": [
+        "s3"
+      ],
+      "properties": [
+        "opacity",
+        "repeat"
+      ]
+    },
+    {
+      "start": 8.6885,
+      "end": 8.6885,
+      "duration": 0,
+      "targets": [
+        "s4"
+      ],
+      "properties": [
+        "clipPath",
+        "repeat"
+      ]
+    },
+    {
+      "start": 8.7035,
+      "end": 9.1535,
+      "duration": 0.45,
+      "targets": [
+        "object"
+      ],
+      "properties": [
+        "y",
+        "opacity",
+        "runBackwards"
+      ]
+    },
+    {
+      "start": 8.8735,
+      "end": 9.3535,
+      "duration": 0.48,
+      "targets": [
+        "question-pill qp3"
+      ],
+      "properties": [
+        "y",
+        "opacity",
+        "runBackwards"
+      ]
+    },
+    {
+      "start": 9.2535,
+      "end": 9.903500000000001,
+      "duration": 0.65,
+      "targets": [
+        "head"
+      ],
+      "properties": [
+        "attr"
+      ]
+    },
+    {
+      "start": 9.8085,
+      "end": 9.8085,
+      "duration": 0,
+      "targets": [
+        "cap-6"
+      ],
+      "properties": [
+        "opacity",
+        "visibility",
+        "repeat"
+      ]
+    },
+    {
+      "start": 9.8085,
+      "end": 9.8085,
+      "duration": 0,
+      "targets": [
+        "cap-7"
+      ],
+      "properties": [
+        "visibility",
+        "repeat"
+      ]
+    },
+    {
+      "start": 9.8085,
+      "end": 9.903500000000001,
+      "duration": 0.095,
+      "targets": [
+        "cap-7"
+      ],
+      "properties": [
+        "opacity",
+        "startAt"
+      ]
+    },
+    {
+      "start": 10.4535,
+      "end": 10.4535,
+      "duration": 0,
+      "targets": [
+        "arm-r"
+      ],
+      "properties": [
+        "attr",
+        "repeat"
+      ]
+    },
+    {
+      "start": 10.4535,
+      "end": 10.4535,
+      "duration": 0,
+      "targets": [
+        "fore-r"
+      ],
+      "properties": [
+        "attr",
+        "repeat"
+      ]
+    },
+    {
+      "start": 10.4535,
+      "end": 10.4535,
+      "duration": 0,
+      "targets": [
+        "arm-l"
+      ],
+      "properties": [
+        "attr",
+        "repeat"
+      ]
+    },
+    {
+      "start": 10.4535,
+      "end": 10.4535,
+      "duration": 0,
+      "targets": [
+        "fore-l"
+      ],
+      "properties": [
+        "attr",
+        "repeat"
+      ]
+    },
+    {
+      "start": 10.4535,
+      "end": 10.4535,
+      "duration": 0,
+      "targets": [
+        "head"
+      ],
+      "properties": [
+        "attr",
+        "repeat"
+      ]
+    },
+    {
+      "start": 10.4735,
+      "end": 10.4735,
+      "duration": 0,
+      "targets": [
+        "s5"
+      ],
+      "properties": [
+        "opacity",
+        "repeat"
+      ]
+    },
+    {
+      "start": 10.4735,
+      "end": 11.0735,
+      "duration": 0.6,
+      "targets": [
+        "s5"
+      ],
+      "properties": [
+        "clipPath",
+        "startAt"
+      ]
+    },
+    {
+      "start": 10.7685,
+      "end": 11.288499999999999,
+      "duration": 0.52,
+      "targets": [
+        "stage split-stage"
+      ],
+      "properties": [
+        "opacity",
+        "runBackwards"
+      ]
+    },
+    {
+      "start": 10.8285,
+      "end": 11.3885,
+      "duration": 0.56,
+      "targets": [
+        "character "
+      ],
+      "properties": [
+        "x",
+        "opacity",
+        "runBackwards"
+      ]
+    },
+    {
+      "start": 10.8735,
+      "end": 11.3935,
+      "duration": 0.52,
+      "targets": [
+        "prop training-icon"
+      ],
+      "properties": [
+        "x",
+        "opacity",
+        "runBackwards"
+      ]
+    },
+    {
+      "start": 10.9085,
+      "end": 10.9085,
+      "duration": 0,
+      "targets": [
+        "cap-7"
+      ],
+      "properties": [
+        "opacity",
+        "visibility",
+        "repeat"
+      ]
+    },
+    {
+      "start": 10.9085,
+      "end": 10.9085,
+      "duration": 0,
+      "targets": [
+        "cap-8"
+      ],
+      "properties": [
+        "visibility",
+        "repeat"
+      ]
+    },
+    {
+      "start": 10.9085,
+      "end": 11.0035,
+      "duration": 0.095,
+      "targets": [
+        "cap-8"
+      ],
+      "properties": [
+        "opacity",
+        "startAt"
+      ]
+    },
+    {
+      "start": 11.0835,
+      "end": 11.0835,
+      "duration": 0,
+      "targets": [
+        "s4"
+      ],
+      "properties": [
+        "opacity",
+        "repeat"
+      ]
+    },
+    {
+      "start": 11.0885,
+      "end": 11.0885,
+      "duration": 0,
+      "targets": [
+        "s5"
+      ],
+      "properties": [
+        "clipPath",
+        "repeat"
+      ]
+    },
+    {
+      "start": 11.1035,
+      "end": 11.5535,
+      "duration": 0.45,
+      "targets": [
+        "object"
+      ],
+      "properties": [
+        "x",
+        "opacity",
+        "runBackwards"
+      ]
+    },
+    {
+      "start": 11.3335,
+      "end": 11.9135,
+      "duration": 0.58,
+      "targets": [
+        "food-prop"
+      ],
+      "properties": [
+        "y",
+        "opacity",
+        "runBackwards"
+      ]
+    },
+    {
+      "start": 11.3535,
+      "end": 11.8335,
+      "duration": 0.48,
+      "targets": [
+        "doubt-pulse"
+      ],
+      "properties": [
+        "scale",
+        "opacity",
+        "runBackwards"
+      ]
+    },
+    {
+      "start": 11.8535,
+      "end": 12.4735,
+      "duration": 0.62,
+      "targets": [
+        "head"
+      ],
+      "properties": [
+        "attr"
+      ]
+    },
+    {
+      "start": 11.9485,
+      "end": 11.9485,
+      "duration": 0,
+      "targets": [
+        "cap-8"
+      ],
+      "properties": [
+        "opacity",
+        "visibility",
+        "repeat"
+      ]
+    },
+    {
+      "start": 11.9485,
+      "end": 11.9485,
+      "duration": 0,
+      "targets": [
+        "cap-9"
+      ],
+      "properties": [
+        "visibility",
+        "repeat"
+      ]
+    },
+    {
+      "start": 11.9485,
+      "end": 12.0435,
+      "duration": 0.095,
+      "targets": [
+        "cap-9"
+      ],
+      "properties": [
+        "opacity",
+        "startAt"
+      ]
+    },
+    {
+      "start": 12.56279,
+      "end": 12.56279,
+      "duration": 0,
+      "targets": [
+        "arm-r",
+        "arm-r"
+      ],
+      "properties": [
+        "attr",
+        "repeat"
+      ]
+    },
+    {
+      "start": 12.56279,
+      "end": 12.56279,
+      "duration": 0,
+      "targets": [
+        "fore-r",
+        "fore-r"
+      ],
+      "properties": [
+        "attr",
+        "repeat"
+      ]
+    },
+    {
+      "start": 12.56279,
+      "end": 12.56279,
+      "duration": 0,
+      "targets": [
+        "arm-l",
+        "arm-l"
+      ],
+      "properties": [
+        "attr",
+        "repeat"
+      ]
+    },
+    {
+      "start": 12.56279,
+      "end": 12.56279,
+      "duration": 0,
+      "targets": [
+        "fore-l",
+        "fore-l"
+      ],
+      "properties": [
+        "attr",
+        "repeat"
+      ]
+    },
+    {
+      "start": 12.56279,
+      "end": 12.56279,
+      "duration": 0,
+      "targets": [
+        "head",
+        "head"
+      ],
+      "properties": [
+        "attr",
+        "repeat"
+      ]
+    },
+    {
+      "start": 12.58279,
+      "end": 12.58279,
+      "duration": 0,
+      "targets": [
+        "s6"
+      ],
+      "properties": [
+        "opacity",
+        "repeat"
+      ]
+    },
+    {
+      "start": 12.58279,
+      "end": 13.182789999999999,
+      "duration": 0.6,
+      "targets": [
+        "s6"
+      ],
+      "properties": [
+        "clipPath",
+        "startAt"
+      ]
+    },
+    {
+      "start": 12.87779,
+      "end": 13.397789999999999,
+      "duration": 0.52,
+      "targets": [
+        "stage coach"
+      ],
+      "properties": [
+        "opacity",
+        "runBackwards"
+      ]
+    },
+    {
+      "start": 12.93779,
+      "end": 13.49779,
+      "duration": 0.56,
+      "targets": [
+        "character ",
+        "character "
+      ],
+      "properties": [
+        "x",
+        "opacity",
+        "runBackwards"
+      ]
+    },
+    {
+      "start": 13.06279,
+      "end": 13.54279,
+      "duration": 0.48,
+      "targets": [
+        "follow-label"
+      ],
+      "properties": [
+        "y",
+        "opacity",
+        "runBackwards"
+      ]
+    },
+    {
+      "start": 13.19279,
+      "end": 13.19279,
+      "duration": 0,
+      "targets": [
+        "s5"
+      ],
+      "properties": [
+        "opacity",
+        "repeat"
+      ]
+    },
+    {
+      "start": 13.19779,
+      "end": 13.19779,
+      "duration": 0,
+      "targets": [
+        "s6"
+      ],
+      "properties": [
+        "clipPath",
+        "repeat"
+      ]
+    },
+    {
+      "start": 13.21279,
+      "end": 13.66279,
+      "duration": 0.45,
+      "targets": [
+        "object"
+      ],
+      "properties": [
+        "y",
+        "opacity",
+        "runBackwards"
+      ]
+    },
+    {
+      "start": 13.56279,
+      "end": 14.21279,
+      "duration": 0.65,
+      "targets": [
+        "head"
+      ],
+      "properties": [
+        "attr"
+      ]
+    },
+    {
+      "start": 13.76279,
+      "end": 14.412790000000001,
+      "duration": 0.65,
+      "targets": [
+        "fore-r"
+      ],
+      "properties": [
+        "attr"
+      ]
+    },
+    {
+      "start": 13.7678,
+      "end": 13.7678,
+      "duration": 0,
+      "targets": [
+        "cap-9"
+      ],
+      "properties": [
+        "opacity",
+        "visibility",
+        "repeat"
+      ]
+    },
+    {
+      "start": 13.7678,
+      "end": 13.7678,
+      "duration": 0,
+      "targets": [
+        "cap-10"
+      ],
+      "properties": [
+        "visibility",
+        "repeat"
+      ]
+    },
+    {
+      "start": 13.7678,
+      "end": 13.8628,
+      "duration": 0.095,
+      "targets": [
+        "cap-10"
+      ],
+      "properties": [
+        "opacity",
+        "startAt"
+      ]
+    },
+    {
+      "start": 15.28279,
+      "end": 15.28279,
+      "duration": 0,
+      "targets": [
+        "arm-l"
+      ],
+      "properties": [
+        "attr",
+        "repeat"
+      ]
+    },
+    {
+      "start": 15.28279,
+      "end": 15.28279,
+      "duration": 0,
+      "targets": [
+        "fore-l"
+      ],
+      "properties": [
+        "attr",
+        "repeat"
+      ]
+    },
+    {
+      "start": 15.28279,
+      "end": 15.28279,
+      "duration": 0,
+      "targets": [
+        "arm-r"
+      ],
+      "properties": [
+        "attr",
+        "repeat"
+      ]
+    },
+    {
+      "start": 15.28279,
+      "end": 15.28279,
+      "duration": 0,
+      "targets": [
+        "fore-r"
+      ],
+      "properties": [
+        "attr",
+        "repeat"
+      ]
+    },
+    {
+      "start": 15.28279,
+      "end": 15.28279,
+      "duration": 0,
+      "targets": [
+        "head"
+      ],
+      "properties": [
+        "attr",
+        "repeat"
+      ]
+    },
+    {
+      "start": 15.30279,
+      "end": 15.30279,
+      "duration": 0,
+      "targets": [
+        "s7"
+      ],
+      "properties": [
+        "opacity",
+        "repeat"
+      ]
+    },
+    {
+      "start": 15.30279,
+      "end": 15.90279,
+      "duration": 0.6,
+      "targets": [
+        "s7"
+      ],
+      "properties": [
+        "clipPath",
+        "startAt"
+      ]
+    },
+    {
+      "start": 15.59779,
+      "end": 16.11779,
+      "duration": 0.52,
+      "targets": [
+        "stage receipt-stage"
+      ],
+      "properties": [
+        "opacity",
+        "runBackwards"
+      ]
+    },
+    {
+      "start": 15.6278,
+      "end": 15.6278,
+      "duration": 0,
+      "targets": [
+        "cap-10"
+      ],
+      "properties": [
+        "opacity",
+        "visibility",
+        "repeat"
+      ]
+    },
+    {
+      "start": 15.6278,
+      "end": 15.6278,
+      "duration": 0,
+      "targets": [
+        "cap-11"
+      ],
+      "properties": [
+        "visibility",
+        "repeat"
+      ]
+    },
+    {
+      "start": 15.6278,
+      "end": 15.722800000000001,
+      "duration": 0.095,
+      "targets": [
+        "cap-11"
+      ],
+      "properties": [
+        "opacity",
+        "startAt"
+      ]
+    },
+    {
+      "start": 15.65779,
+      "end": 16.21779,
+      "duration": 0.56,
+      "targets": [
+        "character "
+      ],
+      "properties": [
+        "x",
+        "opacity",
+        "runBackwards"
+      ]
+    },
+    {
+      "start": 15.68279,
+      "end": 16.26279,
+      "duration": 0.58,
+      "targets": [
+        "receipt"
+      ],
+      "properties": [
+        "x",
+        "opacity",
+        "runBackwards"
+      ]
+    },
+    {
+      "start": 15.80279,
+      "end": 16.65279,
+      "duration": 0.85,
+      "targets": [
+        "object",
+        "object",
+        "object"
+      ],
+      "properties": [
+        "scaleY",
+        "transformOrigin",
+        "stagger",
+        "runBackwards"
+      ]
+    },
+    {
+      "start": 15.91279,
+      "end": 15.91279,
+      "duration": 0,
+      "targets": [
+        "s6"
+      ],
+      "properties": [
+        "opacity",
+        "repeat"
+      ]
+    },
+    {
+      "start": 15.91779,
+      "end": 15.91779,
+      "duration": 0,
+      "targets": [
+        "s7"
+      ],
+      "properties": [
+        "clipPath",
+        "repeat"
+      ]
+    },
+    {
+      "start": 15.93279,
+      "end": 16.38279,
+      "duration": 0.45,
+      "targets": [
+        "object"
+      ],
+      "properties": [
+        "x",
+        "opacity",
+        "runBackwards"
+      ]
+    },
+    {
+      "start": 16.43279,
+      "end": 16.91279,
+      "duration": 0.48,
+      "targets": [
+        "over-budget"
+      ],
+      "properties": [
+        "rotation",
+        "y",
+        "opacity",
+        "runBackwards"
+      ]
+    },
+    {
+      "start": 16.5878,
+      "end": 16.5878,
+      "duration": 0,
+      "targets": [
+        "cap-11"
+      ],
+      "properties": [
+        "opacity",
+        "visibility",
+        "repeat"
+      ]
+    },
+    {
+      "start": 16.5878,
+      "end": 16.5878,
+      "duration": 0,
+      "targets": [
+        "cap-12"
+      ],
+      "properties": [
+        "visibility",
+        "repeat"
+      ]
+    },
+    {
+      "start": 16.5878,
+      "end": 16.6828,
+      "duration": 0.095,
+      "targets": [
+        "cap-12"
+      ],
+      "properties": [
+        "opacity",
+        "startAt"
+      ]
+    },
+    {
+      "start": 16.68279,
+      "end": 17.38279,
+      "duration": 0.7,
+      "targets": [
+        "head"
+      ],
+      "properties": [
+        "attr"
+      ]
+    },
+    {
+      "start": 18.0878,
+      "end": 18.0878,
+      "duration": 0,
+      "targets": [
+        "cap-12"
+      ],
+      "properties": [
+        "opacity",
+        "visibility",
+        "repeat"
+      ]
+    },
+    {
+      "start": 18.0878,
+      "end": 18.0878,
+      "duration": 0,
+      "targets": [
+        "cap-13"
+      ],
+      "properties": [
+        "visibility",
+        "repeat"
+      ]
+    },
+    {
+      "start": 18.0878,
+      "end": 18.1828,
+      "duration": 0.095,
+      "targets": [
+        "cap-13"
+      ],
+      "properties": [
+        "opacity",
+        "startAt"
+      ]
+    },
+    {
+      "start": 19.0175,
+      "end": 19.0175,
+      "duration": 0,
+      "targets": [
+        "arm-l"
+      ],
+      "properties": [
+        "attr",
+        "repeat"
+      ]
+    },
+    {
+      "start": 19.0175,
+      "end": 19.0175,
+      "duration": 0,
+      "targets": [
+        "fore-l"
+      ],
+      "properties": [
+        "attr",
+        "repeat"
+      ]
+    },
+    {
+      "start": 19.0175,
+      "end": 19.0175,
+      "duration": 0,
+      "targets": [
+        "arm-r"
+      ],
+      "properties": [
+        "attr",
+        "repeat"
+      ]
+    },
+    {
+      "start": 19.0175,
+      "end": 19.0175,
+      "duration": 0,
+      "targets": [
+        "fore-r"
+      ],
+      "properties": [
+        "attr",
+        "repeat"
+      ]
+    },
+    {
+      "start": 19.0175,
+      "end": 19.0175,
+      "duration": 0,
+      "targets": [
+        "head"
+      ],
+      "properties": [
+        "attr",
+        "repeat"
+      ]
+    },
+    {
+      "start": 19.0375,
+      "end": 19.0375,
+      "duration": 0,
+      "targets": [
+        "s8"
+      ],
+      "properties": [
+        "opacity",
+        "repeat"
+      ]
+    },
+    {
+      "start": 19.0375,
+      "end": 19.637500000000003,
+      "duration": 0.6,
+      "targets": [
+        "s8"
+      ],
+      "properties": [
+        "clipPath",
+        "startAt"
+      ]
+    },
+    {
+      "start": 19.2175,
+      "end": 19.2175,
+      "duration": 0,
+      "targets": [
+        "pointer-l"
+      ],
+      "properties": [
+        "opacity",
+        "repeat"
+      ]
+    },
+    {
+      "start": 19.2496,
+      "end": 19.2496,
+      "duration": 0,
+      "targets": [
+        "cap-13"
+      ],
+      "properties": [
+        "opacity",
+        "visibility",
+        "repeat"
+      ]
+    },
+    {
+      "start": 19.3325,
+      "end": 19.8525,
+      "duration": 0.52,
+      "targets": [
+        "stage book-stage"
+      ],
+      "properties": [
+        "opacity",
+        "runBackwards"
+      ]
+    },
+    {
+      "start": 19.3425,
+      "end": 19.7425,
+      "duration": 0.4,
+      "targets": [
+        "eyebrow gold"
+      ],
+      "properties": [
+        "x",
+        "opacity",
+        "runBackwards"
+      ]
+    },
+    {
+      "start": 19.3925,
+      "end": 19.952499999999997,
+      "duration": 0.56,
+      "targets": [
+        "character "
+      ],
+      "properties": [
+        "x",
+        "opacity",
+        "runBackwards"
+      ]
+    },
+    {
+      "start": 19.3925,
+      "end": 19.3925,
+      "duration": 0,
+      "targets": [
+        "cap-14"
+      ],
+      "properties": [
+        "visibility",
+        "repeat"
+      ]
+    },
+    {
+      "start": 19.3925,
+      "end": 19.487499999999997,
+      "duration": 0.095,
+      "targets": [
+        "cap-14"
+      ],
+      "properties": [
+        "opacity",
+        "startAt"
+      ]
+    },
+    {
+      "start": 19.3975,
+      "end": 20.0475,
+      "duration": 0.65,
+      "targets": [
+        "product-phone"
+      ],
+      "properties": [
+        "scale",
+        "opacity",
+        "runBackwards"
+      ]
+    },
+    {
+      "start": 19.6475,
+      "end": 19.6475,
+      "duration": 0,
+      "targets": [
+        "s7"
+      ],
+      "properties": [
+        "opacity",
+        "repeat"
+      ]
+    },
+    {
+      "start": 19.6525,
+      "end": 19.6525,
+      "duration": 0,
+      "targets": [
+        "s8"
+      ],
+      "properties": [
+        "clipPath",
+        "repeat"
+      ]
+    },
+    {
+      "start": 19.6675,
+      "end": 20.1175,
+      "duration": 0.45,
+      "targets": [
+        "object"
+      ],
+      "properties": [
+        "y",
+        "opacity",
+        "runBackwards"
+      ]
+    },
+    {
+      "start": 19.6975,
+      "end": 20.2175,
+      "duration": 0.52,
+      "targets": [
+        "digital-tag"
+      ],
+      "properties": [
+        "x",
+        "opacity",
+        "runBackwards"
+      ]
+    },
+    {
+      "start": 20.4175,
+      "end": 21.1175,
+      "duration": 0.7,
+      "targets": [
+        "head"
+      ],
+      "properties": [
+        "attr"
+      ]
+    },
+    {
+      "start": 20.4925,
+      "end": 20.4925,
+      "duration": 0,
+      "targets": [
+        "cap-14"
+      ],
+      "properties": [
+        "opacity",
+        "visibility",
+        "repeat"
+      ]
+    },
+    {
+      "start": 20.4925,
+      "end": 20.4925,
+      "duration": 0,
+      "targets": [
+        "cap-15"
+      ],
+      "properties": [
+        "visibility",
+        "repeat"
+      ]
+    },
+    {
+      "start": 20.4925,
+      "end": 20.5875,
+      "duration": 0.095,
+      "targets": [
+        "cap-15"
+      ],
+      "properties": [
+        "opacity",
+        "startAt"
+      ]
+    },
+    {
+      "start": 22.14429,
+      "end": 22.14429,
+      "duration": 0,
+      "targets": [
+        "s9"
+      ],
+      "properties": [
+        "opacity",
+        "repeat"
+      ]
+    },
+    {
+      "start": 22.14429,
+      "end": 22.744290000000003,
+      "duration": 0.6,
+      "targets": [
+        "s9"
+      ],
+      "properties": [
+        "clipPath",
+        "startAt"
+      ]
+    },
+    {
+      "start": 22.3175,
+      "end": 22.3175,
+      "duration": 0,
+      "targets": [
+        "cap-15"
+      ],
+      "properties": [
+        "opacity",
+        "visibility",
+        "repeat"
+      ]
+    },
+    {
+      "start": 22.3593,
+      "end": 22.3593,
+      "duration": 0,
+      "targets": [
+        "cap-16"
+      ],
+      "properties": [
+        "visibility",
+        "repeat"
+      ]
+    },
+    {
+      "start": 22.3593,
+      "end": 22.4543,
+      "duration": 0.095,
+      "targets": [
+        "cap-16"
+      ],
+      "properties": [
+        "opacity",
+        "startAt"
+      ]
+    },
+    {
+      "start": 22.43929,
+      "end": 22.95929,
+      "duration": 0.52,
+      "targets": [
+        "stage "
+      ],
+      "properties": [
+        "opacity",
+        "runBackwards"
+      ]
+    },
+    {
+      "start": 22.52429,
+      "end": 23.06429,
+      "duration": 0.54,
+      "targets": [
+        "program-cover pc4"
+      ],
+      "properties": [
+        "x",
+        "opacity",
+        "runBackwards"
+      ]
+    },
+    {
+      "start": 22.68429,
+      "end": 23.284290000000002,
+      "duration": 0.6,
+      "targets": [
+        "program-cover pc5"
+      ],
+      "properties": [
+        "y",
+        "opacity",
+        "runBackwards"
+      ]
+    },
+    {
+      "start": 22.75429,
+      "end": 22.75429,
+      "duration": 0,
+      "targets": [
+        "s8"
+      ],
+      "properties": [
+        "opacity",
+        "repeat"
+      ]
+    },
+    {
+      "start": 22.75929,
+      "end": 22.75929,
+      "duration": 0,
+      "targets": [
+        "s9"
+      ],
+      "properties": [
+        "clipPath",
+        "repeat"
+      ]
+    },
+    {
+      "start": 22.77429,
+      "end": 23.22429,
+      "duration": 0.45,
+      "targets": [
+        "object"
+      ],
+      "properties": [
+        "x",
+        "opacity",
+        "runBackwards"
+      ]
+    },
+    {
+      "start": 23.22429,
+      "end": 23.92429,
+      "duration": 0.7,
+      "targets": [
+        "program-cover pc4"
+      ],
+      "properties": [
+        "rotation",
+        "y"
+      ]
+    },
+    {
+      "start": 23.50429,
+      "end": 24.20429,
+      "duration": 0.7,
+      "targets": [
+        "program-cover pc5"
+      ],
+      "properties": [
+        "rotation",
+        "y"
+      ]
+    },
+    {
+      "start": 24.2693,
+      "end": 24.2693,
+      "duration": 0,
+      "targets": [
+        "cap-16"
+      ],
+      "properties": [
+        "opacity",
+        "visibility",
+        "repeat"
+      ]
+    },
+    {
+      "start": 24.2693,
+      "end": 24.2693,
+      "duration": 0,
+      "targets": [
+        "cap-17"
+      ],
+      "properties": [
+        "visibility",
+        "repeat"
+      ]
+    },
+    {
+      "start": 24.2693,
+      "end": 24.3643,
+      "duration": 0.095,
+      "targets": [
+        "cap-17"
+      ],
+      "properties": [
+        "opacity",
+        "startAt"
+      ]
+    },
+    {
+      "start": 25.44429,
+      "end": 25.44429,
+      "duration": 0,
+      "targets": [
+        "s10"
+      ],
+      "properties": [
+        "opacity",
+        "repeat"
+      ]
+    },
+    {
+      "start": 25.44429,
+      "end": 26.04429,
+      "duration": 0.6,
+      "targets": [
+        "s10"
+      ],
+      "properties": [
+        "clipPath",
+        "startAt"
+      ]
+    },
+    {
+      "start": 25.73929,
+      "end": 26.25929,
+      "duration": 0.52,
+      "targets": [
+        "stage "
+      ],
+      "properties": [
+        "opacity",
+        "runBackwards"
+      ]
+    },
+    {
+      "start": 25.82429,
+      "end": 26.40429,
+      "duration": 0.58,
+      "targets": [
+        "product-phone"
+      ],
+      "properties": [
+        "scale",
+        "opacity",
+        "runBackwards"
+      ]
+    },
+    {
+      "start": 26.05429,
+      "end": 26.05429,
+      "duration": 0,
+      "targets": [
+        "s9"
+      ],
+      "properties": [
+        "opacity",
+        "repeat"
+      ]
+    },
+    {
+      "start": 26.05929,
+      "end": 26.05929,
+      "duration": 0,
+      "targets": [
+        "s10"
+      ],
+      "properties": [
+        "clipPath",
+        "repeat"
+      ]
+    },
+    {
+      "start": 26.06429,
+      "end": 26.58429,
+      "duration": 0.52,
+      "targets": [
+        "link-card"
+      ],
+      "properties": [
+        "x",
+        "opacity",
+        "runBackwards"
+      ]
+    },
+    {
+      "start": 26.07429,
+      "end": 26.52429,
+      "duration": 0.45,
+      "targets": [
+        "object"
+      ],
+      "properties": [
+        "y",
+        "opacity",
+        "runBackwards"
+      ]
+    },
+    {
+      "start": 26.2893,
+      "end": 26.2893,
+      "duration": 0,
+      "targets": [
+        "cap-17"
+      ],
+      "properties": [
+        "opacity",
+        "visibility",
+        "repeat"
+      ]
+    },
+    {
+      "start": 26.2893,
+      "end": 26.2893,
+      "duration": 0,
+      "targets": [
+        "cap-18"
+      ],
+      "properties": [
+        "visibility",
+        "repeat"
+      ]
+    },
+    {
+      "start": 26.2893,
+      "end": 26.3843,
+      "duration": 0.095,
+      "targets": [
+        "cap-18"
+      ],
+      "properties": [
+        "opacity",
+        "startAt"
+      ]
+    },
+    {
+      "start": 27.29302,
+      "end": 27.29302,
+      "duration": 0,
+      "targets": [
+        "s11"
+      ],
+      "properties": [
+        "opacity",
+        "repeat"
+      ]
+    },
+    {
+      "start": 27.29302,
+      "end": 27.89302,
+      "duration": 0.6,
+      "targets": [
+        "s11"
+      ],
+      "properties": [
+        "clipPath",
+        "startAt"
+      ]
+    },
+    {
+      "start": 27.4943,
+      "end": 27.4943,
+      "duration": 0,
+      "targets": [
+        "cap-18"
+      ],
+      "properties": [
+        "opacity",
+        "visibility",
+        "repeat"
+      ]
+    },
+    {
+      "start": 27.538,
+      "end": 27.538,
+      "duration": 0,
+      "targets": [
+        "cap-19"
+      ],
+      "properties": [
+        "visibility",
+        "repeat"
+      ]
+    },
+    {
+      "start": 27.538,
+      "end": 27.633,
+      "duration": 0.095,
+      "targets": [
+        "cap-19"
+      ],
+      "properties": [
+        "opacity",
+        "startAt"
+      ]
+    },
+    {
+      "start": 27.58802,
+      "end": 28.10802,
+      "duration": 0.52,
+      "targets": [
+        "stage "
+      ],
+      "properties": [
+        "opacity",
+        "runBackwards"
+      ]
+    },
+    {
+      "start": 27.67302,
+      "end": 28.293020000000002,
+      "duration": 0.62,
+      "targets": [
+        "screen-frame screen-calculator"
+      ],
+      "properties": [
+        "scale",
+        "opacity",
+        "runBackwards"
+      ]
+    },
+    {
+      "start": 27.82802,
+      "end": 28.26802,
+      "duration": 0.44,
+      "targets": [
+        "demo-note"
+      ],
+      "properties": [
+        "y",
+        "opacity",
+        "runBackwards"
+      ]
+    },
+    {
+      "start": 27.90302,
+      "end": 27.90302,
+      "duration": 0,
+      "targets": [
+        "s10"
+      ],
+      "properties": [
+        "opacity",
+        "repeat"
+      ]
+    },
+    {
+      "start": 27.90802,
+      "end": 27.90802,
+      "duration": 0,
+      "targets": [
+        "s11"
+      ],
+      "properties": [
+        "clipPath",
+        "repeat"
+      ]
+    },
+    {
+      "start": 27.92302,
+      "end": 28.37302,
+      "duration": 0.45,
+      "targets": [
+        "object"
+      ],
+      "properties": [
+        "x",
+        "opacity",
+        "runBackwards"
+      ]
+    },
+    {
+      "start": 29.298,
+      "end": 29.298,
+      "duration": 0,
+      "targets": [
+        "cap-19"
+      ],
+      "properties": [
+        "opacity",
+        "visibility",
+        "repeat"
+      ]
+    },
+    {
+      "start": 29.298,
+      "end": 29.298,
+      "duration": 0,
+      "targets": [
+        "cap-20"
+      ],
+      "properties": [
+        "visibility",
+        "repeat"
+      ]
+    },
+    {
+      "start": 29.298,
+      "end": 29.392999999999997,
+      "duration": 0.095,
+      "targets": [
+        "cap-20"
+      ],
+      "properties": [
+        "opacity",
+        "startAt"
+      ]
+    },
+    {
+      "start": 30.698,
+      "end": 30.698,
+      "duration": 0,
+      "targets": [
+        "cap-20"
+      ],
+      "properties": [
+        "opacity",
+        "visibility",
+        "repeat"
+      ]
+    },
+    {
+      "start": 30.698,
+      "end": 30.698,
+      "duration": 0,
+      "targets": [
+        "cap-21"
+      ],
+      "properties": [
+        "visibility",
+        "repeat"
+      ]
+    },
+    {
+      "start": 30.698,
+      "end": 30.793,
+      "duration": 0.095,
+      "targets": [
+        "cap-21"
+      ],
+      "properties": [
+        "opacity",
+        "startAt"
+      ]
+    },
+    {
+      "start": 31.29302,
+      "end": 31.29302,
+      "duration": 0,
+      "targets": [
+        "s12"
+      ],
+      "properties": [
+        "opacity",
+        "repeat"
+      ]
+    },
+    {
+      "start": 31.29302,
+      "end": 31.89302,
+      "duration": 0.6,
+      "targets": [
+        "s12"
+      ],
+      "properties": [
+        "clipPath",
+        "startAt"
+      ]
+    },
+    {
+      "start": 31.58802,
+      "end": 32.10802,
+      "duration": 0.52,
+      "targets": [
+        "stage "
+      ],
+      "properties": [
+        "opacity",
+        "runBackwards"
+      ]
+    },
+    {
+      "start": 31.67302,
+      "end": 32.25302,
+      "duration": 0.58,
+      "targets": [
+        "screen-frame screen-recipes"
+      ],
+      "properties": [
+        "x",
+        "opacity",
+        "runBackwards"
+      ]
+    },
+    {
+      "start": 31.82802,
+      "end": 32.26802,
+      "duration": 0.44,
+      "targets": [
+        "demo-note"
+      ],
+      "properties": [
+        "y",
+        "opacity",
+        "runBackwards"
+      ]
+    },
+    {
+      "start": 31.83302,
+      "end": 32.35302,
+      "duration": 0.52,
+      "targets": [
+        "recipe-count"
+      ],
+      "properties": [
+        "y",
+        "opacity",
+        "runBackwards"
+      ]
+    },
+    {
+      "start": 31.90302,
+      "end": 31.90302,
+      "duration": 0,
+      "targets": [
+        "s11"
+      ],
+      "properties": [
+        "opacity",
+        "repeat"
+      ]
+    },
+    {
+      "start": 31.90802,
+      "end": 31.90802,
+      "duration": 0,
+      "targets": [
+        "s12"
+      ],
+      "properties": [
+        "clipPath",
+        "repeat"
+      ]
+    },
+    {
+      "start": 31.92302,
+      "end": 32.373020000000004,
+      "duration": 0.45,
+      "targets": [
+        "object"
+      ],
+      "properties": [
+        "y",
+        "opacity",
+        "runBackwards"
+      ]
+    },
+    {
+      "start": 32.32302,
+      "end": 33.27302,
+      "duration": 0.95,
+      "targets": [
+        "recipe-first"
+      ],
+      "properties": [
+        "y"
+      ]
+    },
+    {
+      "start": 32.32302,
+      "end": 33.27302,
+      "duration": 0.95,
+      "targets": [
+        "recipe-scaled"
+      ],
+      "properties": [
+        "y"
+      ]
+    },
+    {
+      "start": 32.33302,
+      "end": 32.813019999999995,
+      "duration": 0.48,
+      "targets": [
+        "serving-demo"
+      ],
+      "properties": [
+        "y",
+        "opacity",
+        "runBackwards"
+      ]
+    },
+    {
+      "start": 32.998,
+      "end": 32.998,
+      "duration": 0,
+      "targets": [
+        "cap-21"
+      ],
+      "properties": [
+        "opacity",
+        "visibility",
+        "repeat"
+      ]
+    },
+    {
+      "start": 32.998,
+      "end": 32.998,
+      "duration": 0,
+      "targets": [
+        "cap-22"
+      ],
+      "properties": [
+        "visibility",
+        "repeat"
+      ]
+    },
+    {
+      "start": 32.998,
+      "end": 33.092999999999996,
+      "duration": 0.095,
+      "targets": [
+        "cap-22"
+      ],
+      "properties": [
+        "opacity",
+        "startAt"
+      ]
+    },
+    {
+      "start": 33.22302,
+      "end": 33.54302,
+      "duration": 0.32,
+      "targets": [
+        "recipe-scaled"
+      ],
+      "properties": [
+        "opacity"
+      ]
+    },
+    {
+      "start": 34.27302,
+      "end": 34.27302,
+      "duration": 0,
+      "targets": [
+        "arm-l"
+      ],
+      "properties": [
+        "attr",
+        "repeat"
+      ]
+    },
+    {
+      "start": 34.27302,
+      "end": 34.27302,
+      "duration": 0,
+      "targets": [
+        "fore-l"
+      ],
+      "properties": [
+        "attr",
+        "repeat"
+      ]
+    },
+    {
+      "start": 34.27302,
+      "end": 34.27302,
+      "duration": 0,
+      "targets": [
+        "arm-r"
+      ],
+      "properties": [
+        "attr",
+        "repeat"
+      ]
+    },
+    {
+      "start": 34.27302,
+      "end": 34.27302,
+      "duration": 0,
+      "targets": [
+        "fore-r"
+      ],
+      "properties": [
+        "attr",
+        "repeat"
+      ]
+    },
+    {
+      "start": 34.27302,
+      "end": 34.27302,
+      "duration": 0,
+      "targets": [
+        "head"
+      ],
+      "properties": [
+        "attr",
+        "repeat"
+      ]
+    },
+    {
+      "start": 34.29302,
+      "end": 34.29302,
+      "duration": 0,
+      "targets": [
+        "s14"
+      ],
+      "properties": [
+        "opacity",
+        "repeat"
+      ]
+    },
+    {
+      "start": 34.29302,
+      "end": 34.99302,
+      "duration": 0.7,
+      "targets": [
+        "s14"
+      ],
+      "properties": [
+        "clipPath",
+        "startAt"
+      ]
+    },
+    {
+      "start": 34.63302,
+      "end": 35.25302,
+      "duration": 0.62,
+      "targets": [
+        "final-stage"
+      ],
+      "properties": [
+        "scale",
+        "opacity",
+        "runBackwards"
+      ]
+    },
+    {
+      "start": 34.64802,
+      "end": 35.208020000000005,
+      "duration": 0.56,
+      "targets": [
+        "character "
+      ],
+      "properties": [
+        "x",
+        "opacity",
+        "runBackwards"
+      ]
+    },
+    {
+      "start": 34.69302,
+      "end": 35.173019999999994,
+      "duration": 0.48,
+      "targets": [
+        "closing-logo"
+      ],
+      "properties": [
+        "y",
+        "opacity",
+        "runBackwards"
+      ]
+    },
+    {
+      "start": 34.69302,
+      "end": 35.313019999999995,
+      "duration": 0.62,
+      "targets": [
+        "product-phone"
+      ],
+      "properties": [
+        "x",
+        "opacity",
+        "runBackwards"
+      ]
+    },
+    {
+      "start": 34.89302,
+      "end": 35.45302,
+      "duration": 0.56,
+      "targets": [
+        "cta"
+      ],
+      "properties": [
+        "y",
+        "opacity",
+        "runBackwards"
+      ]
+    },
+    {
+      "start": 35.00302,
+      "end": 35.00302,
+      "duration": 0,
+      "targets": [
+        "s12"
+      ],
+      "properties": [
+        "opacity",
+        "repeat"
+      ]
+    },
+    {
+      "start": 35.00802,
+      "end": 35.00802,
+      "duration": 0,
+      "targets": [
+        "s14"
+      ],
+      "properties": [
+        "clipPath",
+        "repeat"
+      ]
+    },
+    {
+      "start": 35.01302,
+      "end": 35.46302,
+      "duration": 0.45,
+      "targets": [
+        "object"
+      ],
+      "properties": [
+        "x",
+        "opacity",
+        "runBackwards"
+      ]
+    },
+    {
+      "start": 35.03302,
+      "end": 35.53302,
+      "duration": 0.5,
+      "targets": [
+        "url"
+      ],
+      "properties": [
+        "y",
+        "opacity",
+        "runBackwards"
+      ]
+    },
+    {
+      "start": 35.058,
+      "end": 35.058,
+      "duration": 0,
+      "targets": [
+        "cap-22"
+      ],
+      "properties": [
+        "opacity",
+        "visibility",
+        "repeat"
+      ]
+    },
+    {
+      "start": 35.058,
+      "end": 35.058,
+      "duration": 0,
+      "targets": [
+        "cap-23"
+      ],
+      "properties": [
+        "visibility",
+        "repeat"
+      ]
+    },
+    {
+      "start": 35.058,
+      "end": 35.153,
+      "duration": 0.095,
+      "targets": [
+        "cap-23"
+      ],
+      "properties": [
+        "opacity",
+        "startAt"
+      ]
+    },
+    {
+      "start": 36.27302,
+      "end": 37.123020000000004,
+      "duration": 0.85,
+      "targets": [
+        "head"
+      ],
+      "properties": [
+        "attr"
+      ]
+    },
+    {
+      "start": 37.1302,
+      "end": 37.1302,
+      "duration": 0,
+      "targets": [
+        "cap-23"
+      ],
+      "properties": [
+        "opacity",
+        "visibility",
+        "repeat"
+      ]
+    },
+    {
+      "start": 37.1302,
+      "end": 37.1302,
+      "duration": 0,
+      "targets": [
+        "cap-24"
+      ],
+      "properties": [
+        "visibility",
+        "repeat"
+      ]
+    },
+    {
+      "start": 37.1302,
+      "end": 37.2252,
+      "duration": 0.095,
+      "targets": [
+        "cap-24"
+      ],
+      "properties": [
+        "opacity",
+        "startAt"
+      ]
+    },
+    {
+      "start": 39.0152,
+      "end": 39.0152,
+      "duration": 0,
+      "targets": [
+        "cap-24"
+      ],
+      "properties": [
+        "opacity",
+        "visibility",
+        "repeat"
+      ]
+    }
+  ],
+  "note": "Finite deterministic action, transitions between all scenes, no pre-transition scene-content exits. Caption groups have explicit hard kills."
+}

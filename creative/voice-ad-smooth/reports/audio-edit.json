@@ -1,0 +1,127 @@
+{
+  "sourceSha256": "f2509d44f29bec06d00bd07a64d78ae43a80403ed3cce90b0664f4d8d532d123",
+  "sourceSeconds": 41.45858333333333,
+  "editedSeconds": 39.103770833333336,
+  "removedSeconds": 2.354812499999994,
+  "removedIntervals": [
+    [
+      0,
+      0.28500000000000003
+    ],
+    [
+      5.0500229999999995,
+      5.4214970000000005
+    ],
+    [
+      8.872404000000001,
+      9.112426
+    ],
+    [
+      13.626122,
+      14.046824999999998
+    ],
+    [
+      19.975918,
+      20.109070000000003
+    ],
+    [
+      20.693718999999998,
+      21.175873
+    ],
+    [
+      24.218549,
+      24.411746
+    ],
+    [
+      29.567982,
+      29.669252
+    ],
+    [
+      39.337166,
+      39.465
+    ]
+  ],
+  "keptSegments": [
+    {
+      "sourceStart": 0.285,
+      "sourceEnd": 5.050020833333333,
+      "outputStart": 0,
+      "outputEnd": 4.765020833333334
+    },
+    {
+      "sourceStart": 5.4215,
+      "sourceEnd": 8.872395833333334,
+      "outputStart": 4.765020833333334,
+      "outputEnd": 8.215916666666667
+    },
+    {
+      "sourceStart": 9.112416666666666,
+      "sourceEnd": 13.626125,
+      "outputStart": 8.215916666666667,
+      "outputEnd": 12.729625
+    },
+    {
+      "sourceStart": 14.046833333333334,
+      "sourceEnd": 19.975916666666667,
+      "outputStart": 12.729625,
+      "outputEnd": 18.658708333333333
+    },
+    {
+      "sourceStart": 20.1090625,
+      "sourceEnd": 20.693729166666667,
+      "outputStart": 18.658708333333333,
+      "outputEnd": 19.243375
+    },
+    {
+      "sourceStart": 21.175875,
+      "sourceEnd": 24.218541666666667,
+      "outputStart": 19.243375,
+      "outputEnd": 22.286041666666666
+    },
+    {
+      "sourceStart": 24.41175,
+      "sourceEnd": 29.567979166666667,
+      "outputStart": 22.286041666666666,
+      "outputEnd": 27.442270833333332
+    },
+    {
+      "sourceStart": 29.66925,
+      "sourceEnd": 39.33716666666667,
+      "outputStart": 27.442270833333332,
+      "outputEnd": 37.110187499999995
+    },
+    {
+      "sourceStart": 39.465,
+      "sourceEnd": 41.45858333333333,
+      "outputStart": 37.110187499999995,
+      "outputEnd": 39.10377083333333
+    }
+  ],
+  "protectedWordMarginMs": 35,
+  "dryPrePcmPeak": 0.6263633966445923,
+  "dryPrePcmClippedSamples": 0,
+  "downmix": "Arithmetic channel mean, not equal-power sum",
+  "headroomGain": 0.6,
+  "filters": "highpass=f=85,lowpass=f=15000,equalizer=f=280:t=q:w=0.75:g=-2.8,equalizer=f=1600:t=q:w=0.9:g=1.2,equalizer=f=3200:t=q:w=0.8:g=3,acompressor=threshold=0.18:ratio=1.45:attack=10:release=120:makeup=1",
+  "loudnessTarget": {
+    "integratedLUFS": -14,
+    "truePeakDBTP": -1.5
+  },
+  "firstPass": {
+    "input_i": "-20.31",
+    "input_tp": "-2.10",
+    "input_lra": "4.30",
+    "input_thresh": "-30.60",
+    "output_i": "-16.17",
+    "output_tp": "-1.50",
+    "output_lra": "2.20",
+    "output_thresh": "-26.40",
+    "normalization_type": "dynamic",
+    "target_offset": "2.17"
+  },
+  "voiceReplaced": false,
+  "speechSpeedChanged": false,
+  "musicAdded": false,
+  "spectralNoiseGate": false,
+  "allCutsOutsideProtectedWords": true
+}

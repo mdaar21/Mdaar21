@@ -1,0 +1,54 @@
+Input #0, mp3, from '/workspace/attachments/df746435-0bb9-44ac-a797-afcdf40987e9/audio.mp3':
+  Metadata:
+    major_brand     : qt  
+    minor_version   : 0
+    compatible_brands: qt  
+    com.apple.quicktime.author: ReplayKitRecording
+    encoder         : Lavf60.16.100
+  Duration: 00:00:41.51, start: 0.025057, bitrate: 124 kb/s
+  Stream #0:0: Audio: mp3 (mp3float), 44100 Hz, stereo, fltp, 123 kb/s
+      Metadata:
+        encoder         : Lavc60.31
+Stream mapping:
+  Stream #0:0 -> #0:0 (mp3 (mp3float) -> pcm_s16le (native))
+Press [q] to stop, [?] for help
+Output #0, null, to 'pipe:':
+  Metadata:
+    major_brand     : qt  
+    minor_version   : 0
+    compatible_brands: qt  
+    com.apple.quicktime.author: ReplayKitRecording
+    encoder         : Lavf61.7.103
+  Stream #0:0: Audio: pcm_s16le, 44100 Hz, stereo, s16, 1411 kb/s
+      Metadata:
+        encoder         : Lavc61.19.101 pcm_s16le
+[silencedetect @ 0x7ff2840026c0] silence_start: 0
+[silencedetect @ 0x7ff2840026c0] silence_end: 0.394898 | silence_duration: 0.394898
+[silencedetect @ 0x7ff2840026c0] silence_start: 1.936531
+[silencedetect @ 0x7ff2840026c0] silence_end: 2.257982 | silence_duration: 0.321451
+[silencedetect @ 0x7ff2840026c0] silence_start: 4.920023
+[silencedetect @ 0x7ff2840026c0] silence_end: 5.551497 | silence_duration: 0.631474
+[silencedetect @ 0x7ff2840026c0] silence_start: 6.939161
+[silencedetect @ 0x7ff2840026c0] silence_end: 7.282063 | silence_duration: 0.342902
+[silencedetect @ 0x7ff2840026c0] silence_start: 8.742404
+[silencedetect @ 0x7ff2840026c0] silence_end: 9.242426 | silence_duration: 0.500023
+[silencedetect @ 0x7ff2840026c0] silence_start: 13.496122
+[silencedetect @ 0x7ff2840026c0] silence_end: 14.176825 | silence_duration: 0.680703
+[silencedetect @ 0x7ff2840026c0] silence_start: 16.578503
+[silencedetect @ 0x7ff2840026c0] silence_end: 16.913515 | silence_duration: 0.335011
+[silencedetect @ 0x7ff2840026c0] silence_start: 19.845918
+[silencedetect @ 0x7ff2840026c0] silence_end: 20.23907 | silence_duration: 0.393152
+[silencedetect @ 0x7ff2840026c0] silence_start: 20.563719
+[silencedetect @ 0x7ff2840026c0] silence_end: 21.305873 | silence_duration: 0.742154
+[silencedetect @ 0x7ff2840026c0] silence_start: 24.088549
+[silencedetect @ 0x7ff2840026c0] silence_end: 24.541746 | silence_duration: 0.453197
+[silencedetect @ 0x7ff2840026c0] silence_start: 29.437982
+[silencedetect @ 0x7ff2840026c0] silence_end: 29.799252 | silence_duration: 0.36127
+[silencedetect @ 0x7ff2840026c0] silence_start: 33.429025
+[silencedetect @ 0x7ff2840026c0] silence_end: 33.803469 | silence_duration: 0.374444
+[silencedetect @ 0x7ff2840026c0] silence_start: 36.463537
+[silencedetect @ 0x7ff2840026c0] silence_end: 36.789637 | silence_duration: 0.3261
+[silencedetect @ 0x7ff2840026c0] silence_start: 39.207166
+[silencedetect @ 0x7ff2840026c0] silence_end: 39.650771 | silence_duration: 0.443605
+[out#0/null @ 0x55a72ab820c0] video:0KiB audio:7142KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown
+size=N/A time=00:00:41.45 bitrate=N/A speed= 678x    

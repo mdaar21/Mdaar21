@@ -1,0 +1,299 @@
+{
+  "ok": true,
+  "scenes": [
+    {
+      "id": "s0",
+      "correctVisibleScene": true
+    },
+    {
+      "id": "s1",
+      "correctVisibleScene": true
+    },
+    {
+      "id": "s2",
+      "correctVisibleScene": true
+    },
+    {
+      "id": "s3",
+      "correctVisibleScene": true
+    },
+    {
+      "id": "s4",
+      "correctVisibleScene": true
+    },
+    {
+      "id": "s5",
+      "correctVisibleScene": true
+    },
+    {
+      "id": "s6",
+      "correctVisibleScene": true
+    },
+    {
+      "id": "s7",
+      "correctVisibleScene": true
+    },
+    {
+      "id": "s8",
+      "correctVisibleScene": true
+    },
+    {
+      "id": "s9",
+      "correctVisibleScene": true
+    },
+    {
+      "id": "s10",
+      "correctVisibleScene": true
+    },
+    {
+      "id": "s11",
+      "correctVisibleScene": true
+    },
+    {
+      "id": "s12",
+      "correctVisibleScene": true
+    },
+    {
+      "id": "s14",
+      "correctVisibleScene": true
+    }
+  ],
+  "noPreEntranceFlash": [
+    {
+      "id": "s1",
+      "noPreEntranceFlash": true
+    },
+    {
+      "id": "s2",
+      "noPreEntranceFlash": true
+    },
+    {
+      "id": "s3",
+      "noPreEntranceFlash": true
+    },
+    {
+      "id": "s4",
+      "noPreEntranceFlash": true
+    },
+    {
+      "id": "s5",
+      "noPreEntranceFlash": true
+    },
+    {
+      "id": "s6",
+      "noPreEntranceFlash": true
+    },
+    {
+      "id": "s7",
+      "noPreEntranceFlash": true
+    },
+    {
+      "id": "s8",
+      "noPreEntranceFlash": true
+    },
+    {
+      "id": "s9",
+      "noPreEntranceFlash": true
+    },
+    {
+      "id": "s10",
+      "noPreEntranceFlash": true
+    },
+    {
+      "id": "s11",
+      "noPreEntranceFlash": true
+    },
+    {
+      "id": "s12",
+      "noPreEntranceFlash": true
+    },
+    {
+      "id": "s14",
+      "noPreEntranceFlash": true
+    }
+  ],
+  "captionGroups": [
+    {
+      "group": 0,
+      "time": 0.8825000000000001,
+      "exactlyOneVisible": true,
+      "safeArea": true,
+      "height": 188
+    },
+    {
+      "group": 1,
+      "time": 2.8200000000000003,
+      "exactlyOneVisible": true,
+      "safeArea": true,
+      "height": 188
+    },
+    {
+      "group": 2,
+      "time": 4.1675,
+      "exactlyOneVisible": true,
+      "safeArea": true,
+      "height": 188
+    },
+    {
+      "group": 3,
+      "time": 5.6610000000000005,
+      "exactlyOneVisible": true,
+      "safeArea": true,
+      "height": 188
+    },
+    {
+      "group": 4,
+      "time": 7.0685,
+      "exactlyOneVisible": true,
+      "safeArea": true,
+      "height": 188
+    },
+    {
+      "group": 5,
+      "time": 7.861,
+      "exactlyOneVisible": true,
+      "safeArea": true,
+      "height": 188
+    },
+    {
+      "group": 6,
+      "time": 9.128499999999999,
+      "exactlyOneVisible": true,
+      "safeArea": true,
+      "height": 188
+    },
+    {
+      "group": 7,
+      "time": 10.3585,
+      "exactlyOneVisible": true,
+      "safeArea": true,
+      "height": 188
+    },
+    {
+      "group": 8,
+      "time": 11.4285,
+      "exactlyOneVisible": true,
+      "safeArea": true,
+      "height": 188
+    },
+    {
+      "group": 9,
+      "time": 12.858149999999998,
+      "exactlyOneVisible": true,
+      "safeArea": true,
+      "height": 188
+    },
+    {
+      "group": 10,
+      "time": 14.697799999999999,
+      "exactlyOneVisible": true,
+      "safeArea": true,
+      "height": 188
+    },
+    {
+      "group": 11,
+      "time": 16.107799999999997,
+      "exactlyOneVisible": true,
+      "safeArea": true,
+      "height": 188
+    },
+    {
+      "group": 12,
+      "time": 17.337799999999998,
+      "exactlyOneVisible": true,
+      "safeArea": true,
+      "height": 188
+    },
+    {
+      "group": 13,
+      "time": 18.6687,
+      "exactlyOneVisible": true,
+      "safeArea": true,
+      "height": 188
+    },
+    {
+      "group": 14,
+      "time": 19.9425,
+      "exactlyOneVisible": true,
+      "safeArea": true,
+      "height": 188
+    },
+    {
+      "group": 15,
+      "time": 21.405,
+      "exactlyOneVisible": true,
+      "safeArea": true,
+      "height": 188
+    },
+    {
+      "group": 16,
+      "time": 23.314300000000003,
+      "exactlyOneVisible": true,
+      "safeArea": true,
+      "height": 188
+    },
+    {
+      "group": 17,
+      "time": 25.2793,
+      "exactlyOneVisible": true,
+      "safeArea": true,
+      "height": 188
+    },
+    {
+      "group": 18,
+      "time": 26.8918,
+      "exactlyOneVisible": true,
+      "safeArea": true,
+      "height": 188
+    },
+    {
+      "group": 19,
+      "time": 28.418,
+      "exactlyOneVisible": true,
+      "safeArea": true,
+      "height": 188
+    },
+    {
+      "group": 20,
+      "time": 29.997999999999998,
+      "exactlyOneVisible": true,
+      "safeArea": true,
+      "height": 188
+    },
+    {
+      "group": 21,
+      "time": 31.848,
+      "exactlyOneVisible": true,
+      "safeArea": true,
+      "height": 188
+    },
+    {
+      "group": 22,
+      "time": 34.028,
+      "exactlyOneVisible": true,
+      "safeArea": true,
+      "height": 188
+    },
+    {
+      "group": 23,
+      "time": 36.0941,
+      "exactlyOneVisible": true,
+      "safeArea": true,
+      "height": 188
+    },
+    {
+      "group": 24,
+      "time": 38.0727,
+      "exactlyOneVisible": true,
+      "safeArea": true,
+      "height": 188
+    }
+  ],
+  "words": 88,
+  "blankCharacterFaces": 10,
+  "sameResultAfterReverseSeeks": true,
+  "coachFacesSeparated": true,
+  "oneCombinedVoiceAndEffectsTrack": true,
+  "musicAdded": false,
+  "runtimeErrors": []
+}

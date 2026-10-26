@@ -1,0 +1,7 @@
+{
+  "builder": "scripts/build-github-pages.py",
+  "output": "/tmp/mdaar-v7-pages-5_b3ahew/site",
+  "exit_code": 0,
+  "stdout": "Prepared 182 public files for /Mdaar21/\n",
+  "publicationScope": "Only new ad/voice-smooth; app, showcase and all previous ads unchanged."
+}

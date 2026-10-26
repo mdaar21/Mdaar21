@@ -1,0 +1,363 @@
+{
+  "ok": true,
+  "strict": false,
+  "browserSkipped": false,
+  "lint": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 1,
+    "infoCount": 0,
+    "findings": [
+      {
+        "code": "duplicate_media_discovery_risk",
+        "severity": "warning",
+        "message": "Detected 2 matching img entries with the same source/start/duration.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {},
+        "sourceFile": "/workspace/Mdaar21-new/creative/voice-ad-smooth/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Avoid duplicated media nodes that can be discovered twice during compilation."
+      }
+    ],
+    "filesScanned": 1
+  },
+  "runtime": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": []
+  },
+  "layout": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 5,
+    "findings": [
+      {
+        "code": "text_occluded",
+        "severity": "info",
+        "time": 19.552,
+        "selector": "#s7 > div:nth-of-type(3) > h2:nth-of-type(1)",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 352.31,
+          "top": 226,
+          "right": 697.7,
+          "bottom": 396,
+          "width": 345.39,
+          "height": 170
+        },
+        "containerSelector": "#s8",
+        "text": "والتكلفة؟",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 352.31,
+          "y": 226,
+          "width": 345.39,
+          "height": 170
+        },
+        "firstSeen": 19.552,
+        "lastSeen": 19.552,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          19.552
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "info",
+        "time": 19.552,
+        "selector": "div.over-budget",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 681.24,
+          "top": 1003.08,
+          "right": 940.12,
+          "bottom": 1125.92,
+          "width": 258.88,
+          "height": 122.85
+        },
+        "containerSelector": "#s8",
+        "text": "فوق الميزانية؟",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 681.24,
+          "y": 1003.08,
+          "width": 258.88,
+          "height": 122.85
+        },
+        "firstSeen": 19.552,
+        "lastSeen": 19.552,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          19.552
+        ]
+      },
+      {
+        "code": "content_overlap",
+        "severity": "info",
+        "time": 31.895,
+        "selector": "#s11 > div:nth-of-type(3) > p:nth-of-type(1)",
+        "message": "Two text blocks overlap and may render unreadable.",
+        "rect": {
+          "left": 216.81,
+          "top": 1224.61,
+          "right": 833.19,
+          "bottom": 1283.61,
+          "width": 616.38,
+          "height": 59
+        },
+        "containerSelector": "#s12 > div:nth-of-type(3) > p:nth-of-type(1)",
+        "text": "مثال توضيحي · احتياجك تقديري ويختلف حسب بياناتك",
+        "fixHint": "Give each block its own zone, or put data-layout-allow-overlap on the text or on a container inside the scene. A marker on the scene root does not apply.",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 216.81,
+          "y": 1224.61,
+          "width": 616.38,
+          "height": 59
+        },
+        "firstSeen": 31.895,
+        "lastSeen": 31.895,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          31.895
+        ]
+      },
+      {
+        "code": "container_overflow",
+        "severity": "info",
+        "time": 33.353,
+        "selector": "img.recipe-first",
+        "message": "Element extends outside a clipping layout container.",
+        "rect": {
+          "left": 257.5,
+          "top": 328.09,
+          "right": 792.5,
+          "bottom": 1236.08,
+          "width": 535,
+          "height": 907.98
+        },
+        "containerSelector": "div.screen-frame.screen-recipes",
+        "fixHint": "Resize/reposition the child or container, or mark intentional overflow with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 252.5,
+          "top": 443.09,
+          "right": 797.5,
+          "bottom": 1138.09,
+          "width": 545,
+          "height": 695
+        },
+        "overflow": {
+          "top": 115,
+          "bottom": 97.99
+        },
+        "dataAttributes": {
+          "data-hf-render-id": "hf-media-6",
+          "data-hf-authored-opacity": ""
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 257.5,
+          "y": 328.09,
+          "width": 535,
+          "height": 907.98
+        },
+        "firstSeen": 33.353,
+        "lastSeen": 33.353,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          33.353
+        ]
+      },
+      {
+        "code": "container_overflow",
+        "severity": "info",
+        "time": 33.353,
+        "selector": "img.recipe-scaled",
+        "message": "Element extends outside a clipping layout container.",
+        "rect": {
+          "left": 257.5,
+          "top": 328.09,
+          "right": 792.5,
+          "bottom": 1236.08,
+          "width": 535,
+          "height": 907.98
+        },
+        "containerSelector": "div.screen-frame.screen-recipes",
+        "fixHint": "Resize/reposition the child or container, or mark intentional overflow with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 252.5,
+          "top": 443.09,
+          "right": 797.5,
+          "bottom": 1138.09,
+          "width": 545,
+          "height": 695
+        },
+        "overflow": {
+          "top": 115,
+          "bottom": 97.99
+        },
+        "dataAttributes": {
+          "data-hf-render-id": "hf-media-7",
+          "data-hf-authored-opacity": "0"
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 257.5,
+          "y": 328.09,
+          "width": 535,
+          "height": 907.98
+        },
+        "firstSeen": 33.353,
+        "lastSeen": 33.353,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          33.353
+        ]
+      }
+    ],
+    "duration": 39.103770833333336,
+    "samples": [
+      1.15,
+      3.45,
+      5.751,
+      8.051,
+      10.351,
+      12.651,
+      14.951,
+      17.252,
+      19.552,
+      21.852,
+      24.152,
+      26.453,
+      28.753,
+      31.053,
+      33.353,
+      35.653,
+      37.954
+    ],
+    "transitionSamples": [],
+    "transitionSamplesDropped": 0,
+    "tolerance": 2,
+    "totalIssueCount": 5,
+    "truncated": false
+  },
+  "motion": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "enabled": false,
+    "samples": 0
+  },
+  "contrast": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 1,
+    "infoCount": 0,
+    "findings": [
+      {
+        "code": "contrast_aa_failure",
+        "severity": "warning",
+        "message": "Contrast is 1.03:1; WCAG AA requires 3:1.",
+        "text": "والتكلفة؟",
+        "fg": "rgb(18,18,16)",
+        "bg": "rgb(21,21,19)",
+        "ratio": 1.03,
+        "requiredRatio": 3,
+        "suggestedColor": "rgb(99,99,98)",
+        "large": true,
+        "selector": "div > section:nth-of-type(8) > div:nth-of-type(3) > h2",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 352.3125,
+          "y": 255,
+          "width": 345.390625,
+          "height": 113.390625
+        },
+        "time": 19.552,
+        "times": [
+          19.552
+        ]
+      }
+    ],
+    "enabled": true,
+    "samples": [
+      1.15,
+      10.351,
+      19.552,
+      28.753,
+      37.954
+    ],
+    "checked": 45,
+    "passed": 44
+  },
+  "craft": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 1,
+    "infoCount": 0,
+    "findings": [
+      {
+        "code": "first_frame_empty",
+        "severity": "warning",
+        "message": "Frame 0 shows only the background, and the first frame is the thumbnail on social players: have the title or key image already on screen at 0 s instead of entering from nothing; see references/review.md.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0
+      }
+    ],
+    "enabled": true,
+    "step": 0.125,
+    "samples": 313
+  },
+  "hdr": {
+    "autoPromotion": null,
+    "inspection": "available"
+  },
+  "snapshots": {
+    "enabled": false,
+    "files": [],
+    "times": [],
+    "findingFiles": []
+  },
+  "saved": {
+    "id": "971848d7-5742-406b-84de-ba6ec3b8f7d1",
+    "revision": "eaf35e6c-a76e-461c-938a-cfae7c18dedc",
+    "report": "/workspace/Mdaar21-new/creative/voice-ad-smooth/.hyperframes/artifacts/checks/971848d7-5742-406b-84de-ba6ec3b8f7d1.json",
+    "attribution": "recorded-revision"
+  },
+  "_meta": {
+    "version": "0.8.189",
+    "updateAvailable": false
+  }
+}

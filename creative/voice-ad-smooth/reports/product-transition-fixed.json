@@ -1,0 +1,37 @@
+{
+  "ok": true,
+  "outputDir": "/workspace/Mdaar21-new/creative/voice-ad-smooth/reports/product-transition-fixed",
+  "frames": [
+    {
+      "path": "/workspace/Mdaar21-new/creative/voice-ad-smooth/reports/product-transition-fixed/frame-00-at-19.05s.png",
+      "time": 19.05
+    },
+    {
+      "path": "/workspace/Mdaar21-new/creative/voice-ad-smooth/reports/product-transition-fixed/frame-01-at-19.25s.png",
+      "time": 19.25
+    },
+    {
+      "path": "/workspace/Mdaar21-new/creative/voice-ad-smooth/reports/product-transition-fixed/frame-02-at-19.45s.png",
+      "time": 19.45
+    },
+    {
+      "path": "/workspace/Mdaar21-new/creative/voice-ad-smooth/reports/product-transition-fixed/frame-03-at-19.6s.png",
+      "time": 19.6
+    },
+    {
+      "path": "/workspace/Mdaar21-new/creative/voice-ad-smooth/reports/product-transition-fixed/frame-04-at-19.8s.png",
+      "time": 19.8
+    },
+    {
+      "path": "/workspace/Mdaar21-new/creative/voice-ad-smooth/reports/product-transition-fixed/frame-05-at-20s.png",
+      "time": 20
+    }
+  ],
+  "contactSheets": [
+    "/workspace/Mdaar21-new/creative/voice-ad-smooth/reports/product-transition-fixed/contact-sheet.jpg"
+  ],
+  "_meta": {
+    "version": "0.8.189",
+    "updateAvailable": false
+  }
+}

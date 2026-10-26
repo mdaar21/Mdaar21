@@ -1,0 +1,172 @@
+{
+  "sourceSha256": "f2509d44f29bec06d00bd07a64d78ae43a80403ed3cce90b0664f4d8d532d123",
+  "sourceSeconds": 41.45858333333333,
+  "editedSeconds": 37.598166666666664,
+  "removedSeconds": 3.8604166666666657,
+  "removedIntervals": [
+    [
+      0,
+      0.294898
+    ],
+    [
+      2.026531,
+      2.1679820000000003
+    ],
+    [
+      5.0100229999999994,
+      5.4614970000000005
+    ],
+    [
+      7.029161,
+      7.192063
+    ],
+    [
+      8.832404,
+      9.152426
+    ],
+    [
+      13.586122,
+      14.086825
+    ],
+    [
+      16.668503,
+      16.823515
+    ],
+    [
+      19.935918,
+      20.149070000000002
+    ],
+    [
+      20.653719,
+      21.215873
+    ],
+    [
+      24.178549,
+      24.451746
+    ],
+    [
+      29.527982,
+      29.709252
+    ],
+    [
+      33.519025000000006,
+      33.713468999999996
+    ],
+    [
+      36.553537000000006,
+      36.699636999999996
+    ],
+    [
+      39.297166000000004,
+      39.560770999999995
+    ]
+  ],
+  "keptSegments": [
+    {
+      "sourceStart": 0.29489583333333336,
+      "sourceEnd": 2.0265208333333335,
+      "outputStart": 0,
+      "outputEnd": 1.731625
+    },
+    {
+      "sourceStart": 2.1679791666666666,
+      "sourceEnd": 5.010020833333333,
+      "outputStart": 1.731625,
+      "outputEnd": 4.573666666666667
+    },
+    {
+      "sourceStart": 5.4615,
+      "sourceEnd": 7.029166666666667,
+      "outputStart": 4.573666666666667,
+      "outputEnd": 6.141333333333334
+    },
+    {
+      "sourceStart": 7.1920625,
+      "sourceEnd": 8.832395833333333,
+      "outputStart": 6.141333333333334,
+      "outputEnd": 7.781666666666667
+    },
+    {
+      "sourceStart": 9.152416666666667,
+      "sourceEnd": 13.586125,
+      "outputStart": 7.781666666666667,
+      "outputEnd": 12.215375000000002
+    },
+    {
+      "sourceStart": 14.086833333333333,
+      "sourceEnd": 16.6685,
+      "outputStart": 12.215375000000002,
+      "outputEnd": 14.797041666666669
+    },
+    {
+      "sourceStart": 16.823520833333333,
+      "sourceEnd": 19.935916666666667,
+      "outputStart": 14.797041666666669,
+      "outputEnd": 17.909437500000003
+    },
+    {
+      "sourceStart": 20.1490625,
+      "sourceEnd": 20.65372916666667,
+      "outputStart": 17.909437500000003,
+      "outputEnd": 18.414104166666668
+    },
+    {
+      "sourceStart": 21.215875,
+      "sourceEnd": 24.178541666666668,
+      "outputStart": 18.414104166666668,
+      "outputEnd": 21.376770833333335
+    },
+    {
+      "sourceStart": 24.45175,
+      "sourceEnd": 29.527979166666668,
+      "outputStart": 21.376770833333335,
+      "outputEnd": 26.453000000000003
+    },
+    {
+      "sourceStart": 29.70925,
+      "sourceEnd": 33.519020833333336,
+      "outputStart": 26.453000000000003,
+      "outputEnd": 30.262770833333335
+    },
+    {
+      "sourceStart": 33.713479166666666,
+      "sourceEnd": 36.55354166666667,
+      "outputStart": 30.262770833333335,
+      "outputEnd": 33.102833333333336
+    },
+    {
+      "sourceStart": 36.699645833333335,
+      "sourceEnd": 39.29716666666667,
+      "outputStart": 33.102833333333336,
+      "outputEnd": 35.70035416666667
+    },
+    {
+      "sourceStart": 39.560770833333336,
+      "sourceEnd": 41.45858333333333,
+      "outputStart": 35.70035416666667,
+      "outputEnd": 37.59816666666667
+    }
+  ],
+  "fadeAtJoinsMs": 4,
+  "filters": "highpass=f=70,lowpass=f=11500,afftdn=nr=6:nf=-38:tn=1,equalizer=f=280:t=q:w=1:g=-1.2,equalizer=f=3200:t=q:w=0.8:g=1,acompressor=threshold=0.18:ratio=1.8:attack=12:release=110:makeup=1",
+  "loudnessTarget": {
+    "integratedLUFS": -16,
+    "truePeakDBTP": -1.5
+  },
+  "firstPass": {
+    "input_i": "-16.56",
+    "input_tp": "0.26",
+    "input_lra": "2.40",
+    "input_thresh": "-26.60",
+    "output_i": "-16.75",
+    "output_tp": "-1.50",
+    "output_lra": "1.80",
+    "output_thresh": "-26.79",
+    "normalization_type": "dynamic",
+    "target_offset": "0.75"
+  },
+  "voiceReplaced": false,
+  "speechSpeedChanged": false,
+  "musicAdded": false,
+  "sourceUnchanged": true
+}

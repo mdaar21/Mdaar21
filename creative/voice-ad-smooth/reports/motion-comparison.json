@@ -1,0 +1,179 @@
+{
+  "measurements": {
+    "voice-ad": {
+      "scenesChecked": 14,
+      "prematurelyVisibleHeadings": 14,
+      "details": [
+        {
+          "scene": "s1",
+          "time": 1.7551,
+          "headingOpacity": 1,
+          "flashedBeforeEntrance": true
+        },
+        {
+          "scene": "s2",
+          "time": 4.62367,
+          "headingOpacity": 1,
+          "flashedBeforeEntrance": true
+        },
+        {
+          "scene": "s3",
+          "time": 6.2792699999999995,
+          "headingOpacity": 1,
+          "flashedBeforeEntrance": true
+        },
+        {
+          "scene": "s4",
+          "time": 7.92925,
+          "headingOpacity": 1,
+          "flashedBeforeEntrance": true
+        },
+        {
+          "scene": "s5",
+          "time": 10.32925,
+          "headingOpacity": 1,
+          "flashedBeforeEntrance": true
+        },
+        {
+          "scene": "s6",
+          "time": 12.358540000000001,
+          "headingOpacity": 1,
+          "flashedBeforeEntrance": true
+        },
+        {
+          "scene": "s7",
+          "time": 14.92352,
+          "headingOpacity": 1,
+          "flashedBeforeEntrance": true
+        },
+        {
+          "scene": "s8",
+          "time": 18.49823,
+          "headingOpacity": 1,
+          "flashedBeforeEntrance": true
+        },
+        {
+          "scene": "s9",
+          "time": 21.52502,
+          "headingOpacity": 1,
+          "flashedBeforeEntrance": true
+        },
+        {
+          "scene": "s10",
+          "time": 24.825020000000002,
+          "headingOpacity": 1,
+          "flashedBeforeEntrance": true
+        },
+        {
+          "scene": "s11",
+          "time": 26.59375,
+          "headingOpacity": 1,
+          "flashedBeforeEntrance": true
+        },
+        {
+          "scene": "s12",
+          "time": 30.39929,
+          "headingOpacity": 1,
+          "flashedBeforeEntrance": true
+        },
+        {
+          "scene": "s13",
+          "time": 33.25319,
+          "headingOpacity": 1,
+          "flashedBeforeEntrance": true
+        },
+        {
+          "scene": "s14",
+          "time": 34.25319,
+          "headingOpacity": 1,
+          "flashedBeforeEntrance": true
+        }
+      ]
+    },
+    "voice-ad-smooth": {
+      "scenesChecked": 13,
+      "prematurelyVisibleHeadings": 0,
+      "details": [
+        {
+          "scene": "s1",
+          "time": 1.7650000000000001,
+          "headingOpacity": 0,
+          "flashedBeforeEntrance": false
+        },
+        {
+          "scene": "s2",
+          "time": 4.81502,
+          "headingOpacity": 0,
+          "flashedBeforeEntrance": false
+        },
+        {
+          "scene": "s3",
+          "time": 6.67352,
+          "headingOpacity": 0,
+          "flashedBeforeEntrance": false
+        },
+        {
+          "scene": "s4",
+          "time": 8.403500000000001,
+          "headingOpacity": 0,
+          "flashedBeforeEntrance": false
+        },
+        {
+          "scene": "s5",
+          "time": 10.803500000000001,
+          "headingOpacity": 0,
+          "flashedBeforeEntrance": false
+        },
+        {
+          "scene": "s6",
+          "time": 12.912790000000001,
+          "headingOpacity": 0,
+          "flashedBeforeEntrance": false
+        },
+        {
+          "scene": "s7",
+          "time": 15.63279,
+          "headingOpacity": 0,
+          "flashedBeforeEntrance": false
+        },
+        {
+          "scene": "s8",
+          "time": 19.3675,
+          "headingOpacity": 0,
+          "flashedBeforeEntrance": false
+        },
+        {
+          "scene": "s9",
+          "time": 22.47429,
+          "headingOpacity": 0,
+          "flashedBeforeEntrance": false
+        },
+        {
+          "scene": "s10",
+          "time": 25.77429,
+          "headingOpacity": 0,
+          "flashedBeforeEntrance": false
+        },
+        {
+          "scene": "s11",
+          "time": 27.62302,
+          "headingOpacity": 0,
+          "flashedBeforeEntrance": false
+        },
+        {
+          "scene": "s12",
+          "time": 31.62302,
+          "headingOpacity": 0,
+          "flashedBeforeEntrance": false
+        },
+        {
+          "scene": "s14",
+          "time": 34.62302,
+          "headingOpacity": 0,
+          "flashedBeforeEntrance": false
+        }
+      ]
+    }
+  },
+  "scope": "Same early reveal timestamp (+50 ms from each scene start), actual GSAP browser state; not a viewer perception or campaign test."
+}

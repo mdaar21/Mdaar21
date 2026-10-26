@@ -1,0 +1,29 @@
+{
+  "baseline": "v6, same source recording and identity",
+  "motionFixes": {
+    "prematureVisibleHeadings": {
+      "baseline": 14,
+      "candidate": 0,
+      "source": "reports/motion-comparison.json"
+    },
+    "fullFrameTranslationRemoved": true,
+    "largeScaleAndBounceRemoved": true,
+    "circleMasksRemoved": true,
+    "targetFrameRate": 60,
+    "fixedCaptionPlate": true,
+    "captionGroups": 25
+  },
+  "audioFixes": {
+    "pcmClippedSamplesBeforeFilters": {
+      "baseline": 4991,
+      "candidate": 0
+    },
+    "arithmeticDownmixWithHeadroom": true,
+    "wordProtectionMarginMs": 35,
+    "all88WordsPreserved": true,
+    "actualMixLUFS": -14.0,
+    "actualMixTruePeakDBTP": -3.17,
+    "musicAdded": false
+  },
+  "scope": "Source, sample and browser checks; encoded file and live delivery have separate reports. No campaign or financial-value guarantee."
+}

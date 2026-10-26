@@ -1,0 +1,46 @@
+{
+  "musicAdded": false,
+  "finalBusGainDB": 1.3100000000000005,
+  "voiceSource": "assets/voice-clean.wav",
+  "effects": [
+    {
+      "scene": "s8",
+      "time": 19.197499999999998,
+      "source": "whoosh-short",
+      "peak": 0.026,
+      "seconds": 0.32
+    },
+    {
+      "scene": "s9",
+      "time": 22.70429,
+      "source": "click-soft",
+      "peak": 0.018,
+      "seconds": 0.14
+    },
+    {
+      "scene": "s11",
+      "time": 27.79302,
+      "source": "click-soft",
+      "peak": 0.018,
+      "seconds": 0.14
+    },
+    {
+      "scene": "s12",
+      "time": 33.20302,
+      "source": "click-soft",
+      "peak": 0.016,
+      "seconds": 0.13
+    },
+    {
+      "scene": "s14",
+      "time": 34.44302,
+      "source": "whoosh-short",
+      "peak": 0.022,
+      "seconds": 0.3
+    }
+  ],
+  "voiceRmsDBFS": -16.457021713256836,
+  "sfxRmsDBFS": -64.36908721923828,
+  "durationSeconds": 39.103770833333336,
+  "note": "Five brief low-level accents, not a continuous bed. No music or voice replacement."
+}

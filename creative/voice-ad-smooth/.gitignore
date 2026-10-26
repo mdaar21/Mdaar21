@@ -1,0 +1,12 @@
+.hyperframes/
+renders/
+node_modules/
+__pycache__/
+reports/frames/
+reports/final-frames/frame-*.png
+reports/final-changes/frame-*.png
+reports/encoded-frames/frame-*.png
+assets/voice-edited.wav
+reports/product-transition/frame-*.png
+reports/product-transition-fixed/frame-*.png
+reports/encoded-seam/frame-*.png
