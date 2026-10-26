@@ -1,0 +1,15 @@
+[
+  {"to":"s1","family":"diagonal","direction":"left","duration":0.58,"reason":"تتحول حيرة النادي إلى بطاقات المصادر."},
+  {"to":"s2","family":"focus","duration":0.48,"reason":"تجميع المصادر الكثيرة في سؤال واحد."},
+  {"to":"s3","family":"anchor","anchor":"inset(41% 9% 51% 76% round 28px)","duration":0.54,"reason":"من علامة السؤال إلى بطاقة جدول التمرين."},
+  {"to":"s4","family":"parallax","axis":"y","distance":112,"duration":0.50,"reason":"ننتقل من ورقة الجدول إلى الأسئلة التي تليه."},
+  {"to":"s5","family":"parallax","axis":"x","distance":-96,"duration":0.46,"reason":"استمرار الأسئلة بين التمرين والأكل."},
+  {"to":"s6","family":"diagonal","direction":"right","duration":0.56,"reason":"فصل التوجيه العام عن المتابعة الشخصية."},
+  {"to":"s7","family":"parallax","axis":"y","distance":-88,"duration":0.48,"reason":"حركة ورقية نحو إيصال التكلفة."},
+  {"to":"s8","family":"shutter","duration":0.70,"reason":"الكشف الرئيسي الوحيد للمنتج بعد مشكلة التكلفة."},
+  {"to":"s9","family":"anchor","anchor":"inset(28% 41% 33% 20% round 42px)","duration":0.56,"reason":"فتح غلاف البروتوكول على أغلفة البرامج."},
+  {"to":"s10","family":"parallax","axis":"x","distance":100,"duration":0.46,"reason":"نقل النظر من البرنامج إلى رابط شرحه."},
+  {"to":"s11","family":"anchor","anchor":"inset(28% 29% 35% 29% round 38px)","duration":0.54,"reason":"ربط إطار الدليل بإطار أدوات الموقع."},
+  {"to":"s12","family":"parallax","axis":"y","distance":128,"duration":0.52,"reason":"تمرير متصل بين أداتي الحاسبة والوصفات."},
+  {"to":"s14","family":"focus","duration":0.68,"reason":"ختام أهدأ يترك المنتج ورابط الشراء واضحين."}
+]

@@ -1,0 +1,21 @@
+{
+  "ok": true,
+  "outputDir": "/workspace/Mdaar21-new/creative/voice-ad-transitions/reports/frames/opening",
+  "frames": [
+    {
+      "path": "/workspace/Mdaar21-new/creative/voice-ad-transitions/reports/frames/opening/frame-00-at-0s.png",
+      "time": 0
+    },
+    {
+      "path": "/workspace/Mdaar21-new/creative/voice-ad-transitions/reports/frames/opening/frame-01-at-37.931s.png",
+      "time": 37.931
+    }
+  ],
+  "contactSheets": [
+    "/workspace/Mdaar21-new/creative/voice-ad-transitions/reports/frames/opening/contact-sheet.jpg"
+  ],
+  "_meta": {
+    "version": "0.8.189",
+    "updateAvailable": false
+  }
+}

@@ -1,0 +1,904 @@
+{
+  "ok": true,
+  "strict": false,
+  "browserSkipped": false,
+  "lint": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 1,
+    "infoCount": 0,
+    "findings": [
+      {
+        "code": "duplicate_media_discovery_risk",
+        "severity": "warning",
+        "message": "Detected 2 matching img entries with the same source/start/duration.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {},
+        "sourceFile": "/workspace/Mdaar21-new/creative/voice-ad-transitions/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Avoid duplicated media nodes that can be discovered twice during compilation."
+      }
+    ],
+    "filesScanned": 1
+  },
+  "runtime": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": []
+  },
+  "layout": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 21,
+    "findings": [
+      {
+        "code": "text_occluded",
+        "severity": "info",
+        "time": 4.655,
+        "selector": "#s1 > div:nth-of-type(1) > div:nth-of-type(3) > h2:nth-of-type(1)",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 498.2,
+          "top": 227.53,
+          "right": 782.92,
+          "bottom": 397.16,
+          "width": 284.72,
+          "height": 169.63
+        },
+        "containerSelector": "#s2",
+        "text": "مصادر…",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 498.2,
+          "y": 227.53,
+          "width": 284.72,
+          "height": 169.63
+        },
+        "firstSeen": 4.655,
+        "lastSeen": 4.655,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          4.655
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "info",
+        "time": 4.655,
+        "selector": "#s1 > div:nth-of-type(1) > div:nth-of-type(3) > h2:nth-of-type(1) > span:nth-of-type(1)",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 267.15,
+          "top": 227.53,
+          "right": 498.2,
+          "bottom": 397.16,
+          "width": 231.05,
+          "height": 169.63
+        },
+        "containerSelector": "#s2",
+        "text": "كثيرة.",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 267.15,
+          "y": 227.53,
+          "width": 231.05,
+          "height": 169.63
+        },
+        "firstSeen": 4.655,
+        "lastSeen": 4.655,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          4.655
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "info",
+        "time": 4.655,
+        "selector": "div.source-card.src1 > span:nth-of-type(1)",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 142.52,
+          "top": 445.17,
+          "right": 287.23,
+          "bottom": 532.88,
+          "width": 144.71,
+          "height": 87.71
+        },
+        "containerSelector": "#s2",
+        "text": "جدول جديد",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 142.52,
+          "y": 445.17,
+          "width": 144.71,
+          "height": 87.71
+        },
+        "firstSeen": 4.655,
+        "lastSeen": 4.655,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          4.655
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "info",
+        "time": 4.655,
+        "selector": "div.source-card.src2 > span:nth-of-type(1)",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 791,
+          "top": 478.53,
+          "right": 944.23,
+          "bottom": 566.08,
+          "width": 153.23,
+          "height": 87.55
+        },
+        "containerSelector": "#s2",
+        "text": "نصيحة ثانية",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 791,
+          "y": 478.53,
+          "width": 153.23,
+          "height": 87.55
+        },
+        "firstSeen": 4.655,
+        "lastSeen": 4.655,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          4.655
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "info",
+        "time": 4.655,
+        "selector": "div.source-card.src3 > span:nth-of-type(1)",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 172.36,
+          "top": 746.03,
+          "right": 314.75,
+          "bottom": 823.18,
+          "width": 142.39,
+          "height": 77.16
+        },
+        "containerSelector": "#s2",
+        "text": "طريقة ثانية",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 172.36,
+          "y": 746.03,
+          "width": 142.39,
+          "height": 77.16
+        },
+        "firstSeen": 4.655,
+        "lastSeen": 4.655,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          4.655
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "info",
+        "time": 4.655,
+        "selector": "div.source-card.src4 > span:nth-of-type(1)",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 774.68,
+          "top": 754.44,
+          "right": 935.35,
+          "bottom": 834.17,
+          "width": 160.67,
+          "height": 79.73
+        },
+        "containerSelector": "#s2",
+        "text": "أبدأ من وين؟",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 774.68,
+          "y": 754.44,
+          "width": 160.67,
+          "height": 79.73
+        },
+        "firstSeen": 4.655,
+        "lastSeen": 4.655,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          4.655
+        ]
+      },
+      {
+        "code": "container_overflow",
+        "severity": "info",
+        "time": 4.655,
+        "selector": "#s2 > div:nth-of-type(1)",
+        "message": "Element extends outside a clipping layout container.",
+        "rect": {
+          "left": -7.18,
+          "top": -12.26,
+          "right": 1087.18,
+          "bottom": 1933.28,
+          "width": 1094.36,
+          "height": 1945.54
+        },
+        "containerSelector": "#s2",
+        "fixHint": "Resize/reposition the child or container, or mark intentional overflow with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 0,
+          "top": 0,
+          "right": 1080,
+          "bottom": 1920,
+          "width": 1080,
+          "height": 1920
+        },
+        "overflow": {
+          "left": 7.18,
+          "right": 7.18,
+          "top": 12.26,
+          "bottom": 13.28
+        },
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": -7.18,
+          "y": -12.26,
+          "width": 1094.36,
+          "height": 1945.54
+        },
+        "firstSeen": 4.655,
+        "lastSeen": 4.655,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          4.655
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "info",
+        "time": 8.379,
+        "selector": "div.week-sheet > h3:nth-of-type(1)",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 352.31,
+          "top": 616.01,
+          "right": 677.32,
+          "bottom": 744.96,
+          "width": 325.01,
+          "height": 128.95
+        },
+        "containerSelector": "#s4",
+        "text": "جدول التمرين",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 352.31,
+          "y": 616.01,
+          "width": 325.01,
+          "height": 128.95
+        },
+        "firstSeen": 8.379,
+        "lastSeen": 8.379,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          8.379
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "info",
+        "time": 8.379,
+        "selector": "div.week-grid > div:nth-of-type(1)",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 697.34,
+          "top": 754.59,
+          "right": 765.73,
+          "bottom": 825.61,
+          "width": 68.39,
+          "height": 71.02
+        },
+        "containerSelector": "#s4",
+        "text": "علوي",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 697.34,
+          "y": 754.59,
+          "width": 68.39,
+          "height": 71.02
+        },
+        "firstSeen": 8.379,
+        "lastSeen": 8.379,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          8.379
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "info",
+        "time": 8.379,
+        "selector": "div.week-grid > div:nth-of-type(2)",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 555.99,
+          "top": 766.2,
+          "right": 632.99,
+          "bottom": 837.98,
+          "width": 77,
+          "height": 71.77
+        },
+        "containerSelector": "#s4",
+        "text": "سفلي",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 555.99,
+          "y": 766.2,
+          "width": 77,
+          "height": 71.77
+        },
+        "firstSeen": 8.379,
+        "lastSeen": 8.379,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          8.379
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "info",
+        "time": 8.379,
+        "selector": "div.week-grid > div:nth-of-type(3)",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 429.12,
+          "top": 779.08,
+          "right": 485.81,
+          "bottom": 849.08,
+          "width": 56.69,
+          "height": 70
+        },
+        "containerSelector": "#s4",
+        "text": "راحة",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 429.12,
+          "y": 779.08,
+          "width": 56.69,
+          "height": 70
+        },
+        "firstSeen": 8.379,
+        "lastSeen": 8.379,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          8.379
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "info",
+        "time": 8.379,
+        "selector": "div.week-grid > div:nth-of-type(4)",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 286.23,
+          "top": 790.56,
+          "right": 354.62,
+          "bottom": 861.58,
+          "width": 68.39,
+          "height": 71.02
+        },
+        "containerSelector": "#s4",
+        "text": "علوي",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 286.23,
+          "y": 790.56,
+          "width": 68.39,
+          "height": 71.02
+        },
+        "firstSeen": 8.379,
+        "lastSeen": 8.379,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          8.379
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "info",
+        "time": 8.379,
+        "selector": "div.week-grid > div:nth-of-type(5)",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 702.76,
+          "top": 865.43,
+          "right": 779.76,
+          "bottom": 937.21,
+          "width": 77,
+          "height": 71.77
+        },
+        "containerSelector": "#s4",
+        "text": "سفلي",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 702.76,
+          "y": 865.43,
+          "width": 77,
+          "height": 71.77
+        },
+        "firstSeen": 8.379,
+        "lastSeen": 8.379,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          8.379
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "info",
+        "time": 8.379,
+        "selector": "div.week-grid > div:nth-of-type(6)",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 575.89,
+          "top": 878.31,
+          "right": 632.58,
+          "bottom": 948.31,
+          "width": 56.69,
+          "height": 70
+        },
+        "containerSelector": "#s4",
+        "text": "راحة",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 575.89,
+          "y": 878.31,
+          "width": 56.69,
+          "height": 70
+        },
+        "firstSeen": 8.379,
+        "lastSeen": 8.379,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          8.379
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "info",
+        "time": 8.379,
+        "selector": "div.week-grid > div:nth-of-type(7)",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 438.85,
+          "top": 890.3,
+          "right": 495.54,
+          "bottom": 960.3,
+          "width": 56.69,
+          "height": 70
+        },
+        "containerSelector": "#s4",
+        "text": "راحة",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 438.85,
+          "y": 890.3,
+          "width": 56.69,
+          "height": 70
+        },
+        "firstSeen": 8.379,
+        "lastSeen": 8.379,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          8.379
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "info",
+        "time": 8.379,
+        "selector": "div.week-grid > div:nth-of-type(8)",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 314.38,
+          "top": 903.39,
+          "right": 345.92,
+          "bottom": 971.19,
+          "width": 31.54,
+          "height": 67.8
+        },
+        "containerSelector": "#s4",
+        "text": "✓",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 314.38,
+          "y": 903.39,
+          "width": 31.54,
+          "height": 67.8
+        },
+        "firstSeen": 8.379,
+        "lastSeen": 8.379,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          8.379
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "info",
+        "time": 8.379,
+        "selector": "div.check-mark",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 167.62,
+          "top": 1061.37,
+          "right": 259.49,
+          "bottom": 1233.82,
+          "width": 91.88,
+          "height": 172.45
+        },
+        "containerSelector": "#s4",
+        "text": "✓",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 167.62,
+          "y": 1061.37,
+          "width": 91.88,
+          "height": 172.45
+        },
+        "firstSeen": 8.379,
+        "lastSeen": 8.379,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          8.379
+        ]
+      },
+      {
+        "code": "container_overflow",
+        "severity": "info",
+        "time": 8.379,
+        "selector": "#s3 > div:nth-of-type(1)",
+        "message": "Element extends outside a clipping layout container.",
+        "rect": {
+          "left": 1.73,
+          "top": -36.1,
+          "right": 1078.27,
+          "bottom": 1877.75,
+          "width": 1076.54,
+          "height": 1913.86
+        },
+        "containerSelector": "#s3",
+        "fixHint": "Resize/reposition the child or container, or mark intentional overflow with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 0,
+          "top": 0,
+          "right": 1080,
+          "bottom": 1920,
+          "width": 1080,
+          "height": 1920
+        },
+        "overflow": {
+          "top": 36.1
+        },
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 1.73,
+          "y": -36.1,
+          "width": 1076.54,
+          "height": 1913.86
+        },
+        "firstSeen": 8.379,
+        "lastSeen": 8.379,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          8.379
+        ]
+      },
+      {
+        "code": "container_overflow",
+        "severity": "info",
+        "time": 32.586,
+        "selector": "img.recipe-first",
+        "message": "Element extends outside a clipping layout container.",
+        "rect": {
+          "left": 257.5,
+          "top": 363.33,
+          "right": 792.5,
+          "bottom": 1271.32,
+          "width": 535,
+          "height": 907.98
+        },
+        "containerSelector": "div.screen-frame.screen-recipes",
+        "fixHint": "Resize/reposition the child or container, or mark intentional overflow with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 252.5,
+          "top": 443.09,
+          "right": 797.5,
+          "bottom": 1138.09,
+          "width": 545,
+          "height": 695
+        },
+        "overflow": {
+          "top": 79.76,
+          "bottom": 133.23
+        },
+        "dataAttributes": {
+          "data-hf-render-id": "hf-media-6",
+          "data-hf-authored-opacity": ""
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 257.5,
+          "y": 363.33,
+          "width": 535,
+          "height": 907.98
+        },
+        "firstSeen": 32.586,
+        "lastSeen": 34.449,
+        "occurrences": 2,
+        "heldMs": 0,
+        "times": [
+          32.586,
+          34.449
+        ]
+      },
+      {
+        "code": "container_overflow",
+        "severity": "info",
+        "time": 34.449,
+        "selector": "img.recipe-scaled",
+        "message": "Element extends outside a clipping layout container.",
+        "rect": {
+          "left": 257.78,
+          "top": 328.69,
+          "right": 792.25,
+          "bottom": 1235.76,
+          "width": 534.47,
+          "height": 907.08
+        },
+        "containerSelector": "div.screen-frame.screen-recipes",
+        "fixHint": "Resize/reposition the child or container, or mark intentional overflow with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 252.79,
+          "top": 443.57,
+          "right": 797.24,
+          "bottom": 1137.88,
+          "width": 544.46,
+          "height": 694.3
+        },
+        "overflow": {
+          "top": 114.88,
+          "bottom": 97.88
+        },
+        "dataAttributes": {
+          "data-hf-render-id": "hf-media-7",
+          "data-hf-authored-opacity": "0"
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 257.78,
+          "y": 328.69,
+          "width": 534.47,
+          "height": 907.08
+        },
+        "firstSeen": 34.449,
+        "lastSeen": 34.449,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          34.449
+        ]
+      },
+      {
+        "code": "container_overflow",
+        "severity": "info",
+        "time": 34.449,
+        "selector": "#s14 > div:nth-of-type(1)",
+        "message": "Element extends outside a clipping layout container.",
+        "rect": {
+          "left": -9.18,
+          "top": -15.67,
+          "right": 1089.18,
+          "bottom": 1936.97,
+          "width": 1098.36,
+          "height": 1952.64
+        },
+        "containerSelector": "#s14",
+        "fixHint": "Resize/reposition the child or container, or mark intentional overflow with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 0,
+          "top": 0,
+          "right": 1080,
+          "bottom": 1920,
+          "width": 1080,
+          "height": 1920
+        },
+        "overflow": {
+          "left": 9.18,
+          "right": 9.18,
+          "top": 15.67,
+          "bottom": 16.97
+        },
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": -9.18,
+          "y": -15.67,
+          "width": 1098.36,
+          "height": 1952.64
+        },
+        "firstSeen": 34.449,
+        "lastSeen": 34.449,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          34.449
+        ]
+      }
+    ],
+    "duration": 39.103770833333336,
+    "samples": [
+      0.931,
+      2.793,
+      4.655,
+      6.517,
+      8.379,
+      10.241,
+      12.104,
+      13.966,
+      15.828,
+      17.69,
+      19.552,
+      21.414,
+      23.276,
+      25.138,
+      27,
+      28.862,
+      30.724,
+      32.586,
+      34.449,
+      36.311,
+      38.173
+    ],
+    "transitionSamples": [],
+    "transitionSamplesDropped": 0,
+    "tolerance": 2,
+    "totalIssueCount": 21,
+    "truncated": false
+  },
+  "motion": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "enabled": false,
+    "samples": 0
+  },
+  "contrast": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "enabled": true,
+    "samples": [
+      0.931,
+      10.241,
+      19.552,
+      28.862,
+      38.173
+    ],
+    "checked": 44,
+    "passed": 44
+  },
+  "craft": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "enabled": true,
+    "step": 0.125,
+    "samples": 313
+  },
+  "hdr": {
+    "autoPromotion": null,
+    "inspection": "available"
+  },
+  "snapshots": {
+    "enabled": false,
+    "files": [],
+    "times": [],
+    "findingFiles": []
+  },
+  "saved": {
+    "id": "03264ea6-168c-4abf-9ac0-5566c4c4408c",
+    "revision": null,
+    "report": "/workspace/Mdaar21-new/creative/voice-ad-transitions/.hyperframes/artifacts/checks/03264ea6-168c-4abf-9ac0-5566c4c4408c.json",
+    "attribution": "inputs-changed"
+  },
+  "_meta": {
+    "version": "0.8.189",
+    "updateAvailable": false
+  }
+}

@@ -1,0 +1,7 @@
+.hyperframes/
+renders/
+node_modules/
+__pycache__/
+reports/frames/
+reports/sequences/
+reports/encoded-frames/frame-*.png

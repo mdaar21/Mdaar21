@@ -1,0 +1,88 @@
+{
+  "ok": true,
+  "windows": [
+    {
+      "to": "s1",
+      "family": "diagonal",
+      "from": 1.355,
+      "playSeconds": 0.82
+    },
+    {
+      "to": "s2",
+      "family": "focus",
+      "from": 4.4050199999999995,
+      "playSeconds": 0.72
+    },
+    {
+      "to": "s3",
+      "family": "anchor",
+      "from": 6.26352,
+      "playSeconds": 0.78
+    },
+    {
+      "to": "s4",
+      "family": "parallax",
+      "from": 7.9935,
+      "playSeconds": 0.74
+    },
+    {
+      "to": "s5",
+      "family": "parallax",
+      "from": 10.393500000000001,
+      "playSeconds": 0.7
+    },
+    {
+      "to": "s6",
+      "family": "diagonal",
+      "from": 12.502790000000001,
+      "playSeconds": 0.8
+    },
+    {
+      "to": "s7",
+      "family": "parallax",
+      "from": 15.22279,
+      "playSeconds": 0.72
+    },
+    {
+      "to": "s8",
+      "family": "shutter",
+      "from": 18.9575,
+      "playSeconds": 0.94
+    },
+    {
+      "to": "s9",
+      "family": "anchor",
+      "from": 22.06429,
+      "playSeconds": 0.8
+    },
+    {
+      "to": "s10",
+      "family": "parallax",
+      "from": 25.36429,
+      "playSeconds": 0.7
+    },
+    {
+      "to": "s11",
+      "family": "anchor",
+      "from": 27.21302,
+      "playSeconds": 0.78
+    },
+    {
+      "to": "s12",
+      "family": "parallax",
+      "from": 31.21302,
+      "playSeconds": 0.76
+    },
+    {
+      "to": "s14",
+      "family": "focus",
+      "from": 34.21302,
+      "playSeconds": 0.92
+    }
+  ],
+  "actualBrowserAnimationFrames": 265,
+  "medianRAFIntervalMS": 33.30000000000109,
+  "p95RAFIntervalMS": 66.69999999999993,
+  "recording": "reports/motion-playback.webm",
+  "note": "Silent QA recording of actual browser playback, one window per handoff. Jumps between windows are intentional QA seeks, not transitions in the final film. RAF evidence is local performance, not a guarantee on all devices."
+}

@@ -1,0 +1,856 @@
+[
+  {
+    "start": 0.020000000000000004,
+    "end": 1.745,
+    "words": [
+      {
+        "id": "w0",
+        "text": "كلنا",
+        "start": 0.035,
+        "end": 0.455,
+        "sourceStart": 0.32,
+        "sourceEnd": 0.74
+      },
+      {
+        "id": "w1",
+        "text": "عارفين",
+        "start": 0.455,
+        "end": 0.775,
+        "sourceStart": 0.74,
+        "sourceEnd": 1.06
+      },
+      {
+        "id": "w2",
+        "text": "مشكلتك",
+        "start": 0.775,
+        "end": 1.255,
+        "sourceStart": 1.06,
+        "sourceEnd": 1.54
+      },
+      {
+        "id": "w3",
+        "text": "بالنادي.",
+        "start": 1.255,
+        "end": 1.635,
+        "sourceStart": 1.54,
+        "sourceEnd": 1.92
+      }
+    ]
+  },
+  {
+    "start": 2.04,
+    "end": 3.6,
+    "words": [
+      {
+        "id": "w4",
+        "text": "مصادر",
+        "start": 2.055,
+        "end": 2.455,
+        "sourceStart": 2.34,
+        "sourceEnd": 2.74
+      },
+      {
+        "id": "w5",
+        "text": "كثيرة",
+        "start": 2.455,
+        "end": 2.915,
+        "sourceStart": 2.74,
+        "sourceEnd": 3.2
+      },
+      {
+        "id": "w6",
+        "text": "وكل",
+        "start": 2.915,
+        "end": 3.295,
+        "sourceStart": 3.2,
+        "sourceEnd": 3.58
+      },
+      {
+        "id": "w7",
+        "text": "واحد",
+        "start": 3.295,
+        "end": 3.615,
+        "sourceStart": 3.58,
+        "sourceEnd": 3.9
+      }
+    ]
+  },
+  {
+    "start": 3.6,
+    "end": 4.735,
+    "words": [
+      {
+        "id": "w8",
+        "text": "يقولك",
+        "start": 3.615,
+        "end": 3.995,
+        "sourceStart": 3.9,
+        "sourceEnd": 4.28
+      },
+      {
+        "id": "w9",
+        "text": "شيء.",
+        "start": 3.935,
+        "end": 4.275,
+        "sourceStart": 4.22,
+        "sourceEnd": 4.56
+      },
+      {
+        "id": "w10",
+        "text": "صح؟",
+        "start": 4.295,
+        "end": 4.625,
+        "sourceStart": 4.58,
+        "sourceEnd": 4.91
+      }
+    ]
+  },
+  {
+    "start": 4.8485000000000005,
+    "end": 6.4735000000000005,
+    "words": [
+      {
+        "id": "w11",
+        "text": "طيب.",
+        "start": 4.8635,
+        "end": 5.2435,
+        "sourceStart": 5.52,
+        "sourceEnd": 5.9
+      },
+      {
+        "id": "w12",
+        "text": "خل",
+        "start": 5.3635,
+        "end": 5.5435,
+        "sourceStart": 6.02,
+        "sourceEnd": 6.2
+      },
+      {
+        "id": "w13",
+        "text": "أسألك",
+        "start": 5.5435,
+        "end": 5.9235,
+        "sourceStart": 6.2,
+        "sourceEnd": 6.58
+      },
+      {
+        "id": "w14",
+        "text": "سؤال.",
+        "start": 5.9235,
+        "end": 6.3635,
+        "sourceStart": 6.58,
+        "sourceEnd": 7.02
+      }
+    ]
+  },
+  {
+    "start": 6.6485,
+    "end": 7.4885,
+    "words": [
+      {
+        "id": "w15",
+        "text": "تلقى",
+        "start": 6.6635,
+        "end": 6.9835,
+        "sourceStart": 7.32,
+        "sourceEnd": 7.64
+      },
+      {
+        "id": "w16",
+        "text": "جدول؟",
+        "start": 6.9835,
+        "end": 7.5035,
+        "sourceStart": 7.64,
+        "sourceEnd": 8.16
+      }
+    ]
+  },
+  {
+    "start": 7.4885,
+    "end": 8.2335,
+    "words": [
+      {
+        "id": "w17",
+        "text": "أكيد",
+        "start": 7.5035,
+        "end": 7.7635,
+        "sourceStart": 8.16,
+        "sourceEnd": 8.42
+      },
+      {
+        "id": "w18",
+        "text": "تلقى.",
+        "start": 7.7635,
+        "end": 8.1235,
+        "sourceStart": 8.42,
+        "sourceEnd": 8.78
+      }
+    ]
+  },
+  {
+    "start": 8.4485,
+    "end": 9.808499999999999,
+    "words": [
+      {
+        "id": "w19",
+        "text": "بس",
+        "start": 8.4635,
+        "end": 8.6835,
+        "sourceStart": 9.36,
+        "sourceEnd": 9.58
+      },
+      {
+        "id": "w20",
+        "text": "بعدها",
+        "start": 8.6835,
+        "end": 9.1035,
+        "sourceStart": 9.58,
+        "sourceEnd": 10.0
+      },
+      {
+        "id": "w21",
+        "text": "وش",
+        "start": 9.1035,
+        "end": 9.3035,
+        "sourceStart": 10.0,
+        "sourceEnd": 10.2
+      },
+      {
+        "id": "w22",
+        "text": "يصير؟",
+        "start": 9.3035,
+        "end": 9.8235,
+        "sourceStart": 10.2,
+        "sourceEnd": 10.72
+      }
+    ]
+  },
+  {
+    "start": 9.808499999999999,
+    "end": 10.9085,
+    "words": [
+      {
+        "id": "w23",
+        "text": "أسئلة",
+        "start": 9.8235,
+        "end": 10.2035,
+        "sourceStart": 10.72,
+        "sourceEnd": 11.1
+      },
+      {
+        "id": "w24",
+        "text": "ما",
+        "start": 10.2035,
+        "end": 10.3835,
+        "sourceStart": 11.1,
+        "sourceEnd": 11.28
+      },
+      {
+        "id": "w25",
+        "text": "تنتهي.",
+        "start": 10.3835,
+        "end": 10.8435,
+        "sourceStart": 11.28,
+        "sourceEnd": 11.74
+      }
+    ]
+  },
+  {
+    "start": 10.9085,
+    "end": 11.9485,
+    "words": [
+      {
+        "id": "w26",
+        "text": "كيف",
+        "start": 10.9235,
+        "end": 11.1035,
+        "sourceStart": 11.82,
+        "sourceEnd": 12.0
+      },
+      {
+        "id": "w27",
+        "text": "أطبق؟",
+        "start": 11.1035,
+        "end": 11.9635,
+        "sourceStart": 12.0,
+        "sourceEnd": 12.86
+      }
+    ]
+  },
+  {
+    "start": 11.9485,
+    "end": 13.7678,
+    "words": [
+      {
+        "id": "w28",
+        "text": "وش",
+        "start": 11.9635,
+        "end": 12.1835,
+        "sourceStart": 12.86,
+        "sourceEnd": 13.08
+      },
+      {
+        "id": "w29",
+        "text": "آكل؟",
+        "start": 12.1835,
+        "end": 12.6035,
+        "sourceStart": 13.08,
+        "sourceEnd": 13.5
+      },
+      {
+        "id": "w30",
+        "text": "ويمكن",
+        "start": 12.8828,
+        "end": 13.3228,
+        "sourceStart": 14.2,
+        "sourceEnd": 14.64
+      },
+      {
+        "id": "w31",
+        "text": "تفكر",
+        "start": 13.3228,
+        "end": 13.7828,
+        "sourceStart": 14.64,
+        "sourceEnd": 15.1
+      }
+    ]
+  },
+  {
+    "start": 13.7678,
+    "end": 15.627799999999999,
+    "words": [
+      {
+        "id": "w32",
+        "text": "بمدرب",
+        "start": 13.7828,
+        "end": 14.3228,
+        "sourceStart": 15.1,
+        "sourceEnd": 15.64
+      },
+      {
+        "id": "w33",
+        "text": "شخصي",
+        "start": 14.3228,
+        "end": 14.8028,
+        "sourceStart": 15.64,
+        "sourceEnd": 16.12
+      },
+      {
+        "id": "w34",
+        "text": "يتابعك.",
+        "start": 14.8028,
+        "end": 15.5228,
+        "sourceStart": 16.12,
+        "sourceEnd": 16.84
+      }
+    ]
+  },
+  {
+    "start": 15.627799999999999,
+    "end": 16.587799999999998,
+    "words": [
+      {
+        "id": "w35",
+        "text": "بس",
+        "start": 15.6428,
+        "end": 15.8828,
+        "sourceStart": 16.96,
+        "sourceEnd": 17.2
+      },
+      {
+        "id": "w36",
+        "text": "أول",
+        "start": 15.8828,
+        "end": 16.2228,
+        "sourceStart": 17.2,
+        "sourceEnd": 17.54
+      },
+      {
+        "id": "w37",
+        "text": "ما",
+        "start": 16.2228,
+        "end": 16.3828,
+        "sourceStart": 17.54,
+        "sourceEnd": 17.7
+      },
+      {
+        "id": "w38",
+        "text": "تشوف",
+        "start": 16.3828,
+        "end": 16.6028,
+        "sourceStart": 17.7,
+        "sourceEnd": 17.92
+      }
+    ]
+  },
+  {
+    "start": 16.587799999999998,
+    "end": 18.087799999999998,
+    "words": [
+      {
+        "id": "w39",
+        "text": "التكلفة",
+        "start": 16.6028,
+        "end": 17.2028,
+        "sourceStart": 17.92,
+        "sourceEnd": 18.52
+      },
+      {
+        "id": "w40",
+        "text": "تحس",
+        "start": 17.2028,
+        "end": 17.5228,
+        "sourceStart": 18.52,
+        "sourceEnd": 18.84
+      },
+      {
+        "id": "w41",
+        "text": "إنها",
+        "start": 17.5228,
+        "end": 17.7628,
+        "sourceStart": 18.84,
+        "sourceEnd": 19.08
+      },
+      {
+        "id": "w42",
+        "text": "فوق",
+        "start": 17.7628,
+        "end": 18.1028,
+        "sourceStart": 19.08,
+        "sourceEnd": 19.42
+      }
+    ]
+  },
+  {
+    "start": 18.087799999999998,
+    "end": 19.2496,
+    "words": [
+      {
+        "id": "w43",
+        "text": "طاقتك.",
+        "start": 18.1028,
+        "end": 18.5628,
+        "sourceStart": 19.42,
+        "sourceEnd": 19.88
+      },
+      {
+        "id": "w44",
+        "text": "صح؟",
+        "start": 18.7796,
+        "end": 19.1396,
+        "sourceStart": 20.23,
+        "sourceEnd": 20.59
+      }
+    ]
+  },
+  {
+    "start": 19.3925,
+    "end": 20.4925,
+    "words": [
+      {
+        "id": "w45",
+        "text": "عشان",
+        "start": 19.4075,
+        "end": 19.8075,
+        "sourceStart": 21.34,
+        "sourceEnd": 21.74
+      },
+      {
+        "id": "w46",
+        "text": "كذا",
+        "start": 19.8075,
+        "end": 19.9875,
+        "sourceStart": 21.74,
+        "sourceEnd": 21.92
+      },
+      {
+        "id": "w47",
+        "text": "جبنا",
+        "start": 19.9875,
+        "end": 20.3075,
+        "sourceStart": 21.92,
+        "sourceEnd": 22.24
+      },
+      {
+        "id": "w48",
+        "text": "لك",
+        "start": 20.3075,
+        "end": 20.5075,
+        "sourceStart": 22.24,
+        "sourceEnd": 22.44
+      }
+    ]
+  },
+  {
+    "start": 20.4925,
+    "end": 22.3175,
+    "words": [
+      {
+        "id": "w49",
+        "text": "بروتوكول",
+        "start": 20.5075,
+        "end": 21.0675,
+        "sourceStart": 22.44,
+        "sourceEnd": 23.0
+      },
+      {
+        "id": "w50",
+        "text": "التحول",
+        "start": 21.0675,
+        "end": 21.6675,
+        "sourceStart": 23.0,
+        "sourceEnd": 23.6
+      },
+      {
+        "id": "w51",
+        "text": "من",
+        "start": 21.6675,
+        "end": 21.8675,
+        "sourceStart": 23.6,
+        "sourceEnd": 23.8
+      },
+      {
+        "id": "w52",
+        "text": "مدار.",
+        "start": 21.8675,
+        "end": 22.2075,
+        "sourceStart": 23.8,
+        "sourceEnd": 24.14
+      }
+    ]
+  },
+  {
+    "start": 22.3593,
+    "end": 24.2693,
+    "words": [
+      {
+        "id": "w53",
+        "text": "دليل",
+        "start": 22.3743,
+        "end": 22.8043,
+        "sourceStart": 24.5,
+        "sourceEnd": 24.93
+      },
+      {
+        "id": "w54",
+        "text": "رقمي",
+        "start": 22.8043,
+        "end": 23.2443,
+        "sourceStart": 24.93,
+        "sourceEnd": 25.37
+      },
+      {
+        "id": "w55",
+        "text": "مرتب",
+        "start": 23.2443,
+        "end": 23.8843,
+        "sourceStart": 25.37,
+        "sourceEnd": 26.01
+      },
+      {
+        "id": "w56",
+        "text": "فيه",
+        "start": 23.8843,
+        "end": 24.2843,
+        "sourceStart": 26.01,
+        "sourceEnd": 26.41
+      }
+    ]
+  },
+  {
+    "start": 24.2693,
+    "end": 26.2893,
+    "words": [
+      {
+        "id": "w57",
+        "text": "برامج",
+        "start": 24.2843,
+        "end": 24.6043,
+        "sourceStart": 26.41,
+        "sourceEnd": 26.73
+      },
+      {
+        "id": "w58",
+        "text": "تمارين",
+        "start": 24.6043,
+        "end": 25.0443,
+        "sourceStart": 26.73,
+        "sourceEnd": 27.17
+      },
+      {
+        "id": "w59",
+        "text": "واضحة",
+        "start": 25.0443,
+        "end": 25.6243,
+        "sourceStart": 27.17,
+        "sourceEnd": 27.75
+      },
+      {
+        "id": "w60",
+        "text": "وروابط",
+        "start": 25.8043,
+        "end": 26.3043,
+        "sourceStart": 27.93,
+        "sourceEnd": 28.43
+      }
+    ]
+  },
+  {
+    "start": 26.2893,
+    "end": 27.4943,
+    "words": [
+      {
+        "id": "w61",
+        "text": "شرح",
+        "start": 26.3043,
+        "end": 26.6643,
+        "sourceStart": 28.43,
+        "sourceEnd": 28.790000000000003
+      },
+      {
+        "id": "w62",
+        "text": "لكل",
+        "start": 26.6643,
+        "end": 26.9443,
+        "sourceStart": 28.790000000000003,
+        "sourceEnd": 29.07
+      },
+      {
+        "id": "w63",
+        "text": "تمرين.",
+        "start": 26.9443,
+        "end": 27.3843,
+        "sourceStart": 29.07,
+        "sourceEnd": 29.51
+      }
+    ]
+  },
+  {
+    "start": 27.538,
+    "end": 29.298,
+    "words": [
+      {
+        "id": "w64",
+        "text": "ومعه",
+        "start": 27.553,
+        "end": 28.103,
+        "sourceStart": 29.78,
+        "sourceEnd": 30.33
+      },
+      {
+        "id": "w65",
+        "text": "موقع",
+        "start": 28.103,
+        "end": 28.443,
+        "sourceStart": 30.33,
+        "sourceEnd": 30.669999999999998
+      },
+      {
+        "id": "w66",
+        "text": "مدار",
+        "start": 28.443,
+        "end": 28.873,
+        "sourceStart": 30.669999999999998,
+        "sourceEnd": 31.1
+      },
+      {
+        "id": "w67",
+        "text": "يحسب",
+        "start": 28.893,
+        "end": 29.313,
+        "sourceStart": 31.12,
+        "sourceEnd": 31.54
+      }
+    ]
+  },
+  {
+    "start": 29.298,
+    "end": 30.698,
+    "words": [
+      {
+        "id": "w68",
+        "text": "لك",
+        "start": 29.313,
+        "end": 29.533,
+        "sourceStart": 31.54,
+        "sourceEnd": 31.76
+      },
+      {
+        "id": "w69",
+        "text": "السعرات",
+        "start": 29.533,
+        "end": 30.053,
+        "sourceStart": 31.76,
+        "sourceEnd": 32.28
+      },
+      {
+        "id": "w70",
+        "text": "اللي",
+        "start": 30.053,
+        "end": 30.173,
+        "sourceStart": 32.28,
+        "sourceEnd": 32.4
+      },
+      {
+        "id": "w71",
+        "text": "تحتاجها",
+        "start": 30.173,
+        "end": 30.713,
+        "sourceStart": 32.4,
+        "sourceEnd": 32.94
+      }
+    ]
+  },
+  {
+    "start": 30.698,
+    "end": 32.998,
+    "words": [
+      {
+        "id": "w72",
+        "text": "يوميا",
+        "start": 30.713,
+        "end": 31.333,
+        "sourceStart": 32.94,
+        "sourceEnd": 33.56
+      },
+      {
+        "id": "w73",
+        "text": "ويعطيك",
+        "start": 31.333,
+        "end": 32.093,
+        "sourceStart": 33.56,
+        "sourceEnd": 34.32
+      },
+      {
+        "id": "w74",
+        "text": "وصفات",
+        "start": 32.093,
+        "end": 32.533,
+        "sourceStart": 34.32,
+        "sourceEnd": 34.76
+      },
+      {
+        "id": "w75",
+        "text": "كثيرة",
+        "start": 32.533,
+        "end": 33.013,
+        "sourceStart": 34.76,
+        "sourceEnd": 35.24
+      }
+    ]
+  },
+  {
+    "start": 32.998,
+    "end": 35.058,
+    "words": [
+      {
+        "id": "w76",
+        "text": "أكثر",
+        "start": 33.013,
+        "end": 33.473,
+        "sourceStart": 35.24,
+        "sourceEnd": 35.7
+      },
+      {
+        "id": "w77",
+        "text": "مما",
+        "start": 33.473,
+        "end": 33.693,
+        "sourceStart": 35.7,
+        "sourceEnd": 35.92
+      },
+      {
+        "id": "w78",
+        "text": "تتوقع",
+        "start": 33.693,
+        "end": 34.263,
+        "sourceStart": 35.92,
+        "sourceEnd": 36.49
+      },
+      {
+        "id": "w79",
+        "text": "اختار",
+        "start": 34.553,
+        "end": 35.073,
+        "sourceStart": 36.78,
+        "sourceEnd": 37.3
+      }
+    ]
+  },
+  {
+    "start": 35.058,
+    "end": 37.1302,
+    "words": [
+      {
+        "id": "w80",
+        "text": "جدولك",
+        "start": 35.073,
+        "end": 35.653,
+        "sourceStart": 37.3,
+        "sourceEnd": 37.88
+      },
+      {
+        "id": "w81",
+        "text": "وصفاتك",
+        "start": 35.653,
+        "end": 36.393,
+        "sourceStart": 37.88,
+        "sourceEnd": 38.62
+      },
+      {
+        "id": "w82",
+        "text": "اللي",
+        "start": 36.393,
+        "end": 36.473,
+        "sourceStart": 38.62,
+        "sourceEnd": 38.7
+      },
+      {
+        "id": "w83",
+        "text": "تناسبك",
+        "start": 36.473,
+        "end": 37.023,
+        "sourceStart": 38.7,
+        "sourceEnd": 39.25
+      }
+    ]
+  },
+  {
+    "start": 37.1302,
+    "end": 39.0152,
+    "words": [
+      {
+        "id": "w84",
+        "text": "ومع",
+        "start": 37.1452,
+        "end": 37.6452,
+        "sourceStart": 39.5,
+        "sourceEnd": 40.0
+      },
+      {
+        "id": "w85",
+        "text": "مدار",
+        "start": 37.6452,
+        "end": 38.1052,
+        "sourceStart": 40.0,
+        "sourceEnd": 40.46
+      },
+      {
+        "id": "w86",
+        "text": "ابدأ",
+        "start": 38.1052,
+        "end": 38.4652,
+        "sourceStart": 40.46,
+        "sourceEnd": 40.82
+      },
+      {
+        "id": "w87",
+        "text": "مدارك",
+        "start": 38.4652,
+        "end": 38.9052,
+        "sourceStart": 40.82,
+        "sourceEnd": 41.26
+      }
+    ]
+  }
+]

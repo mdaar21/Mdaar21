@@ -1,0 +1,191 @@
+{
+  "ok": true,
+  "distinctFamilies": 5,
+  "transitions": [
+    {
+      "from": "s0",
+      "to": "s1",
+      "family": "diagonal",
+      "start": 1.435,
+      "duration": 0.58,
+      "oldFullyVisibleAtStart": true,
+      "settlesToNewScene": true,
+      "orderedFrames": 7,
+      "settledCamera": {
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "filter": "blur(0px)"
+      }
+    },
+    {
+      "from": "s1",
+      "to": "s2",
+      "family": "focus",
+      "start": 4.48502,
+      "duration": 0.48,
+      "oldFullyVisibleAtStart": true,
+      "settlesToNewScene": true,
+      "orderedFrames": 7,
+      "settledCamera": {
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "filter": "blur(0px)"
+      }
+    },
+    {
+      "from": "s2",
+      "to": "s3",
+      "family": "anchor",
+      "start": 6.34352,
+      "duration": 0.54,
+      "oldFullyVisibleAtStart": true,
+      "settlesToNewScene": true,
+      "orderedFrames": 7,
+      "settledCamera": {
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "filter": "blur(0px)"
+      }
+    },
+    {
+      "from": "s3",
+      "to": "s4",
+      "family": "parallax",
+      "start": 8.073500000000001,
+      "duration": 0.5,
+      "oldFullyVisibleAtStart": true,
+      "settlesToNewScene": true,
+      "orderedFrames": 7,
+      "settledCamera": {
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "filter": "blur(0px)"
+      }
+    },
+    {
+      "from": "s4",
+      "to": "s5",
+      "family": "parallax",
+      "start": 10.473500000000001,
+      "duration": 0.46,
+      "oldFullyVisibleAtStart": true,
+      "settlesToNewScene": true,
+      "orderedFrames": 7,
+      "settledCamera": {
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "filter": "blur(0px)"
+      }
+    },
+    {
+      "from": "s5",
+      "to": "s6",
+      "family": "diagonal",
+      "start": 12.582790000000001,
+      "duration": 0.56,
+      "oldFullyVisibleAtStart": true,
+      "settlesToNewScene": true,
+      "orderedFrames": 7,
+      "settledCamera": {
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "filter": "blur(0px)"
+      }
+    },
+    {
+      "from": "s6",
+      "to": "s7",
+      "family": "parallax",
+      "start": 15.30279,
+      "duration": 0.48,
+      "oldFullyVisibleAtStart": true,
+      "settlesToNewScene": true,
+      "orderedFrames": 7,
+      "settledCamera": {
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "filter": "blur(0px)"
+      }
+    },
+    {
+      "from": "s7",
+      "to": "s8",
+      "family": "shutter",
+      "start": 19.037499999999998,
+      "duration": 0.7,
+      "oldFullyVisibleAtStart": true,
+      "settlesToNewScene": true,
+      "orderedFrames": 7,
+      "settledCamera": {
+        "transform": "none",
+        "filter": "none"
+      }
+    },
+    {
+      "from": "s8",
+      "to": "s9",
+      "family": "anchor",
+      "start": 22.144289999999998,
+      "duration": 0.56,
+      "oldFullyVisibleAtStart": true,
+      "settlesToNewScene": true,
+      "orderedFrames": 7,
+      "settledCamera": {
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "filter": "blur(0px)"
+      }
+    },
+    {
+      "from": "s9",
+      "to": "s10",
+      "family": "parallax",
+      "start": 25.44429,
+      "duration": 0.46,
+      "oldFullyVisibleAtStart": true,
+      "settlesToNewScene": true,
+      "orderedFrames": 7,
+      "settledCamera": {
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "filter": "blur(0px)"
+      }
+    },
+    {
+      "from": "s10",
+      "to": "s11",
+      "family": "anchor",
+      "start": 27.29302,
+      "duration": 0.54,
+      "oldFullyVisibleAtStart": true,
+      "settlesToNewScene": true,
+      "orderedFrames": 7,
+      "settledCamera": {
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "filter": "blur(0px)"
+      }
+    },
+    {
+      "from": "s11",
+      "to": "s12",
+      "family": "parallax",
+      "start": 31.29302,
+      "duration": 0.52,
+      "oldFullyVisibleAtStart": true,
+      "settlesToNewScene": true,
+      "orderedFrames": 7,
+      "settledCamera": {
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "filter": "blur(0px)"
+      }
+    },
+    {
+      "from": "s12",
+      "to": "s14",
+      "family": "focus",
+      "start": 34.29302,
+      "duration": 0.68,
+      "oldFullyVisibleAtStart": true,
+      "settlesToNewScene": true,
+      "orderedFrames": 7,
+      "settledCamera": {
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "filter": "blur(0px)"
+      }
+    }
+  ],
+  "reverseMidpointSeeksIdentical": true,
+  "runtimeErrors": [],
+  "scope": "Ordered moving-phase screenshots and browser state checks; not an audience study."
+}

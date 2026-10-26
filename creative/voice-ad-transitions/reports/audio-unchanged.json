@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "acceptedAudioFrom": "../../public/ad/voice-original/mdaar_tiktok_v10_original_clear.mp4",
+  "aacPacketHashes": [
+    "SHA256=09039078965a9e2f6f89c276c3a37e220a726603104a176529a15d6324312897",
+    "SHA256=09039078965a9e2f6f89c276c3a37e220a726603104a176529a15d6324312897"
+  ],
+  "decodedStereo48kSamplesIdentical": true,
+  "decodedSamples": 1876992,
+  "audioReencoded": false,
+  "audioProcessingChanged": false,
+  "musicAdded": false,
+  "acceptedMasterWavSha256": "7502dc1118a0abbfb3d16be997de786ad30b0e34500acf9cc41048ebf1cb2b27"
+}

@@ -1,0 +1,86 @@
+{
+  "ok": true,
+  "changedEncodedHandoffs": 13,
+  "distinctFamilies": 5,
+  "comparisons": [
+    {
+      "to": "s1",
+      "family": "diagonal",
+      "time": 1.725,
+      "meanAbsoluteRGBChange": 153.7227020263672
+    },
+    {
+      "to": "s2",
+      "family": "focus",
+      "time": 4.72502,
+      "meanAbsoluteRGBChange": 104.23298645019531
+    },
+    {
+      "to": "s3",
+      "family": "anchor",
+      "time": 6.613519999999999,
+      "meanAbsoluteRGBChange": 50.21370315551758
+    },
+    {
+      "to": "s4",
+      "family": "parallax",
+      "time": 8.323500000000001,
+      "meanAbsoluteRGBChange": 69.00759887695312
+    },
+    {
+      "to": "s5",
+      "family": "parallax",
+      "time": 10.703500000000002,
+      "meanAbsoluteRGBChange": 24.27227783203125
+    },
+    {
+      "to": "s6",
+      "family": "diagonal",
+      "time": 12.86279,
+      "meanAbsoluteRGBChange": 19.63395118713379
+    },
+    {
+      "to": "s7",
+      "family": "parallax",
+      "time": 15.54279,
+      "meanAbsoluteRGBChange": 8.498257637023926
+    },
+    {
+      "to": "s8",
+      "family": "shutter",
+      "time": 19.3875,
+      "meanAbsoluteRGBChange": 103.31697082519531
+    },
+    {
+      "to": "s9",
+      "family": "anchor",
+      "time": 22.42429,
+      "meanAbsoluteRGBChange": 13.576664924621582
+    },
+    {
+      "to": "s10",
+      "family": "parallax",
+      "time": 25.67429,
+      "meanAbsoluteRGBChange": 7.537692546844482
+    },
+    {
+      "to": "s11",
+      "family": "anchor",
+      "time": 27.563019999999998,
+      "meanAbsoluteRGBChange": 8.822174072265625
+    },
+    {
+      "to": "s12",
+      "family": "parallax",
+      "time": 31.55302,
+      "meanAbsoluteRGBChange": 7.4009013175964355
+    },
+    {
+      "to": "s14",
+      "family": "focus",
+      "time": 34.63302,
+      "meanAbsoluteRGBChange": 13.737456321716309
+    }
+  ],
+  "note": "Encoded frame differences confirm the delivered handoffs changed; pixel differences do not score artistic quality."
+}

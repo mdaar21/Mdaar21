@@ -1,0 +1,186 @@
+{
+  "fileSha256": "e275b71cc9afcc6542f3afae732f856ef6f28471908df8938489c7218f033073",
+  "frames": [
+    {
+      "to": "s1",
+      "family": "diagonal",
+      "phase": 0,
+      "seconds": 1.435
+    },
+    {
+      "to": "s1",
+      "family": "diagonal",
+      "phase": 0.2,
+      "seconds": 1.5510000000000002
+    },
+    {
+      "to": "s1",
+      "family": "diagonal",
+      "phase": 0.4,
+      "seconds": 1.667
+    },
+    {
+      "to": "s1",
+      "family": "diagonal",
+      "phase": 0.6,
+      "seconds": 1.783
+    },
+    {
+      "to": "s1",
+      "family": "diagonal",
+      "phase": 0.8,
+      "seconds": 1.899
+    },
+    {
+      "to": "s1",
+      "family": "diagonal",
+      "phase": 1,
+      "seconds": 2.015
+    },
+    {
+      "to": "s3",
+      "family": "anchor",
+      "phase": 0,
+      "seconds": 6.34352
+    },
+    {
+      "to": "s3",
+      "family": "anchor",
+      "phase": 0.2,
+      "seconds": 6.4515199999999995
+    },
+    {
+      "to": "s3",
+      "family": "anchor",
+      "phase": 0.4,
+      "seconds": 6.55952
+    },
+    {
+      "to": "s3",
+      "family": "anchor",
+      "phase": 0.6,
+      "seconds": 6.66752
+    },
+    {
+      "to": "s3",
+      "family": "anchor",
+      "phase": 0.8,
+      "seconds": 6.77552
+    },
+    {
+      "to": "s3",
+      "family": "anchor",
+      "phase": 1,
+      "seconds": 6.88352
+    },
+    {
+      "to": "s8",
+      "family": "shutter",
+      "phase": 0,
+      "seconds": 19.037499999999998
+    },
+    {
+      "to": "s8",
+      "family": "shutter",
+      "phase": 0.2,
+      "seconds": 19.1775
+    },
+    {
+      "to": "s8",
+      "family": "shutter",
+      "phase": 0.4,
+      "seconds": 19.3175
+    },
+    {
+      "to": "s8",
+      "family": "shutter",
+      "phase": 0.6,
+      "seconds": 19.4575
+    },
+    {
+      "to": "s8",
+      "family": "shutter",
+      "phase": 0.8,
+      "seconds": 19.597499999999997
+    },
+    {
+      "to": "s8",
+      "family": "shutter",
+      "phase": 1,
+      "seconds": 19.737499999999997
+    },
+    {
+      "to": "s4",
+      "family": "parallax",
+      "phase": 0,
+      "seconds": 8.073500000000001
+    },
+    {
+      "to": "s4",
+      "family": "parallax",
+      "phase": 0.2,
+      "seconds": 8.1735
+    },
+    {
+      "to": "s4",
+      "family": "parallax",
+      "phase": 0.4,
+      "seconds": 8.2735
+    },
+    {
+      "to": "s4",
+      "family": "parallax",
+      "phase": 0.6,
+      "seconds": 8.373500000000002
+    },
+    {
+      "to": "s4",
+      "family": "parallax",
+      "phase": 0.8,
+      "seconds": 8.473500000000001
+    },
+    {
+      "to": "s4",
+      "family": "parallax",
+      "phase": 1,
+      "seconds": 8.573500000000001
+    },
+    {
+      "to": "s2",
+      "family": "focus",
+      "phase": 0,
+      "seconds": 4.48502
+    },
+    {
+      "to": "s2",
+      "family": "focus",
+      "phase": 0.2,
+      "seconds": 4.58102
+    },
+    {
+      "to": "s2",
+      "family": "focus",
+      "phase": 0.4,
+      "seconds": 4.67702
+    },
+    {
+      "to": "s2",
+      "family": "focus",
+      "phase": 0.6,
+      "seconds": 4.77302
+    },
+    {
+      "to": "s2",
+      "family": "focus",
+      "phase": 0.8,
+      "seconds": 4.86902
+    },
+    {
+      "to": "s2",
+      "family": "focus",
+      "phase": 1,
+      "seconds": 4.965019999999999
+    }
+  ],
+  "output": "reports/encoded-handoffs.jpg"
+}
