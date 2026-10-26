@@ -1,0 +1,144 @@
+{
+  "voiceReplaced": true,
+  "voice": "ar-SA-HamedNeural",
+  "humanRecording": false,
+  "pitchProcessing": false,
+  "postSynthesisTimeStretch": false,
+  "denoising": false,
+  "dereverb": false,
+  "compression": false,
+  "eq": false,
+  "voiceStaticGainDB": -2.3,
+  "nativeLoudness": {
+    "integratedLUFS": -18.45,
+    "truePeakDBTP": -2.2,
+    "loudnessRangeLU": 2.1
+  },
+  "voiceLoudness": {
+    "integratedLUFS": -20.75,
+    "truePeakDBTP": -4.5,
+    "loudnessRangeLU": 2.1
+  },
+  "finalMixLoudness": {
+    "integratedLUFS": -20.72,
+    "truePeakDBTP": -4.42,
+    "loudnessRangeLU": 2.1
+  },
+  "effects": [
+    {
+      "scene": "s0",
+      "time": 0.38,
+      "source": "pop",
+      "seconds": 0.08160416666666667,
+      "rmsDBFS": -36.617279052734375
+    },
+    {
+      "scene": "s1",
+      "time": 2.62725,
+      "source": "whoosh-short",
+      "seconds": 0.2835625,
+      "rmsDBFS": -34.35667419433594
+    },
+    {
+      "scene": "s2",
+      "time": 6.42,
+      "source": "click",
+      "seconds": 0.15,
+      "rmsDBFS": -34.673519134521484
+    },
+    {
+      "scene": "s3",
+      "time": 8.459999999999999,
+      "source": "click-soft",
+      "seconds": 0.15747916666666667,
+      "rmsDBFS": -33.988155364990234
+    },
+    {
+      "scene": "s4",
+      "time": 10.891291666666667,
+      "source": "pop",
+      "seconds": 0.08160416666666667,
+      "rmsDBFS": -32.5877685546875
+    },
+    {
+      "scene": "s4",
+      "time": 11.281291666666668,
+      "source": "pop",
+      "seconds": 0.08160416666666667,
+      "rmsDBFS": -36.4296760559082
+    },
+    {
+      "scene": "s5",
+      "time": 13.272625,
+      "source": "whoosh-short",
+      "seconds": 0.2835625,
+      "rmsDBFS": -34.09369659423828
+    },
+    {
+      "scene": "s6",
+      "time": 16.029,
+      "source": "click-soft",
+      "seconds": 0.15747916666666667,
+      "rmsDBFS": -37.670772552490234
+    },
+    {
+      "scene": "s7",
+      "time": 19.794916666666666,
+      "source": "pop",
+      "seconds": 0.08160416666666667,
+      "rmsDBFS": -36.616878509521484
+    },
+    {
+      "scene": "s8",
+      "time": 22.570375000000002,
+      "source": "whoosh-short",
+      "seconds": 0.2835625,
+      "rmsDBFS": -31.65532875061035
+    },
+    {
+      "scene": "s9",
+      "time": 26.754,
+      "source": "click",
+      "seconds": 0.15747916666666667,
+      "rmsDBFS": -34.23118591308594
+    },
+    {
+      "scene": "s10",
+      "time": 30.257166666666667,
+      "source": "click",
+      "seconds": 0.15747916666666667,
+      "rmsDBFS": -34.86988830566406
+    },
+    {
+      "scene": "s11",
+      "time": 32.514,
+      "source": "click-soft",
+      "seconds": 0.15747916666666667,
+      "rmsDBFS": -34.21251678466797
+    },
+    {
+      "scene": "s12",
+      "time": 36.90441666666667,
+      "source": "whoosh-short",
+      "seconds": 0.2835625,
+      "rmsDBFS": -33.83781051635742
+    },
+    {
+      "scene": "s12",
+      "time": 38.55441666666667,
+      "source": "click",
+      "seconds": 0.15747916666666667,
+      "rmsDBFS": -31.087299346923828
+    },
+    {
+      "scene": "s14",
+      "time": 41.302166666666665,
+      "source": "whoosh-short",
+      "seconds": 0.2835625,
+      "rmsDBFS": -31.76883888244629
+    }
+  ],
+  "musicAdded": false,
+  "clippedSamples": 0,
+  "note": "Fresh authorized Saudi catalog narration. No old recording or voice clone in the output."
+}

@@ -1,0 +1,4 @@
+# Preserve upstream licence/vendor text and verbatim diagnostic output.
+FONT-LICENSE.txt -whitespace
+assets/gsap.min.js -whitespace
+reports/*.log -whitespace

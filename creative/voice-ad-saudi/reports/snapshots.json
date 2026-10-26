@@ -1,0 +1,45 @@
+{
+  "ok": true,
+  "outputDir": "/workspace/Mdaar21-new/creative/voice-ad-saudi/reports/frames",
+  "frames": [
+    {
+      "path": "/workspace/Mdaar21-new/creative/voice-ad-saudi/reports/frames/frame-00-at-1.2s.png",
+      "time": 1.2
+    },
+    {
+      "path": "/workspace/Mdaar21-new/creative/voice-ad-saudi/reports/frames/frame-01-at-4.7s.png",
+      "time": 4.7
+    },
+    {
+      "path": "/workspace/Mdaar21-new/creative/voice-ad-saudi/reports/frames/frame-02-at-24.5s.png",
+      "time": 24.5
+    },
+    {
+      "path": "/workspace/Mdaar21-new/creative/voice-ad-saudi/reports/frames/frame-03-at-28s.png",
+      "time": 28
+    },
+    {
+      "path": "/workspace/Mdaar21-new/creative/voice-ad-saudi/reports/frames/frame-04-at-34.5s.png",
+      "time": 34.5
+    },
+    {
+      "path": "/workspace/Mdaar21-new/creative/voice-ad-saudi/reports/frames/frame-05-at-39.5s.png",
+      "time": 39.5
+    },
+    {
+      "path": "/workspace/Mdaar21-new/creative/voice-ad-saudi/reports/frames/frame-06-at-43.5s.png",
+      "time": 43.5
+    },
+    {
+      "path": "/workspace/Mdaar21-new/creative/voice-ad-saudi/reports/frames/frame-07-at-43.814s.png",
+      "time": 43.814
+    }
+  ],
+  "contactSheets": [
+    "/workspace/Mdaar21-new/creative/voice-ad-saudi/reports/frames/contact-sheet.jpg"
+  ],
+  "_meta": {
+    "version": "0.8.189",
+    "updateAvailable": false
+  }
+}

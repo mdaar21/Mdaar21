@@ -1,0 +1,14 @@
+{
+  "provider": "Microsoft Edge online speech catalog",
+  "voice": "ar-SA-HamedNeural",
+  "locale": "ar-SA",
+  "rate": "+10%",
+  "pitch": "+0Hz",
+  "clips": 14,
+  "boundary": "WordBoundary",
+  "ownerSelectedNewNarrator": true,
+  "humanRecording": false,
+  "voiceCloning": false,
+  "reason": "Owner requested a different Saudi narrator. No HeyGen/ElevenLabs credentials configured; Arabic is unsupported by local Kokoro. Online Saudi catalog voice selected explicitly for locale; no silent local fallback.",
+  "tlsVerification": true
+}

@@ -1,0 +1,33 @@
+{
+  "ok": true,
+  "metadata": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "width": 1080,
+        "height": 1920,
+        "r_frame_rate": "60/1"
+      },
+      {
+        "codec_name": "aac",
+        "sample_rate": "48000",
+        "channels": 2,
+        "r_frame_rate": "0/0"
+      }
+    ],
+    "format": {
+      "duration": "45.183333",
+      "size": "9720802"
+    }
+  },
+  "sha256": "5a73d0b21577e9f950b3f5d157a187085bf818214c2024ef9463b8720768212a",
+  "fastStartMoovBeforeMdat": true,
+  "aacAudioCorrelationWithApprovedMix": 0.9999109286908876,
+  "audioDurationDeviationSeconds": 0.0145625,
+  "encodedFramesExtracted": 14,
+  "musicAdded": false,
+  "captionsBurnedIntoVideo": true,
+  "limits": "Local encoded file validation; no TikTok campaign or marketing outcome measurement."
+}

@@ -1,0 +1,12 @@
+{
+  "video": {
+    "integratedLUFS": -20.75,
+    "truePeakDBTP": -4.45,
+    "loudnessRangeLU": 2.2
+  },
+  "voiceOnlyMP3": {
+    "integratedLUFS": -20.75,
+    "truePeakDBTP": -4.5,
+    "loudnessRangeLU": 2.1
+  }
+}

@@ -1,0 +1,772 @@
+[
+  {
+    "start": 0.065,
+    "end": 2.4172499999999997,
+    "words": [
+      {
+        "text": "كلنا",
+        "start": 0.08,
+        "end": 0.44362,
+        "scene": "s0",
+        "providerStart": 0.095458,
+        "providerEnd": 0.459083
+      },
+      {
+        "text": "عارفين",
+        "start": 0.455,
+        "end": 1.01183,
+        "scene": "s0",
+        "providerStart": 0.470458,
+        "providerEnd": 1.027291
+      },
+      {
+        "text": "مشكلتك",
+        "start": 1.02317,
+        "end": 1.71633,
+        "scene": "s0",
+        "providerStart": 1.038625,
+        "providerEnd": 1.731791
+      },
+      {
+        "text": "بالنادي.",
+        "start": 1.72771,
+        "end": 2.30725,
+        "scene": "s0",
+        "providerStart": 1.743166,
+        "providerEnd": 2.322707
+      }
+    ]
+  },
+  {
+    "start": 2.55225,
+    "end": 4.81362,
+    "words": [
+      {
+        "text": "مصادر",
+        "start": 2.56725,
+        "end": 3.16954,
+        "scene": "s1",
+        "providerStart": 0.095458,
+        "providerEnd": 0.697749
+      },
+      {
+        "text": "كثيرة،",
+        "start": 3.18087,
+        "end": 3.77179,
+        "scene": "s1",
+        "providerStart": 0.709083,
+        "providerEnd": 1.299999
+      },
+      {
+        "text": "وكل",
+        "start": 3.97633,
+        "end": 4.39679,
+        "scene": "s1",
+        "providerStart": 1.504541,
+        "providerEnd": 1.924999
+      },
+      {
+        "text": "واحد",
+        "start": 4.40817,
+        "end": 4.81725,
+        "scene": "s1",
+        "providerStart": 1.936375,
+        "providerEnd": 2.345458
+      }
+    ]
+  },
+  {
+    "start": 4.81362,
+    "end": 5.95,
+    "words": [
+      {
+        "text": "يقول",
+        "start": 4.82862,
+        "end": 5.24908,
+        "scene": "s1",
+        "providerStart": 2.356833,
+        "providerEnd": 2.777291
+      },
+      {
+        "text": "لك",
+        "start": 5.26042,
+        "end": 5.47633,
+        "scene": "s1",
+        "providerStart": 2.788625,
+        "providerEnd": 3.004541
+      },
+      {
+        "text": "شي.",
+        "start": 5.48771,
+        "end": 5.84,
+        "scene": "s1",
+        "providerStart": 3.015916,
+        "providerEnd": 3.368207
+      }
+    ]
+  },
+  {
+    "start": 6.085,
+    "end": 7.96,
+    "words": [
+      {
+        "text": "طيب،",
+        "start": 6.1,
+        "end": 6.57729,
+        "scene": "s2",
+        "providerStart": 0.095458,
+        "providerEnd": 0.572749
+      },
+      {
+        "text": "خلني",
+        "start": 6.78183,
+        "end": 7.16821,
+        "scene": "s2",
+        "providerStart": 0.777291,
+        "providerEnd": 1.163666
+      },
+      {
+        "text": "أسألك.",
+        "start": 7.17954,
+        "end": 7.85,
+        "scene": "s2",
+        "providerStart": 1.175,
+        "providerEnd": 1.845458
+      }
+    ]
+  },
+  {
+    "start": 8.094999999999999,
+    "end": 9.15179,
+    "words": [
+      {
+        "text": "تلقى",
+        "start": 8.11,
+        "end": 8.50771,
+        "scene": "s3",
+        "providerStart": 0.095458,
+        "providerEnd": 0.493166
+      },
+      {
+        "text": "جدول؟",
+        "start": 8.51908,
+        "end": 9.04179,
+        "scene": "s3",
+        "providerStart": 0.504541,
+        "providerEnd": 1.027249
+      }
+    ]
+  },
+  {
+    "start": 9.37679,
+    "end": 10.33129,
+    "words": [
+      {
+        "text": "أكيد",
+        "start": 9.39179,
+        "end": 9.76679,
+        "scene": "s3",
+        "providerStart": 1.806833,
+        "providerEnd": 2.181833
+      },
+      {
+        "text": "تلقى.",
+        "start": 9.77812,
+        "end": 10.22129,
+        "scene": "s3",
+        "providerStart": 2.193166,
+        "providerEnd": 2.636332
+      }
+    ]
+  },
+  {
+    "start": 10.466289999999999,
+    "end": 12.40946,
+    "words": [
+      {
+        "text": "بس",
+        "start": 10.48129,
+        "end": 10.84492,
+        "scene": "s4",
+        "providerStart": 0.095458,
+        "providerEnd": 0.459083
+      },
+      {
+        "text": "بعدها،",
+        "start": 10.85629,
+        "end": 11.46992,
+        "scene": "s4",
+        "providerStart": 0.470458,
+        "providerEnd": 1.084083
+      },
+      {
+        "text": "أسئلة",
+        "start": 11.67446,
+        "end": 12.27675,
+        "scene": "s4",
+        "providerStart": 1.288625,
+        "providerEnd": 1.890916
+      },
+      {
+        "text": "ما",
+        "start": 12.28812,
+        "end": 12.41312,
+        "scene": "s4",
+        "providerStart": 1.902291,
+        "providerEnd": 2.027291
+      }
+    ]
+  },
+  {
+    "start": 12.40946,
+    "end": 14.317169999999999,
+    "words": [
+      {
+        "text": "تنتهي.",
+        "start": 12.42446,
+        "end": 12.99262,
+        "scene": "s4",
+        "providerStart": 2.038625,
+        "providerEnd": 2.606791
+      },
+      {
+        "text": "كيف",
+        "start": 13.25262,
+        "end": 13.54808,
+        "scene": "s5",
+        "providerStart": 0.095458,
+        "providerEnd": 0.390916
+      },
+      {
+        "text": "أطبق؟",
+        "start": 13.55946,
+        "end": 14.20717,
+        "scene": "s5",
+        "providerStart": 0.402291,
+        "providerEnd": 1.049999
+      }
+    ]
+  },
+  {
+    "start": 14.542169999999999,
+    "end": 15.599,
+    "words": [
+      {
+        "text": "وش",
+        "start": 14.55717,
+        "end": 14.85262,
+        "scene": "s5",
+        "providerStart": 1.829541,
+        "providerEnd": 2.124999
+      },
+      {
+        "text": "آكل؟",
+        "start": 14.864,
+        "end": 15.489,
+        "scene": "s5",
+        "providerStart": 2.136375,
+        "providerEnd": 2.761375
+      }
+    ]
+  },
+  {
+    "start": 15.734,
+    "end": 17.93854,
+    "words": [
+      {
+        "text": "ويمكن",
+        "start": 15.749,
+        "end": 16.31717,
+        "scene": "s6",
+        "providerStart": 0.095458,
+        "providerEnd": 0.663624
+      },
+      {
+        "text": "تفكر",
+        "start": 16.32854,
+        "end": 16.78308,
+        "scene": "s6",
+        "providerStart": 0.675,
+        "providerEnd": 1.129541
+      },
+      {
+        "text": "بمدرب",
+        "start": 16.79446,
+        "end": 17.40808,
+        "scene": "s6",
+        "providerStart": 1.140916,
+        "providerEnd": 1.754541
+      },
+      {
+        "text": "شخصي",
+        "start": 17.41946,
+        "end": 17.94217,
+        "scene": "s6",
+        "providerStart": 1.765916,
+        "providerEnd": 2.288624
+      }
+    ]
+  },
+  {
+    "start": 17.93854,
+    "end": 20.63037,
+    "words": [
+      {
+        "text": "يتابعك.",
+        "start": 17.95354,
+        "end": 18.71492,
+        "scene": "s6",
+        "providerStart": 2.3,
+        "providerEnd": 3.061375
+      },
+      {
+        "text": "بس",
+        "start": 18.97492,
+        "end": 19.259,
+        "scene": "s7",
+        "providerStart": 0.095458,
+        "providerEnd": 0.379541
+      },
+      {
+        "text": "التكلفة،",
+        "start": 19.27037,
+        "end": 19.99767,
+        "scene": "s7",
+        "providerStart": 0.390916,
+        "providerEnd": 1.118207
+      },
+      {
+        "text": "يمكن",
+        "start": 20.20217,
+        "end": 20.634,
+        "scene": "s7",
+        "providerStart": 1.322708,
+        "providerEnd": 1.754541
+      }
+    ]
+  },
+  {
+    "start": 20.63037,
+    "end": 22.38037,
+    "words": [
+      {
+        "text": "ما",
+        "start": 20.64537,
+        "end": 20.78175,
+        "scene": "s7",
+        "providerStart": 1.765916,
+        "providerEnd": 1.902291
+      },
+      {
+        "text": "تناسب",
+        "start": 20.79308,
+        "end": 21.29308,
+        "scene": "s7",
+        "providerStart": 1.913625,
+        "providerEnd": 2.413625
+      },
+      {
+        "text": "ميزانيتك.",
+        "start": 21.30446,
+        "end": 22.27037,
+        "scene": "s7",
+        "providerStart": 2.425,
+        "providerEnd": 3.390916
+      }
+    ]
+  },
+  {
+    "start": 22.51537,
+    "end": 24.27675,
+    "words": [
+      {
+        "text": "عشان",
+        "start": 22.53037,
+        "end": 23.019,
+        "scene": "s8",
+        "providerStart": 0.095458,
+        "providerEnd": 0.584083
+      },
+      {
+        "text": "كذا،",
+        "start": 23.03037,
+        "end": 23.45083,
+        "scene": "s8",
+        "providerStart": 0.595458,
+        "providerEnd": 1.015916
+      },
+      {
+        "text": "جبنا",
+        "start": 23.59854,
+        "end": 24.03037,
+        "scene": "s8",
+        "providerStart": 1.163625,
+        "providerEnd": 1.595458
+      },
+      {
+        "text": "لك",
+        "start": 24.04175,
+        "end": 24.28037,
+        "scene": "s8",
+        "providerStart": 1.606833,
+        "providerEnd": 1.845458
+      }
+    ]
+  },
+  {
+    "start": 24.27675,
+    "end": 26.253999999999998,
+    "words": [
+      {
+        "text": "بروتوكول",
+        "start": 24.29175,
+        "end": 24.87129,
+        "scene": "s8",
+        "providerStart": 1.856833,
+        "providerEnd": 2.436374
+      },
+      {
+        "text": "التحول",
+        "start": 24.88262,
+        "end": 25.42808,
+        "scene": "s8",
+        "providerStart": 2.447708,
+        "providerEnd": 2.993166
+      },
+      {
+        "text": "من",
+        "start": 25.43946,
+        "end": 25.58717,
+        "scene": "s8",
+        "providerStart": 3.004541,
+        "providerEnd": 3.152249
+      },
+      {
+        "text": "مدار.",
+        "start": 25.59854,
+        "end": 26.144,
+        "scene": "s8",
+        "providerStart": 3.163625,
+        "providerEnd": 3.709083
+      }
+    ]
+  },
+  {
+    "start": 26.389,
+    "end": 28.42308,
+    "words": [
+      {
+        "text": "دليل",
+        "start": 26.404,
+        "end": 26.92671,
+        "scene": "s9",
+        "providerStart": 0.095458,
+        "providerEnd": 0.618166
+      },
+      {
+        "text": "رقمي،",
+        "start": 26.93808,
+        "end": 27.42671,
+        "scene": "s9",
+        "providerStart": 0.629541,
+        "providerEnd": 1.118166
+      },
+      {
+        "text": "فيه",
+        "start": 27.59717,
+        "end": 27.92671,
+        "scene": "s9",
+        "providerStart": 1.288625,
+        "providerEnd": 1.618166
+      },
+      {
+        "text": "برامج",
+        "start": 27.93808,
+        "end": 28.42671,
+        "scene": "s9",
+        "providerStart": 1.629541,
+        "providerEnd": 2.118166
+      }
+    ]
+  },
+  {
+    "start": 28.42308,
+    "end": 29.707169999999998,
+    "words": [
+      {
+        "text": "تمارين",
+        "start": 28.43808,
+        "end": 28.92671,
+        "scene": "s9",
+        "providerStart": 2.129541,
+        "providerEnd": 2.618166
+      },
+      {
+        "text": "واضحة.",
+        "start": 28.93808,
+        "end": 29.59717,
+        "scene": "s9",
+        "providerStart": 2.629541,
+        "providerEnd": 3.288624
+      }
+    ]
+  },
+  {
+    "start": 29.84217,
+    "end": 32.024,
+    "words": [
+      {
+        "text": "وروابط",
+        "start": 29.85717,
+        "end": 30.55033,
+        "scene": "s10",
+        "providerStart": 0.095458,
+        "providerEnd": 0.788624
+      },
+      {
+        "text": "شرح",
+        "start": 30.56171,
+        "end": 30.93671,
+        "scene": "s10",
+        "providerStart": 0.8,
+        "providerEnd": 1.175
+      },
+      {
+        "text": "لكل",
+        "start": 30.94808,
+        "end": 31.30037,
+        "scene": "s10",
+        "providerStart": 1.186375,
+        "providerEnd": 1.538666
+      },
+      {
+        "text": "تمرين.",
+        "start": 31.31171,
+        "end": 31.914,
+        "scene": "s10",
+        "providerStart": 1.55,
+        "providerEnd": 2.152291
+      }
+    ]
+  },
+  {
+    "start": 32.159,
+    "end": 34.32946,
+    "words": [
+      {
+        "text": "ومعه",
+        "start": 32.174,
+        "end": 32.69671,
+        "scene": "s11",
+        "providerStart": 0.095458,
+        "providerEnd": 0.618166
+      },
+      {
+        "text": "موقع",
+        "start": 32.70808,
+        "end": 33.13992,
+        "scene": "s11",
+        "providerStart": 0.629541,
+        "providerEnd": 1.061374
+      },
+      {
+        "text": "مدار،",
+        "start": 33.15125,
+        "end": 33.69671,
+        "scene": "s11",
+        "providerStart": 1.072708,
+        "providerEnd": 1.618166
+      },
+      {
+        "text": "يحسب",
+        "start": 33.83308,
+        "end": 34.33308,
+        "scene": "s11",
+        "providerStart": 1.754541,
+        "providerEnd": 2.254541
+      }
+    ]
+  },
+  {
+    "start": 34.32946,
+    "end": 35.80671,
+    "words": [
+      {
+        "text": "لك",
+        "start": 34.34446,
+        "end": 34.56037,
+        "scene": "s11",
+        "providerStart": 2.265916,
+        "providerEnd": 2.481832
+      },
+      {
+        "text": "احتياجك",
+        "start": 34.57171,
+        "end": 35.15125,
+        "scene": "s11",
+        "providerStart": 2.493166,
+        "providerEnd": 3.072707
+      },
+      {
+        "text": "اليومي",
+        "start": 35.16262,
+        "end": 35.66262,
+        "scene": "s11",
+        "providerStart": 3.084083,
+        "providerEnd": 3.584083
+      },
+      {
+        "text": "من",
+        "start": 35.674,
+        "end": 35.81037,
+        "scene": "s11",
+        "providerStart": 3.595458,
+        "providerEnd": 3.731833
+      }
+    ]
+  },
+  {
+    "start": 35.80671,
+    "end": 38.43033,
+    "words": [
+      {
+        "text": "السعرات.",
+        "start": 35.82171,
+        "end": 36.59442,
+        "scene": "s11",
+        "providerStart": 3.743166,
+        "providerEnd": 4.515874
+      },
+      {
+        "text": "وخمس",
+        "start": 36.85442,
+        "end": 37.34304,
+        "scene": "s12",
+        "providerStart": 0.095458,
+        "providerEnd": 0.584083
+      },
+      {
+        "text": "مية",
+        "start": 37.35442,
+        "end": 37.72942,
+        "scene": "s12",
+        "providerStart": 0.595458,
+        "providerEnd": 0.970458
+      },
+      {
+        "text": "وصفة،",
+        "start": 37.74079,
+        "end": 38.32033,
+        "scene": "s12",
+        "providerStart": 0.981833,
+        "providerEnd": 1.561374
+      }
+    ]
+  },
+  {
+    "start": 38.56667,
+    "end": 41.11217,
+    "words": [
+      {
+        "text": "تختار",
+        "start": 38.58167,
+        "end": 39.05896,
+        "scene": "s12",
+        "providerStart": 1.822708,
+        "providerEnd": 2.299999
+      },
+      {
+        "text": "حصتك",
+        "start": 39.07033,
+        "end": 39.6385,
+        "scene": "s12",
+        "providerStart": 2.311375,
+        "providerEnd": 2.879541
+      },
+      {
+        "text": "وتشوف",
+        "start": 39.64987,
+        "end": 40.18396,
+        "scene": "s12",
+        "providerStart": 2.890916,
+        "providerEnd": 3.424999
+      },
+      {
+        "text": "سعراتها.",
+        "start": 40.19533,
+        "end": 41.00217,
+        "scene": "s12",
+        "providerStart": 3.436375,
+        "providerEnd": 4.243208
+      }
+    ]
+  },
+  {
+    "start": 41.24717,
+    "end": 43.28125,
+    "words": [
+      {
+        "text": "اختر",
+        "start": 41.26217,
+        "end": 41.63717,
+        "scene": "s14",
+        "providerStart": 0.095458,
+        "providerEnd": 0.470458
+      },
+      {
+        "text": "اللي",
+        "start": 41.64854,
+        "end": 41.90992,
+        "scene": "s14",
+        "providerStart": 0.481833,
+        "providerEnd": 0.743208
+      },
+      {
+        "text": "يناسبك،",
+        "start": 41.92125,
+        "end": 42.70533,
+        "scene": "s14",
+        "providerStart": 0.754541,
+        "providerEnd": 1.538624
+      },
+      {
+        "text": "ومع",
+        "start": 42.87579,
+        "end": 43.28487,
+        "scene": "s14",
+        "providerStart": 1.709083,
+        "providerEnd": 2.118166
+      }
+    ]
+  },
+  {
+    "start": 43.28125,
+    "end": 45.09946,
+    "words": [
+      {
+        "text": "مدار،",
+        "start": 43.29625,
+        "end": 43.84171,
+        "scene": "s14",
+        "providerStart": 2.129541,
+        "providerEnd": 2.674999
+      },
+      {
+        "text": "ابدأ",
+        "start": 44.00079,
+        "end": 44.29625,
+        "scene": "s14",
+        "providerStart": 2.834083,
+        "providerEnd": 3.129541
+      },
+      {
+        "text": "مدارك.",
+        "start": 44.30762,
+        "end": 44.98946,
+        "scene": "s14",
+        "providerStart": 3.140916,
+        "providerEnd": 3.822749
+      }
+    ]
+  }
+]

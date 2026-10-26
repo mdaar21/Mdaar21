@@ -1,0 +1,7 @@
+{
+  "ok": true,
+  "command": "python3 scripts/build-github-pages.py --output /tmp/mdaar-v9-final-pages/site",
+  "output": "/tmp/mdaar-v9-final-pages/site",
+  "stdout": "Prepared 192 public files for /Mdaar21/",
+  "publicationScope": "New ad/voice-saudi directory only; existing app, discover, ads and hub preserved."
+}
