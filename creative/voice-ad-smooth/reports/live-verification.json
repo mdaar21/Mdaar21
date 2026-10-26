@@ -1,0 +1,39 @@
+{
+  "ok": true,
+  "pagesCommit": "ea5ee49a2b8f486a7d6feb5e7f75e333b7a8d218",
+  "player": {
+    "url": "https://mdaar21.github.io/Mdaar21/ad/voice-smooth/",
+    "status": 200,
+    "correctV7MediaLink": true
+  },
+  "files": {
+    "mdaar_tiktok_v7_60fps.mp4": {
+      "url": "https://mdaar21.github.io/Mdaar21/ad/voice-smooth/mdaar_tiktok_v7_60fps.mp4",
+      "status": 200,
+      "contentType": "video/mp4",
+      "bytes": 9423529,
+      "sha256": "134eca706983c6a6d8385948438953782ac0318c289e79f4bf5f6862df3340f1"
+    },
+    "voice-clean.mp3": {
+      "url": "https://mdaar21.github.io/Mdaar21/ad/voice-smooth/voice-clean.mp3",
+      "status": 200,
+      "contentType": "audio/mp3",
+      "bytes": 1253420,
+      "sha256": "02b1bb6437077a58b26cc18dd4079a311cf2750672d5f6d52bb3f0bacc07b120"
+    },
+    "captions.srt": {
+      "url": "https://mdaar21.github.io/Mdaar21/ad/voice-smooth/captions.srt",
+      "status": 200,
+      "contentType": "application/x-subrip",
+      "bytes": 1686,
+      "sha256": "707f3a9e1bb1b70c41047a0894e366898c634bde487df670a344b3b64e9234af"
+    }
+  },
+  "range": {
+    "status": 206,
+    "bytes": 1024,
+    "contentRange": "bytes 0-1023/9423529"
+  },
+  "publishedVideoMatchesValidatedMaster": true,
+  "scope": "Hosted download only; no TikTok posting or ad campaign."
+}
