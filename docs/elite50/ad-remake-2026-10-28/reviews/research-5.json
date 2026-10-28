@@ -1,0 +1,78 @@
+{
+  "expert": "research-5",
+  "version": "v12-final-1",
+  "digest": "6b6846706f12db961b678c585330dffd8222545cdd810412a320c4a6af22d553",
+  "decision": "NEEDS_EVIDENCE",
+  "reason": "The inspected frames and primary app data support the ad's concrete product claims within the stated advertising scope. Overall completion remains unproved for the explicit natural narration/no-music requirements: learned vocal separation and technical measurements cannot establish perceptual naturalness or absence of audible residual music, and the supplied records explicitly report no human listening.",
+  "evidence": [
+    {
+      "file": "creative/voice-ad-premium-v12/reports/encoded-contact.jpg",
+      "method": "Direct view_image inspection",
+      "finding": "Faceless recurring figure; product visible at 8.650s; actual calculator/recipe UI at 18.550s/22.775s; 15.99 SAR and purchase URL visible in stable matching CTA samples at 27.650s and 29.700s. No visible medical certification, guaranteed body result or fabricated testimonial."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/reports/encoded-handoffs.jpg",
+      "method": "Direct view_image inspection",
+      "finding": "Sampled transitions cover 1.900–26.080s, including product reveal around 6.5s, program options, calculator, recipe portion change and CTA entrance. They support protected Arabic headline/caption placement at sampled moments; they do not establish continuous motion quality."
+    },
+    {
+      "file": "public/data/recipes-calculated.json",
+      "method": "Read primary JSON; counted entries and distinct IDs",
+      "finding": "500 recipe entries and 500 distinct IDs. Inspected oatmeal example has calculated nutrition, ingredients, allergens and calculated-pending-professional-review status, consistent with examples/estimates rather than clinical validation."
+    },
+    {
+      "file": "public/data/training-programs.json",
+      "method": "Read primary JSON",
+      "finding": "Programs 4 and 5 explicitly list trainingDays 4/5. Qualified exercise professional review remains pending. Advertising that the programs exist is supported; individualized suitability or certified exercise safety is not established."
+    },
+    {
+      "file": "docs/elite50/ad-remake-2026-10-28/evidence/claim-map.json",
+      "method": "Read claim/source mapping",
+      "finding": "Owner-supplied 15.99 SAR is expressly ad-only. PDF explanation links and app recipes are distinguished; third-party technique availability and clinical nutrition validation remain outside verified scope."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/reports/audio-edit.json",
+      "method": "Read existing technical record",
+      "finding": "Three preserved-source segments; no reported pitch change/time stretch or added music; nine short effects; -19.1 LUFS/-3 dBTP; 3.79s tail hold. These support an appropriately restrained processing method, not an audible quality verdict."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/reports/voice-separation.json",
+      "method": "Read existing technical record",
+      "finding": "Kim_Vocal_2 learned estimate; humanListening:false; record explicitly disclaims proof of perfect music removal and perceptual naturalness."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/reports/encoded-validation.json",
+      "method": "Read existing encoded-file validation",
+      "finding": "Recorded 1080x1920, 60/1 fps, 1788 frames, 29.8s; no decode warnings; moving sampled adjacent frames differ. MP4 SHA-256 0d741b5bef0424be521ba9938e891d8a4f6163b7e075e4cab592f3f8f8ff3940 matches frozen manifest."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/reports/live-verification.json",
+      "method": "Read existing live verification",
+      "finding": "Recorded player/video HTTP 200, local hashes matched, byte range 206. This supports downloadable delivery at the recorded check time, not a newly performed live request."
+    }
+  ],
+  "strengths": [
+    "Product claims are tied to actual program and recipe data rather than invented scientific authority.",
+    "Calculator/recipe visuals visibly qualify examples and estimated nutrition; product reveals and closing price are legible in inspected encoded samples.",
+    "Source separation and validation records disclose their limitations."
+  ],
+  "issues": [
+    {
+      "severity": "blocking evidence gap",
+      "requirement": "Smooth natural source narration; no music",
+      "detail": "No qualified listening evaluation is supplied. Obtain listening evidence for the frozen MP4 covering intelligibility, natural voice quality, edit joins and audible music remnants before unconditional overall approval."
+    }
+  ],
+  "objections": [
+    "I cannot convert no added music into a verified no audible music finding, or no pitch/time changes into verified naturalness."
+  ],
+  "limitations": [
+    "Inspected two encoded still sheets and source/test records; did not watch or hear continuous video.",
+    "Read-only data inspection establishes counts and existence, not scientific validity, safety, efficacy or recipe nutritional laboratory accuracy.",
+    "Did not independently revalidate all PDF links, live availability, checkout/fulfillment, performance outcomes or all fifty-agent execution; did not read other experts' opinions."
+  ],
+  "non_applicable_criteria": [
+    "Medical/fitness certification, individualized training clearance and clinical nutrition approval are outside this ad production review and are not granted.",
+    "Sales conversion, legal certification, store administration and checkout authorization are outside scope."
+  ]
+}

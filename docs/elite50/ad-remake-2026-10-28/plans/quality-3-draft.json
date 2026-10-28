@@ -1,0 +1,21 @@
+{
+  "expert": "quality-3",
+  "phase": "pre-freeze defect check; no vote",
+  "observations": [
+    "Browser report records no runtime errors, captions within 1080x1920, deterministic reverse seeks and a 3.53-second settled CTA hold. Contact sheet shows no obvious clipped main headings or captions at its eight sampled times.",
+    "Edited WAV report records zero clipped samples, -3.0 dBTP, -19.1 LUFS, unchanged pitch and speed, and effects RMS substantially below voice RMS. These are favorable technical measurements, not perceptual listening results.",
+    "Separation report includes model/source hashes and explicitly limits claims about perfect music removal and naturalness. ASR contains recognition errors and cannot independently validate corrected caption wording."
+  ],
+  "blockers_to_final_technical_acceptance": [
+    "Actual final encoded video is pending: require dimensions, decoded frame count and cadence, decode success, A/V duration alignment and motion-interval inspection before accepting true 60fps.",
+    "Final encoded audio needs peak/clipping verification because WAV measurements do not establish AAC output behavior.",
+    "Player playback/seeking and download identity against the frozen candidate remain unverified."
+  ],
+  "evidence_gaps": [
+    "Lint reports three matching image entries with duplicate media discovery risk. Explain intentional reuse or resolve it, then check the encoded result for duplicate rendering or unnecessary work; the warning alone does not prove a visible defect.",
+    "Automated motion checking was disabled, and layout transitionSamples is empty. The listed handoff images and final encode need visual review for transition clipping and abrupt motion; static scene-contact samples cannot prove smoothness.",
+    "Caption geometry is measured, but exact spoken wording, splice continuity and residual music are not established by the machine transcript. Preserve the explicit lack of human listening and do not claim perceptual certainty.",
+    "Final encode bitrate, file size, compatible codec/pixel format, fast-start layout and render resource measurements are not yet supplied."
+  ],
+  "scope_limit": "No processing, playback, listening or final artifact inspection performed. No approval or rejection issued."
+}

@@ -1,0 +1,62 @@
+{
+  "expert": "finance-legal-4",
+  "version": "planning-v1",
+  "digest": {
+    "planning_packet_sha256": "812555cda1d2e863b77de2cbd8ccb4a39d9de83e4daed5a2017d44269e7692a0"
+  },
+  "phase": "independent_planning",
+  "decision": null,
+  "reason": "Final verdict deferred until the frozen advertisement and evidence are supplied. Assess authorized use, truthful claims and scope; do not certify legal compliance.",
+  "plan": "Compare the frozen ad, its copy and provenance evidence with the supplied permission and product facts. Record any material unsupported representation independently.",
+  "acceptance_checks": [
+    {
+      "priority": 1,
+      "check": "Use only the uploaded footage and narration, owner brand assets and actual app demonstrations within the supplied authorization; avoid voice impersonation or unsupported third-party endorsement.",
+      "evidence_required": "Asset manifest and final composition references."
+    },
+    {
+      "priority": 1,
+      "check": "Show 15.99 SAR consistently as owner-supplied ad copy; do not describe it as a verified live store price or invent discounts, savings or limited-time conditions.",
+      "evidence_required": "Final ad copy/frames and owner assertion recorded in the planning packet."
+    },
+    {
+      "priority": 1,
+      "check": "Keep fitness and nutrition statements factual; no medical outcomes, guaranteed physique changes, guaranteed sales results or claimed medical precision. Treat nutrition values as estimates.",
+      "evidence_required": "Final narration transcript, captions and visible claims."
+    },
+    {
+      "priority": 1,
+      "check": "Product claims and demonstrations match the supplied PDF/app facts, and app demonstrations are actual and identified as demonstrations.",
+      "evidence_required": "Final ad plus product/page and screenshot provenance sufficient for the claims used."
+    },
+    {
+      "priority": 2,
+      "check": "Remain within ad creation: no store/settings changes, purchases, accounts, outreach, paid setup or publication actions implied by this review.",
+      "evidence_required": "Change manifest and recorded delivery actions."
+    },
+    {
+      "priority": 2,
+      "check": "Price, material qualifications and CTA remain readable in the final vertical artifact and point to the supplied product destination without implying checkout verification.",
+      "evidence_required": "Frozen final frames and destination URL."
+    }
+  ],
+  "evidence": [
+    {
+      "path": "/workspace/Mdaar21-new/docs/elite50/ad-remake-2026-10-28/planning-packet.json",
+      "supports": "Supplied authorization, owner price assertion, bounded product facts, Saudi audience and creation-only scope."
+    },
+    {
+      "path": "/workspace/Mdaar21-new/.agents/skills/elite50/agents/experts/finance-legal-4.md",
+      "supports": "Independent review criteria: jurisdiction, authoritative current sources and permission."
+    }
+  ],
+  "objections": [],
+  "limitations": [
+    "No final candidate or final evidence has been reviewed; this plan is not an approval.",
+    "Permission is assessed against the user-provided authorization; independent third-party ownership or release documentation has not been established.",
+    "Saudi-specific statutory compliance, advertising licenses, platform approval and formal legal certifications are unassessed. No current authoritative legal research or certification is claimed; unrelated formal certifications are outside this bounded review.",
+    "The owner price assertion supports the requested copy, not a live store edit, checkout total or tax-treatment verification.",
+    "Technical audio evidence and ASR cannot establish human-perceived narration naturalness; this reviewer does not have human listening capability.",
+    "Infrastructure security, financial solvency and software behavior certification are non-applicable to this advertisement-only scope."
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "checked": [
+    "30fps in baseline was acceptable; 60fps alone is not evidence of editorial quality",
+    "A late reveal may serve storytelling; earlier reveal here is an explicit editorial change, not proof of higher retention",
+    "Source separation can introduce artifacts; source and edited ASR are imperfect and no human listening is claimed",
+    "App numbers are examples, not personal medical prescriptions",
+    "The owner supplied15.99; this is not proof of a store/admin price edit"
+  ],
+  "outcome": "Keep concise demonstrations and objective evidence; retain uncertain perceptual/audience claims as unassessed."
+}

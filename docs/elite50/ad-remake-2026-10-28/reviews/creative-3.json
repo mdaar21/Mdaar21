@@ -1,0 +1,75 @@
+{
+  "expert": "creative-3",
+  "version": "v12-final-1",
+  "digest": "6b6846706f12db961b678c585330dffd8222545cdd810412a320c4a6af22d553",
+  "decision": "NEEDS_EVIDENCE",
+  "reason": "The inspected encoded images and player evidence support completion of the visual and download experience: a clear problem-to-product sequence, protected Arabic captions, real application examples, visible 15.99 SAR price and a held CTA. I cannot close the complete production request because the explicitly required smooth, natural narration and audible caption correspondence have no perceptual listening verification. This is an evidence gap, not an observed audio defect.",
+  "evidence": [
+    {
+      "file": "creative/voice-ad-premium-v12/reports/encoded-contact.jpg",
+      "inspection": "Personally inspected encoded still sheet. Faceless premise is recognisable at 0/1.04s; product visible at 8.65s; list at 12.575s; plan choice 15.7s; calculator 18.55s; recipe interaction 22.775s; 27.65/29.7s show the same readable price, store address and CTA."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/reports/encoded-handoffs.jpg",
+      "inspection": "Personally inspected encoded handoff sheet. Caption strip remains separate during sampled scene changes, including product arrival around 6.3–7.08s, plan-to-calculator around 16.87–17.63s and CTA arrival around 25.32–26.08s. Still samples do not establish continuous perceived smoothness."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/reports/source-browser.json",
+      "inspection": "Record gives 14 caption boxes at y=1460, caption durations 1.075–2.775s, product visible by 7.2s, CTA settled by 26.35s and held 3.45s; supports the observed hierarchy and pacing."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/captions.srt",
+      "inspection": "Read all 14 Arabic cues, 00:00:00.045–00:00:25.990. Text supplies a coherent independent narration of problem, product and benefits; machine timings are not human-verified."
+    },
+    {
+      "file": "public/ad/premium/index.html",
+      "inspection": "Read actual player source: Arabic RTL document, native video controls/playsinline, accessible video label, labelled download navigation, visible focus style and links for MP4/audio/SRT plus product store. No autoplay. Caption access is burned text plus downloadable SRT; no selectable text track is wired."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/reports/player-browser.json",
+      "inspection": "Recorded checks at widths 320/390/1440 report decode, play/pause, four-scene seeks, three downloads and no horizontal overflow/runtime errors. These are existing recorded browser tests, not tests I independently executed."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/reports/live-verification.json",
+      "inspection": "Recorded HTTP 200 and matching local hashes for page, video, audio, SRT and poster; video supports HTTP range 206."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/reports/check-final.json; reports/encoded-validation.json; reports/motion-playback.json",
+      "inspection": "Recorded layout/contrast checks pass; encoded file is 1080x1920, 60/1fps, 29.8s with clean decode. Browser playback cadence is recorded separately. Lint retains one duplicate-media discovery warning; no observed encoded failure from it."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/reports/audio-edit.json; reports/edited-asr.json",
+      "inspection": "Edit record says preserved source, no pitch/time stretch, no added music, no clipping, conservative cuts/EQ. ASR contains substitutions, including the opening and product name. Those could be recognition errors and cannot establish defective or natural speech. Both records explicitly disclaim human listening."
+    }
+  ],
+  "strengths": [
+    "Main Arabic headlines, caption strip and CTA have clear hierarchy and strong visible contrast in inspected encoded stills.",
+    "Product arrives early enough to explain the benefit before plan, calculator and recipe examples.",
+    "Download/player page provides direct, plainly named tasks and native playback controls; mobile/browser records cover three widths.",
+    "Price and CTA remain held and unobscured at the final sampled frames."
+  ],
+  "issues": [
+    {
+      "severity": "verification_required",
+      "issue": "No perceptual evidence establishes source narration naturalness, clean edit joins, intelligibility, residual music absence or final caption/audio agreement.",
+      "required_evidence": "An Arabic-speaking human listening pass on the exact frozen encoded MP4, including joins near 1.96s and 4.31s, plus caption timing/content and background-audio assessment."
+    },
+    {
+      "severity": "nonblocking_accessibility_limit",
+      "issue": "Player has no selectable WebVTT/text track or on-page transcript; burned captions and SRT download provide a useful baseline, but do not establish adjustable caption or assistive-technology coverage."
+    }
+  ],
+  "objections": [
+    "Do not equate ASR, loudness, 60fps encoding or screenshot inspection with a human evaluation of natural narration or continuous playback."
+  ],
+  "limitations": [
+    "I inspected encoded still sheets and exact source/report files; I did not watch continuous video or hear any audio.",
+    "No independent keyboard-only, screen-reader or real-device user study was performed.",
+    "Small application labels in inset demo screenshots are not all legible in the contact sheet; feature headings and callouts carry the key message.",
+    "This decision identifies an evidence gap and does not assert that the audio is defective."
+  ],
+  "non_applicable_criteria": [
+    "Full application navigation, purchase completion, checkout, delivery and fitness effectiveness are outside the ad/player review scope.",
+    "Sales conversion, formal accessibility certification, medical fitness and legal status are not certified."
+  ]
+}

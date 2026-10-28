@@ -1,0 +1,29 @@
+{
+  "expert": "creative-1",
+  "role": "Art Director",
+  "phase": "independent-planning",
+  "decision": "PENDING_FINAL_REVIEW",
+  "art_direction": {
+    "concept": "A recognisable faceless ivory figure moves from scattered choices to one composed, useful system: بروتوكول التحول. Confidence comes from controlled gestures, legible demonstrations and deliberate pacing.",
+    "visual_language": "Matte near-black space, warm restrained gold accents, soft ivory figure, original product identity. Use one coherent lighting direction, generous negative space and consistent depth; avoid generic shiny gold spectacle.",
+    "sequence": "Establish character and problem immediately; reveal the original product within the opening quarter; demonstrate actual training and recipe content; resolve into a quiet price-and-action composition.",
+    "motion": "Give each gesture a clear cause and result. A figure gesture can organize a list, a gold line can become a frame for a real app screen, and a product edge can motivate the next reveal. Use brief anticipation, eased travel and a settled reading hold.",
+    "typography": "Protect Arabic as a stable foreground reading layer with correct RTL shaping, concise phrases and consistent hierarchy. Move supporting graphics around the text; never distort, scramble, crop or perspective-warp the reading copy.",
+    "sound": "Preserve the source narration character and pacing. No music. Sparse purposeful effects should confirm meaningful actions without competing with speech."
+  },
+  "acceptance_checks": [
+    {"priority": "P0", "check": "The frozen final contains the same recognisable faceless white/ivory character premise, with coherent anatomy, stable silhouette and no unintended facial detail.", "evidence": "Opening, middle and final full-frame stills plus motion samples around gestures."},
+    {"priority": "P0", "check": "Original product identity appears by the opening quarter; real app/product demonstrations are legible, truthful and marked as demonstration when appropriate.", "evidence": "Timestamped reveal frame, actual demonstration frames and asset provenance."},
+    {"priority": "P0", "check": "Arabic captions and key claims remain correctly shaped, visually uncluttered and inside protected mobile safe areas throughout entrances, holds and exits; foreground character/UI never covers them.", "evidence": "Full-resolution frames at each caption hold and worst overlap point, with safe-area overlay or bounds evidence."},
+    {"priority": "P0", "check": "Final CTA holds a settled composition for at least three seconds with بروتوكول التحول, 15.99 ر.س and a clear purchase direction; no late visual event steals attention.", "evidence": "Final uninterrupted segment and start/end timestamps."},
+    {"priority": "P1", "check": "Black/gold/ivory palette, material finish, spacing and light remain consistent; original logos and covers are undistorted, and gold highlights preserve text contrast.", "evidence": "A timestamped contact sheet covering every scene."},
+    {"priority": "P1", "check": "Transitions communicate progression between problem, product and proof. Menus/lists visibly settle before reading, and each shot has one dominant focal point.", "evidence": "Continuous transition samples and a scene timing map."},
+    {"priority": "P1", "check": "Delivery is 1080x1920 at true 60 fps and the final player/download target resolves to the reviewed frozen artifact.", "evidence": "Media probe, frame cadence evidence, file digest and delivered link."}
+  ],
+  "limitations": [
+    "No final candidate has been reviewed and no approval is cast.",
+    "Naturalness of narration cannot be established through human listening in this capability set; ASR and audio measurements alone are insufficient.",
+    "Editorial visual quality is assessable; sales performance is not established by this review.",
+    "Store administration, payments, software infrastructure and unrelated legal/security changes are outside this art-direction scope."
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "expert": "engineering-3",
+  "version": "v12-final-1",
+  "digest": "6b6846706f12db961b678c585330dffd8222545cdd810412a320c4a6af22d553",
+  "decision": "APPROVE",
+  "reason": "Approved within the authorized ad/player engineering scope. The frozen artifact has credible encoded-format, delivery and playback evidence, and the player source provides a direct downloadable fallback without requiring an account or backend. My direct inspection of the encoded contact and handoff sheets supports the faceless premise, early product presence, app examples, protected captions and held price/CTA. This is not a perceptual audio certification.",
+  "evidence": [
+    {
+      "file": "creative/voice-ad-premium-v12/reports/encoded-contact.jpg",
+      "inspection": "Personally viewed using view_image. Frames at 0/1.040 seconds show the featureless character; 8.650 seconds shows the book, 15.700 seconds the training choices, 18.550/22.775 seconds calculator/recipe examples, and 27.650/29.700 seconds the same held 15.99 SAR CTA."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/reports/encoded-handoffs.jpg",
+      "inspection": "Personally viewed using view_image. Sampled transitions preserve the caption band while changing the principal scene; the product is already visible around 6.320 seconds. This is sampled visual evidence, not continuous video watching."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/reports/encoded-validation.json",
+      "inspection": "Read report: 1080x1920, 60/1 fps, 1788 frames over 29.8 seconds; decode exit 0 with zero warnings, fast-start metadata, and no identical adjacent frames among 36 sampled moving frames. MP4 SHA-256 is 0d741b5bef0424be521ba9938e891d8a4f6163b7e075e4cab592f3f8f8ff3940."
+    },
+    {
+      "file": "public/ad/premium/index.html",
+      "inspection": "Read actual player source: native controls, playsinline, direct same-origin MP4/audio/SRT downloads, fallback download text, restrictive same-origin CSP, no scripts or forms, and noopener/noreferrer on external store link."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/reports/player-browser.json",
+      "inspection": "Read existing test record: successful native decoding, play/pause, four-scene seeking, three downloads and no runtime errors or horizontal overflow at widths 320, 390 and 1440. I did not rerun these tests."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/reports/live-verification.json",
+      "inspection": "Read existing deployment record: player and five media assets returned 200 with local-matching hashes; MP4 range request returned 206 and the expected bytes 0-1023/4181863."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/reports/source-browser.json",
+      "inspection": "Read recorded caption bounds, reverse-seek consistency, book visible by 7.2 seconds, and CTA settled by 26.35 seconds with 3.45-second hold."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/reports/audio-edit.json; reports/voice-separation.json",
+      "inspection": "Read audio records: source narration edited without reported pitch change, stretching or synthesis; no added music track and nine short sound effects. The separation report explicitly describes approximate removal and no human listening."
+    }
+  ],
+  "strengths": [
+    "Simple static distribution avoids unnecessary API and authorization dependencies.",
+    "Download links remain useful if inline playback is unsupported; streaming range support and fast-start encoding are documented.",
+    "Visual and technical records are mutually consistent with the supplied 29.8-second vertical deliverable."
+  ],
+  "issues": [
+    "The lint record contains one duplicate_media_discovery_risk warning. Successful encoded decoding and delivery evidence make it a nonblocking authoring concern for this frozen artifact.",
+    "Natural voice quality, intelligibility and complete removal of source music remain perceptually unverified. Technical audio measurements and source-preserving edits cannot settle those requirements."
+  ],
+  "objections": [],
+  "limitations": [
+    "No human listening capability; audio uncertainty limits this approval to engineering and directly inspected visual evidence.",
+    "Did not watch or hear continuous playback, rerun validators, perform a live network check, or test store checkout.",
+    "Existing reports establish their recorded outcomes, not universal device compatibility or future hosting availability.",
+    "Did not inspect other experts' verdicts or verify the fifty-agent completion requirement; that is the coordinating audit's responsibility."
+  ],
+  "non_applicable_criteria": [
+    "API request/response correctness, database consistency and server error contracts: N/A; the authorized deliverable is a static ad and player, with no backend API changes.",
+    "Authentication, role-based access and account/session authorization: N/A for public advertisement downloads; no privileged operation or account flow is introduced.",
+    "Checkout/payment authorization, fulfillment, clinical accuracy, sales performance and legal certification: outside this ad/player review."
+  ]
+}

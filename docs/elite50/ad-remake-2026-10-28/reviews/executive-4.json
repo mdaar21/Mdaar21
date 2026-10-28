@@ -1,0 +1,57 @@
+{
+  "expert": "executive-4",
+  "version": "v12-final-1",
+  "digest": "6b6846706f12db961b678c585330dffd8222545cdd810412a320c4a6af22d553",
+  "decision": "NEEDS_EVIDENCE",
+  "reason": "The inspected encoded images and supporting records cover the visual proposition, owner-supplied price, concrete product examples, held CTA and delivery requirements well. However, natural source narration and absence of music are explicit acceptance requirements. The inspected processing code and records establish no added music, no pitch/time changes and approximate learned vocal separation, but explicitly do not establish perceptual naturalness or complete music removal. Without an actual listening assessment, overall requirements acceptance remains incomplete; this is an evidence gap rather than an observed audio defect.",
+  "evidence": [
+    {
+      "file": "creative/voice-ad-premium-v12/reports/encoded-contact.jpg",
+      "inspection": "Direct image inspection: recognizable faceless figure at 0/1.04 seconds; confusion menu at 4.29; product at 8.65; 4/5-day programs at 15.70; actual calculator example at 18.55; recipe portion example at 22.775; readable 15.99 SAR and store URL in settled CTA at 27.65 and 29.70. Clear Arabic headline/caption hierarchy at the inspected scale. Small screenshot details are less readable than the promoted callouts."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/reports/encoded-handoffs.jpg",
+      "inspection": "Direct image inspection: cover arrives during the 6.32–7.08-second sequence; transitions preserve the lower caption region; final dissolve leads into the price/CTA. These samples support deliberate transitions but cannot establish continuous perceptual smoothness."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/reports/encoded-validation.json",
+      "inspection": "Recorded output: 1080x1920, 60/1 fps, 1788 frames, 29.8 seconds; 36 moving-frame samples with zero adjacent-identical fraction, no decode warnings, video SHA-256 0d741b5bef0424be521ba9938e891d8a4f6163b7e075e4cab592f3f8f8ff3940 matching the candidate manifest. Not a new test run by this reviewer."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/reports/source-browser.json; reports/check-final.json; reports/motion-playback.json",
+      "inspection": "Recorded 3.45-second settled final CTA; 14 bounded caption groups; 33/33 contrast checks; no runtime/layout errors. Lint retains one duplicate-media-discovery warning. Continuous software animation record exists, with motion check itself disabled in check-final; I did not watch continuous video."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/process-audio.py; reports/audio-edit.json; reports/voice-separation.json; captions.srt",
+      "inspection": "Code preserves three source sections totaling 26.01 seconds, applies mild EQ/gain, adds nine short effects and no music bed, and uses no pitch/time transform. Recorded zero clipped samples and approximately -19.1 LUFS. Captions are machine-timed with editorial corrections. Vocal separation explicitly says it is approximate and humanListening=false. These are useful technical facts, not listening evidence."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/reports/player-browser.json; reports/live-verification.json; public/ad/premium/index.html",
+      "inspection": "Source includes video, narration and SRT downloads. Records show decoded playback/download checks at 320/390/1440 widths and live HTTP 200 files with matching local hashes plus HTTP 206 range response. Supports usable downloadable delivery at the supplied live player URL."
+    },
+    {
+      "file": "docs/elite50/ad-remake-2026-10-28/evidence/claim-map.json; creative/voice-ad-premium-v12/SPEC.md",
+      "inspection": "Price is explicitly attributed to the owner. Claim map distinguishes 500 app recipes from PDF contents and estimates from clinical accuracy, and identifies actual app screenshot sources. I did not independently recount all recipes or exercise the application."
+    }
+  ],
+  "strengths": [
+    "The buyer sees a coherent problem-to-product-to-use sequence, rather than only unsupported benefit claims.",
+    "Product appears within the first third, and the calm final price/CTA gives the viewer time to act.",
+    "The stated acceptance scope distinguishes ad price from store settings and production quality from sales results."
+  ],
+  "issues": [
+    "An actual listening assessment of the frozen encoded MP4 is still required to establish narration naturalness, intelligibility, edit joins, sound-effect balance and residual music. Software metrics cannot close this requirement."
+  ],
+  "objections": [
+    "No objection to the inspected visual/business presentation. No evidence supports a conversion or revenue promise, and none is required for this production review."
+  ],
+  "limitations": [
+    "No human listening or continuous-video perception; image inspection is distinct from inspected test records.",
+    "No prior-version side-by-side review, so the size of the claimed polish improvement is not quantified.",
+    "This single independent context cannot certify completion or consensus of the other forty-nine agents; no other reviewers' opinions were read.",
+    "Did not rerun processing/tests, audit checkout, verify every product claim against original data, or test audience response."
+  ],
+  "non_applicable_criteria": [
+    "Revenue forecasts, ROI, campaign attribution, enterprise process redesign, store checkout/fulfillment acceptance, medical fitness and formal legal certification are outside this ad-production scope."
+  ]
+}

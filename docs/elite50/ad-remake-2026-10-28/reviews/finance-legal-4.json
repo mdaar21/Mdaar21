@@ -1,0 +1,80 @@
+{
+  "expert": "finance-legal-4",
+  "version": "v12-final-1",
+  "digest": "6b6846706f12db961b678c585330dffd8222545cdd810412a320c4a6af22d553",
+  "decision": "APPROVE",
+  "reason": "Approve the frozen advertisement within the authorized production, permission and claim-review scope. The owner-supplied 15.99 SAR price is displayed clearly, factual feature claims have local product support, demonstrations are labeled, and inspected copy contains no explicit medical, physique or sales-performance guarantee. This is not a Saudi legal-compliance certificate or store verification.",
+  "evidence": [
+    {
+      "file": "docs/elite50/ad-remake-2026-10-28/planning-packet.json",
+      "inspection": "Read supplied authorization and scope during initial planning: uploaded video/narration and owner assets may be edited; owner price is advertisement copy, with no store/admin or purchase authorization."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/reports/encoded-contact.jpg",
+      "inspection": "Personally inspected encoded still sheet: faceless figure at 0.000/1.040; product by 8.650; 4/5-day programs at 15.700; calculator example/estimated-needs label at 18.550; app recipe/estimated-values label at 22.775; clear 15.99 ر.س CTA at 27.650 and 29.700. These are sampled stills, not continuous viewing."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/reports/encoded-handoffs.jpg",
+      "inspection": "Personally inspected supplied handoff sheet, including product transition around 6.320–7.080 and CTA transition around 25.320–26.080; sampled text remains separate from demonstration imagery."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/index.html:44",
+      "inspection": "Read exact Arabic demonstration qualifications: illustrative estimated needs depend on user data; app nutrition values are estimates; exercise explanation links are described as inside the PDF."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/captions.srt",
+      "inspection": "Read all 14 caption groups, 0.045–25.990. No explicit medical outcome, guaranteed physique or conversion claim. The closing confidence wording is general promotional language."
+    },
+    {
+      "file": "public/data/recipes-calculated.json",
+      "inspection": "Directly parsed local product data: 500 recipes and 500 distinct IDs. Data explicitly describe calculated suggestions pending professional review; the ad does not claim professional clinical validation."
+    },
+    {
+      "file": "public/data/training-programs.json",
+      "inspection": "Read local program data: trainingDays 4 and 5, matching the ad. Professional exercise review remains pending and no certification is advertised."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/reports/book-links.json",
+      "inspection": "Inspected existing PDF annotation report: 34 pages, 226 explanation-link annotations and 43 unique explanation URLs. Third-party video availability/technique is expressly unverified; the ad claims links in the PDF only."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/media-provenance.jsonl",
+      "inspection": "Read owner/project asset provenance, actual app-screenshot provenance, authored figure, retained font licenses and SFX source records. Also read FONT-LICENSE.txt and assets/sfx/CREDITS.md; these support documented permitted use, not independent rights clearance."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/reports/audio-edit.json; reports/voice-separation.json",
+      "inspection": "Read existing records identifying uploaded source narration, no synthesized voice/pitch change/time stretch, no added music and nine short effects. Vocal separation expressly remains approximate."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/reports/encoded-validation.json; reports/live-verification.json; reports/player-browser.json",
+      "inspection": "Read existing records reporting 1080×1920, 60/1 fps, 1788 frames over 29.8 seconds, successful decode, matching live-file hashes and tested downloads. I did not rerun these tests."
+    },
+    {
+      "file": "public/ad/premium/index.html:25",
+      "inspection": "Read exact product-store destination; it matches the supplied product URL. SPEC.md expressly limits the price change to the ad and disclaims purchase/fulfillment testing."
+    }
+  ],
+  "strengths": [
+    "Price and currency are unambiguous, without invented discount, countdown or testimonial.",
+    "App recipe count is distinguished from PDF contents; estimated calculations and demonstrations are qualified.",
+    "Asset and source-voice provenance are recorded, with font and effects credits retained."
+  ],
+  "issues": [
+    {
+      "severity": "non_blocking",
+      "detail": "Captions at 19.965–22.280 (without guesswork) and 24.185–25.990 (know you are on the right track) are broad confidence language. In the inspected context they do not promise an individual medical or physical result; approval does not validate universal program suitability."
+    }
+  ],
+  "objections": [],
+  "limitations": [
+    "No human listening or continuous-video viewing was performed. Naturalness, intelligibility and perfect removal of source music remain unestablished; technical reports do not prove them. This limits audio assurance without creating a separate permission/claims blocker.",
+    "Owner authorization is the supplied basis for use; independent ownership, performer releases and complete third-party chain of title were not established.",
+    "No current authoritative Saudi statutory sources were researched. Jurisdiction-specific advertising licenses, legal compliance and formal certifications remain unassessed, and no such certification is asserted.",
+    "The owner price assertion supports the requested ad copy; live checkout price, VAT treatment, fulfillment and store settings were not verified.",
+    "Evidence from existing automated reports is distinguished above from my direct image, copy and product-data inspection; no audience or sales study is claimed."
+  ],
+  "non_applicable_criteria": [
+    "Formal legal opinion, medical/fitness certification, professional nutrition validation and Saudi advertising-license certification are outside this bounded production review.",
+    "Financial solvency, infrastructure security, account authorization, checkout/payment certification and changes to store/app/book behavior are outside the advertisement task."
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "expert": "marketing-3",
+  "version": "v12-final-1",
+  "digest": "6b6846706f12db961b678c585330dffd8222545cdd810412a320c4a6af22d553",
+  "decision": "APPROVE",
+  "reason": "Approved within the applicable semantic-content and video-delivery review scope. The encoded samples communicate the beginner's uncertainty, identify the product early, explain its training and nutrition tools, and end with a legible product, owner-supplied 15.99 SAR price, action and destination. The inspected captions and player copy support that meaning without adding an explicit outcome guarantee. Delivery reports support the requested format and downloadable player. This is not an acoustic sign-off: naturalness, intelligibility and complete absence of residual music remain unverified by listening.",
+  "evidence": [
+    {
+      "file": "creative/voice-ad-premium-v12/reports/encoded-contact.jpg",
+      "method": "Personally inspected using view_image",
+      "finding": "0.000/1.040s: recognisable faceless figure and Arabic question. 8.650s: branded product cover. 12.575s: PDF/app, training, nutrition tools and 500 recipes are arranged as a short hierarchy. 15.700/18.550/22.775s: program cards, calorie example and recipe portion interface. 27.650/29.700s: clear price 15.99, Arabic CTA and mdaar21.zid.store destination. Small screenshot details are supporting demonstration; the large headings and captions carry the message."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/reports/encoded-handoffs.jpg",
+      "method": "Personally inspected using view_image",
+      "finding": "Sampled handoffs around 6.320–7.080s preserve product/character continuity; 10.620–11.380s introduce the feature list; 25.320–26.080s establish the closing offer. These sampled images show an ordered visual progression, not proof of continuously smooth playback."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/captions.srt",
+      "finding": "Fourteen Arabic groups progress from the initial question at 0.045s through the product name at 13.065–14.260s to the closing reassurance at 24.185–25.990s. This is coherent semantic copy; the early visual product reveal precedes the spoken product name."
+    },
+    {
+      "file": "docs/elite50/ad-remake-2026-10-28/evidence/claim-map.json",
+      "finding": "Records the owner's 15.99 SAR instruction and source paths for 4/5-day programs and 500 app recipes; distinguishes estimated calculator/recipe values and PDF explanation links from verified external playback. I inspected this claim record, not every underlying product entry."
+    },
+    {
+      "file": "public/ad/premium/index.html",
+      "finding": "Directly read Arabic language/direction, meaningful title and heading, native video controls, labelled MP4/audio/SRT download links and the product-store destination. The noindex directive is acceptable for a delivery player; search acquisition was not requested."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/reports/encoded-validation.json; reports/player-browser.json; reports/live-verification.json; reports/source-browser.json",
+      "finding": "Inspected records report 1080x1920, 60/1 fps, 1788 frames over 29.8s, successful decode, download/player checks at 320/390/1440 widths, live/local video hash agreement, product visible by 7.2s and settled CTA hold of 3.45s. These are supplied technical records, not tests rerun by me."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/reports/audio-edit.json; reports/voice-separation.json; reports/edited-asr.json; reports/motion-playback.json",
+      "finding": "Records preserve source narration without pitch/time changes and add short effects without an added music track. Separation explicitly disclaims perfect background removal. ASR includes recognition errors and does not prove accurate audible wording. Software playback record has no audio and is not human perceptual review."
+    }
+  ],
+  "strengths": [
+    "The product, feature hierarchy and final offer are semantically consistent across sampled encoded frames, captions and player text.",
+    "Specific demonstrations make the tools understandable while visible example/estimate qualifiers limit literal interpretations of nutrition numbers.",
+    "The closing CTA remains visually stable in the inspected late samples and provides a clear purchase destination."
+  ],
+  "issues": [],
+  "objections": [],
+  "limitations": [
+    "No human listening capability: I cannot certify smooth natural narration, intelligibility, caption synchronization by ear or perfect music removal. This limits the scope of this approval and leaves auditory acceptance unresolved.",
+    "I inspected encoded still sheets and exact textual records; I did not watch or hear continuous video, independently reproduce tests, or assess live platform overlays on every device.",
+    "No independent verification of store checkout, medical suitability, conversion performance, all underlying recipe/program records, or completion of the other forty-nine independent reviews."
+  ],
+  "non_applicable_criteria": [
+    "Website crawl coverage, search indexability, rankings, keyword research, canonicalization, sitemaps and broad technical SEO are outside this video production request. The player's noindex directive is not a video-delivery defect.",
+    "Search-focused structured data and organic-distribution optimization were not requested and are not approval conditions."
+  ]
+}

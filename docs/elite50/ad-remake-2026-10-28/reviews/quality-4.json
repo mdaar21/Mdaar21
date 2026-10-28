@@ -1,0 +1,70 @@
+{
+  "expert": "quality-4",
+  "version": "v12-final-1",
+  "digest": "6b6846706f12db961b678c585330dffd8222545cdd810412a320c4a6af22d553",
+  "decision": "NEEDS_EVIDENCE",
+  "reason": "The inspected encoded images, local player source and technical records support a polished, accessible ad deliverable within the authorized scope. No reproducible security defect is evidenced by these checks. Unconditional production approval still needs perceptual verification of two explicit owner requirements: natural source narration and no residual music after learned vocal separation. The supplied evidence explicitly cannot establish either; this is an evidence gap, not a claim that an audible defect exists.",
+  "evidence": [
+    {
+      "file": "reports/encoded-contact.jpg",
+      "inspection": "Direct view_image inspection",
+      "finding": "Recognizable faceless figure at 0–4.29s; product clearly visible by the 8.65s sampled frame; actual calculator and recipe UI examples at 18.55s and 22.775s; clear 15.99 SAR CTA at both 27.65s and 29.7s."
+    },
+    {
+      "file": "reports/encoded-handoffs.jpg",
+      "inspection": "Direct view_image inspection",
+      "finding": "The 6.32–7.08s samples show the earlier book reveal; successive handoff samples show staged transitions and protected captions. These stills support composition/readability, not a claim of continuous playback perception."
+    },
+    {
+      "file": "public/ad/premium/index.html",
+      "inspection": "Direct local source inspection; sha256 independently checked",
+      "finding": "Hash ce213c450ab4b60ba68cf8d26ebd15a77eb451139c34256391ffa004808a3fbb matches the frozen manifest. Static native video controls and same-origin downloadable MP4/MP3/SRT, no scripts or form inputs, restrictive meta CSP, and noopener/noreferrer on the external store link. This is limited source review, not a penetration test."
+    },
+    {
+      "file": "public/ad/premium/mdaar_tiktok_v12_premium.mp4",
+      "inspection": "Independent local sha256 check",
+      "finding": "Hash 0d741b5bef0424be521ba9938e891d8a4f6163b7e075e4cab592f3f8f8ff3940 matches the frozen candidate and encoded-validation report."
+    },
+    {
+      "file": "reports/encoded-validation.json; reports/motion-playback.json",
+      "inspection": "Read existing test records",
+      "finding": "Report 1080x1920, 60/1 fps, 1788 frames over 29.8s, successful decode without warnings, fast-start ordering, and 36 sampled moving frames with no identical adjacent samples. Separate browser record reports 1744 frames and 16.7ms median RAF; I did not watch that recording continuously."
+    },
+    {
+      "file": "reports/player-browser.json; reports/live-verification.json",
+      "inspection": "Read existing test records",
+      "finding": "Records report playback/seek/download checks at 320/390/1440px, no runtime errors, live files matching local hashes, HTTP 200 and video range 206. I did not initiate new external probes."
+    },
+    {
+      "file": "reports/audio-edit.json; reports/voice-separation.json; reports/edited-asr.json",
+      "inspection": "Read existing processing and ASR records",
+      "finding": "No added music, pitch shift, time stretch, synthesized voice or clipping is reported; mild EQ and source segment mapping preserve a documented chain. Separation explicitly is approximate and humanListening=false. ASR recognizes much of the speech but contains mistranscriptions; it cannot resolve perceptual naturalness or residual music."
+    },
+    {
+      "file": "reports/check-final.json",
+      "inspection": "Read existing validation record",
+      "finding": "Zero layout/runtime errors and 33/33 sampled contrast checks; one duplicate-media discovery warning. Encoded-file evidence reduces this warning's immediate output relevance, but I do not relabel it as a clean strict lint pass."
+    }
+  ],
+  "strengths": [
+    "Review stayed within authorized local ad/player evidence, with no external attacks, account actions or unsupported exploit claims.",
+    "Frozen public assets were independently tied to the manifest by hashes.",
+    "Readable closing price/CTA and actual app examples are visibly present in encoded samples."
+  ],
+  "issues": [
+    "Obtain a documented native-Arabic human listening check of the final encoded MP4 for residual music, vocal artifacts, intelligibility and natural joins, especially output 1.96s and 4.31s, comparing the corresponding source fragments. Technical levels and ASR alone cannot close this requirement."
+  ],
+  "objections": [
+    "No demonstrated security vulnerability requires remediation from the inspected static player source. Lack of an exploit finding is not broad security certification.",
+    "The requirement for fifty actual independent contexts cannot be personally attested from this expert's isolated review; I did not read other experts' opinions or certify their execution."
+  ],
+  "limitations": [
+    "No human listening or continuous perceptual video review was available.",
+    "Images were viewed as contact sheets; fine print and very brief transition behavior cannot be exhaustively assessed from them.",
+    "Existing test records were inspected rather than rerun. Live verification describes the recorded check, not an independently repeated remote assessment."
+  ],
+  "non_applicable_criteria": [
+    "Unrelated application penetration testing, authentication/authorization exploits, payment processing, checkout/fulfillment and external infrastructure security are outside the authorized ad review.",
+    "Formal medical, legal, store-price-setting and sales-conversion certification are outside this review."
+  ]
+}

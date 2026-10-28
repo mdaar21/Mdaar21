@@ -1,0 +1,59 @@
+{
+  "expert": "executive-1",
+  "version": "v12-final-1",
+  "digest": "6b6846706f12db961b678c585330dffd8222545cdd810412a320c4a6af22d553",
+  "decision": "NEEDS_EVIDENCE",
+  "reason": "The frozen deliverable substantially aligns with the owner's advertisement scope and has measurable delivery evidence. Encoded stills show the recognizable faceless premise, orderly Arabic menus and captions, actual product/app material and a legible held 15.99 SAR CTA. However, smooth natural narration and absence of residual music are explicit acceptance requirements; the supplied separation and audio reports expressly do not establish either perceptually. I cannot close overall production acceptance without that evidence.",
+  "evidence": [
+    {
+      "file": "creative/voice-ad-premium-v12/reports/encoded-contact.jpg",
+      "inspection": "Personally inspected through view_image. The blank-faced figure is visible at 0.000/1.040s, menu structure at 4.290s, product at 8.650s, program choices at 15.700s, calculator at 18.550s, recipe example at 22.775s, and consistent clear 15.99 SAR CTA at 27.650/29.700s. Text and captions occupy separate areas in these samples."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/reports/encoded-handoffs.jpg",
+      "inspection": "Personally inspected through view_image. Sample sequences around 6.320–7.080s show the book reveal; subsequent handoffs preserve the lower caption area and defer incoming headings while scenes change. These are discrete frames, not a continuous-motion viewing."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/reports/encoded-validation.json",
+      "inspection": "Reports 1080x1920, 60/1 fps, 1788 frames over 29.8s, zero decode warnings, no identical adjacent frames among 36 sampled moving frames, and MP4 SHA256 0d741b5bef0424be521ba9938e891d8a4f6163b7e075e4cab592f3f8f8ff3940. This is strong technical export evidence, not proof of perceived fluidity."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/reports/source-browser.json; reports/check-final.json; reports/motion-playback.json",
+      "inspection": "Records product visible by 7.2s and CTA settled by 26.35s with 3.45s hold; sampled layout/runtime checks pass. Continuous browser record covers 29.8s with median RAF 16.7ms. Main lint retains one duplicate-media-discovery warning."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/reports/player-browser.json; reports/live-verification.json",
+      "inspection": "Records successful native playback, seeking and three downloads at 320/390/1440px widths; deployed video returns HTTP 200 with matching local hash and 206 range support. I inspected these records, not a fresh network test."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/reports/audio-edit.json; reports/voice-separation.json; captions.srt",
+      "inspection": "Records original-source segments, no pitch/time change, mild EQ, nine short effects, no added music, zero clipped samples and approximately -19.1 LUFS. Kim_Vocal_2 separation is explicitly approximate and humanListening is false. Fourteen Arabic caption groups span 0.045–25.990s."
+    },
+    {
+      "file": "docs/elite50/ad-remake-2026-10-28/final-packet.json; candidate.json; evidence/claim-map.json; creative/voice-ad-premium-v12/SPEC.md",
+      "inspection": "The frozen version/digest are explicit. Owner is the price decision authority; 15.99 SAR is confined to the advertisement. Success criteria include format, early reveal, clean CTA and delivery. Checkout, campaign results and store settings are outside this commission."
+    }
+  ],
+  "strengths": [
+    "Coherent scope and traceable owner price decision; visible execution supports the central confusion-to-product-to-use narrative.",
+    "Concrete export, CTA hold, layout and downloadable-player checks make most production acceptance criteria measurable.",
+    "Reports preserve audio uncertainty rather than misrepresenting automated measures as human approval."
+  ],
+  "issues": [
+    "Material evidence gap: no perceptual assessment of the final encoded narration's naturalness, edit joins, intelligibility or residual background music. Required closure is listening evidence on this frozen MP4, especially joins around 1.96s and 4.31s, plus the full narration.",
+    "The count of fifty genuinely independent expert contexts is an orchestration acceptance condition. This individual review neither audits nor certifies that count."
+  ],
+  "objections": [
+    "A no-added-music processing declaration does not by itself prove the final audio contains no residual source music.",
+    "Technical 60fps and sampled screenshots cannot independently establish every moment of natural motion or comparative improvement over the original."
+  ],
+  "limitations": [
+    "No human listening capability; no continuous video watched or heard. Image inspection and supplied software records are distinguished above.",
+    "No independent full manifest rehash, campaign study, purchase or store-admin verification performed.",
+    "No other expert opinions were consulted. The owner remains the final acceptance decision maker."
+  ],
+  "non_applicable_criteria": [
+    "Enterprise governance, corporate hiring, capital allocation, revenue forecasts and organization-wide strategy are unrelated to acceptance of this bounded advertisement.",
+    "Medical fitness, formal legal clearance, checkout fulfillment and sales conversion are not certified by this production review."
+  ]
+}

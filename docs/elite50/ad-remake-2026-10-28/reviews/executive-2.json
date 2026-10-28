@@ -1,0 +1,64 @@
+{
+  "expert": "executive-2",
+  "version": "v12-final-1",
+  "digest": "6b6846706f12db961b678c585330dffd8222545cdd810412a320c4a6af22d553",
+  "decision": "NEEDS_EVIDENCE",
+  "reason": "The inspected visual and delivery evidence supports a strategically coherent ad: the familiar faceless problem premise leads to an early branded product, actual app examples, and a held price/CTA. However, smooth natural source narration and absence of music are explicit production requirements. Learned separation and technical audio records do not establish their perceptual satisfaction, and no human listening evidence is supplied. I cannot approve complete fulfillment while that material requirement remains unverified.",
+  "evidence": [
+    {
+      "file": "creative/voice-ad-premium-v12/reports/encoded-contact.jpg",
+      "type": "direct image inspection",
+      "finding": "At 0/1.04s the blank-faced figure and opening question establish the premise; 8.65/12.575s show the branded guide and concise feature list; 18.55/22.775s show calculator and recipe UI; 27.65/29.70s visibly hold the 15.99 SAR offer and store address."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/reports/encoded-handoffs.jpg",
+      "type": "direct image inspection",
+      "finding": "Sampled frames around 6.32–7.08s show the early product reveal. Samples around 14.17–14.93s and 19.87–20.63s show staged scene changes; sampled captions stay in their separate lower area. This is not continuous motion viewing."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/reports/source-browser.json",
+      "type": "inspected test record",
+      "finding": "Reports book visibility by 7.2s, 14 bounded caption groups, CTA settled by 26.35s and a 3.45s hold. Claims source menus and actor do not overlap; no runtime errors."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/reports/encoded-validation.json",
+      "type": "inspected test record",
+      "finding": "Reports 1080x1920, 60/1 fps, 1788 frames over 29.8s, 36 sampled moving frames without identical adjacent pairs, and decode success. MP4 hash matches the frozen manifest entry."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/reports/audio-edit.json; reports/voice-separation.json",
+      "type": "inspected processing records",
+      "finding": "Reports source narration, no pitch/time stretching, nine short effects, no added music and no clipped samples. The learned vocal estimate expressly does not establish perfect music removal or perceptual naturalness; humanListening is false."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/reports/live-verification.json; reports/player-browser.json",
+      "type": "inspected test records",
+      "finding": "Reports public MP4/player HTTP 200 with local matching hashes, byte range 206, and decoded video/download controls across 320/390/1440px viewports."
+    }
+  ],
+  "strengths": [
+    "Long-term brand fit: restrained gold/ivory styling, preserved character premise, actual product examples and visible estimated-value qualification support a consistent product identity.",
+    "The early reveal and stable final price/CTA address the stated brief directly. Owner price authority is recorded in evidence/claim-map.json.",
+    "Opportunity cost favors resolving the specific audio evidence gap before commissioning another broad visual redesign; the inspected frames do not establish a need for one."
+  ],
+  "issues": [
+    {
+      "severity": "blocking evidence gap",
+      "requirement": "Smooth natural narration and no music",
+      "detail": "A competent Arabic listener must review the actual final MP4 for intelligibility, natural phrase joins (particularly output 1.96s and 4.31s), separation artifacts and residual music. Technical processing reports cannot substitute for that evidence."
+    }
+  ],
+  "objections": [
+    "An approval framed as complete production compliance would overstate what the available audio evidence proves. This is an evidence gap, not a finding that the audio is defective."
+  ],
+  "limitations": [
+    "I inspected the two encoded image sheets and the named records; I did not hear audio or watch continuous video.",
+    "I did not independently repeat encoding/browser/live tests. Sampled frame inspection cannot prove every transition or caption frame.",
+    "The original uploaded video was not directly inspected here, so degree of improvement and exact character continuity are only partially assessable.",
+    "I did not inspect other experts or certify the aggregate fifty-context requirement; orchestration evidence must establish that separately.",
+    "No audience conversion, purchase, fulfillment or medical-quality evidence was evaluated; approval would not certify those outcomes."
+  ],
+  "non_applicable_criteria": [
+    "Corporate roadmap, financing, enterprise organizational strategy and comparative campaign ROI are outside this production task. Long-term fit and alternatives are evaluated only as ad/brand consistency and proportionate next work."
+  ]
+}

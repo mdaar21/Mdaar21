@@ -1,0 +1,57 @@
+{
+  "expert": "commerce-5",
+  "version": "v12-final-1",
+  "digest": "6b6846706f12db961b678c585330dffd8222545cdd810412a320c4a6af22d553",
+  "decision": "APPROVE",
+  "reason": "Approve within customer-experience scope: the advertisement gives a concrete product identity, separates the PDF from app features, explains the main options and shows a clear price and destination. The delivered ad player provides usable file access. This is not certification of purchasing, fulfillment, support quality or perceptual audio quality.",
+  "evidence": [
+    {
+      "file": "creative/voice-ad-premium-v12/reports/encoded-contact.jpg",
+      "inspection": "Direct view_image inspection of encoded stills: product cover and name visible at 8.650s; 12.575s bundle panel says PDF guide + Mdaar app, 4/5-day training, nutrition tools and 500 recipes in the app. At 15.700s the exercise-explanation links are explicitly located in the PDF. Calculator and recipe panels at 18.550s and 22.775s label estimates/examples. At 27.650s and 29.700s the closing frame clearly holds 15.99 SAR, the product CTA and mdaar21.zid.store."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/reports/encoded-handoffs.jpg",
+      "inspection": "Direct view_image inspection of sampled transitions, including 6.320–7.080s product entry and 25.320–26.080s close entry. The sampled product/list/CTA transitions preserve the customer-facing hierarchy; these are sampled stills, not continuous playback."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/index.html:44,55",
+      "inspection": "Source confirms exact bundle wording, PDF-scoped explanation links, estimate qualifications, final 15.99 SAR price and store address. Beat definitions put the product scene at 6.5s and the closing scene at 25.5–29.8s."
+    },
+    {
+      "file": "public/ad/premium/index.html",
+      "inspection": "Direct source inspection shows native video controls, MP4/MP3/SRT download links, mobile saving guidance and an actual product-page link. Independently computed SHA-256 ce213c450ab4b60ba68cf8d26ebd15a77eb451139c34256391ffa004808a3fbb matches the frozen manifest."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/reports/player-browser.json; reports/live-verification.json",
+      "inspection": "Existing records report successful decoding, play/pause, seeking, no horizontal overflow and three downloads at widths 320, 390 and 1440; live files return 200 and video range access returns 206 with local hash matches. These are inspected records, not browser or network tests executed by this reviewer."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/reports/encoded-validation.json; public/ad/premium/mdaar_tiktok_v12_premium.mp4",
+      "inspection": "Record reports 1080x1920, 60/1 fps, 1788 frames, 29.8 seconds and clean decode. Independently computed video SHA-256 0d741b5bef0424be521ba9938e891d8a4f6163b7e075e4cab592f3f8f8ff3940 matches the frozen manifest."
+    },
+    {
+      "file": "docs/elite50/ad-remake-2026-10-28/evidence/claim-map.json; creative/voice-ad-premium-v12/SPEC.md; captions.srt",
+      "inspection": "Documented scope distinguishes owner-supplied ad price from store settings, app recipe entries from PDF content, illustrative estimates from clinical precision, and advertisement delivery from a fulfillment test. Caption text offers guidance without promising a quantified physique result."
+    }
+  ],
+  "strengths": [
+    "The bundle breakdown reduces the risk that a viewer expects all 500 recipes or app features inside the PDF.",
+    "Concrete app examples and 4/5-day choices help a customer understand what the product does before the purchase CTA.",
+    "The final price, product name and destination remain visually clear in the inspected closing samples.",
+    "The ad deliverable has a straightforward download path and mobile saving guidance."
+  ],
+  "issues": [],
+  "objections": [],
+  "limitations": [
+    "No human listening was available. I cannot certify natural narration, intelligibility, caption-to-speech synchronization or complete music removal. Technical audio measurements and ASR do not resolve these perceptual requirements; this approval is limited to the inspected customer-experience evidence.",
+    "I inspected encoded contact and transition sheets, source and existing test records; I did not watch continuous motion or independently visit the live player.",
+    "Store checkout price, successful payment, digital fulfillment, account access, refund terms and support responsiveness were not tested. The advertisement does not establish these outcomes and this review does not certify them.",
+    "The bundle tag and estimate notes are smaller than headlines; their readability for every viewer or every social-platform overlay is not established by a contact sheet.",
+    "Product claim-map counts were inspected as documented evidence, not independently recounted from all recipe/PDF assets."
+  ],
+  "non_applicable_criteria": [
+    "Support operations, service-level agreements and post-purchase delivery workflows are outside this authorized advertisement production review. No support or immediate-delivery promise in the inspected ad requires substantiation here.",
+    "Sales lift, formal legal status, medical suitability and store administration are outside this expert's approval scope.",
+    "I cannot verify the complete fifty-agent roster or vote for another expert; this file records only my own decision."
+  ]
+}

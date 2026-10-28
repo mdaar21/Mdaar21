@@ -1,0 +1,59 @@
+{
+  "expert": "research-1",
+  "version": "v12-final-1",
+  "digest": "6b6846706f12db961b678c585330dffd8222545cdd810412a320c4a6af22d553",
+  "decision": "NEEDS_EVIDENCE",
+  "reason": "Primary product claims and frozen-file identity are well supported, and encoded stills support the requested visual structure. The production request also requires smooth natural narration and no music. No perceptual listening evidence is available, while the narration underwent learned vocal separation and editorial cuts. Technical reports cannot establish those required perceptual properties, so I cannot independently certify overall completion.",
+  "evidence": [
+    {
+      "file": "docs/elite50/ad-remake-2026-10-28/candidate.json",
+      "observation": "Read manifest and independently computed SHA-256 for all 47 listed files; zero mismatches. Frozen MP4 hash matches 0d741b5bef0424be521ba9938e891d8a4f6163b7e075e4cab592f3f8f8ff3940."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/reports/encoded-contact.jpg",
+      "observation": "Personally inspected encoded contact sheet via view_image. Faceless character is visible at 0.000/1.040s, product cover at 8.650s, 4/5-day product cards at 15.700s, calculator at 18.550s, recipe demonstration at 22.775s, and 15.99 SAR/CTA at 27.650/29.700s. These are still-image observations, not continuous viewing."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/reports/encoded-handoffs.jpg",
+      "observation": "Personally inspected encoded handoff sheet via view_image. Samples show coherent scene changes at 6.32–7.08s and 25.32–26.08s; do not establish continuous smoothness or frame-by-frame caption correctness."
+    },
+    {
+      "file": "public/data/recipes-calculated.json; public/data/training-programs.json; docs/artifacts/mdaar-protocol-original-identity-v5.pdf",
+      "observation": "Read primary local data: 500 recipes with 500 distinct IDs; programs explicitly specify 4 and 5 training days. Independently read PDF: 34 pages and 44 unique external URL annotations, comprising 43 YouTube explanation links plus one app URL. This supports claim-map wording about app recipes and PDF explanation links; third-party playback and clinical accuracy remain outside verification."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/verify-encoded.py; reports/encoded-validation.json",
+      "observation": "Inspected verification implementation and recorded output: 1080x1920, 60/1 fps, 1788 frames, 29.8s; cadence maximum error about 6.7e-7s. Actual-motion duplicate check samples only 0.35–0.95s, so it does not prove all scenes contain unique motion at every frame. Decode and master correlation checks are reproducible technical evidence, not listening evidence."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/process-audio.py; reports/audio-edit.json; reports/voice-separation.json",
+      "observation": "Inspected edit method: source cuts 8.69–10.65, 17.18–19.53 and 20.00–41.70s; fixed EQ/gain and nine brief effects; no pitch shift/time stretch or music bed in mixing code. Vocal model/hash and parameters are recorded. Report explicitly states approximate separation and no human listening."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/reports/live-verification.json; reports/player-browser.json; captions.srt",
+      "observation": "Read recorded live hash/range and player tests: MP4 matches frozen bytes, HTTP 206 range support, native decoding/play-pause/seeking/downloads at 320/390/1440 widths. Fourteen caption groups run 0.045–25.990s. These are inspected records; I did not rerun live-browser checks."
+    }
+  ],
+  "strengths": [
+    "Primary sources distinguish 500 app entries from PDF contents and nutritional estimates from medical precision.",
+    "Versioned manifest, source/model hashes, edit mapping, scripts and encoded checks make the production method substantially reproducible.",
+    "Encoded stills show explicit price, real product demonstrations, protected Arabic captions and a held closing CTA."
+  ],
+  "issues": [
+    "A competent Arabic listener should assess the frozen MP4 for narration naturalness, intelligibility, edit joins, caption/audio agreement and residual music before declaring those explicit requirements satisfied. No claim of an audible defect is made.",
+    "No-music-added is established by the inspected mix method; absolute absence of residual source music is not established by approximate vocal separation."
+  ],
+  "objections": [
+    "Do not treat ASR, loudness, correlation or software playback as substitutes for perceptual audio review."
+  ],
+  "limitations": [
+    "No human listening capability and no continuous video viewing; visual review used encoded sheets.",
+    "I verified listed file hashes and primary data counts but did not rerender, rerun separation, reproduce encoding or perform external checkout/fulfillment.",
+    "Owner price authorization is taken from the supplied task/claim map; no independent store price reconciliation was requested.",
+    "This single expert review cannot certify that fifty other contexts independently reviewed the deliverable."
+  ],
+  "non_applicable_criteria": [
+    "Clinical efficacy trials, nutritional professional validation, exercise-program safety certification and scientific publication standards are not required for an ad production audit. The ad must still avoid presenting estimates as established medical facts.",
+    "Sales conversion studies, legal clearance, checkout/fulfillment and third-party explanation-video availability are outside this production-review scope."
+  ]
+}

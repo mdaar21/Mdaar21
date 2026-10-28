@@ -1,0 +1,21 @@
+{
+  "frozenVersion": "v12-final-1",
+  "digest": "6b6846706f12db961b678c585330dffd8222545cdd810412a320c4a6af22d553",
+  "frozenFiles": 47,
+  "claimMap": "evidence/claim-map.json",
+  "observed": [
+    "Owner15.99price",
+    "PDF34pages/43uniqueannotationURLs",
+    "App500recipeentries",
+    "1080x1920,60fps,1788frames,29.8s",
+    "No duplicated moving frames in sampled window",
+    "AACcorrelation.9999844 and encodedpeak-3.01dBTP",
+    "Captions14groups53words/sourcefieldmapping",
+    "Source and encoded scene/handoff sheets inspected"
+  ],
+  "limits": [
+    "Human voice naturalness/speech clarity and perfect background removal unassessed",
+    "ASR not verified transcript",
+    "No audience conversion/retention or checkout tests"
+  ]
+}

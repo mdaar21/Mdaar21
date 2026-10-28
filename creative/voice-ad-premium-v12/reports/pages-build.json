@@ -1,0 +1,12 @@
+{
+  "command": "python scripts/build-github-pages.py --output /tmp/mdaar-v12-pages/site",
+  "output": "/tmp/mdaar-v12-pages/site",
+  "publicationScope": "New ad/premium directory only. Existing app, showcase, book and old ads preserved.",
+  "files": [
+    "captions.srt",
+    "index.html",
+    "mdaar_tiktok_v12_premium.mp4",
+    "poster.jpg",
+    "voice-clean.mp3"
+  ]
+}

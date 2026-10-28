@@ -1,0 +1,2335 @@
+{
+  "pdf": "docs/artifacts/mdaar-protocol-original-identity-v5.pdf",
+  "sha256": "de78fbb1468cbd7cdb635649500476022f3bbf8e6cc7c242bd6f690db54c34d5",
+  "pages": 34,
+  "urlAnnotations": [
+    {
+      "page": 3,
+      "uri": "https://mdaar21.github.io/Mdaar21/",
+      "rect": [
+        419.02734375,
+        592.5,
+        532.27734375,
+        712.5
+      ]
+    },
+    {
+      "page": 3,
+      "uri": "https://mdaar21.github.io/Mdaar21/",
+      "rect": [
+        240.52734375,
+        650.25,
+        395.77734375,
+        671.25
+      ]
+    },
+    {
+      "page": 9,
+      "uri": "https://youtu.be/vnd-GBtTMLI?si=kAHBU6uO7X2tSMGh",
+      "rect": [
+        470.77734375,
+        281.25,
+        510.52734375,
+        295.5
+      ]
+    },
+    {
+      "page": 9,
+      "uri": "https://youtube.com/shorts/_FkbD0FhgVE?si=BF-m3VaiBNEK57wU",
+      "rect": [
+        425.77734375,
+        281.25,
+        462.52734375,
+        295.5
+      ]
+    },
+    {
+      "page": 9,
+      "uri": "https://youtube.com/shorts/T0huVIujERo?si=ckmp2aghIyx-U2Kd",
+      "rect": [
+        255.52734375,
+        281.25,
+        294.52734375,
+        295.5
+      ]
+    },
+    {
+      "page": 9,
+      "uri": "https://youtube.com/shorts/Gruq177Psnk?si=5ToAEDAafBu_H1-Y",
+      "rect": [
+        210.52734375,
+        281.25,
+        246.52734375,
+        295.5
+      ]
+    },
+    {
+      "page": 9,
+      "uri": "https://youtu.be/eGjt4lk6g34?si=3sWWisUtmwkX2Bfw",
+      "rect": [
+        470.77734375,
+        421.5,
+        510.52734375,
+        435.75
+      ]
+    },
+    {
+      "page": 9,
+      "uri": "https://youtube.com/shorts/y4RJDSOBEl8?si=hXAcjqsxZ2ULlsLu",
+      "rect": [
+        425.77734375,
+        421.5,
+        462.52734375,
+        435.75
+      ]
+    },
+    {
+      "page": 9,
+      "uri": "https://youtube.com/shorts/k6zaPZbB8yI?si=1LeK4NlSJR_t_GMh",
+      "rect": [
+        255.52734375,
+        421.5,
+        294.52734375,
+        435.75
+      ]
+    },
+    {
+      "page": 9,
+      "uri": "https://youtube.com/shorts/t2SmvH1iGjg?si=NTXpp7Ux4Bb7V9jl",
+      "rect": [
+        210.52734375,
+        421.5,
+        246.52734375,
+        435.75
+      ]
+    },
+    {
+      "page": 9,
+      "uri": "https://youtube.com/shorts/iK22GwXJji0?si=PpIOReyHSWJ5Fssl",
+      "rect": [
+        470.77734375,
+        561.0,
+        510.52734375,
+        575.25
+      ]
+    },
+    {
+      "page": 9,
+      "uri": "https://youtube.com/shorts/23VoAvqwSzo?si=NEZPRSMiJ0cxn7Hi",
+      "rect": [
+        425.77734375,
+        561.0,
+        462.52734375,
+        575.25
+      ]
+    },
+    {
+      "page": 9,
+      "uri": "https://youtu.be/kqidUIf1eJE?si=NX7Tommrn2J6lZZg",
+      "rect": [
+        255.52734375,
+        561.0,
+        294.52734375,
+        575.25
+      ]
+    },
+    {
+      "page": 9,
+      "uri": "https://youtube.com/shorts/b_r_LW4HEcM?si=3d8McpNsfsaO5ydp",
+      "rect": [
+        210.52734375,
+        561.0,
+        246.52734375,
+        575.25
+      ]
+    },
+    {
+      "page": 9,
+      "uri": "https://youtube.com/shorts/u36jNfqh8_U?si=QoYfsy_JUdKulO7p",
+      "rect": [
+        470.77734375,
+        701.25,
+        510.52734375,
+        715.5
+      ]
+    },
+    {
+      "page": 9,
+      "uri": "https://youtu.be/vnd-GBtTMLI?si=kAHBU6uO7X2tSMGh",
+      "rect": [
+        310.27734375,
+        194.25,
+        362.02734375,
+        246.0
+      ]
+    },
+    {
+      "page": 9,
+      "uri": "https://youtube.com/shorts/_FkbD0FhgVE?si=BF-m3VaiBNEK57wU",
+      "rect": [
+        380.77734375,
+        194.25,
+        432.52734375,
+        246.0
+      ]
+    },
+    {
+      "page": 9,
+      "uri": "https://youtube.com/shorts/T0huVIujERo?si=ckmp2aghIyx-U2Kd",
+      "rect": [
+        94.27734375,
+        194.25,
+        146.02734375,
+        246.0
+      ]
+    },
+    {
+      "page": 9,
+      "uri": "https://youtube.com/shorts/Gruq177Psnk?si=5ToAEDAafBu_H1-Y",
+      "rect": [
+        165.52734375,
+        194.25,
+        217.27734375,
+        246.0
+      ]
+    },
+    {
+      "page": 9,
+      "uri": "https://youtu.be/eGjt4lk6g34?si=3sWWisUtmwkX2Bfw",
+      "rect": [
+        310.27734375,
+        334.5,
+        362.02734375,
+        386.25
+      ]
+    },
+    {
+      "page": 9,
+      "uri": "https://youtube.com/shorts/y4RJDSOBEl8?si=hXAcjqsxZ2ULlsLu",
+      "rect": [
+        380.77734375,
+        334.5,
+        432.52734375,
+        386.25
+      ]
+    },
+    {
+      "page": 9,
+      "uri": "https://youtube.com/shorts/k6zaPZbB8yI?si=1LeK4NlSJR_t_GMh",
+      "rect": [
+        94.27734375,
+        334.5,
+        146.02734375,
+        386.25
+      ]
+    },
+    {
+      "page": 9,
+      "uri": "https://youtube.com/shorts/t2SmvH1iGjg?si=NTXpp7Ux4Bb7V9jl",
+      "rect": [
+        165.52734375,
+        334.5,
+        217.27734375,
+        386.25
+      ]
+    },
+    {
+      "page": 9,
+      "uri": "https://youtube.com/shorts/iK22GwXJji0?si=PpIOReyHSWJ5Fssl",
+      "rect": [
+        309.52734375,
+        474.0,
+        361.27734375,
+        525.75
+      ]
+    },
+    {
+      "page": 9,
+      "uri": "https://youtube.com/shorts/23VoAvqwSzo?si=NEZPRSMiJ0cxn7Hi",
+      "rect": [
+        380.02734375,
+        474.0,
+        431.77734375,
+        525.75
+      ]
+    },
+    {
+      "page": 9,
+      "uri": "https://youtu.be/kqidUIf1eJE?si=NX7Tommrn2J6lZZg",
+      "rect": [
+        94.27734375,
+        474.75,
+        146.02734375,
+        526.5
+      ]
+    },
+    {
+      "page": 9,
+      "uri": "https://youtube.com/shorts/b_r_LW4HEcM?si=3d8McpNsfsaO5ydp",
+      "rect": [
+        165.52734375,
+        474.75,
+        217.27734375,
+        526.5
+      ]
+    },
+    {
+      "page": 9,
+      "uri": "https://youtube.com/shorts/u36jNfqh8_U?si=QoYfsy_JUdKulO7p",
+      "rect": [
+        310.27734375,
+        615.0,
+        362.02734375,
+        666.75
+      ]
+    },
+    {
+      "page": 11,
+      "uri": "https://youtube.com/shorts/51ql2-2kLfA?si=rUy2h16sM7990Tbf",
+      "rect": [
+        470.77734375,
+        281.25,
+        510.52734375,
+        295.5
+      ]
+    },
+    {
+      "page": 11,
+      "uri": "https://youtube.com/shorts/ym1V5H35IpA?si=lIokNLUZcRhDRV3J",
+      "rect": [
+        425.77734375,
+        281.25,
+        462.52734375,
+        295.5
+      ]
+    },
+    {
+      "page": 11,
+      "uri": "https://youtube.com/shorts/qD1WZ5pSuvk?si=yUcZKUhYJ3IIyzP1",
+      "rect": [
+        255.52734375,
+        281.25,
+        294.52734375,
+        295.5
+      ]
+    },
+    {
+      "page": 11,
+      "uri": "https://youtube.com/shorts/hJQwrKrxOOo?si=8Qx4qDyEV5_1R2sX",
+      "rect": [
+        210.52734375,
+        281.25,
+        246.52734375,
+        295.5
+      ]
+    },
+    {
+      "page": 11,
+      "uri": "https://youtube.com/shorts/0pGiyBXvA2c?si=T2ZncEeSCuLBHXrd",
+      "rect": [
+        470.77734375,
+        421.5,
+        510.52734375,
+        435.75
+      ]
+    },
+    {
+      "page": 11,
+      "uri": "https://youtube.com/shorts/phVtqawIgbk?si=oO5fPS2i8F89FRBM",
+      "rect": [
+        425.77734375,
+        421.5,
+        462.52734375,
+        435.75
+      ]
+    },
+    {
+      "page": 11,
+      "uri": "https://youtube.com/shorts/7tgx6QHB0-A?si=_V_1CylN-j-LXMn6",
+      "rect": [
+        255.52734375,
+        421.5,
+        294.52734375,
+        435.75
+      ]
+    },
+    {
+      "page": 11,
+      "uri": "https://youtube.com/shorts/bkejPHrPkmA?si=2GQ94irPXlehOHNH",
+      "rect": [
+        210.52734375,
+        421.5,
+        246.52734375,
+        435.75
+      ]
+    },
+    {
+      "page": 11,
+      "uri": "https://youtube.com/shorts/S4dDLfp3e8w?si=6-PhISxaPgUXA_-B",
+      "rect": [
+        470.77734375,
+        561.75,
+        510.52734375,
+        576.0
+      ]
+    },
+    {
+      "page": 11,
+      "uri": "https://youtube.com/shorts/7ixqAPO6JvU?si=KWms5O04HVXBF3Lq",
+      "rect": [
+        425.77734375,
+        561.75,
+        462.52734375,
+        576.0
+      ]
+    },
+    {
+      "page": 11,
+      "uri": "https://youtube.com/shorts/8Aof_F7fx60?si=9Mc-sNLpu0Qs4riz",
+      "rect": [
+        255.52734375,
+        561.0,
+        294.52734375,
+        575.25
+      ]
+    },
+    {
+      "page": 11,
+      "uri": "https://youtube.com/shorts/4yTQjZvp3Nk?si=hbK0xxq3_jQBC4q9",
+      "rect": [
+        210.52734375,
+        561.0,
+        246.52734375,
+        575.25
+      ]
+    },
+    {
+      "page": 11,
+      "uri": "https://youtu.be/3VLTzIrnb5g?si=Srgy5OHlJX3llLhB",
+      "rect": [
+        470.77734375,
+        702.0,
+        510.52734375,
+        716.25
+      ]
+    },
+    {
+      "page": 11,
+      "uri": "https://youtube.com/shorts/xENVg7RX_O8?si=EKgMelxk0txjkGgN",
+      "rect": [
+        255.52734375,
+        702.0,
+        294.52734375,
+        716.25
+      ]
+    },
+    {
+      "page": 11,
+      "uri": "https://youtube.com/shorts/51ql2-2kLfA?si=rUy2h16sM7990Tbf",
+      "rect": [
+        310.27734375,
+        194.25,
+        362.02734375,
+        246.0
+      ]
+    },
+    {
+      "page": 11,
+      "uri": "https://youtube.com/shorts/ym1V5H35IpA?si=lIokNLUZcRhDRV3J",
+      "rect": [
+        380.77734375,
+        194.25,
+        432.52734375,
+        246.0
+      ]
+    },
+    {
+      "page": 11,
+      "uri": "https://youtube.com/shorts/qD1WZ5pSuvk?si=yUcZKUhYJ3IIyzP1",
+      "rect": [
+        94.27734375,
+        194.25,
+        146.02734375,
+        246.0
+      ]
+    },
+    {
+      "page": 11,
+      "uri": "https://youtube.com/shorts/hJQwrKrxOOo?si=8Qx4qDyEV5_1R2sX",
+      "rect": [
+        165.52734375,
+        194.25,
+        217.27734375,
+        246.0
+      ]
+    },
+    {
+      "page": 11,
+      "uri": "https://youtube.com/shorts/0pGiyBXvA2c?si=T2ZncEeSCuLBHXrd",
+      "rect": [
+        309.52734375,
+        334.5,
+        361.27734375,
+        386.25
+      ]
+    },
+    {
+      "page": 11,
+      "uri": "https://youtube.com/shorts/phVtqawIgbk?si=oO5fPS2i8F89FRBM",
+      "rect": [
+        380.02734375,
+        334.5,
+        431.77734375,
+        386.25
+      ]
+    },
+    {
+      "page": 11,
+      "uri": "https://youtube.com/shorts/7tgx6QHB0-A?si=_V_1CylN-j-LXMn6",
+      "rect": [
+        94.27734375,
+        334.5,
+        146.02734375,
+        386.25
+      ]
+    },
+    {
+      "page": 11,
+      "uri": "https://youtube.com/shorts/bkejPHrPkmA?si=2GQ94irPXlehOHNH",
+      "rect": [
+        164.77734375,
+        334.5,
+        216.52734375,
+        386.25
+      ]
+    },
+    {
+      "page": 11,
+      "uri": "https://youtube.com/shorts/S4dDLfp3e8w?si=6-PhISxaPgUXA_-B",
+      "rect": [
+        310.27734375,
+        474.75,
+        362.02734375,
+        526.5
+      ]
+    },
+    {
+      "page": 11,
+      "uri": "https://youtube.com/shorts/7ixqAPO6JvU?si=KWms5O04HVXBF3Lq",
+      "rect": [
+        380.77734375,
+        474.75,
+        432.52734375,
+        526.5
+      ]
+    },
+    {
+      "page": 11,
+      "uri": "https://youtube.com/shorts/8Aof_F7fx60?si=9Mc-sNLpu0Qs4riz",
+      "rect": [
+        94.27734375,
+        474.75,
+        146.02734375,
+        526.5
+      ]
+    },
+    {
+      "page": 11,
+      "uri": "https://youtube.com/shorts/4yTQjZvp3Nk?si=hbK0xxq3_jQBC4q9",
+      "rect": [
+        164.77734375,
+        474.75,
+        216.52734375,
+        526.5
+      ]
+    },
+    {
+      "page": 11,
+      "uri": "https://youtu.be/3VLTzIrnb5g?si=Srgy5OHlJX3llLhB",
+      "rect": [
+        310.27734375,
+        615.0,
+        362.02734375,
+        666.75
+      ]
+    },
+    {
+      "page": 11,
+      "uri": "https://youtube.com/shorts/xENVg7RX_O8?si=EKgMelxk0txjkGgN",
+      "rect": [
+        94.27734375,
+        615.0,
+        146.02734375,
+        666.75
+      ]
+    },
+    {
+      "page": 12,
+      "uri": "https://youtube.com/shorts/ahaJTts1f3s?si=N7sIz5gAQATAxBy1",
+      "rect": [
+        470.77734375,
+        281.25,
+        510.52734375,
+        295.5
+      ]
+    },
+    {
+      "page": 12,
+      "uri": "https://youtube.com/shorts/-ol9-bZ_SJc?si=v48CfmDfvC2llTi9",
+      "rect": [
+        425.77734375,
+        281.25,
+        462.52734375,
+        295.5
+      ]
+    },
+    {
+      "page": 12,
+      "uri": "https://youtu.be/MpEydcQ1oDw?si=qYCD55tG1uBWgPe1",
+      "rect": [
+        255.52734375,
+        281.25,
+        294.52734375,
+        295.5
+      ]
+    },
+    {
+      "page": 12,
+      "uri": "https://youtube.com/shorts/_lgE0gPvbik?si=qSMb1JVTX9kv3Edy",
+      "rect": [
+        470.77734375,
+        421.5,
+        510.52734375,
+        435.75
+      ]
+    },
+    {
+      "page": 12,
+      "uri": "https://youtu.be/SbSNUXPRkc8?si=mKKsibAT3SHCLeQn",
+      "rect": [
+        255.52734375,
+        421.5,
+        294.52734375,
+        435.75
+      ]
+    },
+    {
+      "page": 12,
+      "uri": "https://youtube.com/shorts/iPLvw74e7Tk?si=nXmboVBdoQr07lSS",
+      "rect": [
+        470.77734375,
+        561.0,
+        510.52734375,
+        575.25
+      ]
+    },
+    {
+      "page": 12,
+      "uri": "https://youtube.com/shorts/xwszHjl2D40?si=dsjRUo-s0eYb5PII",
+      "rect": [
+        255.52734375,
+        561.0,
+        294.52734375,
+        575.25
+      ]
+    },
+    {
+      "page": 12,
+      "uri": "https://youtube.com/shorts/S2yhz3klwdU?si=xJHi4VTiiCeKY9ro",
+      "rect": [
+        210.52734375,
+        561.0,
+        246.52734375,
+        575.25
+      ]
+    },
+    {
+      "page": 12,
+      "uri": "https://youtube.com/shorts/ByZJuk85YuE?si=OPBBD7gBfB1U0keq",
+      "rect": [
+        470.77734375,
+        701.25,
+        510.52734375,
+        715.5
+      ]
+    },
+    {
+      "page": 12,
+      "uri": "https://youtube.com/shorts/jpXMUpU5Q7A?si=Rt7TWb43mlENVLpC",
+      "rect": [
+        425.77734375,
+        701.25,
+        462.52734375,
+        715.5
+      ]
+    },
+    {
+      "page": 12,
+      "uri": "https://youtube.com/shorts/5gU3pyrkv-E?si=HKndzFZnLauJy5-j",
+      "rect": [
+        255.52734375,
+        701.25,
+        294.52734375,
+        715.5
+      ]
+    },
+    {
+      "page": 12,
+      "uri": "https://youtube.com/shorts/ahaJTts1f3s?si=N7sIz5gAQATAxBy1",
+      "rect": [
+        310.27734375,
+        194.25,
+        362.02734375,
+        246.0
+      ]
+    },
+    {
+      "page": 12,
+      "uri": "https://youtube.com/shorts/-ol9-bZ_SJc?si=v48CfmDfvC2llTi9",
+      "rect": [
+        380.77734375,
+        194.25,
+        432.52734375,
+        246.0
+      ]
+    },
+    {
+      "page": 12,
+      "uri": "https://youtu.be/MpEydcQ1oDw?si=qYCD55tG1uBWgPe1",
+      "rect": [
+        94.27734375,
+        194.25,
+        146.02734375,
+        246.0
+      ]
+    },
+    {
+      "page": 12,
+      "uri": "https://youtube.com/shorts/_lgE0gPvbik?si=qSMb1JVTX9kv3Edy",
+      "rect": [
+        309.52734375,
+        334.5,
+        361.27734375,
+        386.25
+      ]
+    },
+    {
+      "page": 12,
+      "uri": "https://youtu.be/SbSNUXPRkc8?si=mKKsibAT3SHCLeQn",
+      "rect": [
+        94.27734375,
+        334.5,
+        146.02734375,
+        386.25
+      ]
+    },
+    {
+      "page": 12,
+      "uri": "https://youtube.com/shorts/iPLvw74e7Tk?si=nXmboVBdoQr07lSS",
+      "rect": [
+        309.52734375,
+        474.75,
+        361.27734375,
+        526.5
+      ]
+    },
+    {
+      "page": 12,
+      "uri": "https://youtube.com/shorts/xwszHjl2D40?si=dsjRUo-s0eYb5PII",
+      "rect": [
+        94.27734375,
+        474.75,
+        146.02734375,
+        526.5
+      ]
+    },
+    {
+      "page": 12,
+      "uri": "https://youtube.com/shorts/S2yhz3klwdU?si=xJHi4VTiiCeKY9ro",
+      "rect": [
+        165.52734375,
+        474.75,
+        217.27734375,
+        526.5
+      ]
+    },
+    {
+      "page": 12,
+      "uri": "https://youtube.com/shorts/ByZJuk85YuE?si=OPBBD7gBfB1U0keq",
+      "rect": [
+        310.27734375,
+        614.25,
+        362.02734375,
+        666.0
+      ]
+    },
+    {
+      "page": 12,
+      "uri": "https://youtube.com/shorts/jpXMUpU5Q7A?si=Rt7TWb43mlENVLpC",
+      "rect": [
+        380.77734375,
+        614.25,
+        432.52734375,
+        666.0
+      ]
+    },
+    {
+      "page": 12,
+      "uri": "https://youtube.com/shorts/5gU3pyrkv-E?si=HKndzFZnLauJy5-j",
+      "rect": [
+        94.27734375,
+        614.25,
+        146.02734375,
+        666.0
+      ]
+    },
+    {
+      "page": 15,
+      "uri": "https://youtu.be/vnd-GBtTMLI?si=kAHBU6uO7X2tSMGh",
+      "rect": [
+        470.77734375,
+        281.25,
+        510.52734375,
+        295.5
+      ]
+    },
+    {
+      "page": 15,
+      "uri": "https://youtube.com/shorts/_FkbD0FhgVE?si=BF-m3VaiBNEK57wU",
+      "rect": [
+        425.77734375,
+        281.25,
+        462.52734375,
+        295.5
+      ]
+    },
+    {
+      "page": 15,
+      "uri": "https://youtu.be/eGjt4lk6g34?si=3sWWisUtmwkX2Bfw",
+      "rect": [
+        255.52734375,
+        281.25,
+        294.52734375,
+        295.5
+      ]
+    },
+    {
+      "page": 15,
+      "uri": "https://youtube.com/shorts/y4RJDSOBEl8?si=hXAcjqsxZ2ULlsLu",
+      "rect": [
+        210.52734375,
+        281.25,
+        246.52734375,
+        295.5
+      ]
+    },
+    {
+      "page": 15,
+      "uri": "https://youtube.com/shorts/k6zaPZbB8yI?si=1LeK4NlSJR_t_GMh",
+      "rect": [
+        470.77734375,
+        421.5,
+        510.52734375,
+        435.75
+      ]
+    },
+    {
+      "page": 15,
+      "uri": "https://youtube.com/shorts/t2SmvH1iGjg?si=NTXpp7Ux4Bb7V9jl",
+      "rect": [
+        425.77734375,
+        421.5,
+        462.52734375,
+        435.75
+      ]
+    },
+    {
+      "page": 15,
+      "uri": "https://youtube.com/shorts/51ql2-2kLfA?si=rUy2h16sM7990Tbf",
+      "rect": [
+        255.52734375,
+        421.5,
+        294.52734375,
+        435.75
+      ]
+    },
+    {
+      "page": 15,
+      "uri": "https://youtube.com/shorts/ym1V5H35IpA?si=lIokNLUZcRhDRV3J",
+      "rect": [
+        210.52734375,
+        421.5,
+        246.52734375,
+        435.75
+      ]
+    },
+    {
+      "page": 15,
+      "uri": "https://youtube.com/shorts/qD1WZ5pSuvk?si=yUcZKUhYJ3IIyzP1",
+      "rect": [
+        470.77734375,
+        561.75,
+        510.52734375,
+        576.0
+      ]
+    },
+    {
+      "page": 15,
+      "uri": "https://youtube.com/shorts/hJQwrKrxOOo?si=8Qx4qDyEV5_1R2sX",
+      "rect": [
+        425.77734375,
+        561.75,
+        462.52734375,
+        576.0
+      ]
+    },
+    {
+      "page": 15,
+      "uri": "https://youtube.com/shorts/1OY7v02l2vA",
+      "rect": [
+        255.52734375,
+        561.75,
+        294.52734375,
+        576.0
+      ]
+    },
+    {
+      "page": 15,
+      "uri": "https://youtube.com/shorts/MKWBV29S6c0?si=inDIQL6ol85c2WUy",
+      "rect": [
+        470.77734375,
+        701.25,
+        510.52734375,
+        715.5
+      ]
+    },
+    {
+      "page": 15,
+      "uri": "https://youtube.com/shorts/Pt4UD1Dxvr8?si=wx8bI5Eby088BMZQ",
+      "rect": [
+        425.77734375,
+        701.25,
+        462.52734375,
+        715.5
+      ]
+    },
+    {
+      "page": 15,
+      "uri": "https://youtube.com/shorts/u36jNfqh8_U?si=QoYfsy_JUdKulO7p",
+      "rect": [
+        255.52734375,
+        701.25,
+        294.52734375,
+        715.5
+      ]
+    },
+    {
+      "page": 15,
+      "uri": "https://youtu.be/vnd-GBtTMLI?si=kAHBU6uO7X2tSMGh",
+      "rect": [
+        310.27734375,
+        194.25,
+        362.02734375,
+        246.0
+      ]
+    },
+    {
+      "page": 15,
+      "uri": "https://youtube.com/shorts/_FkbD0FhgVE?si=BF-m3VaiBNEK57wU",
+      "rect": [
+        380.77734375,
+        194.25,
+        432.52734375,
+        246.0
+      ]
+    },
+    {
+      "page": 15,
+      "uri": "https://youtu.be/eGjt4lk6g34?si=3sWWisUtmwkX2Bfw",
+      "rect": [
+        94.27734375,
+        194.25,
+        146.02734375,
+        246.0
+      ]
+    },
+    {
+      "page": 15,
+      "uri": "https://youtube.com/shorts/y4RJDSOBEl8?si=hXAcjqsxZ2ULlsLu",
+      "rect": [
+        165.52734375,
+        194.25,
+        217.27734375,
+        246.0
+      ]
+    },
+    {
+      "page": 15,
+      "uri": "https://youtube.com/shorts/k6zaPZbB8yI?si=1LeK4NlSJR_t_GMh",
+      "rect": [
+        310.27734375,
+        334.5,
+        362.02734375,
+        386.25
+      ]
+    },
+    {
+      "page": 15,
+      "uri": "https://youtube.com/shorts/t2SmvH1iGjg?si=NTXpp7Ux4Bb7V9jl",
+      "rect": [
+        380.77734375,
+        334.5,
+        432.52734375,
+        386.25
+      ]
+    },
+    {
+      "page": 15,
+      "uri": "https://youtube.com/shorts/51ql2-2kLfA?si=rUy2h16sM7990Tbf",
+      "rect": [
+        94.27734375,
+        334.5,
+        146.02734375,
+        386.25
+      ]
+    },
+    {
+      "page": 15,
+      "uri": "https://youtube.com/shorts/ym1V5H35IpA?si=lIokNLUZcRhDRV3J",
+      "rect": [
+        165.52734375,
+        334.5,
+        217.27734375,
+        386.25
+      ]
+    },
+    {
+      "page": 15,
+      "uri": "https://youtube.com/shorts/qD1WZ5pSuvk?si=yUcZKUhYJ3IIyzP1",
+      "rect": [
+        310.27734375,
+        474.75,
+        362.02734375,
+        526.5
+      ]
+    },
+    {
+      "page": 15,
+      "uri": "https://youtube.com/shorts/hJQwrKrxOOo?si=8Qx4qDyEV5_1R2sX",
+      "rect": [
+        380.77734375,
+        474.75,
+        432.52734375,
+        526.5
+      ]
+    },
+    {
+      "page": 15,
+      "uri": "https://youtube.com/shorts/1OY7v02l2vA",
+      "rect": [
+        129.52734375,
+        474.75,
+        182.02734375,
+        526.5
+      ]
+    },
+    {
+      "page": 15,
+      "uri": "https://youtube.com/shorts/MKWBV29S6c0?si=inDIQL6ol85c2WUy",
+      "rect": [
+        310.27734375,
+        615.0,
+        362.02734375,
+        666.75
+      ]
+    },
+    {
+      "page": 15,
+      "uri": "https://youtube.com/shorts/Pt4UD1Dxvr8?si=wx8bI5Eby088BMZQ",
+      "rect": [
+        380.77734375,
+        615.0,
+        432.52734375,
+        666.75
+      ]
+    },
+    {
+      "page": 15,
+      "uri": "https://youtube.com/shorts/u36jNfqh8_U?si=QoYfsy_JUdKulO7p",
+      "rect": [
+        94.27734375,
+        615.0,
+        146.02734375,
+        666.75
+      ]
+    },
+    {
+      "page": 17,
+      "uri": "https://youtube.com/shorts/ahaJTts1f3s?si=N7sIz5gAQATAxBy1",
+      "rect": [
+        470.77734375,
+        281.25,
+        510.52734375,
+        295.5
+      ]
+    },
+    {
+      "page": 17,
+      "uri": "https://youtube.com/shorts/-ol9-bZ_SJc?si=v48CfmDfvC2llTi9",
+      "rect": [
+        425.77734375,
+        281.25,
+        462.52734375,
+        295.5
+      ]
+    },
+    {
+      "page": 17,
+      "uri": "https://youtu.be/MpEydcQ1oDw?si=qYCD55tG1uBWgPe1",
+      "rect": [
+        255.52734375,
+        281.25,
+        294.52734375,
+        295.5
+      ]
+    },
+    {
+      "page": 17,
+      "uri": "https://youtube.com/shorts/g5u75sgpn04?si=Et8OE0RdMWEl7nte",
+      "rect": [
+        470.77734375,
+        420.75,
+        510.52734375,
+        435.0
+      ]
+    },
+    {
+      "page": 17,
+      "uri": "https://youtu.be/5S8SApGU_Lk?si=sSXx0WadUZFLyziR",
+      "rect": [
+        255.52734375,
+        420.75,
+        294.52734375,
+        435.0
+      ]
+    },
+    {
+      "page": 17,
+      "uri": "https://youtu.be/SbSNUXPRkc8?si=mKKsibAT3SHCLeQn",
+      "rect": [
+        470.77734375,
+        561.0,
+        510.52734375,
+        575.25
+      ]
+    },
+    {
+      "page": 17,
+      "uri": "https://youtube.com/shorts/xwszHjl2D40?si=dsjRUo-s0eYb5PII",
+      "rect": [
+        255.52734375,
+        561.0,
+        294.52734375,
+        575.25
+      ]
+    },
+    {
+      "page": 17,
+      "uri": "https://youtube.com/shorts/S2yhz3klwdU?si=xJHi4VTiiCeKY9ro",
+      "rect": [
+        210.52734375,
+        561.0,
+        246.52734375,
+        575.25
+      ]
+    },
+    {
+      "page": 17,
+      "uri": "https://youtube.com/shorts/ByZJuk85YuE?si=OPBBD7gBfB1U0keq",
+      "rect": [
+        470.77734375,
+        701.25,
+        510.52734375,
+        715.5
+      ]
+    },
+    {
+      "page": 17,
+      "uri": "https://youtube.com/shorts/jpXMUpU5Q7A?si=Rt7TWb43mlENVLpC",
+      "rect": [
+        425.77734375,
+        701.25,
+        462.52734375,
+        715.5
+      ]
+    },
+    {
+      "page": 17,
+      "uri": "https://youtube.com/shorts/5gU3pyrkv-E?si=HKndzFZnLauJy5-j",
+      "rect": [
+        255.52734375,
+        701.25,
+        294.52734375,
+        715.5
+      ]
+    },
+    {
+      "page": 17,
+      "uri": "https://youtube.com/shorts/ahaJTts1f3s?si=N7sIz5gAQATAxBy1",
+      "rect": [
+        310.27734375,
+        194.25,
+        362.02734375,
+        246.0
+      ]
+    },
+    {
+      "page": 17,
+      "uri": "https://youtube.com/shorts/-ol9-bZ_SJc?si=v48CfmDfvC2llTi9",
+      "rect": [
+        380.77734375,
+        194.25,
+        432.52734375,
+        246.0
+      ]
+    },
+    {
+      "page": 17,
+      "uri": "https://youtu.be/MpEydcQ1oDw?si=qYCD55tG1uBWgPe1",
+      "rect": [
+        94.27734375,
+        194.25,
+        146.02734375,
+        246.0
+      ]
+    },
+    {
+      "page": 17,
+      "uri": "https://youtube.com/shorts/g5u75sgpn04?si=Et8OE0RdMWEl7nte",
+      "rect": [
+        309.52734375,
+        334.5,
+        361.27734375,
+        386.25
+      ]
+    },
+    {
+      "page": 17,
+      "uri": "https://youtu.be/5S8SApGU_Lk?si=sSXx0WadUZFLyziR",
+      "rect": [
+        94.27734375,
+        334.5,
+        146.02734375,
+        386.25
+      ]
+    },
+    {
+      "page": 17,
+      "uri": "https://youtu.be/SbSNUXPRkc8?si=mKKsibAT3SHCLeQn",
+      "rect": [
+        309.52734375,
+        474.0,
+        361.27734375,
+        525.75
+      ]
+    },
+    {
+      "page": 17,
+      "uri": "https://youtube.com/shorts/xwszHjl2D40?si=dsjRUo-s0eYb5PII",
+      "rect": [
+        94.27734375,
+        474.75,
+        146.02734375,
+        526.5
+      ]
+    },
+    {
+      "page": 17,
+      "uri": "https://youtube.com/shorts/S2yhz3klwdU?si=xJHi4VTiiCeKY9ro",
+      "rect": [
+        165.52734375,
+        474.75,
+        217.27734375,
+        526.5
+      ]
+    },
+    {
+      "page": 17,
+      "uri": "https://youtube.com/shorts/ByZJuk85YuE?si=OPBBD7gBfB1U0keq",
+      "rect": [
+        310.27734375,
+        614.25,
+        362.02734375,
+        666.0
+      ]
+    },
+    {
+      "page": 17,
+      "uri": "https://youtube.com/shorts/jpXMUpU5Q7A?si=Rt7TWb43mlENVLpC",
+      "rect": [
+        380.77734375,
+        614.25,
+        432.52734375,
+        666.0
+      ]
+    },
+    {
+      "page": 17,
+      "uri": "https://youtube.com/shorts/5gU3pyrkv-E?si=HKndzFZnLauJy5-j",
+      "rect": [
+        94.27734375,
+        614.25,
+        146.02734375,
+        666.0
+      ]
+    },
+    {
+      "page": 23,
+      "uri": "https://youtu.be/vnd-GBtTMLI?si=kAHBU6uO7X2tSMGh",
+      "rect": [
+        470.77734375,
+        281.25,
+        510.52734375,
+        295.5
+      ]
+    },
+    {
+      "page": 23,
+      "uri": "https://youtube.com/shorts/_FkbD0FhgVE?si=BF-m3VaiBNEK57wU",
+      "rect": [
+        425.77734375,
+        281.25,
+        462.52734375,
+        295.5
+      ]
+    },
+    {
+      "page": 23,
+      "uri": "https://youtu.be/eGjt4lk6g34?si=3sWWisUtmwkX2Bfw",
+      "rect": [
+        255.52734375,
+        281.25,
+        294.52734375,
+        295.5
+      ]
+    },
+    {
+      "page": 23,
+      "uri": "https://youtube.com/shorts/y4RJDSOBEl8?si=hXAcjqsxZ2ULlsLu",
+      "rect": [
+        210.52734375,
+        281.25,
+        246.52734375,
+        295.5
+      ]
+    },
+    {
+      "page": 23,
+      "uri": "https://youtube.com/shorts/k6zaPZbB8yI?si=1LeK4NlSJR_t_GMh",
+      "rect": [
+        470.77734375,
+        421.5,
+        510.52734375,
+        435.75
+      ]
+    },
+    {
+      "page": 23,
+      "uri": "https://youtube.com/shorts/t2SmvH1iGjg?si=NTXpp7Ux4Bb7V9jl",
+      "rect": [
+        425.77734375,
+        421.5,
+        462.52734375,
+        435.75
+      ]
+    },
+    {
+      "page": 23,
+      "uri": "https://youtube.com/shorts/51ql2-2kLfA?si=rUy2h16sM7990Tbf",
+      "rect": [
+        255.52734375,
+        421.5,
+        294.52734375,
+        435.75
+      ]
+    },
+    {
+      "page": 23,
+      "uri": "https://youtube.com/shorts/ym1V5H35IpA?si=lIokNLUZcRhDRV3J",
+      "rect": [
+        210.52734375,
+        421.5,
+        246.52734375,
+        435.75
+      ]
+    },
+    {
+      "page": 23,
+      "uri": "https://youtube.com/shorts/qD1WZ5pSuvk?si=yUcZKUhYJ3IIyzP1",
+      "rect": [
+        470.77734375,
+        561.75,
+        510.52734375,
+        576.0
+      ]
+    },
+    {
+      "page": 23,
+      "uri": "https://youtube.com/shorts/hJQwrKrxOOo?si=8Qx4qDyEV5_1R2sX",
+      "rect": [
+        425.77734375,
+        561.75,
+        462.52734375,
+        576.0
+      ]
+    },
+    {
+      "page": 23,
+      "uri": "https://youtube.com/shorts/1OY7v02l2vA",
+      "rect": [
+        255.52734375,
+        561.75,
+        294.52734375,
+        576.0
+      ]
+    },
+    {
+      "page": 23,
+      "uri": "https://youtube.com/shorts/MKWBV29S6c0?si=inDIQL6ol85c2WUy",
+      "rect": [
+        470.77734375,
+        701.25,
+        510.52734375,
+        715.5
+      ]
+    },
+    {
+      "page": 23,
+      "uri": "https://youtube.com/shorts/Pt4UD1Dxvr8?si=wx8bI5Eby088BMZQ",
+      "rect": [
+        425.77734375,
+        701.25,
+        462.52734375,
+        715.5
+      ]
+    },
+    {
+      "page": 23,
+      "uri": "https://youtube.com/shorts/u36jNfqh8_U?si=QoYfsy_JUdKulO7p",
+      "rect": [
+        255.52734375,
+        701.25,
+        294.52734375,
+        715.5
+      ]
+    },
+    {
+      "page": 23,
+      "uri": "https://youtu.be/vnd-GBtTMLI?si=kAHBU6uO7X2tSMGh",
+      "rect": [
+        310.27734375,
+        194.25,
+        362.02734375,
+        246.0
+      ]
+    },
+    {
+      "page": 23,
+      "uri": "https://youtube.com/shorts/_FkbD0FhgVE?si=BF-m3VaiBNEK57wU",
+      "rect": [
+        380.77734375,
+        194.25,
+        432.52734375,
+        246.0
+      ]
+    },
+    {
+      "page": 23,
+      "uri": "https://youtu.be/eGjt4lk6g34?si=3sWWisUtmwkX2Bfw",
+      "rect": [
+        94.27734375,
+        194.25,
+        146.02734375,
+        246.0
+      ]
+    },
+    {
+      "page": 23,
+      "uri": "https://youtube.com/shorts/y4RJDSOBEl8?si=hXAcjqsxZ2ULlsLu",
+      "rect": [
+        165.52734375,
+        194.25,
+        217.27734375,
+        246.0
+      ]
+    },
+    {
+      "page": 23,
+      "uri": "https://youtube.com/shorts/k6zaPZbB8yI?si=1LeK4NlSJR_t_GMh",
+      "rect": [
+        310.27734375,
+        334.5,
+        362.02734375,
+        386.25
+      ]
+    },
+    {
+      "page": 23,
+      "uri": "https://youtube.com/shorts/t2SmvH1iGjg?si=NTXpp7Ux4Bb7V9jl",
+      "rect": [
+        380.77734375,
+        334.5,
+        432.52734375,
+        386.25
+      ]
+    },
+    {
+      "page": 23,
+      "uri": "https://youtube.com/shorts/51ql2-2kLfA?si=rUy2h16sM7990Tbf",
+      "rect": [
+        94.27734375,
+        334.5,
+        146.02734375,
+        386.25
+      ]
+    },
+    {
+      "page": 23,
+      "uri": "https://youtube.com/shorts/ym1V5H35IpA?si=lIokNLUZcRhDRV3J",
+      "rect": [
+        165.52734375,
+        334.5,
+        217.27734375,
+        386.25
+      ]
+    },
+    {
+      "page": 23,
+      "uri": "https://youtube.com/shorts/qD1WZ5pSuvk?si=yUcZKUhYJ3IIyzP1",
+      "rect": [
+        310.27734375,
+        474.75,
+        362.02734375,
+        526.5
+      ]
+    },
+    {
+      "page": 23,
+      "uri": "https://youtube.com/shorts/hJQwrKrxOOo?si=8Qx4qDyEV5_1R2sX",
+      "rect": [
+        380.77734375,
+        474.75,
+        432.52734375,
+        526.5
+      ]
+    },
+    {
+      "page": 23,
+      "uri": "https://youtube.com/shorts/1OY7v02l2vA",
+      "rect": [
+        129.52734375,
+        474.75,
+        182.02734375,
+        526.5
+      ]
+    },
+    {
+      "page": 23,
+      "uri": "https://youtube.com/shorts/MKWBV29S6c0?si=inDIQL6ol85c2WUy",
+      "rect": [
+        310.27734375,
+        615.0,
+        362.02734375,
+        666.75
+      ]
+    },
+    {
+      "page": 23,
+      "uri": "https://youtube.com/shorts/Pt4UD1Dxvr8?si=wx8bI5Eby088BMZQ",
+      "rect": [
+        380.77734375,
+        615.0,
+        432.52734375,
+        666.75
+      ]
+    },
+    {
+      "page": 23,
+      "uri": "https://youtube.com/shorts/u36jNfqh8_U?si=QoYfsy_JUdKulO7p",
+      "rect": [
+        94.27734375,
+        615.0,
+        146.02734375,
+        666.75
+      ]
+    },
+    {
+      "page": 25,
+      "uri": "https://youtube.com/shorts/ahaJTts1f3s?si=N7sIz5gAQATAxBy1",
+      "rect": [
+        470.77734375,
+        281.25,
+        510.52734375,
+        295.5
+      ]
+    },
+    {
+      "page": 25,
+      "uri": "https://youtube.com/shorts/-ol9-bZ_SJc?si=v48CfmDfvC2llTi9",
+      "rect": [
+        425.77734375,
+        281.25,
+        462.52734375,
+        295.5
+      ]
+    },
+    {
+      "page": 25,
+      "uri": "https://youtu.be/MpEydcQ1oDw?si=qYCD55tG1uBWgPe1",
+      "rect": [
+        255.52734375,
+        281.25,
+        294.52734375,
+        295.5
+      ]
+    },
+    {
+      "page": 25,
+      "uri": "https://youtube.com/shorts/g5u75sgpn04?si=Et8OE0RdMWEl7nte",
+      "rect": [
+        470.77734375,
+        420.75,
+        510.52734375,
+        435.0
+      ]
+    },
+    {
+      "page": 25,
+      "uri": "https://youtu.be/5S8SApGU_Lk?si=sSXx0WadUZFLyziR",
+      "rect": [
+        255.52734375,
+        420.75,
+        294.52734375,
+        435.0
+      ]
+    },
+    {
+      "page": 25,
+      "uri": "https://youtu.be/SbSNUXPRkc8?si=mKKsibAT3SHCLeQn",
+      "rect": [
+        470.77734375,
+        561.0,
+        510.52734375,
+        575.25
+      ]
+    },
+    {
+      "page": 25,
+      "uri": "https://youtube.com/shorts/xwszHjl2D40?si=dsjRUo-s0eYb5PII",
+      "rect": [
+        255.52734375,
+        561.0,
+        294.52734375,
+        575.25
+      ]
+    },
+    {
+      "page": 25,
+      "uri": "https://youtube.com/shorts/S2yhz3klwdU?si=xJHi4VTiiCeKY9ro",
+      "rect": [
+        210.52734375,
+        561.0,
+        246.52734375,
+        575.25
+      ]
+    },
+    {
+      "page": 25,
+      "uri": "https://youtube.com/shorts/ByZJuk85YuE?si=OPBBD7gBfB1U0keq",
+      "rect": [
+        470.77734375,
+        701.25,
+        510.52734375,
+        715.5
+      ]
+    },
+    {
+      "page": 25,
+      "uri": "https://youtube.com/shorts/jpXMUpU5Q7A?si=Rt7TWb43mlENVLpC",
+      "rect": [
+        425.77734375,
+        701.25,
+        462.52734375,
+        715.5
+      ]
+    },
+    {
+      "page": 25,
+      "uri": "https://youtube.com/shorts/5gU3pyrkv-E?si=HKndzFZnLauJy5-j",
+      "rect": [
+        255.52734375,
+        701.25,
+        294.52734375,
+        715.5
+      ]
+    },
+    {
+      "page": 25,
+      "uri": "https://youtube.com/shorts/ahaJTts1f3s?si=N7sIz5gAQATAxBy1",
+      "rect": [
+        310.27734375,
+        194.25,
+        362.02734375,
+        246.0
+      ]
+    },
+    {
+      "page": 25,
+      "uri": "https://youtube.com/shorts/-ol9-bZ_SJc?si=v48CfmDfvC2llTi9",
+      "rect": [
+        380.77734375,
+        194.25,
+        432.52734375,
+        246.0
+      ]
+    },
+    {
+      "page": 25,
+      "uri": "https://youtu.be/MpEydcQ1oDw?si=qYCD55tG1uBWgPe1",
+      "rect": [
+        94.27734375,
+        194.25,
+        146.02734375,
+        246.0
+      ]
+    },
+    {
+      "page": 25,
+      "uri": "https://youtube.com/shorts/g5u75sgpn04?si=Et8OE0RdMWEl7nte",
+      "rect": [
+        309.52734375,
+        334.5,
+        361.27734375,
+        386.25
+      ]
+    },
+    {
+      "page": 25,
+      "uri": "https://youtu.be/5S8SApGU_Lk?si=sSXx0WadUZFLyziR",
+      "rect": [
+        94.27734375,
+        334.5,
+        146.02734375,
+        386.25
+      ]
+    },
+    {
+      "page": 25,
+      "uri": "https://youtu.be/SbSNUXPRkc8?si=mKKsibAT3SHCLeQn",
+      "rect": [
+        309.52734375,
+        474.0,
+        361.27734375,
+        525.75
+      ]
+    },
+    {
+      "page": 25,
+      "uri": "https://youtube.com/shorts/xwszHjl2D40?si=dsjRUo-s0eYb5PII",
+      "rect": [
+        94.27734375,
+        474.75,
+        146.02734375,
+        526.5
+      ]
+    },
+    {
+      "page": 25,
+      "uri": "https://youtube.com/shorts/S2yhz3klwdU?si=xJHi4VTiiCeKY9ro",
+      "rect": [
+        165.52734375,
+        474.75,
+        217.27734375,
+        526.5
+      ]
+    },
+    {
+      "page": 25,
+      "uri": "https://youtube.com/shorts/ByZJuk85YuE?si=OPBBD7gBfB1U0keq",
+      "rect": [
+        310.27734375,
+        614.25,
+        362.02734375,
+        666.0
+      ]
+    },
+    {
+      "page": 25,
+      "uri": "https://youtube.com/shorts/jpXMUpU5Q7A?si=Rt7TWb43mlENVLpC",
+      "rect": [
+        380.77734375,
+        614.25,
+        432.52734375,
+        666.0
+      ]
+    },
+    {
+      "page": 25,
+      "uri": "https://youtube.com/shorts/5gU3pyrkv-E?si=HKndzFZnLauJy5-j",
+      "rect": [
+        94.27734375,
+        614.25,
+        146.02734375,
+        666.0
+      ]
+    },
+    {
+      "page": 28,
+      "uri": "https://youtu.be/vnd-GBtTMLI?si=kAHBU6uO7X2tSMGh",
+      "rect": [
+        470.77734375,
+        281.25,
+        510.52734375,
+        295.5
+      ]
+    },
+    {
+      "page": 28,
+      "uri": "https://youtube.com/shorts/_FkbD0FhgVE?si=BF-m3VaiBNEK57wU",
+      "rect": [
+        425.77734375,
+        281.25,
+        462.52734375,
+        295.5
+      ]
+    },
+    {
+      "page": 28,
+      "uri": "https://youtu.be/eGjt4lk6g34?si=3sWWisUtmwkX2Bfw",
+      "rect": [
+        255.52734375,
+        281.25,
+        294.52734375,
+        295.5
+      ]
+    },
+    {
+      "page": 28,
+      "uri": "https://youtube.com/shorts/y4RJDSOBEl8?si=hXAcjqsxZ2ULlsLu",
+      "rect": [
+        210.52734375,
+        281.25,
+        246.52734375,
+        295.5
+      ]
+    },
+    {
+      "page": 28,
+      "uri": "https://youtube.com/shorts/k6zaPZbB8yI?si=1LeK4NlSJR_t_GMh",
+      "rect": [
+        470.77734375,
+        421.5,
+        510.52734375,
+        435.75
+      ]
+    },
+    {
+      "page": 28,
+      "uri": "https://youtube.com/shorts/t2SmvH1iGjg?si=NTXpp7Ux4Bb7V9jl",
+      "rect": [
+        425.77734375,
+        421.5,
+        462.52734375,
+        435.75
+      ]
+    },
+    {
+      "page": 28,
+      "uri": "https://youtube.com/shorts/51ql2-2kLfA?si=rUy2h16sM7990Tbf",
+      "rect": [
+        255.52734375,
+        421.5,
+        294.52734375,
+        435.75
+      ]
+    },
+    {
+      "page": 28,
+      "uri": "https://youtube.com/shorts/ym1V5H35IpA?si=lIokNLUZcRhDRV3J",
+      "rect": [
+        210.52734375,
+        421.5,
+        246.52734375,
+        435.75
+      ]
+    },
+    {
+      "page": 28,
+      "uri": "https://youtube.com/shorts/qD1WZ5pSuvk?si=yUcZKUhYJ3IIyzP1",
+      "rect": [
+        470.77734375,
+        561.75,
+        510.52734375,
+        576.0
+      ]
+    },
+    {
+      "page": 28,
+      "uri": "https://youtube.com/shorts/hJQwrKrxOOo?si=8Qx4qDyEV5_1R2sX",
+      "rect": [
+        425.77734375,
+        561.75,
+        462.52734375,
+        576.0
+      ]
+    },
+    {
+      "page": 28,
+      "uri": "https://youtube.com/shorts/1OY7v02l2vA",
+      "rect": [
+        255.52734375,
+        561.75,
+        294.52734375,
+        576.0
+      ]
+    },
+    {
+      "page": 28,
+      "uri": "https://youtube.com/shorts/MKWBV29S6c0?si=inDIQL6ol85c2WUy",
+      "rect": [
+        470.77734375,
+        701.25,
+        510.52734375,
+        715.5
+      ]
+    },
+    {
+      "page": 28,
+      "uri": "https://youtube.com/shorts/Pt4UD1Dxvr8?si=wx8bI5Eby088BMZQ",
+      "rect": [
+        425.77734375,
+        701.25,
+        462.52734375,
+        715.5
+      ]
+    },
+    {
+      "page": 28,
+      "uri": "https://youtube.com/shorts/u36jNfqh8_U?si=QoYfsy_JUdKulO7p",
+      "rect": [
+        255.52734375,
+        701.25,
+        294.52734375,
+        715.5
+      ]
+    },
+    {
+      "page": 28,
+      "uri": "https://youtu.be/vnd-GBtTMLI?si=kAHBU6uO7X2tSMGh",
+      "rect": [
+        310.27734375,
+        194.25,
+        362.02734375,
+        246.0
+      ]
+    },
+    {
+      "page": 28,
+      "uri": "https://youtube.com/shorts/_FkbD0FhgVE?si=BF-m3VaiBNEK57wU",
+      "rect": [
+        380.77734375,
+        194.25,
+        432.52734375,
+        246.0
+      ]
+    },
+    {
+      "page": 28,
+      "uri": "https://youtu.be/eGjt4lk6g34?si=3sWWisUtmwkX2Bfw",
+      "rect": [
+        94.27734375,
+        194.25,
+        146.02734375,
+        246.0
+      ]
+    },
+    {
+      "page": 28,
+      "uri": "https://youtube.com/shorts/y4RJDSOBEl8?si=hXAcjqsxZ2ULlsLu",
+      "rect": [
+        165.52734375,
+        194.25,
+        217.27734375,
+        246.0
+      ]
+    },
+    {
+      "page": 28,
+      "uri": "https://youtube.com/shorts/k6zaPZbB8yI?si=1LeK4NlSJR_t_GMh",
+      "rect": [
+        310.27734375,
+        334.5,
+        362.02734375,
+        386.25
+      ]
+    },
+    {
+      "page": 28,
+      "uri": "https://youtube.com/shorts/t2SmvH1iGjg?si=NTXpp7Ux4Bb7V9jl",
+      "rect": [
+        380.77734375,
+        334.5,
+        432.52734375,
+        386.25
+      ]
+    },
+    {
+      "page": 28,
+      "uri": "https://youtube.com/shorts/51ql2-2kLfA?si=rUy2h16sM7990Tbf",
+      "rect": [
+        94.27734375,
+        334.5,
+        146.02734375,
+        386.25
+      ]
+    },
+    {
+      "page": 28,
+      "uri": "https://youtube.com/shorts/ym1V5H35IpA?si=lIokNLUZcRhDRV3J",
+      "rect": [
+        165.52734375,
+        334.5,
+        217.27734375,
+        386.25
+      ]
+    },
+    {
+      "page": 28,
+      "uri": "https://youtube.com/shorts/qD1WZ5pSuvk?si=yUcZKUhYJ3IIyzP1",
+      "rect": [
+        310.27734375,
+        474.75,
+        362.02734375,
+        526.5
+      ]
+    },
+    {
+      "page": 28,
+      "uri": "https://youtube.com/shorts/hJQwrKrxOOo?si=8Qx4qDyEV5_1R2sX",
+      "rect": [
+        380.77734375,
+        474.75,
+        432.52734375,
+        526.5
+      ]
+    },
+    {
+      "page": 28,
+      "uri": "https://youtube.com/shorts/1OY7v02l2vA",
+      "rect": [
+        129.52734375,
+        474.75,
+        182.02734375,
+        526.5
+      ]
+    },
+    {
+      "page": 28,
+      "uri": "https://youtube.com/shorts/MKWBV29S6c0?si=inDIQL6ol85c2WUy",
+      "rect": [
+        310.27734375,
+        615.0,
+        362.02734375,
+        666.75
+      ]
+    },
+    {
+      "page": 28,
+      "uri": "https://youtube.com/shorts/Pt4UD1Dxvr8?si=wx8bI5Eby088BMZQ",
+      "rect": [
+        380.77734375,
+        615.0,
+        432.52734375,
+        666.75
+      ]
+    },
+    {
+      "page": 28,
+      "uri": "https://youtube.com/shorts/u36jNfqh8_U?si=QoYfsy_JUdKulO7p",
+      "rect": [
+        94.27734375,
+        615.0,
+        146.02734375,
+        666.75
+      ]
+    },
+    {
+      "page": 30,
+      "uri": "https://youtube.com/shorts/ahaJTts1f3s?si=N7sIz5gAQATAxBy1",
+      "rect": [
+        470.77734375,
+        281.25,
+        510.52734375,
+        295.5
+      ]
+    },
+    {
+      "page": 30,
+      "uri": "https://youtube.com/shorts/-ol9-bZ_SJc?si=v48CfmDfvC2llTi9",
+      "rect": [
+        425.77734375,
+        281.25,
+        462.52734375,
+        295.5
+      ]
+    },
+    {
+      "page": 30,
+      "uri": "https://youtu.be/MpEydcQ1oDw?si=qYCD55tG1uBWgPe1",
+      "rect": [
+        255.52734375,
+        281.25,
+        294.52734375,
+        295.5
+      ]
+    },
+    {
+      "page": 30,
+      "uri": "https://youtube.com/shorts/g5u75sgpn04?si=Et8OE0RdMWEl7nte",
+      "rect": [
+        470.77734375,
+        420.75,
+        510.52734375,
+        435.0
+      ]
+    },
+    {
+      "page": 30,
+      "uri": "https://youtu.be/5S8SApGU_Lk?si=sSXx0WadUZFLyziR",
+      "rect": [
+        255.52734375,
+        420.75,
+        294.52734375,
+        435.0
+      ]
+    },
+    {
+      "page": 30,
+      "uri": "https://youtu.be/SbSNUXPRkc8?si=mKKsibAT3SHCLeQn",
+      "rect": [
+        470.77734375,
+        561.0,
+        510.52734375,
+        575.25
+      ]
+    },
+    {
+      "page": 30,
+      "uri": "https://youtube.com/shorts/xwszHjl2D40?si=dsjRUo-s0eYb5PII",
+      "rect": [
+        255.52734375,
+        561.0,
+        294.52734375,
+        575.25
+      ]
+    },
+    {
+      "page": 30,
+      "uri": "https://youtube.com/shorts/S2yhz3klwdU?si=xJHi4VTiiCeKY9ro",
+      "rect": [
+        210.52734375,
+        561.0,
+        246.52734375,
+        575.25
+      ]
+    },
+    {
+      "page": 30,
+      "uri": "https://youtube.com/shorts/ByZJuk85YuE?si=OPBBD7gBfB1U0keq",
+      "rect": [
+        470.77734375,
+        701.25,
+        510.52734375,
+        715.5
+      ]
+    },
+    {
+      "page": 30,
+      "uri": "https://youtube.com/shorts/jpXMUpU5Q7A?si=Rt7TWb43mlENVLpC",
+      "rect": [
+        425.77734375,
+        701.25,
+        462.52734375,
+        715.5
+      ]
+    },
+    {
+      "page": 30,
+      "uri": "https://youtube.com/shorts/5gU3pyrkv-E?si=HKndzFZnLauJy5-j",
+      "rect": [
+        255.52734375,
+        701.25,
+        294.52734375,
+        715.5
+      ]
+    },
+    {
+      "page": 30,
+      "uri": "https://youtube.com/shorts/ahaJTts1f3s?si=N7sIz5gAQATAxBy1",
+      "rect": [
+        310.27734375,
+        194.25,
+        362.02734375,
+        246.0
+      ]
+    },
+    {
+      "page": 30,
+      "uri": "https://youtube.com/shorts/-ol9-bZ_SJc?si=v48CfmDfvC2llTi9",
+      "rect": [
+        380.77734375,
+        194.25,
+        432.52734375,
+        246.0
+      ]
+    },
+    {
+      "page": 30,
+      "uri": "https://youtu.be/MpEydcQ1oDw?si=qYCD55tG1uBWgPe1",
+      "rect": [
+        94.27734375,
+        194.25,
+        146.02734375,
+        246.0
+      ]
+    },
+    {
+      "page": 30,
+      "uri": "https://youtube.com/shorts/g5u75sgpn04?si=Et8OE0RdMWEl7nte",
+      "rect": [
+        309.52734375,
+        334.5,
+        361.27734375,
+        386.25
+      ]
+    },
+    {
+      "page": 30,
+      "uri": "https://youtu.be/5S8SApGU_Lk?si=sSXx0WadUZFLyziR",
+      "rect": [
+        94.27734375,
+        334.5,
+        146.02734375,
+        386.25
+      ]
+    },
+    {
+      "page": 30,
+      "uri": "https://youtu.be/SbSNUXPRkc8?si=mKKsibAT3SHCLeQn",
+      "rect": [
+        309.52734375,
+        474.0,
+        361.27734375,
+        525.75
+      ]
+    },
+    {
+      "page": 30,
+      "uri": "https://youtube.com/shorts/xwszHjl2D40?si=dsjRUo-s0eYb5PII",
+      "rect": [
+        94.27734375,
+        474.75,
+        146.02734375,
+        526.5
+      ]
+    },
+    {
+      "page": 30,
+      "uri": "https://youtube.com/shorts/S2yhz3klwdU?si=xJHi4VTiiCeKY9ro",
+      "rect": [
+        165.52734375,
+        474.75,
+        217.27734375,
+        526.5
+      ]
+    },
+    {
+      "page": 30,
+      "uri": "https://youtube.com/shorts/ByZJuk85YuE?si=OPBBD7gBfB1U0keq",
+      "rect": [
+        310.27734375,
+        614.25,
+        362.02734375,
+        666.0
+      ]
+    },
+    {
+      "page": 30,
+      "uri": "https://youtube.com/shorts/jpXMUpU5Q7A?si=Rt7TWb43mlENVLpC",
+      "rect": [
+        380.77734375,
+        614.25,
+        432.52734375,
+        666.0
+      ]
+    },
+    {
+      "page": 30,
+      "uri": "https://youtube.com/shorts/5gU3pyrkv-E?si=HKndzFZnLauJy5-j",
+      "rect": [
+        94.27734375,
+        614.25,
+        146.02734375,
+        666.0
+      ]
+    }
+  ],
+  "exerciseExplanationLinkCount": 226,
+  "limits": "PDF annotations verified locally; third-party videos not independently validated for technique or availability.",
+  "uniqueExerciseExplanationURLs": [
+    "https://youtu.be/3VLTzIrnb5g?si=Srgy5OHlJX3llLhB",
+    "https://youtu.be/5S8SApGU_Lk?si=sSXx0WadUZFLyziR",
+    "https://youtu.be/MpEydcQ1oDw?si=qYCD55tG1uBWgPe1",
+    "https://youtu.be/SbSNUXPRkc8?si=mKKsibAT3SHCLeQn",
+    "https://youtu.be/eGjt4lk6g34?si=3sWWisUtmwkX2Bfw",
+    "https://youtu.be/kqidUIf1eJE?si=NX7Tommrn2J6lZZg",
+    "https://youtu.be/vnd-GBtTMLI?si=kAHBU6uO7X2tSMGh",
+    "https://youtube.com/shorts/-ol9-bZ_SJc?si=v48CfmDfvC2llTi9",
+    "https://youtube.com/shorts/0pGiyBXvA2c?si=T2ZncEeSCuLBHXrd",
+    "https://youtube.com/shorts/1OY7v02l2vA",
+    "https://youtube.com/shorts/23VoAvqwSzo?si=NEZPRSMiJ0cxn7Hi",
+    "https://youtube.com/shorts/4yTQjZvp3Nk?si=hbK0xxq3_jQBC4q9",
+    "https://youtube.com/shorts/51ql2-2kLfA?si=rUy2h16sM7990Tbf",
+    "https://youtube.com/shorts/5gU3pyrkv-E?si=HKndzFZnLauJy5-j",
+    "https://youtube.com/shorts/7ixqAPO6JvU?si=KWms5O04HVXBF3Lq",
+    "https://youtube.com/shorts/7tgx6QHB0-A?si=_V_1CylN-j-LXMn6",
+    "https://youtube.com/shorts/8Aof_F7fx60?si=9Mc-sNLpu0Qs4riz",
+    "https://youtube.com/shorts/ByZJuk85YuE?si=OPBBD7gBfB1U0keq",
+    "https://youtube.com/shorts/Gruq177Psnk?si=5ToAEDAafBu_H1-Y",
+    "https://youtube.com/shorts/MKWBV29S6c0?si=inDIQL6ol85c2WUy",
+    "https://youtube.com/shorts/Pt4UD1Dxvr8?si=wx8bI5Eby088BMZQ",
+    "https://youtube.com/shorts/S2yhz3klwdU?si=xJHi4VTiiCeKY9ro",
+    "https://youtube.com/shorts/S4dDLfp3e8w?si=6-PhISxaPgUXA_-B",
+    "https://youtube.com/shorts/T0huVIujERo?si=ckmp2aghIyx-U2Kd",
+    "https://youtube.com/shorts/_FkbD0FhgVE?si=BF-m3VaiBNEK57wU",
+    "https://youtube.com/shorts/_lgE0gPvbik?si=qSMb1JVTX9kv3Edy",
+    "https://youtube.com/shorts/ahaJTts1f3s?si=N7sIz5gAQATAxBy1",
+    "https://youtube.com/shorts/b_r_LW4HEcM?si=3d8McpNsfsaO5ydp",
+    "https://youtube.com/shorts/bkejPHrPkmA?si=2GQ94irPXlehOHNH",
+    "https://youtube.com/shorts/g5u75sgpn04?si=Et8OE0RdMWEl7nte",
+    "https://youtube.com/shorts/hJQwrKrxOOo?si=8Qx4qDyEV5_1R2sX",
+    "https://youtube.com/shorts/iK22GwXJji0?si=PpIOReyHSWJ5Fssl",
+    "https://youtube.com/shorts/iPLvw74e7Tk?si=nXmboVBdoQr07lSS",
+    "https://youtube.com/shorts/jpXMUpU5Q7A?si=Rt7TWb43mlENVLpC",
+    "https://youtube.com/shorts/k6zaPZbB8yI?si=1LeK4NlSJR_t_GMh",
+    "https://youtube.com/shorts/phVtqawIgbk?si=oO5fPS2i8F89FRBM",
+    "https://youtube.com/shorts/qD1WZ5pSuvk?si=yUcZKUhYJ3IIyzP1",
+    "https://youtube.com/shorts/t2SmvH1iGjg?si=NTXpp7Ux4Bb7V9jl",
+    "https://youtube.com/shorts/u36jNfqh8_U?si=QoYfsy_JUdKulO7p",
+    "https://youtube.com/shorts/xENVg7RX_O8?si=EKgMelxk0txjkGgN",
+    "https://youtube.com/shorts/xwszHjl2D40?si=dsjRUo-s0eYb5PII",
+    "https://youtube.com/shorts/y4RJDSOBEl8?si=hXAcjqsxZ2ULlsLu",
+    "https://youtube.com/shorts/ym1V5H35IpA?si=lIokNLUZcRhDRV3J"
+  ],
+  "uniqueExerciseExplanationURLCount": 43
+}

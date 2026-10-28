@@ -1,0 +1,49 @@
+{
+  "expert": "finance-legal-2",
+  "version": "v12-final-1",
+  "digest": "6b6846706f12db961b678c585330dffd8222545cdd810412a320c4a6af22d553",
+  "decision": "APPROVE",
+  "reason": "Within this accountant review's authorized advertisement scope, the displayed owner-specified price and numerical product claims have a coherent audit trail, and the inspected encoded evidence presents the requested product, demonstrations and held CTA. Approval is limited to this expert's evidence assessment; it does not establish checkout pricing, legal status, sales results or perceptual audio quality.",
+  "evidence": [
+    {
+      "file": "creative/voice-ad-premium-v12/reports/encoded-contact.jpg",
+      "inspection": "Personally inspected with view_image. At 8.650s the product is prominent; 12.575s distinguishes PDF plus app and 500 recipes in the app; 15.700s shows the four/five-day options; 18.550s labels calculator output as an example/estimate; 22.775s demonstrates a portion value of 1.5. At 27.650s and 29.700s the CTA clearly displays 15.99 ر.س and mdaar21.zid.store."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/reports/encoded-handoffs.jpg",
+      "inspection": "Personally inspected the encoded transition sheet, including product arrival around 6.32–7.08s and CTA entry around 25.32–26.08s. This is sampled image inspection, not continuous playback."
+    },
+    {
+      "file": "docs/elite50/ad-remake-2026-10-28/evidence/claim-map.json; creative/voice-ad-premium-v12/SPEC.md; creative/voice-ad-premium-v12/index.html:55",
+      "inspection": "Price authority is recorded as the owner's 28 October 2026 Riyadh instruction, 15.99 SAR, explicitly limited to the advertisement. Source HTML and encoded closing samples agree. No discount, savings percentage or crossed-out former price is presented."
+    },
+    {
+      "file": "public/data/recipes-calculated.json; public/data/training-programs.json",
+      "inspection": "Direct read-only source inspection found exactly 500 recipe entries with 500 distinct IDs and program records for four and five training days. Training source explicitly records professional review pending. The advertised calculator example is arithmetically consistent: 1723.75 × 1.55 = 2671.8125, rounding to 2672 kcal. Displayed P150/C351/F74 yields approximately 2670 kcal, a two-kcal rounding difference rather than a material discrepancy."
+    },
+    {
+      "file": "docs/elite50/ad-remake-2026-10-28/candidate.json; creative/voice-ad-premium-v12/reports/encoded-validation.json; creative/voice-ad-premium-v12/reports/live-verification.json",
+      "inspection": "Independently hashed the public MP4: 0d741b5bef0424be521ba9938e891d8a4f6163b7e075e4cab592f3f8f8ff3940, matching the frozen manifest and validation record. Inspected records report 29.8s, 1080×1920, 60/1 fps, 1788 frames and live bytes matching local output. These technical results were inspected, not rerun."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/media-provenance.jsonl; reports/audio-edit.json; reports/voice-separation.json; reports/player-browser.json",
+      "inspection": "Inspected asset provenance, nine short effects, source narration segment trace, explicit no pitch/time-stretch and no added music, approximate learned vocal separation, and recorded player/download checks."
+    }
+  ],
+  "strengths": [
+    "Owner price, currency, source HTML, encoded CTA and frozen output identify the same advertised offer.",
+    "Product quantity claims distinguish app recipes from PDF content, with numerical examples visibly qualified.",
+    "Output hashes provide a useful connection between reviewed project, public artifact and recorded live delivery."
+  ],
+  "issues": [],
+  "objections": [],
+  "limitations": [
+    "No human listening capability was available. I cannot certify naturalness, intelligibility or complete removal of source music; the separation record explicitly preserves that uncertainty. This limits approval to financial accuracy, traceability and the inspected production evidence rather than auditory acceptance.",
+    "I did not watch continuous video, independently repeat browser checks, verify all manifest entries, test checkout or verify store/admin price configuration.",
+    "Asset provenance is recorded project evidence, not independent legal clearance. I did not inspect other experts' verdicts or certify the aggregate fifty-agent process."
+  ],
+  "non_applicable_criteria": [
+    "Cash/bank reconciliation, general ledger balances, revenue recognition, tax returns, invoices and audited financial statements: no transactions or accounting books are part of this advertisement task.",
+    "Commercial performance forecasts and checkout/fulfillment reconciliation: no sales or purchase test is authorized or claimed."
+  ]
+}

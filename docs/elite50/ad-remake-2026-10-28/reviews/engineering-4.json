@@ -1,0 +1,68 @@
+{
+  "expert": "engineering-4",
+  "version": "v12-final-1",
+  "digest": "6b6846706f12db961b678c585330dffd8222545cdd810412a320c4a6af22d553",
+  "decision": "NEEDS_EVIDENCE",
+  "reason": "Artifact and advertised-data integrity are supported, and the inspected encoded stills show the requested character, product demonstration and held price/CTA. Full production acceptance remains unproven for the explicit natural-narration and no-music requirements: the source underwent learned vocal separation, while the supplied evidence explicitly lacks perceptual listening. This is an evidence gap, not an observed audible defect.",
+  "evidence": [
+    {
+      "file": "docs/elite50/ad-remake-2026-10-28/candidate.json",
+      "inspection": "Independently hashed all 47 listed files against their manifest entries; zero mismatches. The public MP4 matches 0d741b5bef0424be521ba9938e891d8a4f6163b7e075e4cab592f3f8f8ff3940."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/reports/encoded-contact.jpg",
+      "inspection": "Viewed encoded still sheet: faceless figure at 0.000/1.040 s, product at 8.650 s, four/five-day programs at 15.700 s, calculator at 18.550 s, recipe screen at 22.775 s, and clear 15.99 SAR CTA at 27.650/29.700 s."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/reports/encoded-handoffs.jpg",
+      "inspection": "Viewed handoff sheet: book reveal around 6.32–7.08 s and transitions through 25.32–26.08 s. Sampled text and product layers remain intelligible; still sampling does not establish continuous smoothness."
+    },
+    {
+      "file": "public/data/recipes-calculated.json; public/data/training-programs.json",
+      "inspection": "Read actual JSON: 500 recipe entries, 500 distinct non-null IDs; source labels recipes calculated and not medically approved. Program records declare four/five training days and show corresponding rest/training structure. These agree with the claim map and inspected advertised labels."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/reports/encoded-validation.json",
+      "inspection": "Existing test record reports 1080×1920, 60/1 fps, 1,788 frames over 29.8 s, zero decode warnings, maximum cadence error 0.000000667 s, and no identical adjacent frames among 36 moving samples. I did not rerun encoding or watch continuous playback."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/reports/source-browser.json; reports/check-final.json",
+      "inspection": "Existing browser/layout evidence records 14 caption groups, product visible by 7.2 s, CTA settled by 26.35 s with 3.45 s hold, zero runtime/layout findings and 33/33 sampled contrast checks. Lint retains one duplicate-media-discovery warning; motion check is disabled."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/reports/player-browser.json; reports/live-verification.json; public/ad/premium/index.html",
+      "inspection": "Read native player/download markup and existing three-viewport test results. Existing live record reports HTTP 200 and local-identical hashes for all five files, plus MP4 range HTTP 206. I did not independently re-request the live site."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/reports/audio-edit.json; reports/voice-separation.json; SPEC.md",
+      "inspection": "Records preserve source fragments, report no pitch/time-stretch/compression, nine short effects, no added music and zero clipped samples. Kim_Vocal_2 separation is expressly approximate, with humanListening false and naturalness/music-removal limits disclosed."
+    }
+  ],
+  "strengths": [
+    "Frozen deliverable bytes and player files are internally consistent with the manifest.",
+    "Recipe count/identity and program-day claims are grounded in actual project data and appropriately qualified as estimates.",
+    "Encoded stills substantiate protected Arabic captions, early product reveal, actual app imagery and a clean held CTA."
+  ],
+  "issues": [
+    {
+      "severity": "acceptance evidence gap",
+      "detail": "Obtain an identified perceptual review of the final encoded audio for natural source narration, intelligible edit joins and absence of residual music. Technical levels, ASR and no-added-track declarations cannot resolve these acceptance criteria."
+    },
+    {
+      "severity": "nonblocking technical warning",
+      "detail": "check-final.json retains duplicate_media_discovery_risk. Existing encoded decode/hash evidence and inspected stills show no resulting failure; the warning is not represented as cleared."
+    }
+  ],
+  "objections": [
+    "No production defect is inferred solely from the absence of listening; the requested perceptual outcome nevertheless cannot be certified from these records."
+  ],
+  "limitations": [
+    "I inspected still images and source/test records; I did not hear audio or watch continuous video.",
+    "I did not validate clinical nutrition, third-party exercise links, checkout/fulfillment, conversion results or ongoing live availability.",
+    "This is one independent expert context. I did not inspect other opinions or verify the final count of fifty actual contexts."
+  ],
+  "non_applicable_criteria": [
+    "Database migrations, rollback, transactional isolation, persistence availability and query performance: N/A; this authorized scope produces a static advertisement/player and does not change database schemas or live data.",
+    "Database-engineering applicability here is limited to frozen-artifact integrity, source-data consistency and advertised claim traceability."
+  ]
+}

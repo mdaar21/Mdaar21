@@ -1,0 +1,38 @@
+{
+  "expert": "creative-1",
+  "phase": "pre-freeze-art-check",
+  "vote": null,
+  "reviewed": [
+    "creative/voice-ad-premium-v12/DESIGN.md",
+    "creative/voice-ad-premium-v12/SPEC.md",
+    "creative/voice-ad-premium-v12/index.html",
+    "creative/voice-ad-premium-v12/reports/scene-contact.jpg",
+    "creative/voice-ad-premium-v12/reports/handoff-contact.jpg",
+    "docs/elite50/ad-remake-2026-10-28/plans/creative-1.json"
+  ],
+  "blocking_visual_defects": [
+    {
+      "priority": "P0",
+      "defect": "Scene wipes cut through Arabic headings, producing visibly truncated words during handoffs instead of protecting the reading layer.",
+      "evidence": "handoff-contact.jpg: s1 at 2.08s and s3 at 10.80s show sliced outgoing headings. index.html handoff() clips the entire next scene, including its heading, while covering the outgoing heading.",
+      "fix": "End the outgoing heading with a brief opacity exit before the wipe reaches it; reveal the new heading after the wipe clears its bounds. Alternatively keep headings outside the clipped visual stage.",
+      "acceptance": "Check the encoded frames across every handoff: each visible heading is complete, correctly shaped and unoccluded, or fully absent. Keep the existing separate caption layer protected."
+    }
+  ],
+  "polish_notes": [
+    {
+      "priority": "P1",
+      "note": "The ivory figure nearly disappears against the light product scene and reads much thinner than the opening figure.",
+      "evidence": "scene-contact.jpg s2 at 8.65s and handoff-contact.jpg s2 at 6.84–7.08s.",
+      "suggestion": "Strengthen its warm contour or add a restrained darker grounding shape, preserving a white/ivory body and the blank face."
+    }
+  ],
+  "positive_observations": [
+    "The palette, original cover and restrained graphic hierarchy are coherent; the product is visible at 6.5s.",
+    "Menus have clear grouping, app scenes show concrete actions, and the closing price/CTA composition is quiet and legible in the supplied sheet."
+  ],
+  "limitations": [
+    "Contact sheets establish sampled appearance only; no continuous motion or final encoded video has been reviewed.",
+    "No audio naturalness assessment or final approval is made."
+  ]
+}

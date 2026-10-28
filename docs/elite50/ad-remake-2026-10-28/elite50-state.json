@@ -1,0 +1,3058 @@
+{
+  "schema": 1,
+  "roster_sha256": "27e2f16e2c02b192f7b716ab993e174e928011202a28d1c3132274897ae6fa54",
+  "events": [
+    {
+      "seq": 1,
+      "timestamp": "2026-10-27T21:21:12.750117+00:00",
+      "kind": "init",
+      "payload": {
+        "task": "Rebuild Saudi faceless MDAAR21 TikTok ad: 15.99 SAR, Arabic captions, smooth original-source voice and varied transitions, real product demos; execute fifty actual expert reviews and preserve evidence/dissent. No guaranteed approval or sales."
+      },
+      "previous_hash": null,
+      "event_hash": "0a8281b4e55453b16b63405668457f68754c2f53239ce8a073bb90d2af546592"
+    },
+    {
+      "seq": 2,
+      "timestamp": "2026-10-27T21:27:29.329648+00:00",
+      "kind": "register",
+      "payload": {
+        "expert": "creative-1",
+        "runtime": "/root/premium_creative_1",
+        "identity_basis": "trusted-operator-attestation"
+      },
+      "previous_hash": "0a8281b4e55453b16b63405668457f68754c2f53239ce8a073bb90d2af546592",
+      "event_hash": "d359e8406d572425baeb6c12768b1bc88d7b495836e4c117921c53a47f4c8f8a"
+    },
+    {
+      "seq": 3,
+      "timestamp": "2026-10-27T21:27:29.371623+00:00",
+      "kind": "register",
+      "payload": {
+        "expert": "creative-4",
+        "runtime": "/root/premium_creative_4",
+        "identity_basis": "trusted-operator-attestation"
+      },
+      "previous_hash": "d359e8406d572425baeb6c12768b1bc88d7b495836e4c117921c53a47f4c8f8a",
+      "event_hash": "47b8bdb945df9fba3e85f90a9e5f6bdc2b5b49c4f5745022d18f790b1cc85c5f"
+    },
+    {
+      "seq": 4,
+      "timestamp": "2026-10-27T21:27:29.431537+00:00",
+      "kind": "register",
+      "payload": {
+        "expert": "marketing-4",
+        "runtime": "/root/premium_marketing_4",
+        "identity_basis": "trusted-operator-attestation"
+      },
+      "previous_hash": "47b8bdb945df9fba3e85f90a9e5f6bdc2b5b49c4f5745022d18f790b1cc85c5f",
+      "event_hash": "2ca7bc850d42c7de21a5361344d60a55e9fe2a65b64fe3653f235492849557a6"
+    },
+    {
+      "seq": 5,
+      "timestamp": "2026-10-27T21:27:29.471391+00:00",
+      "kind": "register",
+      "payload": {
+        "expert": "quality-3",
+        "runtime": "/root/premium_quality_3",
+        "identity_basis": "trusted-operator-attestation"
+      },
+      "previous_hash": "2ca7bc850d42c7de21a5361344d60a55e9fe2a65b64fe3653f235492849557a6",
+      "event_hash": "e8de185bb09eed7c28c916210677caaa3ef42ceb3de36d9b6c59b9141f5c07f1"
+    },
+    {
+      "seq": 6,
+      "timestamp": "2026-10-27T21:27:29.530704+00:00",
+      "kind": "register",
+      "payload": {
+        "expert": "research-2",
+        "runtime": "/root/premium_research_2",
+        "identity_basis": "trusted-operator-attestation"
+      },
+      "previous_hash": "e8de185bb09eed7c28c916210677caaa3ef42ceb3de36d9b6c59b9141f5c07f1",
+      "event_hash": "67dc545dceb09f5a87f3b5bc5c2156f9a22ff8595a55601a51ce834abfba4a4a"
+    },
+    {
+      "seq": 7,
+      "timestamp": "2026-10-27T21:27:29.569497+00:00",
+      "kind": "register",
+      "payload": {
+        "expert": "finance-legal-4",
+        "runtime": "/root/premium_finance_legal_4",
+        "identity_basis": "trusted-operator-attestation"
+      },
+      "previous_hash": "67dc545dceb09f5a87f3b5bc5c2156f9a22ff8595a55601a51ce834abfba4a4a",
+      "event_hash": "9b40a2e1cf6af3edcddcbac9251de4e51b13c5a7c63bc07740dca80fe1c4f20e"
+    },
+    {
+      "seq": 8,
+      "timestamp": "2026-10-27T21:52:35.937951+00:00",
+      "kind": "snapshot",
+      "payload": {
+        "version": "v12-final-1",
+        "files": [
+          {
+            "path": "/workspace/Mdaar21-new/creative/voice-ad-premium-v12/DESIGN.md",
+            "sha256": "ac9184ef39d14dd68d0aecb69c7b055097186e6369e4de175575e0a69aaf39fd"
+          },
+          {
+            "path": "/workspace/Mdaar21-new/creative/voice-ad-premium-v12/FONT-LICENSE.txt",
+            "sha256": "327bac41d89cf9f32e0efe353228018e1661cff458a5d4905714958514df7bd5"
+          },
+          {
+            "path": "/workspace/Mdaar21-new/creative/voice-ad-premium-v12/README.md",
+            "sha256": "8ded5ba5c46108f1b408d2887ddf235c272fa4bbebeb2570bf80853a5157a8ba"
+          },
+          {
+            "path": "/workspace/Mdaar21-new/creative/voice-ad-premium-v12/SPEC.md",
+            "sha256": "18a5c9b735040700ea74f123b72ce6c2ff01a0cd99746a7bcb9410a1a6f9990d"
+          },
+          {
+            "path": "/workspace/Mdaar21-new/creative/voice-ad-premium-v12/STORYLINES.md",
+            "sha256": "cd430bcbaa598abdb1fe999e34a0ac1575c6a77feadceadfdbc1fb50da669580"
+          },
+          {
+            "path": "/workspace/Mdaar21-new/creative/voice-ad-premium-v12/animate.js",
+            "sha256": "ad1bfc63bea21eebeeeaeef769b0de0ffc4b70af1df3dbeef1f198d906776f33"
+          },
+          {
+            "path": "/workspace/Mdaar21-new/creative/voice-ad-premium-v12/assets/Lalezar-Regular.ttf",
+            "sha256": "7b80807bc831f141de0f7dcf6816412bf0c548968d548c5156ca388733390ea9"
+          },
+          {
+            "path": "/workspace/Mdaar21-new/creative/voice-ad-premium-v12/assets/Noto-FONT-LICENSE.txt",
+            "sha256": "075f91382875da1c4b491f1facf2586f55448705133264d98ce15cab6211b125"
+          },
+          {
+            "path": "/workspace/Mdaar21-new/creative/voice-ad-premium-v12/assets/NotoSansArabic-Bold.ttf",
+            "sha256": "ded6fc7359ca36d15d7aab9ef0c066e21ce48b26a069994d6602fa2cb9a1b952"
+          },
+          {
+            "path": "/workspace/Mdaar21-new/creative/voice-ad-premium-v12/assets/NotoSansArabic-Regular.ttf",
+            "sha256": "504d7407d86875acf7d04dfaa0fd7524d0b8797723bc4aa18022f29db25b0b6e"
+          },
+          {
+            "path": "/workspace/Mdaar21-new/creative/voice-ad-premium-v12/assets/book-cover.svg",
+            "sha256": "961c5c3f201059d3ae831b278deac6d72e8c642ebf042e60f4fcd46439fdd9fe"
+          },
+          {
+            "path": "/workspace/Mdaar21-new/creative/voice-ad-premium-v12/assets/closing-logo.png",
+            "sha256": "4cddab7a23c82f789c2baed511089e28912576697cb27f15b860a5b914bc314b"
+          },
+          {
+            "path": "/workspace/Mdaar21-new/creative/voice-ad-premium-v12/assets/demo-calculator.png",
+            "sha256": "56250384c929c049b952054239704f8965da97d6c2326a244c95c0a10ca7ba2c"
+          },
+          {
+            "path": "/workspace/Mdaar21-new/creative/voice-ad-premium-v12/assets/demo-recipe-1.png",
+            "sha256": "9c7810e92141b15a4511b77ead805dfb312233f279d91adb36a7081538b2e629"
+          },
+          {
+            "path": "/workspace/Mdaar21-new/creative/voice-ad-premium-v12/assets/demo-recipe-15.png",
+            "sha256": "b468260d9222d60a4b5633b7c705fbd943dd6c84f16e4cd532d55be87f2fd601"
+          },
+          {
+            "path": "/workspace/Mdaar21-new/creative/voice-ad-premium-v12/assets/final-mix.wav",
+            "sha256": "71544d3569ea05021778920db3255224fb244668dcbde627e0c166157220a3f1"
+          },
+          {
+            "path": "/workspace/Mdaar21-new/creative/voice-ad-premium-v12/assets/gsap.min.js",
+            "sha256": "c174bfce53a729418d57a8ad8625e7247c793a22fef8e2851e3cfa3de9cd8280"
+          },
+          {
+            "path": "/workspace/Mdaar21-new/creative/voice-ad-premium-v12/assets/program-five.webp",
+            "sha256": "8f198ab7af698dafd277c677fd6d4f492b137704c622c99a5fe9d8f514e8f311"
+          },
+          {
+            "path": "/workspace/Mdaar21-new/creative/voice-ad-premium-v12/assets/program-four.webp",
+            "sha256": "a0f6fae9198fce0ea61b5f3e52d340a9f0991e0383bcc4cabaa5b18b6f6441dc"
+          },
+          {
+            "path": "/workspace/Mdaar21-new/creative/voice-ad-premium-v12/assets/sfx/CREDITS.md",
+            "sha256": "79590c7738b0427b10f362f76b02cfd2643158a40e1d5fd787f9ac6b33bcf4ce"
+          },
+          {
+            "path": "/workspace/Mdaar21-new/creative/voice-ad-premium-v12/assets/sfx/click-soft.mp3",
+            "sha256": "075e17bdac5c13662a1c9530050e0046f81d4138e00eb3bf30427a7b4404103d"
+          },
+          {
+            "path": "/workspace/Mdaar21-new/creative/voice-ad-premium-v12/assets/sfx/pop.mp3",
+            "sha256": "19ab7193f626ff57fdeef60b45543bac416fcbcec803cfb417abe4b271c1b352"
+          },
+          {
+            "path": "/workspace/Mdaar21-new/creative/voice-ad-premium-v12/assets/sfx/whoosh-short.mp3",
+            "sha256": "c2efd9d902a59bf9ec5019035d7deadd17762136896b6e3cb6dd99ea50997a30"
+          },
+          {
+            "path": "/workspace/Mdaar21-new/creative/voice-ad-premium-v12/assets/voice-clean.mp3",
+            "sha256": "c1c8875d187d89d5a08f36b15a14c7b7cdbfd90463fa6a5fea81afc787d42a47"
+          },
+          {
+            "path": "/workspace/Mdaar21-new/creative/voice-ad-premium-v12/beats.json",
+            "sha256": "d15b0d7a755703b26f9b9553637ab1a9550e785440cdabf01aaf07aaa555ed60"
+          },
+          {
+            "path": "/workspace/Mdaar21-new/creative/voice-ad-premium-v12/build-film.py",
+            "sha256": "d5ec624d88a9ae3fc948460b44a3d50a61475c42cc81e8fea9233f97fdbcf77f"
+          },
+          {
+            "path": "/workspace/Mdaar21-new/creative/voice-ad-premium-v12/captions.json",
+            "sha256": "ad25928232952e730daa7ccf44842a1cff403c736570666f6572c949385c5f68"
+          },
+          {
+            "path": "/workspace/Mdaar21-new/creative/voice-ad-premium-v12/captions.srt",
+            "sha256": "ac68a5625c412cd8071390d24b38fb499ada395eb6813c3b1fd080810615bebe"
+          },
+          {
+            "path": "/workspace/Mdaar21-new/creative/voice-ad-premium-v12/character.py",
+            "sha256": "860d65c46007a3e3c7fb56c057ca1ea2f136e38959987569fba21c04331f3f8f"
+          },
+          {
+            "path": "/workspace/Mdaar21-new/creative/voice-ad-premium-v12/hyperframes.json",
+            "sha256": "35a6d4ea79ebe911f0d81705f7aace5d8ff0316b745b0311d56af50c9c237cb7"
+          },
+          {
+            "path": "/workspace/Mdaar21-new/creative/voice-ad-premium-v12/index.html",
+            "sha256": "47638affe0c9dbfb0e9272f27ac3c6fd7b4fad3c2d0fba21c91e478a104d3abf"
+          },
+          {
+            "path": "/workspace/Mdaar21-new/creative/voice-ad-premium-v12/media-provenance.jsonl",
+            "sha256": "05be7a6be8f13904cbd2d9996c0257aaa969d1489880c7039af5eac3df2b8c50"
+          },
+          {
+            "path": "/workspace/Mdaar21-new/creative/voice-ad-premium-v12/meta.json",
+            "sha256": "fdfe158046a65a9599c8f040b87f55c870d6deb37d38428c8abfc5029f35a8e5"
+          },
+          {
+            "path": "/workspace/Mdaar21-new/creative/voice-ad-premium-v12/package.json",
+            "sha256": "8ae3b605a80a5475158bec1a16a602746bfeef662f47bbdf876826be443cec97"
+          },
+          {
+            "path": "/workspace/Mdaar21-new/creative/voice-ad-premium-v12/process-audio.py",
+            "sha256": "0c54b14c237d8830d6e13e47da93ceaf1508b4d0e3fd4c2f678062fec2163e4d"
+          },
+          {
+            "path": "/workspace/Mdaar21-new/creative/voice-ad-premium-v12/record-playback.py",
+            "sha256": "107775bd1cd16fd2eca3a6b2541938d2a489eb6bab96595dcbd577a8e593507b"
+          },
+          {
+            "path": "/workspace/Mdaar21-new/creative/voice-ad-premium-v12/separate-voice.py",
+            "sha256": "877b7976c983b3c139df662c9821c626e6d11399187c5b79723f3422fabab5c7"
+          },
+          {
+            "path": "/workspace/Mdaar21-new/creative/voice-ad-premium-v12/style.css",
+            "sha256": "837b9c4f634f3ff6a82f5b2f13de3c574f8d49da31b697bdb4a2085c00fc2d85"
+          },
+          {
+            "path": "/workspace/Mdaar21-new/creative/voice-ad-premium-v12/verify-encoded.py",
+            "sha256": "8fd322b58d0fd8c4fa8308901a7d8c0620dcc5d351b6f807804005ae3e5f00d0"
+          },
+          {
+            "path": "/workspace/Mdaar21-new/creative/voice-ad-premium-v12/verify-player.py",
+            "sha256": "6aaaecd8dcab1a830bb100bbd3d9ff94a1eea9d2b2005b3d9c8efbde37cbfd95"
+          },
+          {
+            "path": "/workspace/Mdaar21-new/creative/voice-ad-premium-v12/verify-source.py",
+            "sha256": "79022706a74ea4d4b9c86a76aa43cc30edbc98bb9ea40fab8103692fba93d889"
+          },
+          {
+            "path": "/workspace/Mdaar21-new/creative/voice-ad-premium-v12/words-final.json",
+            "sha256": "8bd80d741f831f0f3e3df70011535a9e3fb213dcbf6bb7421e9229a93c1d33f7"
+          },
+          {
+            "path": "/workspace/Mdaar21-new/public/ad/premium/captions.srt",
+            "sha256": "ac68a5625c412cd8071390d24b38fb499ada395eb6813c3b1fd080810615bebe"
+          },
+          {
+            "path": "/workspace/Mdaar21-new/public/ad/premium/index.html",
+            "sha256": "ce213c450ab4b60ba68cf8d26ebd15a77eb451139c34256391ffa004808a3fbb"
+          },
+          {
+            "path": "/workspace/Mdaar21-new/public/ad/premium/mdaar_tiktok_v12_premium.mp4",
+            "sha256": "0d741b5bef0424be521ba9938e891d8a4f6163b7e075e4cab592f3f8f8ff3940"
+          },
+          {
+            "path": "/workspace/Mdaar21-new/public/ad/premium/poster.jpg",
+            "sha256": "e3536a03071f7225528cd106f04ba2b3d194755a44ac4cdc00540527c11337ce"
+          },
+          {
+            "path": "/workspace/Mdaar21-new/public/ad/premium/voice-clean.mp3",
+            "sha256": "c1c8875d187d89d5a08f36b15a14c7b7cdbfd90463fa6a5fea81afc787d42a47"
+          }
+        ],
+        "digest": "6b6846706f12db961b678c585330dffd8222545cdd810412a320c4a6af22d553"
+      },
+      "previous_hash": "9b40a2e1cf6af3edcddcbac9251de4e51b13c5a7c63bc07740dca80fe1c4f20e",
+      "event_hash": "7fdf18e338878d523abde624b38e2aba1b983eba6007240beb75b4bab02cc6e3"
+    },
+    {
+      "seq": 9,
+      "timestamp": "2026-10-27T21:54:37.536535+00:00",
+      "kind": "evidence",
+      "payload": {
+        "id": "system-testing",
+        "description": "Executed coordinator preflight check with explicit scope/limits; independent final votes follow",
+        "path": "/workspace/Mdaar21-new/docs/elite50/ad-remake-2026-10-28/evidence/system-testing.json",
+        "sha256": "7959d111457a3d5a0c3f061c614d822cd280daa6951e65d063c7a50b89ed4e2b"
+      },
+      "previous_hash": "7fdf18e338878d523abde624b38e2aba1b983eba6007240beb75b4bab02cc6e3",
+      "event_hash": "14b14743790e1b937171bb977e1a87926810e87e88140d95a882e35d4d234584"
+    },
+    {
+      "seq": 10,
+      "timestamp": "2026-10-27T21:54:37.583712+00:00",
+      "kind": "stage",
+      "payload": {
+        "evidence": [
+          "system-testing"
+        ],
+        "name": "testing",
+        "version": "v12-final-1",
+        "digest": "6b6846706f12db961b678c585330dffd8222545cdd810412a320c4a6af22d553"
+      },
+      "previous_hash": "14b14743790e1b937171bb977e1a87926810e87e88140d95a882e35d4d234584",
+      "event_hash": "16f52375ee266c7c2bca86c09ac8bc4aa03d94ee70ef2c57a4a8fc259bdfd18a"
+    },
+    {
+      "seq": 11,
+      "timestamp": "2026-10-27T21:54:37.625109+00:00",
+      "kind": "evidence",
+      "payload": {
+        "id": "system-devils-advocate",
+        "description": "Executed coordinator preflight check with explicit scope/limits; independent final votes follow",
+        "path": "/workspace/Mdaar21-new/docs/elite50/ad-remake-2026-10-28/evidence/system-devils-advocate.json",
+        "sha256": "d888ca1f59034feb79aac8e8195db2823ce1ac274cf430905654da05965dd930"
+      },
+      "previous_hash": "16f52375ee266c7c2bca86c09ac8bc4aa03d94ee70ef2c57a4a8fc259bdfd18a",
+      "event_hash": "d1c08664d4981b353329d620c7317dbd1155899ffd1d8805c46852e681f4d4ae"
+    },
+    {
+      "seq": 12,
+      "timestamp": "2026-10-27T21:54:37.664773+00:00",
+      "kind": "stage",
+      "payload": {
+        "evidence": [
+          "system-devils-advocate"
+        ],
+        "name": "devils-advocate",
+        "version": "v12-final-1",
+        "digest": "6b6846706f12db961b678c585330dffd8222545cdd810412a320c4a6af22d553"
+      },
+      "previous_hash": "d1c08664d4981b353329d620c7317dbd1155899ffd1d8805c46852e681f4d4ae",
+      "event_hash": "3ed6deedbb134642aa2f0d1668052d3bcd20da6702c2615459f4973dc6c93d98"
+    },
+    {
+      "seq": 13,
+      "timestamp": "2026-10-27T21:54:37.711946+00:00",
+      "kind": "evidence",
+      "payload": {
+        "id": "system-red-team",
+        "description": "Executed coordinator preflight check with explicit scope/limits; independent final votes follow",
+        "path": "/workspace/Mdaar21-new/docs/elite50/ad-remake-2026-10-28/evidence/system-red-team.json",
+        "sha256": "91776dddab16cb694845c8cf4484e63de531d5959a9cf5136bab196976291e63"
+      },
+      "previous_hash": "3ed6deedbb134642aa2f0d1668052d3bcd20da6702c2615459f4973dc6c93d98",
+      "event_hash": "daa1734c065a4469283ef744a2e48eaff740a7cb5b4a388355b9865235195113"
+    },
+    {
+      "seq": 14,
+      "timestamp": "2026-10-27T21:54:37.768483+00:00",
+      "kind": "stage",
+      "payload": {
+        "evidence": [
+          "system-red-team"
+        ],
+        "name": "red-team",
+        "version": "v12-final-1",
+        "digest": "6b6846706f12db961b678c585330dffd8222545cdd810412a320c4a6af22d553"
+      },
+      "previous_hash": "daa1734c065a4469283ef744a2e48eaff740a7cb5b4a388355b9865235195113",
+      "event_hash": "0b75c15f4666d0c853d763ce30ca442551e6140b31933ff82cc78e4970c415bc"
+    },
+    {
+      "seq": 15,
+      "timestamp": "2026-10-27T21:54:37.824394+00:00",
+      "kind": "evidence",
+      "payload": {
+        "id": "system-evidence-verification",
+        "description": "Executed coordinator preflight check with explicit scope/limits; independent final votes follow",
+        "path": "/workspace/Mdaar21-new/docs/elite50/ad-remake-2026-10-28/evidence/system-evidence-verification.json",
+        "sha256": "0e62652dfb1eeee2f3ce5cdd59a934c580790f638584c3bb6521fcafe25b5760"
+      },
+      "previous_hash": "0b75c15f4666d0c853d763ce30ca442551e6140b31933ff82cc78e4970c415bc",
+      "event_hash": "f33fde88e9b60f6163085432c9afc4b1254fb32418e07907623c1e0fba6d4441"
+    },
+    {
+      "seq": 16,
+      "timestamp": "2026-10-27T21:54:37.866802+00:00",
+      "kind": "stage",
+      "payload": {
+        "evidence": [
+          "system-evidence-verification"
+        ],
+        "name": "evidence-verification",
+        "version": "v12-final-1",
+        "digest": "6b6846706f12db961b678c585330dffd8222545cdd810412a320c4a6af22d553"
+      },
+      "previous_hash": "f33fde88e9b60f6163085432c9afc4b1254fb32418e07907623c1e0fba6d4441",
+      "event_hash": "c8f3f680862cbf2a7a2b6077002df2c02700118b13136dc6aac0b57892e7999e"
+    },
+    {
+      "seq": 17,
+      "timestamp": "2026-10-27T21:54:37.909663+00:00",
+      "kind": "evidence",
+      "payload": {
+        "id": "system-performance-comparison",
+        "description": "Executed coordinator preflight check with explicit scope/limits; independent final votes follow",
+        "path": "/workspace/Mdaar21-new/docs/elite50/ad-remake-2026-10-28/evidence/system-performance-comparison.json",
+        "sha256": "2557b67f454aa376433cf573c6dce55ba03435052101fa6d7de8558b1f68031e"
+      },
+      "previous_hash": "c8f3f680862cbf2a7a2b6077002df2c02700118b13136dc6aac0b57892e7999e",
+      "event_hash": "7d6f65005a115572bc13bec1b523fc2755b1567bfe317550b3ba54f2f7c5eba8"
+    },
+    {
+      "seq": 18,
+      "timestamp": "2026-10-27T21:54:37.954163+00:00",
+      "kind": "stage",
+      "payload": {
+        "evidence": [
+          "system-performance-comparison"
+        ],
+        "name": "performance-comparison",
+        "version": "v12-final-1",
+        "digest": "6b6846706f12db961b678c585330dffd8222545cdd810412a320c4a6af22d553"
+      },
+      "previous_hash": "7d6f65005a115572bc13bec1b523fc2755b1567bfe317550b3ba54f2f7c5eba8",
+      "event_hash": "2780d4e923996d93795bd9ba0225038a942cde25872932cae20d765dd64d82eb"
+    },
+    {
+      "seq": 19,
+      "timestamp": "2026-10-27T21:54:37.997523+00:00",
+      "kind": "evidence",
+      "payload": {
+        "id": "system-final-audit",
+        "description": "Executed coordinator preflight check with explicit scope/limits; independent final votes follow",
+        "path": "/workspace/Mdaar21-new/docs/elite50/ad-remake-2026-10-28/evidence/system-final-audit.json",
+        "sha256": "c70608076897d3032433244e6eda427b0e0e979b3fa4213dbc4757a2785c7785"
+      },
+      "previous_hash": "2780d4e923996d93795bd9ba0225038a942cde25872932cae20d765dd64d82eb",
+      "event_hash": "2a736a971c48e99fbc1faf03545f39aa546b927ed981642d60b0cf129847a036"
+    },
+    {
+      "seq": 20,
+      "timestamp": "2026-10-27T21:54:38.037922+00:00",
+      "kind": "stage",
+      "payload": {
+        "evidence": [
+          "system-final-audit"
+        ],
+        "name": "final-audit",
+        "version": "v12-final-1",
+        "digest": "6b6846706f12db961b678c585330dffd8222545cdd810412a320c4a6af22d553"
+      },
+      "previous_hash": "2a736a971c48e99fbc1faf03545f39aa546b927ed981642d60b0cf129847a036",
+      "event_hash": "18d4874da78c6b93b3dd899e0d0095ff82bc39b99bb0fafc2386818c04adc962"
+    },
+    {
+      "seq": 21,
+      "timestamp": "2026-10-28T02:03:00.120441+00:00",
+      "kind": "register",
+      "payload": {
+        "expert": "executive-1",
+        "runtime": "/root/final_executive_1",
+        "identity_basis": "trusted-operator-attestation"
+      },
+      "previous_hash": "18d4874da78c6b93b3dd899e0d0095ff82bc39b99bb0fafc2386818c04adc962",
+      "event_hash": "008f95fd8aeb562f3a5a4871de8a0405b806c6df041c6626355a60d306c1270f"
+    },
+    {
+      "seq": 22,
+      "timestamp": "2026-10-28T02:03:00.165671+00:00",
+      "kind": "register",
+      "payload": {
+        "expert": "executive-2",
+        "runtime": "/root/final_executive_2",
+        "identity_basis": "trusted-operator-attestation"
+      },
+      "previous_hash": "008f95fd8aeb562f3a5a4871de8a0405b806c6df041c6626355a60d306c1270f",
+      "event_hash": "beefa35b113abe21568280b6a9f8e188513a06015ef55aa68282291c47b04cc0"
+    },
+    {
+      "seq": 23,
+      "timestamp": "2026-10-28T02:03:00.210815+00:00",
+      "kind": "register",
+      "payload": {
+        "expert": "executive-3",
+        "runtime": "/root/final_executive_3",
+        "identity_basis": "trusted-operator-attestation"
+      },
+      "previous_hash": "beefa35b113abe21568280b6a9f8e188513a06015ef55aa68282291c47b04cc0",
+      "event_hash": "eacc5179f9bfa2f99d91b9608f01de7f2fefd0474885a158313b974b4bbfc96f"
+    },
+    {
+      "seq": 24,
+      "timestamp": "2026-10-28T02:03:00.251855+00:00",
+      "kind": "register",
+      "payload": {
+        "expert": "executive-4",
+        "runtime": "/root/final_executive_4",
+        "identity_basis": "trusted-operator-attestation"
+      },
+      "previous_hash": "eacc5179f9bfa2f99d91b9608f01de7f2fefd0474885a158313b974b4bbfc96f",
+      "event_hash": "6f6470f5f7592586731ceed947b839eacddcda7d7eab1f2878ae8932db7e47f8"
+    },
+    {
+      "seq": 25,
+      "timestamp": "2026-10-28T02:03:00.298481+00:00",
+      "kind": "register",
+      "payload": {
+        "expert": "executive-5",
+        "runtime": "/root/final_executive_5",
+        "identity_basis": "trusted-operator-attestation"
+      },
+      "previous_hash": "6f6470f5f7592586731ceed947b839eacddcda7d7eab1f2878ae8932db7e47f8",
+      "event_hash": "e894ca06a3a157d490970621fa51aa746b96c23212b85fcf0f15bf708030b402"
+    },
+    {
+      "seq": 26,
+      "timestamp": "2026-10-28T02:03:00.341686+00:00",
+      "kind": "register",
+      "payload": {
+        "expert": "engineering-1",
+        "runtime": "/root/final_engineering_1",
+        "identity_basis": "trusted-operator-attestation"
+      },
+      "previous_hash": "e894ca06a3a157d490970621fa51aa746b96c23212b85fcf0f15bf708030b402",
+      "event_hash": "57dd53c9216a51ee6e0db12eeb3ed78e0def0a9b7a7d6fa1233a123629a6c256"
+    },
+    {
+      "seq": 27,
+      "timestamp": "2026-10-28T02:08:10.848334+00:00",
+      "kind": "register",
+      "payload": {
+        "expert": "engineering-2",
+        "runtime": "/root/final_engineering_2",
+        "identity_basis": "trusted-operator-attestation"
+      },
+      "previous_hash": "57dd53c9216a51ee6e0db12eeb3ed78e0def0a9b7a7d6fa1233a123629a6c256",
+      "event_hash": "56f94b06c525db0883af6b4875e5cd2b306e27638e1383b5953ea4c770dcbae9"
+    },
+    {
+      "seq": 28,
+      "timestamp": "2026-10-28T02:08:10.885721+00:00",
+      "kind": "register",
+      "payload": {
+        "expert": "engineering-3",
+        "runtime": "/root/final_engineering_3",
+        "identity_basis": "trusted-operator-attestation"
+      },
+      "previous_hash": "56f94b06c525db0883af6b4875e5cd2b306e27638e1383b5953ea4c770dcbae9",
+      "event_hash": "682d5e77b08bf39c60f18e4b0768ee5fc5db87312ba5b894a5a5dc989c5bd9ea"
+    },
+    {
+      "seq": 29,
+      "timestamp": "2026-10-28T02:08:10.923848+00:00",
+      "kind": "register",
+      "payload": {
+        "expert": "engineering-4",
+        "runtime": "/root/final_engineering_4",
+        "identity_basis": "trusted-operator-attestation"
+      },
+      "previous_hash": "682d5e77b08bf39c60f18e4b0768ee5fc5db87312ba5b894a5a5dc989c5bd9ea",
+      "event_hash": "b931127a1377b727e4cff9dde35bbc6198600d180c3b0df0447c77d8e9ab5822"
+    },
+    {
+      "seq": 30,
+      "timestamp": "2026-10-28T02:08:10.962402+00:00",
+      "kind": "register",
+      "payload": {
+        "expert": "engineering-5",
+        "runtime": "/root/final_engineering_5",
+        "identity_basis": "trusted-operator-attestation"
+      },
+      "previous_hash": "b931127a1377b727e4cff9dde35bbc6198600d180c3b0df0447c77d8e9ab5822",
+      "event_hash": "b7d46ead88f39016698b7658bbc795a618040c0d15449d0e1eddc096b8ceae18"
+    },
+    {
+      "seq": 31,
+      "timestamp": "2026-10-28T02:08:11.001835+00:00",
+      "kind": "register",
+      "payload": {
+        "expert": "creative-2",
+        "runtime": "/root/final_creative_2",
+        "identity_basis": "trusted-operator-attestation"
+      },
+      "previous_hash": "b7d46ead88f39016698b7658bbc795a618040c0d15449d0e1eddc096b8ceae18",
+      "event_hash": "795bec73eb638bc89e3c08a4d80f48c403fe7e5d98e76e6aa0f69e1d1cc24825"
+    },
+    {
+      "seq": 32,
+      "timestamp": "2026-10-28T02:08:11.044391+00:00",
+      "kind": "register",
+      "payload": {
+        "expert": "creative-3",
+        "runtime": "/root/final_creative_3",
+        "identity_basis": "trusted-operator-attestation"
+      },
+      "previous_hash": "795bec73eb638bc89e3c08a4d80f48c403fe7e5d98e76e6aa0f69e1d1cc24825",
+      "event_hash": "73d95e5484e924701cc07874625358bb1ca425ac0556487d9619e26f75e13575"
+    },
+    {
+      "seq": 33,
+      "timestamp": "2026-10-28T02:08:11.082649+00:00",
+      "kind": "register",
+      "payload": {
+        "expert": "creative-5",
+        "runtime": "/root/final_creative_5",
+        "identity_basis": "trusted-operator-attestation"
+      },
+      "previous_hash": "73d95e5484e924701cc07874625358bb1ca425ac0556487d9619e26f75e13575",
+      "event_hash": "cf0438624279865b214f6b70be037bb815fa8440ab9f32d762f914a15945cf67"
+    },
+    {
+      "seq": 34,
+      "timestamp": "2026-10-28T02:08:11.125216+00:00",
+      "kind": "register",
+      "payload": {
+        "expert": "ai-1",
+        "runtime": "/root/final_ai_1",
+        "identity_basis": "trusted-operator-attestation"
+      },
+      "previous_hash": "cf0438624279865b214f6b70be037bb815fa8440ab9f32d762f914a15945cf67",
+      "event_hash": "81b848cd433b160f6a277a12a24d1520ea9892c96193c009fd8c1208a8283c0a"
+    },
+    {
+      "seq": 35,
+      "timestamp": "2026-10-28T02:08:11.172524+00:00",
+      "kind": "register",
+      "payload": {
+        "expert": "ai-2",
+        "runtime": "/root/final_ai_2",
+        "identity_basis": "trusted-operator-attestation"
+      },
+      "previous_hash": "81b848cd433b160f6a277a12a24d1520ea9892c96193c009fd8c1208a8283c0a",
+      "event_hash": "1f8ab59d0b613f1f728476eebb658f4f15ff34ad57916c41bb2362f500a5fe7b"
+    },
+    {
+      "seq": 36,
+      "timestamp": "2026-10-28T02:08:11.214100+00:00",
+      "kind": "register",
+      "payload": {
+        "expert": "ai-3",
+        "runtime": "/root/final_ai_3",
+        "identity_basis": "trusted-operator-attestation"
+      },
+      "previous_hash": "1f8ab59d0b613f1f728476eebb658f4f15ff34ad57916c41bb2362f500a5fe7b",
+      "event_hash": "7ba4ec2976d41440d30c4a71693d60b87dae927a3e50655487f93316e30b4be7"
+    },
+    {
+      "seq": 37,
+      "timestamp": "2026-10-28T02:08:11.257752+00:00",
+      "kind": "register",
+      "payload": {
+        "expert": "ai-4",
+        "runtime": "/root/final_ai_4",
+        "identity_basis": "trusted-operator-attestation"
+      },
+      "previous_hash": "7ba4ec2976d41440d30c4a71693d60b87dae927a3e50655487f93316e30b4be7",
+      "event_hash": "5850d1e4f5910ad1770209002485ef628920747d31033ab5f65fd3e05c1d456b"
+    },
+    {
+      "seq": 38,
+      "timestamp": "2026-10-28T02:08:11.300546+00:00",
+      "kind": "register",
+      "payload": {
+        "expert": "ai-5",
+        "runtime": "/root/final_ai_5",
+        "identity_basis": "trusted-operator-attestation"
+      },
+      "previous_hash": "5850d1e4f5910ad1770209002485ef628920747d31033ab5f65fd3e05c1d456b",
+      "event_hash": "73f2d67de51e4d4f86d93e15a61e7d080967ba59d5cb485d5251e27ded9edbd4"
+    },
+    {
+      "seq": 39,
+      "timestamp": "2026-10-28T02:14:14.228142+00:00",
+      "kind": "register",
+      "payload": {
+        "expert": "commerce-1",
+        "runtime": "/root/final_commerce_1",
+        "identity_basis": "trusted-operator-attestation"
+      },
+      "previous_hash": "73f2d67de51e4d4f86d93e15a61e7d080967ba59d5cb485d5251e27ded9edbd4",
+      "event_hash": "cd0ff994e56857404066c3ab8f6c86675000348e5616192668c7fe5ab61801dc"
+    },
+    {
+      "seq": 40,
+      "timestamp": "2026-10-28T02:14:14.268427+00:00",
+      "kind": "register",
+      "payload": {
+        "expert": "commerce-2",
+        "runtime": "/root/final_commerce_2",
+        "identity_basis": "trusted-operator-attestation"
+      },
+      "previous_hash": "cd0ff994e56857404066c3ab8f6c86675000348e5616192668c7fe5ab61801dc",
+      "event_hash": "568b9e62213a46d6c6a5b2a0059364f0e11612a0a6223ff79b53b39d866c01d0"
+    },
+    {
+      "seq": 41,
+      "timestamp": "2026-10-28T02:14:14.310733+00:00",
+      "kind": "register",
+      "payload": {
+        "expert": "commerce-3",
+        "runtime": "/root/final_commerce_3",
+        "identity_basis": "trusted-operator-attestation"
+      },
+      "previous_hash": "568b9e62213a46d6c6a5b2a0059364f0e11612a0a6223ff79b53b39d866c01d0",
+      "event_hash": "b52c621676f2a81e2deb3f947ccb85d31793b033a56bb4677311d90f34ea89f2"
+    },
+    {
+      "seq": 42,
+      "timestamp": "2026-10-28T02:14:14.348777+00:00",
+      "kind": "register",
+      "payload": {
+        "expert": "commerce-4",
+        "runtime": "/root/final_commerce_4",
+        "identity_basis": "trusted-operator-attestation"
+      },
+      "previous_hash": "b52c621676f2a81e2deb3f947ccb85d31793b033a56bb4677311d90f34ea89f2",
+      "event_hash": "6c62c51294db3e8a13fb313d05c442f932516282e63929b5ec96f2effa2890d1"
+    },
+    {
+      "seq": 43,
+      "timestamp": "2026-10-28T02:14:14.390039+00:00",
+      "kind": "register",
+      "payload": {
+        "expert": "commerce-5",
+        "runtime": "/root/final_commerce_5",
+        "identity_basis": "trusted-operator-attestation"
+      },
+      "previous_hash": "6c62c51294db3e8a13fb313d05c442f932516282e63929b5ec96f2effa2890d1",
+      "event_hash": "e35a41b41ba8f6bfaf859448958aab7b3bf9e8f359e3bbd504ff9ce93b9e23fa"
+    },
+    {
+      "seq": 44,
+      "timestamp": "2026-10-28T02:14:14.426174+00:00",
+      "kind": "register",
+      "payload": {
+        "expert": "marketing-1",
+        "runtime": "/root/final_marketing_1",
+        "identity_basis": "trusted-operator-attestation"
+      },
+      "previous_hash": "e35a41b41ba8f6bfaf859448958aab7b3bf9e8f359e3bbd504ff9ce93b9e23fa",
+      "event_hash": "5ee8a539000bbb3b910543f1baa92f6f6123b2607533d1b3c7c6f424f00798d0"
+    },
+    {
+      "seq": 45,
+      "timestamp": "2026-10-28T02:14:14.468272+00:00",
+      "kind": "register",
+      "payload": {
+        "expert": "marketing-2",
+        "runtime": "/root/final_marketing_2",
+        "identity_basis": "trusted-operator-attestation"
+      },
+      "previous_hash": "5ee8a539000bbb3b910543f1baa92f6f6123b2607533d1b3c7c6f424f00798d0",
+      "event_hash": "fbbec82cba30c47993c1d712cd3301f8defaff157b61d4ada55bab0a7caa4df8"
+    },
+    {
+      "seq": 46,
+      "timestamp": "2026-10-28T02:14:14.511228+00:00",
+      "kind": "register",
+      "payload": {
+        "expert": "marketing-3",
+        "runtime": "/root/final_marketing_3",
+        "identity_basis": "trusted-operator-attestation"
+      },
+      "previous_hash": "fbbec82cba30c47993c1d712cd3301f8defaff157b61d4ada55bab0a7caa4df8",
+      "event_hash": "c54e59ba8ccc92e232ae9dc2cb7df91b1dd5e9d4a1be5180d47434ddde5f6a3d"
+    },
+    {
+      "seq": 47,
+      "timestamp": "2026-10-28T02:14:14.547757+00:00",
+      "kind": "register",
+      "payload": {
+        "expert": "marketing-5",
+        "runtime": "/root/final_marketing_5",
+        "identity_basis": "trusted-operator-attestation"
+      },
+      "previous_hash": "c54e59ba8ccc92e232ae9dc2cb7df91b1dd5e9d4a1be5180d47434ddde5f6a3d",
+      "event_hash": "fde253d48eccf0d89fd1c3fd8aca9b9d261926fff12f25709052ca5240e307cb"
+    },
+    {
+      "seq": 48,
+      "timestamp": "2026-10-28T02:14:14.584756+00:00",
+      "kind": "register",
+      "payload": {
+        "expert": "research-1",
+        "runtime": "/root/final_research_1",
+        "identity_basis": "trusted-operator-attestation"
+      },
+      "previous_hash": "fde253d48eccf0d89fd1c3fd8aca9b9d261926fff12f25709052ca5240e307cb",
+      "event_hash": "253aef016ecc11b53cb8b9634f175556ed3347fe8619fcab1e4d082996450742"
+    },
+    {
+      "seq": 49,
+      "timestamp": "2026-10-28T02:14:14.626541+00:00",
+      "kind": "register",
+      "payload": {
+        "expert": "research-3",
+        "runtime": "/root/final_research_3",
+        "identity_basis": "trusted-operator-attestation"
+      },
+      "previous_hash": "253aef016ecc11b53cb8b9634f175556ed3347fe8619fcab1e4d082996450742",
+      "event_hash": "be8fa882c276e9b7f034c5ce2fbbd19275f3b2977c38bff158dcbb747ff81d1a"
+    },
+    {
+      "seq": 50,
+      "timestamp": "2026-10-28T02:14:14.666144+00:00",
+      "kind": "register",
+      "payload": {
+        "expert": "research-4",
+        "runtime": "/root/final_research_4",
+        "identity_basis": "trusted-operator-attestation"
+      },
+      "previous_hash": "be8fa882c276e9b7f034c5ce2fbbd19275f3b2977c38bff158dcbb747ff81d1a",
+      "event_hash": "628795283dfcf7e37bd8c42a0de11d45ea7304338ef13b301da02cbba794e320"
+    },
+    {
+      "seq": 51,
+      "timestamp": "2026-10-28T02:18:26.464794+00:00",
+      "kind": "register",
+      "payload": {
+        "expert": "research-5",
+        "runtime": "/root/final_research_5",
+        "identity_basis": "trusted-operator-attestation"
+      },
+      "previous_hash": "628795283dfcf7e37bd8c42a0de11d45ea7304338ef13b301da02cbba794e320",
+      "event_hash": "d13a722a66e22d2f25c1326001178092dede342144734b087bf50817769bf324"
+    },
+    {
+      "seq": 52,
+      "timestamp": "2026-10-28T02:18:26.503304+00:00",
+      "kind": "register",
+      "payload": {
+        "expert": "finance-legal-1",
+        "runtime": "/root/final_finance_legal_1",
+        "identity_basis": "trusted-operator-attestation"
+      },
+      "previous_hash": "d13a722a66e22d2f25c1326001178092dede342144734b087bf50817769bf324",
+      "event_hash": "3d7b9a363c2020bb20b2ac7212627190ff86ee887d1aaa660e4e20a28a066751"
+    },
+    {
+      "seq": 53,
+      "timestamp": "2026-10-28T02:18:26.538565+00:00",
+      "kind": "register",
+      "payload": {
+        "expert": "finance-legal-2",
+        "runtime": "/root/final_finance_legal_2",
+        "identity_basis": "trusted-operator-attestation"
+      },
+      "previous_hash": "3d7b9a363c2020bb20b2ac7212627190ff86ee887d1aaa660e4e20a28a066751",
+      "event_hash": "2b1219ade12249e101b34bf5a4d6e716adb59de427712a245afa45e0712be72d"
+    },
+    {
+      "seq": 54,
+      "timestamp": "2026-10-28T02:18:26.575004+00:00",
+      "kind": "register",
+      "payload": {
+        "expert": "finance-legal-3",
+        "runtime": "/root/final_finance_legal_3",
+        "identity_basis": "trusted-operator-attestation"
+      },
+      "previous_hash": "2b1219ade12249e101b34bf5a4d6e716adb59de427712a245afa45e0712be72d",
+      "event_hash": "549e3a6e40d248203d3d144f5952158ebdafdd4129ec33f65de054b1697cd84a"
+    },
+    {
+      "seq": 55,
+      "timestamp": "2026-10-28T02:18:26.611667+00:00",
+      "kind": "register",
+      "payload": {
+        "expert": "finance-legal-5",
+        "runtime": "/root/final_finance_legal_5",
+        "identity_basis": "trusted-operator-attestation"
+      },
+      "previous_hash": "549e3a6e40d248203d3d144f5952158ebdafdd4129ec33f65de054b1697cd84a",
+      "event_hash": "7d2fb7e22f0459c5e1b0bfa0958cdb6f697074dda573a8aa02aa76e85a795d09"
+    },
+    {
+      "seq": 56,
+      "timestamp": "2026-10-28T02:18:26.647766+00:00",
+      "kind": "register",
+      "payload": {
+        "expert": "quality-1",
+        "runtime": "/root/final_quality_1",
+        "identity_basis": "trusted-operator-attestation"
+      },
+      "previous_hash": "7d2fb7e22f0459c5e1b0bfa0958cdb6f697074dda573a8aa02aa76e85a795d09",
+      "event_hash": "10fe273f7f5bef59a47f6e8d59a350fe4d27746abf8f50e17fe343aa28aac213"
+    },
+    {
+      "seq": 57,
+      "timestamp": "2026-10-28T02:21:19.126056+00:00",
+      "kind": "register",
+      "payload": {
+        "expert": "quality-2",
+        "runtime": "/root/final_quality_2",
+        "identity_basis": "trusted-operator-attestation"
+      },
+      "previous_hash": "10fe273f7f5bef59a47f6e8d59a350fe4d27746abf8f50e17fe343aa28aac213",
+      "event_hash": "d5b6071bcf19380b8dae8c4c09c5400a7d7540eeb6a48bca7ee6af61c669f3da"
+    },
+    {
+      "seq": 58,
+      "timestamp": "2026-10-28T02:21:19.169642+00:00",
+      "kind": "register",
+      "payload": {
+        "expert": "quality-4",
+        "runtime": "/root/final_quality_4",
+        "identity_basis": "trusted-operator-attestation"
+      },
+      "previous_hash": "d5b6071bcf19380b8dae8c4c09c5400a7d7540eeb6a48bca7ee6af61c669f3da",
+      "event_hash": "1956d7b77d9ffd866f761cd2e8b7755862fcd0bef255351dc3ea338552ef3e2f"
+    },
+    {
+      "seq": 59,
+      "timestamp": "2026-10-28T02:21:19.206880+00:00",
+      "kind": "register",
+      "payload": {
+        "expert": "quality-5",
+        "runtime": "/root/final_quality_5",
+        "identity_basis": "trusted-operator-attestation"
+      },
+      "previous_hash": "1956d7b77d9ffd866f761cd2e8b7755862fcd0bef255351dc3ea338552ef3e2f",
+      "event_hash": "1fa6ade3d79f0e45ca6b2c325e405cc5b6f0bb88d25894a46051e928d9a863c6"
+    },
+    {
+      "seq": 60,
+      "timestamp": "2026-10-28T02:21:19.255070+00:00",
+      "kind": "register",
+      "payload": {
+        "expert": "innovation-1",
+        "runtime": "/root/final_innovation_1",
+        "identity_basis": "trusted-operator-attestation"
+      },
+      "previous_hash": "1fa6ade3d79f0e45ca6b2c325e405cc5b6f0bb88d25894a46051e928d9a863c6",
+      "event_hash": "662497f21abaf85828d5b60bd3c5dcf5e523ec20b4964fd1ee61b34a597185e1"
+    },
+    {
+      "seq": 61,
+      "timestamp": "2026-10-28T02:21:19.297222+00:00",
+      "kind": "register",
+      "payload": {
+        "expert": "innovation-2",
+        "runtime": "/root/final_innovation_2",
+        "identity_basis": "trusted-operator-attestation"
+      },
+      "previous_hash": "662497f21abaf85828d5b60bd3c5dcf5e523ec20b4964fd1ee61b34a597185e1",
+      "event_hash": "b6b6852fd74dcb83f6e2128bdd1a191f91ad7a50289a9ee064007f53be22c783"
+    },
+    {
+      "seq": 62,
+      "timestamp": "2026-10-28T02:21:19.333717+00:00",
+      "kind": "register",
+      "payload": {
+        "expert": "innovation-3",
+        "runtime": "/root/final_innovation_3",
+        "identity_basis": "trusted-operator-attestation"
+      },
+      "previous_hash": "b6b6852fd74dcb83f6e2128bdd1a191f91ad7a50289a9ee064007f53be22c783",
+      "event_hash": "bdabc6ed75cd68d39948f3e806a49c9b4fd1a261a87503a4a4105109cfdd1d0e"
+    },
+    {
+      "seq": 63,
+      "timestamp": "2026-10-28T02:21:19.377908+00:00",
+      "kind": "register",
+      "payload": {
+        "expert": "innovation-4",
+        "runtime": "/root/final_innovation_4",
+        "identity_basis": "trusted-operator-attestation"
+      },
+      "previous_hash": "bdabc6ed75cd68d39948f3e806a49c9b4fd1a261a87503a4a4105109cfdd1d0e",
+      "event_hash": "c178549d6ee0c161635885a7642525f30fb431349297e69c70d2405d218d9c26"
+    },
+    {
+      "seq": 64,
+      "timestamp": "2026-10-28T02:21:19.419687+00:00",
+      "kind": "register",
+      "payload": {
+        "expert": "innovation-5",
+        "runtime": "/root/final_innovation_5",
+        "identity_basis": "trusted-operator-attestation"
+      },
+      "previous_hash": "c178549d6ee0c161635885a7642525f30fb431349297e69c70d2405d218d9c26",
+      "event_hash": "2cb55627da465a0238619f6f1eba5213203c84c81da1286fe1ce65b33485111d"
+    },
+    {
+      "seq": 65,
+      "timestamp": "2026-10-28T02:23:22.726701+00:00",
+      "kind": "evidence",
+      "payload": {
+        "id": "frozen-candidate",
+        "description": "Exact frozen media, source and player files; all hashes rechecked",
+        "path": "/workspace/Mdaar21-new/docs/elite50/ad-remake-2026-10-28/candidate.json",
+        "sha256": "e008dc9d5a79449aafd7346a52c60934359b9349586a26c73c0c2770aff5444d"
+      },
+      "previous_hash": "2cb55627da465a0238619f6f1eba5213203c84c81da1286fe1ce65b33485111d",
+      "event_hash": "97a4f04c4037c77b55e3a5c6ccfa2d6d5ed36153f177146f39cd0ddce6fd84e7"
+    },
+    {
+      "seq": 66,
+      "timestamp": "2026-10-28T02:23:22.770328+00:00",
+      "kind": "evidence",
+      "payload": {
+        "id": "actual-runtimes",
+        "description": "Fifty distinct actual host-returned reviewer context names, one per roster identity",
+        "path": "/workspace/Mdaar21-new/docs/elite50/ad-remake-2026-10-28/runtime-assignments.json",
+        "sha256": "931f07cb7c975d06c98806c99f8a545afa4ea8b2f65c9ff88c15648c6294dc6f"
+      },
+      "previous_hash": "97a4f04c4037c77b55e3a5c6ccfa2d6d5ed36153f177146f39cd0ddce6fd84e7",
+      "event_hash": "c75232deac86b44c7e66f6b93f01ac04f276512c6966572dc15293348c8a1c02"
+    },
+    {
+      "seq": 67,
+      "timestamp": "2026-10-28T02:23:22.810245+00:00",
+      "kind": "evidence",
+      "payload": {
+        "id": "final-task",
+        "description": "Shared independent final task, frozen version, criteria and capability limits",
+        "path": "/workspace/Mdaar21-new/docs/elite50/ad-remake-2026-10-28/final-packet.json",
+        "sha256": "b4078b49ac15fa71f9fb6a860cbf24d98d972c3882d55e6d92965dac9d32c0c7"
+      },
+      "previous_hash": "c75232deac86b44c7e66f6b93f01ac04f276512c6966572dc15293348c8a1c02",
+      "event_hash": "4a3fd9bda40ef1b6d2891b76665e5030e93add664f88d2c539a13c72bb27adb0"
+    },
+    {
+      "seq": 68,
+      "timestamp": "2026-10-28T02:23:22.848682+00:00",
+      "kind": "evidence",
+      "payload": {
+        "id": "claim-map",
+        "description": "Owner price and product claim to source mapping",
+        "path": "/workspace/Mdaar21-new/docs/elite50/ad-remake-2026-10-28/evidence/claim-map.json",
+        "sha256": "5e5522aeabc8a1fe67833c947032216d6f96db5c6e66432e6b2ae33c5f30ec43"
+      },
+      "previous_hash": "4a3fd9bda40ef1b6d2891b76665e5030e93add664f88d2c539a13c72bb27adb0",
+      "event_hash": "1ae4c63118d044424d6b0c0818d69a0b7f72fcb36f91ab517786a00e449e7f00"
+    },
+    {
+      "seq": 69,
+      "timestamp": "2026-10-28T02:23:22.889760+00:00",
+      "kind": "evidence",
+      "payload": {
+        "id": "actual-check-final-json",
+        "description": "Executed check record or actual inspected artifact, not a proposed test",
+        "path": "/workspace/Mdaar21-new/creative/voice-ad-premium-v12/reports/check-final.json",
+        "sha256": "81f14b15711a2673667943d1f1aeb5882760fe598a0c44cc3c9a1de049123016"
+      },
+      "previous_hash": "1ae4c63118d044424d6b0c0818d69a0b7f72fcb36f91ab517786a00e449e7f00",
+      "event_hash": "bda1fe66bb8bec1d22007bc2a1462b5e695791726aec73e68128d6569577c690"
+    },
+    {
+      "seq": 70,
+      "timestamp": "2026-10-28T02:23:22.926486+00:00",
+      "kind": "evidence",
+      "payload": {
+        "id": "actual-source-browser-json",
+        "description": "Executed check record or actual inspected artifact, not a proposed test",
+        "path": "/workspace/Mdaar21-new/creative/voice-ad-premium-v12/reports/source-browser.json",
+        "sha256": "8b5a713191bdf8eaade883fc67edccd6b27c1f25e50397a61385e0fef1ea5a13"
+      },
+      "previous_hash": "bda1fe66bb8bec1d22007bc2a1462b5e695791726aec73e68128d6569577c690",
+      "event_hash": "e8a86a5f3bc5cfa767d72e4ada8b7ef80c07d1f7732e5d09d34c63b86128e7c6"
+    },
+    {
+      "seq": 71,
+      "timestamp": "2026-10-28T02:23:23.023022+00:00",
+      "kind": "evidence",
+      "payload": {
+        "id": "actual-encoded-validation-json",
+        "description": "Executed check record or actual inspected artifact, not a proposed test",
+        "path": "/workspace/Mdaar21-new/creative/voice-ad-premium-v12/reports/encoded-validation.json",
+        "sha256": "44bdf1824d2c6590b913eb0f033179c948108ecf26e70034ae0d87a8bd1bd81c"
+      },
+      "previous_hash": "e8a86a5f3bc5cfa767d72e4ada8b7ef80c07d1f7732e5d09d34c63b86128e7c6",
+      "event_hash": "fd1a444f7063154af60cf2360af85b6bd75d474cd08e16774ca4f5100989f13b"
+    },
+    {
+      "seq": 72,
+      "timestamp": "2026-10-28T02:23:23.062722+00:00",
+      "kind": "evidence",
+      "payload": {
+        "id": "actual-player-browser-json",
+        "description": "Executed check record or actual inspected artifact, not a proposed test",
+        "path": "/workspace/Mdaar21-new/creative/voice-ad-premium-v12/reports/player-browser.json",
+        "sha256": "b5391cdb69e0aca95bb190fe322af80b28b1ba9e73e59f1abbdda730ce31c105"
+      },
+      "previous_hash": "fd1a444f7063154af60cf2360af85b6bd75d474cd08e16774ca4f5100989f13b",
+      "event_hash": "54bfe58488ad7c73efb1b6a5b7d561aa76f3d5e74536299632b3bab0dbcf883e"
+    },
+    {
+      "seq": 73,
+      "timestamp": "2026-10-28T02:23:23.103475+00:00",
+      "kind": "evidence",
+      "payload": {
+        "id": "actual-live-verification-json",
+        "description": "Executed check record or actual inspected artifact, not a proposed test",
+        "path": "/workspace/Mdaar21-new/creative/voice-ad-premium-v12/reports/live-verification.json",
+        "sha256": "f686b4693a182f0058f68785026124bb9ab8a65ce3ddb52e1eb635ddabb68300"
+      },
+      "previous_hash": "54bfe58488ad7c73efb1b6a5b7d561aa76f3d5e74536299632b3bab0dbcf883e",
+      "event_hash": "b2da383d0017d9d2ff4173d7f5d07ed80a8f8977c9b34559f162722eebf0eb6e"
+    },
+    {
+      "seq": 74,
+      "timestamp": "2026-10-28T02:23:23.151995+00:00",
+      "kind": "evidence",
+      "payload": {
+        "id": "actual-motion-playback-json",
+        "description": "Executed check record or actual inspected artifact, not a proposed test",
+        "path": "/workspace/Mdaar21-new/creative/voice-ad-premium-v12/reports/motion-playback.json",
+        "sha256": "0803600b29a3e60fea5bb83e4cba5e639158fad8730d920f4b1bfaa02cbf32e8"
+      },
+      "previous_hash": "b2da383d0017d9d2ff4173d7f5d07ed80a8f8977c9b34559f162722eebf0eb6e",
+      "event_hash": "45703493df7a26173bb385f88bed67b77336fb248b90ec231bc08bf9f56362b0"
+    },
+    {
+      "seq": 75,
+      "timestamp": "2026-10-28T02:23:23.193604+00:00",
+      "kind": "evidence",
+      "payload": {
+        "id": "actual-audio-edit-json",
+        "description": "Executed check record or actual inspected artifact, not a proposed test",
+        "path": "/workspace/Mdaar21-new/creative/voice-ad-premium-v12/reports/audio-edit.json",
+        "sha256": "240a787dde55d9856a4373c9f7585f36f9d09bd080c534f59debea4c9d48999a"
+      },
+      "previous_hash": "45703493df7a26173bb385f88bed67b77336fb248b90ec231bc08bf9f56362b0",
+      "event_hash": "ccc3c71b0a0dc5da67a2b17c27d0b5e482e83dc7fa13bc940f96051e629ecc02"
+    },
+    {
+      "seq": 76,
+      "timestamp": "2026-10-28T02:23:23.239422+00:00",
+      "kind": "evidence",
+      "payload": {
+        "id": "actual-voice-separation-json",
+        "description": "Executed check record or actual inspected artifact, not a proposed test",
+        "path": "/workspace/Mdaar21-new/creative/voice-ad-premium-v12/reports/voice-separation.json",
+        "sha256": "3d6d1824327e569da4bb2904d5ef6678a72865c0bf5d79c872e4192b2e9354a5"
+      },
+      "previous_hash": "ccc3c71b0a0dc5da67a2b17c27d0b5e482e83dc7fa13bc940f96051e629ecc02",
+      "event_hash": "4ddd0c31dcbeb7b659c3311eab3ba4ca97bd13d04e4348944c7a04fc877ea27e"
+    },
+    {
+      "seq": 77,
+      "timestamp": "2026-10-28T02:23:23.281226+00:00",
+      "kind": "evidence",
+      "payload": {
+        "id": "actual-edited-asr-json",
+        "description": "Executed check record or actual inspected artifact, not a proposed test",
+        "path": "/workspace/Mdaar21-new/creative/voice-ad-premium-v12/reports/edited-asr.json",
+        "sha256": "09871b6663ed0a590eafccca155c2cbe3770dbab856f8d02a897223287466cc0"
+      },
+      "previous_hash": "4ddd0c31dcbeb7b659c3311eab3ba4ca97bd13d04e4348944c7a04fc877ea27e",
+      "event_hash": "e565bdab7df7e01528e32f25d916a88e93a52a0e526d31d45d1dff6d2da66132"
+    },
+    {
+      "seq": 78,
+      "timestamp": "2026-10-28T02:23:23.322990+00:00",
+      "kind": "evidence",
+      "payload": {
+        "id": "actual-book-links-json",
+        "description": "Executed check record or actual inspected artifact, not a proposed test",
+        "path": "/workspace/Mdaar21-new/creative/voice-ad-premium-v12/reports/book-links.json",
+        "sha256": "2c5f83d997d2d16aa26817b04f01ddc6b3ee13c9a8ae0e0dbf047e3c348d9b72"
+      },
+      "previous_hash": "e565bdab7df7e01528e32f25d916a88e93a52a0e526d31d45d1dff6d2da66132",
+      "event_hash": "c786dea09fe972f48f2f4ac3dc3b9606bceefee98c6bddfcc0b368a0e1993a7a"
+    },
+    {
+      "seq": 79,
+      "timestamp": "2026-10-28T02:23:23.361454+00:00",
+      "kind": "evidence",
+      "payload": {
+        "id": "actual-encoded-contact-jpg",
+        "description": "Executed check record or actual inspected artifact, not a proposed test",
+        "path": "/workspace/Mdaar21-new/creative/voice-ad-premium-v12/reports/encoded-contact.jpg",
+        "sha256": "3e00558790b2c00ec89ca90002a3b691842907d0a5f8acb91d94f7b26df0d742"
+      },
+      "previous_hash": "c786dea09fe972f48f2f4ac3dc3b9606bceefee98c6bddfcc0b368a0e1993a7a",
+      "event_hash": "166a3d32c2b5f6aa3d2e42224ed21a8a517dda2193894d7de6f48e7ebaed4aed"
+    },
+    {
+      "seq": 80,
+      "timestamp": "2026-10-28T02:23:23.401577+00:00",
+      "kind": "evidence",
+      "payload": {
+        "id": "actual-encoded-handoffs-jpg",
+        "description": "Executed check record or actual inspected artifact, not a proposed test",
+        "path": "/workspace/Mdaar21-new/creative/voice-ad-premium-v12/reports/encoded-handoffs.jpg",
+        "sha256": "b9c2dc4cfdecf3d0779daf4b885f6874b386e459fe65f7e5df9860c3ab5680fd"
+      },
+      "previous_hash": "166a3d32c2b5f6aa3d2e42224ed21a8a517dda2193894d7de6f48e7ebaed4aed",
+      "event_hash": "ff0da44f618369cdc21b12782396718e01256f6d245941e73ed71d35e9fc7f5e"
+    },
+    {
+      "seq": 81,
+      "timestamp": "2026-10-28T02:23:23.446821+00:00",
+      "kind": "evidence",
+      "payload": {
+        "id": "review-executive-1",
+        "description": "Unmodified actual independent expert final response, decision, reasons and limitations",
+        "path": "/workspace/Mdaar21-new/docs/elite50/ad-remake-2026-10-28/reviews/executive-1.json",
+        "sha256": "7905bb3530325980020d4a0d67eca545dff2b0d41457947d38d71247f3e44a3f"
+      },
+      "previous_hash": "ff0da44f618369cdc21b12782396718e01256f6d245941e73ed71d35e9fc7f5e",
+      "event_hash": "ebfc138d377964dc1398986f35b67ff1b592a5660764066d0d31d40beaa13fe4"
+    },
+    {
+      "seq": 82,
+      "timestamp": "2026-10-28T02:23:23.487447+00:00",
+      "kind": "evidence",
+      "payload": {
+        "id": "review-executive-2",
+        "description": "Unmodified actual independent expert final response, decision, reasons and limitations",
+        "path": "/workspace/Mdaar21-new/docs/elite50/ad-remake-2026-10-28/reviews/executive-2.json",
+        "sha256": "68ed13b475dc84c3ca2be870cc4b0f39c115e72a941c2185dfd6f3957b476463"
+      },
+      "previous_hash": "ebfc138d377964dc1398986f35b67ff1b592a5660764066d0d31d40beaa13fe4",
+      "event_hash": "1f5658c1a6da92af4f987d1fb99cb0ef4b02d243044f2bb35eca4254a86bf58e"
+    },
+    {
+      "seq": 83,
+      "timestamp": "2026-10-28T02:23:23.543842+00:00",
+      "kind": "evidence",
+      "payload": {
+        "id": "review-executive-3",
+        "description": "Unmodified actual independent expert final response, decision, reasons and limitations",
+        "path": "/workspace/Mdaar21-new/docs/elite50/ad-remake-2026-10-28/reviews/executive-3.json",
+        "sha256": "63606c39f3626fe2f69505e5690cfcb3f94547bbb5714d395b9c4f2cb51052c2"
+      },
+      "previous_hash": "1f5658c1a6da92af4f987d1fb99cb0ef4b02d243044f2bb35eca4254a86bf58e",
+      "event_hash": "1c5ebb063882c479ba7e04a23502674d3ea7753c394025f17157c30867206d7b"
+    },
+    {
+      "seq": 84,
+      "timestamp": "2026-10-28T02:23:23.592505+00:00",
+      "kind": "evidence",
+      "payload": {
+        "id": "review-executive-4",
+        "description": "Unmodified actual independent expert final response, decision, reasons and limitations",
+        "path": "/workspace/Mdaar21-new/docs/elite50/ad-remake-2026-10-28/reviews/executive-4.json",
+        "sha256": "5a8bcf657fcaf10fb8a6fd68d95b655299ffbb9bd5e6ba9be447b9e1566aed2c"
+      },
+      "previous_hash": "1c5ebb063882c479ba7e04a23502674d3ea7753c394025f17157c30867206d7b",
+      "event_hash": "57121bece7f413d0d03b282b769abca27ff9c0be9fd0d2bae7e136de2fadacef"
+    },
+    {
+      "seq": 85,
+      "timestamp": "2026-10-28T02:23:23.639600+00:00",
+      "kind": "evidence",
+      "payload": {
+        "id": "review-executive-5",
+        "description": "Unmodified actual independent expert final response, decision, reasons and limitations",
+        "path": "/workspace/Mdaar21-new/docs/elite50/ad-remake-2026-10-28/reviews/executive-5.json",
+        "sha256": "b390df3a984c8f99e495a3cb123934132b4321ce082dab8b00560d479f1047cb"
+      },
+      "previous_hash": "57121bece7f413d0d03b282b769abca27ff9c0be9fd0d2bae7e136de2fadacef",
+      "event_hash": "161f072ef21b7dd4af65142753977df1dee1a19cae375dd641364399cafd7e7d"
+    },
+    {
+      "seq": 86,
+      "timestamp": "2026-10-28T02:23:23.688489+00:00",
+      "kind": "evidence",
+      "payload": {
+        "id": "review-engineering-1",
+        "description": "Unmodified actual independent expert final response, decision, reasons and limitations",
+        "path": "/workspace/Mdaar21-new/docs/elite50/ad-remake-2026-10-28/reviews/engineering-1.json",
+        "sha256": "eb6a7148f96ac2aafe2f41ec7dbf63be5f921f86400b3f5fe2cda02f96449f4d"
+      },
+      "previous_hash": "161f072ef21b7dd4af65142753977df1dee1a19cae375dd641364399cafd7e7d",
+      "event_hash": "1247caec7a7f1501b90f33c31a38742ace04aa29334be993fe4c268d7ee4d666"
+    },
+    {
+      "seq": 87,
+      "timestamp": "2026-10-28T02:23:23.728199+00:00",
+      "kind": "evidence",
+      "payload": {
+        "id": "review-engineering-2",
+        "description": "Unmodified actual independent expert final response, decision, reasons and limitations",
+        "path": "/workspace/Mdaar21-new/docs/elite50/ad-remake-2026-10-28/reviews/engineering-2.json",
+        "sha256": "ef67c53a58177d020c77314795709e0fa142903135b16d4deba62131cfb555e8"
+      },
+      "previous_hash": "1247caec7a7f1501b90f33c31a38742ace04aa29334be993fe4c268d7ee4d666",
+      "event_hash": "9f004a29baeb2654d2702172ad134ff4a09101c7e601e86afb8daa6e75514026"
+    },
+    {
+      "seq": 88,
+      "timestamp": "2026-10-28T02:23:23.765770+00:00",
+      "kind": "evidence",
+      "payload": {
+        "id": "review-engineering-3",
+        "description": "Unmodified actual independent expert final response, decision, reasons and limitations",
+        "path": "/workspace/Mdaar21-new/docs/elite50/ad-remake-2026-10-28/reviews/engineering-3.json",
+        "sha256": "2c567bf3c24606d8445bee9222c0e7fae25db4b85fe12371dd3025d77b15608f"
+      },
+      "previous_hash": "9f004a29baeb2654d2702172ad134ff4a09101c7e601e86afb8daa6e75514026",
+      "event_hash": "ed67d2ca5b7ce3f2e46430ee3252b97c7c893ed55b0108cee7ea4637a9d484e5"
+    },
+    {
+      "seq": 89,
+      "timestamp": "2026-10-28T02:23:23.810183+00:00",
+      "kind": "evidence",
+      "payload": {
+        "id": "review-engineering-4",
+        "description": "Unmodified actual independent expert final response, decision, reasons and limitations",
+        "path": "/workspace/Mdaar21-new/docs/elite50/ad-remake-2026-10-28/reviews/engineering-4.json",
+        "sha256": "60255043b3e84687911facf6325c3845d1547b02a0218094a0496c3dbc8b0f04"
+      },
+      "previous_hash": "ed67d2ca5b7ce3f2e46430ee3252b97c7c893ed55b0108cee7ea4637a9d484e5",
+      "event_hash": "b2fcaa3c29d5a140c85edaf2ab50d57592b17d17ebad4a25147e973f2b8bcb85"
+    },
+    {
+      "seq": 90,
+      "timestamp": "2026-10-28T02:23:23.850832+00:00",
+      "kind": "evidence",
+      "payload": {
+        "id": "review-engineering-5",
+        "description": "Unmodified actual independent expert final response, decision, reasons and limitations",
+        "path": "/workspace/Mdaar21-new/docs/elite50/ad-remake-2026-10-28/reviews/engineering-5.json",
+        "sha256": "c522a437dc570e9306027d747290a622fc6b2c869b29737f4c454b1f20bb905c"
+      },
+      "previous_hash": "b2fcaa3c29d5a140c85edaf2ab50d57592b17d17ebad4a25147e973f2b8bcb85",
+      "event_hash": "2fca8ecc3e594f6f2aaabb495b33607c537f3716c35bf917cfd92a12cceeb02a"
+    },
+    {
+      "seq": 91,
+      "timestamp": "2026-10-28T02:23:23.889667+00:00",
+      "kind": "evidence",
+      "payload": {
+        "id": "review-creative-1",
+        "description": "Unmodified actual independent expert final response, decision, reasons and limitations",
+        "path": "/workspace/Mdaar21-new/docs/elite50/ad-remake-2026-10-28/reviews/creative-1.json",
+        "sha256": "c9f8abeb49a3739fc19286ef11d6ce51dc15f40f234e34c3e57fa4e7abdfa9bd"
+      },
+      "previous_hash": "2fca8ecc3e594f6f2aaabb495b33607c537f3716c35bf917cfd92a12cceeb02a",
+      "event_hash": "934d9cfd3e5c1133e55a19e5ef39463e2d3b404aa3d35f51d94dc93d6b8dd5b3"
+    },
+    {
+      "seq": 92,
+      "timestamp": "2026-10-28T02:23:23.932027+00:00",
+      "kind": "evidence",
+      "payload": {
+        "id": "review-creative-2",
+        "description": "Unmodified actual independent expert final response, decision, reasons and limitations",
+        "path": "/workspace/Mdaar21-new/docs/elite50/ad-remake-2026-10-28/reviews/creative-2.json",
+        "sha256": "169f17f097c1877c2a7eadc27c98f42273e145f7391427f21f5c9d77990a41fd"
+      },
+      "previous_hash": "934d9cfd3e5c1133e55a19e5ef39463e2d3b404aa3d35f51d94dc93d6b8dd5b3",
+      "event_hash": "2fca57796f7a2ff3098a15ccdbb54363d67b799308d1f7634637564b517dc40b"
+    },
+    {
+      "seq": 93,
+      "timestamp": "2026-10-28T02:23:23.984259+00:00",
+      "kind": "evidence",
+      "payload": {
+        "id": "review-creative-3",
+        "description": "Unmodified actual independent expert final response, decision, reasons and limitations",
+        "path": "/workspace/Mdaar21-new/docs/elite50/ad-remake-2026-10-28/reviews/creative-3.json",
+        "sha256": "88756adcaf9c8eab073a72fc8fd3b0d8affe102c7828f75ec306567dbf896183"
+      },
+      "previous_hash": "2fca57796f7a2ff3098a15ccdbb54363d67b799308d1f7634637564b517dc40b",
+      "event_hash": "3b5dc91e699881b15ea5fc5671fe7a147ef863c28f35ea9c41bd8675b3304265"
+    },
+    {
+      "seq": 94,
+      "timestamp": "2026-10-28T02:23:24.031489+00:00",
+      "kind": "evidence",
+      "payload": {
+        "id": "review-creative-4",
+        "description": "Unmodified actual independent expert final response, decision, reasons and limitations",
+        "path": "/workspace/Mdaar21-new/docs/elite50/ad-remake-2026-10-28/reviews/creative-4.json",
+        "sha256": "224d354c56f53821d000c5ada39b477e33f4431d714daef67f1d74b219b31ef9"
+      },
+      "previous_hash": "3b5dc91e699881b15ea5fc5671fe7a147ef863c28f35ea9c41bd8675b3304265",
+      "event_hash": "f7ee2174f8b313b923645207f48e50b65db12a642f28d656bab6db418a9da3b6"
+    },
+    {
+      "seq": 95,
+      "timestamp": "2026-10-28T02:23:24.069832+00:00",
+      "kind": "evidence",
+      "payload": {
+        "id": "review-creative-5",
+        "description": "Unmodified actual independent expert final response, decision, reasons and limitations",
+        "path": "/workspace/Mdaar21-new/docs/elite50/ad-remake-2026-10-28/reviews/creative-5.json",
+        "sha256": "02dd6474aa4f785e9119dce1e03b0bf33f2530689b21fbe998704e0f137517d9"
+      },
+      "previous_hash": "f7ee2174f8b313b923645207f48e50b65db12a642f28d656bab6db418a9da3b6",
+      "event_hash": "a464676658ce9202d94ca90333d1f819e6e08ab5a8a2cd9488c49d7b7df979ca"
+    },
+    {
+      "seq": 96,
+      "timestamp": "2026-10-28T02:23:24.111318+00:00",
+      "kind": "evidence",
+      "payload": {
+        "id": "review-ai-1",
+        "description": "Unmodified actual independent expert final response, decision, reasons and limitations",
+        "path": "/workspace/Mdaar21-new/docs/elite50/ad-remake-2026-10-28/reviews/ai-1.json",
+        "sha256": "12a6246e0df609d173476ac37fb2ff5d44abdcfb8d1e17a72d21cdc2d3beeec6"
+      },
+      "previous_hash": "a464676658ce9202d94ca90333d1f819e6e08ab5a8a2cd9488c49d7b7df979ca",
+      "event_hash": "68e85d07e3d386f15b7b87160e849302ffab1941d4641ddcf1d7161028d34f6a"
+    },
+    {
+      "seq": 97,
+      "timestamp": "2026-10-28T02:23:24.150324+00:00",
+      "kind": "evidence",
+      "payload": {
+        "id": "review-ai-2",
+        "description": "Unmodified actual independent expert final response, decision, reasons and limitations",
+        "path": "/workspace/Mdaar21-new/docs/elite50/ad-remake-2026-10-28/reviews/ai-2.json",
+        "sha256": "fe6c3b4c5f75dcd99cef04a072ab31b788f02b17919b09312614c429e1e62e1e"
+      },
+      "previous_hash": "68e85d07e3d386f15b7b87160e849302ffab1941d4641ddcf1d7161028d34f6a",
+      "event_hash": "cd851c55511f3ab71cc3748e4fa7e63c6392f0b863171727decbd0f410cae766"
+    },
+    {
+      "seq": 98,
+      "timestamp": "2026-10-28T02:23:24.192475+00:00",
+      "kind": "evidence",
+      "payload": {
+        "id": "review-ai-3",
+        "description": "Unmodified actual independent expert final response, decision, reasons and limitations",
+        "path": "/workspace/Mdaar21-new/docs/elite50/ad-remake-2026-10-28/reviews/ai-3.json",
+        "sha256": "d0f287935b2d74d487a29444bc25d687ffe4f9b0ff902635a51b74bc5a9891cf"
+      },
+      "previous_hash": "cd851c55511f3ab71cc3748e4fa7e63c6392f0b863171727decbd0f410cae766",
+      "event_hash": "4438f4bf2d147ddf2bfa674a3d13b1545c2cdc6bfaa0578b168309639a7a2058"
+    },
+    {
+      "seq": 99,
+      "timestamp": "2026-10-28T02:23:24.232057+00:00",
+      "kind": "evidence",
+      "payload": {
+        "id": "review-ai-4",
+        "description": "Unmodified actual independent expert final response, decision, reasons and limitations",
+        "path": "/workspace/Mdaar21-new/docs/elite50/ad-remake-2026-10-28/reviews/ai-4.json",
+        "sha256": "dd96429ef43015b9a60019911139feeee1f41ec86c21481a231c9ed970d6bde6"
+      },
+      "previous_hash": "4438f4bf2d147ddf2bfa674a3d13b1545c2cdc6bfaa0578b168309639a7a2058",
+      "event_hash": "51c79eedd79503e0dfd662ec6ac58bd08d15353af3818d00dd45478ebbee599e"
+    },
+    {
+      "seq": 100,
+      "timestamp": "2026-10-28T02:23:24.269566+00:00",
+      "kind": "evidence",
+      "payload": {
+        "id": "review-ai-5",
+        "description": "Unmodified actual independent expert final response, decision, reasons and limitations",
+        "path": "/workspace/Mdaar21-new/docs/elite50/ad-remake-2026-10-28/reviews/ai-5.json",
+        "sha256": "9c042c02959f7b6dfb88158efd5ea8fbb054c251e5a447816ed8880f9bf09717"
+      },
+      "previous_hash": "51c79eedd79503e0dfd662ec6ac58bd08d15353af3818d00dd45478ebbee599e",
+      "event_hash": "1a49c5a28f9ef0b181eb85f1f355c12d87e435ccb4f8a96a41f63717f64232ec"
+    },
+    {
+      "seq": 101,
+      "timestamp": "2026-10-28T02:23:24.310658+00:00",
+      "kind": "evidence",
+      "payload": {
+        "id": "review-commerce-1",
+        "description": "Unmodified actual independent expert final response, decision, reasons and limitations",
+        "path": "/workspace/Mdaar21-new/docs/elite50/ad-remake-2026-10-28/reviews/commerce-1.json",
+        "sha256": "d369d13e01c613c30d32d7fb3af71301aa07d939d8d0794487c676db5e319104"
+      },
+      "previous_hash": "1a49c5a28f9ef0b181eb85f1f355c12d87e435ccb4f8a96a41f63717f64232ec",
+      "event_hash": "2e8c56c641dcf5dafecff17e1f9eeadadcd6da931ea9f6c9aa6d6901a70f1e57"
+    },
+    {
+      "seq": 102,
+      "timestamp": "2026-10-28T02:23:24.352282+00:00",
+      "kind": "evidence",
+      "payload": {
+        "id": "review-commerce-2",
+        "description": "Unmodified actual independent expert final response, decision, reasons and limitations",
+        "path": "/workspace/Mdaar21-new/docs/elite50/ad-remake-2026-10-28/reviews/commerce-2.json",
+        "sha256": "bc7c3300e1cb2c1a7d06b518edc3e794020d425b6a9d833c8da70605b817bbbb"
+      },
+      "previous_hash": "2e8c56c641dcf5dafecff17e1f9eeadadcd6da931ea9f6c9aa6d6901a70f1e57",
+      "event_hash": "be8d29242a0227bd997e20f65bc7379349e83204f551f7b58b6943d5cc6989f7"
+    },
+    {
+      "seq": 103,
+      "timestamp": "2026-10-28T02:23:24.392621+00:00",
+      "kind": "evidence",
+      "payload": {
+        "id": "review-commerce-3",
+        "description": "Unmodified actual independent expert final response, decision, reasons and limitations",
+        "path": "/workspace/Mdaar21-new/docs/elite50/ad-remake-2026-10-28/reviews/commerce-3.json",
+        "sha256": "9bee303c85f12cd95cb6851e3c7cd9a766770dcab5858640e8af493f4322308a"
+      },
+      "previous_hash": "be8d29242a0227bd997e20f65bc7379349e83204f551f7b58b6943d5cc6989f7",
+      "event_hash": "c1b2de797fdf5f33fa9f103aa935709ffb5192dd97a552f38af120126d338c0a"
+    },
+    {
+      "seq": 104,
+      "timestamp": "2026-10-28T02:23:24.435414+00:00",
+      "kind": "evidence",
+      "payload": {
+        "id": "review-commerce-4",
+        "description": "Unmodified actual independent expert final response, decision, reasons and limitations",
+        "path": "/workspace/Mdaar21-new/docs/elite50/ad-remake-2026-10-28/reviews/commerce-4.json",
+        "sha256": "ec35ed798436248c9d912adfb2ef296163643e7666cbefcc2c2bffbb4f3ac9b1"
+      },
+      "previous_hash": "c1b2de797fdf5f33fa9f103aa935709ffb5192dd97a552f38af120126d338c0a",
+      "event_hash": "2a5fd4659eb50b1dbb4a6efa5371d03b30806873aadcea383e260f9fcd1a74a5"
+    },
+    {
+      "seq": 105,
+      "timestamp": "2026-10-28T02:23:24.503953+00:00",
+      "kind": "evidence",
+      "payload": {
+        "id": "review-commerce-5",
+        "description": "Unmodified actual independent expert final response, decision, reasons and limitations",
+        "path": "/workspace/Mdaar21-new/docs/elite50/ad-remake-2026-10-28/reviews/commerce-5.json",
+        "sha256": "12000bdd52646605551b5ecbf776989e7e58932c8623f36ec8972973af93d1fa"
+      },
+      "previous_hash": "2a5fd4659eb50b1dbb4a6efa5371d03b30806873aadcea383e260f9fcd1a74a5",
+      "event_hash": "5bff36405422ea92ddd1b4014f7eee6b078d744331567bb84abbcad4be89a0f5"
+    },
+    {
+      "seq": 106,
+      "timestamp": "2026-10-28T02:23:24.548640+00:00",
+      "kind": "evidence",
+      "payload": {
+        "id": "review-marketing-1",
+        "description": "Unmodified actual independent expert final response, decision, reasons and limitations",
+        "path": "/workspace/Mdaar21-new/docs/elite50/ad-remake-2026-10-28/reviews/marketing-1.json",
+        "sha256": "1a1feaa6421d3108f505c168e37f14bb9005dc2d8095788de5240a9eb8c5be62"
+      },
+      "previous_hash": "5bff36405422ea92ddd1b4014f7eee6b078d744331567bb84abbcad4be89a0f5",
+      "event_hash": "7703f58c82ecdaa8b3c06aa2a813a1f1056dad0303a834bd19f2c655b7f5329f"
+    },
+    {
+      "seq": 107,
+      "timestamp": "2026-10-28T02:23:24.596510+00:00",
+      "kind": "evidence",
+      "payload": {
+        "id": "review-marketing-2",
+        "description": "Unmodified actual independent expert final response, decision, reasons and limitations",
+        "path": "/workspace/Mdaar21-new/docs/elite50/ad-remake-2026-10-28/reviews/marketing-2.json",
+        "sha256": "930da69b27044b609037afbbc0013eb7dd0e25f4e58c54ba2160dbcf27be7e5c"
+      },
+      "previous_hash": "7703f58c82ecdaa8b3c06aa2a813a1f1056dad0303a834bd19f2c655b7f5329f",
+      "event_hash": "9b5c35d4c23a0006d0e2ebbcd75e175cf22084a696374bb8e2d774d6acf0d5f4"
+    },
+    {
+      "seq": 108,
+      "timestamp": "2026-10-28T02:23:24.637984+00:00",
+      "kind": "evidence",
+      "payload": {
+        "id": "review-marketing-3",
+        "description": "Unmodified actual independent expert final response, decision, reasons and limitations",
+        "path": "/workspace/Mdaar21-new/docs/elite50/ad-remake-2026-10-28/reviews/marketing-3.json",
+        "sha256": "00b548d1f8ceb86823340cd3c0e4e9d31e62c53b2915eae624bccf0f20cb0f08"
+      },
+      "previous_hash": "9b5c35d4c23a0006d0e2ebbcd75e175cf22084a696374bb8e2d774d6acf0d5f4",
+      "event_hash": "7318835be9e8066a47b3502962e1d110b44c00d7a3e11ec4d93468aff876a098"
+    },
+    {
+      "seq": 109,
+      "timestamp": "2026-10-28T02:23:24.677728+00:00",
+      "kind": "evidence",
+      "payload": {
+        "id": "review-marketing-4",
+        "description": "Unmodified actual independent expert final response, decision, reasons and limitations",
+        "path": "/workspace/Mdaar21-new/docs/elite50/ad-remake-2026-10-28/reviews/marketing-4.json",
+        "sha256": "fc41750b9c771be9117521d429f359e8d059c2ffa0c7d04452227303f2761aee"
+      },
+      "previous_hash": "7318835be9e8066a47b3502962e1d110b44c00d7a3e11ec4d93468aff876a098",
+      "event_hash": "cd55988860033f10c6b5644fc2a990414951c53a2783583ede9c37a1819d0cad"
+    },
+    {
+      "seq": 110,
+      "timestamp": "2026-10-28T02:23:24.716180+00:00",
+      "kind": "evidence",
+      "payload": {
+        "id": "review-marketing-5",
+        "description": "Unmodified actual independent expert final response, decision, reasons and limitations",
+        "path": "/workspace/Mdaar21-new/docs/elite50/ad-remake-2026-10-28/reviews/marketing-5.json",
+        "sha256": "0c8d2c8d264951d6adc71e44614ec3c4a2118d70c25e5a9eeac07cd30fb9fbb1"
+      },
+      "previous_hash": "cd55988860033f10c6b5644fc2a990414951c53a2783583ede9c37a1819d0cad",
+      "event_hash": "a7d2c6c8f36fc76cbe20e8b45031000fe00a23ed93f1a25a592324f408ab5692"
+    },
+    {
+      "seq": 111,
+      "timestamp": "2026-10-28T02:23:24.756648+00:00",
+      "kind": "evidence",
+      "payload": {
+        "id": "review-research-1",
+        "description": "Unmodified actual independent expert final response, decision, reasons and limitations",
+        "path": "/workspace/Mdaar21-new/docs/elite50/ad-remake-2026-10-28/reviews/research-1.json",
+        "sha256": "b9ad91d7640748c7778c0a3b96340c2a056ba2ec2108c8f84574c561e37bb0db"
+      },
+      "previous_hash": "a7d2c6c8f36fc76cbe20e8b45031000fe00a23ed93f1a25a592324f408ab5692",
+      "event_hash": "041bb3729e446ac390df21d4df9ad85c406861d9bf01595e7765e5c824378516"
+    },
+    {
+      "seq": 112,
+      "timestamp": "2026-10-28T02:23:24.793524+00:00",
+      "kind": "evidence",
+      "payload": {
+        "id": "review-research-2",
+        "description": "Unmodified actual independent expert final response, decision, reasons and limitations",
+        "path": "/workspace/Mdaar21-new/docs/elite50/ad-remake-2026-10-28/reviews/research-2.json",
+        "sha256": "1a8f23e9922aab3603a6d8031437785fa2fd5898286f4d5e5c4f9bf348c8df68"
+      },
+      "previous_hash": "041bb3729e446ac390df21d4df9ad85c406861d9bf01595e7765e5c824378516",
+      "event_hash": "4f33bdcd190b58b5e50ad978c448425f6d16519fb847a8086a68fbf89dcab7c0"
+    },
+    {
+      "seq": 113,
+      "timestamp": "2026-10-28T02:23:24.840109+00:00",
+      "kind": "evidence",
+      "payload": {
+        "id": "review-research-3",
+        "description": "Unmodified actual independent expert final response, decision, reasons and limitations",
+        "path": "/workspace/Mdaar21-new/docs/elite50/ad-remake-2026-10-28/reviews/research-3.json",
+        "sha256": "8efa1fe73e3a53bcc7fc2de751cbaae32613a56aa8b59eff9209b3f72b2e5d28"
+      },
+      "previous_hash": "4f33bdcd190b58b5e50ad978c448425f6d16519fb847a8086a68fbf89dcab7c0",
+      "event_hash": "0bd9d1640aa1770c8930e663c881d46d8e19b808421611ad8c1397e8b89e6453"
+    },
+    {
+      "seq": 114,
+      "timestamp": "2026-10-28T02:23:24.880306+00:00",
+      "kind": "evidence",
+      "payload": {
+        "id": "review-research-4",
+        "description": "Unmodified actual independent expert final response, decision, reasons and limitations",
+        "path": "/workspace/Mdaar21-new/docs/elite50/ad-remake-2026-10-28/reviews/research-4.json",
+        "sha256": "44e35bf209da92c0e1db038bcb7de6daaf9637769743bf41ce6449c4c8b3dea2"
+      },
+      "previous_hash": "0bd9d1640aa1770c8930e663c881d46d8e19b808421611ad8c1397e8b89e6453",
+      "event_hash": "41df07dc7360071949822d9d70327b63edb6fac1c3fc7585280f0a67dc52ca49"
+    },
+    {
+      "seq": 115,
+      "timestamp": "2026-10-28T02:23:24.920389+00:00",
+      "kind": "evidence",
+      "payload": {
+        "id": "review-research-5",
+        "description": "Unmodified actual independent expert final response, decision, reasons and limitations",
+        "path": "/workspace/Mdaar21-new/docs/elite50/ad-remake-2026-10-28/reviews/research-5.json",
+        "sha256": "1b0487026ded311e4cb8ff2f02a6c59c78540e854de578816f8ef0e4f392e7a6"
+      },
+      "previous_hash": "41df07dc7360071949822d9d70327b63edb6fac1c3fc7585280f0a67dc52ca49",
+      "event_hash": "e141ccf9a1ed88d4c0378704f46d22b9aa0a4d8afdb17c28f87c67ec32dcd397"
+    },
+    {
+      "seq": 116,
+      "timestamp": "2026-10-28T02:23:24.959033+00:00",
+      "kind": "evidence",
+      "payload": {
+        "id": "review-finance-legal-1",
+        "description": "Unmodified actual independent expert final response, decision, reasons and limitations",
+        "path": "/workspace/Mdaar21-new/docs/elite50/ad-remake-2026-10-28/reviews/finance-legal-1.json",
+        "sha256": "492a43aa0cee5c3d0f9d3aadfab0a1ac4f1dc3a8aedd06daba506bb38990f488"
+      },
+      "previous_hash": "e141ccf9a1ed88d4c0378704f46d22b9aa0a4d8afdb17c28f87c67ec32dcd397",
+      "event_hash": "b5f471fa2b1dbf982da9c43a59cbf0f4b3e239347d792e0b839a6307fbb86dab"
+    },
+    {
+      "seq": 117,
+      "timestamp": "2026-10-28T02:23:24.997981+00:00",
+      "kind": "evidence",
+      "payload": {
+        "id": "review-finance-legal-2",
+        "description": "Unmodified actual independent expert final response, decision, reasons and limitations",
+        "path": "/workspace/Mdaar21-new/docs/elite50/ad-remake-2026-10-28/reviews/finance-legal-2.json",
+        "sha256": "11dfba0997875086aa91c60248e1841f90a02c4141b0a295f4f5cd0e7c0da118"
+      },
+      "previous_hash": "b5f471fa2b1dbf982da9c43a59cbf0f4b3e239347d792e0b839a6307fbb86dab",
+      "event_hash": "e2a13b8c5c8de7b8fe55252015e4d49ab5cf6d22f19fea93cb86e823001e6213"
+    },
+    {
+      "seq": 118,
+      "timestamp": "2026-10-28T02:23:25.036657+00:00",
+      "kind": "evidence",
+      "payload": {
+        "id": "review-finance-legal-3",
+        "description": "Unmodified actual independent expert final response, decision, reasons and limitations",
+        "path": "/workspace/Mdaar21-new/docs/elite50/ad-remake-2026-10-28/reviews/finance-legal-3.json",
+        "sha256": "9c77a463fe296d1721e430b138f3dbbd1f5a57a84580229c81cc6a2f847a3267"
+      },
+      "previous_hash": "e2a13b8c5c8de7b8fe55252015e4d49ab5cf6d22f19fea93cb86e823001e6213",
+      "event_hash": "ddc16b041f2c0cce0550f4297262c95360d0532c96a87d054f5575bbf18fd46f"
+    },
+    {
+      "seq": 119,
+      "timestamp": "2026-10-28T02:23:25.093588+00:00",
+      "kind": "evidence",
+      "payload": {
+        "id": "review-finance-legal-4",
+        "description": "Unmodified actual independent expert final response, decision, reasons and limitations",
+        "path": "/workspace/Mdaar21-new/docs/elite50/ad-remake-2026-10-28/reviews/finance-legal-4.json",
+        "sha256": "a2e0d6ea5193976178159d13a5d8a998c418d891aa7ecba277e1300538ce0aef"
+      },
+      "previous_hash": "ddc16b041f2c0cce0550f4297262c95360d0532c96a87d054f5575bbf18fd46f",
+      "event_hash": "13da3f9e9bee2e430a4b6aa76d78f30cf1c9c3d10f3a00883ff00d48b39c0fcc"
+    },
+    {
+      "seq": 120,
+      "timestamp": "2026-10-28T02:23:25.132994+00:00",
+      "kind": "evidence",
+      "payload": {
+        "id": "review-finance-legal-5",
+        "description": "Unmodified actual independent expert final response, decision, reasons and limitations",
+        "path": "/workspace/Mdaar21-new/docs/elite50/ad-remake-2026-10-28/reviews/finance-legal-5.json",
+        "sha256": "1c63e62753a1538b6b004ed825808241c095f2b626e2e69cf8a15817e2ff9ae4"
+      },
+      "previous_hash": "13da3f9e9bee2e430a4b6aa76d78f30cf1c9c3d10f3a00883ff00d48b39c0fcc",
+      "event_hash": "655161c6019239af6ac82f91f1f5d8b53431a8db19fbd1e441f9c500f8c636fe"
+    },
+    {
+      "seq": 121,
+      "timestamp": "2026-10-28T02:23:25.174390+00:00",
+      "kind": "evidence",
+      "payload": {
+        "id": "review-quality-1",
+        "description": "Unmodified actual independent expert final response, decision, reasons and limitations",
+        "path": "/workspace/Mdaar21-new/docs/elite50/ad-remake-2026-10-28/reviews/quality-1.json",
+        "sha256": "cc7d51e4efbe9952e138119e5ca8f736cab5ba7c9b5bcc13cc7aa80e281b0e80"
+      },
+      "previous_hash": "655161c6019239af6ac82f91f1f5d8b53431a8db19fbd1e441f9c500f8c636fe",
+      "event_hash": "3349266e2017b929d350cf42f6c02f8d57e6123ab8c5e77f37e085c15b85ac91"
+    },
+    {
+      "seq": 122,
+      "timestamp": "2026-10-28T02:23:25.221641+00:00",
+      "kind": "evidence",
+      "payload": {
+        "id": "review-quality-2",
+        "description": "Unmodified actual independent expert final response, decision, reasons and limitations",
+        "path": "/workspace/Mdaar21-new/docs/elite50/ad-remake-2026-10-28/reviews/quality-2.json",
+        "sha256": "fd23eea97a78d2149398aaaeb179d004018fdd19a8d68a050f51f7264c55eed5"
+      },
+      "previous_hash": "3349266e2017b929d350cf42f6c02f8d57e6123ab8c5e77f37e085c15b85ac91",
+      "event_hash": "32c7c15f05dad7d2eae067cad2a2fee09233a14f1bb26995adc7e2c2fb626408"
+    },
+    {
+      "seq": 123,
+      "timestamp": "2026-10-28T02:23:25.287553+00:00",
+      "kind": "evidence",
+      "payload": {
+        "id": "review-quality-3",
+        "description": "Unmodified actual independent expert final response, decision, reasons and limitations",
+        "path": "/workspace/Mdaar21-new/docs/elite50/ad-remake-2026-10-28/reviews/quality-3.json",
+        "sha256": "0c0c48df5eaf420276d96ac0761858472aea105eb1c79bb254dc1ded322a7f3b"
+      },
+      "previous_hash": "32c7c15f05dad7d2eae067cad2a2fee09233a14f1bb26995adc7e2c2fb626408",
+      "event_hash": "b7bbfcf80c03e43619cf702832ab2df7806dfabf0dc6daea9f793c1dc17bb5b8"
+    },
+    {
+      "seq": 124,
+      "timestamp": "2026-10-28T02:23:25.333702+00:00",
+      "kind": "evidence",
+      "payload": {
+        "id": "review-quality-4",
+        "description": "Unmodified actual independent expert final response, decision, reasons and limitations",
+        "path": "/workspace/Mdaar21-new/docs/elite50/ad-remake-2026-10-28/reviews/quality-4.json",
+        "sha256": "de8feaa57c519cfb32fa0977f0189f725844302b31a7658cc1775fe596fdeb3f"
+      },
+      "previous_hash": "b7bbfcf80c03e43619cf702832ab2df7806dfabf0dc6daea9f793c1dc17bb5b8",
+      "event_hash": "30510e8ed6d2b652c67419ead692464153960c2e22ca6317d8f52024845d2407"
+    },
+    {
+      "seq": 125,
+      "timestamp": "2026-10-28T02:23:25.394412+00:00",
+      "kind": "evidence",
+      "payload": {
+        "id": "review-quality-5",
+        "description": "Unmodified actual independent expert final response, decision, reasons and limitations",
+        "path": "/workspace/Mdaar21-new/docs/elite50/ad-remake-2026-10-28/reviews/quality-5.json",
+        "sha256": "931ef853633f551c90612d5c35bd05a62350244872ea2d80060bc8a74c0f743f"
+      },
+      "previous_hash": "30510e8ed6d2b652c67419ead692464153960c2e22ca6317d8f52024845d2407",
+      "event_hash": "ddcfc7c36bd688d564d774d6b6d0e4b2bff1f4162313feb67a75331e2ab2af30"
+    },
+    {
+      "seq": 126,
+      "timestamp": "2026-10-28T02:23:25.438523+00:00",
+      "kind": "evidence",
+      "payload": {
+        "id": "review-innovation-1",
+        "description": "Unmodified actual independent expert final response, decision, reasons and limitations",
+        "path": "/workspace/Mdaar21-new/docs/elite50/ad-remake-2026-10-28/reviews/innovation-1.json",
+        "sha256": "1238abd8fd1e0e8f82f36d34125c153a1975d8c9c8c27597a9fd93554d76cd46"
+      },
+      "previous_hash": "ddcfc7c36bd688d564d774d6b6d0e4b2bff1f4162313feb67a75331e2ab2af30",
+      "event_hash": "70c85dbf8a0e7a600d7c94394d84fe7530ab89cc64ef896b525a40c184cf2fd1"
+    },
+    {
+      "seq": 127,
+      "timestamp": "2026-10-28T02:23:25.478934+00:00",
+      "kind": "evidence",
+      "payload": {
+        "id": "review-innovation-2",
+        "description": "Unmodified actual independent expert final response, decision, reasons and limitations",
+        "path": "/workspace/Mdaar21-new/docs/elite50/ad-remake-2026-10-28/reviews/innovation-2.json",
+        "sha256": "a17261a814155a11d04a4175574233e3c5ded4974d22a166f59c570c191ef497"
+      },
+      "previous_hash": "70c85dbf8a0e7a600d7c94394d84fe7530ab89cc64ef896b525a40c184cf2fd1",
+      "event_hash": "06bd46141cecbc0051c2e9ae34996e8e9e0f6490895992d04de87cd9344bedac"
+    },
+    {
+      "seq": 128,
+      "timestamp": "2026-10-28T02:23:25.520495+00:00",
+      "kind": "evidence",
+      "payload": {
+        "id": "review-innovation-3",
+        "description": "Unmodified actual independent expert final response, decision, reasons and limitations",
+        "path": "/workspace/Mdaar21-new/docs/elite50/ad-remake-2026-10-28/reviews/innovation-3.json",
+        "sha256": "4fabaa981378b6871175d3d0fe08df8489779ab0f22d715841033c1872885e68"
+      },
+      "previous_hash": "06bd46141cecbc0051c2e9ae34996e8e9e0f6490895992d04de87cd9344bedac",
+      "event_hash": "3e014f2dc901e1c37465544bc1ed7e9a0a864195d672be1c43ce15178d8694f6"
+    },
+    {
+      "seq": 129,
+      "timestamp": "2026-10-28T02:23:25.558737+00:00",
+      "kind": "evidence",
+      "payload": {
+        "id": "review-innovation-4",
+        "description": "Unmodified actual independent expert final response, decision, reasons and limitations",
+        "path": "/workspace/Mdaar21-new/docs/elite50/ad-remake-2026-10-28/reviews/innovation-4.json",
+        "sha256": "8a73aef4b7f74cba04e0dcfd64eb5f910d7c4be006aae1657366a0b8b98befb5"
+      },
+      "previous_hash": "3e014f2dc901e1c37465544bc1ed7e9a0a864195d672be1c43ce15178d8694f6",
+      "event_hash": "a159814987e8cef79fc8e21092290a4e32922d19c342533d68e33df9656b8c34"
+    },
+    {
+      "seq": 130,
+      "timestamp": "2026-10-28T02:23:25.603036+00:00",
+      "kind": "evidence",
+      "payload": {
+        "id": "review-innovation-5",
+        "description": "Unmodified actual independent expert final response, decision, reasons and limitations",
+        "path": "/workspace/Mdaar21-new/docs/elite50/ad-remake-2026-10-28/reviews/innovation-5.json",
+        "sha256": "63d256441162f683dd3b3e066f2ddc60383ffb9bd7445f60d6d163e80f8405cd"
+      },
+      "previous_hash": "a159814987e8cef79fc8e21092290a4e32922d19c342533d68e33df9656b8c34",
+      "event_hash": "6c1b56ecd89eeb7ab9e5338d11260bb5d7d6f376e9b88a42ea6c05a2bef85e6e"
+    },
+    {
+      "seq": 131,
+      "timestamp": "2026-10-28T02:23:25.649762+00:00",
+      "kind": "objection",
+      "payload": {
+        "expert": "marketing-4",
+        "reason": "Natural narration, speech/caption correspondence and absence of audible residual source background have no human listening evidence. This is an evidence gap, not an observed finding that the track sounds poor.",
+        "evidence": [
+          "review-marketing-4",
+          "review-research-2",
+          "actual-audio-edit-json",
+          "actual-voice-separation-json"
+        ],
+        "id": "perceptual-audio-verification",
+        "severity": "MEDIUM",
+        "version": "v12-final-1",
+        "digest": "6b6846706f12db961b678c585330dffd8222545cdd810412a320c4a6af22d553",
+        "runtime": "/root/premium_marketing_4"
+      },
+      "previous_hash": "6c1b56ecd89eeb7ab9e5338d11260bb5d7d6f376e9b88a42ea6c05a2bef85e6e",
+      "event_hash": "bb13c0635758270b2be653195911b581e6b6121661ca7dcd46fdec42b07c4e1a"
+    },
+    {
+      "seq": 132,
+      "timestamp": "2026-10-28T02:23:25.691878+00:00",
+      "kind": "evidence",
+      "payload": {
+        "id": "decision-summary",
+        "description": "Arithmetic from fifty actual reviewer responses; no simulated or changed verdicts",
+        "path": "/workspace/Mdaar21-new/docs/elite50/ad-remake-2026-10-28/decision-summary.json",
+        "sha256": "a5408b72b1a76f8f1ee9182f7f8c89ec3431b32e75ed08c12e80abd67043ce1a"
+      },
+      "previous_hash": "bb13c0635758270b2be653195911b581e6b6121661ca7dcd46fdec42b07c4e1a",
+      "event_hash": "ff63401b78774afd663076860b80eaa4870df132e89aab2de641a54716834111"
+    },
+    {
+      "seq": 133,
+      "timestamp": "2026-10-28T02:23:25.734534+00:00",
+      "kind": "evidence",
+      "payload": {
+        "id": "final-audit-complete",
+        "description": "Executed final fifty-context/version/hash audit with unresolved condition retained",
+        "path": "/workspace/Mdaar21-new/docs/elite50/ad-remake-2026-10-28/evidence/system-final-audit-complete.json",
+        "sha256": "41fe57fefaea23a4240d8316711263cdcee599bc28fed035b9dac2aa93575b6c"
+      },
+      "previous_hash": "ff63401b78774afd663076860b80eaa4870df132e89aab2de641a54716834111",
+      "event_hash": "a895ef8affc9b61339cb02b05993d6f4d6303b84b7401f85cfcd8b2ab4ae60df"
+    },
+    {
+      "seq": 134,
+      "timestamp": "2026-10-28T02:23:25.773239+00:00",
+      "kind": "stage",
+      "payload": {
+        "evidence": [
+          "final-audit-complete",
+          "decision-summary",
+          "actual-runtimes"
+        ],
+        "name": "final-audit",
+        "version": "v12-final-1",
+        "digest": "6b6846706f12db961b678c585330dffd8222545cdd810412a320c4a6af22d553"
+      },
+      "previous_hash": "a895ef8affc9b61339cb02b05993d6f4d6303b84b7401f85cfcd8b2ab4ae60df",
+      "event_hash": "3b708fc3720454322f951f737da48ae0166811a1ece9586dc5eef7fbdc523f14"
+    },
+    {
+      "seq": 135,
+      "timestamp": "2026-10-28T02:23:25.815690+00:00",
+      "kind": "vote",
+      "payload": {
+        "expert": "executive-1",
+        "reason": "The frozen deliverable substantially aligns with the owner's advertisement scope and has measurable delivery evidence. Encoded stills show the recognizable faceless premise, orderly Arabic menus and captions, actual product/app material and a legible held 15.99 SAR CTA. However, smooth natural narration and absence of residual music are explicit acceptance requirements; the supplied separation and audio reports expressly do not establish either perceptually. I cannot close overall production acceptance without that evidence.",
+        "evidence": [
+          "review-executive-1",
+          "frozen-candidate",
+          "actual-encoded-validation-json",
+          "actual-live-verification-json"
+        ],
+        "version": "v12-final-1",
+        "digest": "6b6846706f12db961b678c585330dffd8222545cdd810412a320c4a6af22d553",
+        "decision": "NEEDS_EVIDENCE",
+        "change_code": null,
+        "change_reason": null,
+        "runtime": "/root/final_executive_1"
+      },
+      "previous_hash": "3b708fc3720454322f951f737da48ae0166811a1ece9586dc5eef7fbdc523f14",
+      "event_hash": "1a26b0094db38674dbd9616aa01ad5a3e9031027ef5db92686690f3d4e1c29f0"
+    },
+    {
+      "seq": 136,
+      "timestamp": "2026-10-28T02:23:25.864603+00:00",
+      "kind": "vote",
+      "payload": {
+        "expert": "executive-2",
+        "reason": "The inspected visual and delivery evidence supports a strategically coherent ad: the familiar faceless problem premise leads to an early branded product, actual app examples, and a held price/CTA. However, smooth natural source narration and absence of music are explicit production requirements. Learned separation and technical audio records do not establish their perceptual satisfaction, and no human listening evidence is supplied. I cannot approve complete fulfillment while that material requirement remains unverified.",
+        "evidence": [
+          "review-executive-2",
+          "frozen-candidate",
+          "actual-encoded-validation-json",
+          "actual-live-verification-json"
+        ],
+        "version": "v12-final-1",
+        "digest": "6b6846706f12db961b678c585330dffd8222545cdd810412a320c4a6af22d553",
+        "decision": "NEEDS_EVIDENCE",
+        "change_code": null,
+        "change_reason": null,
+        "runtime": "/root/final_executive_2"
+      },
+      "previous_hash": "1a26b0094db38674dbd9616aa01ad5a3e9031027ef5db92686690f3d4e1c29f0",
+      "event_hash": "996e25017eb8a4d362b9418ebc1a21b5f291b69f91d11a7adb0d2a77893deaff"
+    },
+    {
+      "seq": 137,
+      "timestamp": "2026-10-28T02:23:25.907459+00:00",
+      "kind": "vote",
+      "payload": {
+        "expert": "executive-3",
+        "reason": "The production handoff is operationally credible and recoverable: the frozen MP4, downloadable player, retained final mix, source scripts, asset provenance and measured checks form a usable delivery package. However, smooth natural narration and absence of residual music are explicit completion conditions. The supplied separation record explicitly cannot establish either perceptual result, and no human listening evidence is available. I cannot mark the whole production request complete on technical audio measurements alone.",
+        "evidence": [
+          "review-executive-3",
+          "frozen-candidate",
+          "actual-encoded-validation-json",
+          "actual-live-verification-json"
+        ],
+        "version": "v12-final-1",
+        "digest": "6b6846706f12db961b678c585330dffd8222545cdd810412a320c4a6af22d553",
+        "decision": "NEEDS_EVIDENCE",
+        "change_code": null,
+        "change_reason": null,
+        "runtime": "/root/final_executive_3"
+      },
+      "previous_hash": "996e25017eb8a4d362b9418ebc1a21b5f291b69f91d11a7adb0d2a77893deaff",
+      "event_hash": "8dd6eb4a1023b30227eaa971afb5e625fc93e827514aac582619bcfba345174c"
+    },
+    {
+      "seq": 138,
+      "timestamp": "2026-10-28T02:23:25.947608+00:00",
+      "kind": "vote",
+      "payload": {
+        "expert": "executive-4",
+        "reason": "The inspected encoded images and supporting records cover the visual proposition, owner-supplied price, concrete product examples, held CTA and delivery requirements well. However, natural source narration and absence of music are explicit acceptance requirements. The inspected processing code and records establish no added music, no pitch/time changes and approximate learned vocal separation, but explicitly do not establish perceptual naturalness or complete music removal. Without an actual listening assessment, overall requirements acceptance remains incomplete; this is an evidence gap rather than an observed audio defect.",
+        "evidence": [
+          "review-executive-4",
+          "frozen-candidate",
+          "actual-encoded-validation-json",
+          "actual-live-verification-json"
+        ],
+        "version": "v12-final-1",
+        "digest": "6b6846706f12db961b678c585330dffd8222545cdd810412a320c4a6af22d553",
+        "decision": "NEEDS_EVIDENCE",
+        "change_code": null,
+        "change_reason": null,
+        "runtime": "/root/final_executive_4"
+      },
+      "previous_hash": "8dd6eb4a1023b30227eaa971afb5e625fc93e827514aac582619bcfba345174c",
+      "event_hash": "f22e398c0de8ee8fa5aee046b9960111db6f4d45e3a84bd74d92022ebaaddccc"
+    },
+    {
+      "seq": 139,
+      "timestamp": "2026-10-28T02:23:25.986927+00:00",
+      "kind": "vote",
+      "payload": {
+        "expert": "executive-5",
+        "reason": "The inspected frames and technical records substantially reduce visual, delivery and misleading-claim risk. However, smooth natural narration and absence of music are explicit production requirements. The learned separation record expressly cannot establish either perceptually, and no listening evidence is available. This leaves a material acceptance gap, rather than an observed audio defect.",
+        "evidence": [
+          "review-executive-5",
+          "frozen-candidate",
+          "actual-encoded-validation-json",
+          "actual-live-verification-json"
+        ],
+        "version": "v12-final-1",
+        "digest": "6b6846706f12db961b678c585330dffd8222545cdd810412a320c4a6af22d553",
+        "decision": "NEEDS_EVIDENCE",
+        "change_code": null,
+        "change_reason": null,
+        "runtime": "/root/final_executive_5"
+      },
+      "previous_hash": "f22e398c0de8ee8fa5aee046b9960111db6f4d45e3a84bd74d92022ebaaddccc",
+      "event_hash": "e919d71f479a94dbe7ec769b967b3183f32139ee05b8efa2fd8a6f7aba43796a"
+    },
+    {
+      "seq": 140,
+      "timestamp": "2026-10-28T02:23:26.026507+00:00",
+      "kind": "vote",
+      "payload": {
+        "expert": "engineering-1",
+        "reason": "Within the ad/player engineering scope, the frozen deliverable has an appropriate, maintainable structure and credible artifact-specific validation. Source composition, animation, audio preparation and static delivery are separated clearly. The encoded images inspected show the requested faceless premise, product and app examples, protected captions and held 15.99 SAR CTA. This is a technical approval, with the perceptual audio and broader process limits below; it does not certify every production requirement outside this role.",
+        "evidence": [
+          "review-engineering-1",
+          "frozen-candidate",
+          "actual-encoded-validation-json",
+          "actual-live-verification-json"
+        ],
+        "version": "v12-final-1",
+        "digest": "6b6846706f12db961b678c585330dffd8222545cdd810412a320c4a6af22d553",
+        "decision": "APPROVE",
+        "change_code": null,
+        "change_reason": null,
+        "runtime": "/root/final_engineering_1"
+      },
+      "previous_hash": "e919d71f479a94dbe7ec769b967b3183f32139ee05b8efa2fd8a6f7aba43796a",
+      "event_hash": "439ca30e4936bb41987af1bd04cf94506b094c5916bc1bc7e9c211aebfe47eab"
+    },
+    {
+      "seq": 141,
+      "timestamp": "2026-10-28T02:23:26.066541+00:00",
+      "kind": "vote",
+      "payload": {
+        "expert": "engineering-2",
+        "reason": "The responsive player, download delivery, caption presentation and encoded visual layout are supported by source inspection, encoded stills and recorded browser checks. I found no blocking frontend defect in that evidence. The overall production request nevertheless includes natural narration and no music: vocal separation is explicitly approximate, and no human listening evidence establishes either perceptual requirement. This is an evidence gap rather than a finding that the audio sounds bad.",
+        "evidence": [
+          "review-engineering-2",
+          "frozen-candidate",
+          "actual-encoded-validation-json",
+          "actual-live-verification-json"
+        ],
+        "version": "v12-final-1",
+        "digest": "6b6846706f12db961b678c585330dffd8222545cdd810412a320c4a6af22d553",
+        "decision": "NEEDS_EVIDENCE",
+        "change_code": null,
+        "change_reason": null,
+        "runtime": "/root/final_engineering_2"
+      },
+      "previous_hash": "439ca30e4936bb41987af1bd04cf94506b094c5916bc1bc7e9c211aebfe47eab",
+      "event_hash": "fff4155d643cf971b76093238bbc91eab635405a98635ae65b7f17ca664f7051"
+    },
+    {
+      "seq": 142,
+      "timestamp": "2026-10-28T02:23:26.109947+00:00",
+      "kind": "vote",
+      "payload": {
+        "expert": "engineering-3",
+        "reason": "Approved within the authorized ad/player engineering scope. The frozen artifact has credible encoded-format, delivery and playback evidence, and the player source provides a direct downloadable fallback without requiring an account or backend. My direct inspection of the encoded contact and handoff sheets supports the faceless premise, early product presence, app examples, protected captions and held price/CTA. This is not a perceptual audio certification.",
+        "evidence": [
+          "review-engineering-3",
+          "frozen-candidate",
+          "actual-encoded-validation-json",
+          "actual-live-verification-json"
+        ],
+        "version": "v12-final-1",
+        "digest": "6b6846706f12db961b678c585330dffd8222545cdd810412a320c4a6af22d553",
+        "decision": "APPROVE",
+        "change_code": null,
+        "change_reason": null,
+        "runtime": "/root/final_engineering_3"
+      },
+      "previous_hash": "fff4155d643cf971b76093238bbc91eab635405a98635ae65b7f17ca664f7051",
+      "event_hash": "8bedc6f209b12fcc46cf4a0b62e5df6cbc154af28a141bdf17b5d42d1a2698d0"
+    },
+    {
+      "seq": 143,
+      "timestamp": "2026-10-28T02:23:26.155523+00:00",
+      "kind": "vote",
+      "payload": {
+        "expert": "engineering-4",
+        "reason": "Artifact and advertised-data integrity are supported, and the inspected encoded stills show the requested character, product demonstration and held price/CTA. Full production acceptance remains unproven for the explicit natural-narration and no-music requirements: the source underwent learned vocal separation, while the supplied evidence explicitly lacks perceptual listening. This is an evidence gap, not an observed audible defect.",
+        "evidence": [
+          "review-engineering-4",
+          "frozen-candidate",
+          "actual-encoded-validation-json",
+          "actual-live-verification-json"
+        ],
+        "version": "v12-final-1",
+        "digest": "6b6846706f12db961b678c585330dffd8222545cdd810412a320c4a6af22d553",
+        "decision": "NEEDS_EVIDENCE",
+        "change_code": null,
+        "change_reason": null,
+        "runtime": "/root/final_engineering_4"
+      },
+      "previous_hash": "8bedc6f209b12fcc46cf4a0b62e5df6cbc154af28a141bdf17b5d42d1a2698d0",
+      "event_hash": "a8273c5c3d831abf63e5a7dd9482ff7c2118602d2bd938e200a49456c6559f8a"
+    },
+    {
+      "seq": 144,
+      "timestamp": "2026-10-28T02:23:26.206348+00:00",
+      "kind": "vote",
+      "payload": {
+        "expert": "engineering-5",
+        "reason": "The inspected static public player has a small, appropriate privilege surface and no observed scoped security blocker. Encoded visual samples and technical records support substantial completion. Full production approval remains unsupported because natural narration and absence of residual source music are explicit requirements, while the supplied learned-separation record explicitly does not establish either perceptual property.",
+        "evidence": [
+          "review-engineering-5",
+          "frozen-candidate",
+          "actual-encoded-validation-json",
+          "actual-live-verification-json"
+        ],
+        "version": "v12-final-1",
+        "digest": "6b6846706f12db961b678c585330dffd8222545cdd810412a320c4a6af22d553",
+        "decision": "NEEDS_EVIDENCE",
+        "change_code": null,
+        "change_reason": null,
+        "runtime": "/root/final_engineering_5"
+      },
+      "previous_hash": "a8273c5c3d831abf63e5a7dd9482ff7c2118602d2bd938e200a49456c6559f8a",
+      "event_hash": "5391e2eae23fcef76e68bb3121f89b5eaf844e8e48d13a4c6f160856dff3b5c8"
+    },
+    {
+      "seq": 145,
+      "timestamp": "2026-10-28T02:23:26.255308+00:00",
+      "kind": "vote",
+      "payload": {
+        "expert": "creative-1",
+        "reason": "Approved within art-direction scope: the frozen candidate has coherent black/gold/ivory identity, recognisable faceless character, usable original product assets, clear demonstrations and a settled CTA. The draft blocker involving sliced Arabic headings is corrected in the encoded samples and animation timing. No remaining blocking visual defect was found in the inspected evidence. This decision does not establish narration naturalness or perfect source-music removal.",
+        "evidence": [
+          "review-creative-1",
+          "frozen-candidate",
+          "actual-encoded-validation-json",
+          "actual-live-verification-json"
+        ],
+        "version": "v12-final-1",
+        "digest": "6b6846706f12db961b678c585330dffd8222545cdd810412a320c4a6af22d553",
+        "decision": "APPROVE",
+        "change_code": null,
+        "change_reason": null,
+        "runtime": "/root/premium_creative_1"
+      },
+      "previous_hash": "5391e2eae23fcef76e68bb3121f89b5eaf844e8e48d13a4c6f160856dff3b5c8",
+      "event_hash": "c90dc924cb55679cc6946321a64fbcf9245836e5beaf8ec8f9c8acab07684bbe"
+    },
+    {
+      "seq": 146,
+      "timestamp": "2026-10-28T02:23:26.303036+00:00",
+      "kind": "vote",
+      "payload": {
+        "expert": "creative-2",
+        "reason": "Approved within typography, spacing and interaction-state scope. The encoded samples show connected, unclipped Arabic headings, a consistent dark/cream/gold hierarchy, clearly separated feature rows, protected captions and an uncluttered price/CTA hold. The product and app are visibly demonstrated. This is a visual/UI approval, not certification of the unresolved perceptual audio requirements.",
+        "evidence": [
+          "review-creative-2",
+          "frozen-candidate",
+          "actual-encoded-validation-json",
+          "actual-live-verification-json"
+        ],
+        "version": "v12-final-1",
+        "digest": "6b6846706f12db961b678c585330dffd8222545cdd810412a320c4a6af22d553",
+        "decision": "APPROVE",
+        "change_code": null,
+        "change_reason": null,
+        "runtime": "/root/final_creative_2"
+      },
+      "previous_hash": "c90dc924cb55679cc6946321a64fbcf9245836e5beaf8ec8f9c8acab07684bbe",
+      "event_hash": "c70059a3f008c212d12078108fadd7df3a99e30b5800f5fac5f1e76ca63c8934"
+    },
+    {
+      "seq": 147,
+      "timestamp": "2026-10-28T02:23:26.350121+00:00",
+      "kind": "vote",
+      "payload": {
+        "expert": "creative-3",
+        "reason": "The inspected encoded images and player evidence support completion of the visual and download experience: a clear problem-to-product sequence, protected Arabic captions, real application examples, visible 15.99 SAR price and a held CTA. I cannot close the complete production request because the explicitly required smooth, natural narration and audible caption correspondence have no perceptual listening verification. This is an evidence gap, not an observed audio defect.",
+        "evidence": [
+          "review-creative-3",
+          "frozen-candidate",
+          "actual-encoded-validation-json",
+          "actual-live-verification-json"
+        ],
+        "version": "v12-final-1",
+        "digest": "6b6846706f12db961b678c585330dffd8222545cdd810412a320c4a6af22d553",
+        "decision": "NEEDS_EVIDENCE",
+        "change_code": null,
+        "change_reason": null,
+        "runtime": "/root/final_creative_3"
+      },
+      "previous_hash": "c70059a3f008c212d12078108fadd7df3a99e30b5800f5fac5f1e76ca63c8934",
+      "event_hash": "70acfcc12bb0fa86bab92e7fc283bd337f868ec42a4400ce8403719324d17f6a"
+    },
+    {
+      "seq": 148,
+      "timestamp": "2026-10-28T02:23:26.392493+00:00",
+      "kind": "vote",
+      "payload": {
+        "expert": "creative-4",
+        "reason": "The frozen candidate meets the motion-design criteria within the ad scope: recognizable white featureless character, restrained purposeful gestures, clear menu entrances, protected stationary captions, early anchored product reveal, deterministic timeline structure and a clean settled CTA. Encoded-image inspection and the inspected cadence/render records provide adequate evidence for this motion verdict. This is not a certification of perceived narration naturalness.",
+        "evidence": [
+          "review-creative-4",
+          "frozen-candidate",
+          "actual-encoded-validation-json",
+          "actual-live-verification-json"
+        ],
+        "version": "v12-final-1",
+        "digest": "6b6846706f12db961b678c585330dffd8222545cdd810412a320c4a6af22d553",
+        "decision": "APPROVE",
+        "change_code": null,
+        "change_reason": null,
+        "runtime": "/root/premium_creative_4"
+      },
+      "previous_hash": "70acfcc12bb0fa86bab92e7fc283bd337f868ec42a4400ce8403719324d17f6a",
+      "event_hash": "8bc67d1a333e6247d5046fe4cc1f0cb1f98884ef6373b988acb33d564e752cd8"
+    },
+    {
+      "seq": 149,
+      "timestamp": "2026-10-28T02:23:26.436104+00:00",
+      "kind": "vote",
+      "payload": {
+        "expert": "creative-5",
+        "reason": "Approved within the Brand Designer remit: inspected encoded samples show a coherent black/ivory/gold identity, consistent Arabic hierarchy, recognizable faceless character and preserved product identity. The closing samples give the brand, owner-specified 15.99 SAR and purchase direction a clear visual hierarchy. This is a visual-brand approval; it does not certify narration naturalness or complete music removal.",
+        "evidence": [
+          "review-creative-5",
+          "frozen-candidate",
+          "actual-encoded-validation-json",
+          "actual-live-verification-json"
+        ],
+        "version": "v12-final-1",
+        "digest": "6b6846706f12db961b678c585330dffd8222545cdd810412a320c4a6af22d553",
+        "decision": "APPROVE",
+        "change_code": null,
+        "change_reason": null,
+        "runtime": "/root/final_creative_5"
+      },
+      "previous_hash": "8bc67d1a333e6247d5046fe4cc1f0cb1f98884ef6373b988acb33d564e752cd8",
+      "event_hash": "c38f2273c58d4096679df705a114b66f7bceeba13b91ca461358da3a19d215c2"
+    },
+    {
+      "seq": 150,
+      "timestamp": "2026-10-28T02:23:26.483523+00:00",
+      "kind": "vote",
+      "payload": {
+        "expert": "ai-1",
+        "reason": "The frozen video has strong visual and technical delivery evidence, and the audio pipeline preserves source timing and pitch. However, its learned vocal separation has no perceptual validation. Smooth natural narration and absence of residual music are explicit production requirements that the inspected ASR, levels, transform identity test and encode correlation cannot establish. This is an evidence gap, not a finding that the audio sounds bad.",
+        "evidence": [
+          "review-ai-1",
+          "frozen-candidate",
+          "actual-encoded-validation-json",
+          "actual-live-verification-json"
+        ],
+        "version": "v12-final-1",
+        "digest": "6b6846706f12db961b678c585330dffd8222545cdd810412a320c4a6af22d553",
+        "decision": "NEEDS_EVIDENCE",
+        "change_code": null,
+        "change_reason": null,
+        "runtime": "/root/final_ai_1"
+      },
+      "previous_hash": "c38f2273c58d4096679df705a114b66f7bceeba13b91ca461358da3a19d215c2",
+      "event_hash": "561def3b20f365cd5860fe4694e933aba953049dc61cc13349e8ce55fa7c2e31"
+    },
+    {
+      "seq": 151,
+      "timestamp": "2026-10-28T02:23:26.528027+00:00",
+      "kind": "vote",
+      "payload": {
+        "expert": "ai-2",
+        "reason": "The inspected deliverable and production pipeline support the requested visual, encoding and delivery behavior. Agent boundaries are appropriately narrow in this review, and the local animation/audio sources expose reproducible stages rather than a deployed autonomous agent. However, the owner explicitly requires natural source narration and no music. The learned vocal separation report expressly does not establish either perceptual naturalness or perfect background removal, and no listening evidence is available. I cannot turn that acknowledged gap into an unconditional production approval. This context also cannot certify that fifty distinct actual final-review contexts have completed; the coordinator must retain orchestration records before claiming that requirement.",
+        "evidence": [
+          "review-ai-2",
+          "frozen-candidate",
+          "actual-encoded-validation-json",
+          "actual-live-verification-json"
+        ],
+        "version": "v12-final-1",
+        "digest": "6b6846706f12db961b678c585330dffd8222545cdd810412a320c4a6af22d553",
+        "decision": "NEEDS_EVIDENCE",
+        "change_code": null,
+        "change_reason": null,
+        "runtime": "/root/final_ai_2"
+      },
+      "previous_hash": "561def3b20f365cd5860fe4694e933aba953049dc61cc13349e8ce55fa7c2e31",
+      "event_hash": "abc80862db96ea530010632575e9a9473e968e04e646ae2a9a94435f5893f867"
+    },
+    {
+      "seq": 152,
+      "timestamp": "2026-10-28T02:23:26.570286+00:00",
+      "kind": "vote",
+      "payload": {
+        "expert": "ai-3",
+        "reason": "The inspected encoded stills and technical records substantiate a coherent production deliverable with real product examples, owner-directed pricing, protected Arabic captions and measured 1080x1920/60fps output. The data supports those specific properties, but cannot establish the requested natural narration or absence of residual music after learned vocal separation. That material acceptance gap prevents an unconditional production approval; it is not evidence that the audio is defective. No audience results exist, and none are needed to substantiate the production measurements.",
+        "evidence": [
+          "review-ai-3",
+          "frozen-candidate",
+          "actual-encoded-validation-json",
+          "actual-live-verification-json"
+        ],
+        "version": "v12-final-1",
+        "digest": "6b6846706f12db961b678c585330dffd8222545cdd810412a320c4a6af22d553",
+        "decision": "NEEDS_EVIDENCE",
+        "change_code": null,
+        "change_reason": null,
+        "runtime": "/root/final_ai_3"
+      },
+      "previous_hash": "abc80862db96ea530010632575e9a9473e968e04e646ae2a9a94435f5893f867",
+      "event_hash": "5557b36eaf0cf514fed7790dcc077f694b85053af1149708c5ddf6d46180def2"
+    },
+    {
+      "seq": 153,
+      "timestamp": "2026-10-28T02:23:26.619620+00:00",
+      "kind": "vote",
+      "payload": {
+        "expert": "ai-4",
+        "reason": "The inspected automation and encoded visual evidence support delivery of the revised ad, but the explicit natural-narration and no-music requirements remain perceptually unverified after learned vocal separation. This is an evidence gap, not a finding that the audio is defective.",
+        "evidence": [
+          "review-ai-4",
+          "frozen-candidate",
+          "actual-encoded-validation-json",
+          "actual-live-verification-json"
+        ],
+        "version": "v12-final-1",
+        "digest": "6b6846706f12db961b678c585330dffd8222545cdd810412a320c4a6af22d553",
+        "decision": "NEEDS_EVIDENCE",
+        "change_code": null,
+        "change_reason": null,
+        "runtime": "/root/final_ai_4"
+      },
+      "previous_hash": "5557b36eaf0cf514fed7790dcc077f694b85053af1149708c5ddf6d46180def2",
+      "event_hash": "7f4459dbfcc17d26b55ea776fd50e0cbbafb0eda6c769520ee40403a677d3679"
+    },
+    {
+      "seq": 154,
+      "timestamp": "2026-10-28T02:23:26.664019+00:00",
+      "kind": "vote",
+      "payload": {
+        "expert": "ai-5",
+        "reason": "The inspected local advertisement respects the relevant misuse and human-control boundaries, but the frozen production request includes natural source narration and no music. The recorded learned vocal separation explicitly cannot establish either perceptual naturalness or complete music removal. Without listening evidence, I cannot honestly approve those material requirements for the overall deliverable.",
+        "evidence": [
+          "review-ai-5",
+          "frozen-candidate",
+          "actual-encoded-validation-json",
+          "actual-live-verification-json"
+        ],
+        "version": "v12-final-1",
+        "digest": "6b6846706f12db961b678c585330dffd8222545cdd810412a320c4a6af22d553",
+        "decision": "NEEDS_EVIDENCE",
+        "change_code": null,
+        "change_reason": null,
+        "runtime": "/root/final_ai_5"
+      },
+      "previous_hash": "7f4459dbfcc17d26b55ea776fd50e0cbbafb0eda6c769520ee40403a677d3679",
+      "event_hash": "6a7647c24568ff37b458609704d99857b9eb383945d0044f64f2b5ef0f450089"
+    },
+    {
+      "seq": 155,
+      "timestamp": "2026-10-28T02:23:26.712508+00:00",
+      "kind": "vote",
+      "payload": {
+        "expert": "commerce-1",
+        "reason": "Approve within the commerce advertising scope: the encoded samples identify the actual digital product, distinguish the PDF from app recipes and tools, display the owner-authorized 15.99 SAR, and end with a stable product CTA and store address. Catalog quantity and training options match the inspected local data. The delivered MP4/player evidence supports the requested review and download handoff. This vote does not certify subjective narration quality or a functioning purchase/fulfillment journey.",
+        "evidence": [
+          "review-commerce-1",
+          "frozen-candidate",
+          "actual-encoded-validation-json",
+          "actual-live-verification-json"
+        ],
+        "version": "v12-final-1",
+        "digest": "6b6846706f12db961b678c585330dffd8222545cdd810412a320c4a6af22d553",
+        "decision": "APPROVE",
+        "change_code": null,
+        "change_reason": null,
+        "runtime": "/root/final_commerce_1"
+      },
+      "previous_hash": "6a7647c24568ff37b458609704d99857b9eb383945d0044f64f2b5ef0f450089",
+      "event_hash": "3c87ffceb5840713036ff1be0858ab3783ebf6c0fb16622658097f4671b3301c"
+    },
+    {
+      "seq": 156,
+      "timestamp": "2026-10-28T02:23:26.757316+00:00",
+      "kind": "vote",
+      "payload": {
+        "expert": "commerce-2",
+        "reason": "Approved within sales-ad scope: the encoded samples communicate a concrete bundle, demonstrate useful app functions, state the owner-authorized 15.99 SAR price, and hold a clear purchase instruction and store address. I found no blocking discrepancy between the inspected commercial claims and the available product evidence. This is not certification of checkout, fitness suitability, conversion performance, or the unassessed listening requirements.",
+        "evidence": [
+          "review-commerce-2",
+          "frozen-candidate",
+          "actual-encoded-validation-json",
+          "actual-live-verification-json"
+        ],
+        "version": "v12-final-1",
+        "digest": "6b6846706f12db961b678c585330dffd8222545cdd810412a320c4a6af22d553",
+        "decision": "APPROVE",
+        "change_code": null,
+        "change_reason": null,
+        "runtime": "/root/final_commerce_2"
+      },
+      "previous_hash": "3c87ffceb5840713036ff1be0858ab3783ebf6c0fb16622658097f4671b3301c",
+      "event_hash": "ba4b50e619b49ef13b9ef2ebd6e5600abcf48c1d146ca1b61cde064e5aa7ae51"
+    },
+    {
+      "seq": 157,
+      "timestamp": "2026-10-28T02:23:26.797911+00:00",
+      "kind": "vote",
+      "payload": {
+        "expert": "commerce-3",
+        "reason": "Approved within advertisement pricing and offer-presentation scope. The encoded closing frames visibly show the owner-authorized 15.99 SAR with the product, purchase CTA and store address. The offer describes actual 4/5-day programs and 500 app recipes, which I independently checked in local product data. No discount, fabricated reference price, urgency, savings, profitability or sales forecast is required or supported. Production evidence supports delivery completeness; subjective audio quality remains outside my verification capability.",
+        "evidence": [
+          "review-commerce-3",
+          "frozen-candidate",
+          "actual-encoded-validation-json",
+          "actual-live-verification-json"
+        ],
+        "version": "v12-final-1",
+        "digest": "6b6846706f12db961b678c585330dffd8222545cdd810412a320c4a6af22d553",
+        "decision": "APPROVE",
+        "change_code": null,
+        "change_reason": null,
+        "runtime": "/root/final_commerce_3"
+      },
+      "previous_hash": "ba4b50e619b49ef13b9ef2ebd6e5600abcf48c1d146ca1b61cde064e5aa7ae51",
+      "event_hash": "c85768169310abfebb78a4bfc068787c2b7498e55195b52767a6015edae3a300"
+    },
+    {
+      "seq": 158,
+      "timestamp": "2026-10-28T02:23:26.838463+00:00",
+      "kind": "vote",
+      "payload": {
+        "expert": "commerce-4",
+        "reason": "The price, offer presentation and downloadable deliverable are supported within advertisement scope. However, the complete production request explicitly requires natural narration and no music. The inspected separation report states that removal is approximate and that perceptual naturalness and perfect music removal are unestablished. Without listening evidence I cannot independently certify those requirements as satisfied. This evidence gap is unrelated to payment execution.",
+        "evidence": [
+          "review-commerce-4",
+          "frozen-candidate",
+          "actual-encoded-validation-json",
+          "actual-live-verification-json"
+        ],
+        "version": "v12-final-1",
+        "digest": "6b6846706f12db961b678c585330dffd8222545cdd810412a320c4a6af22d553",
+        "decision": "NEEDS_EVIDENCE",
+        "change_code": null,
+        "change_reason": null,
+        "runtime": "/root/final_commerce_4"
+      },
+      "previous_hash": "c85768169310abfebb78a4bfc068787c2b7498e55195b52767a6015edae3a300",
+      "event_hash": "b4c68c6e194cc03f22582b07599fe9e16b2717a1e0866ab47c094521b6713493"
+    },
+    {
+      "seq": 159,
+      "timestamp": "2026-10-28T02:23:26.879153+00:00",
+      "kind": "vote",
+      "payload": {
+        "expert": "commerce-5",
+        "reason": "Approve within customer-experience scope: the advertisement gives a concrete product identity, separates the PDF from app features, explains the main options and shows a clear price and destination. The delivered ad player provides usable file access. This is not certification of purchasing, fulfillment, support quality or perceptual audio quality.",
+        "evidence": [
+          "review-commerce-5",
+          "frozen-candidate",
+          "actual-encoded-validation-json",
+          "actual-live-verification-json"
+        ],
+        "version": "v12-final-1",
+        "digest": "6b6846706f12db961b678c585330dffd8222545cdd810412a320c4a6af22d553",
+        "decision": "APPROVE",
+        "change_code": null,
+        "change_reason": null,
+        "runtime": "/root/final_commerce_5"
+      },
+      "previous_hash": "b4c68c6e194cc03f22582b07599fe9e16b2717a1e0866ab47c094521b6713493",
+      "event_hash": "bc660bd22752a37203449994161e59e52497937f2b09f8cf5c2c49afc4da8466"
+    },
+    {
+      "seq": 160,
+      "timestamp": "2026-10-28T02:23:26.924020+00:00",
+      "kind": "vote",
+      "payload": {
+        "expert": "marketing-1",
+        "reason": "The inspected encoded frames support a coherent Arabic beginner-fitness offer: confusion, an early recognisable product, concrete app demonstrations, then an explicit 15.99 SAR CTA. Marketing production goals are substantially met. Final acceptance remains unproven for the mandatory natural source narration and no-music requirement: the inspected separation record explicitly provides no human listening and no guarantee of complete background removal. This is an evidence gap, not an observed audio defect or a demand for campaign performance results.",
+        "evidence": [
+          "review-marketing-1",
+          "frozen-candidate",
+          "actual-encoded-validation-json",
+          "actual-live-verification-json"
+        ],
+        "version": "v12-final-1",
+        "digest": "6b6846706f12db961b678c585330dffd8222545cdd810412a320c4a6af22d553",
+        "decision": "NEEDS_EVIDENCE",
+        "change_code": null,
+        "change_reason": null,
+        "runtime": "/root/final_marketing_1"
+      },
+      "previous_hash": "bc660bd22752a37203449994161e59e52497937f2b09f8cf5c2c49afc4da8466",
+      "event_hash": "c43b4e02ea4353a70ac43d977a2992a38ecc51ffe4660ae749541f7dfd4b2f0d"
+    },
+    {
+      "seq": 161,
+      "timestamp": "2026-10-28T02:23:26.966733+00:00",
+      "kind": "vote",
+      "payload": {
+        "expert": "marketing-2",
+        "reason": "The sampled encoded creative supports a coherent, production-ready advertising hypothesis: beginner uncertainty leads to a recognizable product, concrete app examples, and a held 15.99 SAR offer. I cannot give an unconditional production approval because smooth natural narration and absence of residual source music are explicit requirements, while the inspected evidence expressly lacks human listening. This is an audio acceptance evidence gap, not a request for a campaign or proof of commercial performance.",
+        "evidence": [
+          "review-marketing-2",
+          "frozen-candidate",
+          "actual-encoded-validation-json",
+          "actual-live-verification-json"
+        ],
+        "version": "v12-final-1",
+        "digest": "6b6846706f12db961b678c585330dffd8222545cdd810412a320c4a6af22d553",
+        "decision": "NEEDS_EVIDENCE",
+        "change_code": null,
+        "change_reason": null,
+        "runtime": "/root/final_marketing_2"
+      },
+      "previous_hash": "c43b4e02ea4353a70ac43d977a2992a38ecc51ffe4660ae749541f7dfd4b2f0d",
+      "event_hash": "020caec8c34132eace28115adf5efc28cb51912eb19aeb913b11eef7fdae2f3b"
+    },
+    {
+      "seq": 162,
+      "timestamp": "2026-10-28T02:23:27.013809+00:00",
+      "kind": "vote",
+      "payload": {
+        "expert": "marketing-3",
+        "reason": "Approved within the applicable semantic-content and video-delivery review scope. The encoded samples communicate the beginner's uncertainty, identify the product early, explain its training and nutrition tools, and end with a legible product, owner-supplied 15.99 SAR price, action and destination. The inspected captions and player copy support that meaning without adding an explicit outcome guarantee. Delivery reports support the requested format and downloadable player. This is not an acoustic sign-off: naturalness, intelligibility and complete absence of residual music remain unverified by listening.",
+        "evidence": [
+          "review-marketing-3",
+          "frozen-candidate",
+          "actual-encoded-validation-json",
+          "actual-live-verification-json"
+        ],
+        "version": "v12-final-1",
+        "digest": "6b6846706f12db961b678c585330dffd8222545cdd810412a320c4a6af22d553",
+        "decision": "APPROVE",
+        "change_code": null,
+        "change_reason": null,
+        "runtime": "/root/final_marketing_3"
+      },
+      "previous_hash": "020caec8c34132eace28115adf5efc28cb51912eb19aeb913b11eef7fdae2f3b",
+      "event_hash": "0729247ae5f8a387cd886bd046fec95b88868293d8de5e77c134fe1c2fe75fe7"
+    },
+    {
+      "seq": 163,
+      "timestamp": "2026-10-28T02:23:27.055593+00:00",
+      "kind": "vote",
+      "payload": {
+        "expert": "marketing-4",
+        "reason": "The inspected encoded frames support a coherent, recognizable faceless-character ad with clear product demonstrations, correct owner price, and a settled CTA. Factual visual claims are appropriately bounded. An unconditional finding that this production request is met remains unsupported because natural source narration and absence of audible music are explicit requirements, while the separated vocal track has had no perceptual listening review. This is an evidence gap, not a finding that the track sounds poor.",
+        "evidence": [
+          "review-marketing-4",
+          "frozen-candidate",
+          "actual-encoded-validation-json",
+          "actual-live-verification-json"
+        ],
+        "version": "v12-final-1",
+        "digest": "6b6846706f12db961b678c585330dffd8222545cdd810412a320c4a6af22d553",
+        "decision": "NEEDS_EVIDENCE",
+        "change_code": null,
+        "change_reason": null,
+        "runtime": "/root/premium_marketing_4"
+      },
+      "previous_hash": "0729247ae5f8a387cd886bd046fec95b88868293d8de5e77c134fe1c2fe75fe7",
+      "event_hash": "8bc0c803194fee506625982816ad6fec2196c6cc0edebcadd39d092b0ae854e7"
+    },
+    {
+      "seq": 164,
+      "timestamp": "2026-10-28T02:23:27.102166+00:00",
+      "kind": "vote",
+      "payload": {
+        "expert": "marketing-5",
+        "reason": "The inspected encoded frames and delivery records support a coherent product demonstration, explicit owner-supplied price, stable CTA and technically complete downloadable deliverable. I cannot certify the required natural narration and absence of residual music: the evidence explicitly lacks human listening after learned vocal separation. This is a production-evidence gap, not a claim that the audio is defective. Audience conversion data is not required for this production task and its absence is not a rejection reason.",
+        "evidence": [
+          "review-marketing-5",
+          "frozen-candidate",
+          "actual-encoded-validation-json",
+          "actual-live-verification-json"
+        ],
+        "version": "v12-final-1",
+        "digest": "6b6846706f12db961b678c585330dffd8222545cdd810412a320c4a6af22d553",
+        "decision": "NEEDS_EVIDENCE",
+        "change_code": null,
+        "change_reason": null,
+        "runtime": "/root/final_marketing_5"
+      },
+      "previous_hash": "8bc0c803194fee506625982816ad6fec2196c6cc0edebcadd39d092b0ae854e7",
+      "event_hash": "34dcf00f8768a8735ddd192ed8d46654446188a984afb963c0c0ed8e91adad95"
+    },
+    {
+      "seq": 165,
+      "timestamp": "2026-10-28T02:23:27.159379+00:00",
+      "kind": "vote",
+      "payload": {
+        "expert": "research-1",
+        "reason": "Primary product claims and frozen-file identity are well supported, and encoded stills support the requested visual structure. The production request also requires smooth natural narration and no music. No perceptual listening evidence is available, while the narration underwent learned vocal separation and editorial cuts. Technical reports cannot establish those required perceptual properties, so I cannot independently certify overall completion.",
+        "evidence": [
+          "review-research-1",
+          "frozen-candidate",
+          "actual-encoded-validation-json",
+          "actual-live-verification-json"
+        ],
+        "version": "v12-final-1",
+        "digest": "6b6846706f12db961b678c585330dffd8222545cdd810412a320c4a6af22d553",
+        "decision": "NEEDS_EVIDENCE",
+        "change_code": null,
+        "change_reason": null,
+        "runtime": "/root/final_research_1"
+      },
+      "previous_hash": "34dcf00f8768a8735ddd192ed8d46654446188a984afb963c0c0ed8e91adad95",
+      "event_hash": "5b53fc12139359b6bd77f0f8f835c694fa6d9eb38ffd7c1ad9f324adebb18c93"
+    },
+    {
+      "seq": 166,
+      "timestamp": "2026-10-28T02:23:27.237909+00:00",
+      "kind": "vote",
+      "payload": {
+        "expert": "research-2",
+        "reason": "Product claims and visible qualifications are supported, with the earlier PDF-link ambiguity resolved. Overall production acceptance still lacks perceptual evidence for two explicit requirements: smooth natural narration and absence of audible source music. No added music, unchanged pitch/speed, measured levels and ASR do not establish either requirement after learned vocal separation. This is an evidence gap, not an observed audio defect.",
+        "evidence": [
+          "review-research-2",
+          "frozen-candidate",
+          "actual-encoded-validation-json",
+          "actual-live-verification-json"
+        ],
+        "version": "v12-final-1",
+        "digest": "6b6846706f12db961b678c585330dffd8222545cdd810412a320c4a6af22d553",
+        "decision": "NEEDS_EVIDENCE",
+        "change_code": null,
+        "change_reason": null,
+        "runtime": "/root/premium_research_2"
+      },
+      "previous_hash": "5b53fc12139359b6bd77f0f8f835c694fa6d9eb38ffd7c1ad9f324adebb18c93",
+      "event_hash": "fe7872671618c778671ae56b7a39cc5bb16d1284f3f7ea19840d1a08e42de342"
+    },
+    {
+      "seq": 167,
+      "timestamp": "2026-10-28T02:23:27.282781+00:00",
+      "kind": "vote",
+      "payload": {
+        "expert": "research-3",
+        "reason": "The Arabic writing and sampled encoded presentation are clear, audience-appropriate and materially supported within this ad's scope. However, spoken clarity and the owner's explicit requirement for smooth, natural source narration remain unverified: I cannot listen, and the supplied automatic transcript contains substantial word substitutions. These substitutions do not prove an audible defect, but they prevent an unconditional verdict on the full production request.",
+        "evidence": [
+          "review-research-3",
+          "frozen-candidate",
+          "actual-encoded-validation-json",
+          "actual-live-verification-json"
+        ],
+        "version": "v12-final-1",
+        "digest": "6b6846706f12db961b678c585330dffd8222545cdd810412a320c4a6af22d553",
+        "decision": "NEEDS_EVIDENCE",
+        "change_code": null,
+        "change_reason": null,
+        "runtime": "/root/final_research_3"
+      },
+      "previous_hash": "fe7872671618c778671ae56b7a39cc5bb16d1284f3f7ea19840d1a08e42de342",
+      "event_hash": "3fde204445d07fd79845d8962784a50113544367fb60b6bd0243ee8864ddf43d"
+    },
+    {
+      "seq": 168,
+      "timestamp": "2026-10-28T02:23:27.327594+00:00",
+      "kind": "vote",
+      "payload": {
+        "expert": "research-4",
+        "reason": "The sampled encoded visuals and editorial structure are coherent, complete and consistent with the stated product premise. I found no confirmed copy or visual continuity error in the inspected evidence. Final acceptance still requires perceptual evidence for the explicitly requested natural narration and absence of music: the provided separation and ASR reports expressly do not establish these qualities.",
+        "evidence": [
+          "review-research-4",
+          "frozen-candidate",
+          "actual-encoded-validation-json",
+          "actual-live-verification-json"
+        ],
+        "version": "v12-final-1",
+        "digest": "6b6846706f12db961b678c585330dffd8222545cdd810412a320c4a6af22d553",
+        "decision": "NEEDS_EVIDENCE",
+        "change_code": null,
+        "change_reason": null,
+        "runtime": "/root/final_research_4"
+      },
+      "previous_hash": "3fde204445d07fd79845d8962784a50113544367fb60b6bd0243ee8864ddf43d",
+      "event_hash": "8376b40e987edf2e6384afdff2a05a0d49722b6d8f866ef69fabc2d73b7e2cad"
+    },
+    {
+      "seq": 169,
+      "timestamp": "2026-10-28T02:23:27.369517+00:00",
+      "kind": "vote",
+      "payload": {
+        "expert": "research-5",
+        "reason": "The inspected frames and primary app data support the ad's concrete product claims within the stated advertising scope. Overall completion remains unproved for the explicit natural narration/no-music requirements: learned vocal separation and technical measurements cannot establish perceptual naturalness or absence of audible residual music, and the supplied records explicitly report no human listening.",
+        "evidence": [
+          "review-research-5",
+          "frozen-candidate",
+          "actual-encoded-validation-json",
+          "actual-live-verification-json"
+        ],
+        "version": "v12-final-1",
+        "digest": "6b6846706f12db961b678c585330dffd8222545cdd810412a320c4a6af22d553",
+        "decision": "NEEDS_EVIDENCE",
+        "change_code": null,
+        "change_reason": null,
+        "runtime": "/root/final_research_5"
+      },
+      "previous_hash": "8376b40e987edf2e6384afdff2a05a0d49722b6d8f866ef69fabc2d73b7e2cad",
+      "event_hash": "7e3ce8231a7855c48166c69ebeebdb37ad113d9645318ff723e9ea897a59bf22"
+    },
+    {
+      "seq": 170,
+      "timestamp": "2026-10-28T02:23:27.409555+00:00",
+      "kind": "vote",
+      "payload": {
+        "expert": "finance-legal-1",
+        "reason": "No finance-specific blocker is demonstrated: the owner-authorized 15.99 SAR price appears clearly, production uses existing/local assets, and no sales or return claims are made. The frozen production request nevertheless explicitly requires natural source narration and no music. The supplied audio records expressly cannot establish perceptual naturalness or complete background-music removal; I cannot certify overall completion on those requirements without listening evidence.",
+        "evidence": [
+          "review-finance-legal-1",
+          "frozen-candidate",
+          "actual-encoded-validation-json",
+          "actual-live-verification-json"
+        ],
+        "version": "v12-final-1",
+        "digest": "6b6846706f12db961b678c585330dffd8222545cdd810412a320c4a6af22d553",
+        "decision": "NEEDS_EVIDENCE",
+        "change_code": null,
+        "change_reason": null,
+        "runtime": "/root/final_finance_legal_1"
+      },
+      "previous_hash": "7e3ce8231a7855c48166c69ebeebdb37ad113d9645318ff723e9ea897a59bf22",
+      "event_hash": "3a1a7d5444989632e5e4794e1d8a4c994ebef2b5bd5a944932f19ac510205b48"
+    },
+    {
+      "seq": 171,
+      "timestamp": "2026-10-28T02:23:27.455731+00:00",
+      "kind": "vote",
+      "payload": {
+        "expert": "finance-legal-2",
+        "reason": "Within this accountant review's authorized advertisement scope, the displayed owner-specified price and numerical product claims have a coherent audit trail, and the inspected encoded evidence presents the requested product, demonstrations and held CTA. Approval is limited to this expert's evidence assessment; it does not establish checkout pricing, legal status, sales results or perceptual audio quality.",
+        "evidence": [
+          "review-finance-legal-2",
+          "frozen-candidate",
+          "actual-encoded-validation-json",
+          "actual-live-verification-json"
+        ],
+        "version": "v12-final-1",
+        "digest": "6b6846706f12db961b678c585330dffd8222545cdd810412a320c4a6af22d553",
+        "decision": "APPROVE",
+        "change_code": null,
+        "change_reason": null,
+        "runtime": "/root/final_finance_legal_2"
+      },
+      "previous_hash": "3a1a7d5444989632e5e4794e1d8a4c994ebef2b5bd5a944932f19ac510205b48",
+      "event_hash": "47e41ece4e91014533cb7d4de7cfb5cb170d181c0e11db82fcd39c01becc2574"
+    },
+    {
+      "seq": 172,
+      "timestamp": "2026-10-28T02:23:27.498921+00:00",
+      "kind": "vote",
+      "payload": {
+        "expert": "finance-legal-3",
+        "reason": "The inspected price, feature presentation and qualified estimates fit the authorized advertisement scope, and I found no investment, sales or physique guarantee in the inspected frames or captions. Overall production sign-off remains unsupported for the explicit natural narration/no-music requirements: the separation report expressly identifies approximate removal and no human listening. This is an evidence gap, not a finding that the soundtrack fails.",
+        "evidence": [
+          "review-finance-legal-3",
+          "frozen-candidate",
+          "actual-encoded-validation-json",
+          "actual-live-verification-json"
+        ],
+        "version": "v12-final-1",
+        "digest": "6b6846706f12db961b678c585330dffd8222545cdd810412a320c4a6af22d553",
+        "decision": "NEEDS_EVIDENCE",
+        "change_code": null,
+        "change_reason": null,
+        "runtime": "/root/final_finance_legal_3"
+      },
+      "previous_hash": "47e41ece4e91014533cb7d4de7cfb5cb170d181c0e11db82fcd39c01becc2574",
+      "event_hash": "55817d382ec108cbb0e50eb4a504247571750fe357d1668beee9bb719bb58064"
+    },
+    {
+      "seq": 173,
+      "timestamp": "2026-10-28T02:23:27.542209+00:00",
+      "kind": "vote",
+      "payload": {
+        "expert": "finance-legal-4",
+        "reason": "Approve the frozen advertisement within the authorized production, permission and claim-review scope. The owner-supplied 15.99 SAR price is displayed clearly, factual feature claims have local product support, demonstrations are labeled, and inspected copy contains no explicit medical, physique or sales-performance guarantee. This is not a Saudi legal-compliance certificate or store verification.",
+        "evidence": [
+          "review-finance-legal-4",
+          "frozen-candidate",
+          "actual-encoded-validation-json",
+          "actual-live-verification-json"
+        ],
+        "version": "v12-final-1",
+        "digest": "6b6846706f12db961b678c585330dffd8222545cdd810412a320c4a6af22d553",
+        "decision": "APPROVE",
+        "change_code": null,
+        "change_reason": null,
+        "runtime": "/root/premium_finance_legal_4"
+      },
+      "previous_hash": "55817d382ec108cbb0e50eb4a504247571750fe357d1668beee9bb719bb58064",
+      "event_hash": "35e35239a877cea7cdd1c3ded2fedbc332e4cfaa52adf56654f9940fa2e9570e"
+    },
+    {
+      "seq": 174,
+      "timestamp": "2026-10-28T02:23:27.582226+00:00",
+      "kind": "vote",
+      "payload": {
+        "expert": "finance-legal-5",
+        "reason": "Approved within the Privacy Officer's authorized advertisement and downloadable-player scope. The inspected encoded stills and original demonstration screenshots show generic calculator results and recipe quantities, without identifiable customer records, account names, contact details or payment data. The public player serves media without forms, scripts, analytics or account entry. No privacy-specific defect blocks this frozen deliverable. This is a scope-limited production approval, not certification of the store, underlying app privacy program, formal legal rights or perceptual audio quality.",
+        "evidence": [
+          "review-finance-legal-5",
+          "frozen-candidate",
+          "actual-encoded-validation-json",
+          "actual-live-verification-json"
+        ],
+        "version": "v12-final-1",
+        "digest": "6b6846706f12db961b678c585330dffd8222545cdd810412a320c4a6af22d553",
+        "decision": "APPROVE",
+        "change_code": null,
+        "change_reason": null,
+        "runtime": "/root/final_finance_legal_5"
+      },
+      "previous_hash": "35e35239a877cea7cdd1c3ded2fedbc332e4cfaa52adf56654f9940fa2e9570e",
+      "event_hash": "1ffb8ecc401f8482acde80a9b1f4c261a65b72ae6b7ad8775d59d49c99496e47"
+    },
+    {
+      "seq": 175,
+      "timestamp": "2026-10-28T02:23:27.622790+00:00",
+      "kind": "vote",
+      "payload": {
+        "expert": "quality-1",
+        "reason": "The inspected encoded frames and reproducible technical records support the visual, format and player requirements. Full production acceptance remains unproved for two explicit audible requirements: natural source narration and absence of music after learned vocal separation. No listening evidence is available; loudness, ASR and master correlation cannot close that gap.",
+        "evidence": [
+          "review-quality-1",
+          "frozen-candidate",
+          "actual-encoded-validation-json",
+          "actual-live-verification-json"
+        ],
+        "version": "v12-final-1",
+        "digest": "6b6846706f12db961b678c585330dffd8222545cdd810412a320c4a6af22d553",
+        "decision": "NEEDS_EVIDENCE",
+        "change_code": null,
+        "change_reason": null,
+        "runtime": "/root/final_quality_1"
+      },
+      "previous_hash": "1ffb8ecc401f8482acde80a9b1f4c261a65b72ae6b7ad8775d59d49c99496e47",
+      "event_hash": "e1979de1ff05f2ce37b53d065feded82b3cc1d0711542e6292b655fb5a653896"
+    },
+    {
+      "seq": 176,
+      "timestamp": "2026-10-28T02:23:27.669028+00:00",
+      "kind": "vote",
+      "payload": {
+        "expert": "quality-2",
+        "reason": "The frozen deliverable meets the compatibility and responsive-delivery requirements evidenced here: a vertical 1080x1920, 60/1-fps MP4, a working downloadable player, and tested playback/seek states at narrow and desktop widths. This is a compatibility-scope approval, not certification of every browser, TikTok upload, or subjective audio naturalness.",
+        "evidence": [
+          "review-quality-2",
+          "frozen-candidate",
+          "actual-encoded-validation-json",
+          "actual-live-verification-json"
+        ],
+        "version": "v12-final-1",
+        "digest": "6b6846706f12db961b678c585330dffd8222545cdd810412a320c4a6af22d553",
+        "decision": "APPROVE",
+        "change_code": null,
+        "change_reason": null,
+        "runtime": "/root/final_quality_2"
+      },
+      "previous_hash": "e1979de1ff05f2ce37b53d065feded82b3cc1d0711542e6292b655fb5a653896",
+      "event_hash": "0f7e0c9aa48ed8393f24f8f5d089c6ed272f978f21d49875f0741c4570ea4ece"
+    },
+    {
+      "seq": 177,
+      "timestamp": "2026-10-28T02:23:27.721220+00:00",
+      "kind": "vote",
+      "payload": {
+        "expert": "quality-3",
+        "reason": "The frozen deliverable meets the technical performance and delivery criteria I can assess: measured 1080x1920 constant 60fps encoding, changing frames in the tested motion interval, clean decode, conservative audio peaks, compact fast-start delivery and verified player/download records. My approval is a technical production judgment; perceptual narration naturalness and complete removal of source music remain expressly unverified.",
+        "evidence": [
+          "review-quality-3",
+          "frozen-candidate",
+          "actual-encoded-validation-json",
+          "actual-live-verification-json"
+        ],
+        "version": "v12-final-1",
+        "digest": "6b6846706f12db961b678c585330dffd8222545cdd810412a320c4a6af22d553",
+        "decision": "APPROVE",
+        "change_code": null,
+        "change_reason": null,
+        "runtime": "/root/premium_quality_3"
+      },
+      "previous_hash": "0f7e0c9aa48ed8393f24f8f5d089c6ed272f978f21d49875f0741c4570ea4ece",
+      "event_hash": "6c670243eaaa46dd76a569f31dad40efb72000ae729e8cd07d96459d1a49aedd"
+    },
+    {
+      "seq": 178,
+      "timestamp": "2026-10-28T02:23:27.763910+00:00",
+      "kind": "vote",
+      "payload": {
+        "expert": "quality-4",
+        "reason": "The inspected encoded images, local player source and technical records support a polished, accessible ad deliverable within the authorized scope. No reproducible security defect is evidenced by these checks. Unconditional production approval still needs perceptual verification of two explicit owner requirements: natural source narration and no residual music after learned vocal separation. The supplied evidence explicitly cannot establish either; this is an evidence gap, not a claim that an audible defect exists.",
+        "evidence": [
+          "review-quality-4",
+          "frozen-candidate",
+          "actual-encoded-validation-json",
+          "actual-live-verification-json"
+        ],
+        "version": "v12-final-1",
+        "digest": "6b6846706f12db961b678c585330dffd8222545cdd810412a320c4a6af22d553",
+        "decision": "NEEDS_EVIDENCE",
+        "change_code": null,
+        "change_reason": null,
+        "runtime": "/root/final_quality_4"
+      },
+      "previous_hash": "6c670243eaaa46dd76a569f31dad40efb72000ae729e8cd07d96459d1a49aedd",
+      "event_hash": "640858e4fd879d42f3c6892d7ee7e93ff0175d14a3ab713fa9a1390a03ca067b"
+    },
+    {
+      "seq": 179,
+      "timestamp": "2026-10-28T02:23:27.809222+00:00",
+      "kind": "vote",
+      "payload": {
+        "expert": "quality-5",
+        "reason": "The frozen deliverable is technically ready for distribution and the inspected encoded frames support the requested visual structure. Full release acceptance remains unresolved because smooth, natural source narration and absence of audible music are explicit owner requirements, while the provided vocal-separation and editing evidence explicitly cannot establish those perceptual properties. This is an evidence gap, not a finding that the audio is defective.",
+        "evidence": [
+          "review-quality-5",
+          "frozen-candidate",
+          "actual-encoded-validation-json",
+          "actual-live-verification-json"
+        ],
+        "version": "v12-final-1",
+        "digest": "6b6846706f12db961b678c585330dffd8222545cdd810412a320c4a6af22d553",
+        "decision": "NEEDS_EVIDENCE",
+        "change_code": null,
+        "change_reason": null,
+        "runtime": "/root/final_quality_5"
+      },
+      "previous_hash": "640858e4fd879d42f3c6892d7ee7e93ff0175d14a3ab713fa9a1390a03ca067b",
+      "event_hash": "006e2041edae07be9a0e06e6aa2cec90a6a010724cc5a01f658bdd72d8532ffb"
+    },
+    {
+      "seq": 180,
+      "timestamp": "2026-10-28T02:23:27.858681+00:00",
+      "kind": "vote",
+      "payload": {
+        "expert": "innovation-1",
+        "reason": "The selected concept is distinct, feasible and substantially realized in the inspected encoded frames: the faceless trainee moves from conflicting advice to a product reference and concrete app examples. Alternatives are documented, and delivery records support technical execution. However, smooth natural narration and no music are explicit production requirements. Learned vocal separation and level measurements cannot establish audible naturalness or complete removal of the source background. That unresolved requirement prevents an unconditional production approval; it is an evidence gap, not an observed audio defect.",
+        "evidence": [
+          "review-innovation-1",
+          "frozen-candidate",
+          "actual-encoded-validation-json",
+          "actual-live-verification-json"
+        ],
+        "version": "v12-final-1",
+        "digest": "6b6846706f12db961b678c585330dffd8222545cdd810412a320c4a6af22d553",
+        "decision": "NEEDS_EVIDENCE",
+        "change_code": null,
+        "change_reason": null,
+        "runtime": "/root/final_innovation_1"
+      },
+      "previous_hash": "006e2041edae07be9a0e06e6aa2cec90a6a010724cc5a01f658bdd72d8532ffb",
+      "event_hash": "d947228d4f16f001b843ca2d6d51a99694711b552a8cb99fd0af6fe2074276d2"
+    },
+    {
+      "seq": 181,
+      "timestamp": "2026-10-28T02:23:27.906197+00:00",
+      "kind": "vote",
+      "payload": {
+        "expert": "innovation-2",
+        "reason": "The encoded visual samples support a coherent, differentiated owner-specific remake: faceless figure, Arabic choice menus, early cover reveal, actual-app examples and a stable price/CTA. No current competitor study supports a market superiority claim, and none is needed to satisfy this production brief. Overall production acceptance remains unverified because smooth natural narration and absence of audible source music require perceptual listening; the supplied records expressly lack it.",
+        "evidence": [
+          "review-innovation-2",
+          "frozen-candidate",
+          "actual-encoded-validation-json",
+          "actual-live-verification-json"
+        ],
+        "version": "v12-final-1",
+        "digest": "6b6846706f12db961b678c585330dffd8222545cdd810412a320c4a6af22d553",
+        "decision": "NEEDS_EVIDENCE",
+        "change_code": null,
+        "change_reason": null,
+        "runtime": "/root/final_innovation_2"
+      },
+      "previous_hash": "d947228d4f16f001b843ca2d6d51a99694711b552a8cb99fd0af6fe2074276d2",
+      "event_hash": "74856d3abf1ff63ae4074ddc6605782022d7b799788d675069ae567f87c673cd"
+    },
+    {
+      "seq": 182,
+      "timestamp": "2026-10-28T02:23:27.961860+00:00",
+      "kind": "vote",
+      "payload": {
+        "expert": "innovation-3",
+        "reason": "The inspected encoded stills and technical records support the requested visual production and delivery improvements. A material owner requirement remains unverified: whether the separated and edited source narration sounds smooth and natural and the finished track has no perceptible residual music. No human listening evidence exists. The absence of an audience study limits claims about comprehension and unmet needs, but is not itself a missing production deliverable.",
+        "evidence": [
+          "review-innovation-3",
+          "frozen-candidate",
+          "actual-encoded-validation-json",
+          "actual-live-verification-json"
+        ],
+        "version": "v12-final-1",
+        "digest": "6b6846706f12db961b678c585330dffd8222545cdd810412a320c4a6af22d553",
+        "decision": "NEEDS_EVIDENCE",
+        "change_code": null,
+        "change_reason": null,
+        "runtime": "/root/final_innovation_3"
+      },
+      "previous_hash": "74856d3abf1ff63ae4074ddc6605782022d7b799788d675069ae567f87c673cd",
+      "event_hash": "99f932d8eac1aafbd16ada2ccc04ffa00fc1ebaf4e874527272f0fba52fec3c6"
+    },
+    {
+      "seq": 183,
+      "timestamp": "2026-10-28T02:23:28.005534+00:00",
+      "kind": "vote",
+      "payload": {
+        "expert": "innovation-4",
+        "reason": "The production prioritization is coherent: preserve the faceless beginner premise, introduce the product in the first third, demonstrate practical use, then hold a simple priced CTA. The inspected encoded sheets support that visual/product direction. However, unconditional completion of the owner's production request also requires smooth natural source narration and no music. The separation report explicitly leaves perceptual naturalness and residual music unverified, and I cannot listen. This is a specific acceptance evidence gap, not a finding that the audio is defective. Lack of adoption or sales data does not block this production-only task.",
+        "evidence": [
+          "review-innovation-4",
+          "frozen-candidate",
+          "actual-encoded-validation-json",
+          "actual-live-verification-json"
+        ],
+        "version": "v12-final-1",
+        "digest": "6b6846706f12db961b678c585330dffd8222545cdd810412a320c4a6af22d553",
+        "decision": "NEEDS_EVIDENCE",
+        "change_code": null,
+        "change_reason": null,
+        "runtime": "/root/final_innovation_4"
+      },
+      "previous_hash": "99f932d8eac1aafbd16ada2ccc04ffa00fc1ebaf4e874527272f0fba52fec3c6",
+      "event_hash": "2f82680f3d77e1f658ea78a3cabcdb8e4fe826c3f2171ea003a81554bf77aa71"
+    },
+    {
+      "seq": 184,
+      "timestamp": "2026-10-28T02:23:28.049571+00:00",
+      "kind": "vote",
+      "payload": {
+        "expert": "innovation-5",
+        "reason": "The inspected encoded frames and implementation records support a coherent, polished faceless-character advertisement, an early product reveal, real-interface examples, Arabic captions and a held 15.99 SAR CTA. They do not establish the explicitly requested natural narration or absence of residual music after learned vocal separation. A final approval would infer a perceptual result from technical proxies that the reports themselves expressly disclaim.",
+        "evidence": [
+          "review-innovation-5",
+          "frozen-candidate",
+          "actual-encoded-validation-json",
+          "actual-live-verification-json"
+        ],
+        "version": "v12-final-1",
+        "digest": "6b6846706f12db961b678c585330dffd8222545cdd810412a320c4a6af22d553",
+        "decision": "NEEDS_EVIDENCE",
+        "change_code": null,
+        "change_reason": null,
+        "runtime": "/root/final_innovation_5"
+      },
+      "previous_hash": "2f82680f3d77e1f658ea78a3cabcdb8e4fe826c3f2171ea003a81554bf77aa71",
+      "event_hash": "65d2431582375911b89646a8964ae5224c6b40e65c56fe5dba73343f572ed74c"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "expert": "executive-3",
+  "version": "v12-final-1",
+  "digest": "6b6846706f12db961b678c585330dffd8222545cdd810412a320c4a6af22d553",
+  "decision": "NEEDS_EVIDENCE",
+  "reason": "The production handoff is operationally credible and recoverable: the frozen MP4, downloadable player, retained final mix, source scripts, asset provenance and measured checks form a usable delivery package. However, smooth natural narration and absence of residual music are explicit completion conditions. The supplied separation record explicitly cannot establish either perceptual result, and no human listening evidence is available. I cannot mark the whole production request complete on technical audio measurements alone.",
+  "evidence": [
+    {
+      "file": "creative/voice-ad-premium-v12/reports/encoded-contact.jpg",
+      "inspection": "Personally inspected the encoded frame sheet: recognizable blank-faced figure at 0/1.04/4.29s, product by 8.65s, actual app demonstrations at 18.55/22.775s, readable price 15.99 SAR and held CTA at 27.65/29.70s."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/reports/encoded-handoffs.jpg",
+      "inspection": "Personally inspected all seven groups of sampled transitions. Arabic headings leave and return around wipes; captions stay separate from primary product areas. These are sampled stills, not continuous playback."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/reports/encoded-validation.json; verify-encoded.py",
+      "inspection": "Inspected report and generating assertions: 1080x1920, 1788 frames over 29.8s, 60/1 frame rates, uniform PTS cadence, a 36-frame motion sample without identical neighbors, successful full decode and fast-start MP4. MP4 SHA256 matches candidate manifest entry 0d741b5bef0424be521ba9938e891d8a4f6163b7e075e4cab592f3f8f8ff3940. I did not rerun these tests."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/reports/live-verification.json; reports/player-browser.json; public/ad/premium/index.html",
+      "inspection": "Inspected deployment records and player source. Recorded HTTP 200 and local hash matches for five published assets, HTTP 206 range support, play/pause and seeking across four scenes at widths 320/390/1440, and three download links. Source has native controls, direct downloads and a mobile save instruction."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/README.md; package.json; SPEC.md",
+      "inspection": "Rebuild commands and pinned HyperFrames 0.8.189 are documented; final-mix.wav is retained for rendering without repeating source separation. Full audio recovery additionally requires source-vocals.wav or the external hash-identified ONNX model and owner source attachment."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/reports/audio-edit.json; reports/voice-separation.json; process-audio.py",
+      "inspection": "Inspected conservative cut mapping (source 8.69-10.65, 17.18-19.53, 20.00-41.70s), mild EQ, no pitch/time-stretch or synthesized narrator, nine timed SFX and no added music track. Separation is explicitly approximate and humanListening=false; master correlation and -19.11 LUFS/-3.01 dBTP do not close the perceptual gap."
+    },
+    {
+      "file": "docs/elite50/ad-remake-2026-10-28/evidence/claim-map.json",
+      "inspection": "Price comes from owner instruction; app screens, programs and recipe count have identified sources. Store price, checkout and fulfillment are explicitly outside scope."
+    }
+  ],
+  "strengths": [
+    "Delivery dependencies are explicit, asset identities are frozen, and retaining both rendered output and final audio master supports recovery.",
+    "Published player and downloads have concrete compatibility and byte-identity evidence.",
+    "Price authority and ad-only scope are clear; actual app examples are labeled as estimates."
+  ],
+  "issues": [
+    "A suitably qualified listener still needs to check the final encoded MP4, especially edits at 1.96s and 4.31s, for natural source narration, intelligible Arabic, distracting separation artifacts and residual music."
+  ],
+  "objections": [
+    "Do not label the full production request verified until the listening gap is resolved or the owner explicitly accepts that uncertainty."
+  ],
+  "limitations": [
+    "No human listening, continuous-video watching, fresh deployment probe or new processing job was performed in this review; image inspection is direct and test outcomes are inspected records.",
+    "I have not inspected other expert verdicts or established the final count of fifty actual independent contexts; the coordinator must provide that execution record separately.",
+    "The external separation model and attachment path limit full clean-machine audio rebuild portability; retained final mix makes ordinary video rerender feasible."
+  ],
+  "non_applicable_criteria": [
+    "Enterprise staffing, incident on-call schedules, purchasing authority and fulfillment recovery are outside this finite advertisement handoff.",
+    "This review does not certify sales performance, medical fitness, store checkout or formal legal status."
+  ]
+}

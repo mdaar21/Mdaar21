@@ -1,0 +1,66 @@
+{
+  "expert": "ai-5",
+  "version": "v12-final-1",
+  "digest": "6b6846706f12db961b678c585330dffd8222545cdd810412a320c4a6af22d553",
+  "decision": "NEEDS_EVIDENCE",
+  "reason": "The inspected local advertisement respects the relevant misuse and human-control boundaries, but the frozen production request includes natural source narration and no music. The recorded learned vocal separation explicitly cannot establish either perceptual naturalness or complete music removal. Without listening evidence, I cannot honestly approve those material requirements for the overall deliverable.",
+  "evidence": [
+    {
+      "file": "creative/voice-ad-premium-v12/reports/encoded-contact.jpg",
+      "inspection": "Viewed the actual encoded-frame sheet. The same blank-faced character premise is visible at 0.000/1.040/4.290 seconds; the product is plainly visible by 8.650 seconds; real calculator and recipe interfaces appear at 18.550/22.775 seconds. The 15.99 SAR CTA is held in sampled frames at 27.650 and 29.700 seconds."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/reports/encoded-handoffs.jpg",
+      "inspection": "Viewed the encoded handoff sheet. The 6.32–7.08 second samples corroborate the early product transition, and 25.32–26.08 second samples corroborate the transition to the closing price and CTA. These are sampled stills, not continuous playback."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/index.html",
+      "inspection": "Inspected calculator and recipe source labels: the calculator is an illustrative estimate dependent on user data, and nutrition values are explicitly estimates. These labels also appear below the interfaces in the encoded hero sheet, albeit at smaller type than the main headline."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/separate-voice.py; reports/voice-separation.json",
+      "inspection": "Inspected local CPU ONNX inference source and its recorded Kim_Vocal_2 model provenance/hash. Processing is bounded to the authorized uploaded source. The report records no synthesized voice, pitch shift or time stretch, humanListening=false, and expressly limits separation to an approximate vocal estimate."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/reports/audio-edit.json; captions.srt",
+      "inspection": "Read the three source edit ranges, conservative EQ, nine short SFX events, 3.79-second tail hold, musicTrackAdded=false and source-derived Arabic caption text. These records support process restraint; absence of an added music track does not demonstrate absence of residual source music."
+    },
+    {
+      "file": "public/ad/premium/index.html; creative/voice-ad-premium-v12/reports/player-browser.json",
+      "inspection": "Inspected native video controls, explicit downloadable files, restrictive CSP, no page script, and noopener/noreferrer on the external store link. The existing browser record reports working play/pause, seeking and downloads at widths 320/390/1440. This supports user control without an assistant or automatic transaction flow."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/reports/encoded-validation.json; reports/live-verification.json",
+      "inspection": "Existing records report 1080x1920, 60/1 fps, 1788 frames over 29.8 seconds, no decode warnings, and matching local/live MP4 SHA-256 0d741b5bef0424be521ba9938e891d8a4f6163b7e075e4cab592f3f8f8ff3940. I did not rerun these checks."
+    },
+    {
+      "file": "docs/elite50/ad-remake-2026-10-28/evidence/claim-map.json; creative/voice-ad-premium-v12/SPEC.md",
+      "inspection": "Read owner-supplied ad price, product-claim sources and scope exclusions. The inspected ad does not make a medical-precision or guaranteed-physique claim, and no store configuration change is presented as completed."
+    }
+  ],
+  "strengths": [
+    "The deliverable is a bounded static media/player artifact; the inspected material introduces no conversational prompt entry point, autonomous account operation, purchase execution or deployed-assistant change.",
+    "Illustrative estimates and real product demonstrations reduce the risk that the calculator example is mistaken for a personalized clinical promise.",
+    "The player preserves direct human control over playback, downloading and navigation; price and CTA are visible without artificial urgency in the inspected frames."
+  ],
+  "issues": [
+    {
+      "severity": "evidence_gap",
+      "requirement": "Smooth natural narration and no music",
+      "detail": "Human listening evidence is absent. Learned separation can leave background music or alter voice quality even when pitch, speed and synthesis are unchanged. A listening review of the final encoded audio, especially joins near 1.96 and 4.31 seconds, is needed to resolve this gap."
+    }
+  ],
+  "objections": [
+    "Do not equate musicTrackAdded=false, measured levels, ASR or high correlation with proof of music-free, natural-sounding output."
+  ],
+  "limitations": [
+    "I viewed both encoded sheets and inspected source/report records; I did not hear audio or watch uninterrupted video.",
+    "I did not independently rehash the frozen files, rerun encoding/browser checks or test live store fulfillment.",
+    "This is one independent expert verdict. I did not inspect other expert opinions and cannot certify the final count or consensus of fifty actual contexts.",
+    "Approval of ad scope would not certify sales performance, clinical suitability, legal status or underlying third-party model licensing."
+  ],
+  "non_applicable_criteria": [
+    "Deployed LLM jailbreak resistance, prompt-injection defense and model refusal behavior are non-applicable because this authorized scope is a fixed advertisement and script-free player, not a deployed assistant.",
+    "Autonomous agent tool permissions, account access and transaction safeguards are non-applicable to this static deliverable; no such behavior is present in the inspected player."
+  ]
+}

@@ -1,0 +1,11 @@
+renders/
+.hyperframes/
+__pycache__/
+reports/layout-review/
+reports/layout-fixed/
+reports/sequences/
+reports/encoded-frames/
+assets/source-vocals.wav
+assets/voice-before-eq.wav
+assets/voice-clean.wav
+assets/sfx-only.wav

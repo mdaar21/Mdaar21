@@ -1,0 +1,50 @@
+{
+  "task": "Independent final review of the revised MDAAR21 video against owner production requirements. The owner explicitly requested all fifty actual expert contexts. Review actual evidence, not other opinions.",
+  "version": "v12-final-1",
+  "digest": "6b6846706f12db961b678c585330dffd8222545cdd810412a320c4a6af22d553",
+  "frozenManifest": "/workspace/Mdaar21-new/docs/elite50/ad-remake-2026-10-28/candidate.json",
+  "project": "/workspace/Mdaar21-new/creative/voice-ad-premium-v12",
+  "video": "/workspace/Mdaar21-new/public/ad/premium/mdaar_tiktok_v12_premium.mp4",
+  "livePlayer": "https://mdaar21.github.io/Mdaar21/ad/premium/",
+  "liveVideo": "https://mdaar21.github.io/Mdaar21/ad/premium/mdaar_tiktok_v12_premium.mp4",
+  "requirements": [
+    "Same recognisable faceless character premise; significantly more polished motion, menus/lists, Arabic captions",
+    "Smooth natural source narration; avoid overprocessing/pitch changes",
+    "Price 15.99 SAR explicitly supplied by owner on 28 Oct 2026 Riyadh",
+    "No music; purposeful sound effects only",
+    "Earlier product reveal, readable protected text, real product/app demonstration, clean held CTA",
+    "Final 1080x1920 true 60fps deliverable with downloadable player link",
+    "50 actual independent agents; approvals cannot be fabricated or forced"
+  ],
+  "claimMap": "/workspace/Mdaar21-new/docs/elite50/ad-remake-2026-10-28/evidence/claim-map.json",
+  "evidence": [
+    "reports/encoded-contact.jpg",
+    "reports/encoded-handoffs.jpg",
+    "reports/source-browser.json",
+    "reports/check-final.json",
+    "reports/encoded-validation.json",
+    "reports/motion-playback.json",
+    "reports/motion-playback.webm",
+    "reports/audio-edit.json",
+    "reports/voice-separation.json",
+    "reports/edited-asr.json",
+    "reports/player-browser.json",
+    "reports/live-verification.json",
+    "captions.srt",
+    "DESIGN.md",
+    "SPEC.md",
+    "media-provenance.jsonl"
+  ],
+  "sharedSystemEvidence": "/workspace/Mdaar21-new/docs/elite50/ad-remake-2026-10-28/evidence",
+  "reviewRules": [
+    "Read your own .agents/skills/elite50/agents/experts/<expert>.md in repository; apply your criteria within ad scope and explicitly mark unrelated domain criteria non-applicable.",
+    "Use view_image to inspect encoded-contact.jpg and encoded-handoffs.jpg. Inspect relevant exact evidence/source; do not merely trust the packet.",
+    "Do not read other experts plans, responses or previous verdicts. Your own earlier plan may be used if this is your existing actual identity.",
+    "No source changes, outside messages/accounts/purchases, external attacks, new processing jobs or spawning agents. Write only reviews/<expert>.json under this audit project.",
+    "Return independent decision APPROVE/REJECT/NEEDS_EVIDENCE/ABSTAIN on whether this frozen deliverable meets the production request within authorized scope. Never force approval or ignore a real gap. Approval does not certify sales, medical fitness, store checkout or formal legal status.",
+    "No human listening capability is available. Technical level, ASR, source waveform and software playback are not proof of naturalness/intelligibility or perfect music removal. State any impact on your verdict.",
+    "Keep concise (~600-1000words maximum), Arabic or English. Fields: expert,version,digest,decision,reason,evidence,score(optional editorial/100),strengths,issues,limitations,non_applicable_criteria. Include precise relevant filenames/timestamps. Preserve uncertainty and contrary evidence.",
+    "Do not manufacture test results or claim you watched/heard continuous video. Your image inspection and inspected test records must be distinguished.",
+    "Return a final short message with decision, main unresolved issue if any, and your JSON path."
+  ]
+}

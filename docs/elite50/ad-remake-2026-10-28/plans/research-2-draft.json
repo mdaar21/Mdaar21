@@ -1,0 +1,47 @@
+{
+  "expert": "research-2",
+  "phase": "pre-freeze draft claims check",
+  "version": "draft-v1",
+  "final_vote_cast": false,
+  "reviewed": [
+    "creative/voice-ad-premium-v12/index.html",
+    "creative/voice-ad-premium-v12/captions.srt",
+    "creative/voice-ad-premium-v12/reports/book-links.json",
+    "creative/voice-ad-premium-v12/reports/scene-contact.jpg",
+    "docs/artifacts/mdaar-protocol-original-identity-v5.pdf"
+  ],
+  "findings": [
+    {
+      "claim": "روابط شرح التمارين داخل دليل PDF",
+      "assessment": "PDF-scoped wording resolves the earlier app-playback concern. Independently read the actual PDF annotations: 34 pages, 228 URL annotations total, 226 YouTube annotations, 43 distinct YouTube URLs. PDF SHA-256 matches report de78fbb1468cbd7cdb635649500476022f3bbf8e6cc7c242bd6f690db54c34d5.",
+      "limit": "Presence of third-party links is verified; current remote availability and technique quality are untested."
+    },
+    {
+      "claim": "٤ أيام أو ٥ أيام; ٥٠٠ وصفة في التطبيق",
+      "assessment": "Consistent with independently inspected current training-programs.json and 500 distinct recipe entries. Contact sheet places the recipe count in the app, without implying PDF recipe count."
+    },
+    {
+      "claim": "Calculator and portion demonstration",
+      "assessment": "Visible text explicitly labels the calculator example and estimated requirements, and labels app nutrition values as estimates. This is consistent with current source limits."
+    },
+    {
+      "claim": "15.99 ر.س",
+      "assessment": "Matches owner-supplied ad price. Contact-sheet CTA shows 15.99 ر.س and store domain; no discount or price-comparison claim observed. This does not prove live-store pricing."
+    },
+    {
+      "claim": "Outcome assurances",
+      "assessment": "No quantified physique result, transformation deadline, medical approval, or explicit guaranteed result appears in reviewed captions/HTML/contact sheet."
+    }
+  ],
+  "residual_checks_before_final": [
+    "Freeze the actual delivered render and digest; inspect relevant frames to confirm estimate/demo qualifications survive animation and remain legible.",
+    "Preserve the current PDF-scoped link wording; do not convert it into a claim of verified in-app technique-video playback.",
+    "Narration phrases بدون حيرة بدون تخمين and واعرف إنك ماشي صح express broad certainty. Keep the adjacent estimated-values qualification visible and avoid adding guaranteed or universally suitable result language."
+  ],
+  "objections": [],
+  "limitations": [
+    "Draft source and contact sheet only; this is not a final render approval.",
+    "No human listening, live storefront verification, external-link playback validation, medical validation or measured performance evaluation.",
+    "Unrelated software infrastructure, payment settings and security changes are non-applicable to this claims check."
+  ]
+}

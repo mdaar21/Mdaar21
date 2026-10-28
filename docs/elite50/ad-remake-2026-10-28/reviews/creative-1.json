@@ -1,0 +1,75 @@
+{
+  "expert": "creative-1",
+  "version": "v12-final-1",
+  "digest": "6b6846706f12db961b678c585330dffd8222545cdd810412a320c4a6af22d553",
+  "decision": "APPROVE",
+  "reason": "Approved within art-direction scope: the frozen candidate has coherent black/gold/ivory identity, recognisable faceless character, usable original product assets, clear demonstrations and a settled CTA. The draft blocker involving sliced Arabic headings is corrected in the encoded samples and animation timing. No remaining blocking visual defect was found in the inspected evidence. This decision does not establish narration naturalness or perfect source-music removal.",
+  "evidence": [
+    {
+      "type": "direct_image_inspection",
+      "file": "creative/voice-ad-premium-v12/reports/encoded-contact.jpg",
+      "finding": "Inspected all ten encoded scene/ending samples. Typography, warm gold accents and original covers form a consistent hierarchy; the white figure remains featureless. Product reveal is visible in the opening quarter; calculator and portion-change scenes communicate concrete uses."
+    },
+    {
+      "type": "direct_image_inspection",
+      "file": "creative/voice-ad-premium-v12/reports/encoded-handoffs.jpg",
+      "finding": "Inspected 35 encoded transition samples. Outgoing headings now disappear before the scene wipe crosses their area; incoming headings enter after the reveal. Separate captions remain complete in the supplied samples."
+    },
+    {
+      "type": "direct_full_resolution_image_inspection",
+      "files": [
+        "creative/voice-ad-premium-v12/reports/encoded-frames/cut-0-1.jpg",
+        "creative/voice-ad-premium-v12/reports/encoded-frames/cut-2-1.jpg",
+        "creative/voice-ad-premium-v12/reports/encoded-frames/hero-3.jpg",
+        "creative/voice-ad-premium-v12/reports/encoded-frames/hero-7.jpg",
+        "creative/voice-ad-premium-v12/reports/encoded-frames/hero-9.jpg"
+      ],
+      "finding": "At 2.08s and 10.80s the previously sliced headings are absent rather than fragmented. At 8.65s the light-scene figure has a continuous warm outline and readable silhouette at full resolution. At 22.775s the portion change, demonstration label and estimate disclosure are legible. At 29.70s price 15.99 ر.س, product CTA and store URL are complete and unobstructed."
+    },
+    {
+      "type": "source_inspection",
+      "file": "creative/voice-ad-premium-v12/animate.js",
+      "finding": "For wipes, outgoing headings exit over 0.10s before clipping advances at T+0.12s; incoming headings start at scene start+0.36s, after reveal completion. CTA entry finishes before 26.35s. This supports the encoded sampled correction."
+    },
+    {
+      "type": "inspected_test_record",
+      "files": [
+        "creative/voice-ad-premium-v12/reports/source-browser.json",
+        "creative/voice-ad-premium-v12/reports/check-final.json",
+        "creative/voice-ad-premium-v12/reports/encoded-validation.json",
+        "creative/voice-ad-premium-v12/reports/motion-playback.json"
+      ],
+      "finding": "Records report a 3.45s settled ending, safe caption bounds, zero layout/runtime errors, 1080x1920 output, 1788 frames at 60/1 with nonduplicate sampled moving frames, and successful continuous browser execution. These are software records, not my continuous perceptual viewing."
+    },
+    {
+      "type": "asset_and_delivery_evidence",
+      "files": [
+        "creative/voice-ad-premium-v12/media-provenance.jsonl",
+        "creative/voice-ad-premium-v12/reports/live-verification.json",
+        "docs/elite50/ad-remake-2026-10-28/candidate.json"
+      ],
+      "finding": "Provenance records retained brand/product/font assets and actual app demonstrations. Delivery report records HTTP 200 and matching local/live MP4 hashes. Independently computed local MP4 SHA-256 is 0d741b5bef0424be521ba9938e891d8a4f6163b7e075e4cab592f3f8f8ff3940, matching the frozen manifest and encoded validation."
+    }
+  ],
+  "strengths": [
+    "The story progresses clearly from conflicting choices to the product and useful demonstrations.",
+    "Readable Arabic captions have their own protected layer; original product art is undistorted.",
+    "The ending uses a clean held composition with explicit price and purchase direction."
+  ],
+  "issues": [
+    {
+      "severity": "non-blocking",
+      "finding": "The light-scene figure has weaker contrast than its dark-scene counterpart. Full-resolution inspection confirms an intact contour and recognisable gesture, so this remains a polish preference rather than a usability blocker."
+    }
+  ],
+  "objections": [],
+  "limitations": [
+    "I inspected encoded stills/contact sheets, full-resolution frames, source and test records; I did not watch or hear continuous video.",
+    "No human listening capability is available. The inspected audio-edit.json records unchanged pitch/speed and no added music, but those facts do not prove naturalness, intelligibility or complete source-music removal. Art-direction approval therefore does not certify those perceptual audio requirements.",
+    "Still sampling and software checks do not establish every intermediate frame or measured audience response."
+  ],
+  "non_applicable_criteria": [
+    "Store administration, checkout/delivery behavior, medical precision, guaranteed body outcomes, infrastructure security and formal legal clearance are outside this art-direction review.",
+    "Editorial approval does not establish sales performance."
+  ]
+}

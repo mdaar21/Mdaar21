@@ -1,0 +1,57 @@
+{
+  "expert": "ai-3",
+  "version": "v12-final-1",
+  "digest": "6b6846706f12db961b678c585330dffd8222545cdd810412a320c4a6af22d553",
+  "decision": "NEEDS_EVIDENCE",
+  "reason": "The inspected encoded stills and technical records substantiate a coherent production deliverable with real product examples, owner-directed pricing, protected Arabic captions and measured 1080x1920/60fps output. The data supports those specific properties, but cannot establish the requested natural narration or absence of residual music after learned vocal separation. That material acceptance gap prevents an unconditional production approval; it is not evidence that the audio is defective. No audience results exist, and none are needed to substantiate the production measurements.",
+  "evidence": [
+    {
+      "file": "creative/voice-ad-premium-v12/reports/encoded-contact.jpg",
+      "inspection": "Personally inspected through view_image. At 0.000/1.040s the blank-faced character and opening Arabic question are clear; 4.290s shows structured alternatives; 8.650s shows the book; 15.700s shows four/five-day programs; 18.550s the calculator; 22.775s the recipe UI; 27.650/29.700s show the same clean CTA and 15.99 SAR. These are still observations, not continuous playback."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/reports/encoded-handoffs.jpg",
+      "inspection": "Personally inspected through view_image. Samples at 6.32-7.08s show the book-led transition, 14.17-14.93s the warm-to-dark program transition, 19.87-20.63s the calculator-to-recipe handoff, and 25.32-26.08s the ending dissolve. The sampled captions remain separately positioned."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/reports/encoded-validation.json; creative/voice-ad-premium-v12/verify-encoded.py",
+      "inspection": "Read report and measurement implementation without rerunning them. Report records 1788 frames over 29.8s, 60/1 rate, maximum timestamp cadence error 0.000000667s, clean decode, and final-video SHA256 0d741b5bef0424be521ba9938e891d8a4f6163b7e075e4cab592f3f8f8ff3940 matching candidate.json. All timestamps are checked, but adjacent nonduplicate content is tested only in a 0.6s moving crop beginning at 0.35s. Audio/master correlation 0.999984 establishes encoding fidelity to the processed mix, not fidelity to natural source speech."
+    },
+    {
+      "file": "docs/elite50/ad-remake-2026-10-28/evidence/baseline-source.json; evidence/baseline-probe.json",
+      "inspection": "Baseline source is identified by SHA256 b9cd6deaafe9d94695c36554cc73b73eb86e2789febe1f9685683c8e5054a0c2. Its recorded 510x1108, approximately 30fps, 42.836667s properties support objective resolution/cadence/duration comparison. The source filename smooth_60fps.mp4 is not reliable evidence of its actual frame rate."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/reports/audio-edit.json; reports/voice-separation.json; reports/edited-asr.json; captions.srt",
+      "inspection": "Cuts preserve three source ranges without reported pitch change or time stretch; nine short effects are listed and no music track is added. Separation is explicitly an approximate Kim_Vocal_2 estimate without human listening. Encoded level is approximately -19.11 LUFS/-3.01 dBTP. ASR at 0-4.16s contains mistranscriptions relative to corrected captions; this demonstrates uncertainty in transcription, not an established listening failure."
+    },
+    {
+      "file": "docs/elite50/ad-remake-2026-10-28/evidence/claim-map.json; public/data/recipes-calculated.json; public/data/training-programs.json",
+      "inspection": "Claim map distinguishes 500 app entries from PDF content and labels nutrition estimates. Inspected recipe cut-01 has 309.25 kcal, 23.01g protein, 45.73g carbohydrate and 4.65g fat; dataset status explicitly excludes medical approval. Program source contains four/five training-day structures and a pending qualified-professional review. The illustrated calculator example is plausible arithmetic, not clinical validation. I did not independently recount every recipe or validate every nutrient value."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/reports/check-final.json; reports/source-browser.json; reports/motion-playback.json; reports/player-browser.json; reports/live-verification.json",
+      "inspection": "Source records check 14 caption bounds and 33 sampled contrast checks; CTA settles by 26.35s with 3.45s hold. Continuous browser record reports median 16.7ms/p95 16.8ms RAF intervals. Player records cover 320/390/1440 widths; live record reports matching video hash, HTTP 200 and range 206. These are inspected software records, not my live tests."
+    }
+  ],
+  "strengths": [
+    "Traceable frozen asset identities, source-to-output cut map and explicit measurement methods.",
+    "Production measurements are kept separate from commercial or clinical outcomes.",
+    "Actual encoded stills corroborate the principal product, captions, pricing and CTA claims."
+  ],
+  "issues": [
+    "Naturalness, edit-boundary intelligibility and residual music require perceptual verification of the final encoded audio, particularly joins at 1.96s and 4.31s. Neither loudness nor correlation nor ASR closes that gap.",
+    "The 36-frame moving-crop sample is local evidence against duplicate-frame upsampling; it cannot establish perceptual smoothness throughout every scene.",
+    "check-final.json has motion checking disabled and one duplicate-media discovery warning; other recorded checks partly address motion, so its overall ok flag should not be presented as exhaustive verification."
+  ],
+  "limitations": [
+    "No human listening or continuous audiovisual viewing was performed; image sheets were resized by the viewer, limiting small-text assessment.",
+    "No randomized audience comparison, retention, conversion, or sales observations exist. Production polish cannot be converted into an uplift estimate, confidence interval or statistical superiority claim.",
+    "Baseline metadata supports technical improvement; I did not inspect baseline visual frames, so significantly improved aesthetic polish remains an editorial judgment rather than a controlled before/after measurement.",
+    "I did not inspect other experts' opinions or certify completion of all fifty independent reviews."
+  ],
+  "non_applicable_criteria": [
+    "Model training-data representativeness, predictive accuracy and model deployment statistics: this task is an advertisement production review, not a predictive-model evaluation.",
+    "Clinical fitness suitability, checkout fulfillment and formal legal clearance are outside this review."
+  ]
+}

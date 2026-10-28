@@ -1,0 +1,58 @@
+{
+  "expert": "ai-4",
+  "version": "v12-final-1",
+  "digest": "6b6846706f12db961b678c585330dffd8222545cdd810412a320c4a6af22d553",
+  "decision": "NEEDS_EVIDENCE",
+  "reason": "The inspected automation and encoded visual evidence support delivery of the revised ad, but the explicit natural-narration and no-music requirements remain perceptually unverified after learned vocal separation. This is an evidence gap, not a finding that the audio is defective.",
+  "evidence": [
+    {
+      "file": "creative/voice-ad-premium-v12/reports/encoded-contact.jpg",
+      "inspection": "Viewed the actual encoded contact sheet. Samples at 0, 1.040 and 4.290 seconds show the faceless character and source-choice menu; 8.650 seconds shows the product; 18.550 and 22.775 seconds show calculator and recipe examples; 27.650 and 29.700 seconds show the held 15.99 SAR CTA. These sampled images show coherent black/gold/ivory styling and protected caption placement."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/reports/encoded-handoffs.jpg",
+      "inspection": "Viewed all seven rows of encoded handoff samples, including the book reveal around 6.32–7.08 seconds and CTA transition around 25.32–26.08 seconds. Sampled captions occupy their own lane while incoming titles enter after wipes. This does not establish uninterrupted perceptual motion quality."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/verify-encoded.py; reports/encoded-validation.json",
+      "inspection": "Read verifier source and its recorded results: 1080x1920, 1788 frames over 29.8 seconds, 60/1 fps, maximum cadence error 6.67e-7 seconds, zero identical adjacent frames in the 36-frame movement sample, clean decode, fast-start atoms, and master/encoded audio correlation 0.999984. Independently hashed the public MP4 to 0d741b5bef0424be521ba9938e891d8a4f6163b7e075e4cab592f3f8f8ff3940, matching the frozen manifest."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/build-film.py; animate.js; verify-source.py; reports/source-browser.json",
+      "inspection": "Read deterministic scene/timeline generation and reverse-seek assertions. Recorded browser evidence covers eight scenes, fourteen caption groups, four blank-face groups, menu/character separation, reverse-seek state equality, visible book by 7.2 seconds, and a reported 3.45-second settled CTA. Hashes of build-film.py, animate.js, process-audio.py and verify-encoded.py match candidate.json."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/reports/check-final.json; reports/motion-playback.json; record-playback.py",
+      "inspection": "Recorded check has zero errors, 33/33 sampled contrast checks and 239 craft samples, while retaining one duplicate-book-media warning. Its motion checker was disabled; the separate recorder reports 1744 browser frames through 29.8 seconds and explicitly excludes audio. I read these records and source; I did not watch the continuous recording."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/verify-player.py; reports/player-browser.json; reports/live-verification.json",
+      "inspection": "Read player test source and recorded 320/390/1440-width playback, four-scene seeking and download checks. Live verification records HTTP 200 and matching hashes for published assets, plus a 206 video range response. I did not independently repeat network or browser tests."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/process-audio.py; separate-voice.py; reports/audio-edit.json; reports/voice-separation.json; reports/edited-asr.json; captions.srt",
+      "inspection": "Source preserves three source-time segments without pitch/time changes, adds nine short ducked effects, and applies modest EQ. Reports record no added music track, no clipping, approximately -19.1 LUFS/-3 dBTP and a hashed local separation model. The reports explicitly disclaim proof of naturalness or perfect music removal. Edited ASR has word errors, including the opening phrase, so it cannot certify intelligibility or the editorially corrected captions."
+    }
+  ],
+  "strengths": [
+    "Idempotency is supported by deterministic scene generation and recorded reverse-seek equality, although I did not rebuild or prove byte-identical rerenders.",
+    "Observability is strong for a finite creative build: assert-based validators, source/model hashes, encoded checks, browser reports and render progress logs are retained.",
+    "The initial missing-Chrome failure is preserved; README documents the explicit Chromium/software-rendering recovery command, and render.log records successful completion of 1788 frames."
+  ],
+  "issues": [
+    "Blocking evidence gap: obtain a capable listener's review of the exact encoded MP4 across 0–26.01 seconds, especially the joins at 1.96 and 4.31 seconds, for natural voice, intelligibility, caption agreement and residual music. Technical levels and vocal estimation do not settle these explicit production requirements.",
+    "Reproducibility limit: vocal regeneration relies on the external uploaded source, a model under /tmp and unpinned Python dependencies. They are locally present and the model/source hashes are documented; the frozen final mix allows rendering without regeneration. This is not a demonstrated output defect."
+  ],
+  "objections": [
+    "An unconditional production approval would exceed the available perceptual audio evidence."
+  ],
+  "limitations": [
+    "No human listening capability; no continuous-video viewing, new processing jobs, source edits or test reruns performed.",
+    "I reviewed my own expert criteria and exact artifacts without reading other experts' opinions. The completion and independence of all fifty reviews are not certified by this individual review.",
+    "Report files are recorded evidence rather than independent executions in this review. Sampled visual checks cannot guarantee every intermediate frame or every device."
+  ],
+  "non_applicable_criteria": [
+    "Distributed transaction idempotency, request retries and service failover are not requirements for this finite offline ad. Automatic retry/resume behavior was not demonstrated; the preserved failure and explicit recovery are adequate operational evidence for the completed render.",
+    "Store checkout, fulfillment, sales performance, clinical accuracy and formal legal certification are outside this review."
+  ]
+}

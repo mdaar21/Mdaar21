@@ -1,0 +1,49 @@
+{
+  "expert": "commerce-2",
+  "version": "v12-final-1",
+  "digest": "6b6846706f12db961b678c585330dffd8222545cdd810412a320c4a6af22d553",
+  "decision": "APPROVE",
+  "reason": "Approved within sales-ad scope: the encoded samples communicate a concrete bundle, demonstrate useful app functions, state the owner-authorized 15.99 SAR price, and hold a clear purchase instruction and store address. I found no blocking discrepancy between the inspected commercial claims and the available product evidence. This is not certification of checkout, fitness suitability, conversion performance, or the unassessed listening requirements.",
+  "evidence": [
+    {
+      "file": "creative/voice-ad-premium-v12/reports/encoded-contact.jpg",
+      "inspection": "Personally inspected through view_image. At 8.650s the actual book cover and product name are visible. At 12.575s the offer identifies PDF plus app, 4/5-day programs, nutritional tools and 500 recipes in the app. At 15.700s actual program covers support schedule choice; 18.550s shows the calculator; 22.775s shows the recipe interface. At 27.650s and 29.700s the price, purchase instruction and mdaar21.zid.store are visible in a clean closing composition."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/reports/encoded-handoffs.jpg",
+      "inspection": "Personally inspected sampled transition frames. The product reveal around 6.32–7.08s and closing handoff around 25.32–26.08s retain recognizable product/actor continuity. These are sampled images, not continuous-video inspection."
+    },
+    {
+      "file": "public/data/recipes-calculated.json; public/data/training-programs.json",
+      "inspection": "Read actual JSON: 500 recipe entries with 500 distinct IDs; first recipe is the oatmeal example used in the ad. Training source contains programs with trainingDays 4 and 5. Recipe metadata explicitly describes calculated suggestions; training metadata records qualified professional review pending."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/index.html; captions.srt; docs/elite50/ad-remake-2026-10-28/evidence/claim-map.json",
+      "inspection": "Source wording distinguishes PDF exercise explanation links from app features, labels calorie needs as estimates depending on user inputs, and labels recipe nutrition as estimated. The supplied price authorization is specifically 15.99 SAR for this advertisement. Captions contain reassuring language but no quantified body-transformation guarantee, fabricated testimonial, discount or artificial urgency."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/reports/source-browser.json; encoded-validation.json; player-browser.json; live-verification.json",
+      "inspection": "Inspected existing records, not independently rerun tests. They report book visible by 7.2s; CTA settled by 26.35s with 3.45s hold; encoded 1080x1920, 60/1 fps, 1788 frames; mobile/desktop playback and download checks; and live MP4 HTTP 200 with hash matching the local frozen video."
+    }
+  ],
+  "strengths": [
+    "The problem-to-offer sequence turns beginner confusion into a specific plan, nutrition calculator and adjustable recipe demonstration.",
+    "500 recipes are explicitly located in the app, avoiding the implication that all are contained in the PDF.",
+    "The final purchase instruction and owner price are easy to identify in the inspected encoded closing frames."
+  ],
+  "issues": [],
+  "objections": [
+    "Nonblocking: a viewer must follow or type the store address from this video; the supplied evidence does not establish a clickable purchase destination or checkout completion.",
+    "The reassuring narration at 24.185–25.990s is broad; approval relies on its context as organizational guidance rather than a promise of medically appropriate or guaranteed outcomes."
+  ],
+  "limitations": [
+    "No human listening capability: I cannot establish narration naturalness, intelligibility or perfect music removal. Technical audio records cannot prove those qualities; they remain outside this commerce approval.",
+    "I inspected contact sheets, source data and existing test records; I did not watch continuous video or rerun browser checks.",
+    "No checkout, payment, fulfillment, store-price synchronization, app entitlement, third-party exercise-link availability or audience conversion study was verified.",
+    "Small explanatory labels are visible in the sampled sheets, but small-screen comprehension and actual campaign performance remain unmeasured."
+  ],
+  "non_applicable_criteria": [
+    "Medical clearance, professional exercise certification and clinical nutritional validation are outside this advertisement sales review; the ad does not claim them.",
+    "Commerce forecasts, inventory logistics and payment-security certification are not deliverables of the frozen video request."
+  ]
+}

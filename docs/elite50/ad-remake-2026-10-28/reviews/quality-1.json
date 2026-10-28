@@ -1,0 +1,61 @@
+{
+  "expert": "quality-1",
+  "version": "v12-final-1",
+  "digest": "6b6846706f12db961b678c585330dffd8222545cdd810412a320c4a6af22d553",
+  "decision": "NEEDS_EVIDENCE",
+  "reason": "The inspected encoded frames and reproducible technical records support the visual, format and player requirements. Full production acceptance remains unproved for two explicit audible requirements: natural source narration and absence of music after learned vocal separation. No listening evidence is available; loudness, ASR and master correlation cannot close that gap.",
+  "evidence": [
+    {
+      "file": "creative/voice-ad-premium-v12/reports/encoded-contact.jpg",
+      "inspection": "Direct image inspection: blank-faced character at 0.000/1.040 seconds; clear Arabic headings and menu at 4.290; product cover at 8.650; program cards at 15.700; calculator at 18.550; actual recipe UI at 22.775; settled price 15.99 SAR and store address at 27.650 and 29.700. No sampled clipping or conflicting caption/CTA overlay observed."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/reports/encoded-handoffs.jpg",
+      "inspection": "Direct image inspection of all seven sampled handoffs: scene changes retain a coherent character/product hierarchy; caption area remains separate from the animated feature content. Fade states and the final dissolve are visible, but these stills do not certify continuous motion quality."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/reports/encoded-validation.json; verify-encoded.py",
+      "inspection": "Reviewed report and implementation: 1080x1920 H.264/AAC, 1788 frames over 29.8 seconds, 60/1 average and nominal rates, full-frame timestamp cadence checked, successful warning-free decode, fast-start, no duplicate frames in the 0.35–0.95 second movement sample. Public MP4 independently hashed here as 0d741b5bef0424be521ba9938e891d8a4f6163b7e075e4cab592f3f8f8ff3940, matching the frozen manifest and encoded report."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/reports/source-browser.json; verify-source.py; captions.srt",
+      "inspection": "Reviewed assertions and records for 14 nonoverlapping captions, measured protected bounds, actor/menu separation, book visible by 7.2 seconds, deterministic reverse seeking and 15.99 price. Caption bounds are tested at group midpoints. The stated 3.45-second settled CTA hold is consistent with the sampled final encoded frames."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/reports/player-browser.json; verify-player.py; reports/live-verification.json; public/ad/premium/index.html",
+      "inspection": "Read actual native-video player and test implementation. Existing local Chromium records cover play/pause, four seeks, no horizontal overflow and three download responses at widths 320, 390 and 1440. Live verification records matching published hashes and HTTP 206 byte ranges. These are inspected records, not browser tests rerun by this reviewer."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/reports/audio-edit.json; reports/voice-separation.json; reports/edited-asr.json",
+      "inspection": "Source-derived narration uses three preserved-time excerpts, mild EQ/gain, no reported pitch/time stretching and nine purposeful effects. Learned Kim_Vocal_2 separation explicitly estimates removal and disclaims perceptual proof. ASR contains recognition errors, which alone establish neither bad audio nor correct captions."
+    }
+  ],
+  "strengths": [
+    "Readable sampled Arabic captions, recognisable faceless premise, real product/app imagery and a clean final CTA.",
+    "Encoded delivery and player evidence is unusually concrete; test source distinguishes measurable checks from subjective claims.",
+    "Price matches the owner-supplied requirement and no additional music track is reported."
+  ],
+  "issues": [
+    {
+      "severity": "acceptance-evidence-gap",
+      "requirement": "Smooth natural source narration; no music",
+      "detail": "No human listening is available. Vocal separation can leave accompaniment or alter timbre, and splice intelligibility/caption agreement is unverified. Obtain an independent full-length listen of the exact frozen MP4, especially joins at 1.96 and 4.31 seconds, before asserting those requirements are satisfied."
+    },
+    {
+      "severity": "nonblocking",
+      "detail": "check-final.json reports one duplicate_media_discovery_risk warning. The successful encoded decode and sampled images show no resulting failure, but the warning should remain visible in the QA record."
+    }
+  ],
+  "objections": [
+    "An unconditional QA approval would overstate coverage of explicit audible requirements. This verdict does not assert that the audio fails."
+  ],
+  "limitations": [
+    "Viewed encoded image sheets and read existing source/test records; did not hear audio or watch continuous video, rerun tests, or inspect other experts' opinions.",
+    "Measured true 60fps cadence and one movement sample do not prove every animated section has unique perceptual motion; browser playback record reports 1744 frames but was not watched here.",
+    "Original reference video was not visually compared, so the degree of polish improvement is only partially assessable.",
+    "This individual review cannot certify completion or agreement of fifty independent agents; the coordinator must verify actual context records."
+  ],
+  "non_applicable_criteria": [
+    "Store checkout, fulfillment, clinical fitness validation, legal certification and audience conversion are outside this authorized advertisement QA scope."
+  ]
+}

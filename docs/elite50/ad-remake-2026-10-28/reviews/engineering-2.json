@@ -1,0 +1,54 @@
+{
+  "expert": "engineering-2",
+  "version": "v12-final-1",
+  "digest": "6b6846706f12db961b678c585330dffd8222545cdd810412a320c4a6af22d553",
+  "decision": "NEEDS_EVIDENCE",
+  "reason": "The responsive player, download delivery, caption presentation and encoded visual layout are supported by source inspection, encoded stills and recorded browser checks. I found no blocking frontend defect in that evidence. The overall production request nevertheless includes natural narration and no music: vocal separation is explicitly approximate, and no human listening evidence establishes either perceptual requirement. This is an evidence gap rather than a finding that the audio sounds bad.",
+  "evidence": [
+    {
+      "file": "creative/voice-ad-premium-v12/reports/encoded-contact.jpg",
+      "inspection": "Direct image inspection: faceless character at 0.000–4.290s, recognizable product by 8.650s, structured bundle/program lists at 12.575–15.700s, actual app examples at 18.550–22.775s, and clean 15.99 SAR CTA at 27.650 and 29.700s. Main captions and CTA remain visually separated from the demonstration. Embedded app fine print is smaller than headline/caption copy."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/reports/encoded-handoffs.jpg",
+      "inspection": "Direct image inspection of sampled transitions: incoming headings are initially faint/absent and then settle after the reveal. Caption panels remain in their protected lower lane across the sampled scene handoffs, including 6.320–7.080s and 25.320–26.080s. These stills do not establish continuous perceived smoothness."
+    },
+    {
+      "file": "public/ad/premium/index.html; creative/voice-ad-premium-v12/verify-player.py; reports/player-browser.json; reports/player-mobile.png",
+      "inspection": "Read actual player markup/CSS and test implementation; directly inspected the 390px screenshot. Arabic language/direction, semantic navigation, native video controls, playsinline, visible keyboard focus, wrapping download links and a mobile layout are present. The existing Chromium checks exercise 320/390/1440px layouts, actual play/pause, four seeks, overflow and file responses. These are recorded checks, not tests I reran."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/reports/check-final.json; reports/source-browser.json; reports/encoded-validation.json",
+      "inspection": "Recorded checks report 33/33 sampled contrast checks, no sampled layout failures, caption bounds inside the 1080x1920 canvas, CTA settled by 26.35s for a 3.45s hold, and 1788 encoded frames at 60/1 over 29.8s. The lint warning about three duplicate media entries remains; encoded validation reports no decode warnings. Motion checking in check-final is disabled; separate encoded motion sampling and browser cadence records provide narrower technical evidence."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/reports/live-verification.json; public/ad/premium/index.html; public/ad/premium/mdaar_tiktok_v12_premium.mp4; public/ad/premium/captions.srt",
+      "inspection": "Existing live record reports HTTP 200, matching local bytes and HTTP 206 range support. My direct local SHA256 checks match the frozen manifest for player, MP4 and SRT. I did not independently revisit the live site."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/reports/audio-edit.json; reports/voice-separation.json; reports/edited-asr.json; captions.srt",
+      "inspection": "Processing records retain source fragments without pitch/time changes and list nine short effects with no added music. Separation explicitly disclaims perfect music removal/naturalness. ASR contains substitutions at 0–4.16s and 22.38–25.76s relative to editorial captions; those may be recognition errors and do not prove unintelligibility. Human listening is still needed to resolve the perceptual requirements and check synchronization."
+    }
+  ],
+  "strengths": [
+    "Simple static, responsive Arabic player with native controls, useful focus styling and direct downloadable files.",
+    "Large, consistently positioned Arabic captions and an uncluttered final price/CTA.",
+    "Encoded file identity and technical delivery evidence are specific and reproducible."
+  ],
+  "issues": [
+    "Missing perceptual confirmation that the final encoded narration remains natural/intelligible and original background music has been removed to the owner's satisfaction."
+  ],
+  "objections": [
+    "Do not translate the successful loudness, ASR, frame or browser checks into a claim of human listening or a complete accessibility certification."
+  ],
+  "limitations": [
+    "I inspected still images and source/test records; I did not hear audio or watch continuous playback.",
+    "Recorded browser coverage is Chromium only; no independent Safari/iOS, keyboard journey or screen-reader session was available.",
+    "Captions are burned into the video with a downloadable SRT; the player has no selectable HTML track. This does not block the supplied production scope but limits caption customization.",
+    "No purchase, fulfillment, conversion, medical or formal legal assessment; no assertion that all fifty independent review contexts exist."
+  ],
+  "non_applicable_criteria": [
+    "Responsive reflow and interactive menu behavior inside the rendered ad are non-applicable: it is a fixed portrait video. Responsive behavior applies to the surrounding player.",
+    "Full product application frontend acceptance is outside this ad-delivery review; the displayed app screens are demonstration evidence."
+  ]
+}

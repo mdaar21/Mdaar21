@@ -1,0 +1,56 @@
+{
+  "expert": "commerce-3",
+  "version": "v12-final-1",
+  "digest": "6b6846706f12db961b678c585330dffd8222545cdd810412a320c4a6af22d553",
+  "decision": "APPROVE",
+  "reason": "Approved within advertisement pricing and offer-presentation scope. The encoded closing frames visibly show the owner-authorized 15.99 SAR with the product, purchase CTA and store address. The offer describes actual 4/5-day programs and 500 app recipes, which I independently checked in local product data. No discount, fabricated reference price, urgency, savings, profitability or sales forecast is required or supported. Production evidence supports delivery completeness; subjective audio quality remains outside my verification capability.",
+  "evidence": [
+    {
+      "file": "creative/voice-ad-premium-v12/reports/encoded-contact.jpg",
+      "inspection": "Viewed encoded still contact sheet with view_image. At 27.650s and 29.700s, 15.99 ر.س, product cover, CTA and mdaar21.zid.store are clear. At 12.575s the bundle names PDF plus app, 4/5-day programs and 500 app recipes; 18.550s and 22.775s show the calculator/recipe interfaces with estimation/example qualifications."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/reports/encoded-handoffs.jpg",
+      "inspection": "Viewed with view_image. Sampled handoff frames show product entering around 6.5s and the closing price/CTA settling around 26.08s. These are still samples, not continuous playback."
+    },
+    {
+      "file": "docs/elite50/ad-remake-2026-10-28/final-packet.json; docs/elite50/ad-remake-2026-10-28/evidence/claim-map.json",
+      "inspection": "Both identify 15.99 SAR as the explicit owner instruction dated 28 Oct 2026 Riyadh, scoped to the advertisement. Accepted as task authorization; no claim that the storefront price was changed or independently checked."
+    },
+    {
+      "file": "public/data/recipes-calculated.json; public/data/training-programs.json",
+      "inspection": "Read product JSON directly: 500 recipes and 500 distinct recipe IDs; program keys 4 and 5 have trainingDays 4 and 5. Supports these advertised quantity and program claims."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/reports/encoded-validation.json; public/ad/premium/mdaar_tiktok_v12_premium.mp4",
+      "inspection": "Inspected existing validation record: 1080x1920, 60/1 fps, 1788 frames, 29.8s, decode exit 0. Independently hashed delivered MP4: 0d741b5bef0424be521ba9938e891d8a4f6163b7e075e4cab592f3f8f8ff3940, matching frozen candidate entry and report."
+    },
+    {
+      "file": "public/ad/premium/index.html; creative/voice-ad-premium-v12/reports/live-verification.json",
+      "inspection": "Read HTML showing 15.99 SAR, MP4 download attribute and product-store link. Existing live report records HTTP 200, local hash matches and HTTP 206 byte range for MP4; I did not perform a new live request."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/reports/audio-edit.json; creative/voice-ad-premium-v12/reports/check-final.json",
+      "inspection": "Read records reporting no pitch change/time stretch/music added, 3.79s audio tail hold, no clipped samples, zero layout/runtime errors and one duplicate-media discovery warning. These records do not establish perceptual audio naturalness or complete music removal."
+    }
+  ],
+  "strengths": [
+    "Consistent owner price appears in both video closing frames and download player.",
+    "Offer quantity and program claims have matching local product data.",
+    "Held closing frames pair price, product identity, purchase action and store destination without speculative economics."
+  ],
+  "issues": [],
+  "objections": [],
+  "limitations": [
+    "No human listening capability: I cannot certify narration naturalness, intelligibility, absence of separation artifacts or perfect removal of source music. This limits overall perceptual assurance but supplies no evidenced pricing objection.",
+    "No continuous video viewing, audience conversion study, checkout, transaction, fulfillment, store-admin inspection or live store-price verification. Approval covers the authorized advertisement, not commercial operations.",
+    "The raw owner message is not separately archived in the inspected evidence; owner price authorization is provided by the assigned task packet and claim map.",
+    "No cost, tax treatment, platform fees, acquisition cost or demand observations were supplied. None are invented or inferred from 15.99 SAR."
+  ],
+  "non_applicable_criteria": {
+    "unit_economics": "N/A: this is an ad-production review, not a profitability or operating-model decision; no margin assertion is made.",
+    "pricing_assumptions": "Market-clearing price, competitor benchmarking and willingness-to-pay are N/A: the owner explicitly selected the advertised amount. In-scope consistency of amount, currency and presentation passed.",
+    "sensitivity": "N/A: no volume, CAC, margin, elasticity or revenue model is requested or presented.",
+    "formal_legal_medical_fitness_certification": "N/A to pricing review; no certification granted."
+  }
+}

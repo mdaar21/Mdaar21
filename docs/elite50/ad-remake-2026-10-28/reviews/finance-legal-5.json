@@ -1,0 +1,63 @@
+{
+  "expert": "finance-legal-5",
+  "version": "v12-final-1",
+  "digest": "6b6846706f12db961b678c585330dffd8222545cdd810412a320c4a6af22d553",
+  "decision": "APPROVE",
+  "reason": "Approved within the Privacy Officer's authorized advertisement and downloadable-player scope. The inspected encoded stills and original demonstration screenshots show generic calculator results and recipe quantities, without identifiable customer records, account names, contact details or payment data. The public player serves media without forms, scripts, analytics or account entry. No privacy-specific defect blocks this frozen deliverable. This is a scope-limited production approval, not certification of the store, underlying app privacy program, formal legal rights or perceptual audio quality.",
+  "evidence": [
+    {
+      "file": "creative/voice-ad-premium-v12/reports/encoded-contact.jpg",
+      "method": "Direct view_image inspection",
+      "finding": "Reviewed sampled encoded frames at 0.000, 1.040, 4.290, 8.650, 12.575, 15.700, 18.550, 22.775, 27.650 and 29.700 seconds. Faceless figure, product demonstrations and final 15.99 SAR CTA are visible; no identifiable account holder or customer information appears."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/reports/encoded-handoffs.jpg",
+      "method": "Direct view_image inspection",
+      "finding": "Sampled transition strips around scene handoffs show product, calculator and recipe demonstrations without incidental account panels or personal records. These are still samples, not continuous viewing."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/assets/demo-calculator.png; assets/demo-recipe-15.png",
+      "method": "Direct view_image inspection of original assets",
+      "finding": "Calculator displays 2,672 calories, 1,724 BMR and macronutrient amounts, with estimate/medical-limit wording; recipe shows oatmeal and 1.5 portions. Neither inspected asset contains names, email, addresses, identifiers or customer-specific history."
+    },
+    {
+      "file": "docs/elite50/ad-remake-2026-10-28/evidence/claim-map.json; creative/voice-ad-premium-v12/index.html",
+      "method": "Source inspection",
+      "finding": "Calculator is documented as a worked example (male, 25 years, 75 kg, 175 cm, activity 1.55), not an identifiable customer profile. Source explicitly labels calculator and recipe scenes illustrative and nutritional values estimated. No assertion that account access or real customer data supports the demonstrations."
+    },
+    {
+      "file": "public/ad/premium/index.html",
+      "method": "Direct HTML source inspection",
+      "finding": "Static self-hosted native video and download links; no scripts, collection forms, embeds, analytics or login. CSP limits resource origins and disables form submission. External store link uses noopener noreferrer. noindex reduces indexing intent but is not an access-control mechanism; public assets are intentionally downloadable."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/reports/player-browser.json; reports/live-verification.json; reports/encoded-validation.json",
+      "method": "Inspected existing test records",
+      "finding": "Records report working native playback/downloads at 320/390/1440 widths, matching public/local media hashes, and a 1080x1920, 60/1 fps, 29.8-second encode. I did not rerun those tests."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/media-provenance.jsonl; reports/audio-edit.json; reports/voice-separation.json; SPEC.md",
+      "method": "Source/provenance record inspection",
+      "finding": "Owner-supplied project assets and uploaded source narration are documented; local audio separation and conservative edits are recorded. No cloud voice API, synthesized voice, pitch change or time stretch is claimed."
+    }
+  ],
+  "strengths": [
+    "Data minimization: output shows only generic illustrative results needed to explain the product.",
+    "Access and consent: the authorized public deliverable requires no account entry or sensitive interaction; no customer-account evidence is represented.",
+    "Public player adds no application-level personal-data collection or tracking visible in its inspected source.",
+    "Source distinguishes an advertisement price change from any store administration or checkout change."
+  ],
+  "issues": [],
+  "objections": [],
+  "limitations": [
+    "I did not audit the app's storage, consent interface, retention/deletion rules, store checkout or hosting-provider request logs. The static player source cannot establish provider-level logging practices.",
+    "Uploaded narration is processed and publicly downloadable within the stated owner-authorized production request. I did not independently establish performer identity, underlying contracts or legal release status.",
+    "No human listening capability was available. Software records do not establish natural narration, intelligibility or perfect music removal. Those requirements remain perceptually unverified; this limitation does not create a privacy blocker.",
+    "Image inspection covers sampled frames and two source screenshots, not every frame or continuous playback. Existing browser and encode records are distinguished from my direct observations.",
+    "The supplied packet digest identifies this review's candidate; this review does not certify fifty-agent completion, sales effectiveness, medical suitability or formal legal compliance."
+  ],
+  "non_applicable_criteria": [
+    "Customer-data retention schedules, account authorization and deletion workflows: no customer account or real personal user data is used or collected by this advertisement/player demonstration.",
+    "Production app/backend access control and consent implementation: outside the frozen video and static player scope; no assertion of compliance is made."
+  ]
+}

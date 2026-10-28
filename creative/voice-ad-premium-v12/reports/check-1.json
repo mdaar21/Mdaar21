@@ -1,0 +1,451 @@
+{
+  "ok": true,
+  "strict": false,
+  "browserSkipped": false,
+  "lint": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 1,
+    "infoCount": 0,
+    "findings": [
+      {
+        "code": "duplicate_media_discovery_risk",
+        "severity": "warning",
+        "message": "Detected 3 matching img entries with the same source/start/duration.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {},
+        "sourceFile": "/workspace/Mdaar21-new/creative/voice-ad-premium-v12/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Avoid duplicated media nodes that can be discovered twice during compilation."
+      }
+    ],
+    "filesScanned": 1
+  },
+  "runtime": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": []
+  },
+  "layout": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 1,
+    "infoCount": 5,
+    "findings": [
+      {
+        "code": "container_overflow",
+        "severity": "warning",
+        "time": 21.522,
+        "selector": "img.recipe-before",
+        "message": "Element extends outside a clipping layout container.",
+        "rect": {
+          "left": 178,
+          "top": 216.48,
+          "right": 822,
+          "bottom": 1309.47,
+          "width": 644,
+          "height": 1092.98
+        },
+        "containerSelector": "div.screen-frame.recipe-screen",
+        "fixHint": "Resize/reposition the child or container, or mark intentional overflow with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 175,
+          "top": 418.48,
+          "right": 825,
+          "bottom": 1318.48,
+          "width": 650,
+          "height": 900
+        },
+        "overflow": {
+          "top": 202
+        },
+        "dataAttributes": {
+          "data-hf-render-id": "hf-media-5",
+          "data-hf-authored-opacity": ""
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 178,
+          "y": 216.48,
+          "width": 644,
+          "height": 1092.98
+        },
+        "firstSeen": 21.522,
+        "lastSeen": 24.833,
+        "occurrences": 2,
+        "heldMs": 0,
+        "times": [
+          21.522,
+          24.833
+        ]
+      },
+      {
+        "code": "text_box_overflow",
+        "severity": "info",
+        "time": 4.967,
+        "selector": "div.source-list > div:nth-of-type(1) > span:nth-of-type(1)",
+        "message": "Text extends outside its nearest visual/container box.",
+        "rect": {
+          "left": 523,
+          "top": 697.39,
+          "right": 533,
+          "bottom": 760.39,
+          "width": 10,
+          "height": 63
+        },
+        "containerSelector": "div.source-list > div:nth-of-type(1) > span:nth-of-type(1)",
+        "text": "١",
+        "fixHint": "Text is 10px x 63px inside 50px x 50px and overflows by up to 7px; increase the container height to at least ~63px or shrink font-size from 30px to ~24px, or allow wrapping with max-width/fitTextFontSize.",
+        "containerRect": {
+          "left": 503,
+          "top": 703.89,
+          "right": 553,
+          "bottom": 753.89,
+          "width": 50,
+          "height": 50
+        },
+        "overflow": {
+          "top": 6.5,
+          "bottom": 6.5
+        },
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 523,
+          "y": 697.39,
+          "width": 10,
+          "height": 63
+        },
+        "firstSeen": 4.967,
+        "lastSeen": 4.967,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          4.967
+        ]
+      },
+      {
+        "code": "text_box_overflow",
+        "severity": "info",
+        "time": 4.967,
+        "selector": "div.source-list > div:nth-of-type(2) > span:nth-of-type(1)",
+        "message": "Text extends outside its nearest visual/container box.",
+        "rect": {
+          "left": 543.84,
+          "top": 872.39,
+          "right": 560.17,
+          "bottom": 935.39,
+          "width": 16.33,
+          "height": 63
+        },
+        "containerSelector": "div.source-list > div:nth-of-type(2) > span:nth-of-type(1)",
+        "text": "٢",
+        "fixHint": "Text is 16px x 63px inside 50px x 50px and overflows by up to 7px; increase the container height to at least ~63px or shrink font-size from 30px to ~24px, or allow wrapping with max-width/fitTextFontSize.",
+        "containerRect": {
+          "left": 527,
+          "top": 878.89,
+          "right": 577,
+          "bottom": 928.89,
+          "width": 50,
+          "height": 50
+        },
+        "overflow": {
+          "top": 6.5,
+          "bottom": 6.5
+        },
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 543.84,
+          "y": 872.39,
+          "width": 16.33,
+          "height": 63
+        },
+        "firstSeen": 4.967,
+        "lastSeen": 4.967,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          4.967
+        ]
+      },
+      {
+        "code": "text_box_overflow",
+        "severity": "info",
+        "time": 4.967,
+        "selector": "div.source-list > div:nth-of-type(3) > span:nth-of-type(1)",
+        "message": "Text extends outside its nearest visual/container box.",
+        "rect": {
+          "left": 532.31,
+          "top": 1047.39,
+          "right": 547.69,
+          "bottom": 1110.39,
+          "width": 15.38,
+          "height": 63
+        },
+        "containerSelector": "div.source-list > div:nth-of-type(3) > span:nth-of-type(1)",
+        "text": "؟",
+        "fixHint": "Text is 15px x 63px inside 50px x 50px and overflows by up to 7px; increase the container height to at least ~63px or shrink font-size from 30px to ~24px, or allow wrapping with max-width/fitTextFontSize.",
+        "containerRect": {
+          "left": 515,
+          "top": 1053.89,
+          "right": 565,
+          "bottom": 1103.89,
+          "width": 50,
+          "height": 50
+        },
+        "overflow": {
+          "top": 6.5,
+          "bottom": 6.5
+        },
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 532.31,
+          "y": 1047.39,
+          "width": 15.38,
+          "height": 63
+        },
+        "firstSeen": 4.967,
+        "lastSeen": 4.967,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          4.967
+        ]
+      },
+      {
+        "code": "container_overflow",
+        "severity": "info",
+        "time": 24.833,
+        "selector": "img.recipe-after",
+        "message": "Element extends outside a clipping layout container.",
+        "rect": {
+          "left": 178,
+          "top": 216.48,
+          "right": 822,
+          "bottom": 1309.47,
+          "width": 644,
+          "height": 1092.98
+        },
+        "containerSelector": "div.screen-frame.recipe-screen",
+        "fixHint": "Resize/reposition the child or container, or mark intentional overflow with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 175,
+          "top": 418.48,
+          "right": 825,
+          "bottom": 1318.48,
+          "width": 650,
+          "height": 900
+        },
+        "overflow": {
+          "top": 202
+        },
+        "dataAttributes": {
+          "data-hf-render-id": "hf-media-6",
+          "data-hf-authored-opacity": ""
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 178,
+          "y": 216.48,
+          "width": 644,
+          "height": 1092.98
+        },
+        "firstSeen": 24.833,
+        "lastSeen": 24.833,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          24.833
+        ]
+      },
+      {
+        "code": "content_overlap",
+        "severity": "info",
+        "time": 25.804,
+        "selector": "#s6 > div:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(2)",
+        "message": "Two text blocks overlap and may render unreadable.",
+        "rect": {
+          "left": 222.94,
+          "top": 1357.2,
+          "right": 777.05,
+          "bottom": 1416.2,
+          "width": 554.11,
+          "height": 59
+        },
+        "containerSelector": "p.store-url",
+        "text": "عرض توضيحي من التطبيق · القيم الغذائية تقديرية",
+        "fixHint": "Give each block its own zone, or put data-layout-allow-overlap on the text or on a container inside the scene. A marker on the scene root does not apply.",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 222.94,
+          "y": 1357.2,
+          "width": 554.11,
+          "height": 59
+        },
+        "firstSeen": 25.804,
+        "lastSeen": 25.804,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          25.804
+        ]
+      }
+    ],
+    "duration": 29.8,
+    "samples": [
+      1.656,
+      4.967,
+      8.278,
+      11.589,
+      14.9,
+      18.211,
+      21.522,
+      24.833,
+      28.144
+    ],
+    "transitionSamples": [],
+    "transitionSamplesDropped": 0,
+    "tolerance": 2,
+    "totalIssueCount": 6,
+    "truncated": false
+  },
+  "motion": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "enabled": false,
+    "samples": 0
+  },
+  "contrast": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "enabled": true,
+    "samples": [
+      1.656,
+      8.278,
+      14.9,
+      21.522,
+      28.144
+    ],
+    "checked": 33,
+    "passed": 33
+  },
+  "craft": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 1,
+    "infoCount": 0,
+    "findings": [
+      {
+        "code": "text_below_floor",
+        "severity": "warning",
+        "message": "Type floor is 28 px (2.6% of the 1080 px short side, what a phone can read) and 6 text elements stay under it for 0.5 s or more, the smallest \"٤ أيام أو ٥ أيام\" at 25 px: set reading text to at least 28 px, or put data-layout-ignore on text that is texture rather than reading; see references/look.md.",
+        "text": "٤ أيام أو ٥ أيام",
+        "selector": "div.feature-menu > div:nth-of-type(2) > div:nth-of-type(1) > small:nth-of-type(1)",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 354.77,
+          "y": 763.34,
+          "width": 133.79,
+          "height": 52
+        },
+        "time": 11.222,
+        "times": [
+          2.494,
+          2.494,
+          2.494,
+          11.222,
+          11.222,
+          11.222
+        ],
+        "fontPx": 25,
+        "floorPx": 28,
+        "seconds": 3.491,
+        "elements": [
+          {
+            "selector": "div.feature-menu > div:nth-of-type(2) > div:nth-of-type(1) > small:nth-of-type(1)",
+            "text": "٤ أيام أو ٥ أيام",
+            "fontPx": 25,
+            "time": 11.222,
+            "seconds": 3.491
+          },
+          {
+            "selector": "div.feature-menu > div:nth-of-type(3) > div:nth-of-type(1) > small:nth-of-type(1)",
+            "text": "الحاسبة ودفتر الأكل",
+            "fontPx": 25,
+            "time": 11.222,
+            "seconds": 3.491
+          },
+          {
+            "selector": "div.feature-menu > div:nth-of-type(4) > div:nth-of-type(1) > small:nth-of-type(1)",
+            "text": "في تطبيق مدار",
+            "fontPx": 25,
+            "time": 11.222,
+            "seconds": 3.491
+          },
+          {
+            "selector": "div.source-list > div:nth-of-type(1) > div:nth-of-type(1) > small:nth-of-type(1)",
+            "text": "هل يناسب وقتك وهدفك؟",
+            "fontPx": 27,
+            "time": 2.494,
+            "seconds": 4.364
+          },
+          {
+            "selector": "div.source-list > div:nth-of-type(2) > div:nth-of-type(1) > small:nth-of-type(1)",
+            "text": "وهل يناسب استشفاءك؟",
+            "fontPx": 27,
+            "time": 2.494,
+            "seconds": 4.364
+          },
+          {
+            "selector": "div.source-list > div:nth-of-type(3) > div:nth-of-type(1) > small:nth-of-type(1)",
+            "text": "السياق يغيّر الاختيار",
+            "fontPx": 27,
+            "time": 2.494,
+            "seconds": 4.364
+          }
+        ]
+      }
+    ],
+    "enabled": true,
+    "step": 0.125,
+    "samples": 239
+  },
+  "hdr": {
+    "autoPromotion": null,
+    "inspection": "available"
+  },
+  "snapshots": {
+    "enabled": false,
+    "files": [],
+    "times": [],
+    "findingFiles": []
+  },
+  "saved": {
+    "id": "91814af0-27e9-459d-b535-751e06f9215a",
+    "revision": null,
+    "report": "/workspace/Mdaar21-new/creative/voice-ad-premium-v12/.hyperframes/artifacts/checks/91814af0-27e9-459d-b535-751e06f9215a.json",
+    "attribution": "unversioned"
+  },
+  "_meta": {
+    "version": "0.8.189",
+    "updateAvailable": false
+  }
+}

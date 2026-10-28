@@ -1,0 +1,194 @@
+{
+  "version": "v12-final-1",
+  "files": [
+    {
+      "path": "/workspace/Mdaar21-new/creative/voice-ad-premium-v12/DESIGN.md",
+      "sha256": "ac9184ef39d14dd68d0aecb69c7b055097186e6369e4de175575e0a69aaf39fd"
+    },
+    {
+      "path": "/workspace/Mdaar21-new/creative/voice-ad-premium-v12/FONT-LICENSE.txt",
+      "sha256": "327bac41d89cf9f32e0efe353228018e1661cff458a5d4905714958514df7bd5"
+    },
+    {
+      "path": "/workspace/Mdaar21-new/creative/voice-ad-premium-v12/README.md",
+      "sha256": "8ded5ba5c46108f1b408d2887ddf235c272fa4bbebeb2570bf80853a5157a8ba"
+    },
+    {
+      "path": "/workspace/Mdaar21-new/creative/voice-ad-premium-v12/SPEC.md",
+      "sha256": "18a5c9b735040700ea74f123b72ce6c2ff01a0cd99746a7bcb9410a1a6f9990d"
+    },
+    {
+      "path": "/workspace/Mdaar21-new/creative/voice-ad-premium-v12/STORYLINES.md",
+      "sha256": "cd430bcbaa598abdb1fe999e34a0ac1575c6a77feadceadfdbc1fb50da669580"
+    },
+    {
+      "path": "/workspace/Mdaar21-new/creative/voice-ad-premium-v12/animate.js",
+      "sha256": "ad1bfc63bea21eebeeeaeef769b0de0ffc4b70af1df3dbeef1f198d906776f33"
+    },
+    {
+      "path": "/workspace/Mdaar21-new/creative/voice-ad-premium-v12/assets/Lalezar-Regular.ttf",
+      "sha256": "7b80807bc831f141de0f7dcf6816412bf0c548968d548c5156ca388733390ea9"
+    },
+    {
+      "path": "/workspace/Mdaar21-new/creative/voice-ad-premium-v12/assets/Noto-FONT-LICENSE.txt",
+      "sha256": "075f91382875da1c4b491f1facf2586f55448705133264d98ce15cab6211b125"
+    },
+    {
+      "path": "/workspace/Mdaar21-new/creative/voice-ad-premium-v12/assets/NotoSansArabic-Bold.ttf",
+      "sha256": "ded6fc7359ca36d15d7aab9ef0c066e21ce48b26a069994d6602fa2cb9a1b952"
+    },
+    {
+      "path": "/workspace/Mdaar21-new/creative/voice-ad-premium-v12/assets/NotoSansArabic-Regular.ttf",
+      "sha256": "504d7407d86875acf7d04dfaa0fd7524d0b8797723bc4aa18022f29db25b0b6e"
+    },
+    {
+      "path": "/workspace/Mdaar21-new/creative/voice-ad-premium-v12/assets/book-cover.svg",
+      "sha256": "961c5c3f201059d3ae831b278deac6d72e8c642ebf042e60f4fcd46439fdd9fe"
+    },
+    {
+      "path": "/workspace/Mdaar21-new/creative/voice-ad-premium-v12/assets/closing-logo.png",
+      "sha256": "4cddab7a23c82f789c2baed511089e28912576697cb27f15b860a5b914bc314b"
+    },
+    {
+      "path": "/workspace/Mdaar21-new/creative/voice-ad-premium-v12/assets/demo-calculator.png",
+      "sha256": "56250384c929c049b952054239704f8965da97d6c2326a244c95c0a10ca7ba2c"
+    },
+    {
+      "path": "/workspace/Mdaar21-new/creative/voice-ad-premium-v12/assets/demo-recipe-1.png",
+      "sha256": "9c7810e92141b15a4511b77ead805dfb312233f279d91adb36a7081538b2e629"
+    },
+    {
+      "path": "/workspace/Mdaar21-new/creative/voice-ad-premium-v12/assets/demo-recipe-15.png",
+      "sha256": "b468260d9222d60a4b5633b7c705fbd943dd6c84f16e4cd532d55be87f2fd601"
+    },
+    {
+      "path": "/workspace/Mdaar21-new/creative/voice-ad-premium-v12/assets/final-mix.wav",
+      "sha256": "71544d3569ea05021778920db3255224fb244668dcbde627e0c166157220a3f1"
+    },
+    {
+      "path": "/workspace/Mdaar21-new/creative/voice-ad-premium-v12/assets/gsap.min.js",
+      "sha256": "c174bfce53a729418d57a8ad8625e7247c793a22fef8e2851e3cfa3de9cd8280"
+    },
+    {
+      "path": "/workspace/Mdaar21-new/creative/voice-ad-premium-v12/assets/program-five.webp",
+      "sha256": "8f198ab7af698dafd277c677fd6d4f492b137704c622c99a5fe9d8f514e8f311"
+    },
+    {
+      "path": "/workspace/Mdaar21-new/creative/voice-ad-premium-v12/assets/program-four.webp",
+      "sha256": "a0f6fae9198fce0ea61b5f3e52d340a9f0991e0383bcc4cabaa5b18b6f6441dc"
+    },
+    {
+      "path": "/workspace/Mdaar21-new/creative/voice-ad-premium-v12/assets/sfx/CREDITS.md",
+      "sha256": "79590c7738b0427b10f362f76b02cfd2643158a40e1d5fd787f9ac6b33bcf4ce"
+    },
+    {
+      "path": "/workspace/Mdaar21-new/creative/voice-ad-premium-v12/assets/sfx/click-soft.mp3",
+      "sha256": "075e17bdac5c13662a1c9530050e0046f81d4138e00eb3bf30427a7b4404103d"
+    },
+    {
+      "path": "/workspace/Mdaar21-new/creative/voice-ad-premium-v12/assets/sfx/pop.mp3",
+      "sha256": "19ab7193f626ff57fdeef60b45543bac416fcbcec803cfb417abe4b271c1b352"
+    },
+    {
+      "path": "/workspace/Mdaar21-new/creative/voice-ad-premium-v12/assets/sfx/whoosh-short.mp3",
+      "sha256": "c2efd9d902a59bf9ec5019035d7deadd17762136896b6e3cb6dd99ea50997a30"
+    },
+    {
+      "path": "/workspace/Mdaar21-new/creative/voice-ad-premium-v12/assets/voice-clean.mp3",
+      "sha256": "c1c8875d187d89d5a08f36b15a14c7b7cdbfd90463fa6a5fea81afc787d42a47"
+    },
+    {
+      "path": "/workspace/Mdaar21-new/creative/voice-ad-premium-v12/beats.json",
+      "sha256": "d15b0d7a755703b26f9b9553637ab1a9550e785440cdabf01aaf07aaa555ed60"
+    },
+    {
+      "path": "/workspace/Mdaar21-new/creative/voice-ad-premium-v12/build-film.py",
+      "sha256": "d5ec624d88a9ae3fc948460b44a3d50a61475c42cc81e8fea9233f97fdbcf77f"
+    },
+    {
+      "path": "/workspace/Mdaar21-new/creative/voice-ad-premium-v12/captions.json",
+      "sha256": "ad25928232952e730daa7ccf44842a1cff403c736570666f6572c949385c5f68"
+    },
+    {
+      "path": "/workspace/Mdaar21-new/creative/voice-ad-premium-v12/captions.srt",
+      "sha256": "ac68a5625c412cd8071390d24b38fb499ada395eb6813c3b1fd080810615bebe"
+    },
+    {
+      "path": "/workspace/Mdaar21-new/creative/voice-ad-premium-v12/character.py",
+      "sha256": "860d65c46007a3e3c7fb56c057ca1ea2f136e38959987569fba21c04331f3f8f"
+    },
+    {
+      "path": "/workspace/Mdaar21-new/creative/voice-ad-premium-v12/hyperframes.json",
+      "sha256": "35a6d4ea79ebe911f0d81705f7aace5d8ff0316b745b0311d56af50c9c237cb7"
+    },
+    {
+      "path": "/workspace/Mdaar21-new/creative/voice-ad-premium-v12/index.html",
+      "sha256": "47638affe0c9dbfb0e9272f27ac3c6fd7b4fad3c2d0fba21c91e478a104d3abf"
+    },
+    {
+      "path": "/workspace/Mdaar21-new/creative/voice-ad-premium-v12/media-provenance.jsonl",
+      "sha256": "05be7a6be8f13904cbd2d9996c0257aaa969d1489880c7039af5eac3df2b8c50"
+    },
+    {
+      "path": "/workspace/Mdaar21-new/creative/voice-ad-premium-v12/meta.json",
+      "sha256": "fdfe158046a65a9599c8f040b87f55c870d6deb37d38428c8abfc5029f35a8e5"
+    },
+    {
+      "path": "/workspace/Mdaar21-new/creative/voice-ad-premium-v12/package.json",
+      "sha256": "8ae3b605a80a5475158bec1a16a602746bfeef662f47bbdf876826be443cec97"
+    },
+    {
+      "path": "/workspace/Mdaar21-new/creative/voice-ad-premium-v12/process-audio.py",
+      "sha256": "0c54b14c237d8830d6e13e47da93ceaf1508b4d0e3fd4c2f678062fec2163e4d"
+    },
+    {
+      "path": "/workspace/Mdaar21-new/creative/voice-ad-premium-v12/record-playback.py",
+      "sha256": "107775bd1cd16fd2eca3a6b2541938d2a489eb6bab96595dcbd577a8e593507b"
+    },
+    {
+      "path": "/workspace/Mdaar21-new/creative/voice-ad-premium-v12/separate-voice.py",
+      "sha256": "877b7976c983b3c139df662c9821c626e6d11399187c5b79723f3422fabab5c7"
+    },
+    {
+      "path": "/workspace/Mdaar21-new/creative/voice-ad-premium-v12/style.css",
+      "sha256": "837b9c4f634f3ff6a82f5b2f13de3c574f8d49da31b697bdb4a2085c00fc2d85"
+    },
+    {
+      "path": "/workspace/Mdaar21-new/creative/voice-ad-premium-v12/verify-encoded.py",
+      "sha256": "8fd322b58d0fd8c4fa8308901a7d8c0620dcc5d351b6f807804005ae3e5f00d0"
+    },
+    {
+      "path": "/workspace/Mdaar21-new/creative/voice-ad-premium-v12/verify-player.py",
+      "sha256": "6aaaecd8dcab1a830bb100bbd3d9ff94a1eea9d2b2005b3d9c8efbde37cbfd95"
+    },
+    {
+      "path": "/workspace/Mdaar21-new/creative/voice-ad-premium-v12/verify-source.py",
+      "sha256": "79022706a74ea4d4b9c86a76aa43cc30edbc98bb9ea40fab8103692fba93d889"
+    },
+    {
+      "path": "/workspace/Mdaar21-new/creative/voice-ad-premium-v12/words-final.json",
+      "sha256": "8bd80d741f831f0f3e3df70011535a9e3fb213dcbf6bb7421e9229a93c1d33f7"
+    },
+    {
+      "path": "/workspace/Mdaar21-new/public/ad/premium/captions.srt",
+      "sha256": "ac68a5625c412cd8071390d24b38fb499ada395eb6813c3b1fd080810615bebe"
+    },
+    {
+      "path": "/workspace/Mdaar21-new/public/ad/premium/index.html",
+      "sha256": "ce213c450ab4b60ba68cf8d26ebd15a77eb451139c34256391ffa004808a3fbb"
+    },
+    {
+      "path": "/workspace/Mdaar21-new/public/ad/premium/mdaar_tiktok_v12_premium.mp4",
+      "sha256": "0d741b5bef0424be521ba9938e891d8a4f6163b7e075e4cab592f3f8f8ff3940"
+    },
+    {
+      "path": "/workspace/Mdaar21-new/public/ad/premium/poster.jpg",
+      "sha256": "e3536a03071f7225528cd106f04ba2b3d194755a44ac4cdc00540527c11337ce"
+    },
+    {
+      "path": "/workspace/Mdaar21-new/public/ad/premium/voice-clean.mp3",
+      "sha256": "c1c8875d187d89d5a08f36b15a14c7b7cdbfd90463fa6a5fea81afc787d42a47"
+    }
+  ],
+  "digest": "6b6846706f12db961b678c585330dffd8222545cdd810412a320c4a6af22d553"
+}

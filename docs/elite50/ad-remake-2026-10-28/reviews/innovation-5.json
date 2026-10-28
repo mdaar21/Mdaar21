@@ -1,0 +1,54 @@
+{
+  "expert": "innovation-5",
+  "version": "v12-final-1",
+  "digest": "6b6846706f12db961b678c585330dffd8222545cdd810412a320c4a6af22d553",
+  "decision": "NEEDS_EVIDENCE",
+  "reason": "The inspected encoded frames and implementation records support a coherent, polished faceless-character advertisement, an early product reveal, real-interface examples, Arabic captions and a held 15.99 SAR CTA. They do not establish the explicitly requested natural narration or absence of residual music after learned vocal separation. A final approval would infer a perceptual result from technical proxies that the reports themselves expressly disclaim.",
+  "evidence": [
+    {
+      "file": "creative/voice-ad-premium-v12/reports/encoded-contact.jpg",
+      "inspection": "Personally inspected through view_image. At 0.000/1.040/4.290 seconds the blank-headed character and source-choice lists are visible; at 8.650/12.575 seconds the product is clearly present; at 18.550/22.775 seconds calculator and recipe interfaces demonstrate use. At 27.650 and 29.700 seconds the uncluttered CTA visibly retains 15.99 SAR and the store address. Main titles and caption bands are spatially separated in these samples."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/reports/encoded-handoffs.jpg",
+      "inspection": "Personally inspected through view_image. Samples around 6.320–7.080 seconds support an early book reveal, 14.170–14.930 show the program transition, and 25.320–26.080 show the CTA dissolve. Some transition text is deliberately faint during entry; no persistent sampled letter clipping or caption collision was apparent. Static samples do not prove continuous perceptual smoothness."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/reports/encoded-validation.json",
+      "inspection": "Record reports 1080x1920, 60/1 fps, 1788 frames over 29.8 seconds, decode without warnings and zero identical adjacent pairs among 36 sampled moving frames. Independently computed public MP4 SHA-256 matches its recorded 0d741b5bef0424be521ba9938e891d8a4f6163b7e075e4cab592f3f8f8ff3940 and the frozen manifest."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/process-audio.py; reports/audio-edit.json; reports/voice-separation.json",
+      "inspection": "Read implementation and reports. Three retained source intervals total 26.01 seconds; short fades, mild EQ and sparse effects are explicit. No pitch/time-stretch operation or music bed is present in this script. Upstream Kim_Vocal_2 separation is an estimated vocal extraction; its report explicitly denies proof of perfect music removal or perceptual naturalness. The inspected script and final-mix hashes match the frozen manifest."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/reports/edited-asr.json; captions.srt",
+      "inspection": "ASR broadly follows the narration but includes uncertain or erroneous Arabic, including the opening at 0–4.16 seconds and 'خبطة' at 14.14–14.8 versus editorial 'خطة'. This does not prove damaged speech; it prevents treating ASR as an independent guarantee of exact caption wording or intelligibility."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/reports/source-browser.json; reports/player-browser.json; reports/live-verification.json; public/ad/premium/index.html",
+      "inspection": "Records support a settled CTA from 26.35 to 29.8 seconds, downloadable player behavior across three widths and a hash-matched live MP4 with HTTP range support. The player HTML contains explicit MP4, voice and SRT download links. These are inspected records/source, not fresh remote browser testing by me."
+    }
+  ],
+  "strengths": [
+    "The visual argument progresses consistently from conflicting advice to a concrete guide and examples of its tools.",
+    "The visible offer and price are clear; no sampled guaranteed physique, fake scarcity or medical-precision promise appears.",
+    "Technical delivery evidence distinguishes real animation sampling from merely placing a 60fps label on static frames."
+  ],
+  "issues": [
+    "Required perceptual audio acceptance remains unverified. A qualified listener should compare the final encoded narration with the source, especially joins at 1.96 and 4.31 seconds, and check intelligibility, timbre, caption agreement and residual music throughout."
+  ],
+  "objections": [
+    "'No music added' is weaker than 'no music remains': source music can survive a vocal estimator.",
+    "Unchanged pitch and speed, low peaks and source provenance do not logically exclude metallic separation artifacts or abrupt audible edits.",
+    "The general check has motion testing disabled, despite its overall ok result. Separate encoded sampling and browser cadence records provide useful technical counterevidence, but neither is my continuous viewing."
+  ],
+  "limitations": [
+    "No human listening capability; I neither heard the output nor watched continuous video. My direct visual assessment is limited to the two encoded sheets.",
+    "I inspected my own expert brief and evidence/source only; I did not inspect other expert opinions or establish a fifty-agent census.",
+    "Actual app provenance and factual claims are supported by the supplied claim map, not a new complete app/PDF audit. No checkout, delivery, sales or medical outcome is certified."
+  ],
+  "non_applicable_criteria": [
+    "Innovation patents, research novelty and market-adoption forecasts are outside this production-remake request. Counterexamples, logical consistency and disconfirming evidence were applied to the actual deliverable."
+  ]
+}

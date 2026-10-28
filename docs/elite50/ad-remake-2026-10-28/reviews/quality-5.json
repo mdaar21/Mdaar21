@@ -1,0 +1,55 @@
+{
+  "expert": "quality-5",
+  "version": "v12-final-1",
+  "digest": "6b6846706f12db961b678c585330dffd8222545cdd810412a320c4a6af22d553",
+  "decision": "NEEDS_EVIDENCE",
+  "reason": "The frozen deliverable is technically ready for distribution and the inspected encoded frames support the requested visual structure. Full release acceptance remains unresolved because smooth, natural source narration and absence of audible music are explicit owner requirements, while the provided vocal-separation and editing evidence explicitly cannot establish those perceptual properties. This is an evidence gap, not a finding that the audio is defective.",
+  "evidence": [
+    {
+      "file": "creative/voice-ad-premium-v12/reports/encoded-contact.jpg",
+      "inspection": "Personally inspected the encoded contact image using view_image. Frames at 0.000 and 1.040 seconds retain the faceless figure premise; 4.290 seconds shows an organized source-choice list; 8.650 seconds shows the product; 18.550 and 22.775 seconds show calculator and recipe examples; 27.650 and 29.700 seconds show a consistent held CTA with 15.99 SAR and store address. Small explanatory copy is less readable at contact-sheet scale than the main titles, so this does not establish every detail's mobile readability."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/reports/encoded-handoffs.jpg",
+      "inspection": "Personally inspected all displayed transition rows using view_image. Sampled handoffs retain a separate caption region, reveal the book around 6.32–7.08 seconds, and resolve into the final CTA around 25.32–26.08 seconds. These still samples do not prove continuous perceptual smoothness."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/reports/encoded-validation.json; verify-encoded.py",
+      "inspection": "Read the report and its generating checks. They report H.264/AAC, 1080x1920, 1788 frames over 29.8 seconds, 60/1 cadence, zero decode warnings, fast-start atoms, and 36 moving-frame samples without identical adjacent frames. I independently read the published MP4's SHA256, which matches the manifest/report value 0d741b5bef0424be521ba9938e891d8a4f6163b7e075e4cab592f3f8f8ff3940."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/reports/source-browser.json; reports/check-final.json; animate.js; style.css",
+      "inspection": "Source and records support a protected caption overlay, early product entry, and a reported 3.45-second settled end hold. Runtime/layout checks have no errors; lint retains a duplicate-media warning. The generic motion check is disabled; the separate motion-playback.json reports a continuous 29.8-second browser run with median RAF 16.7ms. I inspected that record, not the continuous recording."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/reports/live-verification.json; reports/player-browser.json; verify-player.py; public/ad/premium/index.html",
+      "inspection": "Live-delivery records report HTTP 200 and local/live hash agreement for all five assets, plus MP4 HTTP 206 range support. Browser tests use a local server at widths 320, 390 and 1440, with playback, four seeks, downloads and no overflow/errors. The actual player contains the three download links. I independently verified its local HTML hash against the frozen manifest; I did not rerun live network or browser tests."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/reports/audio-edit.json; reports/voice-separation.json; reports/edited-asr.json; process-audio.py",
+      "inspection": "Read actual editing code and records: three original-source segments, no pitch/time-stretch operation, modest EQ, nine sparse effects, no added music track, no clipped samples, and approximately -19.1 LUFS/-3 dBTP. Learned vocal separation is approximate. The ASR contains recognition errors and cannot substitute for listening to joins, artifacts, pronunciation or residual music."
+    }
+  ],
+  "strengths": [
+    "The encoded artifact and published local copy have a matching release identity, with a usable download player and recorded live-byte verification.",
+    "The visual samples communicate the product, actual app examples, owner-supplied price and clean closing hold.",
+    "README preserves rebuild instructions and describes deployment within a separate premium directory; retained source and final mix reduce recovery risk."
+  ],
+  "issues": [
+    "Release acceptance needs a listening check of the encoded MP4, particularly the edits at approximately 1.96 and 4.31 seconds and the separated narration throughout 0–26.01 seconds, to establish natural delivery and no audible music residue.",
+    "No rollback rehearsal or explicit tested restoration procedure is evidenced. This is an operational limitation for the isolated static delivery, not a demonstrated blocker in the MP4 itself."
+  ],
+  "objections": [
+    "Do not describe technical audio correlation, level measurements or ASR as confirmation that the owner's perceptual audio requirements are met.",
+    "Do not convert this technical/visual assessment into unanimous release approval while the audio acceptance gap remains."
+  ],
+  "limitations": [
+    "No human listening capability; no continuous-video viewing claim. Image inspection and previously generated test records are distinguished above.",
+    "Only the MP4 and player hashes were independently recomputed; the complete frozen file-set digest was taken from the supplied manifest.",
+    "I did not inspect other experts' opinions or independently count all fifty actual contexts. Coordinator execution evidence must establish that separate process requirement.",
+    "Browser evidence covers local Chromium behavior and recorded live delivery, not every handset/browser or future availability."
+  ],
+  "non_applicable_criteria": [
+    "Store administration, purchase/fulfillment, medical validation, conversion results and formal legal certification are outside this ad release review."
+  ]
+}

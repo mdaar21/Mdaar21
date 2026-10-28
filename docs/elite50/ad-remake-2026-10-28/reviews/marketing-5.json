@@ -1,0 +1,60 @@
+{
+  "expert": "marketing-5",
+  "version": "v12-final-1",
+  "digest": "6b6846706f12db961b678c585330dffd8222545cdd810412a320c4a6af22d553",
+  "decision": "NEEDS_EVIDENCE",
+  "reason": "The inspected encoded frames and delivery records support a coherent product demonstration, explicit owner-supplied price, stable CTA and technically complete downloadable deliverable. I cannot certify the required natural narration and absence of residual music: the evidence explicitly lacks human listening after learned vocal separation. This is a production-evidence gap, not a claim that the audio is defective. Audience conversion data is not required for this production task and its absence is not a rejection reason.",
+  "evidence": [
+    {
+      "file": "creative/voice-ad-premium-v12/reports/encoded-contact.jpg",
+      "inspection": "Personally inspected through view_image. Faceless opening at 0/1.04s; product visible at 8.65s; product contents at 12.575s; training choices at 15.70s; actual-app calculator and recipe presentations at 18.55/22.775s; readable 15.99 SAR, store address and purchase invitation at 27.65/29.70s. These are still samples, not continuous viewing."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/reports/encoded-handoffs.jpg",
+      "inspection": "Personally inspected through view_image. Sampled scene changes retain a separate caption band and use the book, menu, app and closing product as visual anchors. Closing scene appears by 26.08s; source-browser.json records full settling at 26.35s and a 3.45s hold."
+    },
+    {
+      "file": "docs/elite50/ad-remake-2026-10-28/evidence/baseline-probe.json",
+      "inspection": "Baseline is 510x1108, approximately 30fps and 42.836667s despite its smooth_60fps.mp4 name. Its source file SHA-256 was independently recomputed as b9cd6deaafe9d94695c36554cc73b73eb86e2789febe1f9685683c8e5054a0c2 and matches baseline-source.json. This supports technical comparison only."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/reports/encoded-validation.json",
+      "inspection": "Reports 1080x1920, 60/1fps, 1788 frames, 29.8s, no decode warnings and distinct frames in the sampled moving window. Independently recomputed delivered MP4 hash 0d741b5bef0424be521ba9938e891d8a4f6163b7e075e4cab592f3f8f8ff3940 matches the frozen manifest."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/reports/live-verification.json; reports/player-browser.json; public/ad/premium/index.html",
+      "inspection": "Recorded live page/video hashes match local files; HTTP 200 and video range 206 are recorded. Player tests record decoding, seeking, download links and no horizontal overflow at 320/390/1440 widths. I read the delivered HTML and verified its hash against the manifest; it contains MP4/audio/SRT downloads and an explicit product-page link. I did not independently make a purchase or repeat live browser testing."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/reports/audio-edit.json; reports/voice-separation.json; reports/edited-asr.json",
+      "inspection": "Source excerpts, mild EQ, no pitch/time change and no music track added are documented. Learned vocal separation explicitly does not establish perfect removal or naturalness. The ASR opening has transcription errors; those errors cannot distinguish dialect/model limitations from perceptual audio defects."
+    }
+  ],
+  "strengths": [
+    "The intended viewer action is concrete: obtain بروتوكول التحول, with product, owner-authorized 15.99 SAR price and store destination held together at the end.",
+    "The sequence connects the beginner's uncertainty to contents and actual app examples rather than unsupported testimonials or outcome promises.",
+    "Claims are scoped: 500 recipes are identified as in the application; calculator and recipe demonstrations are labeled as examples/estimates."
+  ],
+  "issues": [
+    {
+      "severity": "evidence_gap",
+      "requirement": "Smooth natural source narration; no music",
+      "detail": "Human or otherwise valid perceptual listening evidence is absent after vocal separation and phrase editing. Technical loudness, source preservation, ASR and software playback do not close that gap.",
+      "needed": "An honest listening review of the final encoded audio confirming natural phrase joins, intelligibility and no audible residual music."
+    }
+  ],
+  "objections": [
+    "Do not translate improved resolution/frame cadence, earlier reveal or this editorial review into a conversion-lift claim."
+  ],
+  "limitations": [
+    "No audience, click, purchase, exposure, spend, attribution or randomized comparison dataset was supplied. There is no measured conversion rate, lift or benchmark in this verdict.",
+    "Several variables change together, including duration, resolution, motion, reveal timing, demonstrations and CTA. Even future unadjusted before/after sales differences would be confounded.",
+    "Baseline inspection covered actual source identity and probe records, not visual playback; relative visual-polish and exact character resemblance are not independently established by my baseline review.",
+    "I inspected encoded still sheets and exact files/reports, and did not watch continuous video or hear audio.",
+    "No checkout, fulfillment, store price reconciliation, clinical validation or count of all other expert agents was independently verified."
+  ],
+  "non_applicable_criteria": [
+    "Campaign conversion definition and attribution validation are outside this production acceptance task. The creative's purchase invitation is identifiable; campaign success is unmeasured.",
+    "Audience-data quality, statistical significance and causal performance comparison are not assessable without campaign data and are not prerequisites for delivering the requested ad."
+  ]
+}

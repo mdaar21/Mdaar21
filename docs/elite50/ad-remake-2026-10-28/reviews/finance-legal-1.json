@@ -1,0 +1,58 @@
+{
+  "expert": "finance-legal-1",
+  "version": "v12-final-1",
+  "digest": "6b6846706f12db961b678c585330dffd8222545cdd810412a320c4a6af22d553",
+  "decision": "NEEDS_EVIDENCE",
+  "reason": "No finance-specific blocker is demonstrated: the owner-authorized 15.99 SAR price appears clearly, production uses existing/local assets, and no sales or return claims are made. The frozen production request nevertheless explicitly requires natural source narration and no music. The supplied audio records expressly cannot establish perceptual naturalness or complete background-music removal; I cannot certify overall completion on those requirements without listening evidence.",
+  "evidence": [
+    {
+      "file": "docs/elite50/ad-remake-2026-10-28/evidence/claim-map.json",
+      "finding": "Records owner price 15.99 SAR from 28 October 2026, scoped to the advertisement; excludes store changes, purchases, paid provider calls and campaign performance. This is supplied provenance, not independently inspected owner conversation or accounting."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/reports/encoded-contact.jpg",
+      "finding": "Personally inspected encoded stills: faceless character at 0/1.04 seconds, product at 8.65 seconds, bundle/program/app demonstrations at 12.575–22.775 seconds, and legible 15.99 SAR with CTA/store address at 27.65 and 29.70 seconds. No testimonial, discount or guaranteed physique appears in these inspected frames."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/reports/encoded-handoffs.jpg",
+      "finding": "Personally inspected transition sheet including product reveal around 6.5 seconds and closing transition around 25.5–26.08 seconds. It supports earlier product presentation and protected caption placement at the sampled moments; it does not establish continuous motion quality."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/index.html:44-55; SPEC.md; captions.srt",
+      "finding": "Source separates 500 recipes in the app from PDF training explanation links, labels calculator/nutrition examples as estimates, and prints 15.99 SAR in the CTA. SPEC explicitly excludes Zid pricing edits, checkout tests and campaign results. Captions contain no numerical outcome or financial guarantee."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/reports/encoded-validation.json; reports/player-browser.json; reports/live-verification.json; public/ad/premium/index.html:16-22",
+      "finding": "Inspected records report 1080x1920, 1788 frames over 29.8 seconds at 60/1 fps, nonidentical sampled moving frames, successful decode, downloadable player checks and live hashes matching the frozen MP4. Player source includes the actual MP4 download anchor and matching price. These are inspected test records, not my own rerun."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/reports/audio-edit.json; reports/voice-separation.json; reports/motion-playback.json",
+      "finding": "Records preserve source segments without pitch/time changes, add nine short effects and no music track, and report -19.1 LUFS/-3 dBTP with zero clipped samples. Separation expressly remains approximate; no human listening occurred and the QA recording has no audio."
+    }
+  ],
+  "strengths": [
+    "Owner-set price is visible without an invented former price, scarcity or return promise.",
+    "Scope boundaries avoid representing an advertisement edit as a storefront, payment or fulfillment change.",
+    "No ad-spend commitment, revenue forecast or campaign-economics assertion requires substantiation in this deliverable."
+  ],
+  "issues": [
+    {
+      "severity": "evidence_gap",
+      "requirement": "Natural narration and no music",
+      "detail": "Technical preservation and loudness measures cannot resolve remaining separation artifacts, intelligibility or audible residual music across the 0–26.01-second narration. A listening review of the final encoded audio is still needed to establish these production requirements. No financial redesign is requested."
+    }
+  ],
+  "objections": [
+    "Do not interpret absence of an added music track as proof that the source background was completely removed.",
+    "Do not turn this review into approval of ad spend, checkout price parity or expected profitability."
+  ],
+  "limitations": [
+    "I inspected the two encoded image sheets and cited source/test records; I did not hear audio or watch continuous video.",
+    "No current authenticated Zid price, purchase, tax treatment or fulfillment evidence was inspected; those actions are outside the production scope.",
+    "I did not inspect other experts' opinions or verify the complete fifty-agent attendance; this JSON is solely my independent expert decision.",
+    "Asset provenance and sound-effect credits document reuse/licensing assertions; this is not a formal rights opinion or medical certification."
+  ],
+  "non_applicable_criteria": [
+    "Budget adequacy, cash-flow forecasting, CAC, ROAS, contribution margin and liquidity are non-applicable because no campaign budget, spend authorization, cost model or economic outcome is proposed. Their absence is not a blocker for producing the advertisement."
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "expert": "research-2",
+  "role": "Fact Checker",
+  "phase": "independent planning",
+  "version": "planning-v1",
+  "final_vote_cast": false,
+  "plan": "Map every spoken and visible product claim to an authorized source; inspect the frozen final video, narration/caption transcript and actual product-demo provenance for unsupported implications.",
+  "verified_local_facts": [
+    {
+      "claim": "Digital PDF guide has 34 pages",
+      "evidence": "pdfinfo docs/source/protocoltraining-original.pdf: Pages: 34; title بروتوكول التحول - مدار"
+    },
+    {
+      "claim": "App contains 4-day and 5-day training programs",
+      "evidence": "public/data/training-programs.json: programs.4.trainingDays=4; programs.5.trainingDays=5; each includes seven calendar days with rest days"
+    },
+    {
+      "claim": "App recipe library contains 500 entries",
+      "evidence": "public/data/recipes-calculated.json: recipes length 500, 500 distinct IDs and 500 distinct names; public/assets/nutrition.mjs loads this file"
+    },
+    {
+      "claim": "Nutrition values are estimates rather than medical or laboratory precision",
+      "evidence": "Recipe root status says calculated suggestions, not medically approved or independently taste-tested; every recipe reviewStatus is calculated-pending-professional-review; public/assets/nutrition.mjs intro cites USDA SR28 and pending professional review"
+    },
+    {
+      "claim": "Current ad price 15.99 SAR is owner-supplied",
+      "evidence": "planning-packet.json user_requirements: owner explicitly supplied 15.99 SAR on 28 Oct 2026 Riyadh; this is not independent proof of live store price"
+    }
+  ],
+  "prioritized_acceptance_checks": [
+    {
+      "priority": "P0",
+      "check": "Final narration, Arabic captions, price card and CTA consistently say 15.99 SAR with no unsupported discount, urgency, guarantee or claim that store settings were changed."
+    },
+    {
+      "priority": "P0",
+      "check": "No guaranteed physique, weight-loss outcome, fixed transformation deadline, medical endorsement or professional certification is asserted or visually implied."
+    },
+    {
+      "priority": "P0",
+      "check": "Any claim of exercise explanation links or videos is verified separately before use: local app exercise records contain video:null and UI explicitly says verified technique videos are unavailable in the original. Real app interaction must not imply working video playback."
+    },
+    {
+      "priority": "P1",
+      "check": "34-page PDF, 4/5 training days and 500 recipes remain accurately scoped to the guide/app; recipe quantity must not imply 500 clinically validated or personally tailored meal prescriptions."
+    },
+    {
+      "priority": "P1",
+      "check": "Demonstration captures current authorized app/brand assets, identifies example data as demonstration where needed, and avoids fabricated product features or results."
+    },
+    {
+      "priority": "P1",
+      "check": "Freeze reviewed artifact paths/digests and source-to-claim map so final verdict applies to the delivered render; report unresolved source discrepancies explicitly."
+    }
+  ],
+  "contrary_evidence": [
+    {
+      "issue": "Planning packet mentions explanation links; current app data and UI do not substantiate technique-video availability.",
+      "evidence": [
+        "public/data/training-programs.json exercises.*.video=null in inspected sample",
+        "public/assets/training.mjs:127 and :170 explicitly state no verified technique video in original"
+      ],
+      "resolution": "Use supported program/card facts; independently substantiate any explanation-link wording before including it."
+    },
+    {
+      "issue": "Training source states qualified exercise-professional review pending and RTL printed repetition order ambiguous.",
+      "evidence": "public/data/training-programs.json reviewStatus and prescriptionNote",
+      "resolution": "Do not present these programs as medically certified or as independently reviewed exercise prescriptions."
+    }
+  ],
+  "evidence_still_needed": [
+    "Frozen final video and digest",
+    "Final spoken/visible Arabic transcript with timings",
+    "Source provenance for actual product demo and any explanation-link claim"
+  ],
+  "non_applicable": [
+    "Store editing, payment settings, software infrastructure and unrelated security/finance changes are outside this advertisement fact-check scope."
+  ],
+  "limitations": [
+    "No final candidate reviewed and no approval cast.",
+    "Local source inspection does not verify current live storefront availability or price.",
+    "Technical audio evidence and ASR cannot establish human-perceived narration naturalness; no human listening capability is claimed.",
+    "No external probes, outcome study or medical validation performed."
+  ]
+}

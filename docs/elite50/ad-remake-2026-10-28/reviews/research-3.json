@@ -1,0 +1,56 @@
+{
+  "expert": "research-3",
+  "version": "v12-final-1",
+  "digest": "6b6846706f12db961b678c585330dffd8222545cdd810412a320c4a6af22d553",
+  "decision": "NEEDS_EVIDENCE",
+  "reason": "The Arabic writing and sampled encoded presentation are clear, audience-appropriate and materially supported within this ad's scope. However, spoken clarity and the owner's explicit requirement for smooth, natural source narration remain unverified: I cannot listen, and the supplied automatic transcript contains substantial word substitutions. These substitutions do not prove an audible defect, but they prevent an unconditional verdict on the full production request.",
+  "evidence": [
+    {
+      "file": "creative/voice-ad-premium-v12/reports/encoded-contact.jpg",
+      "inspection": "Personally inspected with view_image. The beginner's question at 1.040s, conflicting advice at 4.290s, product cover at 8.650s, bundle at 12.575s, program options at 15.700s, calculator at 18.550s, recipe at 22.775s and CTA at 27.650/29.700s form a coherent problem-to-solution sequence. Main Arabic headings and captions are distinct; the price and purchase instruction are clear. Fine screenshot text and caveats are smaller than the main copy."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/reports/encoded-handoffs.jpg",
+      "inspection": "Personally inspected with view_image. Sampled transitions around 6.32–7.08s and 25.32–26.08s preserve the lower caption region while revealing the product and CTA. This is discrete frame inspection, not continuous playback."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/captions.srt; creative/voice-ad-premium-v12/index.html",
+      "inspection": "Read all 14 Arabic caption groups and the actual scene text. Colloquial phrasing such as 'المشكلة مين تتبع' fits the intended beginner audience. The source distinguishes 'دليل PDF + تطبيق مدار', 4/5-day programs, exercise explanation links inside the PDF, and 500 recipes in the app. Calculator and recipe scenes explicitly label examples and estimates. The CTA says 'احصل على بروتوكول التحوّل', shows 15.99 ر.س and mdaar21.zid.store."
+    },
+    {
+      "file": "docs/elite50/ad-remake-2026-10-28/evidence/claim-map.json",
+      "inspection": "Read the full claim map. It identifies the owner's price instruction, actual program and recipe data sources, PDF explanation links and actual app screenshot provenance. It limits the recipe count to the app, nutrition to estimates and the price change to this advertisement. These qualifications agree with the inspected ad copy; this review did not independently recount all recipes or open every PDF link."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/reports/edited-asr.json",
+      "inspection": "Read the automatic transcript. At 0–4.16s it produces 'قاعدت مرا' and 'لأنك مليون مخطح'; at 11.98–14.14s it produces 'سوين بوتوكول'; at 14.14–19.6s it produces 'خبطة'. The intended captions are intelligible Arabic, but this record cannot establish precise audible correspondence. Dialect/model errors remain a plausible explanation."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/reports/audio-edit.json; reports/encoded-validation.json; reports/check-final.json",
+      "inspection": "Read the records: three source narration segments, light EQ, no stated pitch/speed change, 3.79s tail hold; encoded 1080x1920, 60/1 fps, 29.8s and successful decoding. Automated sampled contrast passed 33 checks. These are supplied technical records, not my listening or a user reading study."
+    }
+  ],
+  "strengths": [
+    "A concrete beginner concern leads naturally to a named product, visible features, actual app examples and a specific purchase instruction.",
+    "The Arabic maintains a consistent accessible Gulf register; short captions support the narrated argument without introducing unsupported numerical outcomes.",
+    "No observed fake discount, urgency, testimonial or physique-result promise. The final price is explicitly owner-authorized in the packet."
+  ],
+  "issues": [
+    {
+      "severity": "evidence_gap",
+      "detail": "Obtain an authorized fluent Arabic listening check of the final encoded audio for intelligibility, naturalness, joins, caption correspondence and residual music before claiming that the complete production brief is verified. Automatic transcription and levels alone cannot resolve this."
+    },
+    {
+      "severity": "editorial_caution",
+      "detail": "'بدون حيرة بدون تخمين' (19.965–22.280s) and 'واعرف إنك ماشي صح' (24.185–25.990s) are strong reassurance. In context they describe following an organized plan, with visible estimated-value qualifiers; I do not read them as a specific medical or body-outcome guarantee. They should not be represented elsewhere as proof of universal suitability."
+    }
+  ],
+  "limitations": [
+    "No human listening capability, continuous-video viewing, audience reading/comprehension study or conversion testing was available in this review.",
+    "The composite images were displayed at reduced size. Main copy was assessable, while precise phone-size readability of the smallest screenshot and disclaimer text was not independently established.",
+    "No checkout, fulfillment, current store price, medical suitability, third-party explanation-video availability or fifty-reviewer consensus was independently verified."
+  ],
+  "non_applicable_criteria": [
+    "Clinical nutrition validation, formal legal certification, store administration, security testing and sales forecasting are outside this professional-writer review."
+  ]
+}

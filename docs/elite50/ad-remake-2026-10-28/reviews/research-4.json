@@ -1,0 +1,57 @@
+{
+  "expert": "research-4",
+  "version": "v12-final-1",
+  "digest": "6b6846706f12db961b678c585330dffd8222545cdd810412a320c4a6af22d553",
+  "decision": "NEEDS_EVIDENCE",
+  "reason": "The sampled encoded visuals and editorial structure are coherent, complete and consistent with the stated product premise. I found no confirmed copy or visual continuity error in the inspected evidence. Final acceptance still requires perceptual evidence for the explicitly requested natural narration and absence of music: the provided separation and ASR reports expressly do not establish these qualities.",
+  "evidence": [
+    {
+      "file": "creative/voice-ad-premium-v12/reports/encoded-contact.jpg",
+      "inspection": "Viewed actual encoded contact sheet. At 0.00/1.04s the blank-faced figure and question establish the premise; at 4.29s readable Arabic options develop the uncertainty; the book is plainly visible at 8.65s; 12.575–22.775s progress through contents, training choices, calculator and recipe UI; 27.65/29.70s show the same uncluttered CTA, owner price 15.99 and store address."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/reports/encoded-handoffs.jpg",
+      "inspection": "Viewed sampled encoded transition sequences at approximately 1.90–2.68, 6.32–7.08, 10.62–11.38, 14.17–14.93, 16.87–17.63, 19.87–20.63 and 25.32–26.08s. The caption panel remains separate from the changing product/action area. Intermediate title fades and the final dissolve are visible; these stills do not prove continuous motion quality."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/captions.srt",
+      "inspection": "Read all 14 cues, 00:00:00.045–00:00:25.990. They form a complete, grammatical colloquial Arabic argument from uncertainty to the named product and plan. Short groups fit the protected caption panel in the inspected frames. The script does not promise a numerical physique result."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/reports/source-browser.json",
+      "inspection": "Record reports 14 caption groups within measured bounds, book visible by 7.2s, CTA settled at 26.35s and held 3.45s. This supports the sampled visual observations; it is a software record."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/reports/audio-edit.json; reports/voice-separation.json; reports/edited-asr.json",
+      "inspection": "Read the source-preserving edit record with joins at output 1.96s and 4.31s, no pitch/time change, light EQ and no added music track. The learned separation report explicitly disclaims proof of perfect music removal or naturalness. ASR broadly follows the caption argument but contains recognition differences, including the opening exercise wording, product-name transcription around 13.0s and the closing phrase around 22.2–25.76s; machine errors cannot settle exact spoken wording."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/reports/encoded-validation.json; reports/live-verification.json; reports/check-final.json; reports/motion-playback.json",
+      "inspection": "Inspected records report 1080×1920, 60/1 fps, 1788 frames, 29.8s, successful decode, matching deployed MP4 hash and HTTP 200/206. Browser checks report no layout/runtime errors and a nonblocking duplicate-media-discovery warning. Continuous browser playback was recorded without audio; I did not watch that recording."
+    },
+    {
+      "file": "docs/elite50/ad-remake-2026-10-28/evidence/claim-map.json; creative/voice-ad-premium-v12/DESIGN.md",
+      "inspection": "Price is attributed to the owner; 500 recipes are correctly scoped to the app, exercise links to the PDF, and calculator/recipe examples to illustrative estimated values. The encoded content is consistent with that attribution. I did not independently enumerate the underlying recipes or PDF annotations."
+    }
+  ],
+  "strengths": [
+    "Clear progression from competing advice to a specific guide, then real-looking product examples and an isolated purchase invitation.",
+    "Stable faceless character, restrained black/ivory/gold identity and readable primary Arabic copy across the inspected frames.",
+    "The advertised price, product identity, app/PDF distinction and final CTA are internally consistent."
+  ],
+  "issues": [
+    "No available human listening evidence establishes smooth joins, natural vocal timbre, intelligibility and absence of residual music after learned separation.",
+    "Exact caption-to-speech accuracy remains provisional where ASR differs; this is an evidence gap, not a finding that the displayed Arabic is wrong."
+  ],
+  "objections": [
+    "Do not represent technical loudness, a no-added-music flag, preserved pitch or machine ASR as perceptual sign-off. Review the final encoded audio, particularly 0–4.5s, the 4.31s join, the product name around 13s and the closing 22–26s, and record intelligibility/naturalness and residual-music findings."
+  ],
+  "limitations": [
+    "Inspected encoded still sheets and documentary test records; did not hear audio or watch continuous video.",
+    "Sampled stills cannot independently certify every frame, real-time pacing or perceptual smoothness.",
+    "This individual review does not establish the existence or verdicts of the other 49 expert contexts, audience performance, or checkout functionality."
+  ],
+  "non_applicable_criteria": [
+    "Academic research methodology, clinical validation, store checkout/fulfillment certification and formal legal opinions are outside this senior-editor review. Overall editorial completeness and consistency remain assessed."
+  ]
+}

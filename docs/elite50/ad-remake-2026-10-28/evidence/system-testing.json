@@ -1,0 +1,11 @@
+{
+  "hyperframes": "creative/voice-ad-premium-v12/reports/check-final.json",
+  "browser": "creative/voice-ad-premium-v12/reports/source-browser.json",
+  "actualPlayback": "creative/voice-ad-premium-v12/reports/motion-playback.json",
+  "encoded": "creative/voice-ad-premium-v12/reports/encoded-validation.json",
+  "player": "creative/voice-ad-premium-v12/reports/player-browser.json",
+  "live": "creative/voice-ad-premium-v12/reports/live-verification.json",
+  "allExecuted": true,
+  "humanListening": false,
+  "warning": "One known lint warning for reused original cover; no runtime/layout/motion/contrast findings."
+}

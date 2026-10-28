@@ -1,0 +1,84 @@
+{
+  "expert": "creative-2",
+  "version": "v12-final-1",
+  "digest": "6b6846706f12db961b678c585330dffd8222545cdd810412a320c4a6af22d553",
+  "decision": "APPROVE",
+  "reason": "Approved within typography, spacing and interaction-state scope. The encoded samples show connected, unclipped Arabic headings, a consistent dark/cream/gold hierarchy, clearly separated feature rows, protected captions and an uncluttered price/CTA hold. The product and app are visibly demonstrated. This is a visual/UI approval, not certification of the unresolved perceptual audio requirements.",
+  "evidence": [
+    {
+      "file": "creative/voice-ad-premium-v12/reports/encoded-contact.jpg",
+      "inspection": "Personally inspected via view_image: ten encoded samples from 0.00 to 29.70 seconds. Opening premise, product reveal, lists, real app screens and final CTA have clear hierarchy."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/reports/encoded-handoffs.jpg",
+      "inspection": "Personally inspected via view_image: sampled transition sequences near 2.08, 6.5, 10.8, 14.35, 17.05, 20.05 and 25.5 seconds. Captions remain on a separate stable layer; heading fades avoid Arabic being visibly cut by the sampled wipes. This is sample inspection, not continuous playback."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/reports/encoded-frames/hero-3.jpg",
+      "time": 8.65,
+      "inspection": "Personally inspected at original 1080x1920. Large Arabic heading, book title and caption are legible; character and book do not cover the caption."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/reports/encoded-frames/hero-4.jpg",
+      "time": 12.575,
+      "inspection": "Personally inspected at original resolution. Three feature rows have clear numbering, baseline spacing and dividers, with no apparent glyph clipping or collision."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/reports/encoded-frames/hero-7.jpg",
+      "time": 22.775,
+      "inspection": "Personally inspected at original resolution. Recipe quantity 1.5, macro values and supporting callout visibly communicate a changed portion. Caption is separated from the app frame."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/reports/encoded-frames/hero-8.jpg",
+      "time": 27.65,
+      "inspection": "Personally inspected at original resolution. 15.99 SAR, action phrase and store URL are clearly ordered; no cursor/loading overlay or caption obscures the CTA."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/reports/source-browser.json",
+      "inspection": "Inspected recorded caption bounds: all 14 boxes at y=1460 with height 121.046875; widest spans x=101.90625 to 898.109375. Reports CTA settled by 26.35 seconds, leaving 3.45 seconds. Reviewed verify-source.py assertions supporting the bounds and seek-state checks."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/index.html",
+      "inspection": "Inspected CSS/source: Lalezar headings, Noto Arabic body and 51px bold captions; caption gutters left 80/right 160; no interactive behavior is implied for the encoded CTA."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/reports/player-mobile.png",
+      "inspection": "Personally inspected screenshot: native video controls and responsive Arabic player layout visible without apparent horizontal overflow."
+    },
+    {
+      "file": "public/ad/premium/index.html and creative/voice-ad-premium-v12/reports/player-browser.json",
+      "inspection": "Source includes native controls, named download links and focus-visible outlines. Recorded tests report play/pause, scene seeks and three downloads at 320/390/1440px with no overflow or runtime errors; I did not independently run these interactions."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/reports/check-final.json and reports/encoded-validation.json",
+      "inspection": "Recorded checks report zero layout/runtime errors, 33/33 sampled contrast checks, 1080x1920 at 60/1 fps and no decode warnings. One duplicate media-discovery warning remains; no visible defect identified in inspected encoded samples."
+    }
+  ],
+  "strengths": [
+    "Caption blocks preserve Arabic shaping and remain distinct from product imagery.",
+    "Feature lists and the 15.99 SAR closing hierarchy are clear at inspected resolution.",
+    "Actual app values and an explicit 1.5 portion callout give the demonstration a readable state change.",
+    "Final CTA is clean and held, with a visible destination URL."
+  ],
+  "issues": [
+    {
+      "severity": "nonblocking",
+      "detail": "App microcopy, calculator disclaimers and some cover fine print will become small on a narrow phone. The main benefit text, portion callout, captions and price remain substantially larger; do not claim every pixel of the source app is equally readable."
+    },
+    {
+      "severity": "nonblocking",
+      "detail": "The portion callout overlays part of the lower app action area at 22.775 seconds, while preserving the portion input, macro values and main narrative. This is acceptable for a demonstration rather than a full interaction tutorial."
+    }
+  ],
+  "objections": [],
+  "limitations": [
+    "No human listening capability: natural voice quality, intelligibility and perfect music removal are unverified. This limits approval to my assigned visual/UI domain.",
+    "Inspected stills, source and recorded test evidence; did not claim to watch continuous video or independently exercise the live player.",
+    "Caption safe margins are visible in this encoded composition; no actual TikTok overlay/device matrix was inspected.",
+    "No baseline visual comparison was performed, so the degree of improvement over the previous version is not numerically established."
+  ],
+  "non_applicable_criteria": [
+    "Store checkout, app-wide interaction design, conversion performance, legal compliance and clinical nutrition validity are outside this ad typography/layout review.",
+    "Hover/pressed states inside the encoded video are not applicable; keyboard focus is relevant to the downloadable player and is defined in its source."
+  ]
+}

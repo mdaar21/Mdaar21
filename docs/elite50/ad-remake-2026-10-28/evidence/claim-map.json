@@ -1,0 +1,43 @@
+{
+  "owner_price": {
+    "value": "15.99 SAR",
+    "source": "Current user instruction, 28 Oct 2026 Riyadh",
+    "scope": "Advertisement only; not a claim that store settings were edited"
+  },
+  "guide": {
+    "pages": 34,
+    "sha256": "de78fbb1468cbd7cdb635649500476022f3bbf8e6cc7c242bd6f690db54c34d5",
+    "uniqueExplanationURLs": 43,
+    "source": "docs/artifacts/mdaar-protocol-original-identity-v5.pdf; local URL annotations verified",
+    "scope": "Links in PDF, not app technique-video playback; third-party technique/availability unverified"
+  },
+  "programs": {
+    "trainingDays": [
+      4,
+      5
+    ],
+    "source": "public/data/training-programs.json"
+  },
+  "recipes": {
+    "count": 500,
+    "distinctIds": 500,
+    "source": "public/data/recipes-calculated.json",
+    "scope": "500 entries in app, not all in PDF; values calculated estimates, not professional clinical validation"
+  },
+  "screenshots": {
+    "source": "Existing actual app screenshots from creative/voice-ad-transitions/assets/",
+    "calculatorExample": "Male25,75kg,175cm,activity1.55,maintenance: Mifflin1723.75x1.55 ->2672 kcal; P150/C351/F74",
+    "recipeExample": "Real oatmeal recipe UI, portions1 ->1.5, screenshots show updated estimated values; cropped via viewport only",
+    "label": "Example/estimates are visible in ad"
+  },
+  "character": {
+    "source": "Original SVG reinterpretation by coordinator in character.py, based on user-uploaded faceless figure premise",
+    "faces": "four head groups, one blank circle each, no eye/nose/mouth or photographic background people"
+  },
+  "scopeLimits": [
+    "No fake testimonials, guaranteed physique, medical precision, artificial urgency or current discounted price claims",
+    "No store/admin edits, purchase, account authorization or fulfillment test",
+    "No human listening or audience conversion study",
+    "No paid API/provider calls; local model/audio processing and owned assets only"
+  ]
+}

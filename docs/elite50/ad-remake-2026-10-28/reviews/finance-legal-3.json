@@ -1,0 +1,66 @@
+{
+  "expert": "finance-legal-3",
+  "version": "v12-final-1",
+  "digest": "6b6846706f12db961b678c585330dffd8222545cdd810412a320c4a6af22d553",
+  "decision": "NEEDS_EVIDENCE",
+  "reason": "The inspected price, feature presentation and qualified estimates fit the authorized advertisement scope, and I found no investment, sales or physique guarantee in the inspected frames or captions. Overall production sign-off remains unsupported for the explicit natural narration/no-music requirements: the separation report expressly identifies approximate removal and no human listening. This is an evidence gap, not a finding that the soundtrack fails.",
+  "evidence": [
+    {
+      "file": "creative/voice-ad-premium-v12/reports/encoded-contact.jpg",
+      "method": "Direct view_image inspection of sampled encoded frames",
+      "finding": "At 15.700s the 4/5-day choices and PDF-link note are visible; at 18.550s the calorie example includes an estimate/example note; at 22.775s the 500-recipes claim explicitly refers to the app and estimated nutrition. At 27.650s and 29.700s the held CTA clearly shows 15.99 SAR and the store address. The character has a blank face."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/reports/encoded-handoffs.jpg",
+      "method": "Direct view_image inspection of sampled transition frames",
+      "finding": "The book becomes visible around 6.5–7.08s, app screens replace feature cards, and CTA elements settle after the closing dissolve. These stills do not establish perceptual motion quality throughout."
+    },
+    {
+      "file": "docs/elite50/ad-remake-2026-10-28/evidence/claim-map.json",
+      "finding": "15.99 SAR is explicitly owner supplied for the advertisement; claims are bounded to 4/5-day programs, links in the PDF, and 500 app entries. Checkout configuration, third-party video availability, clinical validation and campaign performance are excluded."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/captions.srt",
+      "finding": "The closing language at 19.965–25.990s conveys confidence in following a plan, without a quantified return, guaranteed outcome or time-bound physique promise."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/reports/audio-edit.json; reports/voice-separation.json",
+      "finding": "Records report no pitch shift, time stretch, synthesized voice or added music and a conservative edit. Separation is explicitly approximate; neither record establishes audible naturalness, intelligibility, or absence of residual source music."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/reports/encoded-validation.json; reports/live-verification.json",
+      "finding": "Inspected records report 29.8s, 1080×1920, 60/1 fps, 1788 frames, clean decode, and a live MP4 matching the local hash. These are recorded checks, not newly executed tests."
+    },
+    {
+      "file": "public/data/training-programs.json",
+      "finding": "The source explicitly states qualified exercise professional review is pending and makes no medical/certification claim; this supports retaining the ad's limited product-description scope."
+    }
+  ],
+  "strengths": [
+    "The advertisement uses the owner-authorized price without a fabricated discount, urgency, testimonial or financial return.",
+    "Nutrition examples disclose estimation and show actual app interfaces in the inspected encoded samples.",
+    "A clear held CTA and downloadable deliverable reduce practical delivery uncertainty."
+  ],
+  "issues": [
+    {
+      "severity": "blocking-evidence-gap",
+      "requirement": "Smooth natural source narration and no music",
+      "detail": "Independent perceptual evidence for the final encoded soundtrack is absent. Obtain listening verification against the source for vocal artifacts, edit continuity, caption intelligibility and residual music before treating these requirements as confirmed."
+    },
+    {
+      "severity": "caveat",
+      "detail": "The phrases 'بدون تخمين' and 'واعرف إنك ماشي صح' should remain interpreted as organizational guidance. The visible estimate notes and lack of explicit outcome guarantees limit, but do not eliminate, broad audience interpretations."
+    }
+  ],
+  "objections": [
+    "No basis exists to infer campaign ROI or sales uplift from production polish or the 15.99 SAR price."
+  ],
+  "limitations": [
+    "I inspected encoded contact sheets and evidence files; I did not hear audio or watch continuous video.",
+    "I did not verify checkout, payment, fulfillment, store price settings, formal legal status, third-party links, or clinical suitability; these are outside this production scope.",
+    "I reviewed no other expert opinions and cannot independently certify the completion or consensus of all fifty contexts."
+  ],
+  "non_applicable_criteria": [
+    "Portfolio allocation, investment alternatives, valuation, risk-adjusted investment returns and campaign ROI require financial or campaign data absent from this advertisement-production task. No such analysis or guarantee is implied by this review."
+  ]
+}

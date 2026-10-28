@@ -1,0 +1,57 @@
+{
+  "expert": "engineering-5",
+  "version": "v12-final-1",
+  "digest": "6b6846706f12db961b678c585330dffd8222545cdd810412a320c4a6af22d553",
+  "decision": "NEEDS_EVIDENCE",
+  "reason": "The inspected static public player has a small, appropriate privilege surface and no observed scoped security blocker. Encoded visual samples and technical records support substantial completion. Full production approval remains unsupported because natural narration and absence of residual source music are explicit requirements, while the supplied learned-separation record explicitly does not establish either perceptual property.",
+  "evidence": [
+    {
+      "file": "public/ad/premium/index.html",
+      "finding": "Inspected full source: static native video and three same-origin downloads; no scripts, forms, authentication, payment flow, or apparent credentials. CSP restricts resources to self, disables objects, base URLs and form submission; external store link uses noopener noreferrer. Independent local SHA-256 matches candidate.json: ce213c450ab4b60ba68cf8d26ebd15a77eb451139c34256391ffa004808a3fbb."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/reports/encoded-contact.jpg",
+      "finding": "Personally inspected encoded still sheet using view_image. Faceless figure, real-looking calculator/recipe demonstrations, Arabic caption strips, and uncluttered 15.99 SAR CTA are visible; CTA remains present at 27.650s and 29.700s. This is sampled image evidence, not continuous viewing."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/reports/encoded-handoffs.jpg",
+      "finding": "Personally inspected transition sheet using view_image. Product enters around 6.5s; sampled caption bands remain clear of transition geometry and final dissolve leads into the price/CTA."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/reports/encoded-validation.json",
+      "finding": "Existing record reports 1080x1920, 60/1 fps, 1788 frames over 29.8s, zero decode warnings and fast-start ordering. Independently hashed public MP4 matches its reported and frozen candidate SHA-256: 0d741b5bef0424be521ba9938e891d8a4f6163b7e075e4cab592f3f8f8ff3940. Validation was not rerun."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/reports/player-browser.json; reports/live-verification.json; verify-player.py",
+      "finding": "Inspected test implementation and existing records: local native playback/seeking and three download responses at 320/390/1440 widths; live record reports matching hashes for player/media/captions/poster and HTTP 206 video range response. No external requests or probes were performed in this review."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/reports/audio-edit.json; reports/voice-separation.json; SPEC.md",
+      "finding": "Records preserve source speech without pitch/time changes, document modest EQ and nine effects, and report no added music or clipping. However, voice separation is a learned estimate, humanListening is false, and its stated limits explicitly exclude proof of perfect music removal or perceptual naturalness."
+    },
+    {
+      "file": "docs/elite50/ad-remake-2026-10-28/evidence/claim-map.json",
+      "finding": "Scope confines 15.99 SAR to owner-directed advertising, labels nutritional values as estimates, and excludes store/admin changes, account authorization, purchasing, and fulfillment tests. This is consistent with the inspected distribution surface."
+    }
+  ],
+  "strengths": [
+    "Public player exposes intended promotional media without collecting viewer data or introducing backend privileges.",
+    "Inspected player and encoded MP4 identities match the frozen manifest.",
+    "Scope and technical/perceptual limits are documented candidly."
+  ],
+  "issues": [
+    "A perceptual listening review of this exact encoded MP4 is still needed to assess source-narration naturalness, intelligibility at edits, and residual music against the owner's requirements."
+  ],
+  "objections": [
+    "No security-specific blocking defect observed within the inspected static player scope; this is not a security certification of the separate application or store."
+  ],
+  "limitations": [
+    "No human listening capability; no claim to have heard or watched continuous video.",
+    "Inspected static source, selected local hashes, encoded still sheets and existing records only; no attacks, external probes, new tests or processing jobs.",
+    "No broad repository secret scan, hosting-header audit, application/backend audit, checkout test or independent verification of all fifty expert contexts. Other reviewers' opinions were not read."
+  ],
+  "non_applicable_criteria": [
+    "Backend authorization, tenant isolation, sensitive account storage and payment privileges are outside this static advertisement/player deliverable.",
+    "Medical validation, legal status, conversion performance and storefront fulfillment are outside this review's authorized scope."
+  ]
+}

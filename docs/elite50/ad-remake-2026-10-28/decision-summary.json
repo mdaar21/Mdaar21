@@ -1,0 +1,353 @@
+{
+  "version": "v12-final-1",
+  "digest": "6b6846706f12db961b678c585330dffd8222545cdd810412a320c4a6af22d553",
+  "participants": 50,
+  "actualIndependentContexts": 50,
+  "decisions": {
+    "NEEDS_EVIDENCE": 34,
+    "APPROVE": 16
+  },
+  "councils": {
+    "executive": {
+      "NEEDS_EVIDENCE": 5
+    },
+    "engineering": {
+      "APPROVE": 2,
+      "NEEDS_EVIDENCE": 3
+    },
+    "creative": {
+      "APPROVE": 4,
+      "NEEDS_EVIDENCE": 1
+    },
+    "ai": {
+      "NEEDS_EVIDENCE": 5
+    },
+    "commerce": {
+      "APPROVE": 4,
+      "NEEDS_EVIDENCE": 1
+    },
+    "marketing": {
+      "NEEDS_EVIDENCE": 4,
+      "APPROVE": 1
+    },
+    "research": {
+      "NEEDS_EVIDENCE": 5
+    },
+    "finance-legal": {
+      "NEEDS_EVIDENCE": 2,
+      "APPROVE": 3
+    },
+    "quality": {
+      "NEEDS_EVIDENCE": 3,
+      "APPROVE": 2
+    },
+    "innovation": {
+      "NEEDS_EVIDENCE": 5
+    }
+  },
+  "frozenFiles": 47,
+  "frozenFileHashesUnchanged": true,
+  "meaning": "Production review decisions with stated scope; not human audition, legal certification or measured audience effectiveness.",
+  "rows": [
+    {
+      "expert": "executive-1",
+      "decision": "NEEDS_EVIDENCE",
+      "score": null,
+      "reason": "The frozen deliverable substantially aligns with the owner's advertisement scope and has measurable delivery evidence. Encoded stills show the recognizable faceless premise, orderly Arabic menus and captions, actual product/app material and a legible held 15.99 SAR CTA. However, smooth natural narration and absence of residual music are explicit acceptance requirements; the supplied separation and audio reports expressly do not establish either perceptually. I cannot close overall production acceptance without that evidence."
+    },
+    {
+      "expert": "executive-2",
+      "decision": "NEEDS_EVIDENCE",
+      "score": null,
+      "reason": "The inspected visual and delivery evidence supports a strategically coherent ad: the familiar faceless problem premise leads to an early branded product, actual app examples, and a held price/CTA. However, smooth natural source narration and absence of music are explicit production requirements. Learned separation and technical audio records do not establish their perceptual satisfaction, and no human listening evidence is supplied. I cannot approve complete fulfillment while that material requirement remains unverified."
+    },
+    {
+      "expert": "executive-3",
+      "decision": "NEEDS_EVIDENCE",
+      "score": null,
+      "reason": "The production handoff is operationally credible and recoverable: the frozen MP4, downloadable player, retained final mix, source scripts, asset provenance and measured checks form a usable delivery package. However, smooth natural narration and absence of residual music are explicit completion conditions. The supplied separation record explicitly cannot establish either perceptual result, and no human listening evidence is available. I cannot mark the whole production request complete on technical audio measurements alone."
+    },
+    {
+      "expert": "executive-4",
+      "decision": "NEEDS_EVIDENCE",
+      "score": null,
+      "reason": "The inspected encoded images and supporting records cover the visual proposition, owner-supplied price, concrete product examples, held CTA and delivery requirements well. However, natural source narration and absence of music are explicit acceptance requirements. The inspected processing code and records establish no added music, no pitch/time changes and approximate learned vocal separation, but explicitly do not establish perceptual naturalness or complete music removal. Without an actual listening assessment, overall requirements acceptance remains incomplete; this is an evidence gap rather than an observed audio defect."
+    },
+    {
+      "expert": "executive-5",
+      "decision": "NEEDS_EVIDENCE",
+      "score": null,
+      "reason": "The inspected frames and technical records substantially reduce visual, delivery and misleading-claim risk. However, smooth natural narration and absence of music are explicit production requirements. The learned separation record expressly cannot establish either perceptually, and no listening evidence is available. This leaves a material acceptance gap, rather than an observed audio defect."
+    },
+    {
+      "expert": "engineering-1",
+      "decision": "APPROVE",
+      "score": null,
+      "reason": "Within the ad/player engineering scope, the frozen deliverable has an appropriate, maintainable structure and credible artifact-specific validation. Source composition, animation, audio preparation and static delivery are separated clearly. The encoded images inspected show the requested faceless premise, product and app examples, protected captions and held 15.99 SAR CTA. This is a technical approval, with the perceptual audio and broader process limits below; it does not certify every production requirement outside this role."
+    },
+    {
+      "expert": "engineering-2",
+      "decision": "NEEDS_EVIDENCE",
+      "score": null,
+      "reason": "The responsive player, download delivery, caption presentation and encoded visual layout are supported by source inspection, encoded stills and recorded browser checks. I found no blocking frontend defect in that evidence. The overall production request nevertheless includes natural narration and no music: vocal separation is explicitly approximate, and no human listening evidence establishes either perceptual requirement. This is an evidence gap rather than a finding that the audio sounds bad."
+    },
+    {
+      "expert": "engineering-3",
+      "decision": "APPROVE",
+      "score": null,
+      "reason": "Approved within the authorized ad/player engineering scope. The frozen artifact has credible encoded-format, delivery and playback evidence, and the player source provides a direct downloadable fallback without requiring an account or backend. My direct inspection of the encoded contact and handoff sheets supports the faceless premise, early product presence, app examples, protected captions and held price/CTA. This is not a perceptual audio certification."
+    },
+    {
+      "expert": "engineering-4",
+      "decision": "NEEDS_EVIDENCE",
+      "score": null,
+      "reason": "Artifact and advertised-data integrity are supported, and the inspected encoded stills show the requested character, product demonstration and held price/CTA. Full production acceptance remains unproven for the explicit natural-narration and no-music requirements: the source underwent learned vocal separation, while the supplied evidence explicitly lacks perceptual listening. This is an evidence gap, not an observed audible defect."
+    },
+    {
+      "expert": "engineering-5",
+      "decision": "NEEDS_EVIDENCE",
+      "score": null,
+      "reason": "The inspected static public player has a small, appropriate privilege surface and no observed scoped security blocker. Encoded visual samples and technical records support substantial completion. Full production approval remains unsupported because natural narration and absence of residual source music are explicit requirements, while the supplied learned-separation record explicitly does not establish either perceptual property."
+    },
+    {
+      "expert": "creative-1",
+      "decision": "APPROVE",
+      "score": null,
+      "reason": "Approved within art-direction scope: the frozen candidate has coherent black/gold/ivory identity, recognisable faceless character, usable original product assets, clear demonstrations and a settled CTA. The draft blocker involving sliced Arabic headings is corrected in the encoded samples and animation timing. No remaining blocking visual defect was found in the inspected evidence. This decision does not establish narration naturalness or perfect source-music removal."
+    },
+    {
+      "expert": "creative-2",
+      "decision": "APPROVE",
+      "score": null,
+      "reason": "Approved within typography, spacing and interaction-state scope. The encoded samples show connected, unclipped Arabic headings, a consistent dark/cream/gold hierarchy, clearly separated feature rows, protected captions and an uncluttered price/CTA hold. The product and app are visibly demonstrated. This is a visual/UI approval, not certification of the unresolved perceptual audio requirements."
+    },
+    {
+      "expert": "creative-3",
+      "decision": "NEEDS_EVIDENCE",
+      "score": null,
+      "reason": "The inspected encoded images and player evidence support completion of the visual and download experience: a clear problem-to-product sequence, protected Arabic captions, real application examples, visible 15.99 SAR price and a held CTA. I cannot close the complete production request because the explicitly required smooth, natural narration and audible caption correspondence have no perceptual listening verification. This is an evidence gap, not an observed audio defect."
+    },
+    {
+      "expert": "creative-4",
+      "decision": "APPROVE",
+      "score": null,
+      "reason": "The frozen candidate meets the motion-design criteria within the ad scope: recognizable white featureless character, restrained purposeful gestures, clear menu entrances, protected stationary captions, early anchored product reveal, deterministic timeline structure and a clean settled CTA. Encoded-image inspection and the inspected cadence/render records provide adequate evidence for this motion verdict. This is not a certification of perceived narration naturalness."
+    },
+    {
+      "expert": "creative-5",
+      "decision": "APPROVE",
+      "score": null,
+      "reason": "Approved within the Brand Designer remit: inspected encoded samples show a coherent black/ivory/gold identity, consistent Arabic hierarchy, recognizable faceless character and preserved product identity. The closing samples give the brand, owner-specified 15.99 SAR and purchase direction a clear visual hierarchy. This is a visual-brand approval; it does not certify narration naturalness or complete music removal."
+    },
+    {
+      "expert": "ai-1",
+      "decision": "NEEDS_EVIDENCE",
+      "score": null,
+      "reason": "The frozen video has strong visual and technical delivery evidence, and the audio pipeline preserves source timing and pitch. However, its learned vocal separation has no perceptual validation. Smooth natural narration and absence of residual music are explicit production requirements that the inspected ASR, levels, transform identity test and encode correlation cannot establish. This is an evidence gap, not a finding that the audio sounds bad."
+    },
+    {
+      "expert": "ai-2",
+      "decision": "NEEDS_EVIDENCE",
+      "score": null,
+      "reason": "The inspected deliverable and production pipeline support the requested visual, encoding and delivery behavior. Agent boundaries are appropriately narrow in this review, and the local animation/audio sources expose reproducible stages rather than a deployed autonomous agent. However, the owner explicitly requires natural source narration and no music. The learned vocal separation report expressly does not establish either perceptual naturalness or perfect background removal, and no listening evidence is available. I cannot turn that acknowledged gap into an unconditional production approval. This context also cannot certify that fifty distinct actual final-review contexts have completed; the coordinator must retain orchestration records before claiming that requirement."
+    },
+    {
+      "expert": "ai-3",
+      "decision": "NEEDS_EVIDENCE",
+      "score": null,
+      "reason": "The inspected encoded stills and technical records substantiate a coherent production deliverable with real product examples, owner-directed pricing, protected Arabic captions and measured 1080x1920/60fps output. The data supports those specific properties, but cannot establish the requested natural narration or absence of residual music after learned vocal separation. That material acceptance gap prevents an unconditional production approval; it is not evidence that the audio is defective. No audience results exist, and none are needed to substantiate the production measurements."
+    },
+    {
+      "expert": "ai-4",
+      "decision": "NEEDS_EVIDENCE",
+      "score": null,
+      "reason": "The inspected automation and encoded visual evidence support delivery of the revised ad, but the explicit natural-narration and no-music requirements remain perceptually unverified after learned vocal separation. This is an evidence gap, not a finding that the audio is defective."
+    },
+    {
+      "expert": "ai-5",
+      "decision": "NEEDS_EVIDENCE",
+      "score": null,
+      "reason": "The inspected local advertisement respects the relevant misuse and human-control boundaries, but the frozen production request includes natural source narration and no music. The recorded learned vocal separation explicitly cannot establish either perceptual naturalness or complete music removal. Without listening evidence, I cannot honestly approve those material requirements for the overall deliverable."
+    },
+    {
+      "expert": "commerce-1",
+      "decision": "APPROVE",
+      "score": null,
+      "reason": "Approve within the commerce advertising scope: the encoded samples identify the actual digital product, distinguish the PDF from app recipes and tools, display the owner-authorized 15.99 SAR, and end with a stable product CTA and store address. Catalog quantity and training options match the inspected local data. The delivered MP4/player evidence supports the requested review and download handoff. This vote does not certify subjective narration quality or a functioning purchase/fulfillment journey."
+    },
+    {
+      "expert": "commerce-2",
+      "decision": "APPROVE",
+      "score": null,
+      "reason": "Approved within sales-ad scope: the encoded samples communicate a concrete bundle, demonstrate useful app functions, state the owner-authorized 15.99 SAR price, and hold a clear purchase instruction and store address. I found no blocking discrepancy between the inspected commercial claims and the available product evidence. This is not certification of checkout, fitness suitability, conversion performance, or the unassessed listening requirements."
+    },
+    {
+      "expert": "commerce-3",
+      "decision": "APPROVE",
+      "score": null,
+      "reason": "Approved within advertisement pricing and offer-presentation scope. The encoded closing frames visibly show the owner-authorized 15.99 SAR with the product, purchase CTA and store address. The offer describes actual 4/5-day programs and 500 app recipes, which I independently checked in local product data. No discount, fabricated reference price, urgency, savings, profitability or sales forecast is required or supported. Production evidence supports delivery completeness; subjective audio quality remains outside my verification capability."
+    },
+    {
+      "expert": "commerce-4",
+      "decision": "NEEDS_EVIDENCE",
+      "score": null,
+      "reason": "The price, offer presentation and downloadable deliverable are supported within advertisement scope. However, the complete production request explicitly requires natural narration and no music. The inspected separation report states that removal is approximate and that perceptual naturalness and perfect music removal are unestablished. Without listening evidence I cannot independently certify those requirements as satisfied. This evidence gap is unrelated to payment execution."
+    },
+    {
+      "expert": "commerce-5",
+      "decision": "APPROVE",
+      "score": null,
+      "reason": "Approve within customer-experience scope: the advertisement gives a concrete product identity, separates the PDF from app features, explains the main options and shows a clear price and destination. The delivered ad player provides usable file access. This is not certification of purchasing, fulfillment, support quality or perceptual audio quality."
+    },
+    {
+      "expert": "marketing-1",
+      "decision": "NEEDS_EVIDENCE",
+      "score": null,
+      "reason": "The inspected encoded frames support a coherent Arabic beginner-fitness offer: confusion, an early recognisable product, concrete app demonstrations, then an explicit 15.99 SAR CTA. Marketing production goals are substantially met. Final acceptance remains unproven for the mandatory natural source narration and no-music requirement: the inspected separation record explicitly provides no human listening and no guarantee of complete background removal. This is an evidence gap, not an observed audio defect or a demand for campaign performance results."
+    },
+    {
+      "expert": "marketing-2",
+      "decision": "NEEDS_EVIDENCE",
+      "score": null,
+      "reason": "The sampled encoded creative supports a coherent, production-ready advertising hypothesis: beginner uncertainty leads to a recognizable product, concrete app examples, and a held 15.99 SAR offer. I cannot give an unconditional production approval because smooth natural narration and absence of residual source music are explicit requirements, while the inspected evidence expressly lacks human listening. This is an audio acceptance evidence gap, not a request for a campaign or proof of commercial performance."
+    },
+    {
+      "expert": "marketing-3",
+      "decision": "APPROVE",
+      "score": null,
+      "reason": "Approved within the applicable semantic-content and video-delivery review scope. The encoded samples communicate the beginner's uncertainty, identify the product early, explain its training and nutrition tools, and end with a legible product, owner-supplied 15.99 SAR price, action and destination. The inspected captions and player copy support that meaning without adding an explicit outcome guarantee. Delivery reports support the requested format and downloadable player. This is not an acoustic sign-off: naturalness, intelligibility and complete absence of residual music remain unverified by listening."
+    },
+    {
+      "expert": "marketing-4",
+      "decision": "NEEDS_EVIDENCE",
+      "score": null,
+      "reason": "The inspected encoded frames support a coherent, recognizable faceless-character ad with clear product demonstrations, correct owner price, and a settled CTA. Factual visual claims are appropriately bounded. An unconditional finding that this production request is met remains unsupported because natural source narration and absence of audible music are explicit requirements, while the separated vocal track has had no perceptual listening review. This is an evidence gap, not a finding that the track sounds poor."
+    },
+    {
+      "expert": "marketing-5",
+      "decision": "NEEDS_EVIDENCE",
+      "score": null,
+      "reason": "The inspected encoded frames and delivery records support a coherent product demonstration, explicit owner-supplied price, stable CTA and technically complete downloadable deliverable. I cannot certify the required natural narration and absence of residual music: the evidence explicitly lacks human listening after learned vocal separation. This is a production-evidence gap, not a claim that the audio is defective. Audience conversion data is not required for this production task and its absence is not a rejection reason."
+    },
+    {
+      "expert": "research-1",
+      "decision": "NEEDS_EVIDENCE",
+      "score": null,
+      "reason": "Primary product claims and frozen-file identity are well supported, and encoded stills support the requested visual structure. The production request also requires smooth natural narration and no music. No perceptual listening evidence is available, while the narration underwent learned vocal separation and editorial cuts. Technical reports cannot establish those required perceptual properties, so I cannot independently certify overall completion."
+    },
+    {
+      "expert": "research-2",
+      "decision": "NEEDS_EVIDENCE",
+      "score": null,
+      "reason": "Product claims and visible qualifications are supported, with the earlier PDF-link ambiguity resolved. Overall production acceptance still lacks perceptual evidence for two explicit requirements: smooth natural narration and absence of audible source music. No added music, unchanged pitch/speed, measured levels and ASR do not establish either requirement after learned vocal separation. This is an evidence gap, not an observed audio defect."
+    },
+    {
+      "expert": "research-3",
+      "decision": "NEEDS_EVIDENCE",
+      "score": null,
+      "reason": "The Arabic writing and sampled encoded presentation are clear, audience-appropriate and materially supported within this ad's scope. However, spoken clarity and the owner's explicit requirement for smooth, natural source narration remain unverified: I cannot listen, and the supplied automatic transcript contains substantial word substitutions. These substitutions do not prove an audible defect, but they prevent an unconditional verdict on the full production request."
+    },
+    {
+      "expert": "research-4",
+      "decision": "NEEDS_EVIDENCE",
+      "score": null,
+      "reason": "The sampled encoded visuals and editorial structure are coherent, complete and consistent with the stated product premise. I found no confirmed copy or visual continuity error in the inspected evidence. Final acceptance still requires perceptual evidence for the explicitly requested natural narration and absence of music: the provided separation and ASR reports expressly do not establish these qualities."
+    },
+    {
+      "expert": "research-5",
+      "decision": "NEEDS_EVIDENCE",
+      "score": null,
+      "reason": "The inspected frames and primary app data support the ad's concrete product claims within the stated advertising scope. Overall completion remains unproved for the explicit natural narration/no-music requirements: learned vocal separation and technical measurements cannot establish perceptual naturalness or absence of audible residual music, and the supplied records explicitly report no human listening."
+    },
+    {
+      "expert": "finance-legal-1",
+      "decision": "NEEDS_EVIDENCE",
+      "score": null,
+      "reason": "No finance-specific blocker is demonstrated: the owner-authorized 15.99 SAR price appears clearly, production uses existing/local assets, and no sales or return claims are made. The frozen production request nevertheless explicitly requires natural source narration and no music. The supplied audio records expressly cannot establish perceptual naturalness or complete background-music removal; I cannot certify overall completion on those requirements without listening evidence."
+    },
+    {
+      "expert": "finance-legal-2",
+      "decision": "APPROVE",
+      "score": null,
+      "reason": "Within this accountant review's authorized advertisement scope, the displayed owner-specified price and numerical product claims have a coherent audit trail, and the inspected encoded evidence presents the requested product, demonstrations and held CTA. Approval is limited to this expert's evidence assessment; it does not establish checkout pricing, legal status, sales results or perceptual audio quality."
+    },
+    {
+      "expert": "finance-legal-3",
+      "decision": "NEEDS_EVIDENCE",
+      "score": null,
+      "reason": "The inspected price, feature presentation and qualified estimates fit the authorized advertisement scope, and I found no investment, sales or physique guarantee in the inspected frames or captions. Overall production sign-off remains unsupported for the explicit natural narration/no-music requirements: the separation report expressly identifies approximate removal and no human listening. This is an evidence gap, not a finding that the soundtrack fails."
+    },
+    {
+      "expert": "finance-legal-4",
+      "decision": "APPROVE",
+      "score": null,
+      "reason": "Approve the frozen advertisement within the authorized production, permission and claim-review scope. The owner-supplied 15.99 SAR price is displayed clearly, factual feature claims have local product support, demonstrations are labeled, and inspected copy contains no explicit medical, physique or sales-performance guarantee. This is not a Saudi legal-compliance certificate or store verification."
+    },
+    {
+      "expert": "finance-legal-5",
+      "decision": "APPROVE",
+      "score": null,
+      "reason": "Approved within the Privacy Officer's authorized advertisement and downloadable-player scope. The inspected encoded stills and original demonstration screenshots show generic calculator results and recipe quantities, without identifiable customer records, account names, contact details or payment data. The public player serves media without forms, scripts, analytics or account entry. No privacy-specific defect blocks this frozen deliverable. This is a scope-limited production approval, not certification of the store, underlying app privacy program, formal legal rights or perceptual audio quality."
+    },
+    {
+      "expert": "quality-1",
+      "decision": "NEEDS_EVIDENCE",
+      "score": null,
+      "reason": "The inspected encoded frames and reproducible technical records support the visual, format and player requirements. Full production acceptance remains unproved for two explicit audible requirements: natural source narration and absence of music after learned vocal separation. No listening evidence is available; loudness, ASR and master correlation cannot close that gap."
+    },
+    {
+      "expert": "quality-2",
+      "decision": "APPROVE",
+      "score": null,
+      "reason": "The frozen deliverable meets the compatibility and responsive-delivery requirements evidenced here: a vertical 1080x1920, 60/1-fps MP4, a working downloadable player, and tested playback/seek states at narrow and desktop widths. This is a compatibility-scope approval, not certification of every browser, TikTok upload, or subjective audio naturalness."
+    },
+    {
+      "expert": "quality-3",
+      "decision": "APPROVE",
+      "score": null,
+      "reason": "The frozen deliverable meets the technical performance and delivery criteria I can assess: measured 1080x1920 constant 60fps encoding, changing frames in the tested motion interval, clean decode, conservative audio peaks, compact fast-start delivery and verified player/download records. My approval is a technical production judgment; perceptual narration naturalness and complete removal of source music remain expressly unverified."
+    },
+    {
+      "expert": "quality-4",
+      "decision": "NEEDS_EVIDENCE",
+      "score": null,
+      "reason": "The inspected encoded images, local player source and technical records support a polished, accessible ad deliverable within the authorized scope. No reproducible security defect is evidenced by these checks. Unconditional production approval still needs perceptual verification of two explicit owner requirements: natural source narration and no residual music after learned vocal separation. The supplied evidence explicitly cannot establish either; this is an evidence gap, not a claim that an audible defect exists."
+    },
+    {
+      "expert": "quality-5",
+      "decision": "NEEDS_EVIDENCE",
+      "score": null,
+      "reason": "The frozen deliverable is technically ready for distribution and the inspected encoded frames support the requested visual structure. Full release acceptance remains unresolved because smooth, natural source narration and absence of audible music are explicit owner requirements, while the provided vocal-separation and editing evidence explicitly cannot establish those perceptual properties. This is an evidence gap, not a finding that the audio is defective."
+    },
+    {
+      "expert": "innovation-1",
+      "decision": "NEEDS_EVIDENCE",
+      "score": null,
+      "reason": "The selected concept is distinct, feasible and substantially realized in the inspected encoded frames: the faceless trainee moves from conflicting advice to a product reference and concrete app examples. Alternatives are documented, and delivery records support technical execution. However, smooth natural narration and no music are explicit production requirements. Learned vocal separation and level measurements cannot establish audible naturalness or complete removal of the source background. That unresolved requirement prevents an unconditional production approval; it is an evidence gap, not an observed audio defect."
+    },
+    {
+      "expert": "innovation-2",
+      "decision": "NEEDS_EVIDENCE",
+      "score": null,
+      "reason": "The encoded visual samples support a coherent, differentiated owner-specific remake: faceless figure, Arabic choice menus, early cover reveal, actual-app examples and a stable price/CTA. No current competitor study supports a market superiority claim, and none is needed to satisfy this production brief. Overall production acceptance remains unverified because smooth natural narration and absence of audible source music require perceptual listening; the supplied records expressly lack it."
+    },
+    {
+      "expert": "innovation-3",
+      "decision": "NEEDS_EVIDENCE",
+      "score": null,
+      "reason": "The inspected encoded stills and technical records support the requested visual production and delivery improvements. A material owner requirement remains unverified: whether the separated and edited source narration sounds smooth and natural and the finished track has no perceptible residual music. No human listening evidence exists. The absence of an audience study limits claims about comprehension and unmet needs, but is not itself a missing production deliverable."
+    },
+    {
+      "expert": "innovation-4",
+      "decision": "NEEDS_EVIDENCE",
+      "score": null,
+      "reason": "The production prioritization is coherent: preserve the faceless beginner premise, introduce the product in the first third, demonstrate practical use, then hold a simple priced CTA. The inspected encoded sheets support that visual/product direction. However, unconditional completion of the owner's production request also requires smooth natural source narration and no music. The separation report explicitly leaves perceptual naturalness and residual music unverified, and I cannot listen. This is a specific acceptance evidence gap, not a finding that the audio is defective. Lack of adoption or sales data does not block this production-only task."
+    },
+    {
+      "expert": "innovation-5",
+      "decision": "NEEDS_EVIDENCE",
+      "score": null,
+      "reason": "The inspected encoded frames and implementation records support a coherent, polished faceless-character advertisement, an early product reveal, real-interface examples, Arabic captions and a held 15.99 SAR CTA. They do not establish the explicitly requested natural narration or absence of residual music after learned vocal separation. A final approval would infer a perceptual result from technical proxies that the reports themselves expressly disclaim."
+    }
+  ]
+}

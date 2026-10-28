@@ -1,0 +1,56 @@
+{
+  "expert": "creative-5",
+  "version": "v12-final-1",
+  "digest": "6b6846706f12db961b678c585330dffd8222545cdd810412a320c4a6af22d553",
+  "decision": "APPROVE",
+  "reason": "Approved within the Brand Designer remit: inspected encoded samples show a coherent black/ivory/gold identity, consistent Arabic hierarchy, recognizable faceless character and preserved product identity. The closing samples give the brand, owner-specified 15.99 SAR and purchase direction a clear visual hierarchy. This is a visual-brand approval; it does not certify narration naturalness or complete music removal.",
+  "evidence": [
+    {
+      "file": "creative/voice-ad-premium-v12/reports/encoded-contact.jpg",
+      "method": "Direct view_image inspection",
+      "finding": "At 0.000/1.040/4.290 seconds the ivory faceless character and gold emphasis read consistently against black; at 8.650/12.575 seconds the warm light field retains the same book identity; at 15.700/18.550/22.775 seconds actual program/app imagery shares the palette. At 27.650 and 29.700 seconds the logo, book, price, CTA and store URL remain visually consistent."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/reports/encoded-handoffs.jpg",
+      "method": "Direct view_image inspection",
+      "finding": "Sampled handoffs keep captions in a dedicated lower band. Product expansion near 6.3–7.1 seconds carries the book into the light scene. Transitional title opacity is deliberately low in some samples, with settled headings restored afterward; these are intermediate frames, not evidence of continuous-playback readability."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/DESIGN.md; index.html",
+      "method": "Source inspection",
+      "finding": "Documented colors #121210/#f9f5e9/#d1ac65 and Lalezar/Noto Sans Arabic are reflected in source. Source uses book-cover.svg and closing-logo.png directly and separates caption and scene layers."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/media-provenance.jsonl; docs/elite50/ad-remake-2026-10-28/evidence/claim-map.json",
+      "method": "Record inspection",
+      "finding": "Brand covers, logo and actual app screenshots have recorded source/hashes; character is described as an original SVG reinterpretation. Claim map locates 4/5-day programs, 500 app recipes and owner price. These are provenance records, not my independent legal ownership certification."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/reports/check-final.json; reports/source-browser.json",
+      "method": "Inspected existing test records",
+      "finding": "Contrast checker reports 33/33 sampled checks passing. Source browser reports book visible by 7.2 seconds, protected caption bounds and final CTA settled by 26.35 seconds with 3.45-second hold. One duplicate-media lint warning remains; sampled output shows no resulting identity defect."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/reports/encoded-validation.json; reports/live-verification.json",
+      "method": "Inspected existing test records",
+      "finding": "Records report 1080×1920, 60/1 fps, 1788 frames over 29.8 seconds and a deployed video matching the local SHA256. I did not repeat encoding or network checks."
+    }
+  ],
+  "strengths": [
+    "Restrained reusable palette and Arabic typography unify the character, product, application and final offer.",
+    "Headline/caption separation supports a consistent reading order.",
+    "The product cover and logo remain recognizable across contrasting scene backgrounds."
+  ],
+  "issues": [
+    "Some fine app copy, disclaimer text and the store URL are substantially smaller than headings; actual phone-size legibility beyond sampled checks was not established here."
+  ],
+  "objections": [],
+  "limitations": [
+    "I inspected still contact sheets and source/test records; I did not watch continuous video or personally assess motion smoothness.",
+    "No human listening capability was available. audio-edit.json documents source cuts, no pitch change and no music track added, but those facts cannot establish naturalness, intelligibility or complete background-music removal. These remain unresolved outside this brand-specific approval.",
+    "Provenance assertions were read; asset ownership/licensing was not independently adjudicated. No audience recognition or conversion study was supplied."
+  ],
+  "non_applicable_criteria": [
+    "Medical/nutritional validation, checkout/fulfillment, campaign sales outcomes and formal legal clearance are outside this visual-brand review."
+  ]
+}

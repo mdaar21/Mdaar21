@@ -1,0 +1,97 @@
+{
+  "expert": "marketing-4",
+  "role": "Content Creator",
+  "phase": "independent-planning",
+  "decision": null,
+  "version": "planning-1",
+  "objective": "A recognizable faceless Saudi TikTok story that makes the product understandable by second 3, demonstrates its contents, then gives one readable purchase action.",
+  "duration_seconds": 29,
+  "creative_concept": "The character turns a clutter of floating fitness choices into a clear book-and-app routine; use the original character silhouette and restrained, continuous motion to connect each scene.",
+  "structure": [
+    {
+      "seconds": [
+        0,
+        3
+      ],
+      "visual": "Open on the recognizable faceless character with one compact confusion motif. Bring the real book cover and an actual app screen into frame by second 2; keep the character visible as the bridge.",
+      "narration": "Select an intact, attention-catching fragment from the uploaded narration after transcription and source-timecode verification. Do not write or synthesize a replacement line.",
+      "caption": "Use a short verbatim Arabic caption for the chosen fragment."
+    },
+    {
+      "seconds": [
+        3,
+        9
+      ],
+      "visual": "Enlarge the real PDF cover and one actual interior page with useful content; label the product clearly as a digital PDF plus app. Show the 34-page format and 4-day/5-day program choices with a single restrained menu transition.",
+      "narration": "Use a complete existing fragment that introduces the product or training offer. If absent, preserve source narration continuity and communicate these verified details visually.",
+      "caption": "Readable visual labels may say دليل PDF رقمي • 34 صفحة and برامج 4 أو 5 أيام; keep them separate from verbatim speech captions."
+    },
+    {
+      "seconds": [
+        9,
+        17
+      ],
+      "visual": "Demonstrate the real app with a controlled scroll or authentic recorded interaction through its recipe list. Hold one recipe view long enough to recognize its content. Label screenshots as عرض توضيحي when used.",
+      "narration": "Reuse only an existing relevant source fragment, retaining its original pitch and natural breath boundaries. Do not fabricate a spoken 500-recipes claim if it is absent.",
+      "caption": "Show 500 وصفة في التطبيق as factual visual copy and show القيم الغذائية تقديرية alongside the nutrition display."
+    },
+    {
+      "seconds": [
+        17,
+        22
+      ],
+      "visual": "Return the character beside the book and app in one composed frame. Simplify the earlier clutter into the demonstrated program and recipe choices; avoid invented before/after physique transformations.",
+      "narration": "Use the source explanation or transition fragment if available; a brief clean pause is preferable to a newly invented line.",
+      "caption": "Summarize the demonstrated bundle in one short visual label; no promised physique, medical precision, or guaranteed result."
+    },
+    {
+      "seconds": [
+        22,
+        29
+      ],
+      "visual": "Hold a clean brand/product card with the original character, book/app identifiers, owner-supplied 15.99 ر.س price, and a single readable CTA. Finish with at least 3 uninterrupted seconds of the settled layout.",
+      "narration": "Use an intact source closing fragment only if it remains accurate. If old spoken pricing contradicts 15.99, omit that fragment without changing syllables or generating new speech.",
+      "caption": "15.99 ر.س and اطلب بروتوكول التحول; the destination is the verified product URL from the packet."
+    }
+  ],
+  "prioritized_acceptance_checks": [
+    {
+      "priority": 1,
+      "check": "Every spoken segment is mapped to original-video in/out timecodes; no newly composed spoken lines, voice impersonation, pitch change, or word-level assembly that changes meaning."
+    },
+    {
+      "priority": 1,
+      "check": "The real product appears by second 3, and a viewer can identify the digital PDF plus app bundle before second 9."
+    },
+    {
+      "priority": 1,
+      "check": "All factual visual claims match the packet: 34 pages, 4/5-day programs, 500 recipes, estimated nutrition, and owner-supplied 15.99 SAR. No implication that store settings were edited."
+    },
+    {
+      "priority": 1,
+      "check": "Captions are correct Arabic, track the actual speech, stay inside a protected TikTok text area, and never collide with app content, price, or CTA."
+    },
+    {
+      "priority": 2,
+      "check": "Actual app/PDF evidence is recognizable at phone viewing size; transitions serve understanding and do not replace useful viewing time."
+    },
+    {
+      "priority": 2,
+      "check": "The last 3 seconds hold one settled CTA and price. No music; purposeful effects remain subordinate to narration."
+    },
+    {
+      "priority": 2,
+      "check": "Final delivery is 25–32 seconds, 1080×1920, true 60fps, and supplied with a working downloadable player link."
+    }
+  ],
+  "evidence_basis": [
+    "planning-packet.json",
+    "Own expert definition marketing-4.md"
+  ],
+  "limitations": [
+    "No final candidate or source-fragment transcript/timecode inventory was reviewed in this planning phase; narration slots are selection instructions, not claims that specific spoken lines exist.",
+    "No human listening capability; technical checks and ASR cannot establish subjective vocal naturalness. Final evidence must retain that limitation.",
+    "No approval, sales-performance claim, or final score is issued during planning.",
+    "Security infrastructure, legal certification, store configuration, and software changes are outside this content-creation review scope."
+  ]
+}

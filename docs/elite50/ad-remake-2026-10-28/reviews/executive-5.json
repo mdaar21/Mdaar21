@@ -1,0 +1,66 @@
+{
+  "expert": "executive-5",
+  "version": "v12-final-1",
+  "digest": "6b6846706f12db961b678c585330dffd8222545cdd810412a320c4a6af22d553",
+  "decision": "NEEDS_EVIDENCE",
+  "reason": "The inspected frames and technical records substantially reduce visual, delivery and misleading-claim risk. However, smooth natural narration and absence of music are explicit production requirements. The learned separation record expressly cannot establish either perceptually, and no listening evidence is available. This leaves a material acceptance gap, rather than an observed audio defect.",
+  "evidence": [
+    {
+      "file": "creative/voice-ad-premium-v12/reports/encoded-contact.jpg",
+      "inspection": "Direct view_image inspection: faceless character and Arabic hook at 0/1.040s; product cover at 8.650s; program cards at 15.700s; calculator at 18.550s; recipe portion demonstration at 22.775s; readable 15.99 SAR and clean CTA at 27.650/29.700s."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/reports/encoded-handoffs.jpg",
+      "inspection": "Direct view_image inspection: sampled transitions across seven handoffs show continuous staged changes and retained caption zone; sampled cover reveal at 6.32–7.08s and final transition at 25.32–26.08s. These are still-frame observations, not continuous viewing."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/reports/encoded-validation.json",
+      "inspection": "Recorded 1080x1920, 60/1 fps, 1788 frames over 29.8s; decode warnings 0; 36 sampled moving frames with no identical adjacent pairs; encoded audio/master correlation 0.999984. The final MP4 hash matches candidate manifest and live-verification records."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/reports/audio-edit.json; reports/voice-separation.json; reports/edited-asr.json",
+      "inspection": "Source narration edited into three segments, 26.01s spoken plus tail; no pitch/time stretch/synthesis, light EQ, nine short effects and no added music recorded. Separation uses Kim_Vocal_2 and explicitly disclaims perfect removal/naturalness; humanListening=false. ASR has several errors and cannot settle perceived clarity or edit continuity."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/reports/source-browser.json; reports/check-final.json; reports/motion-playback.json",
+      "inspection": "Recorded captions within protected bounds, CTA settled by 26.35s with 3.45s hold; 33 contrast checks pass and no runtime/layout errors. One duplicate-media lint warning remains. Continuous software animation was recorded without audio; I did not view that recording."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/reports/player-browser.json; reports/live-verification.json",
+      "inspection": "Recorded native decode/play/pause/seeking/download checks at widths 320/390/1440; live MP4/player return 200 and match local hashes; byte range returns 206."
+    },
+    {
+      "file": "docs/elite50/ad-remake-2026-10-28/evidence/claim-map.json; creative/voice-ad-premium-v12/SPEC.md; media-provenance.jsonl",
+      "inspection": "Price explicitly attributed to owner instruction; app examples labeled estimates, 500 recipes attributed to app rather than PDF, exercise links attributed to PDF. Provenance records retained for owned assets, fonts and short effects."
+    }
+  ],
+  "strengths": [
+    "Price and CTA are clear in the inspected final encoded samples.",
+    "Early product reveal, faceless premise, restrained branding and actual app examples reduce ambiguity and misrepresentation risk.",
+    "Technical delivery, live hash parity and playback records materially mitigate broken-deliverable risk."
+  ],
+  "issues": [
+    {
+      "severity": "material acceptance uncertainty",
+      "issue": "No perceptual evidence that separated/edited narration remains smooth and natural, or that residual source music is absent.",
+      "mitigation": "A competent Arabic listener should assess the exact frozen MP4, particularly joins at 1.96s and 4.31s and the full spoken passage, recording findings on naturalness, intelligibility, residual music and effect balance.",
+      "residual_risk": "Technical levels, unchanged pitch, ASR and waveform correlation do not resolve this gap."
+    },
+    {
+      "severity": "low",
+      "issue": "Duplicate-media discovery lint warning; current render/runtime/encoded records pass.",
+      "mitigation": "Record warning as a source-maintenance risk; do not equate it with observed output failure."
+    }
+  ],
+  "objections": [
+    "Unconditional full-requirement approval would overstate the audio evidence currently available."
+  ],
+  "limitations": [
+    "I inspected encoded contact sheets and existing records only; I did not hear audio or watch continuous playback.",
+    "I did not independently rerun encoding, validate every claim against raw app/PDF data, or test commerce fulfillment.",
+    "I did not inspect other expert opinions and cannot certify fifty actual independent contexts or their final consensus from this packet."
+  ],
+  "non_applicable_criteria": [
+    "Corporate portfolio, financial solvency, legal certification, clinical fitness, store checkout and campaign conversion performance are outside this authorized ad-production risk review."
+  ]
+}

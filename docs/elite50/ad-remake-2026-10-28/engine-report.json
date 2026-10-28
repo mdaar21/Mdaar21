@@ -1,0 +1,103 @@
+{
+  "title": "THE ELITE 50 — FINAL REPORT",
+  "Task": "Rebuild Saudi faceless MDAAR21 TikTok ad: 15.99 SAR, Arabic captions, smooth original-source voice and varied transitions, real product demos; execute fifty actual expert reviews and preserve evidence/dissent. No guaranteed approval or sales.",
+  "Participating Councils": [
+    "ai",
+    "commerce",
+    "creative",
+    "engineering",
+    "executive",
+    "finance-legal",
+    "innovation",
+    "marketing",
+    "quality",
+    "research"
+  ],
+  "Solution Version": "v12-final-1",
+  "Solution Digest": "6b6846706f12db961b678c585330dffd8222545cdd810412a320c4a6af22d553",
+  "Experts Approved": "16/50",
+  "Experts Rejected": [],
+  "Experts Requiring Evidence": [
+    "executive-1",
+    "executive-2",
+    "executive-3",
+    "executive-4",
+    "executive-5",
+    "engineering-2",
+    "engineering-4",
+    "engineering-5",
+    "creative-3",
+    "ai-1",
+    "ai-2",
+    "ai-3",
+    "ai-4",
+    "ai-5",
+    "commerce-4",
+    "marketing-1",
+    "marketing-2",
+    "marketing-4",
+    "marketing-5",
+    "research-1",
+    "research-2",
+    "research-3",
+    "research-4",
+    "research-5",
+    "finance-legal-1",
+    "finance-legal-3",
+    "quality-1",
+    "quality-4",
+    "quality-5",
+    "innovation-1",
+    "innovation-2",
+    "innovation-3",
+    "innovation-4",
+    "innovation-5"
+  ],
+  "Experts Abstained": [],
+  "Experts Missing": [],
+  "Experts Outdated": [],
+  "Fresh Votes Required After Event": 131,
+  "Changed Votes": [],
+  "Reasons for Vote Changes": [],
+  "Tests Executed": [
+    {
+      "evidence": [
+        "system-testing"
+      ],
+      "name": "testing",
+      "version": "v12-final-1",
+      "digest": "6b6846706f12db961b678c585330dffd8222545cdd810412a320c4a6af22d553"
+    }
+  ],
+  "Open Objections": [
+    {
+      "expert": "marketing-4",
+      "reason": "Natural narration, speech/caption correspondence and absence of audible residual source background have no human listening evidence. This is an evidence gap, not an observed finding that the track sounds poor.",
+      "evidence": [
+        "review-marketing-4",
+        "review-research-2",
+        "actual-audio-edit-json",
+        "actual-voice-separation-json"
+      ],
+      "id": "perceptual-audio-verification",
+      "severity": "MEDIUM",
+      "version": "v12-final-1",
+      "digest": "6b6846706f12db961b678c585330dffd8222545cdd810412a320c4a6af22d553",
+      "runtime": "/root/premium_marketing_4",
+      "resolved": false
+    }
+  ],
+  "Missing Stages": [],
+  "Invalid Evidence": [],
+  "Historical Invalid Evidence": [],
+  "Changed Artifacts": [],
+  "Remaining Risks": [
+    "Runtime identities are operator attestations, not cryptographic authentication.",
+    "Local ledger hashes detect accidental edits; a privileged writer can rewrite history.",
+    "Evidence content and domain correctness require actual expert review."
+  ],
+  "Consensus Status": "BLOCKED",
+  "Final Decision": "Deliver available results with unresolved conditions",
+  "Audit Events": 184,
+  "Audit Head": "65d2431582375911b89646a8964ae5224c6b40e65c56fe5dba73343f572ed74c"
+}

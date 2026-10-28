@@ -1,0 +1,64 @@
+{
+  "expert": "ai-2",
+  "version": "v12-final-1",
+  "digest": "6b6846706f12db961b678c585330dffd8222545cdd810412a320c4a6af22d553",
+  "decision": "NEEDS_EVIDENCE",
+  "reason": "The inspected deliverable and production pipeline support the requested visual, encoding and delivery behavior. Agent boundaries are appropriately narrow in this review, and the local animation/audio sources expose reproducible stages rather than a deployed autonomous agent. However, the owner explicitly requires natural source narration and no music. The learned vocal separation report expressly does not establish either perceptual naturalness or perfect background removal, and no listening evidence is available. I cannot turn that acknowledged gap into an unconditional production approval. This context also cannot certify that fifty distinct actual final-review contexts have completed; the coordinator must retain orchestration records before claiming that requirement.",
+  "evidence": [
+    {
+      "file": "creative/voice-ad-premium-v12/reports/encoded-contact.jpg",
+      "inspection": "Direct view_image inspection of encoded stills: faceless figure and Arabic opening at 0/1.04 s; menu at 4.29 s; actual product cover at 8.65 s; 4/5-day programs at 15.70 s; calculator at 18.55 s; recipe UI at 22.775 s; clean 15.99 SAR CTA at 27.65 and 29.70 s."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/reports/encoded-handoffs.jpg",
+      "inspection": "Direct view_image inspection of sampled handoffs, including the product reveal near 6.32-7.08 s and the closing dissolve near 25.32-26.08 s. Captions remain on their independent lower layer. These are stills, not continuous perceptual playback."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/animate.js",
+      "inspection": "Inspected single paused GSAP timeline, explicit scene/caption timing and transition cleanup. This supports deterministic render orchestration; source-browser.json separately records stable reverse seeks and no runtime errors."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/reports/encoded-validation.json",
+      "inspection": "Inspected existing record: 1080x1920, 60/1 fps, 1788 frames over 29.8 s, decode exit 0, no decode warnings, sampled adjacent moving frames differ, MP4 SHA-256 0d741b5bef0424be521ba9938e891d8a4f6163b7e075e4cab592f3f8f8ff3940. I did not rerun these checks."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/reports/motion-playback.json",
+      "inspection": "Existing software record measures 1744 browser frames and 16.7 ms median RAF over the timeline; explicitly lacks audio and human perceptual assessment."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/process-audio.py; separate-voice.py; reports/audio-edit.json; reports/voice-separation.json",
+      "inspection": "Inspected fixed source segments, mild EQ, gain and nine short SFX; no pitch or time-stretch operations found in inspected stages. CPU ONNX vocal extraction uses bounded threads and records model/source hashes. Its own limits state approximate separation and no human listening."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/reports/player-browser.json; reports/live-verification.json",
+      "inspection": "Existing records report successful native decoding/download checks at 320/390/1440 widths and live HTTP 200/hash parity plus 206 range support. These are recorded results, not new network verification by me."
+    },
+    {
+      "file": "docs/elite50/ad-remake-2026-10-28/evidence/claim-map.json; creative/voice-ad-premium-v12/SPEC.md",
+      "inspection": "Explicit ad-only owner price, real-app screenshot provenance, estimated nutrition disclaimer, and boundaries excluding purchases/admin changes and paid provider calls."
+    }
+  ],
+  "strengths": [
+    "Clear separation between source audio processing, scene construction, offline encoding and player verification.",
+    "Visible product/app evidence and held CTA substantiate the artifact rather than relying only on written assertions.",
+    "Scope and tool limits are explicit; this review reads source/evidence and writes only its own verdict."
+  ],
+  "issues": [
+    "Perceptual naturalness, Arabic intelligibility at edits and residual music remain unverified after learned vocal extraction.",
+    "Fifty actual independent final reviews require orchestration evidence outside what this individual context can attest."
+  ],
+  "objections": [
+    "Do not describe technical audio metrics, ASR or software playback as listening approval.",
+    "Do not count this verdict as approval or as proof of the other forty-nine contexts."
+  ],
+  "limitations": [
+    "No human listening capability; no continuous video viewing claimed.",
+    "Read existing reports without executing new processing jobs; report integrity and measurements were not independently rerun.",
+    "Check-final.json is non-strict and retains one duplicate-media discovery warning; sampled visual/encode evidence shows no corresponding defect, but this is not a universal render guarantee.",
+    "No other experts opinions or verdicts were read. This review attests only to this actual context."
+  ],
+  "non_applicable_criteria": [
+    "Deployed-agent architecture, multi-tenant agent isolation, autonomous tool delegation, runtime agent recovery and production AI service scalability: no deployed AI agent is part of this advertisement.",
+    "Sales conversion, clinical fitness/nutrition validation, store checkout and formal legal status are outside authorized ad-production scope."
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "expert": "creative-4",
+  "version": "v12-final-1",
+  "digest": "6b6846706f12db961b678c585330dffd8222545cdd810412a320c4a6af22d553",
+  "decision": "APPROVE",
+  "reason": "The frozen candidate meets the motion-design criteria within the ad scope: recognizable white featureless character, restrained purposeful gestures, clear menu entrances, protected stationary captions, early anchored product reveal, deterministic timeline structure and a clean settled CTA. Encoded-image inspection and the inspected cadence/render records provide adequate evidence for this motion verdict. This is not a certification of perceived narration naturalness.",
+  "evidence": [
+    {
+      "file": "creative/voice-ad-premium-v12/reports/encoded-contact.jpg",
+      "inspection": "Personally inspected encoded stills at 0.000, 1.040, 4.290, 8.650, 12.575, 15.700, 18.550, 22.775, 27.650 and 29.700 seconds. The featureless character, menu hierarchy, product/app demonstration and stable ending are visible. Price is 15.99 SAR."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/reports/encoded-handoffs.jpg",
+      "inspection": "Personally inspected all seven sampled handoffs. Incoming titles appear after wipes; the caption lane stays separate. The book is already visible during the 6.32–7.08-second reveal."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/reports/encoded-frames/cut-6-1.jpg; cut-6-2.jpg; hero-8.jpg",
+      "inspection": "Personally inspected full-size encoded frames at 25.50, 25.68 and 27.65 seconds. The outgoing recipe briefly overlaps incoming graphics during the dissolve, then clears completely for the final CTA."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/animate.js; verify-source.py; reports/source-browser.json",
+      "inspection": "Source uses explicit absolute timeline positions, bounded eases and scene visibility resets. The browser record reports no runtime errors, caption bounds within the protected lane, matching sampled scene/camera/head states after reverse seeking, and a 3.45-second settled end hold. The reverse-seek test covers selected state fields rather than every animated property."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/verify-encoded.py; reports/encoded-validation.json",
+      "inspection": "Inspected verification logic and its recorded result: 1080x1920, 1788 frames over 29.8 seconds at 60/1, maximum cadence error about 0.67 microseconds, zero decode warnings. All 36 sampled movement frames differ from adjacent frames. The tested crop excludes the bottom progress indicator, so this is meaningful character-motion evidence."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/record-playback.py; reports/motion-playback.json; reports/check-final.json",
+      "inspection": "The inspected continuous-browser record reaches 29.8 seconds and reports median/p95 requestAnimationFrame intervals of 16.7/16.8 ms. Runtime/layout/craft checks pass. The general motion checker was disabled; it contributes no motion validation. One duplicate-media discovery warning remains, with no demonstrated encoded defect."
+    },
+    {
+      "file": "public/ad/premium/index.html; creative/voice-ad-premium-v12/reports/player-browser.json; reports/live-verification.json",
+      "inspection": "Player source has native controls, a poster, no autoplay and no decorative page animation. Browser/download and live hash-match records support accessible voluntary playback and delivery of the same MP4."
+    }
+  ],
+  "strengths": [
+    "Short eased gestures and staggered menus support narration without constant movement.",
+    "Product reveal and actual app examples give the transitions a narrative purpose.",
+    "Static captions and the 3.45-second settled CTA provide reading time and a restrained motion baseline."
+  ],
+  "issues": [
+    {
+      "severity": "minor",
+      "detail": "The final dissolve creates a busy double exposure at 25.50–25.68 seconds, including recipe text behind the book and entering price. It is confined to the transition; inspected settled CTA frames are clean."
+    }
+  ],
+  "objections": [],
+  "limitations": [
+    "I inspected still images, source and recorded test results; I did not watch or hear continuous video and did not rerun processing.",
+    "Narration naturalness, intelligibility and perfect background-music removal remain perceptually unverified. These are outside this motion verdict and cannot be established by cadence, ASR or loudness metrics.",
+    "The 60fps movement difference test samples one 0.6-second region, not every movement throughout the film. Browser cadence evidence is from a local reduced-scale recording and does not guarantee performance on every device.",
+    "A fixed video cannot dynamically honor reduced-motion preferences. The player requires voluntary playback and supplies pause controls; its page introduces no additional animation."
+  ],
+  "non_applicable_criteria": [
+    "Store checkout, live store pricing, finance/legal certification, medical fitness, sales performance and unrelated security infrastructure are outside the motion-design and ad-delivery scope."
+  ]
+}

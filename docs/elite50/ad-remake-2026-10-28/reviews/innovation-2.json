@@ -1,0 +1,58 @@
+{
+  "expert": "innovation-2",
+  "version": "v12-final-1",
+  "digest": "6b6846706f12db961b678c585330dffd8222545cdd810412a320c4a6af22d553",
+  "decision": "NEEDS_EVIDENCE",
+  "reason": "The encoded visual samples support a coherent, differentiated owner-specific remake: faceless figure, Arabic choice menus, early cover reveal, actual-app examples and a stable price/CTA. No current competitor study supports a market superiority claim, and none is needed to satisfy this production brief. Overall production acceptance remains unverified because smooth natural narration and absence of audible source music require perceptual listening; the supplied records expressly lack it.",
+  "evidence": [
+    {
+      "file": "creative/voice-ad-premium-v12/reports/encoded-contact.jpg",
+      "inspection": "Direct view_image inspection. At 0–4.29s the blank-faced figure and choice cards establish confusion; 8.65s displays the cover; 12.575–22.775s shows the bundle, 4/5-day programs, calculator and recipe UI. At 27.65 and 29.70s the same clean CTA, 15.99 SAR price and store URL remain visible."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/reports/encoded-handoffs.jpg",
+      "inspection": "Direct view_image inspection of sampled transitions, including 6.32–7.08s cover reveal and 25.32–26.08s closing dissolve. Captions occupy their own lower band in these samples. This is not a continuous-motion viewing claim."
+    },
+    {
+      "file": "docs/elite50/ad-remake-2026-10-28/evidence/baseline-probe.json; creative/voice-ad-premium-v12/reports/encoded-validation.json",
+      "inspection": "Read records: uploaded baseline is 510x1108, approximately 30fps, 42.84s; final is 1080x1920, 1788 frames over 29.8s at 60/1, with nonidentical adjacent sampled moving frames. This supports technical improvement, not a perceptual or competitor ranking."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/index.html; media-provenance.jsonl; docs/elite50/ad-remake-2026-10-28/evidence/claim-map.json",
+      "inspection": "Source wires existing calculator and recipe screenshots, marks nutrition as estimates and distinguishes 500 app recipes from PDF content. Provenance identifies reused owned-project assets; no new competitor research is present."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/reports/audio-edit.json; reports/voice-separation.json; reports/encoded-validation.json",
+      "inspection": "Read technical records: original-source narration, no pitch/time stretching, nine short effects, no added music, no clipping and approximately -19.11 LUFS/-3.01 dBTP in encoded audio. Learned separation explicitly does not establish perfect music removal or perceptual naturalness."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/reports/source-browser.json; reports/player-browser.json; reports/live-verification.json",
+      "inspection": "Read records support settled CTA at 26.35s with 3.45s hold, tested mobile/desktop playback/downloads and HTTP 200 matching hashes for the published MP4."
+    }
+  ],
+  "strengths": [
+    "Specific product utility is demonstrated rather than relying only on generic transformation promises.",
+    "The faceless premise and black/ivory/gold visual system connect the opening to the product and closing.",
+    "The price and final action are explicit in inspected encoded samples."
+  ],
+  "issues": [
+    {
+      "severity": "acceptance_evidence_gap",
+      "detail": "Obtain a competent Arabic listener's review of the final encoded MP4 for naturalness, intelligibility at the three source edits, distracting separation artifacts and audible residual music. No supplied metric establishes these required perceptual properties."
+    }
+  ],
+  "objections": [
+    "No evidence supports global quality rankings, competitive uniqueness or higher conversion; these claims should not be inferred from this review.",
+    "Automated motion checking in check-final.json is disabled; motion-playback.json provides software cadence evidence, not my perceptual appraisal."
+  ],
+  "limitations": [
+    "I viewed still/contact-sheet samples and read records; I did not hear audio or watch continuous video.",
+    "The baseline probe supports objective format comparison only; I did not establish a frame-accurate visual comparison with the uploaded owner baseline.",
+    "Small nutrition disclaimers are visible but their readability on every physical phone is untested.",
+    "Actual purchase, fulfillment, audience effectiveness and all fifty independent-context completions are outside this individual review."
+  ],
+  "non_applicable_criteria": [
+    "Current market/competitor ranking, competitor pricing research and market-share analysis are not requirements of this owner-directed ad remake; no current comparable study exists.",
+    "Clinical fitness validation, formal legal clearance, checkout certification and guaranteed sales are not certified."
+  ]
+}

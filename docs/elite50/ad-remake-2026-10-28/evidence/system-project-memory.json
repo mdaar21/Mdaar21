@@ -1,0 +1,9 @@
+{
+  "requirements": "planning-packet.json",
+  "independentPlans": "plans/",
+  "sourceAndOutputHashes": "candidate.json",
+  "actualRuntimes": "runtime-assignments.json",
+  "finalResponses": "reviews/",
+  "ledger": "elite50-state.json",
+  "limits": "Coordinator-owned local ledger, not an authenticated external identity or marketing certification."
+}

@@ -1,0 +1,18 @@
+{
+  "scope": "Local media, static player and authorized read-only public download checks; no attacks/accounts/purchases",
+  "executed": [
+    "Full AV decode",
+    "Blank SVG face structure check",
+    "Artifact/source metadata inspection",
+    "Native player/CSP/download tests at320,390,1440 widths"
+  ],
+  "observed": [
+    "No secrets or real personal data observed in inspected ad frames/source",
+    "No untrusted inputs or script in the player; external store link usesnoopener noreferrer",
+    "Original user data/other ads/apps unchanged"
+  ],
+  "limits": [
+    "No formal license/legal audit or website security certification",
+    "No human listening or all-device/TikTok upload test"
+  ]
+}

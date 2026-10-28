@@ -1,0 +1,72 @@
+{
+  "expert": "marketing-4",
+  "version": "v12-final-1",
+  "digest": "6b6846706f12db961b678c585330dffd8222545cdd810412a320c4a6af22d553",
+  "decision": "NEEDS_EVIDENCE",
+  "reason": "The inspected encoded frames support a coherent, recognizable faceless-character ad with clear product demonstrations, correct owner price, and a settled CTA. Factual visual claims are appropriately bounded. An unconditional finding that this production request is met remains unsupported because natural source narration and absence of audible music are explicit requirements, while the separated vocal track has had no perceptual listening review. This is an evidence gap, not a finding that the track sounds poor.",
+  "evidence": [
+    {
+      "file": "creative/voice-ad-premium-v12/reports/encoded-contact.jpg",
+      "inspection": "Direct view_image inspection of encoded samples at 0, 1.04, 4.29, 8.65, 12.575, 15.7, 18.55, 22.775, 27.65, and 29.7 seconds. The character premise, book cover, actual app/calculator and recipe presentation, 15.99 SAR, and final CTA are visible. Large headlines have strong hierarchy; supporting app text is comparatively small."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/reports/encoded-handoffs.jpg",
+      "inspection": "Direct view_image inspection of sampled handoffs, including book entry around 6.32–7.08 seconds and final-card arrival around 25.32–26.08 seconds. The panels provide useful continuity through lists, book, training, calculator, recipe and closing card. Samples cannot establish continuous perceived motion quality."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/captions.srt",
+      "inspection": "Read all 14 groups, 0.045–25.990 seconds. The source-language story moves from exercise uncertainty to a combined training/food offer. No spoken price conflict or fabricated testimonial appears in this text. ASR/editorial text is not an independent listening check."
+    },
+    {
+      "file": "docs/elite50/ad-remake-2026-10-28/evidence/claim-map.json",
+      "inspection": "Records owner-supplied 15.99 SAR; 34-page PDF provenance; 4/5-day program source; 500 distinct recipe entries; actual app screenshot origins; estimated calculator/recipe values. The encoded nutrition scenes visibly include estimate/example language."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/reports/audio-edit.json",
+      "inspection": "Documents three preserved source ranges, no synthesis/pitch/time-stretch, mild EQ, nine short effects, no added music, and 3.79-second tail hold. These support source provenance and mix intent, not perceptual quality."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/reports/voice-separation.json",
+      "inspection": "Explicitly states learned separation is approximate and humanListening=false; perfect music removal and naturalness are unestablished."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/reports/encoded-validation.json",
+      "inspection": "Inspected record reports 29.8 seconds, 1080×1920, 60/1 fps, 1788 frames, nonidentical sampled moving frames, and no decode warnings. Technical evidence only; not my independent playback test."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/reports/check-final.json",
+      "inspection": "Inspected record reports sampled layout and contrast passes; one duplicate-media discovery warning. Does not establish all-device legibility."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/reports/live-verification.json",
+      "inspection": "Inspected record reports matching live/local video bytes, HTTP 200 and range 206. I did not independently request the hosted URL."
+    }
+  ],
+  "strengths": [
+    "Originality comes from a consistent character-led uncertainty-to-plan story, actual branded book/app material, and a restrained gold/black/cream identity; no invented transformation or testimonial is needed.",
+    "The offer becomes concrete through 4/5-day program choices, a calculator example, and a recipe portion-change demonstration rather than unsupported outcome promises.",
+    "Final price and one clear purchase action remain composed across the inspected late frames, with a documented silent tail hold."
+  ],
+  "issues": [
+    {
+      "severity": "evidence_gap",
+      "item": "Obtain a listening assessment of the actual final encoded track for intelligibility, natural joins, separation artifacts and residual music before claiming the complete production request is satisfied."
+    },
+    {
+      "severity": "editorial_nonblocking",
+      "item": "Product entry around 6.5 seconds is later than my suggested planning target of second 3. The packet does not make that exact target mandatory; it remains an optional audience-clarity improvement."
+    }
+  ],
+  "objections": [
+    "No blocking factual-claim or visual-comprehension defect was identified in the inspected samples. Full audio acceptance is withheld on the documented evidence gap."
+  ],
+  "limitations": [
+    "I inspected still-image contact sheets and named records; I did not hear narration or watch continuous video.",
+    "Source text, waveform metrics and lack of an added music file cannot prove a natural-sounding, music-free separated vocal.",
+    "No audience research, conversion results, or live store checkout was evaluated. This verdict does not imply measured commercial performance.",
+    "I did not read other experts’ plans or verdicts, and this is my first final-candidate decision."
+  ],
+  "non_applicable_criteria": [
+    "Security infrastructure, account authorization, store settings, medical certification, purchase fulfillment and unrelated software changes are outside this content-creator review."
+  ]
+}

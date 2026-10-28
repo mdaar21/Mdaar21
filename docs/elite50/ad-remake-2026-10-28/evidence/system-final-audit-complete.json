@@ -1,0 +1,19 @@
+{
+  "version": "v12-final-1",
+  "digest": "6b6846706f12db961b678c585330dffd8222545cdd810412a320c4a6af22d553",
+  "frozenFiles": 47,
+  "allFrozenHashesMatch": true,
+  "registeredActualDistinctHostContexts": 50,
+  "independentResponses": 50,
+  "allTenCouncilsParticipated": true,
+  "allResponseVersionsAndDigestsMatch": true,
+  "decisions": {
+    "NEEDS_EVIDENCE": 34,
+    "APPROVE": 16
+  },
+  "votesChanged": 0,
+  "votesCoerced": false,
+  "sourceChangedDuringVoting": false,
+  "openCondition": "Human listening evidence remains unavailable. Deliver usable revised ad with explicit incomplete approval status.",
+  "identityLimits": "Runtime names are trusted coordinator attestations from actual host calls, not cryptographic identity proof."
+}

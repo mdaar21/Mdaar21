@@ -1,0 +1,45 @@
+{
+  "expert": "quality-3",
+  "version": "planning-1",
+  "digest": null,
+  "decision": "NEEDS_EVIDENCE",
+  "reason": "Planning only: final candidate and measured performance evidence have not been supplied.",
+  "evidence": [
+    "planning-packet.json: required 1080x1920 true 60fps downloadable ad, source narration, no music, protected captions and held CTA",
+    ".agents/skills/elite50/agents/experts/quality-3.md: measured baseline, resource use and performance budget"
+  ],
+  "plan": [
+    "Root should record source duration, geometry, frame rate, audio stream properties and file size before rendering; retain source narration as the comparison baseline.",
+    "Use a deterministic 60fps composition and budget text, character and demo motion so frames do not stall or duplicate merely to inflate output frame rate.",
+    "Keep narration timing and pitch intact; apply only justified modest level control and purposeful effects, with no music layer.",
+    "Produce a compatible MP4, then validate the actual published player and download against the frozen final file."
+  ],
+  "acceptance_checks": [
+    {
+      "priority": "P0",
+      "check": "Final MP4 reports 1080x1920, constant 60/1 frame rate, monotonic frame timestamps spaced at 1/60 second within timebase rounding, complete decode with no errors, and synchronized audio duration. Inspect motion-bearing intervals for repeated/stalled frames; metadata alone cannot establish true motion at 60fps. Intentional held cards are exempt."
+    },
+    {
+      "priority": "P0",
+      "check": "Compare extracted final narration with the source for retained speech, pace and pitch. Record sample peak, true peak and clipping analysis; require no clipped samples and final true peak at or below -1 dBTP. Confirm the composition/audio asset manifest contains no music. Technical checks cannot certify naturalness."
+    },
+    {
+      "priority": "P0",
+      "check": "Review representative frames and all caption/scene boundaries for Arabic shaping, readable contrast, protected placement, no clipping or overlaps, and caption synchronization. Keep the final CTA readable and stationary for a measured hold of at least 2 seconds."
+    },
+    {
+      "priority": "P1",
+      "check": "Record render wall time, peak memory if available, codec/profile, pixel format, bitrate and file size. Prefer H.264 with yuv420p, AAC and fast-start metadata for broad player support; disclose any compatibility tradeoff rather than imposing an unsupported file-size limit."
+    },
+    {
+      "priority": "P0",
+      "check": "Test the published URL for successful playback and seeking, verify download response and expected file size, and compare the downloaded file hash with the frozen reviewed artifact. A link label alone is insufficient evidence."
+    }
+  ],
+  "objections": [],
+  "limitations": [
+    "No final video, measurements or publication evidence reviewed in this planning phase.",
+    "No human listening capability: waveform measurements and ASR cannot prove that narration sounds natural.",
+    "Sales performance, unrelated application infrastructure and store changes are outside this performance review scope."
+  ]
+}

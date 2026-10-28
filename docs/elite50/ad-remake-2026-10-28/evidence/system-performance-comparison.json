@@ -1,0 +1,17 @@
+{
+  "baseline": "Uploaded smooth_60fps.mp4,42.836667s,510x1108,about30fps",
+  "candidate": "Frozen29.8s,1080x1920,60fps",
+  "durationReductionPercent": 30.433429846444398,
+  "audioIntegratedLUFS": {
+    "baseline": -17.1,
+    "candidate": -19.11
+  },
+  "newMeasuredChecks": [
+    "Source book visible by7.2seconds",
+    "1788evenlytimedframes",
+    "14captiongroups53words",
+    "3.45secondsettledCTAhold",
+    "H264AACdecodeandnativeplayerchecks"
+  ],
+  "limits": "These are delivery/edit observations on different cuts, not a controlled test of quality or sales. No audience uplift claimed."
+}

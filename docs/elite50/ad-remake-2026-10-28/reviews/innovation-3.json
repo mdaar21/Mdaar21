@@ -1,0 +1,65 @@
+{
+  "expert": "innovation-3",
+  "version": "v12-final-1",
+  "digest": "6b6846706f12db961b678c585330dffd8222545cdd810412a320c4a6af22d553",
+  "decision": "NEEDS_EVIDENCE",
+  "reason": "The inspected encoded stills and technical records support the requested visual production and delivery improvements. A material owner requirement remains unverified: whether the separated and edited source narration sounds smooth and natural and the finished track has no perceptible residual music. No human listening evidence exists. The absence of an audience study limits claims about comprehension and unmet needs, but is not itself a missing production deliverable.",
+  "evidence": [
+    {
+      "file": "creative/voice-ad-premium-v12/reports/encoded-contact.jpg",
+      "method": "Direct view_image inspection of the encoded contact sheet",
+      "finding": "At 0.00/1.04s the faceless figure and beginner question establish the premise. At 8.65s the recognizable product is prominent; 12.575s names PDF plus app and separates training, nutrition and recipe contents. The 15.70s training choices, 18.55s calculator and 22.775s recipe provide concrete examples. The 27.65/29.70s samples show a consistent clean CTA, 15.99 SAR and store URL. Major Arabic headings and captions are distinct from the demonstration area. Small app details remain demonstration evidence rather than proven mobile-readable instructions."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/reports/encoded-handoffs.jpg",
+      "method": "Direct view_image inspection of sampled encoded handoffs",
+      "finding": "The 6.32–7.08s samples show the book-led product reveal, the 14.17–14.93s samples move from contents to training choice, and 25.32–26.08s introduces the closing offer. Sampled transitions protect the caption lane and visually connect information. Still samples do not establish continuous perceived smoothness."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/reports/source-browser.json; reports/check-final.json; captions.srt",
+      "finding": "Recorded bounds cover 14 short caption groups; the source report records book visibility by 7.2s and a 3.45s settled CTA hold. Automated contrast passed 33 checks. Caption durations include approximately 1.075s phrases, so comfortable reading during concurrent demonstrations remains an untested audience question."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/reports/player-browser.json; reports/live-verification.json; reports/encoded-validation.json",
+      "finding": "Existing software checks report decoded video, working controls/downloads and no horizontal overflow at 320/390/1440px; live files match local hashes. Encoded validation reports 1080x1920, 60/1 fps, 1788 frames, 29.8s and no decode warnings. These are software verification records, not user usability sessions."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/reports/audio-edit.json; reports/voice-separation.json; reports/edited-asr.json",
+      "finding": "Records disclose source vocal separation, three source edit segments, no pitch/time change and no added music. Separation explicitly does not establish perfect music removal or perceptual naturalness. ASR contains transcription errors at 0–4.16s and elsewhere; this is neither proof of unintelligible narration nor evidence that humans find it natural."
+    },
+    {
+      "file": "docs/elite50/ad-remake-2026-10-28/evidence/claim-map.json; creative/voice-ad-premium-v12/DESIGN.md; SPEC.md",
+      "finding": "The beginner-confusion need and orderly reference solution are coherent creative hypotheses. Real app examples, estimate labels and owner-supplied price reduce ambiguity. The scope expressly contains no audience conversion study or human listening."
+    }
+  ],
+  "strengths": [
+    "Clear problem-to-product sequence with an earlier visual reveal and concrete app examples.",
+    "Offer contents distinguish PDF, app recipes and training days; estimate labels temper precision claims.",
+    "Price and held closing action are visually explicit in the sampled final encoded frames."
+  ],
+  "issues": [
+    {
+      "severity": "evidence_gap",
+      "issue": "Perceptual narration quality and residual background music are unverified despite being explicit owner requirements.",
+      "needed_evidence": "A fluent Arabic listener's review of this exact encoded MP4, covering naturalness, cut joins, intelligibility, caption alignment and residual music. Record observations rather than treating technical metrics as a listening verdict."
+    },
+    {
+      "severity": "non_blocking_research_limit",
+      "issue": "No real target-audience sample, comprehension exercise or need-validation data is supplied. Expert inspection and software browser checks cannot establish broad Saudi beginner comprehension, preference or conversion."
+    }
+  ],
+  "objections": [
+    "Do not describe this artifact as audience-validated, proven to remove beginner confusion, or conversion-tested.",
+    "Do not equate absence of an added music track, successful ASR or compliant loudness with verified natural narration and complete music removal."
+  ],
+  "limitations": [
+    "I inspected the two encoded image sheets and the named records; I did not watch continuous video or hear audio.",
+    "No participant recruitment or sampling frame exists, so sampling bias cannot be quantified. The evidence is creator-selected and feature-focused.",
+    "Small screenshot text and disclaimers were viewed in scaled contact sheets; real-device reading comfort remains untested.",
+    "I did not read other experts' opinions or verify their participation; this is only my independent review."
+  ],
+  "non_applicable_criteria": [
+    "A formal audience study, sales lift and representative population inference were not requested production deliverables and are not conditions for basic visual delivery approval.",
+    "Clinical suitability, checkout, fulfillment, store price changes and formal legal certification are outside this ad review."
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "expert": "quality-2",
+  "version": "v12-final-1",
+  "digest": "6b6846706f12db961b678c585330dffd8222545cdd810412a320c4a6af22d553",
+  "decision": "APPROVE",
+  "reason": "The frozen deliverable meets the compatibility and responsive-delivery requirements evidenced here: a vertical 1080x1920, 60/1-fps MP4, a working downloadable player, and tested playback/seek states at narrow and desktop widths. This is a compatibility-scope approval, not certification of every browser, TikTok upload, or subjective audio naturalness.",
+  "evidence": [
+    {
+      "file": "creative/voice-ad-premium-v12/reports/encoded-contact.jpg",
+      "method": "Personally inspected with view_image",
+      "finding": "Encoded samples at 0, 1.04, 4.29, 8.65, 12.575, 15.7, 18.55, 22.775, 27.65 and 29.7 seconds preserve the faceless figure, Arabic presentation, actual product/app imagery and final 15.99 SAR CTA. Main text has ample frame margins; fine app details are smaller than main captions."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/reports/encoded-handoffs.jpg",
+      "method": "Personally inspected with view_image",
+      "finding": "Thirty-five encoded samples around seven handoffs show protected captions and coherent transitions. The 25.5-second dissolve includes expected image overlap; subsequent CTA samples settle. These are still samples, not my continuous viewing."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/reports/player-browser.json; creative/voice-ad-premium-v12/verify-player.py",
+      "method": "Read report and test implementation",
+      "finding": "Actual test implementation uses headless system Chromium at 320x920, 390x920 and 1440x920. It checks 29.8-second metadata, muted play/pause, seeking to 0.5/7.2/18.2/27.9 seconds, no horizontal overflow, three download links and response ranges, with no page errors. It does not perform real OS save/share flows."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/reports/player-mobile.png; public/ad/premium/index.html",
+      "method": "Personally inspected screenshot and read source",
+      "finding": "390px player screenshot shows contained vertical video, Arabic heading/price and native controls without horizontal clipping. Source uses native controls, playsinline, responsive width and 76vh height limit, downloadable relative links and a narrow-width stacked layout."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/reports/encoded-validation.json; creative/voice-ad-premium-v12/verify-encoded.py",
+      "method": "Read existing report and implementation; did not rerun",
+      "finding": "Report records 29.8 seconds, 1788 frames, 1080x1920, 60/1 cadence, zero decoder warnings and fast-start moov placement. The implementation asserts H.264 video, AAC audio and 48kHz before producing the report. SHA-256 is 0d741b5bef0424be521ba9938e891d8a4f6163b7e075e4cab592f3f8f8ff3940. Thirty-six sampled moving frames have no adjacent identical frames; that sample does not prove unique motion throughout."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/reports/live-verification.json; docs/elite50/ad-remake-2026-10-28/candidate.json",
+      "method": "Read existing live verification and frozen manifest",
+      "finding": "Player, video, voice, captions and poster returned HTTP 200 with matching local hashes; video byte-range returned HTTP 206. Live MP4 hash matches the frozen public MP4 and encoded-validation hash. Browser tests themselves target the local server; HTTP proof supports the published assets, not a separate full live interaction test."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/reports/check-final.json; creative/voice-ad-premium-v12/reports/motion-playback.json",
+      "method": "Read existing test records",
+      "finding": "Reported runtime/layout checks pass, 33/33 contrast checks pass, and software preview reports 1744 browser frames over 29.8 seconds. One duplicate-media-discovery lint warning remains. Preview recording has no audio and is not perceptual certification."
+    }
+  ],
+  "strengths": [
+    "Native HTML video and conventional H.264/AAC delivery reduce player dependencies.",
+    "Responsive states and actual decoding/seek behavior have explicit executable test evidence.",
+    "Published MP4 identity and range serving are documented, and the held CTA is visible in encoded late frames."
+  ],
+  "issues": [
+    "The report label threeDownloadsVerified means link/range response checks; it is narrower than end-user save-to-device verification.",
+    "Only Chromium is tested. Safari/iOS, Firefox, Android physical hardware, orientation changes and TikTok ingest/recompression remain unverified. No actual TikTok upload certification exists.",
+    "A duplicate-media lint warning is present, but the reviewed encoded/decode evidence does not show a resulting delivery failure."
+  ],
+  "objections": [],
+  "limitations": [
+    "No human listening capability: I cannot verify natural narration, perfect intelligibility, sound-effect balance or complete music removal. Those requirements remain outside this compatibility approval.",
+    "I inspected encoded contact sheets and a player screenshot and read existing records; I did not watch or hear continuous video, run fresh browser/codec tests, or perform an upload.",
+    "No requirement supplied a universal browser/platform certification matrix. This approval is limited to demonstrated web delivery and the supplied production format, and must not be represented as universal device support.",
+    "Fine in-app labels are small in mobile-sized views; major captions, price and CTA are the readable hierarchy. Platform overlay clearance is not proven by an actual TikTok screen."
+  ],
+  "non_applicable_criteria": [
+    "Native application installation, backend compatibility and store checkout/fulfillment are outside this video/player deliverable.",
+    "Sales performance, professional nutritional validation and formal legal status are outside compatibility testing."
+  ]
+}

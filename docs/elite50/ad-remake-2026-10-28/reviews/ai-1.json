@@ -1,0 +1,53 @@
+{
+  "expert": "ai-1",
+  "version": "v12-final-1",
+  "digest": "6b6846706f12db961b678c585330dffd8222545cdd810412a320c4a6af22d553",
+  "decision": "NEEDS_EVIDENCE",
+  "reason": "The frozen video has strong visual and technical delivery evidence, and the audio pipeline preserves source timing and pitch. However, its learned vocal separation has no perceptual validation. Smooth natural narration and absence of residual music are explicit production requirements that the inspected ASR, levels, transform identity test and encode correlation cannot establish. This is an evidence gap, not a finding that the audio sounds bad.",
+  "evidence": [
+    {
+      "file": "creative/voice-ad-premium-v12/reports/encoded-contact.jpg",
+      "inspection": "Viewed encoded still sheet directly. Recognisable featureless figure and Arabic hook appear at 0.000/1.040s; product is clear by the sampled 8.650s frame; actual app examples appear at 18.550/22.775s; 15.99 SAR and store CTA remain visible at 27.650/29.700s."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/reports/encoded-handoffs.jpg",
+      "inspection": "Viewed encoded transition samples directly. Arabic captions occupy a separate lower panel, while cover, program and app scenes change above them. These samples support layout continuity, not continuous motion perception."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/separate-voice.py; reports/voice-separation.json",
+      "inspection": "Inspected implementation and recorded results: Kim_Vocal_2.onnx has a recorded SHA-256, overlapping STFT chunks and finite-output assertion; transform identity maximum error is 9.30e-08. This tests reconstruction before learned separation, not separation accuracy. Removed RMS 0.0161 cannot identify residual music or speech artifacts."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/process-audio.py; reports/audio-edit.json",
+      "inspection": "Inspected three source intervals mapped into 26.01s of narration, 8ms edge fades, mild EQ, gain and nine ducked effects. No pitch/time-stretch/synthesis or added music track is present in this source pipeline. Reported mix is -19.1 LUFS, -3.0 dBTP with zero clipped samples."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/reports/edited-asr.json; captions.srt; docs/elite50/ad-remake-2026-10-28/evidence/source-asr-medium.json",
+      "inspection": "Read both machine transcripts and captions. Final ASR disagrees with corrected captions at 0.00–4.16s, 11.98–14.14s and 22.38–25.76s. Source ASR also misrecognises the opening and product-introduction wording. These are recogniser disagreements, not proof of wrong speech, but leave caption accuracy and intelligibility unverified."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/reports/encoded-validation.json; check-final.json; motion-playback.json; player-browser.json; live-verification.json",
+      "inspection": "Read recorded checks: 1080x1920, 1788 frames/29.8s at 60/1, no decode warnings, moving adjacent samples distinct, audio/master correlation 0.999984, and matching live-video hash with HTTP 200/206. Browser report records 1744 timeline frames, functional playback/downloads and no runtime errors. One duplicate-media discovery lint warning remains; these records do not certify perceived smoothness."
+    }
+  ],
+  "strengths": [
+    "Model and source identities, parameters, edit mapping and uncertainty are traceable.",
+    "Source processing contains no pitch change or synthetic replacement; final encode closely preserves the prepared master.",
+    "Inspected encoded frames support the character premise, readable Arabic captions, real product demonstration and held priced CTA."
+  ],
+  "issues": [
+    "Provide a documented competent Arabic listener check of the encoded final mix, especially joins at 1.96s and 4.31s, for naturalness, complete words, caption correspondence and residual music. No such evidence is available in this packet."
+  ],
+  "objections": [
+    "Do not equate STFT identity error, ASR confidence, absent added music, or high master/encode correlation with successful perceptual vocal separation."
+  ],
+  "limitations": [
+    "No human listening capability or continuous audiovisual viewing was available; I inspected images, source and existing records only.",
+    "I did not independently rerun separation, ASR, render, browser or live-network checks.",
+    "I did not read other experts' opinions or verify fifty-agent completion; that procedural condition requires the coordinator's independent record."
+  ],
+  "non_applicable_criteria": [
+    "Backend assistant behavior, LLM tools, prompt injection defenses, online model serving and production model rollback are outside this video-production scope.",
+    "Sales effectiveness, checkout fulfillment, clinical accuracy and formal legal clearance are not certified by this review."
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "expert": "quality-3",
+  "version": "v12-final-1",
+  "digest": "6b6846706f12db961b678c585330dffd8222545cdd810412a320c4a6af22d553",
+  "decision": "APPROVE",
+  "reason": "The frozen deliverable meets the technical performance and delivery criteria I can assess: measured 1080x1920 constant 60fps encoding, changing frames in the tested motion interval, clean decode, conservative audio peaks, compact fast-start delivery and verified player/download records. My approval is a technical production judgment; perceptual narration naturalness and complete removal of source music remain expressly unverified.",
+  "evidence": [
+    "candidate.json and reports/encoded-validation.json identify the same MP4 SHA-256: 0d741b5bef0424be521ba9938e891d8a4f6163b7e075e4cab592f3f8f8ff3940.",
+    "reports/encoded-validation.json: 1080x1920, 1788 frames over 29.8 seconds, 60/1 fps, maximum timestamp cadence error 0.000000667 seconds, decode exit 0 with zero warnings. verify-encoded.py checks every video frame timestamp and asserts H.264/AAC at 48kHz.",
+    "verify-encoded.py tests 36 cropped frames from 0.35-0.95s; reports/encoded-validation.json records zero identical adjacent moving frames and minimum mean frame difference 0.055. This supports genuine sampled motion at 60fps while providing no whole-film optical-flow proof.",
+    "reports/motion-playback.json records a 29.8-second software preview with 1744 callbacks, median RAF 16.7ms and p95 16.8ms. This is preview telemetry, separate from the encoded-frame evidence.",
+    "reports/encoded-validation.json measures final encoded input loudness -19.11 LUFS and true peak -3.01 dBTP, with master correlation 0.9999844. Its loudnorm output fields describe a hypothetical normalization result; I used the input fields for actual-file levels. reports/audio-edit.json records zero master clipped samples, unchanged pitch/speed, nine short effects and no added music.",
+    "I inspected reports/encoded-contact.jpg and reports/encoded-handoffs.jpg using view_image. At their sampled times I found no obvious main-caption clipping, broken Arabic headings or accidental empty end card. 27.65s and 29.7s show a clear held 15.99 SAR CTA. reports/source-browser.json records a 3.53-second settled hold.",
+    "The MP4 is 4,181,863 bytes with moov before mdat. reports/player-browser.json records decoded playback, play/pause, four scene seeks and no overflow/errors at widths 320, 390 and 1440. verify-player.py confirms those checks use a local player server.",
+    "reports/live-verification.json separately records HTTP 200 and local-matching hashes for the live player, MP4, voice, captions and poster; video range request returns HTTP 206 with bytes 0-1023/4181863."
+  ],
+  "strengths": [
+    "Frame count, full-stream timestamps and complete decode support the requested output format beyond metadata alone.",
+    "Small delivery size and fast-start placement fit a mobile advertisement without an invented file-size requirement.",
+    "Final encode peak headroom and close master correlation show the delivery encode retained the measured mix."
+  ],
+  "issues": [
+    {
+      "severity": "non-blocking limitation",
+      "detail": "Naturalness, splice continuity, intelligibility and residual source music have no human listening confirmation. voice-separation.json correctly describes its learned vocal estimate as approximate. Source preservation, ASR and waveform correlation do not settle these perceptual questions; this limits the scope of my approval."
+    },
+    {
+      "severity": "non-blocking",
+      "detail": "check-final.json retains duplicate_media_discovery_risk for three matching image entries. The successful encode, inspected sampled frames and preview telemetry show no resulting technical failure; automated motion checking itself was disabled."
+    },
+    {
+      "severity": "non-blocking measurement gap",
+      "detail": "Peak render memory, complete render wall time and a measured old-versus-new performance comparison were not supplied. No resource budget or latency target was specified, so I cannot claim a quantified resource improvement."
+    }
+  ],
+  "objections": [],
+  "limitations": [
+    "Reviewed recorded tests and source verification logic; did not rerun workloads or independently perform live browser requests.",
+    "Inspected static encoded sheets, not continuous video playback; no audio listening capability.",
+    "The 36-frame motion test covers one interval. Sparse handoff images and preview timings support consistency without proving every animated interval is perceptually smooth."
+  ],
+  "non_applicable_criteria": [
+    "Unrelated app/server performance budgets, checkout throughput, account security, financial/legal certification, medical validation and measured advertising sales outcomes are outside this ad production review."
+  ]
+}

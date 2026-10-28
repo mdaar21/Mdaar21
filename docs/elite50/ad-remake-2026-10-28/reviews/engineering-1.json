@@ -1,0 +1,82 @@
+{
+  "expert": "engineering-1",
+  "version": "v12-final-1",
+  "digest": "6b6846706f12db961b678c585330dffd8222545cdd810412a320c4a6af22d553",
+  "decision": "APPROVE",
+  "reason": "Within the ad/player engineering scope, the frozen deliverable has an appropriate, maintainable structure and credible artifact-specific validation. Source composition, animation, audio preparation and static delivery are separated clearly. The encoded images inspected show the requested faceless premise, product and app examples, protected captions and held 15.99 SAR CTA. This is a technical approval, with the perceptual audio and broader process limits below; it does not certify every production requirement outside this role.",
+  "evidence": [
+    {
+      "file": "creative/voice-ad-premium-v12/reports/encoded-contact.jpg",
+      "inspection": "Personally inspected the encoded still sheet: faceless opening at 0.000/1.040s; visible product at 8.650s; bundle list at 12.575s; actual calculator/recipe imagery at 18.550/22.775s; consistent CTA/price at 27.650 and 29.700s."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/reports/encoded-handoffs.jpg",
+      "inspection": "Personally inspected transition stills around 2.08, 6.50, 10.80, 14.35, 17.05, 20.05 and 25.50s. The sampled caption layer stays separate from incoming scene wipes. Stills establish sampled states, not continuous perceptual smoothness."
+    },
+    {
+      "files": [
+        "creative/voice-ad-premium-v12/build-film.py",
+        "creative/voice-ad-premium-v12/animate.js",
+        "creative/voice-ad-premium-v12/README.md"
+      ],
+      "inspection": "Read source: explicit eight-scene beat table, reusable actor/book functions, a single paused GSAP timeline, separate caption layer and per-scene transitions. Regeneration/render commands and model dependency are documented."
+    },
+    {
+      "files": [
+        "public/ad/premium/index.html",
+        "creative/voice-ad-premium-v12/verify-player.py",
+        "creative/voice-ad-premium-v12/reports/player-browser.json"
+      ],
+      "inspection": "Read native HTML video/download implementation and browser-test source. Existing results cover 320/390/1440px widths, playback, seeking, overflow and resource availability. Download checks request targets; they do not exercise every browser save dialog."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/reports/encoded-validation.json",
+      "inspection": "Read existing measured result: 1080x1920, 60/1fps, 1788 frames over 29.8s, zero decode warnings, fast-start MP4; 36 sampled moving frames have no identical adjacent pairs. This supports true sampled motion rather than frame-rate metadata alone, without proving every motion interval."
+    },
+    {
+      "files": [
+        "creative/voice-ad-premium-v12/reports/source-browser.json",
+        "creative/voice-ad-premium-v12/reports/check-final.json",
+        "creative/voice-ad-premium-v12/reports/motion-playback.json"
+      ],
+      "inspection": "Read existing results: reverse-seek state consistency, empty featureless faces, no actor/menu overlap, CTA settled 26.35s with 3.45s hold, no runtime errors; continuous software playback measured separately. Generic check motion sampling was disabled, so it alone is not motion proof."
+    },
+    {
+      "files": [
+        "creative/voice-ad-premium-v12/process-audio.py",
+        "creative/voice-ad-premium-v12/reports/audio-edit.json",
+        "creative/voice-ad-premium-v12/reports/voice-separation.json"
+      ],
+      "inspection": "Read preparation source and records: source segments preserved without pitch/time stretching, conservative filters, sparse effects, no added music track; learned separation is explicitly approximate."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/reports/live-verification.json",
+      "inspection": "Read recorded HTTP 200/hash equality for player/media and HTTP 206 range response. Independently computed local SHA256 for player, MP4, build-film.py and animate.js; all matched candidate.json. I did not repeat network or browser tests."
+    }
+  ],
+  "strengths": [
+    "Static native player requires no runtime JavaScript dependency and keeps delivery outside the main app architecture.",
+    "Composition and encoded output evidence are distinguished, and the artifact hash is tied to the published-file record.",
+    "README preserves practical reproduction information and discloses external source/model prerequisites."
+  ],
+  "issues": [
+    {
+      "severity": "minor",
+      "detail": "check-final.json retains duplicate_media_discovery_risk for three repeated book-cover images. The encoded decode/sample evidence shows no current blocking output defect, but future compiler changes should retain this explicit check."
+    },
+    {
+      "severity": "limitation",
+      "detail": "Perceptual naturalness/intelligibility and complete removal of original background music remain unverified. No added music and no pitch/time changes do not establish those acoustic outcomes."
+    }
+  ],
+  "limitations": [
+    "No human listening capability and no claim to have heard or watched continuous video. I viewed the two encoded image sheets and inspected source/test records.",
+    "Existing Chromium and HTTP records are evidence from their recorded run; they are not an independent fresh cross-browser/mobile-device certification.",
+    "The full fifty-context independence/count requirement cannot be established by one reviewer without reading other opinions; coordinator must audit actual execution records separately.",
+    "Approval is confined to ad/player engineering completeness. It does not certify sales, checkout/fulfilment, medical/nutrition accuracy, licensing/legal status or perceptual audio quality."
+  ],
+  "non_applicable_criteria": [
+    "Backend/service architecture, database consistency, distributed-system resilience, account/checkout integration and application scalability: this candidate is a finite rendered advertisement with a static downloadable player.",
+    "Main application architecture refactoring and unrelated repository maintainability: excluded from the frozen ad/player scope."
+  ]
+}

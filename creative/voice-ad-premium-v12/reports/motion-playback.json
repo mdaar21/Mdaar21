@@ -1,0 +1,12 @@
+{
+  "ok": true,
+  "continuousTimelineSeconds": 29.8,
+  "actualBrowserFrames": 1744,
+  "timelineFirst": 0.024,
+  "timelineLast": 29.8,
+  "medianRAFMS": 16.699999999999818,
+  "p95RAFMS": 16.799999999999955,
+  "recording": "reports/motion-playback.webm",
+  "audioInQARecording": false,
+  "note": "Actual local continuous browser animation. Software preview cadence is measured separately from offline 60fps frame sampling. Not human perceptual playback or listening."
+}

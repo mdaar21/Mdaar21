@@ -1,0 +1,60 @@
+{
+  "expert": "marketing-1",
+  "version": "v12-final-1",
+  "digest": "6b6846706f12db961b678c585330dffd8222545cdd810412a320c4a6af22d553",
+  "decision": "NEEDS_EVIDENCE",
+  "reason": "The inspected encoded frames support a coherent Arabic beginner-fitness offer: confusion, an early recognisable product, concrete app demonstrations, then an explicit 15.99 SAR CTA. Marketing production goals are substantially met. Final acceptance remains unproven for the mandatory natural source narration and no-music requirement: the inspected separation record explicitly provides no human listening and no guarantee of complete background removal. This is an evidence gap, not an observed audio defect or a demand for campaign performance results.",
+  "evidence": [
+    {
+      "file": "creative/voice-ad-premium-v12/reports/encoded-contact.jpg",
+      "inspection": "Direct image inspection: 0.000/1.040s show the featureless gym character and beginner question; 4.290s shows contradictory schedule choices; 8.650s clearly presents the book; 12.575s identifies PDF plus app; 15.700s presents 4/5-day programs; 18.550/22.775s show calculator and recipe examples; 27.650/29.700s show stable product, store URL, price and CTA."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/reports/encoded-handoffs.jpg",
+      "inspection": "Direct image inspection of sampled handoffs: book reveal at 6.320–7.080s, isolated caption lane, transitions into schedule/calculator/recipe, and 25.320–26.080s closing dissolve. These samples support protected text; they do not establish continuous playback quality."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/STORYLINES.md; DESIGN.md; captions.srt",
+      "inspection": "The selected question-to-reference-to-action story matches the rendered sequence. Colloquial Arabic captions address uncertainty and convenience, with no numerical physique outcome or sales guarantee. Ending narration at 24.185–25.990s is reassuring; the visible estimate qualifiers appropriately limit calculator/recipe precision."
+    },
+    {
+      "file": "docs/elite50/ad-remake-2026-10-28/evidence/claim-map.json; creative/voice-ad-premium-v12/index.html",
+      "inspection": "Claim map attributes 15.99 SAR to owner instruction, 4/5-day programs to project data and 500 app recipe entries to project data. Actual composition markup distinguishes recipes in the app and explanation links in the PDF and labels nutritional values as estimates. I did not independently recount the underlying recipe/PDF data."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/reports/source-browser.json; encoded-validation.json; player-browser.json; live-verification.json",
+      "inspection": "Inspected records report CTA settled by 26.35s with 3.45s hold; 29.8s, 1080x1920, 60/1fps, 1788 frames, clean decode and sampled changing frames; downloads tested at 320/390/1440px; live MP4 hash matching local with HTTP 200/206. Public player markup directly includes an MP4 download link."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/reports/audio-edit.json; voice-separation.json",
+      "inspection": "Records specify source cuts, no pitch/time-stretch/synthesized voice, mild EQ, nine short effects, no added music and zero clipped samples. Vocal separation is approximate and explicitly lacks human listening. Loudness and encoded correlation do not prove naturalness or music absence."
+    }
+  ],
+  "strengths": [
+    "Positioning is concrete: a usable training-and-food reference for Arabic-speaking beginners overwhelmed by competing advice.",
+    "Early product presence and real calculator/portion examples make the offer tangible before the sale.",
+    "The held closing price and store destination give the viewer a clear next action without artificial urgency."
+  ],
+  "issues": [
+    {
+      "severity": "acceptance_evidence_gap",
+      "issue": "Required narration naturalness/intelligibility and absence of residual music have no perceptual verification. A documented listening assessment of the final encoded audio, including source-cut joins, is needed to close unconditional production acceptance."
+    },
+    {
+      "severity": "non_blocking_uncertainty",
+      "issue": "Audience fit is editorial judgment; no retention, comprehension, CTR, conversion or sales data was supplied. No performance lift is certified or required for this production task."
+    }
+  ],
+  "objections": [
+    "Do not treat a technically preserved source or no added music as proof that learned separation sounds natural or removes every original musical element."
+  ],
+  "limitations": [
+    "Inspected still sheets, composition text and existing technical records; did not watch or hear continuous video.",
+    "Small supporting app text is secondary to the main headings in the inspected sheets; no actual audience reading-speed study exists.",
+    "The price is accepted as the owner-provided ad price. Store checkout, fulfillment and changed store pricing were not tested."
+  ],
+  "non_applicable_criteria": [
+    "Campaign budget, acquisition targets, attribution instrumentation, statistically demonstrated audience performance and sales guarantees are outside this production-only acceptance request.",
+    "Medical fitness, formal legal clearance and store transaction certification are not marketing-production approvals."
+  ]
+}

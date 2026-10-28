@@ -1,0 +1,107 @@
+{
+  "sourceSha256": "b9cd6deaafe9d94695c36554cc73b73eb86e2789febe1f9685683c8e5054a0c2",
+  "sourceNarrationPreserved": true,
+  "sourceVocalSeparation": "reports/voice-separation.json",
+  "segments": [
+    {
+      "sourceStart": 8.69,
+      "sourceEnd": 10.65,
+      "outputStart": 0,
+      "outputEnd": 1.96
+    },
+    {
+      "sourceStart": 17.18,
+      "sourceEnd": 19.53,
+      "outputStart": 1.96,
+      "outputEnd": 4.3100000000000005
+    },
+    {
+      "sourceStart": 20.0,
+      "sourceEnd": 41.7,
+      "outputStart": 4.3100000000000005,
+      "outputEnd": 26.009999999999998
+    }
+  ],
+  "spokenEditSeconds": 26.009999999999998,
+  "duration": 29.8,
+  "tailHoldSeconds": 3.7900000000000027,
+  "filters": "highpass=f=65,equalizer=f=240:t=q:w=0.85:g=-1,equalizer=f=2800:t=q:w=0.85:g=0.8",
+  "voiceGainDB": 2.12,
+  "voiceLoudness": {
+    "integratedLUFS": -19.1,
+    "truePeakDBTP": -3.0,
+    "loudnessRangeLU": 3.7
+  },
+  "mixLoudness": {
+    "integratedLUFS": -19.1,
+    "truePeakDBTP": -3.0,
+    "loudnessRangeLU": 3.7
+  },
+  "effects": [
+    {
+      "time": 2.08,
+      "source": "click-soft.mp3",
+      "maxPeakBeforeDucking": 0.028,
+      "seconds": 0.12
+    },
+    {
+      "time": 4.28,
+      "source": "pop.mp3",
+      "maxPeakBeforeDucking": 0.035,
+      "seconds": 0.14
+    },
+    {
+      "time": 6.44,
+      "source": "whoosh-short.mp3",
+      "maxPeakBeforeDucking": 0.055,
+      "seconds": 0.42
+    },
+    {
+      "time": 10.84,
+      "source": "click-soft.mp3",
+      "maxPeakBeforeDucking": 0.036,
+      "seconds": 0.15
+    },
+    {
+      "time": 14.37,
+      "source": "whoosh-short.mp3",
+      "maxPeakBeforeDucking": 0.045,
+      "seconds": 0.32
+    },
+    {
+      "time": 17.05,
+      "source": "click-soft.mp3",
+      "maxPeakBeforeDucking": 0.035,
+      "seconds": 0.13
+    },
+    {
+      "time": 20.08,
+      "source": "whoosh-short.mp3",
+      "maxPeakBeforeDucking": 0.045,
+      "seconds": 0.32
+    },
+    {
+      "time": 22.2,
+      "source": "click-soft.mp3",
+      "maxPeakBeforeDucking": 0.043,
+      "seconds": 0.12
+    },
+    {
+      "time": 25.52,
+      "source": "whoosh-short.mp3",
+      "maxPeakBeforeDucking": 0.055,
+      "seconds": 0.4
+    }
+  ],
+  "musicTrackAdded": false,
+  "pitchChanged": false,
+  "timeStretch": false,
+  "compression": false,
+  "synthesizedVoice": false,
+  "clippedSamples": 0,
+  "captionGroups": 14,
+  "captionWords": 53,
+  "captionLimits": "Machine word boundaries with editorial text corrections; human listening unavailable. Source fragments preserved for independent verification.",
+  "voiceRMS": 0.062362778931856155,
+  "fxRMS": 0.0015352147165685892
+}

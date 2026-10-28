@@ -1,0 +1,55 @@
+{
+  "expert": "commerce-4",
+  "version": "v12-final-1",
+  "digest": "6b6846706f12db961b678c585330dffd8222545cdd810412a320c4a6af22d553",
+  "decision": "NEEDS_EVIDENCE",
+  "reason": "The price, offer presentation and downloadable deliverable are supported within advertisement scope. However, the complete production request explicitly requires natural narration and no music. The inspected separation report states that removal is approximate and that perceptual naturalness and perfect music removal are unestablished. Without listening evidence I cannot independently certify those requirements as satisfied. This evidence gap is unrelated to payment execution.",
+  "evidence": [
+    {
+      "file": "creative/voice-ad-premium-v12/reports/encoded-contact.jpg",
+      "inspection": "Direct view_image inspection: recognisable blank-faced character, Arabic headings/captions, product at 8.650s, programme/calculator/recipe demonstrations, and consistent 15.99 SAR CTA at 27.650s and 29.700s. The CTA has clear price and store address without a crossed-out price or artificial urgency."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/reports/encoded-handoffs.jpg",
+      "inspection": "Direct view_image inspection: sampled reveal around 6.320–7.080s and closing handoff around 25.320–26.080s. These are still samples, not continuous playback inspection."
+    },
+    {
+      "file": "docs/elite50/ad-remake-2026-10-28/evidence/claim-map.json",
+      "inspection": "Owner price is recorded as 15.99 SAR, advertisement only. Scope explicitly excludes store/admin edits, purchase, authorization and fulfillment tests; feature claims distinguish PDF links from app recipes and identify nutritional estimates."
+    },
+    {
+      "file": "public/ad/premium/index.html",
+      "inspection": "Read actual source: native video controls, MP4/MP3/SRT download links, 15.99 SAR heading and external product link. No checkout or payment callback implementation is part of this player."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/reports/player-browser.json; reports/live-verification.json; reports/encoded-validation.json",
+      "inspection": "Inspected existing records: downloads verified at widths 320/390/1440; published assets returned 200 and matched local hashes; video byte-range response 206. Encoded record reports 1080x1920, 60/1 fps, 1788 frames over 29.8s, zero decode warnings and MP4 SHA256 0d741b5bef0424be521ba9938e891d8a4f6163b7e075e4cab592f3f8f8ff3940. These checks were not rerun by this reviewer."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/reports/audio-edit.json; reports/voice-separation.json; SPEC.md",
+      "inspection": "Records describe original narration segments, no pitch/time-stretch or synthesized voice, nine short effects and no added music. Separation explicitly says learned vocal estimation is approximate, humanListening=false, and does not establish perfect music removal or perceptual naturalness."
+    }
+  ],
+  "strengths": [
+    "Price and CTA are coherent between sampled encoded output and download player.",
+    "Product and app evidence appears before the close, with restrained claims and a stable closing offer.",
+    "Delivery records support a downloadable production-format video."
+  ],
+  "issues": [
+    "Required subjective audio qualities remain unverified; obtain a listening assessment of the final encoded track before claiming every production requirement is met."
+  ],
+  "objections": [
+    "No objection based on missing payment callbacks, refunds or purchase tests: those are outside this advertisement task."
+  ],
+  "limitations": [
+    "I inspected two encoded image sheets and the named source/report files; I did not hear narration or watch continuous video.",
+    "Technical audio measurements and ASR are not perceptual proof.",
+    "This review does not certify sales performance, current checkout price, fulfillment, medical fitness or legal compliance.",
+    "I did not inspect other experts' opinions or certify the eventual fifty-agent review count."
+  ],
+  "non_applicable_criteria": [
+    "Verified payment execution: no payment system change or authorized transaction in scope.",
+    "Duplicate payment callbacks: no callback processing change in scope.",
+    "Refund execution and reconciliation: no refund work in scope."
+  ]
+}

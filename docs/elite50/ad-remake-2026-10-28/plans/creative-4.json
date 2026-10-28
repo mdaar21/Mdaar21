@@ -1,0 +1,58 @@
+{
+  "expert": "creative-4",
+  "role": "Motion Designer",
+  "phase": "independent-planning",
+  "approval_cast": false,
+  "plan": [
+    "Preserve the recognizable white, featureless figure. Give it restrained posture, head and hand gestures tied to narration rather than constant idle motion.",
+    "Reveal the original product cover early; use the same anchored object to bridge the character setup into readable feature cards and a real app demonstration.",
+    "Animate menus through one clear selection at a time. Establish each list before highlighting or scrolling it; keep captions stationary while their words are being read.",
+    "Use short eased position/opacity transitions with consistent direction and visual continuity. Reserve any larger movement for a narrative change; hold the price and CTA at the end.",
+    "Drive every animation from absolute timeline time so seeking, reverse seeking and deterministic rendering restore the same state. Prefer transforms and opacity to layout changes or large animated blur."
+  ],
+  "acceptance_checks": [
+    {
+      "priority": "P0",
+      "check": "The white figure remains featureless and recognizable in all inspected scenes; transitions never introduce facial details, silhouette substitutions or unintended deformation."
+    },
+    {
+      "priority": "P0",
+      "check": "At scene boundaries and sampled midpoints, direct seeking and replay from the start produce matching element states with no stale cards, hidden captions, flashes or missing product assets."
+    },
+    {
+      "priority": "P0",
+      "check": "The output is 1080x1920 at 60 fps, with visually changing intermediate frames during movement rather than a lower-rate composition merely duplicated into a 60 fps container."
+    },
+    {
+      "priority": "P0",
+      "check": "Arabic captions, feature labels, 15.99 SAR and the final CTA remain inside protected text areas, readable at phone size, and held long enough for their complete wording to be read. Final CTA has a settled hold of at least three seconds."
+    },
+    {
+      "priority": "P1",
+      "check": "Each movement either introduces information, guides a selection or connects scenes. No continuous bouncing, needless camera shake, abrupt full-screen scale changes or conflicting simultaneous motion competes with speech and captions."
+    },
+    {
+      "priority": "P1",
+      "check": "Product appears within the first quarter of the ad. Real app footage includes clear rests before and after interactions; any scroll stops on the feature being explained."
+    },
+    {
+      "priority": "P1",
+      "check": "Inspect transition frames and a frame-by-frame movement sample for smooth easing, clean text edges, absence of clipping and flicker, and stable backgrounds. Check rendering evidence for failures or unexpectedly expensive effects."
+    },
+    {
+      "priority": "P1",
+      "check": "If the downloadable player has animated page UI, honor reduced-motion preferences there. The fixed video keeps a restrained motion baseline and no flashing patterns; a video file itself cannot dynamically honor the viewer's preference."
+    }
+  ],
+  "evidence_needed_for_final_review": [
+    "Frozen composition source and asset manifest",
+    "Final downloadable video and ffprobe stream metadata",
+    "Timestamped contact sheet, transition samples and seeking equivalence evidence",
+    "Phone-scale stills of captions, menu states and settled CTA"
+  ],
+  "limitations": [
+    "This is a plan, not a final approval or evidence that the listed checks passed.",
+    "Technical audio metrics and ASR cannot establish natural narration; human listening is unavailable to this reviewer.",
+    "Security infrastructure, store configuration, finance operations and app behavior changes are outside this motion-design scope."
+  ]
+}

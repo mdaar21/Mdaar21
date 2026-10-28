@@ -1,0 +1,63 @@
+{
+  "expert": "marketing-2",
+  "version": "v12-final-1",
+  "digest": "6b6846706f12db961b678c585330dffd8222545cdd810412a320c4a6af22d553",
+  "decision": "NEEDS_EVIDENCE",
+  "reason": "The sampled encoded creative supports a coherent, production-ready advertising hypothesis: beginner uncertainty leads to a recognizable product, concrete app examples, and a held 15.99 SAR offer. I cannot give an unconditional production approval because smooth natural narration and absence of residual source music are explicit requirements, while the inspected evidence expressly lacks human listening. This is an audio acceptance evidence gap, not a request for a campaign or proof of commercial performance.",
+  "evidence": [
+    {
+      "file": "creative/voice-ad-premium-v12/reports/encoded-contact.jpg",
+      "inspection": "Viewed encoded still sheet directly. At 0.000/1.040 the faceless character and Arabic training question establish the hook; 4.290 shows conflicting training choices. At 8.650 the product cover is prominent; 12.575 shows the bundle; 15.700 the 4/5-day programs; 18.550 the calculator; 22.775 the recipe portion example. At 27.650 and 29.700 the price, purchase instruction and store URL are visibly held."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/reports/encoded-handoffs.jpg",
+      "inspection": "Viewed encoded transition samples directly. The product anchor enters around 6.32–7.08s; subsequent sampled transitions preserve the separate caption lane. The closing dissolve around 25.32–26.08s briefly overlaps outgoing demonstration and incoming offer; settled closing samples are clear. These are still observations, not continuous playback."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/reports/source-browser.json",
+      "inspection": "Recorded product visible by 7.2s, final CTA settled by 26.35s and 3.45s end hold. Caption bounds and no source-menu/actor overlap support the protected text approach; they are automated/source measurements."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/reports/encoded-validation.json",
+      "inspection": "Recorded 29.8s, 1080x1920, 60/1fps, 1788 frames, zero decode warnings; video SHA256 0d741b5bef0424be521ba9938e891d8a4f6163b7e075e4cab592f3f8f8ff3940. Sampled moving frames differ. No claim of continuous motion viewing."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/reports/live-verification.json; public/ad/premium/index.html",
+      "inspection": "Recorded live video and player HTTP 200 with matching local hashes, plus HTTP 206 range delivery. Read player source: explicit MP4 download and product-store link. No checkout test was performed."
+    },
+    {
+      "file": "docs/elite50/ad-remake-2026-10-28/evidence/claim-map.json; creative/voice-ad-premium-v12/captions.srt",
+      "inspection": "Owner supplied 15.99 SAR; claims distinguish PDF links from app functionality and 500 app recipes from PDF contents. Caption copy presents convenience and structure; it contains no quantified physique result, testimonial, discount or urgency claim."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/reports/audio-edit.json; reports/voice-separation.json",
+      "inspection": "Records source narration, no pitch/time-stretch, light EQ, nine short effects and no added music. Separation report explicitly says removal is approximate and naturalness is unverified. Loudness and zero clipping do not resolve the listening requirement."
+    }
+  ],
+  "strengths": [
+    "Single understandable problem-to-product narrative; real app examples supply concrete reasons to consider the offer.",
+    "Arabic main headlines, restrained visual hierarchy and separated captions are readable in the inspected samples.",
+    "Price and CTA remain clear at the end; no fabricated performance or campaign evidence is presented."
+  ],
+  "issues": [
+    "A competent listener should compare the final encoded voice with the source and check naturalness, intelligibility, edit joins, effect masking and residual music before full production sign-off.",
+    "Small UI details and estimate notes are less legible than headlines on these sheets; full-size phone viewing would clarify practical comprehension."
+  ],
+  "objections": [
+    "No campaign exists. CTR, retention, conversion, ROAS and attribution accuracy are unknown and are not grounds to reject this production task."
+  ],
+  "proposed_tests_not_results": [
+    "If a campaign is later authorized, compare the existing beginner-question hook with a product-first opening using equal audience/placement allocation and a predefined budget cap; assess 3-second hold, completion and outbound CTR.",
+    "Use distinct tagged landing URLs and verified purchase events before attributing sales. Set the spend cap and stopping rule before launch. No numerical budget or expected uplift can be justified from this packet."
+  ],
+  "limitations": [
+    "Inspected encoded still sheets and exact source/report records; did not hear audio or watch continuous video.",
+    "No independent audience study, live campaign, paid-media account, checkout or fulfillment evidence; no sales forecast.",
+    "No review of other experts or independent recertification of all fifty contexts."
+  ],
+  "non_applicable_criteria": [
+    "Campaign budget execution and media-buy allocation: no campaign or spend is authorized.",
+    "Attribution implementation and measured advertising efficiency: no campaign exists.",
+    "Medical fitness, formal legal status, store pricing changes and purchase fulfillment are outside this advertising creative review."
+  ]
+}

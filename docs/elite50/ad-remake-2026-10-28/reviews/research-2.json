@@ -1,0 +1,61 @@
+{
+  "expert": "research-2",
+  "version": "v12-final-1",
+  "digest": "6b6846706f12db961b678c585330dffd8222545cdd810412a320c4a6af22d553",
+  "decision": "NEEDS_EVIDENCE",
+  "reason": "Product claims and visible qualifications are supported, with the earlier PDF-link ambiguity resolved. Overall production acceptance still lacks perceptual evidence for two explicit requirements: smooth natural narration and absence of audible source music. No added music, unchanged pitch/speed, measured levels and ASR do not establish either requirement after learned vocal separation. This is an evidence gap, not an observed audio defect.",
+  "evidence": [
+    {
+      "file": "docs/elite50/ad-remake-2026-10-28/evidence/claim-map.json",
+      "finding": "15.99 SAR is explicitly owner-supplied for ad copy, without claiming a store-settings edit. The rendered CTA at 27.650s and 29.700s matches it."
+    },
+    {
+      "file": "docs/artifacts/mdaar-protocol-original-identity-v5.pdf; reports/book-links.json",
+      "finding": "Independent local PDF inspection in my pre-freeze check verified 34 pages, matching SHA-256 de78fbb1468cbd7cdb635649500476022f3bbf8e6cc7c242bd6f690db54c34d5, 226 YouTube annotations and 43 distinct YouTube URLs. At 15.700s the encoded frame explicitly scopes explanation links to the PDF; no app video playback is claimed."
+    },
+    {
+      "file": "public/data/training-programs.json:970,1069; public/data/recipes-calculated.json; public/assets/nutrition.mjs:127",
+      "finding": "Training-day fields are 5 and 4. My independent source count found 500 distinct recipe IDs/names. The source discloses calculated suggestions, pending professional review and USDA-based estimates; the ad does not claim clinical validation."
+    },
+    {
+      "file": "reports/encoded-contact.jpg; reports/encoded-handoffs.jpg; captions.srt",
+      "finding": "Viewed both encoded sheets. Product, menu, 4/5-day programs, calculator and portion demonstration, protected captions and held price CTA are visible. At 18.550s the example/estimated-requirements label is visible; at 22.775s the app demonstration explicitly labels nutrition estimates. Recipe 1.5-portion figures correspond to the source recipe: 309.25 kcal x1.5=463.875 kcal. No quantified physique result, fixed transformation deadline or explicit guaranteed result appears in the reviewed copy."
+    },
+    {
+      "file": "reports/encoded-validation.json; reports/source-browser.json; reports/live-verification.json; reports/player-browser.json",
+      "finding": "Inspected records report 1080x1920, 60/1 fps, 1788 frames/29.8s, video SHA-256 0d741b5bef0424be521ba9938e891d8a4f6163b7e075e4cab592f3f8f8ff3940, early book visibility, 3.45s settled CTA, matching live assets and working downloads. These are recorded checks, not tests rerun by me."
+    },
+    {
+      "file": "reports/audio-edit.json; reports/voice-separation.json; reports/edited-asr.json",
+      "finding": "Records preserve source narration with three segments, no pitch change/time stretch/synthesized voice, light EQ and nine effects. Separation expressly states approximate background removal and no proof of naturalness/perfect music removal; humanListening=false. ASR contains recognition errors and is explicitly not human verification."
+    }
+  ],
+  "strengths": [
+    "Traceable claim-to-source mapping with truthful nutrition limits.",
+    "PDF explanation links are distinguished from unavailable app technique-video playback.",
+    "Owner price is shown without fabricated discount, urgency or result figures."
+  ],
+  "issues": [
+    {
+      "severity": "acceptance evidence gap",
+      "requirement": "Smooth natural source narration and no music",
+      "needed_evidence": "A competent human audition of the encoded final audio, including joins near 1.96s and 4.31s and the remainder through 26.01s, documenting intelligibility/naturalness and whether residual source music is audible. Existing numeric and ASR records cannot substitute."
+    },
+    {
+      "severity": "non-blocking wording caution",
+      "time": "19.965-25.990s",
+      "detail": "بدون تخمين and واعرف إنك ماشي صح express broad certainty. Nearby visible estimate qualifications mitigate this; I do not read the present copy as a quantified result guarantee. Avoid strengthening these phrases into medical or universal-suitability promises."
+    }
+  ],
+  "objections": [
+    "Do not describe this vote as full production approval or certify perceptual audio quality from the available machine evidence."
+  ],
+  "limitations": [
+    "I inspected still contact/handoff sheets and source/test records, not continuous playback or human-heard audio.",
+    "Third-party explanation-link availability and technique quality were not independently checked.",
+    "Live verification is the supplied recorded result; store checkout, actual live product price, fulfillment and audience conversion were not verified."
+  ],
+  "non_applicable_criteria": [
+    "Unrelated infrastructure/security changes, payment/store administration, medical certification and measured sales performance are outside this ad review."
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "duration": 29.8,
+  "beats": [
+    {
+      "id": "s0",
+      "start": 0,
+      "end": 2.08,
+      "family": "opening"
+    },
+    {
+      "id": "s1",
+      "start": 2.08,
+      "end": 6.5,
+      "family": "push"
+    },
+    {
+      "id": "s2",
+      "start": 6.5,
+      "end": 10.8,
+      "family": "anchor"
+    },
+    {
+      "id": "s3",
+      "start": 10.8,
+      "end": 14.35,
+      "family": "diagonal"
+    },
+    {
+      "id": "s4",
+      "start": 14.35,
+      "end": 17.05,
+      "family": "vertical"
+    },
+    {
+      "id": "s5",
+      "start": 17.05,
+      "end": 20.05,
+      "family": "anchor"
+    },
+    {
+      "id": "s6",
+      "start": 20.05,
+      "end": 25.5,
+      "family": "diagonal-reverse"
+    },
+    {
+      "id": "s7",
+      "start": 25.5,
+      "end": 29.8,
+      "family": "dissolve"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "base": "https://mdaar21.github.io/Mdaar21/ad/premium/",
+  "files": [
+    {
+      "file": "index.html",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 3082,
+      "sha256": "ce213c450ab4b60ba68cf8d26ebd15a77eb451139c34256391ffa004808a3fbb",
+      "matchesLocal": true
+    },
+    {
+      "file": "mdaar_tiktok_v12_premium.mp4",
+      "status": 200,
+      "contentType": "video/mp4",
+      "bytes": 4181863,
+      "sha256": "0d741b5bef0424be521ba9938e891d8a4f6163b7e075e4cab592f3f8f8ff3940",
+      "matchesLocal": true
+    },
+    {
+      "file": "voice-clean.mp3",
+      "status": 200,
+      "contentType": "audio/mp3",
+      "bytes": 955436,
+      "sha256": "c1c8875d187d89d5a08f36b15a14c7b7cdbfd90463fa6a5fea81afc787d42a47",
+      "matchesLocal": true
+    },
+    {
+      "file": "captions.srt",
+      "status": 200,
+      "contentType": "application/x-subrip",
+      "bytes": 959,
+      "sha256": "ac68a5625c412cd8071390d24b38fb499ada395eb6813c3b1fd080810615bebe",
+      "matchesLocal": true
+    },
+    {
+      "file": "poster.jpg",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "bytes": 79311,
+      "sha256": "e3536a03071f7225528cd106f04ba2b3d194755a44ac4cdc00540527c11337ce",
+      "matchesLocal": true
+    }
+  ],
+  "ok": true,
+  "pageURL": "https://mdaar21.github.io/Mdaar21/ad/premium/",
+  "videoURL": "https://mdaar21.github.io/Mdaar21/ad/premium/mdaar_tiktok_v12_premium.mp4",
+  "range": {
+    "status": 206,
+    "bytes": 1024,
+    "contentRange": "bytes 0-1023/4181863"
+  }
+}

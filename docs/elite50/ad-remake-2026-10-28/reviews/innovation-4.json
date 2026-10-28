@@ -1,0 +1,62 @@
+{
+  "expert": "innovation-4",
+  "version": "v12-final-1",
+  "digest": "6b6846706f12db961b678c585330dffd8222545cdd810412a320c4a6af22d553",
+  "decision": "NEEDS_EVIDENCE",
+  "reason": "The production prioritization is coherent: preserve the faceless beginner premise, introduce the product in the first third, demonstrate practical use, then hold a simple priced CTA. The inspected encoded sheets support that visual/product direction. However, unconditional completion of the owner's production request also requires smooth natural source narration and no music. The separation report explicitly leaves perceptual naturalness and residual music unverified, and I cannot listen. This is a specific acceptance evidence gap, not a finding that the audio is defective. Lack of adoption or sales data does not block this production-only task.",
+  "evidence": [
+    {
+      "file": "creative/voice-ad-premium-v12/reports/encoded-contact.jpg",
+      "inspection": "Personally inspected via view_image. Recognizable blank-faced figure at 0.00/1.04s; product visible at 8.65s; benefit list at 12.575s; program choice at 15.70s; calculator at 18.55s; recipe example at 22.775s; consistent 15.99 SAR CTA at 27.65/29.70s."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/reports/encoded-handoffs.jpg",
+      "inspection": "Personally inspected via view_image. Sampled reveal around 6.32–7.08s establishes the product earlier; program/calculator/recipe transitions preserve a stable caption lane. Sampled final dissolve resolves into CTA. Sheets establish sampled visual states, not continuous motion quality."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/STORYLINES.md; DESIGN.md; SPEC.md",
+      "inspection": "Selected problem-to-product-to-use sequence is documented; alternative recipe-first opening was deprioritized to preserve the owner's character premise. Scope explicitly excludes checkout and campaign outcomes."
+    },
+    {
+      "file": "public/data/training-programs.json; public/data/recipes-calculated.json",
+      "inspection": "Read source data directly. A bounded read-only count confirmed programs with trainingDays 4 and 5, 500 recipe records and 500 distinct IDs. Source metadata says professional exercise review is pending and nutrition is calculated; these are not clinical endorsements."
+    },
+    {
+      "file": "docs/elite50/ad-remake-2026-10-28/evidence/claim-map.json; creative/voice-ad-premium-v12/reports/book-links.json",
+      "inspection": "Product claim boundaries distinguish PDF explanation links from app demonstrations, recipes in app, and estimated nutritional examples. PDF URL report does not prove third-party availability."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/reports/source-browser.json; encoded-validation.json; player-browser.json; live-verification.json",
+      "inspection": "Inspected existing records report 3.45s settled CTA hold, 1080x1920, 1788 frames over 29.8s at 60/1, successful player/download checks, and live MP4 hash matching local bytes. These are reported checks, not newly executed tests."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/reports/audio-edit.json; voice-separation.json; captions.srt",
+      "inspection": "Inspected edit settings preserve pitch and speed, with modest EQ and no added music track. Learned vocal separation explicitly cannot establish perfect music removal or naturalness. Captions provide narrative wording but do not prove audible intelligibility."
+    }
+  ],
+  "strengths": [
+    "Feature selection supports a concrete beginner journey instead of an unsupported transformation promise.",
+    "Real product capabilities receive screen time before the CTA, and the 15.99 SAR price is clear in the sampled ending.",
+    "No sales lift, adoption, customer endorsement, clinical precision or guaranteed result is invented in the supplied scope."
+  ],
+  "issues": [
+    {
+      "severity": "acceptance-evidence-gap",
+      "detail": "Naturalness/intelligibility and absence of residual music remain unverified. A listening review of the frozen final MP4 against the source narration is needed to resolve these explicit production requirements."
+    }
+  ],
+  "objections": [
+    "Adoption assumptions remain hypotheses: clear feature demonstrations and price do not establish buyer understanding, activation or conversion. Do not represent this review as market validation.",
+    "Nutrition/example qualifiers are present but small in contact sheets; I cannot establish typical-phone comprehension from these reduced images."
+  ],
+  "limitations": [
+    "No human listening capability; no claim of having heard audio or watched continuous playback.",
+    "No campaign, sales, acquisition, activation, retention or willingness-to-pay results exist.",
+    "No independent checkout, fulfillment, external-video availability or professional fitness validation was performed.",
+    "This is one independent expert's decision; I did not inspect other experts' opinions or certify all fifty contexts."
+  ],
+  "non_applicable_criteria": [
+    "Long-term product roadmap, feature expansion and market-entry prioritization are outside this frozen advertising deliverable.",
+    "Formal medical, legal, store-admin and payment acceptance criteria are outside the authorized production review."
+  ]
+}

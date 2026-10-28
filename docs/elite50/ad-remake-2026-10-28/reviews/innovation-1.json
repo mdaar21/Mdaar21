@@ -1,0 +1,54 @@
+{
+  "expert": "innovation-1",
+  "version": "v12-final-1",
+  "digest": "6b6846706f12db961b678c585330dffd8222545cdd810412a320c4a6af22d553",
+  "decision": "NEEDS_EVIDENCE",
+  "reason": "The selected concept is distinct, feasible and substantially realized in the inspected encoded frames: the faceless trainee moves from conflicting advice to a product reference and concrete app examples. Alternatives are documented, and delivery records support technical execution. However, smooth natural narration and no music are explicit production requirements. Learned vocal separation and level measurements cannot establish audible naturalness or complete removal of the source background. That unresolved requirement prevents an unconditional production approval; it is an evidence gap, not an observed audio defect.",
+  "evidence": [
+    {
+      "file": "creative/voice-ad-premium-v12/reports/encoded-contact.jpg",
+      "inspection": "Viewed with view_image. Samples at 0.000/1.040/4.290s show the recognisable blank-faced trainee and organised conflicting-advice list. At 8.650/12.575s the original branded product and bundle information are prominent. At 18.550/22.775s calculator and recipe screenshots provide concrete examples. At 27.650/29.700s the closing composition clearly holds 15.99 SAR, the purchase prompt and store URL. These are sampled encoded images, not continuous viewing."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/reports/encoded-handoffs.jpg",
+      "inspection": "Viewed with view_image. The 6.320–7.080s sequence connects the advice scene to the book through an anchored reveal; the 25.320–26.080s sequence transitions toward the closing offer. Captions remain in a separate lower panel in these samples. This supports intentional transition design but cannot certify every intervening frame."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/STORYLINES.md; DESIGN.md; animate.js:63",
+      "inspection": "Three distinguishable directions are documented: trainee question, historical comparison, and recipe-first opening. The selected direction preserves the owner's character premise. Source animation switches genuine recipe screenshots and the portion label at 22.18s. Claims that the direct question is clearer or the earlier product reveal improves response are editorial hypotheses, not measured gains."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/reports/encoded-validation.json; motion-playback.json; source-browser.json",
+      "inspection": "Existing reports record 1080x1920, 60/1fps, 1788 frames over 29.8s, successful decode, and no identical adjacent frames among 36 sampled moving frames. Source checks report the book visible by 7.2s and a 3.45s settled CTA hold. Browser playback records 1744 frames with 16.7ms median RAF; that is software cadence evidence, not human smoothness assessment."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/process-audio.py; reports/audio-edit.json; reports/voice-separation.json; reports/edited-asr.json",
+      "inspection": "Read source edit and records. Three original-voice segments, mild EQ, nine short effects, and no added music, pitch shift or time stretch are supported. The encoded measurement is approximately -19.11 LUFS/-3.01dBTP. Separation explicitly reports humanListening=false and approximate background removal. ASR contains transcription uncertainties and cannot resolve audible quality."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/reports/player-browser.json; reports/live-verification.json",
+      "inspection": "Existing records support decoding, controls and downloads at three viewport widths, plus a live MP4 matching the frozen local SHA-256 and HTTP range support. I did not independently repeat those browser/network checks."
+    }
+  ],
+  "strengths": [
+    "The alternative concepts meaningfully vary the opening mechanism without losing a practical production path.",
+    "The selected story demonstrates product use rather than relying exclusively on feature promises; estimate labels and original identity assets constrain misleading interpretation.",
+    "The concept has already been encoded and made downloadable, which is stronger feasibility evidence than a proposed storyboard."
+  ],
+  "issues": [
+    "An Arabic-speaking listening comparison of the original and final encoded narration is still needed, including output joins at 1.96s and 4.31s and the full spoken section through about 26.01s, to assess naturalness, intelligibility and residual music."
+  ],
+  "objections": [
+    "Do not treat alternative-selection rationale, early reveal, or screenshot demonstration as proof of higher retention, comprehension or sales. A controlled comparison using matched audience/exposure and a predefined comprehension or completion measure would test those ideas; no such gain is observed here. Such marketing testing is not an extra prerequisite for this production request."
+  ],
+  "limitations": [
+    "No human listening or continuous perceptual video review was available. The audio limitation materially determines NEEDS_EVIDENCE.",
+    "Visual judgments derive from inspected encoded contact/handoff sheets; technical and live-delivery findings derive from supplied records and inspected source.",
+    "I reviewed only my assigned expert scope and did not read other expert opinions or certify that fifty actual contexts have completed their reviews.",
+    "No controlled comparison with the reference or audience experiment establishes a quantified improvement."
+  ],
+  "non_applicable_criteria": [
+    "Patent novelty, industrial invention and invention ownership are outside this advertisement review.",
+    "Store checkout, purchase/fulfilment, clinical fitness validation, formal legal clearance and sales performance are outside the authorized production evidence."
+  ]
+}

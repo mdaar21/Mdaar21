@@ -1,0 +1,41 @@
+{
+  "task": "Create an improved Saudi TikTok advertisement based on uploaded smooth_60fps.mp4 and requested fixes; 50 actual independent expert contexts across all 10 councils, truthful final voting.",
+  "user_requirements": [
+    "Same recognisable faceless character premise; significantly more polished motion, menus/lists, Arabic captions",
+    "Smooth natural source narration; avoid overprocessing/pitch changes",
+    "Price 15.99 SAR explicitly supplied by owner on 28 Oct 2026 Riyadh",
+    "No music; purposeful sound effects only",
+    "Earlier product reveal, readable protected text, real product/app demonstration, clean held CTA",
+    "Final 1080x1920 true 60fps deliverable with downloadable player link",
+    "50 actual independent agents; approvals cannot be fabricated or forced"
+  ],
+  "authorized_assets": [
+    "User-uploaded video /workspace/attachments/8051fcae-5c5d-4373-b62b-ed831a2a8602/smooth_60fps.mp4",
+    "Existing original brand assets /workspace/Mdaar21-new/docs/book/identity/",
+    "Existing app screenshots only if actual and marked demonstration; app source public/",
+    "Local source narration from uploaded video; no voice impersonation"
+  ],
+  "product_facts": [
+    "Digital PDF guide 34 pages",
+    "4-day and 5-day training programs and explanation links",
+    "500 recipes in app",
+    "Nutrition values estimates; no guarantee of physique or medical precision",
+    "Product/store URL https://mdaar21.zid.store/products/بروتوكول-التحول"
+  ],
+  "scope": [
+    "Create new ad in creative/voice-ad-premium-v12/ and public/ad/premium/; preserve prior ads",
+    "No changes to store price/settings, app behavior, book contents or shared hub navigation",
+    "Owner price is ad copy source, not evidence of a live store edit",
+    "No accounts, purchases, paid provider setup or outreach",
+    "Review score is editorial, not measured sales performance"
+  ],
+  "current_phase": "Independent planning; final candidate and evidence will follow for same actual expert. Do not cast approval yet.",
+  "plan_output": "plans/<expert>.json",
+  "instructions": [
+    "Read your own expert definition from .agents/skills/elite50/agents/experts/<expert>.md",
+    "Provide short independent plan and prioritized acceptance checks relevant to your role",
+    "Do not read other plans/reviews. No spawn. No long local processing. Write only your own plan JSON.",
+    "Security/finance/software criteria outside ad scope should be explicitly non-applicable; do not fabricate findings or require unrelated infrastructure changes.",
+    "Capabilities do not include human listening; technical audio evidence and ASR do not prove naturalness. Preserve this limit."
+  ]
+}

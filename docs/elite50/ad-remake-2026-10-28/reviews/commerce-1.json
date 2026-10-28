@@ -1,0 +1,58 @@
+{
+  "expert": "commerce-1",
+  "version": "v12-final-1",
+  "digest": "6b6846706f12db961b678c585330dffd8222545cdd810412a320c4a6af22d553",
+  "decision": "APPROVE",
+  "reason": "Approve within the commerce advertising scope: the encoded samples identify the actual digital product, distinguish the PDF from app recipes and tools, display the owner-authorized 15.99 SAR, and end with a stable product CTA and store address. Catalog quantity and training options match the inspected local data. The delivered MP4/player evidence supports the requested review and download handoff. This vote does not certify subjective narration quality or a functioning purchase/fulfillment journey.",
+  "evidence": [
+    {
+      "file": "creative/voice-ad-premium-v12/reports/encoded-contact.jpg",
+      "inspection": "Personally inspected with view_image. At 8.650s the recognizable faceless character presents the book; at 12.575s the product feature list distinguishes the app; at 15.700s the 4/5-day programs appear; at 18.550s the calculator is labeled an illustrative estimate; at 22.775s 500 recipes are explicitly in the app; at 27.650s and 29.700s 15.99 SAR and mdaar21.zid.store remain visible."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/reports/encoded-handoffs.jpg",
+      "inspection": "Personally inspected the contact sheet with view_image. Sampled transitions show the product entering around 6.5–7.08s and the closing offer appearing around 25.68–26.08s. These are sampled images, not continuous playback observation."
+    },
+    {
+      "file": "docs/elite50/ad-remake-2026-10-28/evidence/claim-map.json",
+      "inspection": "Price is explicitly owner-supplied for this ad. The map limits 500 recipes to the app and explanation links to the PDF, with no guaranteed outcomes, artificial urgency, store edits, purchases or fulfillment claims."
+    },
+    {
+      "file": "public/data/recipes-calculated.json; public/data/training-programs.json",
+      "inspection": "Read local JSON: 500 recipe entries with 500 distinct IDs; training programs have trainingDays 4 and 5. The source also states qualified professional review is pending, so this is catalog corroboration, not clinical endorsement."
+    },
+    {
+      "file": "public/ad/premium/index.html",
+      "inspection": "Read actual HTML: native video controls, direct MP4/MP3/SRT download links and a separate product-store link. Displayed price is 15.99 SAR. No purchase action was performed."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/reports/encoded-validation.json; reports/source-browser.json",
+      "inspection": "Inspected records report 1080x1920, 60/1 fps, 1788 frames, 29.8s, zero decode warnings and a settled 3.45s CTA hold. Source browser reports product visible by 7.2s. Did not independently rerun encoding/playback."
+    },
+    {
+      "file": "creative/voice-ad-premium-v12/reports/player-browser.json; reports/live-verification.json",
+      "inspection": "Inspected recorded evidence for 320/390/1440px viewports, successful native decoding/seeking/download checks, no overflow/runtime errors, live HTTP 200 matching hashes and HTTP 206 range support. These are recorded tests, not my own live browser session."
+    },
+    {
+      "file": "docs/elite50/ad-remake-2026-10-28/candidate.json",
+      "inspection": "Confirmed exact supplied version/digest and independently hashed delivered MP4, player HTML and creative SRT; all three match their frozen manifest entries."
+    }
+  ],
+  "strengths": [
+    "Accurate distinction between PDF and app benefits reduces ambiguity about what the buyer receives.",
+    "Owner-authorized price and held CTA are legible in the encoded closing samples.",
+    "Actual app screenshots and estimated-example labels substantiate the advertised tools without claiming medical precision."
+  ],
+  "issues": [],
+  "objections": [],
+  "limitations": [
+    "No human listening capability: reports/audio-edit.json and reports/voice-separation.json show no pitch/time change and no added music track, but learned source separation may leave artifacts or music. Naturalness, intelligibility and perfect music removal remain unverified by this reviewer; approval is limited to commerce/catalog and delivery presentation.",
+    "No continuous video watching, perceptual motion assessment, audience study or conversion testing was performed.",
+    "No live store availability, actual checkout price, taxes, payment, entitlement, delivery, refunds or fulfillment was tested or claimed. The owner-supplied ad price is not evidence of store configuration.",
+    "PDF link availability and third-party exercise playback were not independently tested."
+  ],
+  "non_applicable_criteria": [
+    "Order lifecycle, inventory changes, payment reconciliation, fulfillment execution and post-purchase support are outside this authorized ad remake.",
+    "Medical fitness, formal legal compliance, sales performance and verification of all fifty independent contexts are not certified by this individual commerce review."
+  ]
+}
