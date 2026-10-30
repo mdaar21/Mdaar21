@@ -1,0 +1,11 @@
+{
+  "sha256": "f6638fae2182c8893cf4f9d3281dcd99e2ebd380f894027873b03b51f32b3110",
+  "id": "a1",
+  "text": "تيك توك!",
+  "start": 3.35,
+  "deadline": 4.65,
+  "role": "contestant1",
+  "rate": "+8%",
+  "pitch": "+7Hz",
+  "voice": "ar-SA-HamedNeural"
+}

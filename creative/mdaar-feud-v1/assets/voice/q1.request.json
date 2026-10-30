@@ -1,0 +1,11 @@
+{
+  "sha256": "bf0e5a49e6ffeb9bc6a12bac8ddcf2d64191135c6ec4f75e718d79df81dc45df",
+  "id": "q1",
+  "text": "سألنا الناس... وين تدور على جدول تمارين؟",
+  "start": 0.1,
+  "deadline": 3.05,
+  "role": "host",
+  "rate": "+25%",
+  "pitch": "+0Hz",
+  "voice": "ar-SA-HamedNeural"
+}

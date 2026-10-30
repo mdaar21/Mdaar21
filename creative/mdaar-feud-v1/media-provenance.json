@@ -1,0 +1,55 @@
+{
+  "imageProvider": "OpenAI image_gen tool",
+  "generatedAt": "2026-10-30",
+  "masterOriginal": "/workspace/generated_images/exec-00ea148f-4ffa-4b93-bcf4-ef80832d8c5c.png",
+  "matchingCloseupsOriginal": "/workspace/generated_images/exec-2c77e037-c19a-430c-a51b-72ed5d635482.png",
+  "masterPromptSummary": "Vertical photographic physical original Saudi quiz-show studio navy cyan gold; blank scoreboard; five male blank-face humans; host white thobe ghutra navy-gold bisht; four contestants beige overshirt, charcoal blazer, navy thobe, olive shirt; exactly four individual podiums; no text, no copied existing show set.",
+  "closeupPromptSummary": "Reference-driven matching 2x2 photographic contact sheet of three speaking contestants and celebratory host, exact original clothing, featureless faces, no text, same studio. Equal quadrants cropped for four shots.",
+  "fullMotionVideoGenerated": false,
+  "photos": [
+    {
+      "path": "assets/studio-master.png",
+      "dimensions": [
+        941,
+        1672
+      ],
+      "sha256": "736b0d8a1e9c463016cdfe988c42ccc37879b1e6002bf37a6d2948521010563c"
+    },
+    {
+      "path": "assets/contestant1.jpg",
+      "dimensions": [
+        470,
+        836
+      ],
+      "sha256": "0b64f81fe15ce29171a4d0850baceb60e735ff4910e182258ea7a326c80c790e"
+    },
+    {
+      "path": "assets/contestant2.jpg",
+      "dimensions": [
+        471,
+        836
+      ],
+      "sha256": "54f807d155cd5933b1a73c19c9d0fdd12e06633a7ae443971b33f54b5b33b2b2"
+    },
+    {
+      "path": "assets/contestant3.jpg",
+      "dimensions": [
+        470,
+        836
+      ],
+      "sha256": "d7898a57e00b0bea74b03ea710f5eb36f9fc1e35a54debc7299556d77e9a9f13"
+    },
+    {
+      "path": "assets/host.jpg",
+      "dimensions": [
+        471,
+        836
+      ],
+      "sha256": "1a8cabf00db1151f9973ddb68f966e2ea738c61aaae5aee7a2111d337b58289b"
+    }
+  ],
+  "existingProductAssetsSource": "../voice-ad-premium-v12/assets, original cover/logo/screenshots preserved",
+  "scoreboardAndCaptions": "Authored Arabic shaped browser typography",
+  "soundJayLicense": "https://www.soundjay.com/tos.html",
+  "soundJayRawFilesDistributed": false
+}

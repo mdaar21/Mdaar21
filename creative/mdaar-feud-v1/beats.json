@@ -1,0 +1,107 @@
+{
+  "duration": 30,
+  "beats": [
+    {
+      "id": "opening",
+      "start": 0,
+      "end": 3.1,
+      "kind": "wide0"
+    },
+    {
+      "id": "one",
+      "start": 3.1,
+      "end": 4.6,
+      "kind": "c1"
+    },
+    {
+      "id": "board1",
+      "start": 4.6,
+      "end": 6.4,
+      "kind": "wide1"
+    },
+    {
+      "id": "host1",
+      "start": 6.4,
+      "end": 8,
+      "kind": "host"
+    },
+    {
+      "id": "two",
+      "start": 8,
+      "end": 9.7,
+      "kind": "c2"
+    },
+    {
+      "id": "board2",
+      "start": 9.7,
+      "end": 11.5,
+      "kind": "wide2"
+    },
+    {
+      "id": "host2",
+      "start": 11.5,
+      "end": 13,
+      "kind": "host"
+    },
+    {
+      "id": "ask",
+      "start": 13,
+      "end": 14.95,
+      "kind": "host"
+    },
+    {
+      "id": "three",
+      "start": 14.95,
+      "end": 16.08,
+      "kind": "c3"
+    },
+    {
+      "id": "silence",
+      "start": 16.08,
+      "end": 16.65,
+      "kind": "host"
+    },
+    {
+      "id": "winner",
+      "start": 16.65,
+      "end": 17.15,
+      "kind": "win"
+    },
+    {
+      "id": "celebrate",
+      "start": 17.15,
+      "end": 19,
+      "kind": "host"
+    },
+    {
+      "id": "product",
+      "start": 19,
+      "end": 22.2,
+      "kind": "product"
+    },
+    {
+      "id": "program",
+      "start": 22.2,
+      "end": 23.75,
+      "kind": "program"
+    },
+    {
+      "id": "calculator",
+      "start": 23.75,
+      "end": 25.45,
+      "kind": "calculator"
+    },
+    {
+      "id": "recipe",
+      "start": 25.45,
+      "end": 27,
+      "kind": "recipe"
+    },
+    {
+      "id": "closing",
+      "start": 27,
+      "end": 30,
+      "kind": "closing"
+    }
+  ]
+}

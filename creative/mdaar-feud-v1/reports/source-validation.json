@@ -1,0 +1,132 @@
+{
+  "ok": true,
+  "seconds": 30,
+  "heroSamples": [
+    {
+      "t": 0,
+      "visibleScene": [
+        "opening"
+      ]
+    },
+    {
+      "t": 0.9,
+      "visibleScene": [
+        "opening"
+      ]
+    },
+    {
+      "t": 3.7,
+      "visibleScene": [
+        "one"
+      ]
+    },
+    {
+      "t": 5.3,
+      "visibleScene": [
+        "board1"
+      ]
+    },
+    {
+      "t": 6.9,
+      "visibleScene": [
+        "host1"
+      ]
+    },
+    {
+      "t": 8.7,
+      "visibleScene": [
+        "two"
+      ]
+    },
+    {
+      "t": 10.4,
+      "visibleScene": [
+        "board2"
+      ]
+    },
+    {
+      "t": 12,
+      "visibleScene": [
+        "host2"
+      ]
+    },
+    {
+      "t": 13.8,
+      "visibleScene": [
+        "ask"
+      ]
+    },
+    {
+      "t": 15.5,
+      "visibleScene": [
+        "three"
+      ]
+    },
+    {
+      "t": 16.3,
+      "visibleScene": [
+        "silence"
+      ]
+    },
+    {
+      "t": 16.85,
+      "visibleScene": [
+        "winner"
+      ]
+    },
+    {
+      "t": 17.9,
+      "visibleScene": [
+        "celebrate"
+      ]
+    },
+    {
+      "t": 20.5,
+      "visibleScene": [
+        "product"
+      ]
+    },
+    {
+      "t": 22.9,
+      "visibleScene": [
+        "program"
+      ]
+    },
+    {
+      "t": 24.6,
+      "visibleScene": [
+        "calculator"
+      ]
+    },
+    {
+      "t": 26.3,
+      "visibleScene": [
+        "recipe"
+      ]
+    },
+    {
+      "t": 28.5,
+      "visibleScene": [
+        "closing"
+      ]
+    },
+    {
+      "t": 29.9,
+      "visibleScene": [
+        "closing"
+      ]
+    }
+  ],
+  "pageErrors": [],
+  "reverseSeekDeterministic": true,
+  "captionSafeArea": true,
+  "stillPhotographyNotHumanPerformanceVideo": true,
+  "scoreboardAnswers": [
+    "تيك توك",
+    "كوتش عشوائي",
+    "مدار"
+  ],
+  "speakingContestants": 3,
+  "hostPlusContestantsInMaster": 5,
+  "priceCreativeOnly": 15
+}

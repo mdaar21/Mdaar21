@@ -1,0 +1,47 @@
+{
+  "ok": true,
+  "checks": [
+    {
+      "width": 320,
+      "overflow": false,
+      "metadataDuration": 30,
+      "nativePlayPause": true,
+      "seekedSeconds": [
+        0.9,
+        15.5,
+        24.6,
+        29.5
+      ],
+      "downloadLinks": 3,
+      "pageErrors": []
+    },
+    {
+      "width": 390,
+      "overflow": false,
+      "metadataDuration": 30,
+      "nativePlayPause": true,
+      "seekedSeconds": [
+        0.9,
+        15.5,
+        24.6,
+        29.5
+      ],
+      "downloadLinks": 3,
+      "pageErrors": []
+    },
+    {
+      "width": 1440,
+      "overflow": false,
+      "metadataDuration": 30,
+      "nativePlayPause": true,
+      "seekedSeconds": [
+        0.9,
+        15.5,
+        24.6,
+        29.5
+      ],
+      "downloadLinks": 3,
+      "pageErrors": []
+    }
+  ]
+}

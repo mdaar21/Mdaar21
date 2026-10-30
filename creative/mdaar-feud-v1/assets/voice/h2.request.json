@@ -1,0 +1,11 @@
+{
+  "sha256": "c45f2e161a292a59605982a113a4311e9f09e461c08aa3423edc21a7dfaef9a0",
+  "id": "h2",
+  "text": "حتى هذي موجودة!",
+  "start": 10.1,
+  "deadline": 12.75,
+  "role": "host",
+  "rate": "+8%",
+  "pitch": "+0Hz",
+  "voice": "ar-SA-HamedNeural"
+}

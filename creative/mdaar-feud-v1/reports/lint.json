@@ -1,0 +1,37 @@
+{
+  "ok": true,
+  "errorCount": 0,
+  "warningCount": 3,
+  "infoCount": 0,
+  "findings": [
+    {
+      "code": "duplicate_media_discovery_risk",
+      "severity": "warning",
+      "message": "Detected 4 matching img entries with the same source/start/duration.",
+      "fixHint": "Avoid duplicated media nodes that can be discovered twice during compilation.",
+      "snippet": "img src=assets/studio-master.png data-start= data-duration=",
+      "file": "/workspace/Mdaar21-new/creative/mdaar-feud-v1/index.html"
+    },
+    {
+      "code": "duplicate_media_discovery_risk",
+      "severity": "warning",
+      "message": "Detected 5 matching img entries with the same source/start/duration.",
+      "fixHint": "Avoid duplicated media nodes that can be discovered twice during compilation.",
+      "snippet": "img src=assets/host.jpg data-start= data-duration=",
+      "file": "/workspace/Mdaar21-new/creative/mdaar-feud-v1/index.html"
+    },
+    {
+      "code": "duplicate_media_discovery_risk",
+      "severity": "warning",
+      "message": "Detected 2 matching img entries with the same source/start/duration.",
+      "fixHint": "Avoid duplicated media nodes that can be discovered twice during compilation.",
+      "snippet": "img src=assets/book-cover.svg data-start= data-duration=",
+      "file": "/workspace/Mdaar21-new/creative/mdaar-feud-v1/index.html"
+    }
+  ],
+  "filesScanned": 1,
+  "_meta": {
+    "version": "0.8.189",
+    "updateAvailable": false
+  }
+}

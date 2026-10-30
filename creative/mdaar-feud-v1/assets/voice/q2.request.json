@@ -1,0 +1,11 @@
+{
+  "sha256": "833185d7b57bf3a179d746240579aa309e1f65bd42a8dc5adbcd38b975e064c2",
+  "id": "q2",
+  "text": "طيب... وش عندك؟",
+  "start": 13.1,
+  "deadline": 15.05,
+  "role": "host",
+  "rate": "+12%",
+  "pitch": "+0Hz",
+  "voice": "ar-SA-HamedNeural"
+}

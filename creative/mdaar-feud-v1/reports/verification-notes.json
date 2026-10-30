@@ -1,0 +1,28 @@
+{
+  "ok": true,
+  "blockingErrors": 0,
+  "reviewedWarnings": [
+    {
+      "code": "duplicate_media_discovery_risk",
+      "count": 3,
+      "resolution": "Intentional reuse of same studio still, host shot and original cover across distinct GSAP scene IDs. Encoded frames will verify correct scene visibility."
+    }
+  ],
+  "reviewedInfo": [
+    {
+      "time": 22.291,
+      "code": "content_overlap",
+      "resolution": "0.10s scene crossfade at product-to-program handoff; no held text collision. Both source hero frames independently legible."
+    }
+  ],
+  "initialBugsFixed": [
+    "Caption batches had .09s overlap; adjusted caption end times before rendering.",
+    "Incoming scene CSS opacity0 needed explicit fromTo end opacity1; fixed and all17shots verified.",
+    "Browser test returned a large GSAP timeline through CDP; changed evaluations to return true.",
+    "Local player harness required HTTP Range support for media seeking; added proper206 responses.",
+    "CSP-safe Playwright waits need function arrows rather than expression eval; fixed harness without weakening production CSP."
+  ],
+  "unsupportedCommand": "CLI check --motion unsupported; used standard check with source reverse-seek validation.",
+  "humanPerceptionVerified": false,
+  "commercialPerformanceTested": false
+}

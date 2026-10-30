@@ -1,0 +1,289 @@
+[
+  {
+    "text": "سألنا",
+    "start": 0.125,
+    "end": 0.545,
+    "role": "host",
+    "id": "q1"
+  },
+  {
+    "text": "الناس",
+    "start": 0.555,
+    "end": 1.215,
+    "role": "host",
+    "id": "q1"
+  },
+  {
+    "text": "وين",
+    "start": 1.365,
+    "end": 1.645,
+    "role": "host",
+    "id": "q1"
+  },
+  {
+    "text": "تدور",
+    "start": 1.655,
+    "end": 1.965,
+    "role": "host",
+    "id": "q1"
+  },
+  {
+    "text": "على",
+    "start": 1.975,
+    "end": 2.165,
+    "role": "host",
+    "id": "q1"
+  },
+  {
+    "text": "جدول",
+    "start": 2.175,
+    "end": 2.495,
+    "role": "host",
+    "id": "q1"
+  },
+  {
+    "text": "تمارين",
+    "start": 2.505,
+    "end": 3.065,
+    "role": "host",
+    "id": "q1"
+  },
+  {
+    "text": "تيك",
+    "start": 3.375,
+    "end": 3.66433,
+    "role": "contestant1",
+    "id": "a1"
+  },
+  {
+    "text": "توك",
+    "start": 3.67592,
+    "end": 4.01158,
+    "role": "contestant1",
+    "id": "a1"
+  },
+  {
+    "text": "موجود",
+    "start": 4.975,
+    "end": 5.79675,
+    "role": "host",
+    "id": "h1"
+  },
+  {
+    "text": "كوتش",
+    "start": 8.275,
+    "end": 8.56433,
+    "role": "contestant2",
+    "id": "a2"
+  },
+  {
+    "text": "عشوائي",
+    "start": 8.57592,
+    "end": 9.30508,
+    "role": "contestant2",
+    "id": "a2"
+  },
+  {
+    "text": "حتى",
+    "start": 10.125,
+    "end": 10.5185,
+    "role": "host",
+    "id": "h2"
+  },
+  {
+    "text": "هذي",
+    "start": 10.53008,
+    "end": 10.77313,
+    "role": "host",
+    "id": "h2"
+  },
+  {
+    "text": "موجودة",
+    "start": 10.78471,
+    "end": 11.375,
+    "role": "host",
+    "id": "h2"
+  },
+  {
+    "text": "طيب",
+    "start": 13.125,
+    "end": 13.60492,
+    "role": "host",
+    "id": "q2"
+  },
+  {
+    "text": "وش",
+    "start": 13.84492,
+    "end": 14.11279,
+    "role": "host",
+    "id": "q2"
+  },
+  {
+    "text": "عندك",
+    "start": 14.12392,
+    "end": 14.62617,
+    "role": "host",
+    "id": "q2"
+  },
+  {
+    "text": "مدار",
+    "start": 15.325,
+    "end": 16.02212,
+    "role": "contestant3",
+    "id": "a3"
+  },
+  {
+    "text": "هذي",
+    "start": 17.175,
+    "end": 17.39492,
+    "role": "host",
+    "id": "h3"
+  },
+  {
+    "text": "الإجابة",
+    "start": 17.4065,
+    "end": 18.0315,
+    "role": "host",
+    "id": "h3"
+  },
+  {
+    "text": "بدل",
+    "start": 19.075,
+    "end": 19.45217,
+    "role": "host",
+    "id": "vo"
+  },
+  {
+    "text": "ما",
+    "start": 19.46296,
+    "end": 19.59225,
+    "role": "host",
+    "id": "vo"
+  },
+  {
+    "text": "تتشتت",
+    "start": 19.60304,
+    "end": 20.17417,
+    "role": "host",
+    "id": "vo"
+  },
+  {
+    "text": "بين",
+    "start": 20.18492,
+    "end": 20.38967,
+    "role": "host",
+    "id": "vo"
+  },
+  {
+    "text": "المصادر",
+    "start": 20.40046,
+    "end": 21.06854,
+    "role": "host",
+    "id": "vo"
+  },
+  {
+    "text": "بروتوكول",
+    "start": 21.30854,
+    "end": 21.84733,
+    "role": "host",
+    "id": "vo"
+  },
+  {
+    "text": "التحول",
+    "start": 21.85813,
+    "end": 22.34304,
+    "role": "host",
+    "id": "vo"
+  },
+  {
+    "text": "من",
+    "start": 22.35379,
+    "end": 22.47233,
+    "role": "host",
+    "id": "vo"
+  },
+  {
+    "text": "مدار",
+    "start": 22.48313,
+    "end": 22.86029,
+    "role": "host",
+    "id": "vo"
+  },
+  {
+    "text": "يجمع",
+    "start": 22.87104,
+    "end": 23.24821,
+    "role": "host",
+    "id": "vo"
+  },
+  {
+    "text": "لك",
+    "start": 23.259,
+    "end": 23.42063,
+    "role": "host",
+    "id": "vo"
+  },
+  {
+    "text": "التمارين",
+    "start": 23.43142,
+    "end": 23.92712,
+    "role": "host",
+    "id": "vo"
+  },
+  {
+    "text": "وشرحها",
+    "start": 23.93788,
+    "end": 24.47667,
+    "role": "host",
+    "id": "vo"
+  },
+  {
+    "text": "ومحتوى",
+    "start": 24.48742,
+    "end": 24.97233,
+    "role": "host",
+    "id": "vo"
+  },
+  {
+    "text": "التغذية",
+    "start": 24.98313,
+    "end": 25.53271,
+    "role": "host",
+    "id": "vo"
+  },
+  {
+    "text": "بمكان",
+    "start": 25.54346,
+    "end": 26.09304,
+    "role": "host",
+    "id": "vo"
+  },
+  {
+    "text": "واحد",
+    "start": 26.10379,
+    "end": 26.66412,
+    "role": "host",
+    "id": "vo"
+  },
+  {
+    "text": "مدار",
+    "start": 27.175,
+    "end": 27.84167,
+    "role": "host",
+    "id": "end"
+  },
+  {
+    "text": "اختصر",
+    "start": 28.08167,
+    "end": 28.62929,
+    "role": "host",
+    "id": "end"
+  },
+  {
+    "text": "البداية",
+    "start": 28.64117,
+    "end": 29.31975,
+    "role": "host",
+    "id": "end"
+  }
+]

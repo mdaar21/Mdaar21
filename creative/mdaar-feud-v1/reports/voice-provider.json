@@ -1,0 +1,10 @@
+{
+  "provider": "Microsoft Edge online speech catalog",
+  "voice": "ar-SA-HamedNeural",
+  "humanRecording": false,
+  "voiceCloning": false,
+  "contestantVoices": "3 catalog variations; fourth contestant silent",
+  "musicAdded": false,
+  "postTimeStretch": false,
+  "tlsVerification": true
+}

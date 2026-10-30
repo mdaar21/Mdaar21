@@ -1,0 +1,30 @@
+{
+  "base": "https://mdaar21.github.io/Mdaar21/ad/feud/",
+  "files": [
+    {
+      "file": "captions.srt",
+      "bytes": 842,
+      "sha256": "c0814ba14e00ffca0f13ddb4871bdf6de3f29544d885a3a000eddcff78fa9f36"
+    },
+    {
+      "file": "index.html",
+      "bytes": 3104,
+      "sha256": "c281239ce9c7dc028a74738ce6d263199614a3ed6d8e7cd64f14a2394ddfc38e"
+    },
+    {
+      "file": "mdaar_feud_30s_1080.mp4",
+      "bytes": 12304717,
+      "sha256": "842a3c0509db36aa81d7f94d6df6ce1c4b12206683990c02c73c759c628e893f"
+    },
+    {
+      "file": "mdaar_feud_30s_4k.mp4",
+      "bytes": 36136849,
+      "sha256": "75e69108be2e036ca5b06ef690132cd0abf5bcbb3d0448400f65b9338ea4f4fb"
+    },
+    {
+      "file": "poster.jpg",
+      "bytes": 299645,
+      "sha256": "6c973d75f07e0e648ee0440f02e6e47c50523b01662552d550559c89d12a82d9"
+    }
+  ]
+}

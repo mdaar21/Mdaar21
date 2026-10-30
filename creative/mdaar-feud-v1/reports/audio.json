@@ -1,0 +1,223 @@
+{
+  "seconds": 30,
+  "clips": [
+    {
+      "id": "q1",
+      "start": 0.1,
+      "end": 3.1,
+      "sha256": "85a573be9929dd63064b1805fe5bec8d29ffd4a9543784ae2a040d2a364cb720",
+      "nativeGapCuts": [
+        [
+          1.255,
+          1.7850000000000001
+        ]
+      ],
+      "gainDB": -2.8109542286547518
+    },
+    {
+      "id": "a1",
+      "start": 3.35,
+      "end": 4.046583333333333,
+      "sha256": "81e0ab29393ac0c35c5cf46fa35aa751ccf451c4e7d69d5bfa756ae31b4d74e7",
+      "nativeGapCuts": [],
+      "gainDB": -1.0314518138439888
+    },
+    {
+      "id": "h1",
+      "start": 4.95,
+      "end": 5.83175,
+      "sha256": "3907c466097fdc8df538e766f9f82bda0c98f88cfa6bf2532feeb53c443c8ee2",
+      "nativeGapCuts": [],
+      "gainDB": -1.550010431271894
+    },
+    {
+      "id": "a2",
+      "start": 8.25,
+      "end": 9.340083333333332,
+      "sha256": "bb0d626b96a763b226d05f3266cebb9dc8f2ade11ddcd80d288ca03a6b7c83ac",
+      "nativeGapCuts": [],
+      "gainDB": -0.9976910198283628
+    },
+    {
+      "id": "h2",
+      "start": 10.1,
+      "end": 11.41,
+      "sha256": "3c3aa9ae3671d817e92b865a27c75a0f8e614206bece9f52d4e0b65b4f0df850",
+      "nativeGapCuts": [],
+      "gainDB": -2.5975656416506303
+    },
+    {
+      "id": "q2",
+      "start": 13.1,
+      "end": 14.661166666666666,
+      "sha256": "b152fb94fe9761cb97ecf419b109dfffb732006c1a6a5659aecd49e19abe0116",
+      "nativeGapCuts": [
+        [
+          0.694541,
+          1.2081250000000001
+        ]
+      ],
+      "gainDB": -3.88249436769786
+    },
+    {
+      "id": "a3",
+      "start": 15.3,
+      "end": 16.057125,
+      "sha256": "36781c8af7adcfe2c3424311febd96224fb01ccf4299d3b7cc1dd3b8efbd8977",
+      "nativeGapCuts": [],
+      "gainDB": -2.6599828009456017
+    },
+    {
+      "id": "h3",
+      "start": 17.15,
+      "end": 18.066499999999998,
+      "sha256": "e1fa2b8648abca5822194cd81da532ebd368c588078db459f59a7f39e6d7597d",
+      "nativeGapCuts": [],
+      "gainDB": -1.9626549759954837
+    },
+    {
+      "id": "vo",
+      "start": 19.05,
+      "end": 26.699125000000002,
+      "sha256": "8a695bc8c8f8ce7b163978357fcf87fb30beeee223bc6e679886b41be85d7eb2",
+      "nativeGapCuts": [
+        [
+          2.206624,
+          2.714041
+        ]
+      ],
+      "gainDB": -1.3915221058490848
+    },
+    {
+      "id": "end",
+      "start": 27.15,
+      "end": 29.35475,
+      "sha256": "ae077d10d01b3fea3a98f2f80d3629ba7ebc9fb67a1442e8bc4d4368654b1fb4",
+      "nativeGapCuts": [
+        [
+          0.884291,
+          1.4752500000000002
+        ]
+      ],
+      "gainDB": -2.0517173842879792
+    }
+  ],
+  "effects": [
+    {
+      "time": 4.55,
+      "seconds": 0.12,
+      "name": "correct electronic pulse",
+      "peak": 0.065
+    },
+    {
+      "time": 9.7,
+      "seconds": 0.12,
+      "name": "correct electronic pulse",
+      "peak": 0.065
+    },
+    {
+      "time": 3.2,
+      "seconds": 0.07,
+      "name": "button / tile click",
+      "peak": 0.065
+    },
+    {
+      "time": 8.1,
+      "seconds": 0.07,
+      "name": "button / tile click",
+      "peak": 0.065
+    },
+    {
+      "time": 14.98,
+      "seconds": 0.07,
+      "name": "button / tile click",
+      "peak": 0.065
+    },
+    {
+      "time": 22.2,
+      "seconds": 0.07,
+      "name": "button / tile click",
+      "peak": 0.065
+    },
+    {
+      "time": 24.0,
+      "seconds": 0.07,
+      "name": "button / tile click",
+      "peak": 0.065
+    },
+    {
+      "time": 25.55,
+      "seconds": 0.07,
+      "name": "button / tile click",
+      "peak": 0.065
+    },
+    {
+      "time": 16.65,
+      "seconds": 0.38,
+      "name": "hero correct-answer pulse",
+      "peak": 0.12
+    },
+    {
+      "time": 3.05,
+      "seconds": 0.18,
+      "name": "short air transition",
+      "peak": 0.025
+    },
+    {
+      "time": 7.96,
+      "seconds": 0.18,
+      "name": "short air transition",
+      "peak": 0.025
+    },
+    {
+      "time": 18.98,
+      "seconds": 0.18,
+      "name": "short air transition",
+      "peak": 0.025
+    },
+    {
+      "time": 26.95,
+      "seconds": 0.18,
+      "name": "short air transition",
+      "peak": 0.025
+    },
+    {
+      "time": 5.85,
+      "seconds": 0.95,
+      "name": "SoundJay Applause 8 recording",
+      "peak": 0.052
+    },
+    {
+      "time": 16.9,
+      "seconds": 2.1,
+      "name": "SoundJay Applause 8 recording",
+      "peak": 0.085
+    },
+    {
+      "time": 11.75,
+      "seconds": 0.95,
+      "name": "SoundJay Laughter & Applause recording",
+      "peak": 0.045
+    }
+  ],
+  "musicAdded": false,
+  "melodicJingleAdded": false,
+  "actorFourSpeaks": false,
+  "postTimeStretch": false,
+  "halfSecondSilenceSamples": 27018,
+  "finalLoudness": {
+    "input_i": "-19.00",
+    "input_tp": "-3.80",
+    "input_lra": "5.40",
+    "input_thresh": "-30.55",
+    "output_i": "-19.10",
+    "output_tp": "-3.40",
+    "output_lra": "5.20",
+    "output_thresh": "-30.66",
+    "normalization_type": "dynamic",
+    "target_offset": "0.10"
+  },
+  "clippedSamples": 0,
+  "globalGainDB": 1.3200000000000003,
+  "humanListeningVerified": false
+}

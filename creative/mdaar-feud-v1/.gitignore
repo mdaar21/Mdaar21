@@ -1,0 +1,5 @@
+renders/
+.hyperframes/
+__pycache__/
+reports/frames/
+assets/voice/*.wav

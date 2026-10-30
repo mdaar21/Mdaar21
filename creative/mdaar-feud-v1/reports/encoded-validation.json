@@ -1,0 +1,46 @@
+{
+  "ok": true,
+  "outputs": [
+    {
+      "file": "mdaar_feud_30s_4k.mp4",
+      "width": 2160,
+      "height": 3840,
+      "fps": 30,
+      "frames": 900,
+      "seconds": 30.0,
+      "bytes": 36136849,
+      "sha256": "75e69108be2e036ca5b06ef690132cd0abf5bcbb3d0448400f65b9338ea4f4fb",
+      "faststart": true,
+      "decodeWarnings": 0
+    },
+    {
+      "file": "mdaar_feud_30s_1080.mp4",
+      "width": 1080,
+      "height": 1920,
+      "fps": 30,
+      "frames": 900,
+      "seconds": 30.0,
+      "bytes": 12304717,
+      "sha256": "842a3c0509db36aa81d7f94d6df6ce1c4b12206683990c02c73c759c628e893f",
+      "faststart": true,
+      "decodeWarnings": 0
+    }
+  ],
+  "encodedLoudness": {
+    "input_i": "-19.01",
+    "input_tp": "-3.80",
+    "input_lra": "5.40",
+    "input_thresh": "-30.55",
+    "output_i": "-19.10",
+    "output_tp": "-3.38",
+    "output_lra": "5.20",
+    "output_thresh": "-30.67",
+    "normalization_type": "dynamic",
+    "target_offset": "0.10"
+  },
+  "masterAudioCorrelation": 0.9999396608003299,
+  "encodedHeroFrames": 17,
+  "humanListeningVerified": false,
+  "native4kPhotographicFootage": false,
+  "limitations": "Studio photographs animated with camera framing; no full-motion human performance generator available."
+}

@@ -1,0 +1,12 @@
+[
+ {"id":"q1","text":"سألنا الناس... وين تدور على جدول تمارين؟","start":0.10,"deadline":3.05,"role":"host","rate":"+25%","pitch":"+0Hz"},
+ {"id":"a1","text":"تيك توك!","start":3.35,"deadline":4.65,"role":"contestant1","rate":"+8%","pitch":"+7Hz"},
+ {"id":"h1","text":"موجود!","start":4.95,"deadline":6.35,"role":"host","rate":"+8%","pitch":"+0Hz"},
+ {"id":"a2","text":"كوتش عشوائي!","start":8.25,"deadline":9.85,"role":"contestant2","rate":"+8%","pitch":"-9Hz"},
+ {"id":"h2","text":"حتى هذي موجودة!","start":10.10,"deadline":12.75,"role":"host","rate":"+8%","pitch":"+0Hz"},
+ {"id":"q2","text":"طيب... وش عندك؟","start":13.10,"deadline":15.05,"role":"host","rate":"+12%","pitch":"+0Hz"},
+ {"id":"a3","text":"مدار.","start":15.30,"deadline":16.10,"role":"contestant3","rate":"+4%","pitch":"-4Hz"},
+ {"id":"h3","text":"هذي الإجابة!","start":17.15,"deadline":18.95,"role":"host","rate":"+8%","pitch":"+0Hz"},
+ {"id":"vo","text":"بدل ما تتشتت بين المصادر... بروتوكول التحول من مدار يجمع لك التمارين وشرحها ومحتوى التغذية بمكان واحد.","start":19.05,"deadline":26.90,"role":"host","rate":"+16%","pitch":"+0Hz"},
+ {"id":"end","text":"مدار... اختصر البداية.","start":27.15,"deadline":29.75,"role":"host","rate":"+5%","pitch":"+0Hz"}
+]
