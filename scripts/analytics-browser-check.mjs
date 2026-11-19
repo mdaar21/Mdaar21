@@ -19,7 +19,7 @@ function build(name, measurementId) {
   return out;
 }
 const enabled = build('enabled', id), disabled = build('disabled', '');
-for (const name of ['index.html', 'discover/index.html']) {
+for (const name of ['index.html', 'discover/index.html', 'discover/protocol.html']) {
   const html = await readFile(path.join(enabled,name),'utf8');
   assert(html.slice(0,1024).includes('<meta charset="utf-8">'));
   assert(html.indexOf('Content-Security-Policy')<html.indexOf('<script'),'CSP precedes scripts');
@@ -76,13 +76,14 @@ try {
     }
     assert.equal(requests.length,0);tree=enabled;
   });
-  for (const [area, tail] of [['app',''],['showcase','discover/']]) await run(`${area}: one sanitized page view, campaign attribution and CSP-compatible tag`, async (page, requests) => {
+  for (const [area, tail] of [['app',''],['showcase','discover/'],['showcase','discover/protocol.html']]) await run(`${area} ${tail}: one sanitized page view, campaign attribution and CSP-compatible tag`, async (page, requests) => {
     await page.goto(base+tail+'?email=PRIVATE_EMAIL_SENTINEL&weight=98.123&utm_source=tiktok&utm_medium=social&utm_campaign=launch#PRIVATE_HASH_SENTINEL',{waitUntil:'networkidle'});
     assert(await page.evaluate(() => window.fixtureTagLoaded));
     const data=await layer(page), config=data.find(x=>x[0]==='config'), views=data.filter(x=>x[0]==='event'&&x[1]==='page_view');
     assert.equal(views.length,1);assert.equal(config[1],id);assert.equal(config[2].send_page_view,false);
     assert.equal(config[2].allow_google_signals,false);assert.equal(config[2].allow_ad_personalization_signals,false);
-    assert.equal(views[0][2].page_location,base+tail);assert.equal(views[0][2].site_area,area);assert.equal(views[0][2].campaign_source,'tiktok');
+    const normalizedLocation = base + (area === 'showcase' ? 'discover/' : '');
+    assert.equal(views[0][2].page_location,normalizedLocation);assert.equal(views[0][2].site_area,area);assert.equal(views[0][2].campaign_source,'tiktok');
     assert(!/PRIVATE_|98\.123|email=/.test(JSON.stringify(data)));
     assert(requests.some(x=>x.includes('region1.google-analytics.com/g/collect')));
     if(area==='app') {
@@ -96,9 +97,9 @@ try {
   await run('store click records placement once without blocking purchase navigation', async page => {
     await page.goto(base+'discover/',{waitUntil:'networkidle'});
     await page.evaluate(() => document.addEventListener('click', e => {if(e.target.closest?.('a[data-purchase]')){window.fixtureClickWasPrevented=e.defaultPrevented;e.preventDefault();}}));
-    await page.locator('.hero-actions [data-purchase]').click();
+    await page.locator('#get-mdaar [data-purchase]').click();
     const clicks=(await layer(page)).filter(x=>x[0]==='event'&&x[1]==='purchase_click');
-    assert.equal(clicks.length,1);assert.equal(clicks[0][2].button_placement,'hero');assert.equal(await page.evaluate(()=>window.fixtureClickWasPrevented),false);
+    assert.equal(clicks.length,1);assert.equal(clicks[0][2].button_placement,'product');assert.equal(await page.evaluate(()=>window.fixtureClickWasPrevented),false);
     assert.equal((await layer(page)).filter(x=>x[1]==='purchase').length,0,'a click is not a completed sale');
   });
   for (const flag of ['doNotTrack','globalPrivacyControl']) await run(`${flag}: browser privacy preference prevents analytics`, async (page, requests) => {

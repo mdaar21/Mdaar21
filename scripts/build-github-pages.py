@@ -101,8 +101,10 @@ def build(output, base, service_origin='', measurement_id=None):
     # Both surfaces share one property. Keep analytics off until a real ID exists.
     if measurement_id:
         analytics_meta = f'<meta name="mdaar-ga4" content="{measurement_id}">\n'
-        for name in ('index.html', 'discover/index.html'):
+        for name in ('index.html', 'discover/index.html', 'discover/protocol.html'):
             path = output / name
+            if not path.exists():
+                continue
             text = head_metadata(path.read_text(), analytics_meta)
             if name.startswith('discover/'):
                 def update_policy(match):

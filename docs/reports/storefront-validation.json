@@ -1,0 +1,107 @@
+{
+  "date": "2026-11-19T02:05:55.543Z",
+  "scope": "Project-prefixed canonical Pages build; Zid navigation intercepted, no purchase or delivery tested; original application and game unchanged",
+  "results": [
+    {
+      "width": 320,
+      "accessibility": []
+    },
+    {
+      "width": 320,
+      "navigation": "passed",
+      "horizontalOverflow": false,
+      "pageErrors": [],
+      "failedRequests": []
+    },
+    {
+      "width": 390,
+      "accessibility": []
+    },
+    {
+      "width": 390,
+      "navigation": "passed",
+      "horizontalOverflow": false,
+      "pageErrors": [],
+      "failedRequests": []
+    },
+    {
+      "width": 768,
+      "navigation": "passed",
+      "horizontalOverflow": false,
+      "pageErrors": [],
+      "failedRequests": []
+    },
+    {
+      "width": 1024,
+      "navigation": "passed",
+      "horizontalOverflow": false,
+      "pageErrors": [],
+      "failedRequests": []
+    },
+    {
+      "width": 1440,
+      "accessibility": []
+    },
+    {
+      "width": 1440,
+      "navigation": "passed",
+      "horizontalOverflow": false,
+      "pageErrors": [],
+      "failedRequests": []
+    },
+    {
+      "javascriptDisabled": "product content, anchors, native FAQs and purchase link passed"
+    }
+  ],
+  "accessibilityStandard": "axe-core WCAG 2 A/AA and WCAG 2.1 AA; automated checks, not a substitute for human review",
+  "analytics": {
+    "scope": "Local project-prefixed Pages builds; provider and collector intercepted; not proof of live Google property activation",
+    "results": [
+      {
+        "name": "unconfigured builds contact no analytics provider on either surface",
+        "status": "passed"
+      },
+      {
+        "name": "app : one sanitized page view, campaign attribution and CSP-compatible tag",
+        "status": "passed"
+      },
+      {
+        "name": "showcase discover/: one sanitized page view, campaign attribution and CSP-compatible tag",
+        "status": "passed"
+      },
+      {
+        "name": "showcase discover/protocol.html: one sanitized page view, campaign attribution and CSP-compatible tag",
+        "status": "passed"
+      },
+      {
+        "name": "store click records placement once without blocking purchase navigation",
+        "status": "passed"
+      },
+      {
+        "name": "doNotTrack: browser privacy preference prevents analytics",
+        "status": "passed"
+      },
+      {
+        "name": "globalPrivacyControl: browser privacy preference prevents analytics",
+        "status": "passed"
+      },
+      {
+        "name": "an analytics blocker leaves the application usable",
+        "status": "passed"
+      },
+      {
+        "name": "invalid measurement identifiers fail the build",
+        "status": "passed"
+      }
+    ]
+  },
+  "requirements": {
+    "products": 2,
+    "protocolPurchase": "existing Zid URL, 15.99 SAR",
+    "jeebPriceSAR": 10.99,
+    "jeebLink": "internal details only",
+    "jeebAvailability": "ordinary product display without coming-soon label",
+    "otherGamesShown": false,
+    "publicPaidBookDownload": false
+  }
+}
