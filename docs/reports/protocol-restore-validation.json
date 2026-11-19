@@ -1,0 +1,57 @@
+{
+  "date": "2026-11-19",
+  "scope": "Restored protocol-only discovery page; local built Pages output",
+  "restored_from": "b739800",
+  "results": [
+    {
+      "width": 320,
+      "status": "passed",
+      "checks": [
+        "protocol only",
+        "purchase links",
+        "no overflow",
+        "anchors",
+        "book preview and focus",
+        "program and tools tabs",
+        "FAQ",
+        "no browser or HTTP errors"
+      ]
+    },
+    {
+      "width": 390,
+      "status": "passed",
+      "checks": [
+        "protocol only",
+        "purchase links",
+        "no overflow",
+        "anchors",
+        "book preview and focus",
+        "program and tools tabs",
+        "FAQ",
+        "no browser or HTTP errors"
+      ]
+    },
+    {
+      "width": 1440,
+      "status": "passed",
+      "checks": [
+        "protocol only",
+        "purchase links",
+        "no overflow",
+        "anchors",
+        "book preview and focus",
+        "program and tools tabs",
+        "FAQ",
+        "no browser or HTTP errors"
+      ]
+    },
+    {
+      "javascript": false,
+      "status": "passed",
+      "checks": [
+        "content and purchase links visible"
+      ]
+    }
+  ],
+  "live_deployment": "Verified separately after publication"
+}

@@ -97,9 +97,9 @@ try {
   await run('store click records placement once without blocking purchase navigation', async page => {
     await page.goto(base+'discover/',{waitUntil:'networkidle'});
     await page.evaluate(() => document.addEventListener('click', e => {if(e.target.closest?.('a[data-purchase]')){window.fixtureClickWasPrevented=e.defaultPrevented;e.preventDefault();}}));
-    await page.locator('#get-mdaar [data-purchase]').click();
+    await page.locator('.hero-actions [data-purchase]').click();
     const clicks=(await layer(page)).filter(x=>x[0]==='event'&&x[1]==='purchase_click');
-    assert.equal(clicks.length,1);assert.equal(clicks[0][2].button_placement,'product');assert.equal(await page.evaluate(()=>window.fixtureClickWasPrevented),false);
+    assert.equal(clicks.length,1);assert.equal(clicks[0][2].button_placement,'hero');assert.equal(await page.evaluate(()=>window.fixtureClickWasPrevented),false);
     assert.equal((await layer(page)).filter(x=>x[1]==='purchase').length,0,'a click is not a completed sale');
   });
   for (const flag of ['doNotTrack','globalPrivacyControl']) await run(`${flag}: browser privacy preference prevents analytics`, async (page, requests) => {

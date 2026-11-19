@@ -6,11 +6,15 @@
       "status": "passed"
     },
     {
-      "name": "app: one sanitized page view, campaign attribution and CSP-compatible tag",
+      "name": "app : one sanitized page view, campaign attribution and CSP-compatible tag",
       "status": "passed"
     },
     {
-      "name": "showcase: one sanitized page view, campaign attribution and CSP-compatible tag",
+      "name": "showcase discover/: one sanitized page view, campaign attribution and CSP-compatible tag",
+      "status": "passed"
+    },
+    {
+      "name": "showcase discover/protocol.html: one sanitized page view, campaign attribution and CSP-compatible tag",
       "status": "passed"
     },
     {
