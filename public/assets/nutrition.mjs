@@ -138,6 +138,8 @@ const decimal=n=>Number(n.toFixed(1)).toLocaleString(language()==='en'?'en-US':'
 const macros=n=>`${decimal(n.kcal)} ${tr('calorieUnit')} · P ${decimal(n.p)} · C ${decimal(n.c)} · F ${decimal(n.f)} ${tr('gram')}`;
 const loadFavorites=()=>{try {const a=JSON.parse(localStorage.getItem('mdaar_recipe_favorites')||'[]');return Array.isArray(a)?a.filter(x=>typeof x==='string' && byId[x]):[];}catch{return [];}};
 function notice(element,message){element.textContent=message;element.setAttribute('role','status');}
+function ltrText(element,text){const part=document.createElement('bdi');part.dir='ltr';part.textContent=text;element.replaceChildren(part);}
+function ltrNotice(element,text){ltrText(element,text);element.setAttribute('role','status');}
 function servingDetails(recipe,servings){
   return `<ul>${recipe.ingredients.map(part=>{const food=ingredients[part.id];return `<li>${e(textName(food))}: <b>${decimal(part.grams*servings)} ${tr('gram')}</b> <small>(${e(language()==='en'?food.stateEn:food.state)})</small><small dir="ltr"> · NDB ${food.ndbId}</small></li>`}).join('')}</ul>`;
 }
@@ -180,8 +182,8 @@ function renderRecipes(){
  const list=filterRecipes(recipes,ingredients,{query:library.querySelector('#nr-query').value,goal:library.querySelector('#nr-goal').value,category:library.querySelector('#nr-category').value,maxKcal:+library.querySelector('#nr-max-kcal').value,minProtein:+library.querySelector('#nr-min-protein').value,favorites:library.querySelector('#nr-favorites').checked?loadFavorites():undefined});
  const pages=Math.max(1,Math.ceil(list.length/8));page=Math.min(page,pages-1);
  library.querySelector('#nr-results').innerHTML=list.slice(page*8,page*8+8).map(card).join('') || `<p class="msg">${tr('empty')}</p>`;
- notice(library.querySelector('#nr-count'),`${list.length} / ${recipes.length}`);
- library.querySelector('#nr-page').textContent=`${page+1} / ${pages}`;
+ ltrNotice(library.querySelector('#nr-count'),`${list.length} / ${recipes.length}`);
+ ltrText(library.querySelector('#nr-page'),`${page+1} / ${pages}`);
  library.querySelector('#nr-prev').disabled=page===0;library.querySelector('#nr-next').disabled=page===pages-1;
 }
 function renderPlannerShell({reset=false}={}){
