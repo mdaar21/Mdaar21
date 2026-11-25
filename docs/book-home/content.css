@@ -45,3 +45,11 @@
 .index-table tr:nth-child(even) td{background:#14130f}
 .index-table td:not(:first-child){width:auto}
 .index-table td:first-child{color:#d9ba7b;text-align:center}
+
+/* d30: opener page (temporary until Sara's template) */
+.program-big{text-align:center;margin:18mm 0 10mm}
+.program-big .stat{font-size:96pt;line-height:1;color:#d9ba7b;font-weight:800}
+.day-boxes{display:grid;grid-template-columns:repeat(auto-fit,minmax(48mm,1fr));gap:4mm;margin-top:6mm}
+.day-box{border:1px solid #d9ba7b;border-radius:3mm;padding:5mm;display:flex;flex-direction:column;gap:2mm}
+.day-box b{color:#d9ba7b}.day-box span{font-weight:700}.day-box small{opacity:.8}
+.day-muscles{margin:0 0 2mm;color:#f0dba7;font-size:10pt}
