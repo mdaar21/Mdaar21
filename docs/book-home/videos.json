@@ -1,0 +1,403 @@
+{
+ "book": "بروتوكول التحول: نسخة البيت",
+ "checkedAt": "2026-11-25",
+ "method": "عنوان الفيديو من oEmbed، وثلاثة إطارات معاينة من يوتيوب. ما فُحصت الموسيقى ولا الصوت، وما شُوهد الفيديو كاملًا.",
+ "videos": [
+  {
+   "exerciseId": "e1",
+   "version": "with-dumbbell",
+   "nameAr": "سكوات الكأس بدمبل",
+   "nameEn": "Dumbbell Goblet Squat",
+   "videoId": "2LnkzQ7paAc",
+   "url": "https://www.youtube.com/watch?v=2LnkzQ7paAc",
+   "channel": "IronmasterPro",
+   "title": "Dumbbell Goblet Squat Tutorial",
+   "checks": {
+    "exists_public_oembed": true,
+    "title_matches_exercise": true,
+    "three_frames": "الإطارات تظهر رجلًا يؤدي السكوات بدمبل على صدره، وعليها كتابة «DB GOBLET SQUAT»",
+    "woman_in_three_frames": false,
+    "music_checked": false
+   },
+   "needs_owner_confirmation": false
+  },
+  {
+   "exerciseId": "e1",
+   "version": "no-dumbbell",
+   "nameAr": "سكوات بوزن الجسم",
+   "nameEn": "Bodyweight Squat",
+   "videoId": "eWatHIujxPM",
+   "url": "https://www.youtube.com/watch?v=eWatHIujxPM",
+   "channel": "Over The Hill Athlete",
+   "title": "How to Do a Bodyweight Squat (Perfect Form + Common Mistakes)",
+   "checks": {
+    "exists_public_oembed": true,
+    "title_matches_exercise": true,
+    "three_frames": "الإطارات تظهر رجلًا يؤدي سكوات بوزن الجسم داخل غرفة",
+    "woman_in_three_frames": false,
+    "music_checked": false
+   },
+   "needs_owner_confirmation": false
+  },
+  {
+   "exerciseId": "e2",
+   "version": "with-dumbbell",
+   "nameAr": "رفعة رومانية بدمبلين",
+   "nameEn": "Dumbbell Romanian Deadlift",
+   "videoId": "zIJ2E001FgI",
+   "url": "https://www.youtube.com/watch?v=zIJ2E001FgI",
+   "channel": "Mike | J2FIT Strength & Conditioning",
+   "title": "How To - Dumbbell Romanian Deadlifts (RDLs)",
+   "checks": {
+    "exists_public_oembed": true,
+    "title_matches_exercise": true,
+    "three_frames": "الإطارات تظهر رجلًا يؤدي الرفعة الرومانية بدمبلين، وعليها كتابة «ROMANIAN DEADLIFT»",
+    "woman_in_three_frames": false,
+    "music_checked": false
+   },
+   "needs_owner_confirmation": false
+  },
+  {
+   "exerciseId": "e2",
+   "version": "no-dumbbell",
+   "nameAr": "رفعة رومانية بساق واحدة بوزن الجسم",
+   "nameEn": "Single-Leg Romanian Deadlift (bodyweight)",
+   "videoId": "gz9l8UA_KXs",
+   "url": "https://www.youtube.com/watch?v=gz9l8UA_KXs",
+   "channel": "Buff Dudes Workouts",
+   "title": "How to Perform Single Leg Romanian Deadlifts | Bodyweight Exercise Tutorial",
+   "checks": {
+    "exists_public_oembed": true,
+    "title_matches_exercise": true,
+    "three_frames": "العنوان يقول وزن الجسم، والإطارات تظهر رجلًا يتكلم في الخارج ولا تعرض الحركة نفسها، فيحتاج تأكيدًا",
+    "woman_in_three_frames": false,
+    "music_checked": false
+   },
+   "needs_owner_confirmation": true
+  },
+  {
+   "exerciseId": "e3",
+   "version": "with-dumbbell",
+   "nameAr": "لانج للخلف بدمبلين",
+   "nameEn": "Dumbbell Reverse Lunge",
+   "videoId": "MpfeGnBFEo8",
+   "url": "https://www.youtube.com/watch?v=MpfeGnBFEo8",
+   "channel": "IronmasterPro",
+   "title": "Dumbbell Reverse Lunge Tutorial",
+   "checks": {
+    "exists_public_oembed": true,
+    "title_matches_exercise": true,
+    "three_frames": "الإطارات تظهر رجلًا يؤدي اللانج للخلف بدمبلين، وعليها كتابة «DB REVERSE LUNGE»",
+    "woman_in_three_frames": false,
+    "music_checked": false
+   },
+   "needs_owner_confirmation": false
+  },
+  {
+   "exerciseId": "e3",
+   "version": "no-dumbbell",
+   "nameAr": "لانج للخلف بوزن الجسم",
+   "nameEn": "Bodyweight Reverse Lunge",
+   "videoId": "uHKgeIDSCYE",
+   "url": "https://www.youtube.com/watch?v=uHKgeIDSCYE",
+   "channel": "Exercise Tutorial Pro",
+   "title": "Bodyweight Step Back /Reverse Lunge",
+   "checks": {
+    "exists_public_oembed": true,
+    "title_matches_exercise": true,
+    "three_frames": "الإطارات تظهر رجلًا يخطو للخلف ويداه على وركيه بدون أوزان",
+    "woman_in_three_frames": false,
+    "music_checked": false
+   },
+   "needs_owner_confirmation": false
+  },
+  {
+   "exerciseId": "e4",
+   "version": "with-dumbbell",
+   "nameAr": "ضغط الصدر على الأرض بدمبلين",
+   "nameEn": "Dumbbell Floor Press",
+   "videoId": "_TbO_WWcdEY",
+   "url": "https://www.youtube.com/watch?v=_TbO_WWcdEY",
+   "channel": "TurnFit - Vancouver Personal Trainers",
+   "title": "How to do a Dumbbell Floor Press",
+   "checks": {
+    "exists_public_oembed": true,
+    "title_matches_exercise": true,
+    "three_frames": "الإطارات تظهر رجلين مع مدرب، أحدهما مستلقٍ على الأرض يضغط دمبلين",
+    "woman_in_three_frames": false,
+    "music_checked": false
+   },
+   "needs_owner_confirmation": false
+  },
+  {
+   "exerciseId": "e4",
+   "version": "no-dumbbell",
+   "nameAr": "ضغط (بوش أب)",
+   "nameEn": "Push-Up",
+   "videoId": "WDIpL0pjun0",
+   "url": "https://www.youtube.com/watch?v=WDIpL0pjun0",
+   "channel": "National Academy of Sports Medicine (NASM)",
+   "title": "How to do a Push-Up | Proper Form & Technique | NASM",
+   "checks": {
+    "exists_public_oembed": true,
+    "title_matches_exercise": true,
+    "three_frames": "الإطارات تظهر رجلًا يؤدي الضغط على خلفية بيضاء",
+    "woman_in_three_frames": false,
+    "music_checked": false
+   },
+   "needs_owner_confirmation": false
+  },
+  {
+   "exerciseId": "e5",
+   "version": "with-dumbbell",
+   "nameAr": "ضغط الكتف بدمبلين جالسًا",
+   "nameEn": "Seated Dumbbell Press",
+   "videoId": "lfb3ffbrd4Q",
+   "url": "https://www.youtube.com/watch?v=lfb3ffbrd4Q",
+   "channel": "Buff Dudes Workouts",
+   "title": "Seated Dumbbell Press | Shoulders | How-To Exercise Tutorial",
+   "checks": {
+    "exists_public_oembed": true,
+    "title_matches_exercise": true,
+    "three_frames": "الإطارات تظهر رجلًا ملتحيًا في صالة، يرفع ذراعيه ولا تعرض الضغط بوضوح، فيحتاج تأكيدًا",
+    "woman_in_three_frames": false,
+    "music_checked": false
+   },
+   "needs_owner_confirmation": true
+  },
+  {
+   "exerciseId": "e5",
+   "version": "no-dumbbell",
+   "nameAr": "ضغط الكتف بوضع الهرم (بايك بوش أب)",
+   "nameEn": "Pike Push-Up",
+   "videoId": "pHR5yG6xBps",
+   "url": "https://www.youtube.com/watch?v=pHR5yG6xBps",
+   "channel": "Gymless Fitness",
+   "title": "Pike Push Up Tutorial For Beginners (With Progressions)",
+   "checks": {
+    "exists_public_oembed": true,
+    "title_matches_exercise": true,
+    "three_frames": "الإطارات تظهر رجلًا بدون قميص وعليها كتابة «PIKE PUSHUP»",
+    "woman_in_three_frames": false,
+    "music_checked": false
+   },
+   "needs_owner_confirmation": false
+  },
+  {
+   "exerciseId": "e6",
+   "version": "with-dumbbell",
+   "nameAr": "سحب بدمبل بذراع واحدة",
+   "nameEn": "One-Arm Dumbbell Row",
+   "videoId": "epSR-ma7BsY",
+   "url": "https://www.youtube.com/watch?v=epSR-ma7BsY",
+   "channel": "Chris Gates Fitness",
+   "title": "How to Do A One-Arm Dumbbell Row | Exercise Tutorial",
+   "checks": {
+    "exists_public_oembed": true,
+    "title_matches_exercise": true,
+    "three_frames": "الإطارات تظهر رجلًا جالسًا على مقعد في مقدمة الشرح، ولا تعرض السحب نفسه، فيحتاج تأكيدًا",
+    "woman_in_three_frames": false,
+    "music_checked": false
+   },
+   "needs_owner_confirmation": true
+  },
+  {
+   "exerciseId": "e6",
+   "version": "no-dumbbell",
+   "nameAr": "سحب تحت الطاولة",
+   "nameEn": "Table Inverted Row",
+   "videoId": "_HI1Fna7WXU",
+   "url": "https://www.youtube.com/watch?v=_HI1Fna7WXU",
+   "channel": "Michael Romeo",
+   "title": "Fit-WRX Table Row/Inverted Row",
+   "checks": {
+    "exists_public_oembed": true,
+    "title_matches_exercise": true,
+    "three_frames": "الإطارات تظهر رجلًا مستلقيًا تحت طاولة يسحب جسمه إلى الأعلى",
+    "woman_in_three_frames": false,
+    "music_checked": false
+   },
+   "needs_owner_confirmation": false
+  },
+  {
+   "exerciseId": "e7",
+   "version": "with-dumbbell",
+   "nameAr": "تمرين البايسبس بدمبلين",
+   "nameEn": "Dumbbell Biceps Curl",
+   "videoId": "kkCMf-OYPr0",
+   "url": "https://www.youtube.com/watch?v=kkCMf-OYPr0",
+   "channel": "Travis Tarrant",
+   "title": "Exercise Tutorial: DB Biceps Curl (Rotation)",
+   "checks": {
+    "exists_public_oembed": true,
+    "title_matches_exercise": true,
+    "three_frames": "الإطارات تظهر رجلًا واقفًا يمسك دمبلين في صالة",
+    "woman_in_three_frames": false,
+    "music_checked": false
+   },
+   "needs_owner_confirmation": false
+  },
+  {
+   "exerciseId": "e7",
+   "version": "no-dumbbell",
+   "nameAr": "تمرين البايسبس بحقيبة ظهر",
+   "nameEn": "Backpack Biceps Curl",
+   "videoId": "U2xlilyQ_Ao",
+   "url": "https://www.youtube.com/watch?v=U2xlilyQ_Ao",
+   "channel": "Kourosh Foroughi Fit",
+   "title": "BackPack Biceps💪 (HOME ARM WORKOUT) / Work(out) from home",
+   "checks": {
+    "exists_public_oembed": true,
+    "title_matches_exercise": true,
+    "three_frames": "العنوان يقول حقيبة ظهر، والإطارات تظهر رجلًا يتكلم داخل بيت ولا تعرض الحركة نفسها، فيحتاج تأكيدًا",
+    "woman_in_three_frames": false,
+    "music_checked": false
+   },
+   "needs_owner_confirmation": true
+  },
+  {
+   "exerciseId": "e8",
+   "version": "with-dumbbell",
+   "nameAr": "تمدّد الترايسبس فوق الرأس بدمبل",
+   "nameEn": "Dumbbell Overhead Triceps Extension",
+   "videoId": "xbNm9fRoUTw",
+   "url": "https://www.youtube.com/watch?v=xbNm9fRoUTw",
+   "channel": "Catalyst Athletics",
+   "title": "Dumbbell Overhead Tricep Extension | Olympic Weightlifting Exercise Library",
+   "checks": {
+    "exists_public_oembed": true,
+    "title_matches_exercise": true,
+    "three_frames": "الإطارات تظهر رجلًا يرفع دمبلًا فوق رأسه في صالة",
+    "woman_in_three_frames": false,
+    "music_checked": false
+   },
+   "needs_owner_confirmation": false
+  },
+  {
+   "exerciseId": "e8",
+   "version": "no-dumbbell",
+   "nameAr": "ضغط الألماسة (دايموند بوش أب)",
+   "nameEn": "Diamond Push-Up",
+   "videoId": "SbgZkN_8jo8",
+   "url": "https://www.youtube.com/watch?v=SbgZkN_8jo8",
+   "channel": "Andy Oliver",
+   "title": "How To Do A Diamond Push-Up For The Triceps",
+   "checks": {
+    "exists_public_oembed": true,
+    "title_matches_exercise": true,
+    "three_frames": "الإطارات تظهر رجلًا يؤدي ضغط الألماسة على الأرض",
+    "woman_in_three_frames": false,
+    "music_checked": false
+   },
+   "needs_owner_confirmation": false
+  },
+  {
+   "exerciseId": "e9",
+   "version": "with-dumbbell",
+   "nameAr": "جسر الأرداف بدمبل",
+   "nameEn": "Dumbbell Glute Bridge",
+   "videoId": "V-Pk0ZfoszU",
+   "url": "https://www.youtube.com/watch?v=V-Pk0ZfoszU",
+   "channel": "Chris Gates Fitness",
+   "title": "How to Do a Dumbbell Glute Bridge",
+   "checks": {
+    "exists_public_oembed": true,
+    "title_matches_exercise": true,
+    "three_frames": "الإطارات تظهر رجلًا جالسًا ويضع دمبلًا على وركيه، ولا تعرض الجسر نفسه، فيحتاج تأكيدًا",
+    "woman_in_three_frames": false,
+    "music_checked": false
+   },
+   "needs_owner_confirmation": true
+  },
+  {
+   "exerciseId": "e9",
+   "version": "no-dumbbell",
+   "nameAr": "جسر الأرداف بوزن الجسم",
+   "nameEn": "Bodyweight Glute Bridge",
+   "videoId": "7ew8uO0pLgk",
+   "url": "https://www.youtube.com/watch?v=7ew8uO0pLgk",
+   "channel": "Lean Physique Lab",
+   "title": "🔥 How to Do Bodyweight Glute Bridges the Correct Way | Perfect Technique Tutorial",
+   "checks": {
+    "exists_public_oembed": true,
+    "title_matches_exercise": true,
+    "three_frames": "الإطارات تظهر رجلًا مستلقيًا يؤدي الجسر بدون أوزان",
+    "woman_in_three_frames": false,
+    "music_checked": false
+   },
+   "needs_owner_confirmation": false
+  },
+  {
+   "exerciseId": "e10",
+   "version": "with-dumbbell",
+   "nameAr": "رفع الكعبين واقفًا بدمبلين",
+   "nameEn": "Standing Dumbbell Calf Raise",
+   "videoId": "hPA98_r-6e4",
+   "url": "https://www.youtube.com/watch?v=hPA98_r-6e4",
+   "channel": "Horton Barbell",
+   "title": "Standing DB Calf Raises (Exercise Library)",
+   "checks": {
+    "exists_public_oembed": true,
+    "title_matches_exercise": true,
+    "three_frames": "الإطارات تظهر رجلًا واقفًا بدمبلين أمام جدار يرفع كعبيه",
+    "woman_in_three_frames": false,
+    "music_checked": false
+   },
+   "needs_owner_confirmation": false
+  },
+  {
+   "exerciseId": "e10",
+   "version": "no-dumbbell",
+   "nameAr": "رفع الكعب بساق واحدة بوزن الجسم",
+   "nameEn": "Single-Leg Calf Raise (bodyweight)",
+   "videoId": "qPd73snQfUs",
+   "url": "https://www.youtube.com/watch?v=qPd73snQfUs",
+   "channel": "Hospital for Special Surgery",
+   "title": "Single-Leg Calf Raise (HSS)",
+   "checks": {
+    "exists_public_oembed": true,
+    "title_matches_exercise": true,
+    "three_frames": "الإطارات تظهر رجلًا واقفًا على ساق واحدة بجانب جدار يرفع كعبه",
+    "woman_in_three_frames": false,
+    "music_checked": false
+   },
+   "needs_owner_confirmation": false
+  },
+  {
+   "exerciseId": "e11",
+   "version": "with-dumbbell",
+   "nameAr": "التفاف روسي بدمبل",
+   "nameEn": "Dumbbell Russian Twist",
+   "videoId": "IWFZoLTKXwo",
+   "url": "https://www.youtube.com/watch?v=IWFZoLTKXwo",
+   "channel": "Showtime Strength and Performance",
+   "title": "Dumbbell Russian Twist",
+   "checks": {
+    "exists_public_oembed": true,
+    "title_matches_exercise": true,
+    "three_frames": "الإطارات تظهر رجلًا جالسًا على الأرض يدير جذعه وبيده دمبل",
+    "woman_in_three_frames": false,
+    "music_checked": false
+   },
+   "needs_owner_confirmation": false
+  },
+  {
+   "exerciseId": "e11",
+   "version": "no-dumbbell",
+   "nameAr": "الحشرة الميتة (ديد باج)",
+   "nameEn": "Dead Bug",
+   "videoId": "Sp6BenumPV4",
+   "url": "https://www.youtube.com/watch?v=Sp6BenumPV4",
+   "channel": "Signum Fitness & Nutrition",
+   "title": "The Deadbug | A Tutorial",
+   "checks": {
+    "exists_public_oembed": true,
+    "title_matches_exercise": true,
+    "three_frames": "الإطارات تظهر رجلًا مستلقيًا يؤدي الحشرة الميتة",
+    "woman_in_three_frames": false,
+    "music_checked": false
+   },
+   "needs_owner_confirmation": false
+  }
+ ]
+}
