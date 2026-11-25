@@ -20,6 +20,7 @@ import html
 import json
 from pathlib import Path
 
+from pages import divider_page, day_page
 HOME = Path(__file__).resolve().parent
 VIDEOS = json.loads((HOME / 'videos.json').read_text(encoding='utf-8'))['videos']
 VIDEO = {(v['exerciseId'], v['version']): v for v in VIDEOS}
@@ -39,18 +40,18 @@ EXERCISES = [
     dict(id='e2', ar='الرفعة الرومانية', en='Romanian Deadlift', muscle='الفخذ الخلفي والأرداف', dose=('3', '8–12', '60–90'),
          db=dict(short='دمبلين', ar='رفعة رومانية بدمبلين', en='Dumbbell Romanian Deadlift', cue='الدمبلان قريبان من ساقيك وظهرك مستقيم وركبتاك مثنيتان قليلًا.'),
          bw=dict(short='ساق واحدة', ar='رفعة رومانية بساق واحدة', en='Single-Leg Romanian Deadlift', cue='اثبت على ساق واحدة وأمِل الجذع للأمام وارفع الساق الأخرى للخلف.',
-                 easy='للمبتدئين: إذا صعب عليك التوازن، امسك جدارًا أو كرسيًا ثابتًا بيدك.')),
+                 easy='إذا صعب عليك التوازن، امسك جدارًا أو كرسيًا ثابتًا بيدك.')),
     dict(id='e3', ar='اللانج للخلف', en='Reverse Lunge', muscle='الفخذ الأمامي والأرداف', dose=('3', '8–10 لكل ساق', '60–90'),
          db=dict(short='دمبلين', ar='لانج للخلف بدمبلين', en='Dumbbell Reverse Lunge', cue='اخطُ للخلف وانزل بتحكم والجذع مستقيم.'),
          bw=dict(short='وزن الجسم', ar='لانج للخلف بوزن الجسم', en='Bodyweight Reverse Lunge', cue='اخطُ للخلف وانزل بتحكم ويداك على وركيك.')),
     dict(id='e4', ar='ضغط الصدر', en='Chest Press', muscle='الصدر والترايسبس', dose=('3', '8–12', '60–90'),
          db=dict(short='على الأرض', ar='ضغط دمبلين على الأرض', en='Dumbbell Floor Press', cue='انزل حتى تلمس ذراعاك الأرض، ومرفقاك قريبان من جسمك.'),
          bw=dict(short='وزن الجسم', ar='الضغط بوزن الجسم', en='Push-Up', cue='جسمك خط مستقيم من الرأس إلى الكعبين.',
-                 easy='للمبتدئين: إذا كان التمرين صعبًا، ابدأ بالضغط من الركبتين أو بيديك على حافة طاولة ثابتة.')),
+                 easy='إذا كان التمرين صعبًا، ابدأ بالضغط من الركبتين أو بيديك على حافة طاولة ثابتة.')),
     dict(id='e5', ar='ضغط الكتف', en='Shoulder Press', muscle='الكتف والترايسبس', dose=('3', '6–10', '90'),
          db=dict(short='جالس', ar='ضغط الكتف بدمبلين', en='Dumbbell Shoulder Press', cue='اضغط الدمبلين فوق رأسك دون أن تقوّس ظهرك.'),
          bw=dict(short='بايك', ar='ضغط البايك', en='Pike Push-Up', cue='ارفع الورك إلى الأعلى وانزل برأسك بين يديك ثم ادفع.',
-                 easy='لو صعب، ضع يديك على كرسي ثابت وابدأ بتكرارات أقل.')),
+                 easy='إذا كان التمرين صعبًا، ضع يديك على كرسي ثابت وابدأ بتكرارات أقل.')),
     dict(id='e6', ar='سحب الظهر', en='Back Row', muscle='عضلات الظهر والبايسبس', dose=('3', '8–12', '60–90'),
          db=dict(short='بيد واحدة', ar='سحب دمبل بيد واحدة', en='One-Arm Dumbbell Row', cue='اسحب الدمبل نحو جانبك وجسمك ثابت وظهرك مستقيم.'),
          bw=dict(short='تحت الطاولة', ar='سحب تحت الطاولة', en='Table Inverted Row', cue='تأكد أن الطاولة ثقيلة وثابتة قبل أن تسحب صدرك نحو حافتها.')),
@@ -60,7 +61,7 @@ EXERCISES = [
     dict(id='e8', ar='الترايسبس', en='Triceps', muscle='الترايسبس', dose=('3', '8–12', '60–90'),
          db=dict(short='فوق الرأس', ar='تمديد الترايسبس فوق الرأس', en='Dumbbell Overhead Triceps Extension', cue='ثبّت مرفقيك قرب رأسك وأنزِل الدمبل خلف رأسك بتحكم.'),
          bw=dict(short='ألماسة', ar='ضغط الألماسة', en='Diamond Push-Up', cue='يداك قريبتان تحت صدرك، وانزل بتحكم.',
-                 easy='للمبتدئين: إذا كان التمرين صعبًا، ابدأ من الركبتين.')),
+                 easy='إذا كان التمرين صعبًا، ابدأ من الركبتين.')),
     dict(id='e9', ar='جسر الأرداف', en='Glute Bridge', muscle='الأرداف والفخذ الخلفي', dose=('3', '10–15', '60'),
          db=dict(short='دمبل', ar='جسر الأرداف بدمبل', en='Dumbbell Glute Bridge', cue='ضع الدمبل على وركك وارفعه حتى يصير جسمك خطًا مستقيمًا من الكتف إلى الركبة.'),
          bw=dict(short='وزن الجسم', ar='جسر الأرداف بوزن الجسم', en='Bodyweight Glute Bridge', cue='ارفع الورك واضغط الأرداف في الأعلى، وانزل ببطء.')),
@@ -96,6 +97,11 @@ PROGRAM_NOTES = {
 }
 ORDINALS = ['الأول', 'الثاني', 'الثالث', 'الرابع', 'الخامس']
 CARDS_PER_PAGE = 4
+DAY_EN = {'الجسم الكامل (أ)': 'FULL BODY A', 'الجسم الكامل (ب)': 'FULL BODY B', 'الجسم الكامل (ج)': 'FULL BODY C',
+          'علوي (أ)': 'UPPER A', 'سفلي (أ)': 'LOWER A', 'علوي (ب)': 'UPPER B', 'سفلي (ب)': 'LOWER B',
+          'دفع': 'PUSH', 'سحب': 'PULL', 'أرجل': 'LEGS', 'علوي': 'UPPER', 'سفلي وبطن': 'LOWER + CORE'}
+DAY_TITLE = {'دفع': ('PUSH DAY', 'يوم الدفع'), 'سحب': ('PULL DAY', 'يوم السحب'), 'أرجل': ('LEG DAY', 'يوم الأرجل'),
+             'علوي': ('UPPER DAY', 'يوم الجزء العلوي'), 'سفلي وبطن': ('LOWER + CORE', 'يوم السفلي والبطن')}
 MUSCLE_TITLE = {'e1': 'الفخذ الأمامي والأرداف', 'e2': 'الفخذ الخلفي والأرداف', 'e3': 'الفخذ الأمامي والأرداف', 'e4': 'الصدر', 'e5': 'الكتف', 'e6': 'الظهر', 'e7': 'البايسبس', 'e8': 'الترايسبس', 'e9': 'الأرداف', 'e10': 'السمانة', 'e11': 'البطن'}
 SITE = 'https://mdaar21.github.io/Mdaar21/'
 LABELS = {'with-dumbbell': ('بالدمبل', 'dumbbell', 'i-dumbbell'), 'no-dumbbell': ('بدون دمبل', 'no-dumbbell', 'i-body')}
@@ -110,6 +116,7 @@ def page_specs():
             pages = -(-len(ids) // CARDS_PER_PAGE)
             per = -(-len(ids) // pages)
             chunks = [ids[i:i + per] for i in range(0, len(ids), per)]
+            specs.append(('dayhead', n, d))
             for c, chunk in enumerate(chunks):
                 specs.append(('day', n, d, label, chunk, c, len(chunks)))
     specs += [('index',), ('log',), ('site',)]
@@ -145,7 +152,7 @@ def version_card(ex, which):
     tag, cls, icon = LABELS[ver]
     info, v = ex[which], VIDEO[(ex['id'], ver)]
     sets, reps, rest = ex['dose']
-    easy = f' <b class="easy">أسهل للبداية:</b> {esc(info["easy"])}' if info.get('easy') else ''
+    easy = f' <b class="easy">للمبتدئين:</b> {esc(info["easy"])}' if info.get('easy') else ''
     return f'''<div class="version {cls}">
           <span class="version-tag"><svg><use href="#{icon}"/></svg>{tag}</span>
           <h3>{esc(info['short'])}</h3>
@@ -201,18 +208,18 @@ def render(spec, n, total, ids):
 </section>'''
     if kind == 'opener':
         prog = spec[1]
-        boxes = ''.join(
-            f'<div class="day-box"><b>اليوم {ORDINALS[d]}</b><span>{esc(label)}</span><small>{esc(day_muscles(ids_))}</small></div>'
-            for d, (label, ids_) in enumerate(PROGRAMS[prog]))
-        return f'''<section class="page" id="p{n}" aria-label="صفحة {n}: برنامج {prog} أيام">
-  <span class="draft-flag">مؤقتة</span>
-  {head(f'برنامج {prog} أيام')}
-  <p class="eyebrow">MDAAR21 · PROGRAM {prog}</p>
-  <div class="program-big"><div class="stat">{prog}</div><h1>أيام تمرين في الأسبوع</h1><p class="intro">{PROGRAM_NOTES[prog]} كل يوم تمارينه وعضلاته، ولكل تمرين نسختان: بدمبل وبدون.</p></div>
-  <div class="day-boxes">{boxes}</div>
-  <p class="small">الجرعة المقترحة لكل تمرين: 3 مجموعات، وراحة من 45 إلى 90 ثانية بين المجموعات. هذه الصفحة مؤقتة لحين وصول قالب سارة.</p>
-  {foot(n, total, index_id)}
-</section>'''
+        days = [(label, DAY_EN[label], ids[('day', prog, d)]) for d, (label, _) in enumerate(PROGRAMS[prog])]
+        html_ = divider_page(prog, days, f'p{n}', n, total)
+        return html_.replace('href="#p2"', f'href="#{index_id}"')
+    if kind == 'dayhead':
+        _, prog, d = spec
+        label, ex_ids = PROGRAMS[prog][d]
+        if prog == 5 and label in DAY_TITLE:
+            t_en, t_ar = DAY_TITLE[label]
+        else:
+            t_en, t_ar = DAY_EN[label], f'اليوم {ORDINALS[d]}: {label}'
+        html_ = day_page(prog, d, t_en, t_ar, ex_ids, f'p{n}', n, total, exercise_names=[BY_ID[e]['ar'] for e in ex_ids])
+        return html_.replace('href="#p2"', f'href="#{index_id}"')
     if kind == 'site':
         return f'''<section class="page" id="p{n}" aria-label="صفحة {n}: موقع مدار">
   <span class="draft-flag">مسودة</span>
@@ -269,7 +276,6 @@ def render(spec, n, total, ids):
   {head(f'برنامج {prog} أيام')}
   <p class="eyebrow">PROGRAM {prog} · DAY {d + 1}</p>
   <h1>{esc(title)}{suffix}</h1>
-  <p class="day-muscles">عضلات اليوم: {esc(day_muscles(PROGRAMS[prog][d][1]))}</p>
   {caption}
   <div class="ex-list">
     {cards}
@@ -315,6 +321,8 @@ def build_html():
             ids['index'] = f'p{i}'
         if spec[0] == 'opener':
             ids[('prog', spec[1])] = f'p{i}'
+        if spec[0] == 'dayhead':
+            ids[('day', spec[1], spec[2])] = f'p{i}'
     body = '\n\n'.join(render(spec, i, total, ids) for i, spec in enumerate(specs, 1))
     return f'''<!doctype html>
 <html lang="ar" dir="rtl">
