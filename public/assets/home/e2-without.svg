@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 150" role="img" aria-label="رفعة رومانية بساق واحدة: وضع البداية (1) ووضع النهاية (2)"><title>رفعة رومانية بساق واحدة</title>
+<defs><marker id="ah" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 Z" fill="#f0dba7"/></marker></defs>
+<rect x=".5" y=".5" width="199" height="149" rx="8" fill="#12120f" stroke="#b6955040"/>
+<path d="M10.0 136.0 L190.0 136.0" fill="none" stroke="#b69550" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.55"/>
+<path d="M100.0 24 V128" stroke="#b6955040" stroke-dasharray="3 4"/>
+<path d="M146.2 67.4 L144.8 80.7 L144.8 93.2" fill="none" stroke="#8f7a4f" stroke-width="3.4568876131886523" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M146.2 95.7 L146.2 115.3 L144.8 134.9 L151.1 134.9" fill="none" stroke="#8f7a4f" stroke-width="3.4568876131886523" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M148.2 96.8 L148.2 68.5" fill="none" stroke="#e3c584" stroke-width="4.056887613188652" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M148.2 96.8 L148.2 116.4 L146.9 136.0 L153.2 136.0" fill="none" stroke="#e3c584" stroke-width="3.4568876131886523" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M148.2 68.5 L150.1 81.7 L153.1 93.9" fill="none" stroke="#e3c584" stroke-width="3.4568876131886523" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="148.2" cy="59.9" r="5.1" fill="#f0dba7" stroke="#12120f" stroke-width="1.6"/>
+<path d="M77.3 92.5 L76.9 105.8 L76.4 118.4" fill="none" stroke="#8f7a4f" stroke-width="3.4568876131886523" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M49.3 96.4 L29.7 95.7 L10.1 95.1 L16.3 95.1" fill="none" stroke="#8f7a4f" stroke-width="3.4568876131886523" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M51.4 97.5 L79.4 93.6" fill="none" stroke="#e3c584" stroke-width="4.056887613188652" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M51.4 97.5 L50.0 117.1 L44.6 136.0 L50.9 136.0" fill="none" stroke="#e3c584" stroke-width="3.4568876131886523" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M79.4 93.6 L78.9 106.9 L78.5 119.5" fill="none" stroke="#e3c584" stroke-width="3.4568876131886523" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="87.9" cy="92.4" r="5.1" fill="#f0dba7" stroke="#12120f" stroke-width="1.6"/>
+<path d="M73.4 77.6 Q76.2 88.5 87.4 89.6" fill="none" stroke="#f0dba7" stroke-width="2" stroke-linecap="round" marker-end="url(#ah)"/>
+<path d="M34.4 110.2 Q22.4 103.8 22.4 90.2" fill="none" stroke="#f0dba7" stroke-width="2" stroke-linecap="round" marker-end="url(#ah)"/>
+<circle cx="188" cy="13" r="7" fill="none" stroke="#b69550" stroke-width="1.2"/><text x="188" y="16.6" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#f0dba7">1</text>
+<circle cx="88" cy="13" r="7" fill="none" stroke="#b69550" stroke-width="1.2"/><text x="88" y="16.6" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#f0dba7">2</text>
+</svg>

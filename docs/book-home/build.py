@@ -96,6 +96,7 @@ PROGRAM_NOTES = {
 }
 ORDINALS = ['الأول', 'الثاني', 'الثالث', 'الرابع', 'الخامس']
 CARDS_PER_PAGE = 4
+MUSCLE_TITLE = {'e1': 'الفخذ الأمامي والأرداف', 'e2': 'الفخذ الخلفي والأرداف', 'e3': 'الفخذ الأمامي والأرداف', 'e4': 'الصدر', 'e5': 'الكتف', 'e6': 'الظهر', 'e7': 'البايسبس', 'e8': 'الترايسبس', 'e9': 'الأرداف', 'e10': 'السمانة', 'e11': 'البطن'}
 SITE = 'https://mdaar21.github.io/Mdaar21/'
 LABELS = {'with-dumbbell': ('بالدمبل', 'dumbbell', 'i-dumbbell'), 'no-dumbbell': ('بدون دمبل', 'no-dumbbell', 'i-body')}
 
@@ -104,11 +105,12 @@ LABELS = {'with-dumbbell': ('بالدمبل', 'dumbbell', 'i-dumbbell'), 'no-dum
 def page_specs():
     specs = [('cover',), ('picker',), ('guide',)]
     for n, days in PROGRAMS.items():
+        specs.append(('opener', n))
         for d, (label, ids) in enumerate(days):
             chunks = [ids[i:i + CARDS_PER_PAGE] for i in range(0, len(ids), CARDS_PER_PAGE)]
             for c, chunk in enumerate(chunks):
                 specs.append(('day', n, d, label, chunk, c, len(chunks)))
-    specs += [('index',), ('log',)]
+    specs += [('index',), ('log',), ('site',)]
     return specs
 
 
@@ -153,7 +155,7 @@ def version_card(ex, which):
 
 def exercise_card(num, ex):
     return f'''<article class="ex">
-      <div class="ex-head"><h2><span class="num">{num}</span>{esc(ex['ar'])}</h2><span class="muscle">{esc(ex['muscle'])}</span></div>
+      <div class="ex-head"><h2><span class="num">{num}</span>{esc(MUSCLE_TITLE[ex['id']])}</h2><span class="muscle">{esc(ex['ar'])}</span></div>
       <div class="ex-versions">
         {version_card(ex, 'db')}
         {version_card(ex, 'bw')}
@@ -173,6 +175,15 @@ LEGEND = '''<div class="equip-legend">
   </div>'''
 
 
+def day_muscles(ids_):
+    out = []
+    for i in ids_:
+        t = MUSCLE_TITLE[i]
+        if t not in out:
+            out.append(t)
+    return '، '.join(out)
+
+
 def render(spec, n, total, ids):
     index_id = ids['index']
     kind = spec[0]
@@ -185,6 +196,34 @@ def render(spec, n, total, ids):
   </div>
   <div class="sr-only"><h1>بروتوكول التحول: نسخة البيت</h1><p>برامج 3 و4 و5 أيام. كل تمرين له نسختان: بالدمبل وبدون دمبل.</p></div>
   <nav class="cover-navigation" aria-label="تنقل الغلاف"><a href="#{index_id}">الفهرس ↗</a><a href="#p2">ابدأ ←</a></nav>
+</section>'''
+    if kind == 'opener':
+        prog = spec[1]
+        boxes = ''.join(
+            f'<div class="day-box"><b>اليوم {ORDINALS[d]}</b><span>{esc(label)}</span><small>{esc(day_muscles(ids_))}</small></div>'
+            for d, (label, ids_) in enumerate(PROGRAMS[prog]))
+        return f'''<section class="page" id="p{n}" aria-label="صفحة {n}: برنامج {prog} أيام">
+  <span class="draft-flag">مؤقتة</span>
+  {head(f'برنامج {prog} أيام')}
+  <p class="eyebrow">MDAAR21 · PROGRAM {prog}</p>
+  <div class="program-big"><div class="stat">{prog}</div><h1>أيام تمرين في الأسبوع</h1><p class="intro">{PROGRAM_NOTES[prog]} كل يوم تمارينه وعضلاته، ولكل تمرين نسختان: بدمبل وبدون.</p></div>
+  <div class="day-boxes">{boxes}</div>
+  <p class="small">الجرعة المقترحة لكل تمرين: 3 مجموعات، وراحة من 45 إلى 90 ثانية بين المجموعات. هذي الصفحة مؤقتة لحين وصول قالب سارة.</p>
+  {foot(n, total, index_id)}
+</section>'''
+    if kind == 'site':
+        return f'''<section class="page" id="p{n}" aria-label="صفحة {n}: موقع مدار">
+  <span class="draft-flag">مسودة</span>
+  {head('موقع مدار')}
+  <p class="eyebrow">MDAAR21 · WEBSITE</p>
+  <h1>موقع مدار: النادي أو البيت</h1>
+  <p class="intro">في موقع مدار قسم التمارين فيه خياران. اختر المكان اللي تتمرن فيه، ولكل خيار تمارينه.</p>
+  <div class="program-picker">
+    <a class="card" href="{SITE}"><div class="stat">النادي</div><h2>تمارين النادي</h2><p>تمارين بأجهزة النادي والأوزان الحرة.</p></a>
+    <a class="card" href="{SITE}"><div class="stat">البيت</div><h2>تمارين البيت</h2><p>نفس تمارين هذا الكتاب: نسختان لكل تمرين، بدمبل وبدون.</p></a>
+  </div>
+  <p class="small"><a href="{SITE}">{SITE} ↗</a></p>
+  {foot(n, total, index_id)}
 </section>'''
     if kind == 'picker':
         cards = ''.join(
@@ -228,6 +267,7 @@ def render(spec, n, total, ids):
   {head(f'برنامج {prog} أيام')}
   <p class="eyebrow">PROGRAM {prog} · DAY {d + 1}</p>
   <h1>{esc(title)}{suffix}</h1>
+  <p class="day-muscles">عضلات اليوم: {esc(day_muscles(PROGRAMS[prog][d][1]))}</p>
   {caption}
   <div class="ex-list">
     {cards}
@@ -271,7 +311,7 @@ def build_html():
     for i, spec in enumerate(specs, 1):
         if spec[0] == 'index':
             ids['index'] = f'p{i}'
-        if spec[0] == 'day' and spec[2] == 0 and spec[5] == 0:
+        if spec[0] == 'opener':
             ids[('prog', spec[1])] = f'p{i}'
     body = '\n\n'.join(render(spec, i, total, ids) for i, spec in enumerate(specs, 1))
     return f'''<!doctype html>

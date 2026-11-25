@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 150" role="img" aria-label="سحب دمبل بيد واحدة: وضع البداية (1) ووضع النهاية (2)"><title>سحب دمبل بيد واحدة</title>
+<defs><marker id="ah" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 Z" fill="#f0dba7"/></marker></defs>
+<rect x=".5" y=".5" width="199" height="149" rx="8" fill="#12120f" stroke="#b6955040"/>
+<path d="M10.0 136.0 L190.0 136.0" fill="none" stroke="#b69550" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.55"/>
+<path d="M100.0 24 V128" stroke="#b6955040" stroke-dasharray="3 4"/>
+<path d="M175.7 100.9 L195.7 100.9" fill="none" stroke="#6f6046" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/><path d="M176.7 100.9 L176.7 136.0" fill="none" stroke="#6f6046" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M194.7 100.9 L194.7 136.0" fill="none" stroke="#6f6046" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M176.7 100.9 L176.7 78.9" fill="none" stroke="#6f6046" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M75.7 100.9 L95.7 100.9" fill="none" stroke="#6f6046" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/><path d="M76.7 100.9 L76.7 136.0" fill="none" stroke="#6f6046" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M94.7 100.9 L94.7 136.0" fill="none" stroke="#6f6046" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M76.7 100.9 L76.7 78.9" fill="none" stroke="#6f6046" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M165.3 65.6 L174.3 82.4 L182.8 98.3" fill="none" stroke="#8f7a4f" stroke-width="4.948363143432784" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M127.8 80.7 L121.0 108.0 L111.4 134.4 L120.4 134.4" fill="none" stroke="#8f7a4f" stroke-width="4.948363143432784" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M130.7 82.3 L168.3 67.1" fill="none" stroke="#e3c584" stroke-width="5.548363143432784" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M130.7 82.3 L144.8 106.6 L142.8 134.7 L151.8 134.7" fill="none" stroke="#e3c584" stroke-width="4.948363143432784" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M168.3 67.1 L168.9 86.2 L169.6 104.2" fill="none" stroke="#e3c584" stroke-width="4.948363143432784" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="179.7" cy="62.5" r="7.3" fill="#f0dba7" stroke="#12120f" stroke-width="1.6"/>
+<g transform="translate(169.6 104.2) rotate(90) scale(0.92)"><rect x="-7" y="-1.2" width="14" height="2.4" rx="1" fill="#e3c584"/><rect x="-9.5" y="-5" width="4" height="10" rx="1.4" fill="#e3c584"/><rect x="5.5" y="-5" width="4" height="10" rx="1.4" fill="#e3c584"/></g>
+<path d="M65.3 65.6 L74.3 82.4 L82.8 98.3" fill="none" stroke="#8f7a4f" stroke-width="4.948363143432784" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M27.8 80.7 L21.0 108.0 L11.4 134.4 L20.4 134.4" fill="none" stroke="#8f7a4f" stroke-width="4.948363143432784" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M30.7 82.3 L68.3 67.1" fill="none" stroke="#e3c584" stroke-width="5.548363143432784" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M30.7 82.3 L44.8 106.6 L42.8 134.7 L51.8 134.7" fill="none" stroke="#e3c584" stroke-width="4.948363143432784" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M68.3 67.1 L53.2 55.4 L53.2 73.4" fill="none" stroke="#e3c584" stroke-width="4.948363143432784" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="79.7" cy="62.5" r="7.3" fill="#f0dba7" stroke="#12120f" stroke-width="1.6"/>
+<g transform="translate(53.2 73.4) rotate(90) scale(0.92)"><rect x="-7" y="-1.2" width="14" height="2.4" rx="1" fill="#e3c584"/><rect x="-9.5" y="-5" width="4" height="10" rx="1.4" fill="#e3c584"/><rect x="5.5" y="-5" width="4" height="10" rx="1.4" fill="#e3c584"/></g>
+<path d="M47.2 51.4 Q47.2 44.4 47.2 37.4" fill="none" stroke="#f0dba7" stroke-width="2" stroke-linecap="round" marker-end="url(#ah)"/>
+<circle cx="188" cy="13" r="7" fill="none" stroke="#b69550" stroke-width="1.2"/><text x="188" y="16.6" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#f0dba7">1</text>
+<circle cx="88" cy="13" r="7" fill="none" stroke="#b69550" stroke-width="1.2"/><text x="88" y="16.6" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#f0dba7">2</text>
+</svg>
