@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build «بروتوكول التحول: نسخة البيت» (docs/book-home): index.html, plan.md, QR codes.
+"""Build «بروتوكول التحول: نسخة البيت» (docs/book-home): index.html and plan.md.
 
 Usage: python3 docs/book-home/build.py
 
@@ -7,10 +7,11 @@ Reads docs/book-home/videos.json (the audited YouTube links, one per exercise
 version) and writes:
   docs/book-home/index.html   the book, built from the design template
   docs/book-home/plan.md      the table of contents shown to the owner
-  docs/book-home/qr/*.svg     one QR code per video
 
-Needs reportlab (listed in scripts/requirements-book.txt) only for the
-QR codes. No network. Identity (colors, fonts, cover, frame) comes unchanged
+Exercise pictures are read from docs/book-home/figures/<exercise id>-<with|without>.svg
+(drawn by Sara). The picture itself is the link to the video (exercise-hotspot,
+like the first book). A missing picture shows an empty "exercise picture" slot.
+No network, no third-party packages. Identity (colors, fonts, cover, frame) comes unchanged
 from docs/book/book.css and docs/book/identity/, and the two-version card is
 styled by docs/book-home/home.css (design) and content.css (content pages).
 Wording must stay free of health or weight promises and before/after claims.
@@ -33,43 +34,43 @@ def esc(s):
 # a qualified trainer, like the first book. cue = one short form reminder.
 EXERCISES = [
     dict(id='e1', ar='السكوات', en='Squat', muscle='الفخذ الأمامي والأرداف', dose=('3', '8–12', '60–90'),
-         db=dict(ar='سكوات الكأس بدمبل', en='Goblet Squat', cue='امسك الدمبل عند صدرك وانزل ببطء وظهرك مستقيم.'),
-         bw=dict(ar='سكوات بوزن الجسم', en='Bodyweight Squat', cue='ادفع الورك للخلف وانزل بتحكم، وركبتاك باتجاه أصابع قدميك.')),
-    dict(id='e2', ar='هنج الورك', en='Hip Hinge', muscle='الفخذ الخلفي والأرداف', dose=('3', '8–12', '60–90'),
-         db=dict(ar='رفعة رومانية بدمبلين', en='Dumbbell Romanian Deadlift', cue='الدمبلان قريبان من رجليك وظهرك مستقيم وركبتاك مثنيتان قليلًا.'),
-         bw=dict(ar='رفعة رومانية بساق واحدة', en='Single-Leg Romanian Deadlift', cue='ثبّت على رجل واحدة وأمِل الجذع للأمام وارفع الرجل الثانية للخلف.',
+         db=dict(short='كأس', ar='سكوات الكأس بدمبل', en='Goblet Squat', cue='امسك الدمبل عند صدرك وانزل ببطء وظهرك مستقيم.'),
+         bw=dict(short='وزن الجسم', ar='سكوات بوزن الجسم', en='Bodyweight Squat', cue='ادفع الورك للخلف وانزل بتحكم، وركبتاك باتجاه أصابع قدميك.')),
+    dict(id='e2', ar='الرفعة الرومانية', en='Romanian Deadlift', muscle='الفخذ الخلفي والأرداف', dose=('3', '8–12', '60–90'),
+         db=dict(short='دمبلين', ar='رفعة رومانية بدمبلين', en='Dumbbell Romanian Deadlift', cue='الدمبلان قريبان من رجليك وظهرك مستقيم وركبتاك مثنيتان قليلًا.'),
+         bw=dict(short='ساق واحدة', ar='رفعة رومانية بساق واحدة', en='Single-Leg Romanian Deadlift', cue='ثبّت على رجل واحدة وأمِل الجذع للأمام وارفع الرجل الثانية للخلف.',
                  easy='لو التوازن صعب، امسك جدارًا أو كرسيًا ثابتًا بيدك.')),
     dict(id='e3', ar='اللانج للخلف', en='Reverse Lunge', muscle='الفخذ الأمامي والأرداف', dose=('3', '8–10 لكل رجل', '60–90'),
-         db=dict(ar='لانج للخلف بدمبلين', en='Dumbbell Reverse Lunge', cue='اخطُ للخلف وانزل بتحكم والجذع مستقيم.'),
-         bw=dict(ar='لانج للخلف بوزن الجسم', en='Bodyweight Reverse Lunge', cue='اخطُ للخلف وانزل بتحكم ويداك على وركيك.')),
+         db=dict(short='دمبلين', ar='لانج للخلف بدمبلين', en='Dumbbell Reverse Lunge', cue='اخطُ للخلف وانزل بتحكم والجذع مستقيم.'),
+         bw=dict(short='وزن الجسم', ar='لانج للخلف بوزن الجسم', en='Bodyweight Reverse Lunge', cue='اخطُ للخلف وانزل بتحكم ويداك على وركيك.')),
     dict(id='e4', ar='ضغط الصدر', en='Chest Press', muscle='الصدر والترايسبس', dose=('3', '8–12', '60–90'),
-         db=dict(ar='ضغط دمبلين على الأرض', en='Dumbbell Floor Press', cue='انزل لين تلمس ذراعاك الأرض، ومرفقاك قريبان من جسمك.'),
-         bw=dict(ar='تمرين الضغط', en='Push-Up', cue='جسمك خط مستقيم من الرأس للكعبين.',
+         db=dict(short='على الأرض', ar='ضغط دمبلين على الأرض', en='Dumbbell Floor Press', cue='انزل لين تلمس ذراعاك الأرض، ومرفقاك قريبان من جسمك.'),
+         bw=dict(short='وزن الجسم', ar='تمرين الضغط', en='Push-Up', cue='جسمك خط مستقيم من الرأس للكعبين.',
                  easy='لو صعب، ابدأ بالضغط من الركبتين أو بيديك على حافة طاولة ثابتة.')),
-    dict(id='e5', ar='الكتف', en='Shoulder Press', muscle='الكتف والترايسبس', dose=('3', '6–10', '90'),
-         db=dict(ar='ضغط الكتف بدمبلين', en='Dumbbell Shoulder Press', cue='اضغط الدمبلين فوق رأسك بدون ما تقوّس ظهرك.'),
-         bw=dict(ar='ضغط البايك', en='Pike Push-Up', cue='ارفع الورك لأعلى وانزل برأسك بين يديك ثم ادفع.',
+    dict(id='e5', ar='ضغط الكتف', en='Shoulder Press', muscle='الكتف والترايسبس', dose=('3', '6–10', '90'),
+         db=dict(short='جالس', ar='ضغط الكتف بدمبلين', en='Dumbbell Shoulder Press', cue='اضغط الدمبلين فوق رأسك بدون ما تقوّس ظهرك.'),
+         bw=dict(short='بايك', ar='ضغط البايك', en='Pike Push-Up', cue='ارفع الورك لأعلى وانزل برأسك بين يديك ثم ادفع.',
                  easy='لو صعب، حط يديك على كرسي ثابت وابدأ بتكرارات أقل.')),
-    dict(id='e6', ar='الظهر', en='Back Row', muscle='عضلات الظهر والبايسبس', dose=('3', '8–12', '60–90'),
-         db=dict(ar='سحب دمبل بيد واحدة', en='One-Arm Dumbbell Row', cue='اسحب الدمبل نحو جنبك وجسمك ثابت وظهرك مستقيم.'),
-         bw=dict(ar='سحب تحت الطاولة', en='Table Inverted Row', cue='تأكد إن الطاولة ثقيلة وثابتة قبل ما تسحب صدرك نحو حافتها.')),
-    dict(id='e7', ar='البايسبس', en='Biceps Curl', muscle='البايسبس', dose=('3', '10–15', '60'),
-         db=dict(ar='رفع الدمبلين للبايسبس', en='Dumbbell Biceps Curl', cue='ثبّت مرفقيك بجنبك وارفع بدون تأرجح.'),
-         bw=dict(ar='رفع حقيبة الظهر للبايسبس', en='Backpack Biceps Curl', cue='عبّ الحقيبة بكتب ثقيلة وارفعها نحو صدرك بتحكم.')),
+    dict(id='e6', ar='سحب الظهر', en='Back Row', muscle='عضلات الظهر والبايسبس', dose=('3', '8–12', '60–90'),
+         db=dict(short='بيد واحدة', ar='سحب دمبل بيد واحدة', en='One-Arm Dumbbell Row', cue='اسحب الدمبل نحو جنبك وجسمك ثابت وظهرك مستقيم.'),
+         bw=dict(short='تحت الطاولة', ar='سحب تحت الطاولة', en='Table Inverted Row', cue='تأكد إن الطاولة ثقيلة وثابتة قبل ما تسحب صدرك نحو حافتها.')),
+    dict(id='e7', ar='ثني البايسبس', en='Biceps Curl', muscle='البايسبس', dose=('3', '10–15', '60'),
+         db=dict(short='دمبلين', ar='رفع الدمبلين للبايسبس', en='Dumbbell Biceps Curl', cue='ثبّت مرفقيك بجنبك وارفع بدون تأرجح.'),
+         bw=dict(short='حقيبة ظهر', ar='رفع حقيبة الظهر للبايسبس', en='Backpack Biceps Curl', cue='عبّ الحقيبة بكتب ثقيلة وارفعها نحو صدرك بتحكم.')),
     dict(id='e8', ar='الترايسبس', en='Triceps', muscle='الترايسبس', dose=('3', '8–12', '60–90'),
-         db=dict(ar='تمدد الترايسبس فوق الرأس', en='Dumbbell Overhead Triceps Extension', cue='ثبّت مرفقيك قرب رأسك وانزل الدمبل خلف رأسك بتحكم.'),
-         bw=dict(ar='ضغط الألماسة', en='Diamond Push-Up', cue='يداك قريبتان تحت صدرك، وانزل بتحكم.',
+         db=dict(short='فوق الرأس', ar='تمدد الترايسبس فوق الرأس', en='Dumbbell Overhead Triceps Extension', cue='ثبّت مرفقيك قرب رأسك وانزل الدمبل خلف رأسك بتحكم.'),
+         bw=dict(short='ألماسة', ar='ضغط الألماسة', en='Diamond Push-Up', cue='يداك قريبتان تحت صدرك، وانزل بتحكم.',
                  easy='لو صعب، ابدأ من الركبتين.')),
-    dict(id='e9', ar='الأرداف', en='Glute Bridge', muscle='الأرداف والفخذ الخلفي', dose=('3', '10–15', '60'),
-         db=dict(ar='جسر الأرداف بدمبل', en='Dumbbell Glute Bridge', cue='ضع الدمبل على وركك وارفعه حتى يصير جسمك خطًا مستقيمًا من الكتف للركبة.'),
-         bw=dict(ar='جسر الأرداف بوزن الجسم', en='Bodyweight Glute Bridge', cue='ارفع الورك واضغط الأرداف فوق، وانزل ببطء.')),
-    dict(id='e10', ar='السمانة', en='Calf Raise', muscle='عضلات السمانة', dose=('3', '12–20', '45–60'),
-         db=dict(ar='رفع الكعبين واقفًا بدمبلين', en='Standing Dumbbell Calf Raise', cue='ارفع كعبيك لأعلى ما تقدر وانزل ببطء.'),
-         bw=dict(ar='رفع الكعب بساق واحدة', en='Single-Leg Calf Raise', cue='اثبت على رجل واحدة.',
+    dict(id='e9', ar='جسر الأرداف', en='Glute Bridge', muscle='الأرداف والفخذ الخلفي', dose=('3', '10–15', '60'),
+         db=dict(short='دمبل', ar='جسر الأرداف بدمبل', en='Dumbbell Glute Bridge', cue='ضع الدمبل على وركك وارفعه حتى يصير جسمك خطًا مستقيمًا من الكتف للركبة.'),
+         bw=dict(short='وزن الجسم', ar='جسر الأرداف بوزن الجسم', en='Bodyweight Glute Bridge', cue='ارفع الورك واضغط الأرداف فوق، وانزل ببطء.')),
+    dict(id='e10', ar='رفع السمانة', en='Calf Raise', muscle='عضلات السمانة', dose=('3', '12–20', '45–60'),
+         db=dict(short='واقفًا', ar='رفع الكعبين واقفًا بدمبلين', en='Standing Dumbbell Calf Raise', cue='ارفع كعبيك لأعلى ما تقدر وانزل ببطء.'),
+         bw=dict(short='ساق واحدة', ar='رفع الكعب بساق واحدة', en='Single-Leg Calf Raise', cue='اثبت على رجل واحدة.',
                  easy='امسك جدارًا بيدك للتوازن.')),
     dict(id='e11', ar='البطن', en='Core', muscle='عضلات البطن والجذع', dose=('3', '8–12 لكل جهة', '45–60'),
-         db=dict(ar='التفاف روسي بدمبل', en='Dumbbell Russian Twist', cue='أدر الجذع من جهة لجهة والدمبل قريب منك وظهرك مستقيم.'),
-         bw=dict(ar='الحشرة الميتة', en='Dead Bug', cue='ظهرك ملتصق بالأرض، ومدّ ذراعًا ورجلًا من الجهتين المتعاكستين ببطء.')),
+         db=dict(short='التفاف روسي', ar='التفاف روسي بدمبل', en='Dumbbell Russian Twist', cue='أدر الجذع من جهة لجهة والدمبل قريب منك وظهرك مستقيم.'),
+         bw=dict(short='حشرة ميتة', ar='الحشرة الميتة', en='Dead Bug', cue='ظهرك ملتصق بالأرض، ومدّ ذراعًا ورجلًا من الجهتين المتعاكستين ببطء.')),
 ]
 BY_ID = {e['id']: e for e in EXERCISES}
 
@@ -99,21 +100,6 @@ SITE = 'https://mdaar21.github.io/Mdaar21/'
 LABELS = {'with-dumbbell': ('بالدمبل', 'dumbbell', 'i-dumbbell'), 'no-dumbbell': ('بدون دمبل', 'no-dumbbell', 'i-body')}
 
 
-# ---------------------------------------------------------------- QR codes
-def write_qr(video_id, url):
-    from reportlab.graphics.barcode.qr import QrCodeWidget
-    from reportlab.graphics.shapes import Drawing, Rect
-    from reportlab.graphics import renderSVG
-    from reportlab.lib.colors import white
-    qr = QrCodeWidget(url, barLevel='M', barBorder=4)
-    x0, y0, x1, y1 = qr.getBounds()
-    drawing = Drawing(160, 160, transform=[160 / (x1 - x0), 0, 0, 160 / (y1 - y0), 0, 0])
-    drawing.add(Rect(x0, y0, x1 - x0, y1 - y0, fillColor=white, strokeColor=None))
-    drawing.add(qr)
-    (HOME / 'qr').mkdir(exist_ok=True)
-    (HOME / 'qr' / f'{video_id}.svg').write_text(renderSVG.drawToString(drawing), encoding='utf-8')
-
-
 # ---------------------------------------------------------------- pages
 def page_specs():
     specs = [('cover',), ('picker',), ('guide',)]
@@ -136,6 +122,20 @@ def foot(n, total, index_id):
             f'<span>مسودة · © 2026 Mdaar21</span></footer>')
 
 
+def figure(ex, which, v):
+    """The exercise picture, which is also the link to the video (like the first book)."""
+    ver = 'with' if which == 'db' else 'without'
+    info = ex[which]
+    name = f'{ex["ar"]}، {info["short"]}'
+    link = (f'<a class="exercise-hotspot" href="{esc(v["url"])}" aria-label="افتح مقطع شرح {esc(name)}" '
+            f'style="left:0;top:0;width:100%;height:100%"></a>')
+    if (HOME / 'figures' / f'{ex["id"]}-{ver}.svg').exists():
+        img = f'<img src="figures/{ex["id"]}-{ver}.svg" alt="رسم يوضح تمرين {esc(name)}">'
+    else:
+        img = '<span class="fig-empty">صورة التمرين</span>'
+    return f'<div class="exercise-image">{img}{link}</div>'
+
+
 def version_card(ex, which):
     ver = 'with-dumbbell' if which == 'db' else 'no-dumbbell'
     tag, cls, icon = LABELS[ver]
@@ -144,10 +144,9 @@ def version_card(ex, which):
     easy = f' <b class="easy">أسهل للبداية:</b> {esc(info["easy"])}' if info.get('easy') else ''
     return f'''<div class="version {cls}">
           <span class="version-tag"><svg><use href="#{icon}"/></svg>{tag}</span>
-          <h3>{esc(info['ar'])}<span class="en">{esc(info['en'])}</span></h3>
-          <div class="figure-slot"><a href="{esc(v['url'])}" aria-label="شاهد شرح {esc(info['ar'])} على يوتيوب"><img src="qr/{v['videoId']}.svg" alt="رمز QR لمقطع شرح {esc(info['ar'])}"></a></div>
+          <h3>{esc(info['short'])}</h3>
+          <div class="figure-slot">{figure(ex, which, v)}</div>
           <div class="dose-row"><span><bdi dir="ltr">{sets}</bdi> × <bdi dir="ltr">{reps}</bdi></span><span>راحة <bdi dir="ltr">{rest}</bdi> ث</span></div>
-          <div class="video-link"><span><a href="{esc(v['url'])}">شاهد الشرح ↗</a></span></div>
           <p class="cue">{esc(info['cue'])}{easy}</p>
         </div>'''
 
@@ -210,7 +209,7 @@ def render(spec, n, total, ids):
   <h1>كيف تستخدم الكتاب</h1>
   <div class="card"><h2>بطاقة التمرين</h2><p>لكل تمرين نسختان جنب بعض: واحدة بالدمبل وواحدة بدون دمبل. اختر وحدة منهما وكمّل عليها طول البرنامج، وبدّل لما تتغير أدواتك.</p></div>
   <div class="card"><h2>كيف تقرأ الجرعة</h2><p><bdi dir="ltr">3</bdi> × <bdi dir="ltr">8–12</bdi> تعني 3 مجموعات، وكل مجموعة من 8 إلى 12 تكرار. «راحة <bdi dir="ltr">60–90</bdi> ث» يعني ترتاح من دقيقة إلى دقيقة ونص قبل المجموعة التالية. هذي جرعات مقترحة وتحتاج مراجعة مدرب مؤهل.</p></div>
-  <div class="card"><h2>مقاطع الشرح</h2><p>تحت كل نسخة رمز QR ورابط «شاهد الشرح». المقاطع من يوتيوب، ومالكوها غير مدار. قد يتغير المقطع أو يُحذف، فإذا ما اشتغل الرابط، أخبرنا ونبدله.</p></div>
+  <div class="card"><h2>مقاطع الشرح</h2><p>اضغط صورة التمرين لفتح مقطع الشرح على يوتيوب. المقاطع من يوتيوب، ومالكوها غير مدار. قد يتغير المقطع أو يُحذف، فإذا ما اشتغل الرابط، أخبرنا ونبدله.</p></div>
   <div class="card"><h2>قبل ما تبدأ</h2><p>سخّن جسمك بحركات خفيفة دقائق قبل أول مجموعة. اختر وزنًا تقدر تتحكم فيه، وتأكد إن المكان حولك واسع، وإن الطاولة أو الكرسي ثابتين لو استخدمتهم.</p></div>
   <aside class="callout warning">وقف التمرين فورًا إذا حسيت بألم حاد أو دوخة أو ضيق نفس. إذا عندك حالة صحية أو إصابة، استشر مختصًا قبل البدء. الكتاب ما يقدّم تشخيصًا ولا يعد بنتيجة معينة.</aside>
   {foot(n, total, index_id)}
@@ -222,7 +221,7 @@ def render(spec, n, total, ids):
         cards = '\n    '.join(exercise_card(num0 + i + 1, BY_ID[eid]) for i, eid in enumerate(chunk))
         title = f'اليوم {ORDINALS[d]} · {label}'
         suffix = '' if nchunks == 1 else f' ({c + 1}/{nchunks})'
-        caption = ('<p class="exercise-caption">لكل تمرين نسختان. اختر وحدة وكمّل فيها. اضغط «شاهد الشرح» أو صوّر الرمز.</p>'
+        caption = ('<p class="exercise-caption">لكل تمرين نسختان. اختر وحدة وكمّل فيها. اضغط صورة التمرين لفتح المقطع.</p>'
                    if first else '<p class="exercise-caption">تكملة تمارين اليوم.</p>')
         return f'''<section class="page workout" id="p{n}" aria-label="صفحة {n}: برنامج {prog} أيام، {esc(title)}">
   <span class="draft-flag">مسودة أولى</span>
@@ -237,9 +236,9 @@ def render(spec, n, total, ids):
 </section>'''
     if kind == 'index':
         rows = ''.join(
-            f'<tr><td>{i + 1}</td><td>{esc(e["ar"])}<br><span class="en small muted">{esc(e["en"])}</span></td>'
-            f'<td><a href="{esc(VIDEO[(e["id"], "with-dumbbell")]["url"])}">{esc(e["db"]["ar"])} ↗</a></td>'
-            f'<td><a href="{esc(VIDEO[(e["id"], "no-dumbbell")]["url"])}">{esc(e["bw"]["ar"])} ↗</a></td></tr>'
+            f'<tr><td>{i + 1}</td><td>{esc(e["ar"])}</td>'
+            f'<td><a href="{esc(VIDEO[(e["id"], "with-dumbbell")]["url"])}">{esc(e["db"]["short"])} ↗</a></td>'
+            f'<td><a href="{esc(VIDEO[(e["id"], "no-dumbbell")]["url"])}">{esc(e["bw"]["short"])} ↗</a></td></tr>'
             for i, e in enumerate(EXERCISES))
         return f'''<section class="page" id="p{n}" aria-label="صفحة {n}: فهرس التمارين والمقاطع">
   <span class="draft-flag">مسودة أولى</span>
@@ -318,8 +317,8 @@ def build_plan():
     L.append('|---|---|---|---|---|---|')
     for i, e in enumerate(EXERCISES, 1):
         s, r, rest = e['dose']
-        L.append(f'| {i} | {e["ar"]} ({e["en"]}) | {e["muscle"]} | [{e["db"]["ar"]}]({VIDEO[(e["id"], "with-dumbbell")]["url"]}) '
-                 f'| [{e["bw"]["ar"]}]({VIDEO[(e["id"], "no-dumbbell")]["url"]}) | {s} مجموعات × {r} تكرار، راحة {rest} ثانية |')
+        L.append(f'| {i} | {e["ar"]} | {e["muscle"]} | [{e["db"]["short"]}]({VIDEO[(e["id"], "with-dumbbell")]["url"]}) '
+                 f'| [{e["bw"]["short"]}]({VIDEO[(e["id"], "no-dumbbell")]["url"]}) | {s} مجموعات × {r} تكرار، راحة {rest} ثانية |')
     L.append('')
     for n, days in PROGRAMS.items():
         L.append(f'## برنامج {n} أيام')
@@ -341,7 +340,7 @@ def build_plan():
     L.append('')
     L.append('## ملاحظات')
     L.append('')
-    L.append('- في كل صفحة تمرين: رمز QR كبير وسط بطاقة النسخة (بدل صورة التمرين) وتحته الرابط، لأن ما عندنا صور تمارين مرخّصة للكتاب الجديد.')
+    L.append('- مكان صورة التمرين في كل نسخة: صورة سارة الأصلية (docs/book-home/figures/)، والصورة نفسها هي الرابط للمقطع (اضغطها في الكتاب). لين تنرفع الصور يظهر مكانها «صورة التمرين».')
     L.append('- التمارين بدون دمبل الأصعب على المبتدئ (ضغط البايك وضغط الألماسة والرفعة الرومانية بساق واحدة والسمانة بساق واحدة) لها سطر «طريقة أسهل للبداية».')
     L.append('- سحب الظهر تحت الطاولة ما لقيت له مقطع Shorts فيه رجل فقط، فبقي المقطع القديم؛ وكذلك جسر الأرداف بوزن الجسم.')
     L.append('')
@@ -349,11 +348,9 @@ def build_plan():
 
 
 def main():
-    for v in VIDEOS:
-        write_qr(v['videoId'], v['url'])
     (HOME / 'index.html').write_text(build_html(), encoding='utf-8')
     (HOME / 'plan.md').write_text(build_plan(), encoding='utf-8')
-    print(f'{len(page_specs())} pages, {len(VIDEOS)} QR codes')
+    print(f'{len(page_specs())} pages, {len(VIDEOS)} videos, {len(list((HOME / "figures").glob("*.svg"))) if (HOME / "figures").exists() else 0} figures')
 
 
 if __name__ == '__main__':
