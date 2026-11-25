@@ -3,7 +3,7 @@
  "programs": {
   "3": [
    {
-    "name": "الجسم كامل (أ)",
+    "name": "الجسم الكامل (أ)",
     "exercises": [
      "e1",
      "e4",
@@ -12,7 +12,7 @@
     ]
    },
    {
-    "name": "الجسم كامل (ب)",
+    "name": "الجسم الكامل (ب)",
     "exercises": [
      "e2",
      "e5",
@@ -21,7 +21,7 @@
     ]
    },
    {
-    "name": "الجسم كامل (ج)",
+    "name": "الجسم الكامل (ج)",
     "exercises": [
      "e3",
      "e6",
@@ -144,13 +144,13 @@
    "rest": "60–90",
    "with": {
     "label": "دمبلين",
-    "cue": "الدمبلان قريبان من رجليك وظهرك مستقيم وركبتاك مثنيتان قليلًا.",
+    "cue": "الدمبلان قريبان من ساقيك وظهرك مستقيم وركبتاك مثنيتان قليلًا.",
     "video": "https://www.youtube.com/shorts/uYIlkIHksyk",
     "image": "/assets/home/e2-with.svg"
    },
    "without": {
     "label": "ساق واحدة",
-    "cue": "ثبّت على رجل واحدة وأمِل الجذع للأمام وارفع الرجل الثانية للخلف.",
+    "cue": "اثبت على ساق واحدة وأمِل الجذع للأمام وارفع الساق الأخرى للخلف.",
     "video": "https://www.youtube.com/watch?v=DPFnfAUCvTA",
     "image": "/assets/home/e2-without.svg"
    }
@@ -159,7 +159,7 @@
    "name": "اللانج للخلف",
    "title": "الفخذ الأمامي والأرداف",
    "sets": "3",
-   "reps": "8–10 لكل رجل",
+   "reps": "8–10 لكل ساق",
    "rest": "60–90",
    "with": {
     "label": "دمبلين",
@@ -182,13 +182,13 @@
    "rest": "60–90",
    "with": {
     "label": "على الأرض",
-    "cue": "انزل لين تلمس ذراعاك الأرض، ومرفقاك قريبان من جسمك.",
+    "cue": "انزل حتى تلمس ذراعاك الأرض، ومرفقاك قريبان من جسمك.",
     "video": "https://www.youtube.com/watch?v=Cl2qZCjwvso",
     "image": "/assets/home/e4-with.svg"
    },
    "without": {
     "label": "وزن الجسم",
-    "cue": "جسمك خط مستقيم من الرأس للكعبين.",
+    "cue": "جسمك خط مستقيم من الرأس إلى الكعبين.",
     "video": "https://www.youtube.com/shorts/A-2re9hs990",
     "image": "/assets/home/e4-without.svg"
    }
@@ -201,13 +201,13 @@
    "rest": "90",
    "with": {
     "label": "جالس",
-    "cue": "اضغط الدمبلين فوق رأسك بدون ما تقوّس ظهرك.",
+    "cue": "اضغط الدمبلين فوق رأسك دون أن تقوّس ظهرك.",
     "video": "https://www.youtube.com/shorts/k6tzKisR3NY",
     "image": "/assets/home/e5-with.svg"
    },
    "without": {
     "label": "بايك",
-    "cue": "ارفع الورك لأعلى وانزل برأسك بين يديك ثم ادفع.",
+    "cue": "ارفع الورك إلى الأعلى وانزل برأسك بين يديك ثم ادفع.",
     "video": "https://www.youtube.com/shorts/shEnAXgc9y4",
     "image": "/assets/home/e5-without.svg"
    }
@@ -220,13 +220,13 @@
    "rest": "60–90",
    "with": {
     "label": "بيد واحدة",
-    "cue": "اسحب الدمبل نحو جنبك وجسمك ثابت وظهرك مستقيم.",
+    "cue": "اسحب الدمبل نحو جانبك وجسمك ثابت وظهرك مستقيم.",
     "video": "https://www.youtube.com/shorts/be61U5pUeKw",
     "image": "/assets/home/e6-with.svg"
    },
    "without": {
     "label": "تحت الطاولة",
-    "cue": "تأكد إن الطاولة ثقيلة وثابتة قبل ما تسحب صدرك نحو حافتها.",
+    "cue": "تأكد أن الطاولة ثقيلة وثابتة قبل أن تسحب صدرك نحو حافتها.",
     "video": "https://www.youtube.com/watch?v=_HI1Fna7WXU",
     "image": "/assets/home/e6-without.svg"
    }
@@ -239,13 +239,13 @@
    "rest": "60",
    "with": {
     "label": "دمبلين",
-    "cue": "ثبّت مرفقيك بجنبك وارفع بدون تأرجح.",
+    "cue": "ثبّت مرفقيك بجانبك وارفع دون تأرجح.",
     "video": "https://www.youtube.com/shorts/NdJ_y2BCNkI",
     "image": "/assets/home/e7-with.svg"
    },
    "without": {
     "label": "حقيبة ظهر",
-    "cue": "عبّ الحقيبة بكتب ثقيلة وارفعها نحو صدرك بتحكم.",
+    "cue": "املأ الحقيبة بكتب ثقيلة وارفعها نحو صدرك بتحكم.",
     "video": "https://www.youtube.com/shorts/EXnqsY5muq0",
     "image": "/assets/home/e7-without.svg"
    }
@@ -258,7 +258,7 @@
    "rest": "60–90",
    "with": {
     "label": "فوق الرأس",
-    "cue": "ثبّت مرفقيك قرب رأسك وانزل الدمبل خلف رأسك بتحكم.",
+    "cue": "ثبّت مرفقيك قرب رأسك وأنزِل الدمبل خلف رأسك بتحكم.",
     "video": "https://www.youtube.com/watch?v=xbNm9fRoUTw",
     "image": "/assets/home/e8-with.svg"
    },
@@ -277,13 +277,13 @@
    "rest": "60",
    "with": {
     "label": "دمبل",
-    "cue": "ضع الدمبل على وركك وارفعه حتى يصير جسمك خطًا مستقيمًا من الكتف للركبة.",
+    "cue": "ضع الدمبل على وركك وارفعه حتى يصير جسمك خطًا مستقيمًا من الكتف إلى الركبة.",
     "video": "https://www.youtube.com/watch?v=tVA5iqaQ4No",
     "image": "/assets/home/e9-with.svg"
    },
    "without": {
     "label": "وزن الجسم",
-    "cue": "ارفع الورك واضغط الأرداف فوق، وانزل ببطء.",
+    "cue": "ارفع الورك واضغط الأرداف في الأعلى، وانزل ببطء.",
     "video": "https://www.youtube.com/watch?v=7ew8uO0pLgk",
     "image": "/assets/home/e9-without.svg"
    }
@@ -296,13 +296,13 @@
    "rest": "45–60",
    "with": {
     "label": "واقفًا",
-    "cue": "ارفع كعبيك لأعلى ما تقدر وانزل ببطء.",
+    "cue": "ارفع كعبيك إلى أعلى ما تستطيع وانزل ببطء.",
     "video": "https://www.youtube.com/watch?v=hPA98_r-6e4",
     "image": "/assets/home/e10-with.svg"
    },
    "without": {
     "label": "ساق واحدة",
-    "cue": "اثبت على رجل واحدة.",
+    "cue": "اثبت على ساق واحدة.",
     "video": "https://www.youtube.com/watch?v=0YHS_USj2uE",
     "image": "/assets/home/e10-without.svg"
    }
@@ -315,13 +315,13 @@
    "rest": "45–60",
    "with": {
     "label": "التفاف روسي",
-    "cue": "أدر الجذع من جهة لجهة والدمبل قريب منك وظهرك مستقيم.",
+    "cue": "أدر الجذع من جهة إلى أخرى والدمبل قريب منك وظهرك مستقيم.",
     "video": "https://www.youtube.com/watch?v=IWFZoLTKXwo",
     "image": "/assets/home/e11-with.svg"
    },
    "without": {
     "label": "حشرة ميتة",
-    "cue": "ظهرك ملتصق بالأرض، ومدّ ذراعًا ورجلًا من الجهتين المتعاكستين ببطء.",
+    "cue": "ظهرك ملتصق بالأرض، ومدّ ذراعًا وساقًا من الجهتين المتعاكستين ببطء.",
     "video": "https://www.youtube.com/shorts/twDnCxAx9LM",
     "image": "/assets/home/e11-without.svg"
    }
