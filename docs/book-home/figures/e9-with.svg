@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 150" role="img" aria-label="جسر الأرداف بدمبل: وضع البداية (1) ووضع النهاية (2)"><title>جسر الأرداف بدمبل</title>
+<defs><marker id="ah" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 Z" fill="#f0dba7"/></marker></defs>
+<rect x=".5" y=".5" width="199" height="149" rx="8" fill="#12120f" stroke="#b6955040"/>
+<path d="M10.0 66.0 L190.0 66.0" fill="none" stroke="#b69550" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.55"/>
+<path d="M10.0 141.0 L190.0 141.0" fill="none" stroke="#b69550" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.55"/>
+<path d="M14 75 H186" stroke="#b6955040" stroke-dasharray="3 4"/>
+<path d="M65.7 56.9 L85.3 56.2 L103.7 55.6" fill="none" stroke="#8f7a4f" stroke-width="5.06739179359611" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M107.2 56.9 L125.7 34.8 L131.7 63.0 L140.9 63.0" fill="none" stroke="#8f7a4f" stroke-width="5.06739179359611" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M110.2 58.5 L68.7 58.5" fill="none" stroke="#e3c584" stroke-width="5.66739179359611" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M110.2 58.5 L128.7 36.5 L134.7 64.6 L143.9 64.6" fill="none" stroke="#e3c584" stroke-width="5.06739179359611" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M68.7 58.5 L88.3 57.8 L106.7 57.2" fill="none" stroke="#e3c584" stroke-width="5.06739179359611" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="56.1" cy="58.5" r="7.5" fill="#f0dba7" stroke="#12120f" stroke-width="1.6"/>
+<g transform="translate(110.2 58.5) rotate(0) scale(0.94)"><rect x="-7" y="-1.2" width="14" height="2.4" rx="1" fill="#e3c584"/><rect x="-9.5" y="-5" width="4" height="10" rx="1.4" fill="#e3c584"/><rect x="5.5" y="-5" width="4" height="10" rx="1.4" fill="#e3c584"/></g>
+<path d="M68.8 127.2 L88.1 130.6 L106.2 133.8" fill="none" stroke="#8f7a4f" stroke-width="5.06739179359611" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M107.3 111.6 L134.6 102.7 L127.7 130.7 L136.9 130.7" fill="none" stroke="#8f7a4f" stroke-width="5.06739179359611" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M110.3 113.3 L71.8 128.8" fill="none" stroke="#e3c584" stroke-width="5.66739179359611" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M110.3 113.3 L137.6 104.4 L130.7 132.3 L139.9 132.3" fill="none" stroke="#e3c584" stroke-width="5.06739179359611" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M71.8 128.8 L91.1 132.2 L109.2 135.4" fill="none" stroke="#e3c584" stroke-width="5.06739179359611" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="60.1" cy="133.5" r="7.5" fill="#f0dba7" stroke="#12120f" stroke-width="1.6"/>
+<g transform="translate(110.3 113.3) rotate(0) scale(0.94)"><rect x="-7" y="-1.2" width="14" height="2.4" rx="1" fill="#e3c584"/><rect x="-9.5" y="-5" width="4" height="10" rx="1.4" fill="#e3c584"/><rect x="5.5" y="-5" width="4" height="10" rx="1.4" fill="#e3c584"/></g>
+<path d="M110.3 103.3 Q110.3 96.3 110.3 89.3" fill="none" stroke="#f0dba7" stroke-width="2" stroke-linecap="round" marker-end="url(#ah)"/>
+<circle cx="188" cy="13" r="7" fill="none" stroke="#b69550" stroke-width="1.2"/><text x="188" y="16.6" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#f0dba7">1</text>
+<circle cx="188" cy="88" r="7" fill="none" stroke="#b69550" stroke-width="1.2"/><text x="188" y="91.6" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#f0dba7">2</text>
+</svg>

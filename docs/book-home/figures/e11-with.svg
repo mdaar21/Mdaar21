@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 150" role="img" aria-label="التفاف روسي بدمبل: وضع البداية (1) ووضع النهاية (2)"><title>التفاف روسي بدمبل</title>
+<defs><marker id="ah" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 Z" fill="#f0dba7"/></marker></defs>
+<rect x=".5" y=".5" width="199" height="149" rx="8" fill="#12120f" stroke="#b6955040"/>
+<path d="M10.0 136.0 L190.0 136.0" fill="none" stroke="#b69550" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.55"/>
+<path d="M100.0 24 V128" stroke="#b6955040" stroke-dasharray="3 4"/>
+<path d="M119.1 87.6 L137.3 94.3 L154.5 88.0" fill="none" stroke="#8f7a4f" stroke-width="5.016923350453443" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M144.4 120.0 L166.9 102.4 L174.7 129.8 L182.6 134.4" fill="none" stroke="#8f7a4f" stroke-width="5.016923350453443" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M147.4 121.6 L122.1 89.2" fill="none" stroke="#e3c584" stroke-width="5.616923350453443" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M147.4 121.6 L169.8 104.0 L177.7 131.4 L185.6 136.0" fill="none" stroke="#e3c584" stroke-width="5.016923350453443" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M122.1 89.2 L140.3 95.9 L157.5 89.6" fill="none" stroke="#e3c584" stroke-width="5.016923350453443" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="114.4" cy="79.4" r="7.4" fill="#f0dba7" stroke="#12120f" stroke-width="1.6"/>
+<path d="M19.1 87.6 L37.3 94.3 L54.5 88.0" fill="none" stroke="#8f7a4f" stroke-width="5.016923350453443" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M44.4 120.0 L66.9 102.4 L74.7 129.8 L82.6 134.4" fill="none" stroke="#8f7a4f" stroke-width="5.016923350453443" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M47.4 121.6 L22.1 89.2" fill="none" stroke="#e3c584" stroke-width="5.616923350453443" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M47.4 121.6 L69.8 104.0 L77.7 131.4 L85.6 136.0" fill="none" stroke="#e3c584" stroke-width="5.016923350453443" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M22.1 89.2 L40.3 95.9 L57.5 89.6" fill="none" stroke="#e3c584" stroke-width="5.016923350453443" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="14.4" cy="79.4" r="7.4" fill="#f0dba7" stroke="#12120f" stroke-width="1.6"/>
+<g transform="translate(159.5 95.6) rotate(90) scale(0.93)"><rect x="-7" y="-1.2" width="14" height="2.4" rx="1" fill="#e3c584"/><rect x="-9.5" y="-5" width="4" height="10" rx="1.4" fill="#e3c584"/><rect x="5.5" y="-5" width="4" height="10" rx="1.4" fill="#e3c584"/></g>
+<g transform="translate(47.5 83.6) rotate(90) scale(0.93)"><rect x="-7" y="-1.2" width="14" height="2.4" rx="1" fill="#8f7a4f"/><rect x="-9.5" y="-5" width="4" height="10" rx="1.4" fill="#8f7a4f"/><rect x="5.5" y="-5" width="4" height="10" rx="1.4" fill="#8f7a4f"/></g>
+<path d="M52.1 99.2 A20 7 0 1 1 18.1 91.2" fill="none" stroke="#f0dba7" stroke-width="2" stroke-linecap="round" marker-end="url(#ah)"/>
+<circle cx="188" cy="13" r="7" fill="none" stroke="#b69550" stroke-width="1.2"/><text x="188" y="16.6" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#f0dba7">1</text>
+<circle cx="88" cy="13" r="7" fill="none" stroke="#b69550" stroke-width="1.2"/><text x="88" y="16.6" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#f0dba7">2</text>
+</svg>
