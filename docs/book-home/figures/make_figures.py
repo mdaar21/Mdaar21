@@ -110,38 +110,120 @@ def dumbbell(c, s, angle=0, color=NEAR):
     """A dumbbell seen from the side: handle with two plates."""
     x, y = c
     return (f'<g transform="translate({x:.1f} {y:.1f}) rotate({angle}) scale({s:.2f})">'
-            f'<rect x="-7" y="-1.2" width="14" height="2.4" rx="1" fill="{color}"/>'
-            f'<rect x="-9.5" y="-5" width="4" height="10" rx="1.4" fill="{color}"/>'
-            f'<rect x="5.5" y="-5" width="4" height="10" rx="1.4" fill="{color}"/></g>')
+            f'<g stroke="#12120f" stroke-width=".9"><rect x="-7" y="-1.3" width="14" height="2.6" rx="1" fill="{color}"/>'
+            f'<rect x="-9.8" y="-5.2" width="4.2" height="10.4" rx="1.4" fill="{color}"/>'
+            f'<rect x="5.6" y="-5.2" width="4.2" height="10.4" rx="1.4" fill="{color}"/></g></g>')
 
 
 def backpack(c, s):
     x, y = c
     return (f'<g transform="translate({x:.1f} {y + 7 * s:.1f}) scale({s:.2f})">'
-            f'<path d="M-3 -9 Q0 -13 3 -9" fill="none" stroke="{NEAR}" stroke-width="1.6"/>'
-            f'<rect x="-6" y="-9" width="12" height="15" rx="3.5" fill="none" stroke="{NEAR}" stroke-width="2.2"/>'
-            f'<path d="M-3.5 -1 H3.5" stroke="{NEAR}" stroke-width="1.6" stroke-linecap="round"/></g>')
+            f'<path d="M-3 -9 Q0 -13 3 -9" fill="none" stroke="{METAL}" stroke-width="1.6"/>'
+            f'<rect x="-6" y="-9" width="12" height="15" rx="3.5" fill="#3a352c" stroke="{METAL}" stroke-width="1.8"/>'
+            f'<path d="M-3.5 -1 H3.5" stroke="{METAL}" stroke-width="1.6" stroke-linecap="round"/></g>')
+
+
+# ---- volumetric body (style of the first book's anatomy diagram) -----------
+BODY, BODY_EDGE = '#2c2a25', '#5b5346'          # near side
+BODY_FAR, EDGE_FAR = '#1d1c19', '#3b372f'        # far side
+GOLD, GOLD_FAR = '#d9ba7b', '#9c7d47'           # target muscles
+METAL, METAL_EDGE = '#e9e2d2', '#12120f'         # dumbbells: ivory, never gold
+
+# target muscles per exercise (drawn gold): thigh, shin, glute, chest, abs,
+# upper_back, lower_back, shoulder, upper_arm
+MUSCLES = {
+    'e1': {'thigh', 'glute'}, 'e2': {'thigh', 'glute', 'lower_back'}, 'e3': {'thigh', 'glute'},
+    'e4': {'chest', 'upper_arm', 'shoulder'}, 'e5': {'shoulder', 'upper_arm'}, 'e6': {'upper_back', 'upper_arm'},
+    'e7': {'upper_arm'}, 'e8': {'upper_arm'}, 'e9': {'glute', 'thigh'}, 'e10': {'shin'}, 'e11': {'abs'},
+}
+CURRENT = set()
+
+
+def norm(v):
+    l = (v[0] ** 2 + v[1] ** 2) ** .5 or 1
+    return (v[0] / l, v[1] / l)
+
+
+def capsule(a, b, wa, wb, fill, edge, ew=.9):
+    """Tapered limb segment with round ends."""
+    d = norm((b[0] - a[0], b[1] - a[1]))
+    n = (-d[1], d[0])
+    pts = [(a[0] + n[0] * wa / 2, a[1] + n[1] * wa / 2), (b[0] + n[0] * wb / 2, b[1] + n[1] * wb / 2),
+           (b[0] - n[0] * wb / 2, b[1] - n[1] * wb / 2), (a[0] - n[0] * wa / 2, a[1] - n[1] * wa / 2)]
+    poly = ' '.join(f'{x:.1f},{y:.1f}' for x, y in pts)
+    return (f'<g fill="{fill}" stroke="{edge}" stroke-width="{ew}"><circle cx="{a[0]:.1f}" cy="{a[1]:.1f}" r="{wa / 2:.1f}"/>'
+            f'<circle cx="{b[0]:.1f}" cy="{b[1]:.1f}" r="{wb / 2:.1f}"/><polygon points="{poly}"/>'
+            f'<polygon points="{poly}" stroke="none"/></g>')
+
+
+def poly(points, fill, edge='none', ew=.8):
+    return f'<polygon points="{" ".join(f"{x:.1f},{y:.1f}" for x, y in points)}" fill="{fill}" stroke="{edge}" stroke-width="{ew}" stroke-linejoin="round"/>'
 
 
 def figure(P, s, weights=None):
-    """Far limbs first and dimmer, then body, near limbs and head."""
-    lw = max(3.2, 4.4 * s)
-    off = (-2.6 * s, -1.4 * s)
-    far = lambda *k: [add(P[j], off) for j in k]
-    out = [
-        line(far('neck', 'elbow_f', 'hand_f'), FAR, lw),
-        line(far('hip', 'knee_f', 'ankle_f', 'toe_f'), FAR, lw),
-        line([P['hip'], P['neck']], NEAR, lw + .6),
-        line([P['hip'], P['knee_n'], P['ankle_n'], P['toe_n']], NEAR, lw),
-        line([P['neck'], P['elbow_n'], P['hand_n']], NEAR, lw),
-        f'<circle cx="{P["head"][0]:.1f}" cy="{P["head"][1]:.1f}" r="{HEAD_R * s:.1f}" fill="{HEAD}" stroke="{BG}" stroke-width="1.6"/>',
-    ]
+    """Far limbs first and darker, then torso, near limbs and head."""
+    k = s
+    hip, neck = P['hip'], P['neck']
+    u = norm((neck[0] - hip[0], neck[1] - hip[1]))      # up the spine
+    f = (-u[1], u[0])                                    # toward the chest
+    at = lambda base, du, df: (base[0] + u[0] * du * k + f[0] * df * k, base[1] + u[1] * du * k + f[1] * df * k)
+    sh = at(neck, -3, 0)                                 # shoulder joint
+    off = (-2.2 * k, -1.2 * k)
+    F = lambda j: add(P[j], off)
+    sh_f = add(sh, off)
+    out = []
+
+    def leg(knee, ankle, toe, near):
+        fill, edge = (BODY, BODY_EDGE) if near else (BODY_FAR, EDGE_FAR)
+        g = GOLD if near else GOLD_FAR
+        h = hip if near else add(hip, off)
+        res = [capsule(h, knee, 10 * k, 7 * k, g if 'thigh' in CURRENT else fill, edge),
+               capsule(knee, ankle, 6.6 * k, 4.4 * k, g if 'shin' in CURRENT else fill, edge),
+               capsule(ankle, toe, 4.2 * k, 3.2 * k, fill, edge)]
+        return res
+
+    def arm(shoulder, elbow, hand, near):
+        fill, edge = (BODY, BODY_EDGE) if near else (BODY_FAR, EDGE_FAR)
+        g = GOLD if near else GOLD_FAR
+        res = [capsule(shoulder, elbow, 6.4 * k, 5 * k, g if 'upper_arm' in CURRENT else fill, edge),
+               capsule(elbow, hand, 4.8 * k, 3.6 * k, fill, edge)]
+        if 'shoulder' in CURRENT:
+            res.append(f'<circle cx="{shoulder[0]:.1f}" cy="{shoulder[1]:.1f}" r="{4 * k:.1f}" fill="{g}" stroke="{edge}" stroke-width=".8"/>')
+        return res
+
+    out += arm(sh_f, F('elbow_f'), F('hand_f'), False)
+    out += leg(F('knee_f'), F('ankle_f'), F('toe_f'), False)
+    # torso: side view, deeper at the chest than at the waist
+    mid = at(hip, 17, 0)
+    torso = [at(hip, -2, -5.5), at(hip, -2, 5), at(mid, 0, 4.6), at(neck, -9, 7), at(neck, 0, 4.5),
+             at(neck, 1, -4.5), at(neck, -10, -6.4), at(mid, 0, -5.2)]
+    out.append(poly(torso, BODY, BODY_EDGE, 1))
+    if 'chest' in CURRENT:
+        out.append(poly([at(neck, -2.5, 4.4), at(neck, -9, 7), at(neck, -15, 5.6), at(neck, -14, 1.5), at(neck, -3, 1.2)], GOLD))
+    if 'abs' in CURRENT:
+        out.append(poly([at(neck, -16, 5.4), at(mid, 0, 4.6), at(hip, 2, 5), at(hip, 3, 1.4), at(neck, -16, 1.6)], GOLD))
+    if 'upper_back' in CURRENT:
+        out.append(poly([at(neck, 0, -4.4), at(neck, -10, -6.4), at(neck, -19, -5.6), at(neck, -18, -1.6), at(neck, -1, -1.4)], GOLD))
+    if 'lower_back' in CURRENT:
+        out.append(poly([at(mid, 2, -5.3), at(hip, 3, -5.6), at(hip, 3, -2.6), at(mid, 2, -2.4)], GOLD))
+    if 'glute' in CURRENT:
+        c = at(hip, -.5, -3.2)
+        out.append(f'<ellipse cx="{c[0]:.1f}" cy="{c[1]:.1f}" rx="{5.6 * k:.1f}" ry="{5.6 * k:.1f}" fill="{GOLD}"/>')
+    out += leg(P['knee_n'], P['ankle_n'], P['toe_n'], True)
+    # neck and head
+    out.append(capsule(at(neck, -1, .5), P['head'], 4.2 * k, 4.2 * k, BODY, BODY_EDGE))
+    out.append(f'<circle cx="{P["head"][0]:.1f}" cy="{P["head"][1]:.1f}" r="{HEAD_R * k:.1f}" fill="{BODY}" stroke="{BODY_EDGE}" stroke-width="1"/>')
+    out += arm(sh, P['elbow_n'], P['hand_n'], True)
     for kind, joint, ang in (weights or []):
         if kind == 'db':
-            color = FAR if joint.endswith('_f') else NEAR
-            out.insert(0 if joint.endswith('_f') else len(out), dumbbell(P[joint], s * .82, ang, color))
+            pos = F(joint) if joint.endswith('_f') else P[joint]
+            item = dumbbell(pos, k * .9, ang, METAL)
+            if joint.endswith('_f'):
+                out.insert(2, item)
+            else:
+                out.append(item)
         elif kind == 'bag':
-            out.append(backpack(P[joint], s))
+            out.append(backpack(P[joint], k))
     return out
 
 
@@ -204,8 +286,8 @@ def down_arrow(P, joint, dy=18, dx=0, off=(10, 0)):
 FIGS = {
     # 1. Squat
     'e1-with': (
-        dict(t=0, arms=((25, 135), (25, 135))),
-        dict(t=38, legs=SQUAT_LEGS, arms=((55, 120), (55, 120))),
+        dict(t=0, arms=((18, 128), (18, 128))),
+        dict(t=38, legs=SQUAT_LEGS, arms=((48, 118), (48, 118))),
         lambda A, B, s: [down_arrow(B, 'hip', off=(-16, -22))],
         [('db', 'hand_n', 90)]),
     'e1-without': (
@@ -329,7 +411,8 @@ FIGS = {
 
 
 def build(name, start, end, extra, weights):
-    global FLOOR_Y
+    global FLOOR_Y, CURRENT
+    CURRENT = MUSCLES[name.split('-')[0]]
     stacked = name in STACKED
     P1, P2 = STACK if stacked else SIDE
     parts = [f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" role="img">',
