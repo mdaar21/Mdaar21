@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>بروتوكول التحول: نسخة البيت — قالب التصميم</title>
+<link rel="stylesheet" href="../book/book.css">
+<link rel="stylesheet" href="home.css">
+</head>
+<body>
+<!--
+  قالب تصميم «نسخة البيت». مسودة تصميم فقط: أسماء التمارين هنا أمثلة لتوضيح
+  الشكل، والمحتوى النهائي والروابط يجهزها ياسر (القرار d29). الهوية مأخوذة
+  كما هي من ../book/book.css وغلاف الكتاب الأول الأصلي بدون تعديل.
+  رموز SVG المعرّفة مرة وحدة وتُستخدم بـ <use>.
+-->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="i-dumbbell" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M6.5 7v10M17.5 7v10M3.5 9.5v5M20.5 9.5v5M6.5 12h11"/></g></symbol>
+  <symbol id="i-body" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="4.5" r="2"/><path d="M12 7v7M7 10.5l5-2 5 2M9 21l3-7 3 7"/></g></symbol>
+  <symbol id="i-home" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="m3 11 9-7 9 7M5.5 9.5V20h13V9.5M10 20v-5h4v5"/></g></symbol>
+</svg>
+
+<!-- 1. الغلاف: الغلاف الأصلي للكتاب الأول كما هو + شارة النسخة فوقه -->
+<section class="page source-cover home-cover" id="p1" aria-label="الغلاف: بروتوكول التحول، نسخة البيت">
+  <img class="original-cover" src="../book/identity/cover-01.svg" alt="غلاف مدار الأصلي: بروتوكول التحول. هوية سوداء وذهبية وشعار مدار الأصلي.">
+  <div class="edition" aria-hidden="true">
+    <b><svg><use href="#i-home"/></svg>نسخة البيت</b>
+    <small>برامج 3 و4 و5 أيام · كل تمرين بالدمبل أو بدونه</small>
+  </div>
+  <div class="sr-only"><h1>بروتوكول التحول: نسخة البيت</h1><p>برامج 3 و4 و5 أيام. كل تمرين له نسختان: بالدمبل وبدون دمبل.</p></div>
+  <nav class="cover-navigation" aria-label="تنقل الغلاف"><a href="#p2">الفهرس ↗</a><a href="#p2">ابدأ ←</a></nav>
+</section>
+
+<!-- 2. افتتاحية البرامج -->
+<section class="page" id="p2" aria-label="صفحة 2: اختر برنامجك">
+  <span class="draft-flag">مسودة تصميم</span>
+  <header><span class="brand"><img src="../book/identity/source-07-00.png" alt="شعار مدار الأصلي"> مدار</span><span>نسخة البيت</span></header>
+  <p class="eyebrow">MDAAR21 · HOME EDITION</p>
+  <h1>اختر برنامجك</h1>
+  <p class="intro">تمرّن في البيت بالدمبل أو بدونه. كل تمرين في الكتاب له نسختان، واختر اللي تناسب أدواتك.</p>
+  <div class="program-picker">
+    <a class="card" href="#p3"><div class="stat">3</div><h2>أيام بالأسبوع</h2><p>للي وقته ضيق أو بادئ جديد.</p></a>
+    <a class="card" href="#p3"><div class="stat">4</div><h2>أيام بالأسبوع</h2><p>توازن بين التمرين والراحة.</p></a>
+    <a class="card" href="#p3"><div class="stat">5</div><h2>أيام بالأسبوع</h2><p>للي متعود على التمرين.</p></a>
+  </div>
+  <div class="equip-legend">
+    <span><span class="version-tag" style="background:#d9ba7b;color:#0d0e0e"><svg><use href="#i-dumbbell"/></svg>بالدمبل</span> إذا عندك دمبل في البيت</span>
+    <span><span class="version-tag" style="border:1px solid #d9ba7b;color:#f0dba7"><svg><use href="#i-body"/></svg>بدون دمبل</span> بوزن جسمك أو بأدوات البيت</span>
+  </div>
+  <aside class="callout">ابدأ بشي تقدر تتحكم فيه، ووقف التمرين إذا حسيت بألم حاد أو دوخة. الكتاب للتوعية العامة للبالغين، وما يقدّم تشخيصًا أو وعدًا بنتيجة.</aside>
+  <footer class="footer"><a href="#p2">الفهرس ↗</a><span class="en">2 / —</span><span>مسودة · © 2026 Mdaar21</span></footer>
+</section>
+
+<!-- 3. صفحة يوم تمرين: بطاقة التمرين بنسختين -->
+<section class="page workout" id="p3" aria-label="صفحة 3: نموذج يوم تمرين">
+  <span class="draft-flag">مسودة تصميم · التمارين أمثلة</span>
+  <header><span class="brand"><img src="../book/identity/source-07-00.png" alt="شعار مدار الأصلي"> مدار</span><span>برنامج 3 أيام</span></header>
+  <p class="eyebrow">DAY 1 · FULL BODY</p>
+  <h1>اليوم الأول · الجسم كامل</h1>
+  <p class="exercise-caption">لكل تمرين نسختان. اختر وحدة وكمّل فيها. <bdi dir="ltr">3</bdi> × <bdi dir="ltr">8–12</bdi> تعني 3 مجموعات، كل مجموعة من 8 إلى 12 تكرار. اضغط «شاهد الشرح» أو صوّر الرمز.</p>
+
+  <div class="ex-list">
+    <!-- بطاقة تمرين: كررها لكل تمرين. الحقول بين {{ }} يعبيها ياسر من جدول المحتوى. -->
+    <article class="ex">
+      <div class="ex-head"><h2><span class="num">1</span>السكوات</h2><span class="muscle">الفخذ والمؤخرة</span></div>
+      <div class="ex-versions">
+        <div class="version dumbbell">
+          <span class="version-tag"><svg><use href="#i-dumbbell"/></svg>بالدمبل</span>
+          <h3>سكوات بالدمبل أمام الصدر<span class="en">Goblet Squat</span></h3>
+          <div class="figure-slot">صورة التمرين</div>
+          <div class="dose-row"><span><bdi dir="ltr">3</bdi> × <bdi dir="ltr">8–12</bdi></span><span>راحة <bdi dir="ltr">90</bdi> ث</span></div>
+          <div class="video-link"><span class="qr-slot">QR</span><span class="pending">رابط المقطع يضيفه ياسر</span></div>
+        </div>
+        <div class="version no-dumbbell">
+          <span class="version-tag"><svg><use href="#i-body"/></svg>بدون دمبل</span>
+          <h3>سكوات بوزن الجسم<span class="en">Bodyweight Squat</span></h3>
+          <div class="figure-slot">صورة التمرين</div>
+          <div class="dose-row"><span><bdi dir="ltr">3</bdi> × <bdi dir="ltr">12–15</bdi></span><span>راحة <bdi dir="ltr">60</bdi> ث</span></div>
+          <div class="video-link"><span class="qr-slot">QR</span><span class="pending">رابط المقطع يضيفه ياسر</span></div>
+        </div>
+      </div>
+    </article>
+
+    <article class="ex">
+      <div class="ex-head"><h2><span class="num">2</span>الضغط للصدر</h2><span class="muscle">الصدر والترايسبس</span></div>
+      <div class="ex-versions">
+        <div class="version dumbbell">
+          <span class="version-tag"><svg><use href="#i-dumbbell"/></svg>بالدمبل</span>
+          <h3>ضغط دمبل على الأرض<span class="en">Dumbbell Floor Press</span></h3>
+          <div class="figure-slot">صورة التمرين</div>
+          <div class="dose-row"><span><bdi dir="ltr">3</bdi> × <bdi dir="ltr">8–12</bdi></span><span>راحة <bdi dir="ltr">90</bdi> ث</span></div>
+          <div class="video-link"><span class="qr-slot">QR</span><span class="pending">رابط المقطع يضيفه ياسر</span></div>
+        </div>
+        <div class="version no-dumbbell">
+          <span class="version-tag"><svg><use href="#i-body"/></svg>بدون دمبل</span>
+          <h3>تمرين الضغط<span class="en">Push-up</span></h3>
+          <div class="figure-slot">صورة التمرين</div>
+          <div class="dose-row"><span><bdi dir="ltr">3</bdi> × <bdi dir="ltr">8–15</bdi></span><span>راحة <bdi dir="ltr">90</bdi> ث</span></div>
+          <div class="video-link"><span class="qr-slot">QR</span><span class="pending">رابط المقطع يضيفه ياسر</span></div>
+        </div>
+      </div>
+    </article>
+
+    <article class="ex">
+      <div class="ex-head"><h2><span class="num">3</span>السحب للظهر</h2><span class="muscle">الظهر والبايسبس</span></div>
+      <div class="ex-versions">
+        <div class="version dumbbell">
+          <span class="version-tag"><svg><use href="#i-dumbbell"/></svg>بالدمبل</span>
+          <h3>سحب دمبل بيد وحدة<span class="en">One-arm Dumbbell Row</span></h3>
+          <div class="figure-slot">صورة التمرين</div>
+          <div class="dose-row"><span><bdi dir="ltr">3</bdi> × <bdi dir="ltr">8–12</bdi></span><span>راحة <bdi dir="ltr">90</bdi> ث</span></div>
+          <div class="video-link"><span class="qr-slot">QR</span><span class="pending">رابط المقطع يضيفه ياسر</span></div>
+        </div>
+        <div class="version no-dumbbell">
+          <span class="version-tag"><svg><use href="#i-body"/></svg>بدون دمبل</span>
+          <h3>سحب تحت الطاولة<span class="en">Inverted Table Row</span></h3>
+          <div class="figure-slot">صورة التمرين</div>
+          <div class="dose-row"><span><bdi dir="ltr">3</bdi> × <bdi dir="ltr">8–12</bdi></span><span>راحة <bdi dir="ltr">90</bdi> ث</span></div>
+          <div class="video-link"><span class="qr-slot">QR</span><span class="pending">رابط المقطع يضيفه ياسر</span></div>
+        </div>
+      </div>
+    </article>
+
+    <article class="ex">
+      <div class="ex-head"><h2><span class="num">4</span>الضغط للأكتاف</h2><span class="muscle">الأكتاف والترايسبس</span></div>
+      <div class="ex-versions">
+        <div class="version dumbbell">
+          <span class="version-tag"><svg><use href="#i-dumbbell"/></svg>بالدمبل</span>
+          <h3>ضغط دمبل فوق الرأس<span class="en">Dumbbell Overhead Press</span></h3>
+          <div class="figure-slot">صورة التمرين</div>
+          <div class="dose-row"><span><bdi dir="ltr">3</bdi> × <bdi dir="ltr">8–12</bdi></span><span>راحة <bdi dir="ltr">90</bdi> ث</span></div>
+          <!-- شكل الرابط بعد ما يجهز: -->
+          <div class="video-link"><span class="qr-slot">QR</span><a href="#" data-video="{{رابط يوتيوب}}">شاهد الشرح ↗</a></div>
+        </div>
+        <div class="version no-dumbbell">
+          <span class="version-tag"><svg><use href="#i-body"/></svg>بدون دمبل</span>
+          <h3>ضغط بايك<span class="en">Pike Push-up</span></h3>
+          <div class="figure-slot">صورة التمرين</div>
+          <div class="dose-row"><span><bdi dir="ltr">3</bdi> × <bdi dir="ltr">8–12</bdi></span><span>راحة <bdi dir="ltr">90</bdi> ث</span></div>
+          <div class="video-link"><span class="qr-slot">QR</span><a href="#" data-video="{{رابط يوتيوب}}">شاهد الشرح ↗</a></div>
+        </div>
+      </div>
+    </article>
+  </div>
+  <footer class="footer"><a href="#p2">الفهرس ↗</a><span class="en">3 / —</span><span>مسودة · © 2026 Mdaar21</span></footer>
+</section>
+</body>
+</html>
