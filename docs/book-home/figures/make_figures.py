@@ -248,9 +248,9 @@ FIGS = {
         lambda A, B, s: [up_arrow(B, 'neck', dy=-14, off=(-8, -6))],
         []),
     # 5. Shoulder press
-    'e5-with': (
-        dict(t=0, arms=((28, 152), (28, 152))),
-        dict(t=0, arms=((176, 0), (176, 0))),
+    'e5-with': (  # seated on a chair, as in the video and the book text («جالس»)
+        dict(t=-6, legs=((88, 88), (84, 84)), arms=((28, 152), (28, 152))),
+        dict(t=-6, legs=((88, 88), (84, 84)), arms=((176, 0), (176, 0))),
         lambda A, B, s: [up_arrow(B, 'elbow_n', dy=-16, off=(12, 4))],
         [('db', 'hand_f', 90), ('db', 'hand_n', 90)]),
     'e5-without': (
@@ -356,6 +356,8 @@ def build(name, start, end, extra, weights):
             parts.append(line([(P['hand_n'][0] + 3, 30), (P['hand_n'][0] + 3, FLOOR_Y)], PROP, 1.8, .8))
         if name == 'e6-with':
             parts.append(chair(P['hand_f'][0], P['hand_f'][1] + 1))
+        if name == 'e5-with':
+            parts.append(chair(P['hip'][0] + 5, P['hip'][1] + 3))
         if name == 'e6-without':
             parts.append(table(P['hand_n'][0] - 16, P['hand_n'][0] + 14, P['hand_n'][1] - 1))
     FLOOR_Y = 136
