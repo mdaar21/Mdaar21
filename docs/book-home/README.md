@@ -75,6 +75,8 @@ python3 docs/book-home/build.py
 
 ملف PDF للمراجعة في `protocoltraining-home-draft.pdf` (جنب هذا الملف)، يُصدَّر بـ Chromium: افتح `docs/` بخادم محلي واطبع `book-home/index.html` بحجم A4 مع الخلفيات.
 
+- `check_durations.py`: يطبع مدة كل مقطع ويعلّم الطويل (فوق 45 ثانية). شغّله على جهازك (يحتاج yt-dlp)، لأن يوتيوب يمنع قراءة المدة من السيرفر: `python3 docs/book-home/check_durations.py`.
+
 ملاحظات:
 
 - مكان صورة التمرين في بطاقة النسخة يحمل رمز QR المقطع، لأن ما عندنا صور تمارين مرخّصة للكتاب الجديد.
