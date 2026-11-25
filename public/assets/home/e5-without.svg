@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 150" role="img" aria-label="ضغط البايك: وضع البداية (1) ووضع النهاية (2)"><title>ضغط البايك</title>
+<defs><marker id="ah" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 Z" fill="#f0dba7"/></marker></defs>
+<rect x=".5" y=".5" width="199" height="149" rx="8" fill="#12120f" stroke="#b6955040"/>
+<path d="M10.0 136.0 L190.0 136.0" fill="none" stroke="#b69550" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.55"/>
+<path d="M100.0 24 V128" stroke="#b6955040" stroke-dasharray="3 4"/>
+<path d="M174.6 97.6 L172.6 116.6 L170.7 134.4" fill="none" stroke="#8f7a4f" stroke-width="4.936402564428925" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M142.7 72.7 L127.1 96.0 L111.4 119.2 L120.2 120.8" fill="none" stroke="#8f7a4f" stroke-width="4.936402564428925" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M145.7 74.3 L177.5 99.2" fill="none" stroke="#e3c584" stroke-width="5.536402564428925" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M145.7 74.3 L130.0 97.6 L114.3 120.8 L123.1 122.4" fill="none" stroke="#e3c584" stroke-width="4.936402564428925" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M177.5 99.2 L175.5 118.1 L173.6 136.0" fill="none" stroke="#e3c584" stroke-width="4.936402564428925" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="185.7" cy="108.3" r="7.3" fill="#f0dba7" stroke="#12120f" stroke-width="1.6"/>
+<path d="M74.6 102.7 L62.3 117.4 L67.9 134.4" fill="none" stroke="#8f7a4f" stroke-width="4.936402564428925" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M42.7 77.9 L27.1 101.1 L11.4 124.4 L20.2 125.9" fill="none" stroke="#8f7a4f" stroke-width="4.936402564428925" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M45.7 79.5 L77.5 104.3" fill="none" stroke="#e3c584" stroke-width="5.536402564428925" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M45.7 79.5 L30.0 102.7 L14.3 126.0 L23.1 127.5" fill="none" stroke="#e3c584" stroke-width="4.936402564428925" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M77.5 104.3 L65.2 118.9 L70.8 136.0" fill="none" stroke="#e3c584" stroke-width="4.936402564428925" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="85.7" cy="113.4" r="7.3" fill="#f0dba7" stroke="#12120f" stroke-width="1.6"/>
+<path d="M95.7 107.4 Q95.7 114.4 95.7 121.4" fill="none" stroke="#f0dba7" stroke-width="2" stroke-linecap="round" marker-end="url(#ah)"/>
+<circle cx="188" cy="13" r="7" fill="none" stroke="#b69550" stroke-width="1.2"/><text x="188" y="16.6" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#f0dba7">1</text>
+<circle cx="88" cy="13" r="7" fill="none" stroke="#b69550" stroke-width="1.2"/><text x="88" y="16.6" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#f0dba7">2</text>
+</svg>

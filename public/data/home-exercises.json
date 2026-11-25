@@ -1,0 +1,330 @@
+{
+ "note": "مولّد من docs/book-home (كتاب نسخة البيت). جرعات مقترحة وليست وصفة طبية.",
+ "programs": {
+  "3": [
+   {
+    "name": "الجسم كامل (أ)",
+    "exercises": [
+     "e1",
+     "e4",
+     "e6",
+     "e11"
+    ]
+   },
+   {
+    "name": "الجسم كامل (ب)",
+    "exercises": [
+     "e2",
+     "e5",
+     "e9",
+     "e7"
+    ]
+   },
+   {
+    "name": "الجسم كامل (ج)",
+    "exercises": [
+     "e3",
+     "e6",
+     "e8",
+     "e10",
+     "e11"
+    ]
+   }
+  ],
+  "4": [
+   {
+    "name": "علوي (أ)",
+    "exercises": [
+     "e4",
+     "e6",
+     "e5",
+     "e8"
+    ]
+   },
+   {
+    "name": "سفلي (أ)",
+    "exercises": [
+     "e1",
+     "e2",
+     "e10",
+     "e11"
+    ]
+   },
+   {
+    "name": "علوي (ب)",
+    "exercises": [
+     "e5",
+     "e6",
+     "e4",
+     "e7"
+    ]
+   },
+   {
+    "name": "سفلي (ب)",
+    "exercises": [
+     "e3",
+     "e9",
+     "e10",
+     "e11"
+    ]
+   }
+  ],
+  "5": [
+   {
+    "name": "دفع",
+    "exercises": [
+     "e4",
+     "e5",
+     "e8"
+    ]
+   },
+   {
+    "name": "سحب",
+    "exercises": [
+     "e6",
+     "e7",
+     "e11"
+    ]
+   },
+   {
+    "name": "أرجل",
+    "exercises": [
+     "e1",
+     "e2",
+     "e3",
+     "e10"
+    ]
+   },
+   {
+    "name": "علوي",
+    "exercises": [
+     "e4",
+     "e6",
+     "e5",
+     "e7",
+     "e8"
+    ]
+   },
+   {
+    "name": "سفلي وبطن",
+    "exercises": [
+     "e9",
+     "e2",
+     "e10",
+     "e11"
+    ]
+   }
+  ]
+ },
+ "exercises": {
+  "e1": {
+   "name": "السكوات",
+   "title": "الفخذ الأمامي والأرداف",
+   "sets": "3",
+   "reps": "8–12",
+   "rest": "60–90",
+   "with": {
+    "label": "كأس",
+    "cue": "امسك الدمبل عند صدرك وانزل ببطء وظهرك مستقيم.",
+    "video": "https://www.youtube.com/shorts/X5FHhI0ZQdE",
+    "image": "/assets/home/e1-with.svg"
+   },
+   "without": {
+    "label": "وزن الجسم",
+    "cue": "ادفع الورك للخلف وانزل بتحكم، وركبتاك باتجاه أصابع قدميك.",
+    "video": "https://www.youtube.com/shorts/Qgpxx1Bxmgs",
+    "image": "/assets/home/e1-without.svg"
+   }
+  },
+  "e2": {
+   "name": "الرفعة الرومانية",
+   "title": "الفخذ الخلفي والأرداف",
+   "sets": "3",
+   "reps": "8–12",
+   "rest": "60–90",
+   "with": {
+    "label": "دمبلين",
+    "cue": "الدمبلان قريبان من رجليك وظهرك مستقيم وركبتاك مثنيتان قليلًا.",
+    "video": "https://www.youtube.com/shorts/uYIlkIHksyk",
+    "image": "/assets/home/e2-with.svg"
+   },
+   "without": {
+    "label": "ساق واحدة",
+    "cue": "ثبّت على رجل واحدة وأمِل الجذع للأمام وارفع الرجل الثانية للخلف.",
+    "video": "https://www.youtube.com/watch?v=DPFnfAUCvTA",
+    "image": "/assets/home/e2-without.svg"
+   }
+  },
+  "e3": {
+   "name": "اللانج للخلف",
+   "title": "الفخذ الأمامي والأرداف",
+   "sets": "3",
+   "reps": "8–10 لكل رجل",
+   "rest": "60–90",
+   "with": {
+    "label": "دمبلين",
+    "cue": "اخطُ للخلف وانزل بتحكم والجذع مستقيم.",
+    "video": "https://www.youtube.com/shorts/zXlhSn6sFu4",
+    "image": "/assets/home/e3-with.svg"
+   },
+   "without": {
+    "label": "وزن الجسم",
+    "cue": "اخطُ للخلف وانزل بتحكم ويداك على وركيك.",
+    "video": "https://www.youtube.com/watch?v=uHKgeIDSCYE",
+    "image": "/assets/home/e3-without.svg"
+   }
+  },
+  "e4": {
+   "name": "ضغط الصدر",
+   "title": "الصدر",
+   "sets": "3",
+   "reps": "8–12",
+   "rest": "60–90",
+   "with": {
+    "label": "على الأرض",
+    "cue": "انزل لين تلمس ذراعاك الأرض، ومرفقاك قريبان من جسمك.",
+    "video": "https://www.youtube.com/watch?v=Cl2qZCjwvso",
+    "image": "/assets/home/e4-with.svg"
+   },
+   "without": {
+    "label": "وزن الجسم",
+    "cue": "جسمك خط مستقيم من الرأس للكعبين.",
+    "video": "https://www.youtube.com/shorts/A-2re9hs990",
+    "image": "/assets/home/e4-without.svg"
+   }
+  },
+  "e5": {
+   "name": "ضغط الكتف",
+   "title": "الكتف",
+   "sets": "3",
+   "reps": "6–10",
+   "rest": "90",
+   "with": {
+    "label": "جالس",
+    "cue": "اضغط الدمبلين فوق رأسك بدون ما تقوّس ظهرك.",
+    "video": "https://www.youtube.com/shorts/k6tzKisR3NY",
+    "image": "/assets/home/e5-with.svg"
+   },
+   "without": {
+    "label": "بايك",
+    "cue": "ارفع الورك لأعلى وانزل برأسك بين يديك ثم ادفع.",
+    "video": "https://www.youtube.com/shorts/shEnAXgc9y4",
+    "image": "/assets/home/e5-without.svg"
+   }
+  },
+  "e6": {
+   "name": "سحب الظهر",
+   "title": "الظهر",
+   "sets": "3",
+   "reps": "8–12",
+   "rest": "60–90",
+   "with": {
+    "label": "بيد واحدة",
+    "cue": "اسحب الدمبل نحو جنبك وجسمك ثابت وظهرك مستقيم.",
+    "video": "https://www.youtube.com/shorts/be61U5pUeKw",
+    "image": "/assets/home/e6-with.svg"
+   },
+   "without": {
+    "label": "تحت الطاولة",
+    "cue": "تأكد إن الطاولة ثقيلة وثابتة قبل ما تسحب صدرك نحو حافتها.",
+    "video": "https://www.youtube.com/watch?v=_HI1Fna7WXU",
+    "image": "/assets/home/e6-without.svg"
+   }
+  },
+  "e7": {
+   "name": "ثني البايسبس",
+   "title": "البايسبس",
+   "sets": "3",
+   "reps": "10–15",
+   "rest": "60",
+   "with": {
+    "label": "دمبلين",
+    "cue": "ثبّت مرفقيك بجنبك وارفع بدون تأرجح.",
+    "video": "https://www.youtube.com/shorts/NdJ_y2BCNkI",
+    "image": "/assets/home/e7-with.svg"
+   },
+   "without": {
+    "label": "حقيبة ظهر",
+    "cue": "عبّ الحقيبة بكتب ثقيلة وارفعها نحو صدرك بتحكم.",
+    "video": "https://www.youtube.com/shorts/EXnqsY5muq0",
+    "image": "/assets/home/e7-without.svg"
+   }
+  },
+  "e8": {
+   "name": "الترايسبس",
+   "title": "الترايسبس",
+   "sets": "3",
+   "reps": "8–12",
+   "rest": "60–90",
+   "with": {
+    "label": "فوق الرأس",
+    "cue": "ثبّت مرفقيك قرب رأسك وانزل الدمبل خلف رأسك بتحكم.",
+    "video": "https://www.youtube.com/watch?v=xbNm9fRoUTw",
+    "image": "/assets/home/e8-with.svg"
+   },
+   "without": {
+    "label": "ألماسة",
+    "cue": "يداك قريبتان تحت صدرك، وانزل بتحكم.",
+    "video": "https://www.youtube.com/shorts/-fTwCfbBMHc",
+    "image": "/assets/home/e8-without.svg"
+   }
+  },
+  "e9": {
+   "name": "جسر الأرداف",
+   "title": "الأرداف",
+   "sets": "3",
+   "reps": "10–15",
+   "rest": "60",
+   "with": {
+    "label": "دمبل",
+    "cue": "ضع الدمبل على وركك وارفعه حتى يصير جسمك خطًا مستقيمًا من الكتف للركبة.",
+    "video": "https://www.youtube.com/watch?v=tVA5iqaQ4No",
+    "image": "/assets/home/e9-with.svg"
+   },
+   "without": {
+    "label": "وزن الجسم",
+    "cue": "ارفع الورك واضغط الأرداف فوق، وانزل ببطء.",
+    "video": "https://www.youtube.com/watch?v=7ew8uO0pLgk",
+    "image": "/assets/home/e9-without.svg"
+   }
+  },
+  "e10": {
+   "name": "رفع السمانة",
+   "title": "السمانة",
+   "sets": "3",
+   "reps": "12–20",
+   "rest": "45–60",
+   "with": {
+    "label": "واقفًا",
+    "cue": "ارفع كعبيك لأعلى ما تقدر وانزل ببطء.",
+    "video": "https://www.youtube.com/watch?v=hPA98_r-6e4",
+    "image": "/assets/home/e10-with.svg"
+   },
+   "without": {
+    "label": "ساق واحدة",
+    "cue": "اثبت على رجل واحدة.",
+    "video": "https://www.youtube.com/watch?v=0YHS_USj2uE",
+    "image": "/assets/home/e10-without.svg"
+   }
+  },
+  "e11": {
+   "name": "البطن",
+   "title": "البطن",
+   "sets": "3",
+   "reps": "8–12 لكل جهة",
+   "rest": "45–60",
+   "with": {
+    "label": "التفاف روسي",
+    "cue": "أدر الجذع من جهة لجهة والدمبل قريب منك وظهرك مستقيم.",
+    "video": "https://www.youtube.com/watch?v=IWFZoLTKXwo",
+    "image": "/assets/home/e11-with.svg"
+   },
+   "without": {
+    "label": "حشرة ميتة",
+    "cue": "ظهرك ملتصق بالأرض، ومدّ ذراعًا ورجلًا من الجهتين المتعاكستين ببطء.",
+    "video": "https://www.youtube.com/shorts/twDnCxAx9LM",
+    "image": "/assets/home/e11-without.svg"
+   }
+  }
+ }
+}
