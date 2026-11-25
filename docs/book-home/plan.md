@@ -1,98 +1,92 @@
 # بروتوكول التحول: نسخة البيت: جدول المحتوى (المسودة الأولى)
 
-هذا جدول المحتوى الأول لكتاب «نسخة البيت» للرجال حسب القرار d29، وهو للمراجعة قبل ما يكمل الكتاب. ما فيه وعود صحية ولا وعود بنزول وزن ولا صور قبل وبعد. الجرعات (المجموعات والتكرار والراحة) مقترحة وتحتاج مراجعة مدرب مؤهل قبل الاعتماد، مثل الكتاب الأول.
+هذا جدول المحتوى لكتاب «نسخة البيت» للرجال حسب القرار d29. ما فيه وعود صحية ولا وعود بنزول وزن ولا صور قبل وبعد. الجرعات (المجموعات والتكرار والراحة) مقترحة وتحتاج مراجعة مدرب مؤهل قبل الاعتماد، مثل الكتاب الأول. الملف يتولّد من `scripts/build-book-home.py` ومن `videos.json`.
 
 ## الخلاصة
 
-- 11 تمرينًا، لكل تمرين نسختان: نسخة بدمبل ونسخة بدون دمبل، يعني 22 مقطع يوتيوب.
+- 11 تمرينًا، لكل تمرين نسختان: بدمبل وبدون دمبل، يعني 22 مقطع يوتيوب.
 - 3 برامج: 3 أيام (جسم كامل)، و4 أيام (علوي وسفلي)، و5 أيام (دفع وسحب وأرجل وعلوي وسفلي).
-- كل رابط تأكدت إنه يفتح وعام وعنوانه يطابق التمرين، وشفت ثلاثة إطارات من كل مقطع للتأكد من التمرين ومن عدم وجود امرأة.
-- **ما أقدر أتحقق منه من السيرفر:** الموسيقى والصوت، ولا أقدر أشوف المقطع كامل (يوتيوب يمنع التنزيل من السيرفر). لذلك شرط «بدون موسيقى» يحتاج منك سماع سريع لكل مقطع.
-- 5 مقاطع علّمتها «تحتاج تأكيد»، لأن الإطارات الثلاثة ما تعرض الحركة نفسها (مقدمة الشرح فقط). التفاصيل في آخر الملف.
+- كل رابط يفتح وعام وعنوانه يطابق التمرين، وشفت ثلاثة إطارات من كل مقطع للتأكد من التمرين ومن عدم وجود امرأة.
+- 12 مقطع من نوع Shorts (غالبًا تحت دقيقة) و10 مقطع عادي من مكتبات تمارين. **المدة غير مؤكدة لكل المقاطع** (يوتيوب يمنع قراءتها من السيرفر)، وكتبت «غير مؤكدة» بدل رقم من عندي.
+- **ما تم فحصه:** الموسيقى والصوت، ولا أقدر أشوف المقطع كامل. لذلك شرط «بدون موسيقى» والمدة تحتاج سماعًا ومعاينة سريعة منك أو من جهازك (سكربت `audit.py` في مهارة book-video-audit يقرأ المدة على جهازك).
 
 ## التمارين ونسختاها
 
 | # | التمرين | العضلات | نسخة بالدمبل | نسخة بدون دمبل | الجرعة المقترحة |
 |---|---|---|---|---|---|
-| 1 | سكوات (القرفصاء) (Squat) | الفخذ الأمامي والأرداف | [سكوات الكأس بدمبل](https://www.youtube.com/watch?v=2LnkzQ7paAc) | [سكوات بوزن الجسم](https://www.youtube.com/watch?v=eWatHIujxPM) | 3 مجموعات × 8 إلى 12 تكرار، راحة 60 إلى 90 ثانية |
-| 2 | هنج الورك (الرفعة الرومانية) (Hip Hinge (Romanian Deadlift)) | الفخذ الخلفي والأرداف وأسفل الظهر | [رفعة رومانية بدمبلين](https://www.youtube.com/watch?v=zIJ2E001FgI) | [رفعة رومانية بساق واحدة بوزن الجسم](https://www.youtube.com/watch?v=gz9l8UA_KXs) | 3 مجموعات × 8 إلى 12 تكرار، راحة 60 إلى 90 ثانية |
-| 3 | لانج للخلف (Reverse Lunge) | الفخذ الأمامي والأرداف | [لانج للخلف بدمبلين](https://www.youtube.com/watch?v=MpfeGnBFEo8) | [لانج للخلف بوزن الجسم](https://www.youtube.com/watch?v=uHKgeIDSCYE) | 3 مجموعات × 8 إلى 10 تكرارات لكل رجل، راحة 60 إلى 90 ثانية |
-| 4 | ضغط الصدر (Chest Press) | الصدر والكتف الأمامي والترايسبس | [ضغط الصدر على الأرض بدمبلين](https://www.youtube.com/watch?v=_TbO_WWcdEY) | [ضغط (بوش أب)](https://www.youtube.com/watch?v=WDIpL0pjun0) | 3 مجموعات × 8 إلى 12 تكرار، راحة 60 إلى 90 ثانية |
-| 5 | الكتف (Shoulder Press) | الكتف والترايسبس | [ضغط الكتف بدمبلين جالسًا](https://www.youtube.com/watch?v=lfb3ffbrd4Q) | [ضغط الكتف بوضع الهرم (بايك بوش أب)](https://www.youtube.com/watch?v=pHR5yG6xBps) | 3 مجموعات × 6 إلى 10 تكرارات، راحة 90 ثانية |
-| 6 | الظهر (Back Row) | عضلات الظهر والبايسبس | [سحب بدمبل بذراع واحدة](https://www.youtube.com/watch?v=epSR-ma7BsY) | [سحب تحت الطاولة](https://www.youtube.com/watch?v=_HI1Fna7WXU) | 3 مجموعات × 8 إلى 12 تكرار، راحة 60 إلى 90 ثانية |
-| 7 | البايسبس (Biceps Curl) | البايسبس | [تمرين البايسبس بدمبلين](https://www.youtube.com/watch?v=kkCMf-OYPr0) | [تمرين البايسبس بحقيبة ظهر](https://www.youtube.com/watch?v=U2xlilyQ_Ao) | 3 مجموعات × 10 إلى 15 تكرار، راحة 60 ثانية |
-| 8 | الترايسبس (Triceps) | الترايسبس | [تمدّد الترايسبس فوق الرأس بدمبل](https://www.youtube.com/watch?v=xbNm9fRoUTw) | [ضغط الألماسة (دايموند بوش أب)](https://www.youtube.com/watch?v=SbgZkN_8jo8) | 3 مجموعات × 8 إلى 12 تكرار، راحة 60 إلى 90 ثانية |
-| 9 | الأرداف (Glute Bridge) | الأرداف والفخذ الخلفي | [جسر الأرداف بدمبل](https://www.youtube.com/watch?v=V-Pk0ZfoszU) | [جسر الأرداف بوزن الجسم](https://www.youtube.com/watch?v=7ew8uO0pLgk) | 3 مجموعات × 10 إلى 15 تكرار، راحة 60 ثانية |
-| 10 | السمانة (Calf Raise) | عضلات السمانة | [رفع الكعبين واقفًا بدمبلين](https://www.youtube.com/watch?v=hPA98_r-6e4) | [رفع الكعب بساق واحدة بوزن الجسم](https://www.youtube.com/watch?v=qPd73snQfUs) | 3 مجموعات × 12 إلى 20 تكرار، راحة 45 إلى 60 ثانية |
-| 11 | البطن (Core) | عضلات البطن والجذع | [التفاف روسي بدمبل](https://www.youtube.com/watch?v=IWFZoLTKXwo) | [الحشرة الميتة (ديد باج)](https://www.youtube.com/watch?v=Sp6BenumPV4) | 3 مجموعات × 8 إلى 12 تكرار لكل جهة، راحة 45 إلى 60 ثانية |
-
-ملاحظة: بعض التمارين اللي بدون دمبل أصعب على المبتدئ (مثل ضغط البايك وضغط الألماسة والرفعة الرومانية بساق واحدة)، فنكتب في صفحة التمرين طريقة أسهل للبداية.
+| 1 | السكوات (Squat) | الفخذ الأمامي والأرداف | [سكوات الكأس بدمبل](https://www.youtube.com/shorts/X5FHhI0ZQdE) | [سكوات بوزن الجسم](https://www.youtube.com/shorts/Qgpxx1Bxmgs) | 3 مجموعات × 8–12 تكرار، راحة 60–90 ثانية |
+| 2 | هنج الورك (Hip Hinge) | الفخذ الخلفي والأرداف | [رفعة رومانية بدمبلين](https://www.youtube.com/shorts/uYIlkIHksyk) | [رفعة رومانية بساق واحدة](https://www.youtube.com/watch?v=DPFnfAUCvTA) | 3 مجموعات × 8–12 تكرار، راحة 60–90 ثانية |
+| 3 | اللانج للخلف (Reverse Lunge) | الفخذ الأمامي والأرداف | [لانج للخلف بدمبلين](https://www.youtube.com/shorts/zXlhSn6sFu4) | [لانج للخلف بوزن الجسم](https://www.youtube.com/watch?v=uHKgeIDSCYE) | 3 مجموعات × 8–10 لكل رجل تكرار، راحة 60–90 ثانية |
+| 4 | ضغط الصدر (Chest Press) | الصدر والترايسبس | [ضغط دمبلين على الأرض](https://www.youtube.com/watch?v=Cl2qZCjwvso) | [تمرين الضغط](https://www.youtube.com/shorts/A-2re9hs990) | 3 مجموعات × 8–12 تكرار، راحة 60–90 ثانية |
+| 5 | الكتف (Shoulder Press) | الكتف والترايسبس | [ضغط الكتف بدمبلين](https://www.youtube.com/shorts/k6tzKisR3NY) | [ضغط البايك](https://www.youtube.com/shorts/shEnAXgc9y4) | 3 مجموعات × 6–10 تكرار، راحة 90 ثانية |
+| 6 | الظهر (Back Row) | عضلات الظهر والبايسبس | [سحب دمبل بيد واحدة](https://www.youtube.com/shorts/be61U5pUeKw) | [سحب تحت الطاولة](https://www.youtube.com/watch?v=_HI1Fna7WXU) | 3 مجموعات × 8–12 تكرار، راحة 60–90 ثانية |
+| 7 | البايسبس (Biceps Curl) | البايسبس | [رفع الدمبلين للبايسبس](https://www.youtube.com/shorts/NdJ_y2BCNkI) | [رفع حقيبة الظهر للبايسبس](https://www.youtube.com/shorts/EXnqsY5muq0) | 3 مجموعات × 10–15 تكرار، راحة 60 ثانية |
+| 8 | الترايسبس (Triceps) | الترايسبس | [تمدد الترايسبس فوق الرأس](https://www.youtube.com/watch?v=xbNm9fRoUTw) | [ضغط الألماسة](https://www.youtube.com/shorts/-fTwCfbBMHc) | 3 مجموعات × 8–12 تكرار، راحة 60–90 ثانية |
+| 9 | الأرداف (Glute Bridge) | الأرداف والفخذ الخلفي | [جسر الأرداف بدمبل](https://www.youtube.com/watch?v=tVA5iqaQ4No) | [جسر الأرداف بوزن الجسم](https://www.youtube.com/watch?v=7ew8uO0pLgk) | 3 مجموعات × 10–15 تكرار، راحة 60 ثانية |
+| 10 | السمانة (Calf Raise) | عضلات السمانة | [رفع الكعبين واقفًا بدمبلين](https://www.youtube.com/watch?v=hPA98_r-6e4) | [رفع الكعب بساق واحدة](https://www.youtube.com/watch?v=0YHS_USj2uE) | 3 مجموعات × 12–20 تكرار، راحة 45–60 ثانية |
+| 11 | البطن (Core) | عضلات البطن والجذع | [التفاف روسي بدمبل](https://www.youtube.com/watch?v=IWFZoLTKXwo) | [الحشرة الميتة](https://www.youtube.com/shorts/twDnCxAx9LM) | 3 مجموعات × 8–12 لكل جهة تكرار، راحة 45–60 ثانية |
 
 ## برنامج 3 أيام
 
-**اليوم 1**: سكوات (القرفصاء)، ضغط الصدر، الظهر، البطن
+**اليوم الأول: الجسم كامل (أ)**: السكوات، ضغط الصدر، الظهر، البطن
 
-**اليوم 2**: هنج الورك (الرفعة الرومانية)، الكتف، الأرداف، البايسبس
+**اليوم الثاني: الجسم كامل (ب)**: هنج الورك، الكتف، الأرداف، البايسبس
 
-**اليوم 3**: لانج للخلف، الظهر، الترايسبس، السمانة، البطن
+**اليوم الثالث: الجسم كامل (ج)**: اللانج للخلف، الظهر، الترايسبس، السمانة، البطن
 
 ## برنامج 4 أيام
 
-**اليوم 1: علوي أ**: ضغط الصدر، الظهر، الكتف، الترايسبس
+**اليوم الأول: علوي (أ)**: ضغط الصدر، الظهر، الكتف، الترايسبس
 
-**اليوم 2: سفلي أ**: سكوات (القرفصاء)، هنج الورك (الرفعة الرومانية)، السمانة، البطن
+**اليوم الثاني: سفلي (أ)**: السكوات، هنج الورك، السمانة، البطن
 
-**اليوم 3: علوي ب**: الكتف، الظهر، ضغط الصدر، البايسبس
+**اليوم الثالث: علوي (ب)**: الكتف، الظهر، ضغط الصدر، البايسبس
 
-**اليوم 4: سفلي ب**: لانج للخلف، الأرداف، السمانة، البطن
+**اليوم الرابع: سفلي (ب)**: اللانج للخلف، الأرداف، السمانة، البطن
 
 ## برنامج 5 أيام
 
-**اليوم 1: دفع**: ضغط الصدر، الكتف، الترايسبس
+**اليوم الأول: دفع**: ضغط الصدر، الكتف، الترايسبس
 
-**اليوم 2: سحب**: الظهر، البايسبس، البطن
+**اليوم الثاني: سحب**: الظهر، البايسبس، البطن
 
-**اليوم 3: أرجل**: سكوات (القرفصاء)، هنج الورك (الرفعة الرومانية)، لانج للخلف، السمانة
+**اليوم الثالث: أرجل**: السكوات، هنج الورك، اللانج للخلف، السمانة
 
-**اليوم 4: علوي**: ضغط الصدر، الظهر، الكتف، البايسبس، الترايسبس
+**اليوم الرابع: علوي**: ضغط الصدر، الظهر، الكتف، البايسبس، الترايسبس
 
-**اليوم 5: سفلي وبطن**: الأرداف، هنج الورك (الرفعة الرومانية)، السمانة، البطن
+**اليوم الخامس: سفلي وبطن**: الأرداف، هنج الورك، السمانة، البطن
 
 ## تفاصيل فحص المقاطع
 
-طريقة الفحص: وجود الفيديو وأنه عام (oEmbed)، وعنوانه، وثلاثة إطارات معاينة. الموسيقى والصوت ما انفحصوا.
+طريقة الفحص: وجود الفيديو وأنه عام (oEmbed)، وعنوانه، وثلاثة إطارات معاينة. الموسيقى والصوت والمدة ما انفحصت.
 
-| التمرين | النسخة | القناة | العنوان في يوتيوب | وش تظهر الإطارات الثلاثة |
-|---|---|---|---|---|
-| سكوات (القرفصاء) | بدمبل | IronmasterPro | Dumbbell Goblet Squat Tutorial | الإطارات تظهر رجلًا يؤدي السكوات بدمبل على صدره، وعليها كتابة «DB GOBLET SQUAT» |
-| سكوات (القرفصاء) | بدون دمبل | Over The Hill Athlete | How to Do a Bodyweight Squat (Perfect Form + Common Mistakes) | الإطارات تظهر رجلًا يؤدي سكوات بوزن الجسم داخل غرفة |
-| هنج الورك (الرفعة الرومانية) | بدمبل | Mike | J2FIT Strength & Conditioning | How To - Dumbbell Romanian Deadlifts (RDLs) | الإطارات تظهر رجلًا يؤدي الرفعة الرومانية بدمبلين، وعليها كتابة «ROMANIAN DEADLIFT» |
-| هنج الورك (الرفعة الرومانية) | بدون دمبل | Buff Dudes Workouts | How to Perform Single Leg Romanian Deadlifts | Bodyweight Exercise Tutorial | العنوان يقول وزن الجسم، والإطارات تظهر رجلًا يتكلم في الخارج ولا تعرض الحركة نفسها، فيحتاج تأكيدًا |
-| لانج للخلف | بدمبل | IronmasterPro | Dumbbell Reverse Lunge Tutorial | الإطارات تظهر رجلًا يؤدي اللانج للخلف بدمبلين، وعليها كتابة «DB REVERSE LUNGE» |
-| لانج للخلف | بدون دمبل | Exercise Tutorial Pro | Bodyweight Step Back /Reverse Lunge | الإطارات تظهر رجلًا يخطو للخلف ويداه على وركيه بدون أوزان |
-| ضغط الصدر | بدمبل | TurnFit - Vancouver Personal Trainers | How to do a Dumbbell Floor Press | الإطارات تظهر رجلين مع مدرب، أحدهما مستلقٍ على الأرض يضغط دمبلين |
-| ضغط الصدر | بدون دمبل | National Academy of Sports Medicine (NASM) | How to do a Push-Up | Proper Form & Technique | NASM | الإطارات تظهر رجلًا يؤدي الضغط على خلفية بيضاء |
-| الكتف | بدمبل | Buff Dudes Workouts | Seated Dumbbell Press | Shoulders | How-To Exercise Tutorial | الإطارات تظهر رجلًا ملتحيًا في صالة، يرفع ذراعيه ولا تعرض الضغط بوضوح، فيحتاج تأكيدًا |
-| الكتف | بدون دمبل | Gymless Fitness | Pike Push Up Tutorial For Beginners (With Progressions) | الإطارات تظهر رجلًا بدون قميص وعليها كتابة «PIKE PUSHUP» |
-| الظهر | بدمبل | Chris Gates Fitness | How to Do A One-Arm Dumbbell Row | Exercise Tutorial | الإطارات تظهر رجلًا جالسًا على مقعد في مقدمة الشرح، ولا تعرض السحب نفسه، فيحتاج تأكيدًا |
-| الظهر | بدون دمبل | Michael Romeo | Fit-WRX Table Row/Inverted Row | الإطارات تظهر رجلًا مستلقيًا تحت طاولة يسحب جسمه إلى الأعلى |
-| البايسبس | بدمبل | Travis Tarrant | Exercise Tutorial: DB Biceps Curl (Rotation) | الإطارات تظهر رجلًا واقفًا يمسك دمبلين في صالة |
-| البايسبس | بدون دمبل | Kourosh Foroughi Fit | BackPack Biceps💪 (HOME ARM WORKOUT) / Work(out) from home | العنوان يقول حقيبة ظهر، والإطارات تظهر رجلًا يتكلم داخل بيت ولا تعرض الحركة نفسها، فيحتاج تأكيدًا |
-| الترايسبس | بدمبل | Catalyst Athletics | Dumbbell Overhead Tricep Extension | Olympic Weightlifting Exercise Library | الإطارات تظهر رجلًا يرفع دمبلًا فوق رأسه في صالة |
-| الترايسبس | بدون دمبل | Andy Oliver | How To Do A Diamond Push-Up For The Triceps | الإطارات تظهر رجلًا يؤدي ضغط الألماسة على الأرض |
-| الأرداف | بدمبل | Chris Gates Fitness | How to Do a Dumbbell Glute Bridge | الإطارات تظهر رجلًا جالسًا ويضع دمبلًا على وركيه، ولا تعرض الجسر نفسه، فيحتاج تأكيدًا |
-| الأرداف | بدون دمبل | Lean Physique Lab | 🔥 How to Do Bodyweight Glute Bridges the Correct Way | Perfect Technique Tutorial | الإطارات تظهر رجلًا مستلقيًا يؤدي الجسر بدون أوزان |
-| السمانة | بدمبل | Horton Barbell | Standing DB Calf Raises (Exercise Library) | الإطارات تظهر رجلًا واقفًا بدمبلين أمام جدار يرفع كعبيه |
-| السمانة | بدون دمبل | Hospital for Special Surgery | Single-Leg Calf Raise (HSS) | الإطارات تظهر رجلًا واقفًا على ساق واحدة بجانب جدار يرفع كعبه |
-| البطن | بدمبل | Showtime Strength and Performance | Dumbbell Russian Twist | الإطارات تظهر رجلًا جالسًا على الأرض يدير جذعه وبيده دمبل |
-| البطن | بدون دمبل | Signum Fitness & Nutrition | The Deadbug | A Tutorial | الإطارات تظهر رجلًا مستلقيًا يؤدي الحشرة الميتة |
+| التمرين | النسخة | القناة | العنوان في يوتيوب | النوع | المدة | وش تظهر الإطارات الثلاثة |
+|---|---|---|---|---|---|---|
+| السكوات | بدمبل | DEYOFIT | How to Perform Goblet Squats | Shorts | غير مؤكدة | الإطارات تظهر رجلًا في بيت يحمل دمبلًا عند صدره ويؤدي السكوات |
+| السكوات | بدون دمبل | KevTheTrainer | BODYWEIGHT SQUAT TUTORIAL 🦵🏼 / Learn this foundational exercise that builds your quads and glutes! | Shorts | غير مؤكدة | الإطارات تظهر رجلًا في نادٍ يشرح السكوات بوزن الجسم، وعليها كتابة على الشاشة |
+| هنج الورك | بدمبل | Leo Alves | How to: Dumbbell Romanian Deadlift | Hip-Hinge | Dumbbells | Glutes | Back | Hamstrings | Pull | Shorts | غير مؤكدة | الإطارات تظهر رجلًا ينحني بدمبلين في الرفعة الرومانية |
+| هنج الورك | بدون دمبل | Horton Barbell | Bodyweight Single Leg RDL (Exercise Library) | عادي | غير مؤكدة | الإطارات تظهر رجلًا واقفًا على ساق واحدة ويميل بجذعه للأمام ويرفع الساق الثانية |
+| اللانج للخلف | بدمبل | Leo Alves | How to: Reverse Lunge | Lunge | Dumbbell | Glutes | Quadriceps | Legs | Lower | Shorts | غير مؤكدة | الإطارات تظهر رجلًا يؤدي اللانج للخلف بدمبلين |
+| اللانج للخلف | بدون دمبل | Exercise Tutorial Pro | Bodyweight Step Back /Reverse Lunge | عادي | غير مؤكدة | الإطارات تظهر رجلًا يخطو للخلف ويداه على وركيه بدون أوزان |
+| ضغط الصدر | بدمبل | Danny Nichols Fitness | How To Do A Dumbbell Floor Press | عادي | غير مؤكدة | الإطارات تظهر رجلًا يجلس ثم يستلقي على الأرض ويضغط دمبلين، وعليها عنوان «Dumbbell Floor Press» |
+| ضغط الصدر | بدون دمبل | Nick Tumminello - Trainer of Trainers | How to Do a Perfect Push-Up: Tutorial | Shorts | غير مؤكدة | الإطارات تظهر رجلًا يؤدي الضغط على حصيرة، وعليها عنوان «How To Do A Perfect Push-Up» |
+| الكتف | بدمبل | Andrew Kwong (DeltaBolic) | The PERFECT Dumbbell Shoulder Press (DO THIS!) | Shorts | غير مؤكدة | الإطارات تظهر رجلًا جالسًا على مقعد مائل يضغط دمبلين فوق رأسه، وعليها زاوية المقعد 70 درجة |
+| الكتف | بدون دمبل | Calixpert | How To Do Pike Push-Ups | Correct Form | Shorts | غير مؤكدة | الإطارات تظهر رجلًا يؤدي ضغط البايك، وعليها عنوان «How To Do Pike Push-Ups» |
+| الظهر | بدمبل | OcraMed Health | Back Workout - One Arm Dumbbell Row | Shorts | غير مؤكدة | الإطارات تظهر رجلًا منحنيًا على مقعد ويسحب دمبلًا بيد واحدة |
+| الظهر | بدون دمبل | Michael Romeo | Fit-WRX Table Row/Inverted Row | عادي | غير مؤكدة | الإطارات تظهر رجلًا مستلقيًا تحت طاولة يسحب جسمه إلى الأعلى |
+| البايسبس | بدمبل | Nuffield Health | How to do bicep curls with dumbbells | Shorts | غير مؤكدة | الإطارات تظهر رجلًا واقفًا في صالة يرفع الدمبلين للبايسبس |
+| البايسبس | بدون دمبل | wearecult | Breaking Down: Backpack Biceps Curl | @cult.official #shorts | Shorts | غير مؤكدة | الإطارات تظهر رجلًا يحمل حقيبة ظهر مع رسم يوضح حركة الرفع، وعليها عنوان «Backpack Biceps Curl»، والحركة تظهر بالرسم أكثر من التصوير |
+| الترايسبس | بدمبل | Catalyst Athletics | Dumbbell Overhead Tricep Extension | Olympic Weightlifting Exercise Library | عادي | غير مؤكدة | الإطارات تظهر رجلًا يرفع دمبلًا فوق رأسه في صالة |
+| الترايسبس | بدون دمبل | Calixpert | How To Do Diamond Push-Ups | Correct Form | Shorts | غير مؤكدة | الإطارات تظهر رجلًا يؤدي ضغط الألماسة، وعليها عنوان «How To Do Diamond Push-ups» |
+| الأرداف | بدمبل | Elite Performance Institute | Glute Bridge With Dumbbell | عادي | غير مؤكدة | الإطارات تظهر رجلًا مستلقيًا يرفع وركه ودمبل على بطنه، وسهم أحمر يوضح الوضع |
+| الأرداف | بدون دمبل | Lean Physique Lab | 🔥 How to Do Bodyweight Glute Bridges the Correct Way | Perfect Technique Tutorial | عادي | غير مؤكدة | الإطارات تظهر رجلًا بملابس صفراء يستلقي ثم يجلس ليشرح، وتظهر وضعية الجسر في بعض الإطارات |
+| السمانة | بدمبل | Horton Barbell | Standing DB Calf Raises (Exercise Library) | عادي | غير مؤكدة | الإطارات تظهر رجلًا واقفًا بدمبلين أمام جدار يرفع كعبيه |
+| السمانة | بدون دمبل | FITASTIC | Single Leg Body Weight Calf Raise | عادي | غير مؤكدة | الإطارات تظهر رجلًا يرفع كعبه على ساق واحدة فوق منصة صغيرة |
+| البطن | بدمبل | Showtime Strength and Performance | Dumbbell Russian Twist | عادي | غير مؤكدة | الإطارات تظهر رجلًا جالسًا على الأرض يدير جذعه وبيده دمبل |
+| البطن | بدون دمبل | Orillia Sports Medicine And Rehabilitation | How to Improve Core Stability: Dead Bugs Exercise | Shorts | غير مؤكدة | الإطارات تظهر رجلًا مستلقيًا يؤدي الحشرة الميتة على عشب صناعي |
 
-## المقاطع اللي تحتاج تأكيدك
+## ملاحظات
 
-- هنج الورك (الرفعة الرومانية) (بدون دمبل): https://www.youtube.com/watch?v=gz9l8UA_KXs
-- الكتف (بدمبل): https://www.youtube.com/watch?v=lfb3ffbrd4Q
-- الظهر (بدمبل): https://www.youtube.com/watch?v=epSR-ma7BsY
-- البايسبس (بدون دمبل): https://www.youtube.com/watch?v=U2xlilyQ_Ao
-- الأرداف (بدمبل): https://www.youtube.com/watch?v=V-Pk0ZfoszU
-
-لو أي مقطع منها ما ناسبك، أبدّله ببديل من نتائج بحث ثانية قبل ما نكمل. الملف `videos.json` فيه نفس الجدول بصيغة قابلة للقراءة آليًا لفحص الروابط الدوري.
+- في كل صفحة تمرين: رمز QR كبير وسط بطاقة النسخة (بدل صورة التمرين) وتحته الرابط، لأن ما عندنا صور تمارين مرخّصة للكتاب الجديد.
+- التمارين بدون دمبل الأصعب على المبتدئ (ضغط البايك وضغط الألماسة والرفعة الرومانية بساق واحدة والسمانة بساق واحدة) لها سطر «طريقة أسهل للبداية».
+- سحب الظهر تحت الطاولة ما لقيت له مقطع Shorts فيه رجل فقط، فبقي المقطع القديم؛ وكذلك جسر الأرداف بوزن الجسم.

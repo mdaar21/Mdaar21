@@ -1,403 +1,469 @@
 {
  "book": "بروتوكول التحول: نسخة البيت",
  "checkedAt": "2026-11-25",
- "method": "عنوان الفيديو من oEmbed، وثلاثة إطارات معاينة من يوتيوب. ما فُحصت الموسيقى ولا الصوت، وما شُوهد الفيديو كاملًا.",
+ "method": "عنوان الفيديو من oEmbed، وثلاثة إطارات معاينة من يوتيوب. الموسيقى والصوت والمدة ما انفحصت (يوتيوب يمنع قراءتها من السيرفر)، وما شُوهد الفيديو كاملًا.",
  "videos": [
   {
    "exerciseId": "e1",
    "version": "with-dumbbell",
-   "nameAr": "سكوات الكأس بدمبل",
-   "nameEn": "Dumbbell Goblet Squat",
-   "videoId": "2LnkzQ7paAc",
-   "url": "https://www.youtube.com/watch?v=2LnkzQ7paAc",
-   "channel": "IronmasterPro",
-   "title": "Dumbbell Goblet Squat Tutorial",
+   "videoId": "X5FHhI0ZQdE",
+   "url": "https://www.youtube.com/shorts/X5FHhI0ZQdE",
+   "format": "short",
+   "channel": "DEYOFIT",
+   "title": "How to Perform Goblet Squats",
+   "duration": {
+    "seconds": null,
+    "status": "غير مؤكدة",
+    "note": "المقطع من نوع Shorts، وهي غالبًا تحت دقيقة"
+   },
    "checks": {
     "exists_public_oembed": true,
     "title_matches_exercise": true,
-    "three_frames": "الإطارات تظهر رجلًا يؤدي السكوات بدمبل على صدره، وعليها كتابة «DB GOBLET SQUAT»",
+    "three_frames": "الإطارات تظهر رجلًا في بيت يحمل دمبلًا عند صدره ويؤدي السكوات",
     "woman_in_three_frames": false,
     "music_checked": false
-   },
-   "needs_owner_confirmation": false
+   }
   },
   {
    "exerciseId": "e1",
    "version": "no-dumbbell",
-   "nameAr": "سكوات بوزن الجسم",
-   "nameEn": "Bodyweight Squat",
-   "videoId": "eWatHIujxPM",
-   "url": "https://www.youtube.com/watch?v=eWatHIujxPM",
-   "channel": "Over The Hill Athlete",
-   "title": "How to Do a Bodyweight Squat (Perfect Form + Common Mistakes)",
+   "videoId": "Qgpxx1Bxmgs",
+   "url": "https://www.youtube.com/shorts/Qgpxx1Bxmgs",
+   "format": "short",
+   "channel": "KevTheTrainer",
+   "title": "BODYWEIGHT SQUAT TUTORIAL 🦵🏼 / Learn this foundational exercise that builds your quads and glutes!",
+   "duration": {
+    "seconds": null,
+    "status": "غير مؤكدة",
+    "note": "المقطع من نوع Shorts، وهي غالبًا تحت دقيقة"
+   },
    "checks": {
     "exists_public_oembed": true,
     "title_matches_exercise": true,
-    "three_frames": "الإطارات تظهر رجلًا يؤدي سكوات بوزن الجسم داخل غرفة",
+    "three_frames": "الإطارات تظهر رجلًا في نادٍ يشرح السكوات بوزن الجسم، وعليها كتابة على الشاشة",
     "woman_in_three_frames": false,
     "music_checked": false
-   },
-   "needs_owner_confirmation": false
+   }
   },
   {
    "exerciseId": "e2",
    "version": "with-dumbbell",
-   "nameAr": "رفعة رومانية بدمبلين",
-   "nameEn": "Dumbbell Romanian Deadlift",
-   "videoId": "zIJ2E001FgI",
-   "url": "https://www.youtube.com/watch?v=zIJ2E001FgI",
-   "channel": "Mike | J2FIT Strength & Conditioning",
-   "title": "How To - Dumbbell Romanian Deadlifts (RDLs)",
+   "videoId": "uYIlkIHksyk",
+   "url": "https://www.youtube.com/shorts/uYIlkIHksyk",
+   "format": "short",
+   "channel": "Leo Alves",
+   "title": "How to: Dumbbell Romanian Deadlift | Hip-Hinge | Dumbbells | Glutes | Back | Hamstrings | Pull",
+   "duration": {
+    "seconds": null,
+    "status": "غير مؤكدة",
+    "note": "المقطع من نوع Shorts، وهي غالبًا تحت دقيقة"
+   },
    "checks": {
     "exists_public_oembed": true,
     "title_matches_exercise": true,
-    "three_frames": "الإطارات تظهر رجلًا يؤدي الرفعة الرومانية بدمبلين، وعليها كتابة «ROMANIAN DEADLIFT»",
+    "three_frames": "الإطارات تظهر رجلًا ينحني بدمبلين في الرفعة الرومانية",
     "woman_in_three_frames": false,
     "music_checked": false
-   },
-   "needs_owner_confirmation": false
+   }
   },
   {
    "exerciseId": "e2",
    "version": "no-dumbbell",
-   "nameAr": "رفعة رومانية بساق واحدة بوزن الجسم",
-   "nameEn": "Single-Leg Romanian Deadlift (bodyweight)",
-   "videoId": "gz9l8UA_KXs",
-   "url": "https://www.youtube.com/watch?v=gz9l8UA_KXs",
-   "channel": "Buff Dudes Workouts",
-   "title": "How to Perform Single Leg Romanian Deadlifts | Bodyweight Exercise Tutorial",
+   "videoId": "DPFnfAUCvTA",
+   "url": "https://www.youtube.com/watch?v=DPFnfAUCvTA",
+   "format": "regular",
+   "channel": "Horton Barbell",
+   "title": "Bodyweight Single Leg RDL (Exercise Library)",
+   "duration": {
+    "seconds": null,
+    "status": "غير مؤكدة",
+    "note": "فيديو عادي من مكتبة تمارين، ومدته غير معروفة"
+   },
    "checks": {
     "exists_public_oembed": true,
     "title_matches_exercise": true,
-    "three_frames": "العنوان يقول وزن الجسم، والإطارات تظهر رجلًا يتكلم في الخارج ولا تعرض الحركة نفسها، فيحتاج تأكيدًا",
+    "three_frames": "الإطارات تظهر رجلًا واقفًا على ساق واحدة ويميل بجذعه للأمام ويرفع الساق الثانية",
     "woman_in_three_frames": false,
     "music_checked": false
-   },
-   "needs_owner_confirmation": true
+   }
   },
   {
    "exerciseId": "e3",
    "version": "with-dumbbell",
-   "nameAr": "لانج للخلف بدمبلين",
-   "nameEn": "Dumbbell Reverse Lunge",
-   "videoId": "MpfeGnBFEo8",
-   "url": "https://www.youtube.com/watch?v=MpfeGnBFEo8",
-   "channel": "IronmasterPro",
-   "title": "Dumbbell Reverse Lunge Tutorial",
+   "videoId": "zXlhSn6sFu4",
+   "url": "https://www.youtube.com/shorts/zXlhSn6sFu4",
+   "format": "short",
+   "channel": "Leo Alves",
+   "title": "How to: Reverse Lunge | Lunge | Dumbbell | Glutes | Quadriceps | Legs | Lower",
+   "duration": {
+    "seconds": null,
+    "status": "غير مؤكدة",
+    "note": "المقطع من نوع Shorts، وهي غالبًا تحت دقيقة"
+   },
    "checks": {
     "exists_public_oembed": true,
     "title_matches_exercise": true,
-    "three_frames": "الإطارات تظهر رجلًا يؤدي اللانج للخلف بدمبلين، وعليها كتابة «DB REVERSE LUNGE»",
+    "three_frames": "الإطارات تظهر رجلًا يؤدي اللانج للخلف بدمبلين",
     "woman_in_three_frames": false,
     "music_checked": false
-   },
-   "needs_owner_confirmation": false
+   }
   },
   {
    "exerciseId": "e3",
    "version": "no-dumbbell",
-   "nameAr": "لانج للخلف بوزن الجسم",
-   "nameEn": "Bodyweight Reverse Lunge",
    "videoId": "uHKgeIDSCYE",
    "url": "https://www.youtube.com/watch?v=uHKgeIDSCYE",
+   "format": "regular",
    "channel": "Exercise Tutorial Pro",
    "title": "Bodyweight Step Back /Reverse Lunge",
+   "duration": {
+    "seconds": null,
+    "status": "غير مؤكدة",
+    "note": "وصف نتيجة البحث يذكر 21 ثانية، وما تأكدت منه من يوتيوب نفسه"
+   },
    "checks": {
     "exists_public_oembed": true,
     "title_matches_exercise": true,
     "three_frames": "الإطارات تظهر رجلًا يخطو للخلف ويداه على وركيه بدون أوزان",
     "woman_in_three_frames": false,
     "music_checked": false
-   },
-   "needs_owner_confirmation": false
+   }
   },
   {
    "exerciseId": "e4",
    "version": "with-dumbbell",
-   "nameAr": "ضغط الصدر على الأرض بدمبلين",
-   "nameEn": "Dumbbell Floor Press",
-   "videoId": "_TbO_WWcdEY",
-   "url": "https://www.youtube.com/watch?v=_TbO_WWcdEY",
-   "channel": "TurnFit - Vancouver Personal Trainers",
-   "title": "How to do a Dumbbell Floor Press",
+   "videoId": "Cl2qZCjwvso",
+   "url": "https://www.youtube.com/watch?v=Cl2qZCjwvso",
+   "format": "regular",
+   "channel": "Danny Nichols Fitness",
+   "title": "How To Do A Dumbbell Floor Press",
+   "duration": {
+    "seconds": null,
+    "status": "غير مؤكدة",
+    "note": "فيديو عادي من مكتبة تمارين، ومدته غير معروفة"
+   },
    "checks": {
     "exists_public_oembed": true,
     "title_matches_exercise": true,
-    "three_frames": "الإطارات تظهر رجلين مع مدرب، أحدهما مستلقٍ على الأرض يضغط دمبلين",
+    "three_frames": "الإطارات تظهر رجلًا يجلس ثم يستلقي على الأرض ويضغط دمبلين، وعليها عنوان «Dumbbell Floor Press»",
     "woman_in_three_frames": false,
     "music_checked": false
-   },
-   "needs_owner_confirmation": false
+   }
   },
   {
    "exerciseId": "e4",
    "version": "no-dumbbell",
-   "nameAr": "ضغط (بوش أب)",
-   "nameEn": "Push-Up",
-   "videoId": "WDIpL0pjun0",
-   "url": "https://www.youtube.com/watch?v=WDIpL0pjun0",
-   "channel": "National Academy of Sports Medicine (NASM)",
-   "title": "How to do a Push-Up | Proper Form & Technique | NASM",
+   "videoId": "A-2re9hs990",
+   "url": "https://www.youtube.com/shorts/A-2re9hs990",
+   "format": "short",
+   "channel": "Nick Tumminello - Trainer of Trainers",
+   "title": "How to Do a Perfect Push-Up: Tutorial",
+   "duration": {
+    "seconds": null,
+    "status": "غير مؤكدة",
+    "note": "المقطع من نوع Shorts، وهي غالبًا تحت دقيقة"
+   },
    "checks": {
     "exists_public_oembed": true,
     "title_matches_exercise": true,
-    "three_frames": "الإطارات تظهر رجلًا يؤدي الضغط على خلفية بيضاء",
+    "three_frames": "الإطارات تظهر رجلًا يؤدي الضغط على حصيرة، وعليها عنوان «How To Do A Perfect Push-Up»",
     "woman_in_three_frames": false,
     "music_checked": false
-   },
-   "needs_owner_confirmation": false
+   }
   },
   {
    "exerciseId": "e5",
    "version": "with-dumbbell",
-   "nameAr": "ضغط الكتف بدمبلين جالسًا",
-   "nameEn": "Seated Dumbbell Press",
-   "videoId": "lfb3ffbrd4Q",
-   "url": "https://www.youtube.com/watch?v=lfb3ffbrd4Q",
-   "channel": "Buff Dudes Workouts",
-   "title": "Seated Dumbbell Press | Shoulders | How-To Exercise Tutorial",
+   "videoId": "k6tzKisR3NY",
+   "url": "https://www.youtube.com/shorts/k6tzKisR3NY",
+   "format": "short",
+   "channel": "Andrew Kwong (DeltaBolic)",
+   "title": "The PERFECT Dumbbell Shoulder Press (DO THIS!)",
+   "duration": {
+    "seconds": null,
+    "status": "غير مؤكدة",
+    "note": "المقطع من نوع Shorts، وهي غالبًا تحت دقيقة"
+   },
    "checks": {
     "exists_public_oembed": true,
     "title_matches_exercise": true,
-    "three_frames": "الإطارات تظهر رجلًا ملتحيًا في صالة، يرفع ذراعيه ولا تعرض الضغط بوضوح، فيحتاج تأكيدًا",
+    "three_frames": "الإطارات تظهر رجلًا جالسًا على مقعد مائل يضغط دمبلين فوق رأسه، وعليها زاوية المقعد 70 درجة",
     "woman_in_three_frames": false,
     "music_checked": false
-   },
-   "needs_owner_confirmation": true
+   }
   },
   {
    "exerciseId": "e5",
    "version": "no-dumbbell",
-   "nameAr": "ضغط الكتف بوضع الهرم (بايك بوش أب)",
-   "nameEn": "Pike Push-Up",
-   "videoId": "pHR5yG6xBps",
-   "url": "https://www.youtube.com/watch?v=pHR5yG6xBps",
-   "channel": "Gymless Fitness",
-   "title": "Pike Push Up Tutorial For Beginners (With Progressions)",
+   "videoId": "shEnAXgc9y4",
+   "url": "https://www.youtube.com/shorts/shEnAXgc9y4",
+   "format": "short",
+   "channel": "Calixpert",
+   "title": "How To Do Pike Push-Ups | Correct Form",
+   "duration": {
+    "seconds": null,
+    "status": "غير مؤكدة",
+    "note": "المقطع من نوع Shorts، وهي غالبًا تحت دقيقة"
+   },
    "checks": {
     "exists_public_oembed": true,
     "title_matches_exercise": true,
-    "three_frames": "الإطارات تظهر رجلًا بدون قميص وعليها كتابة «PIKE PUSHUP»",
+    "three_frames": "الإطارات تظهر رجلًا يؤدي ضغط البايك، وعليها عنوان «How To Do Pike Push-Ups»",
     "woman_in_three_frames": false,
     "music_checked": false
-   },
-   "needs_owner_confirmation": false
+   }
   },
   {
    "exerciseId": "e6",
    "version": "with-dumbbell",
-   "nameAr": "سحب بدمبل بذراع واحدة",
-   "nameEn": "One-Arm Dumbbell Row",
-   "videoId": "epSR-ma7BsY",
-   "url": "https://www.youtube.com/watch?v=epSR-ma7BsY",
-   "channel": "Chris Gates Fitness",
-   "title": "How to Do A One-Arm Dumbbell Row | Exercise Tutorial",
+   "videoId": "be61U5pUeKw",
+   "url": "https://www.youtube.com/shorts/be61U5pUeKw",
+   "format": "short",
+   "channel": "OcraMed Health",
+   "title": "Back Workout - One Arm Dumbbell Row",
+   "duration": {
+    "seconds": null,
+    "status": "غير مؤكدة",
+    "note": "المقطع من نوع Shorts، وهي غالبًا تحت دقيقة"
+   },
    "checks": {
     "exists_public_oembed": true,
     "title_matches_exercise": true,
-    "three_frames": "الإطارات تظهر رجلًا جالسًا على مقعد في مقدمة الشرح، ولا تعرض السحب نفسه، فيحتاج تأكيدًا",
+    "three_frames": "الإطارات تظهر رجلًا منحنيًا على مقعد ويسحب دمبلًا بيد واحدة",
     "woman_in_three_frames": false,
     "music_checked": false
-   },
-   "needs_owner_confirmation": true
+   }
   },
   {
    "exerciseId": "e6",
    "version": "no-dumbbell",
-   "nameAr": "سحب تحت الطاولة",
-   "nameEn": "Table Inverted Row",
    "videoId": "_HI1Fna7WXU",
    "url": "https://www.youtube.com/watch?v=_HI1Fna7WXU",
+   "format": "regular",
    "channel": "Michael Romeo",
    "title": "Fit-WRX Table Row/Inverted Row",
+   "duration": {
+    "seconds": null,
+    "status": "غير مؤكدة",
+    "note": "فيديو عادي من مكتبة تمارين، ومدته غير معروفة"
+   },
    "checks": {
     "exists_public_oembed": true,
     "title_matches_exercise": true,
     "three_frames": "الإطارات تظهر رجلًا مستلقيًا تحت طاولة يسحب جسمه إلى الأعلى",
     "woman_in_three_frames": false,
     "music_checked": false
-   },
-   "needs_owner_confirmation": false
+   }
   },
   {
    "exerciseId": "e7",
    "version": "with-dumbbell",
-   "nameAr": "تمرين البايسبس بدمبلين",
-   "nameEn": "Dumbbell Biceps Curl",
-   "videoId": "kkCMf-OYPr0",
-   "url": "https://www.youtube.com/watch?v=kkCMf-OYPr0",
-   "channel": "Travis Tarrant",
-   "title": "Exercise Tutorial: DB Biceps Curl (Rotation)",
+   "videoId": "NdJ_y2BCNkI",
+   "url": "https://www.youtube.com/shorts/NdJ_y2BCNkI",
+   "format": "short",
+   "channel": "Nuffield Health",
+   "title": "How to do bicep curls with dumbbells",
+   "duration": {
+    "seconds": null,
+    "status": "غير مؤكدة",
+    "note": "المقطع من نوع Shorts، وهي غالبًا تحت دقيقة"
+   },
    "checks": {
     "exists_public_oembed": true,
     "title_matches_exercise": true,
-    "three_frames": "الإطارات تظهر رجلًا واقفًا يمسك دمبلين في صالة",
+    "three_frames": "الإطارات تظهر رجلًا واقفًا في صالة يرفع الدمبلين للبايسبس",
     "woman_in_three_frames": false,
     "music_checked": false
-   },
-   "needs_owner_confirmation": false
+   }
   },
   {
    "exerciseId": "e7",
    "version": "no-dumbbell",
-   "nameAr": "تمرين البايسبس بحقيبة ظهر",
-   "nameEn": "Backpack Biceps Curl",
-   "videoId": "U2xlilyQ_Ao",
-   "url": "https://www.youtube.com/watch?v=U2xlilyQ_Ao",
-   "channel": "Kourosh Foroughi Fit",
-   "title": "BackPack Biceps💪 (HOME ARM WORKOUT) / Work(out) from home",
+   "videoId": "EXnqsY5muq0",
+   "url": "https://www.youtube.com/shorts/EXnqsY5muq0",
+   "format": "short",
+   "channel": "wearecult",
+   "title": "Breaking Down: Backpack Biceps Curl | @cult.official #shorts",
+   "duration": {
+    "seconds": null,
+    "status": "غير مؤكدة",
+    "note": "المقطع من نوع Shorts، وهي غالبًا تحت دقيقة"
+   },
    "checks": {
     "exists_public_oembed": true,
     "title_matches_exercise": true,
-    "three_frames": "العنوان يقول حقيبة ظهر، والإطارات تظهر رجلًا يتكلم داخل بيت ولا تعرض الحركة نفسها، فيحتاج تأكيدًا",
+    "three_frames": "الإطارات تظهر رجلًا يحمل حقيبة ظهر مع رسم يوضح حركة الرفع، وعليها عنوان «Backpack Biceps Curl»، والحركة تظهر بالرسم أكثر من التصوير",
     "woman_in_three_frames": false,
     "music_checked": false
-   },
-   "needs_owner_confirmation": true
+   }
   },
   {
    "exerciseId": "e8",
    "version": "with-dumbbell",
-   "nameAr": "تمدّد الترايسبس فوق الرأس بدمبل",
-   "nameEn": "Dumbbell Overhead Triceps Extension",
    "videoId": "xbNm9fRoUTw",
    "url": "https://www.youtube.com/watch?v=xbNm9fRoUTw",
+   "format": "regular",
    "channel": "Catalyst Athletics",
    "title": "Dumbbell Overhead Tricep Extension | Olympic Weightlifting Exercise Library",
+   "duration": {
+    "seconds": null,
+    "status": "غير مؤكدة",
+    "note": "فيديو عادي من مكتبة تمارين، ومدته غير معروفة"
+   },
    "checks": {
     "exists_public_oembed": true,
     "title_matches_exercise": true,
     "three_frames": "الإطارات تظهر رجلًا يرفع دمبلًا فوق رأسه في صالة",
     "woman_in_three_frames": false,
     "music_checked": false
-   },
-   "needs_owner_confirmation": false
+   }
   },
   {
    "exerciseId": "e8",
    "version": "no-dumbbell",
-   "nameAr": "ضغط الألماسة (دايموند بوش أب)",
-   "nameEn": "Diamond Push-Up",
-   "videoId": "SbgZkN_8jo8",
-   "url": "https://www.youtube.com/watch?v=SbgZkN_8jo8",
-   "channel": "Andy Oliver",
-   "title": "How To Do A Diamond Push-Up For The Triceps",
+   "videoId": "-fTwCfbBMHc",
+   "url": "https://www.youtube.com/shorts/-fTwCfbBMHc",
+   "format": "short",
+   "channel": "Calixpert",
+   "title": "How To Do Diamond Push-Ups | Correct Form",
+   "duration": {
+    "seconds": null,
+    "status": "غير مؤكدة",
+    "note": "المقطع من نوع Shorts، وهي غالبًا تحت دقيقة"
+   },
    "checks": {
     "exists_public_oembed": true,
     "title_matches_exercise": true,
-    "three_frames": "الإطارات تظهر رجلًا يؤدي ضغط الألماسة على الأرض",
+    "three_frames": "الإطارات تظهر رجلًا يؤدي ضغط الألماسة، وعليها عنوان «How To Do Diamond Push-ups»",
     "woman_in_three_frames": false,
     "music_checked": false
-   },
-   "needs_owner_confirmation": false
+   }
   },
   {
    "exerciseId": "e9",
    "version": "with-dumbbell",
-   "nameAr": "جسر الأرداف بدمبل",
-   "nameEn": "Dumbbell Glute Bridge",
-   "videoId": "V-Pk0ZfoszU",
-   "url": "https://www.youtube.com/watch?v=V-Pk0ZfoszU",
-   "channel": "Chris Gates Fitness",
-   "title": "How to Do a Dumbbell Glute Bridge",
+   "videoId": "tVA5iqaQ4No",
+   "url": "https://www.youtube.com/watch?v=tVA5iqaQ4No",
+   "format": "regular",
+   "channel": "Elite Performance Institute",
+   "title": "Glute Bridge With Dumbbell",
+   "duration": {
+    "seconds": null,
+    "status": "غير مؤكدة",
+    "note": "فيديو عادي من مكتبة تمارين، ومدته غير معروفة"
+   },
    "checks": {
     "exists_public_oembed": true,
     "title_matches_exercise": true,
-    "three_frames": "الإطارات تظهر رجلًا جالسًا ويضع دمبلًا على وركيه، ولا تعرض الجسر نفسه، فيحتاج تأكيدًا",
+    "three_frames": "الإطارات تظهر رجلًا مستلقيًا يرفع وركه ودمبل على بطنه، وسهم أحمر يوضح الوضع",
     "woman_in_three_frames": false,
     "music_checked": false
-   },
-   "needs_owner_confirmation": true
+   }
   },
   {
    "exerciseId": "e9",
    "version": "no-dumbbell",
-   "nameAr": "جسر الأرداف بوزن الجسم",
-   "nameEn": "Bodyweight Glute Bridge",
    "videoId": "7ew8uO0pLgk",
    "url": "https://www.youtube.com/watch?v=7ew8uO0pLgk",
+   "format": "regular",
    "channel": "Lean Physique Lab",
    "title": "🔥 How to Do Bodyweight Glute Bridges the Correct Way | Perfect Technique Tutorial",
+   "duration": {
+    "seconds": null,
+    "status": "غير مؤكدة",
+    "note": "فيديو عادي من مكتبة تمارين، ومدته غير معروفة"
+   },
    "checks": {
     "exists_public_oembed": true,
     "title_matches_exercise": true,
-    "three_frames": "الإطارات تظهر رجلًا مستلقيًا يؤدي الجسر بدون أوزان",
+    "three_frames": "الإطارات تظهر رجلًا بملابس صفراء يستلقي ثم يجلس ليشرح، وتظهر وضعية الجسر في بعض الإطارات",
     "woman_in_three_frames": false,
     "music_checked": false
-   },
-   "needs_owner_confirmation": false
+   }
   },
   {
    "exerciseId": "e10",
    "version": "with-dumbbell",
-   "nameAr": "رفع الكعبين واقفًا بدمبلين",
-   "nameEn": "Standing Dumbbell Calf Raise",
    "videoId": "hPA98_r-6e4",
    "url": "https://www.youtube.com/watch?v=hPA98_r-6e4",
+   "format": "regular",
    "channel": "Horton Barbell",
    "title": "Standing DB Calf Raises (Exercise Library)",
+   "duration": {
+    "seconds": null,
+    "status": "غير مؤكدة",
+    "note": "فيديو عادي من مكتبة تمارين، ومدته غير معروفة"
+   },
    "checks": {
     "exists_public_oembed": true,
     "title_matches_exercise": true,
     "three_frames": "الإطارات تظهر رجلًا واقفًا بدمبلين أمام جدار يرفع كعبيه",
     "woman_in_three_frames": false,
     "music_checked": false
-   },
-   "needs_owner_confirmation": false
+   }
   },
   {
    "exerciseId": "e10",
    "version": "no-dumbbell",
-   "nameAr": "رفع الكعب بساق واحدة بوزن الجسم",
-   "nameEn": "Single-Leg Calf Raise (bodyweight)",
-   "videoId": "qPd73snQfUs",
-   "url": "https://www.youtube.com/watch?v=qPd73snQfUs",
-   "channel": "Hospital for Special Surgery",
-   "title": "Single-Leg Calf Raise (HSS)",
+   "videoId": "0YHS_USj2uE",
+   "url": "https://www.youtube.com/watch?v=0YHS_USj2uE",
+   "format": "regular",
+   "channel": "FITASTIC",
+   "title": "Single Leg Body Weight Calf Raise",
+   "duration": {
+    "seconds": null,
+    "status": "غير مؤكدة",
+    "note": "فيديو عادي من مكتبة تمارين، ومدته غير معروفة"
+   },
    "checks": {
     "exists_public_oembed": true,
     "title_matches_exercise": true,
-    "three_frames": "الإطارات تظهر رجلًا واقفًا على ساق واحدة بجانب جدار يرفع كعبه",
+    "three_frames": "الإطارات تظهر رجلًا يرفع كعبه على ساق واحدة فوق منصة صغيرة",
     "woman_in_three_frames": false,
     "music_checked": false
-   },
-   "needs_owner_confirmation": false
+   }
   },
   {
    "exerciseId": "e11",
    "version": "with-dumbbell",
-   "nameAr": "التفاف روسي بدمبل",
-   "nameEn": "Dumbbell Russian Twist",
    "videoId": "IWFZoLTKXwo",
    "url": "https://www.youtube.com/watch?v=IWFZoLTKXwo",
+   "format": "regular",
    "channel": "Showtime Strength and Performance",
    "title": "Dumbbell Russian Twist",
+   "duration": {
+    "seconds": null,
+    "status": "غير مؤكدة",
+    "note": "فيديو عادي من مكتبة تمارين، ومدته غير معروفة"
+   },
    "checks": {
     "exists_public_oembed": true,
     "title_matches_exercise": true,
     "three_frames": "الإطارات تظهر رجلًا جالسًا على الأرض يدير جذعه وبيده دمبل",
     "woman_in_three_frames": false,
     "music_checked": false
-   },
-   "needs_owner_confirmation": false
+   }
   },
   {
    "exerciseId": "e11",
    "version": "no-dumbbell",
-   "nameAr": "الحشرة الميتة (ديد باج)",
-   "nameEn": "Dead Bug",
-   "videoId": "Sp6BenumPV4",
-   "url": "https://www.youtube.com/watch?v=Sp6BenumPV4",
-   "channel": "Signum Fitness & Nutrition",
-   "title": "The Deadbug | A Tutorial",
+   "videoId": "twDnCxAx9LM",
+   "url": "https://www.youtube.com/shorts/twDnCxAx9LM",
+   "format": "short",
+   "channel": "Orillia Sports Medicine And Rehabilitation",
+   "title": "How to Improve Core Stability: Dead Bugs Exercise",
+   "duration": {
+    "seconds": null,
+    "status": "غير مؤكدة",
+    "note": "المقطع من نوع Shorts، وهي غالبًا تحت دقيقة"
+   },
    "checks": {
     "exists_public_oembed": true,
     "title_matches_exercise": true,
-    "three_frames": "الإطارات تظهر رجلًا مستلقيًا يؤدي الحشرة الميتة",
+    "three_frames": "الإطارات تظهر رجلًا مستلقيًا يؤدي الحشرة الميتة على عشب صناعي",
     "woman_in_three_frames": false,
     "music_checked": false
-   },
-   "needs_owner_confirmation": false
+   }
   }
  ]
 }
